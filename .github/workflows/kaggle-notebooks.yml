@@ -32,6 +32,7 @@ jobs:
     env:
       KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
       KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,7 +44,30 @@ jobs:
         shell: bash
         run: |
           test -n "$KAGGLE_USERNAME" || { echo 'Missing KAGGLE_USERNAME Actions secret'; exit 1; }
-          test -n "$KAGGLE_KEY" || { echo 'Missing KAGGLE_KEY Actions secret'; exit 1; }
+          if [[ -z "$KAGGLE_API_TOKEN" && -z "$KAGGLE_KEY" ]]; then
+            echo 'Missing Kaggle credentials. Recommended: add KAGGLE_API_TOKEN GitHub Actions secret.'
+            echo 'Legacy alternative: set KAGGLE_USERNAME and KAGGLE_KEY from the same kaggle.json.'
+            exit 1
+          fi
+          if [[ -z "$KAGGLE_API_TOKEN" && "$KAGGLE_KEY" == KGAT_* ]]; then
+            echo 'KAGGLE_KEY contains a new-style Kaggle API token. Move it to the KAGGLE_API_TOKEN Actions secret.'
+            exit 1
+          fi
+          if [[ -n "$KAGGLE_API_TOKEN" ]]; then
+            echo 'Using the KAGGLE_API_TOKEN authentication method.'
+          else
+            echo 'Using the legacy Kaggle username/key authentication method.'
+          fi
+      - name: Verify Kaggle API authentication (without showing secrets)
+        shell: bash
+        run: |
+          if ! kaggle quota; then
+            echo 'Kaggle authentication failed before uploading anything.'
+            echo 'Regenerate an API token at https://www.kaggle.com/settings/api'
+            echo 'Save only its value in the GitHub Actions secret KAGGLE_API_TOKEN.'
+            echo 'Do not paste your token into logs, issues, notebooks, or chat.'
+            exit 1
+          fi
       - name: Validate notebooks
         run: python scripts/check_notebooks.py
       - name: Publish private Kaggle kernels
