@@ -114,3 +114,5 @@ jobs:
           name: kaggle-unlearning-multilingual-result-inspection
           path: audit/
           if-no-files-found: ignore
+
+# Read-only result snapshot for revised FSDS progress report.
