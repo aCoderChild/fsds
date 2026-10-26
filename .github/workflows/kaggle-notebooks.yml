@@ -1,0 +1,77 @@
+name: Kaggle notebooks
+on:
+  workflow_dispatch:
+    inputs:
+      stage:
+        description: 'Choose one notebook stage, or all for uploading drafts'
+        type: choice
+        required: true
+        default: all
+        options:
+          - all
+          - '01'
+          - '02'
+          - '03'
+      execute:
+        description: 'Actually RUN on Kaggle GPU? Default is safe upload-only.'
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kaggle-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Kaggle CLI
+        run: python -m pip install --upgrade 'kaggle>=1.7.4'
+      - name: Check credentials supplied
+        shell: bash
+        run: |
+          test -n "$KAGGLE_USERNAME" || { echo 'Missing KAGGLE_USERNAME Actions secret'; exit 1; }
+          test -n "$KAGGLE_KEY" || { echo 'Missing KAGGLE_KEY Actions secret'; exit 1; }
+      - name: Validate notebooks
+        run: python scripts/check_notebooks.py
+      - name: Publish private Kaggle kernels
+        env:
+          STAGE: ${{ inputs.stage }}
+          EXECUTE: ${{ inputs.execute }}
+        shell: bash
+        run: |
+          if [[ "$EXECUTE" == "true" ]]; then
+            python scripts/publish_kaggle.py --stage "$STAGE" --execute
+          else
+            python scripts/publish_kaggle.py --stage "$STAGE"
+          fi
+      - name: Report Kaggle links
+        if: success()
+        shell: bash
+        env:
+          STAGE: ${{ inputs.stage }}
+        run: |
+          case "$STAGE" in
+            all) set -- '01' '02' '03' ;;
+            *) set -- "$STAGE" ;;
+          esac
+          for n in "$@"; do
+            case "$n" in
+              '01') slug='mquake-real-01-source-translation-sft' ;;
+              '02') slug='mquake-real-02-unlearning' ;;
+              '03') slug='mquake-real-03-evaluation' ;;
+            esac
+            echo "Notebook: https://www.kaggle.com/code/$KAGGLE_USERNAME/$slug"
+          done
