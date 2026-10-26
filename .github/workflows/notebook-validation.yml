@@ -1,0 +1,28 @@
+name: Validate notebooks
+on:
+  push:
+    paths:
+      - 'notebooks/**'
+      - 'scripts/**'
+      - '.github/workflows/notebook-validation.yml'
+  pull_request:
+    paths:
+      - 'notebooks/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate notebook syntax
+        run: python scripts/check_notebooks.py
+      - name: Check Kaggle preparation metadata (no credentials)
+        run: python scripts/prepare_kaggle.py --username example-account --stage all
