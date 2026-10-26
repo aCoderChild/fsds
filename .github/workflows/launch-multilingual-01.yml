@@ -1,0 +1,53 @@
+name: Launch multilingual Kaggle 01
+# Explicit one-time launch: this workflow starts when this file is added.
+# It does not rerun when notebooks/README/scripts are subsequently modified.
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/launch-multilingual-01.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: kaggle-publish
+  cancel-in-progress: false
+
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install authenticated Kaggle and test-only requests
+        run: python -m pip install --upgrade kaggle requests
+      - name: Verify six-language notebook code syntax
+        run: python scripts/check_notebooks.py
+      - name: Verify 3,072 REAL original-fact source rows and six-language protocol
+        run: python scripts/validate_multilingual_protocol.py
+      - name: Enforce minimum GPU quota before large training
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os,re,subprocess
+          p=subprocess.run(["kaggle","quota"],check=True,text=True,capture_output=True)
+          print(p.stdout)
+          lines=[s for s in p.stdout.splitlines() if s.strip().startswith("GPU")]
+          if len(lines)!=1: raise SystemExit("GPU quota unavailable; not launching.")
+          values=re.findall(r"(\d+(?:\.\d+)?)h",lines[0])
+          if len(values)<3 or float(values[1])<10:
+              raise SystemExit("Insufficient/verifiably unknown Kaggle GPU quota; not launching.")
+          print("GPU quota confirmed, proceeding with existing Notebook 01.")
+          PY
+      - name: Submit existing Kaggle 01 for execution
+        run: python scripts/publish_kaggle.py --stage 01 --execute
+      - name: Confirm only submission (not successful training completion)
+        shell: bash
+        run: echo 'Submitted existing Notebook 01. GitHub success means Kaggle accepted the run; model training may still fail or be running.'
