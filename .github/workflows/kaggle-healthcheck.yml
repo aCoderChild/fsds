@@ -1,0 +1,71 @@
+name: Kaggle GPU healthcheck
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/kaggle-healthcheck.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Kaggle CLI
+        run: python -m pip install -q --upgrade kaggle
+      - name: Check live kernel state, GPU quota, and available log
+        shell: bash
+        run: |
+          set -euo pipefail
+          ref="$KAGGLE_USERNAME/mquake-real-01-source-translation-sft"
+          echo "=== Kaggle 01 live state ==="
+          kaggle kernels status "$ref"
+          echo "=== Kaggle quota ==="
+          kaggle quota
+          mkdir -p health
+          echo "=== Fetch execution log and final audit, if exposed ==="
+          kaggle kernels output "$ref" -p health --file-pattern '(^|/)(mquake-real-01-source-translation-sft\.log|source_manifest\.json|sft_sanity\.csv|translation_audit\.csv)$' || true
+          python - <<'PY'
+          from pathlib import Path
+          import csv,json
+          p=Path('health')
+          files=list(p.rglob('*'))
+          print('DOWNLOADS',[(f.name,f.stat().st_size) for f in files if f.is_file()])
+          logs=list(p.rglob('*.log'))
+          if logs:
+              content=logs[0].read_text(errors='replace').splitlines()
+              print('=== Kaggle log last 100 lines ===')
+              print('\n'.join(content[-100:]))
+              print('LOG_TRACEBACK_COUNT',sum('Traceback (most recent call last)' in line for line in content))
+              print('LOG_ERROR_COUNT',sum('ERROR' in line for line in content))
+          manifests=list(p.rglob('source_manifest.json'))
+          if manifests:
+              j=json.loads(manifests[0].read_text())
+              print('MANIFEST', {k:j.get(k) for k in ['source_sha256','selected_rows','forget','retain','holdout','translation_model']})
+          sanities=list(p.rglob('sft_sanity.csv'))
+          if sanities:
+              with sanities[0].open(newline='') as f: rows=list(csv.DictReader(f))
+              from collections import defaultdict
+              d=defaultdict(list)
+              for row in rows:
+                  try:d[row['split'],row['language'],row['probe']].append(int(row['correct']))
+                  except Exception:pass
+              for key,arr in sorted(d.items()):
+                  print('SANITY',key,'n',len(arr),'accuracy',sum(arr)/len(arr))
+          PY
+      - name: Save diagnostic logs for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kaggle-stage-01-live-health
+          path: health/
+          if-no-files-found: ignore
