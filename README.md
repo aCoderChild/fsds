@@ -22,7 +22,15 @@ Dataset: [Princeton NLP MQuAKE](https://github.com/princeton-nlp/MQuAKE), select
 
 Use GitHub Actions → **Kaggle notebooks** (manual workflow). It supports uploading all three **private** notebooks without running them, and optionally launching one stage at a time if explicitly requested. Runs consume your personal Kaggle GPU allocation, not GitHub-hosted GPU.
 
-Set the repository Actions secrets **KAGGLE_USERNAME** and **KAGGLE_KEY** (a Kaggle *legacy* API key). Never share tokens or commit credentials.
+Set these repository **Settings → Secrets and variables → Actions** secrets:
+
+- `KAGGLE_USERNAME`: your Kaggle account handle.
+- **Recommended** `KAGGLE_API_TOKEN`: the value from **Generate New Token** at [Kaggle API settings](https://www.kaggle.com/settings/api).
+- **Legacy alternative only:** `KAGGLE_KEY`, containing the `key` from a **legacy** `kaggle.json` file, paired with `KAGGLE_USERNAME`.
+
+Modern API tokens (typically prefixed `KGAT_`) **must not** go in `KAGGLE_KEY`. You do not need to create both token types. The workflow checks credential presence and calls `kaggle quota` to verify authentication before publishing. Do not share tokens or commit credentials.
+
+For the first workflow run, choose **stage = all**, **execute = false**. This creates three private notebook versions without running their cells.
 
 For a real run:
 - Run stage 01; wait until the saved version has completed successfully.
