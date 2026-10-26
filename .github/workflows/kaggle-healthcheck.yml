@@ -71,3 +71,5 @@ jobs:
           if-no-files-found: ignore
 
 # Read-only report-time healthcheck, 26 Oct 2026.
+
+# Post-completion read-only verification (no GPU submission).
