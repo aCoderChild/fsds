@@ -32,3 +32,5 @@ jobs:
       - name: Inspect completed outputs and advance at most one research stage
         run: python scripts/orchestrate_kaggle.py
       # This workflow also doubles as a read-only status check while stage 01 runs.
+
+# Snapshot status check after 6-language NLLB translation began.
