@@ -1,5 +1,10 @@
 name: Kaggle notebooks
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'notebooks/**'
+      - '.github/workflows/kaggle-notebooks.yml'
   workflow_dispatch:
     inputs:
       stage:
@@ -72,8 +77,8 @@ jobs:
         run: python scripts/check_notebooks.py
       - name: Publish private Kaggle kernels
         env:
-          STAGE: ${{ inputs.stage }}
-          EXECUTE: ${{ inputs.execute }}
+          STAGE: ${{ github.event_name == 'push' && 'all' || inputs.stage }}
+          EXECUTE: ${{ github.event_name == 'push' && 'false' || inputs.execute }}
         shell: bash
         run: |
           if [[ "$EXECUTE" == "true" ]]; then
@@ -85,7 +90,7 @@ jobs:
         if: success()
         shell: bash
         env:
-          STAGE: ${{ inputs.stage }}
+          STAGE: ${{ github.event_name == 'push' && 'all' || inputs.stage }}
         run: |
           case "$STAGE" in
             all) set -- '01' '02' '03' ;;
