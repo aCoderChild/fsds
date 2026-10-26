@@ -1,0 +1,78 @@
+name: Inspect Kaggle 01 outputs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/inspect-mquake-01.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Kaggle CLI
+        run: python -m pip install --upgrade kaggle
+      - name: Inspect existing source notebook (read only)
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$KAGGLE_USERNAME"
+          kernel="$KAGGLE_USERNAME/mquake-real-01-source-translation-sft"
+          echo "Inspecting existing Kaggle notebook: [REDACTED USER]/mquake-real-01-source-translation-sft"
+          echo '=== Kaggle notebook status ==='
+          kaggle kernels status "$kernel" || true
+          echo '=== Kaggle notebook output files ==='
+          kaggle kernels files "$kernel" || true
+          mkdir -p inspection
+          echo '=== Download lightweight audit files (never model checkpoints) ==='
+          kaggle kernels output "$kernel" -p inspection --file-pattern '(^|/)(sft_sanity\.csv|source_manifest\.json|translation_audit\.csv|mquake_t_records\.json)$' || true
+          echo '=== Downloaded files ==='
+          find inspection -type f -printf '%P\t%k KB\n' | head -100
+      - name: Summarize source SFT competence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv, json
+          from collections import defaultdict
+          from pathlib import Path
+          files=list(Path('inspection').rglob('sft_sanity.csv'))
+          if not files:
+              print('INSPECTION: sft_sanity.csv NOT available from latest version; cannot validate training outcome.')
+          else:
+              if len(files) > 1:
+                  raise RuntimeError(f'Ambiguous sanity files: {files}')
+              with files[0].open(encoding='utf8', newline='') as f:
+                  rows=list(csv.DictReader(f))
+              scores=defaultdict(list)
+              for r in rows:
+                  scores[(r['split'],r['language'],r['probe'])].append(float(r['correct']))
+              for (split,lang,probe), vals in sorted(scores.items()):
+                  print(f'SANITY: split={split} language={lang} probe={probe} correct={sum(vals):.0f}/{len(vals)} accuracy={sum(vals)/len(vals):.3f}')
+              minima={('forget','en','direct'):.5,('forget','de','direct'):.5,('forget','en','multi'):.25,('forget','de','multi'):.25}
+              failing=[(key,sum(scores[key])/len(scores[key]) if scores[key] else None,thr) for key,thr in minima.items() if not scores[key] or sum(scores[key])/len(scores[key])<thr]
+              print('SANITY_GATE:', 'PASS (exploratory only)' if not failing else f'FAIL: {failing}')
+          manifest=list(Path('inspection').rglob('source_manifest.json'))
+          if manifest:
+              d=json.loads(manifest[0].read_text(encoding='utf-8'))
+              for k in ('original_dataset','source_sha256','original_rows','selected_rows','forget','retain','selection_rejections'):
+                  print('MANIFEST:',k,'=',d.get(k))
+          PY
+      - name: Publish inspection files for review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mquake-01-lightweight-inspection
+          path: inspection/
+          if-no-files-found: ignore
