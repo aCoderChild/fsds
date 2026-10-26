@@ -69,3 +69,5 @@ jobs:
           name: kaggle-stage-01-live-health
           path: health/
           if-no-files-found: ignore
+
+# Read-only report-time healthcheck, 26 Oct 2026.
