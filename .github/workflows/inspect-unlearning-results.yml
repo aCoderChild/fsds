@@ -27,8 +27,8 @@ jobs:
           set -uo pipefail
           for n in 02 03; do
             case "$n" in
-              02) slug='mquake-real-02-unlearning'; pattern='(^|/)(unlearning_manifest\\.json|unlearning_training_log\\.csv|ga_direct_debug\\.csv|gd_direct_debug\\.csv|npo_direct_debug\\.csv)$';;
-              03) slug='mquake-real-03-evaluation'; pattern='(^|/)(recovery_summary\\.csv|matched_language_depth\\.csv|paired_bootstrap_ci\\.csv|paired_fact_analysis\\.csv|hotpotqa_closed_book_utility\\.csv)$';;
+              02) slug='mquake-real-02-unlearning'; pattern='(^|/)(unlearning_manifest\.json|unlearning_training_log\.csv|ga_direct_debug\.csv|gd_direct_debug\.csv|npo_direct_debug\.csv)$';;
+              03) slug='mquake-real-03-evaluation'; pattern='(^|/)(recovery_summary\.csv|matched_language_depth\.csv|paired_bootstrap_ci\.csv|paired_fact_analysis\.csv|hotpotqa_closed_book_utility\.csv)$';;
             esac
             ref="$KAGGLE_USERNAME/$slug"
             echo "=== KAGGLE $n STATUS ==="
@@ -39,6 +39,86 @@ jobs:
             echo "=== KAGGLE $n OUTPUT FILENAMES ==="
             find "audit/$n" -type f -printf '%P %k KB\n' | head -30
           done
+          mkdir -p audit/01
+          kaggle kernels output "$KAGGLE_USERNAME/mquake-real-01-source-translation-sft" -p audit/01 --file-pattern '(^|/)(sft_sanity\.csv)
+          kaggle quota || true
+      - name: Summarize actual metrics from saved CSVs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv,json
+          from collections import defaultdict
+          from pathlib import Path
+          root=Path("audit")
+          sanity_file=root/"01"/"sft_sanity.csv"
+          if sanity_file.exists():
+              with sanity_file.open(newline="") as f: pre=list(csv.DictReader(f))
+              target=[x for x in pre if x.get("split")=="forget" and x.get("probe")=="direct" and x.get("language") in ("en","de")]
+              print("PRE_SFT_FIRST48", {lang:(sum(int(x["correct"]) for x in target if x["language"]==lang),sum(x["language"]==lang for x in target)) for lang in ("en","de")})
+          for stage in ("02","03"):
+              print(f"=== REVIEW_{stage} ===")
+              d=root/stage
+              logs=list(d.glob("*.log"))
+              if logs:
+                  lines=logs[0].read_text(errors="replace").splitlines()
+                  important=[x for x in lines if
+                      any(w in x for w in ("Traceback", "RuntimeError", "Error:", "ERROR", "Notebook 02 complete",
+                                             "Saved", "Checkpoint:", "Full-SFT competence",
+                                             "notebook 03", "KeyError","AssertionError"))]
+                  print("KAGGLE_LOG_ERROR_OR_PROGRESS",important[-25:])
+              manifest=d/"unlearning_manifest.json"
+              if manifest.exists():
+                  j=json.loads(manifest.read_text())
+                  print("UNLEARNING_MANIFEST",{k:j.get(k) for k in
+                    ("source_sha256","methods","steps","seed","unlearning_language")})
+              for name in ("ga_direct_debug.csv","gd_direct_debug.csv","npo_direct_debug.csv"):
+                  f=d/name
+                  if f.exists():
+                      with f.open(newline="") as fd:r=list(csv.DictReader(fd))
+                      by=defaultdict(list)
+                      for x in r:
+                          by[x["language"]].append(float(x["direct_correct"]))
+                      from collections import Counter
+                      print("DIRECT_DEBUG",name,{k:(sum(v)/len(v),len(v)) for k,v in by.items()})
+                      for lang in ("en","de"):
+                          preds=Counter(x["prediction"].strip() for x in r if x["language"]==lang)
+                          print("FREQUENT_PREDICTIONS",name,lang,preds.most_common(5))
+              f=d/"recovery_summary.csv"
+              if f.exists():
+                  with f.open(newline="") as fd:r=list(csv.DictReader(fd))
+                  print("RECOVERY_SUMMARY_NROWS",len(r))
+                  for x in r:
+                      if x.get("split")=="forget" and x.get("checkpoint") in ("full_sft","retain_only","ga","gd","npo"):
+                          print("RECOVERY",x)
+              f=d/"matched_language_depth.csv"
+              if f.exists():
+                  with f.open(newline="") as fd:r=list(csv.DictReader(fd))
+                  print("MATCHED_NROWS",len(r))
+                  for x in r:
+                      if x.get("split")=="forget" and x.get("language") in ("en","de","ru","zh","tr","vi"):
+                          print("MATCHED",x)
+              f=d/"paired_bootstrap_ci.csv"
+              if f.exists():
+                  with f.open(newline="") as fd:r=list(csv.DictReader(fd))
+                  print("BOOTSTRAP_NROWS",len(r))
+                  for x in r:
+                      if x.get("split")=="forget":print("BOOTSTRAP",x)
+              f=d/"hotpotqa_closed_book_utility.csv"
+              if f.exists():
+                  with f.open(newline="") as fd:r=list(csv.DictReader(fd))
+                  by=defaultdict(list)
+                  for x in r:
+                      by[x["checkpoint"]].append(float(x["correct"]))
+                  print("HOTPOTQA_UTILITY",{k:(sum(v)/len(v),len(v)) for k,v in by.items()})
+          PY
+      - name: Save research outputs for inspection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kaggle-unlearning-multilingual-result-inspection
+          path: audit/
+          if-no-files-found: ignore
+ || true
           echo '=== GPU QUOTA ==='
           kaggle quota || true
       - name: Summarize actual metrics from saved CSVs
