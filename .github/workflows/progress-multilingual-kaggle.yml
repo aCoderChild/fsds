@@ -34,3 +34,5 @@ jobs:
       # This workflow also doubles as a read-only status check while stage 01 runs.
 
 # Snapshot status check after 6-language NLLB translation began.
+
+# Advance after verified Stage 01 COMPLETE and SFT competence gate.
