@@ -39,7 +39,6 @@ jobs:
             echo "=== KAGGLE $n OUTPUT FILENAMES ==="
             find "audit/$n" -type f -printf '%P %k KB\n' | head -30
           done
-          mkdir -p audit/01
           kaggle kernels output "$KAGGLE_USERNAME/mquake-real-01-source-translation-sft" -p audit/01 --file-pattern '(^|/)(sft_sanity\.csv)
           kaggle quota || true
       - name: Summarize actual metrics from saved CSVs
@@ -50,11 +49,6 @@ jobs:
           from collections import defaultdict
           from pathlib import Path
           root=Path("audit")
-          sanity_file=root/"01"/"sft_sanity.csv"
-          if sanity_file.exists():
-              with sanity_file.open(newline="") as f: pre=list(csv.DictReader(f))
-              target=[x for x in pre if x.get("split")=="forget" and x.get("probe")=="direct" and x.get("language") in ("en","de")]
-              print("PRE_SFT_FIRST48", {lang:(sum(int(x["correct"]) for x in target if x["language"]==lang),sum(x["language"]==lang for x in target)) for lang in ("en","de")})
           for stage in ("02","03"):
               print(f"=== REVIEW_{stage} ===")
               d=root/stage
@@ -81,8 +75,8 @@ jobs:
                       from collections import Counter
                       print("DIRECT_DEBUG",name,{k:(sum(v)/len(v),len(v)) for k,v in by.items()})
                       for lang in ("en","de"):
-                          preds=Counter(x["prediction"].strip() for x in r if x["language"]==lang)
-                          print("FREQUENT_PREDICTIONS",name,lang,preds.most_common(5))
+                          cnt=Counter(x["prediction"].strip() for x in r if x["language"]==lang)
+                          print("FREQUENT_PREDICTIONS",name,lang,cnt.most_common(4))
               f=d/"recovery_summary.csv"
               if f.exists():
                   with f.open(newline="") as fd:r=list(csv.DictReader(fd))
