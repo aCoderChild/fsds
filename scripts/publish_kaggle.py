@@ -14,7 +14,10 @@ def main():
     if not args.username:
         raise SystemExit("Set secret KAGGLE_USERNAME in GitHub Actions.")
     if not os.environ.get("KAGGLE_KEY") and not os.environ.get("KAGGLE_API_TOKEN"):
-        raise SystemExit("Set secret KAGGLE_KEY (legacy Kaggle API key).")
+        raise SystemExit("Set KAGGLE_API_TOKEN (preferred) or the legacy KAGGLE_USERNAME/KAGGLE_KEY pair.")
+    if (not os.environ.get("KAGGLE_API_TOKEN") and
+            os.environ.get("KAGGLE_KEY", "").startswith("KGAT_")):
+        raise SystemExit("New-style token detected in KAGGLE_KEY: use KAGGLE_API_TOKEN instead.")
     root, stages = prepare(args.username, args.stage, args.execute)
     for stage in stages:
         slug = SPEC[stage][0]
