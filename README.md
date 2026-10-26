@@ -39,6 +39,34 @@ For a real run:
 
 Generated LoRA checkpoints and data are Kaggle output artifacts, not tracked in Git. Complete artifact retrieval and inter-stage handoff should be verified on Kaggle before trusting the pipeline end-to-end.
 
+
+## Weights & Biases (CoreWeave Forge)
+
+All three notebooks use online W&B experiment tracking in your existing
+[CoreWeave Forge project](https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning):
+
+- entity: `crosslingual`
+- project: `multilingual_deepunlearning`
+- group: `mquake-t-20261026`
+- server: `https://api.forge.coreweave.com`
+
+**Important:** GitHub Actions secrets do not become Kaggle notebook secrets.
+In Kaggle, create a notebook secret named `WANDB_API_KEY` with your
+CoreWeave Forge / W&B key, and **enable access in each of the three already
+existing notebooks**. Do not paste the key into source code, output cells,
+GitHub Issues, commit messages or chat. Without this secret, the notebook
+stops before GPU-intensive training.
+
+Metrics logged:
+- 01: dataset provenance, translation audit, SFT cross-entropy curves and learning rate, sanity accuracy by split/language/hop, model memory.
+- 02: GA/GD/NPO forget/retain/total loss curves, parameters, optimizer steps, memory.
+- 03: per-case prediction tables, recovery by checkpoint/language/hop, language-by-depth interaction, cross-language candidate counts and comparison bar chart.
+
+Individual notebook source updates preserve their existing Kaggle notebook ID.
+GitHub automatically syncs committed notebook updates to the **same private Kaggle
+notebook IDs** with the no-run flag. This only creates a new saved version;
+it does not execute GPU cells. GPU runs must be explicitly requested.
+
 ## Research safeguards
 
 - No generated factual relationships, answers, or fallback benchmark examples.
