@@ -122,6 +122,8 @@ def main():
         raise RuntimeError("Kaggle API auth unavailable")
     s1=status("01")
     print("Stage 01 status:",s1)
+    print("Stage 02 status (informational):",status("02"))
+    print("Stage 03 status (informational):",status("03"))
     if s1!="COMPLETE":
         print("No action; Notebook 01 has not finished successfully.")
         return
@@ -138,16 +140,27 @@ def main():
     if s2!="COMPLETE":
         launch("02")
         return
+    manifest=output("02",["unlearning_manifest.json"]).get("unlearning_manifest.json")
+    if manifest is None:
+        # A code-only Kaggle save may report COMPLETE but contain no run output.
+        print("Stage 02 has no completed output manifest (probably no-run draft); launching.")
+        launch("02")
+        return
     if not unlearning_ready():
-        # Kaggle no-run notebooks may report COMPLETE with no usable outputs.
-        # A mismatching manifest is a hard stop to avoid overwriting past results.
-        print("Stage 02 has COMPLETE status but missing/stale manifest; manual review required.")
+        # A mismatching historical run is not silently overwritten.
+        print("Stage 02 source manifest does not match new source; manual review required.")
         return
     s3=status("03")
     print("Stage 03 status:",s3)
-    if s3 in ("RUNNING","QUEUED","PENDING","STARTING","COMPLETE","ERROR","FAILED","CANCELLED"):
+    if s3 in ("RUNNING","QUEUED","PENDING","STARTING","ERROR","FAILED","CANCELLED"):
         print("No new evaluation run; Stage 03 already has a status requiring review.")
         return
+    if s3=="COMPLETE":
+        last=output("03",["recovery_summary.csv"]).get("recovery_summary.csv")
+        if last:
+            print("Stage 03 already has completed evaluation results; no GPU rerun.")
+            return
+        print("Stage 03 is a code-only draft without evaluation output; launch.")
     launch("03")
 
 if __name__=="__main__":
