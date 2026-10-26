@@ -1,0 +1,20 @@
+# Kaggle/private runtime data
+.kaggle/
+.env
+.kaggle*/
+kaggle.json
+**/kaggle.json
+# Large model artifacts and downloaded benchmarks
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.parquet
+artifacts/
+outputs/
+checkpoints/
+cache/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
