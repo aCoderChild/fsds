@@ -57,6 +57,25 @@ existing notebooks**. Do not paste the key into source code, output cells,
 GitHub Issues, commit messages or chat. Without this secret, the notebook
 stops before GPU-intensive training.
 
+If Kaggle's `UserSecretsClient().get_secret("WANDB_API_KEY")` raises an
+HTTP/ConnectionError, the notebooks **continue training** and save syncable W&B
+offline run data to `/kaggle/working/wandb/`. A W&B run is not visible on
+Forge until it is uploaded. The error does **not** prove your key is invalid.
+
+To enable live logging, in each existing Kaggle notebook check:
+`Add-ons → Secrets → WANDB_API_KEY` and grant that notebook access.
+Kaggle API-created versions and the interactive editor can differ in their
+secret access, so verify a direct secret read in a Kaggle interactive session.
+Do not print token values.
+
+If Kaggle secret access remains unavailable, download the notebook's
+`wandb/` output folder after the run, then, from an authenticated terminal
+with `WANDB_API_KEY` set securely, run:
+
+```bash
+WANDB_BASE_URL=https://api.forge.coreweave.com wandb sync wandb/offline-run-*
+```
+
 Metrics logged:
 - 01: dataset provenance, translation audit, SFT cross-entropy curves and learning rate, sanity accuracy by split/language/hop, model memory.
 - 02: GA/GD/NPO forget/retain/total loss curves, parameters, optimizer steps, memory.
