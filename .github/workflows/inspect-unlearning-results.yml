@@ -116,3 +116,5 @@ jobs:
           if-no-files-found: ignore
 
 # Read-only result snapshot for revised FSDS progress report.
+
+# Final post-evaluation read-only audit, Oct 27 2026.
