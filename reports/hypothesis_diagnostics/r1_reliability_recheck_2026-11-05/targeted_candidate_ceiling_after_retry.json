@@ -1,0 +1,174 @@
+{
+  "augmented_optimistic_coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 69,
+        "required": 117
+      },
+      "retain": {
+        "complete": 19,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 7,
+      "required": 44
+    }
+  },
+  "augmented_union_rows_by_language": {
+    "de": 476,
+    "fr": 476,
+    "hi": 434,
+    "th": 415
+  },
+  "authoritative_release_gate": {
+    "eligible_composition_chains": 0,
+    "eligible_forget_cases": 5,
+    "eligible_retain_cases": 3,
+    "required_composition_chains": 44,
+    "required_forget_cases": 117,
+    "required_retain_cases": 39,
+    "status": "BLOCKED_AS_DESIGNED"
+  },
+  "base_optimistic_coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 60,
+        "required": 117
+      },
+      "retain": {
+        "complete": 19,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 6,
+      "required": 44
+    }
+  },
+  "base_union_rows_by_language": {
+    "de": 469,
+    "fr": 467,
+    "hi": 426,
+    "th": 403
+  },
+  "chatgpt_fullflagged_pass_rows_by_language": {
+    "de": 118,
+    "fr": 128,
+    "hi": 97,
+    "th": 102
+  },
+  "human_translation_reviewed": false,
+  "interpretation": "Candidate union is an optimistic planning ceiling. Targeted AI passes are not production approvals; every replacement must pass the complete frozen source-bound screen before training.",
+  "post_retry_optimistic_coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 69,
+        "required": 117
+      },
+      "retain": {
+        "complete": 20,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 7,
+      "required": 44
+    }
+  },
+  "post_retry_union_rows_by_language": {
+    "de": 477,
+    "fr": 476,
+    "hi": 436,
+    "th": 415
+  },
+  "release_approved": false,
+  "source_hashes": {
+    "assembler": "851614ae2c73457f640acff423db8e25ed6cda95fdf5f04143637eafab128a14",
+    "base_review_report": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+    "merged_chatgpt_review": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+    "source_integrity_verifier": "b3c58354e2ca4c222ccb4ae2404a169a8ecc2c88e2383ff4e0fdb6a733f333d6",
+    "targeted_gap_map": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+    "targeted_gap_report": "2537678803424253777df2ee9578714057bff5813b3802620644385c47a20772",
+    "targeted_retry_input": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+    "targeted_retry_output": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+    "targeted_retry_receipt": "18898f8d3fa8806e23beb49eaaafe5c4646c43584f5929e649f7cf8b9293a750",
+    "targeted_retry_script": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+    "targeted_review_input_script": "cef9f1d677d259ff80c3b5ab1e1b2137509951d55ecdcbf21aa6ebdc81549cf1",
+    "targeted_review_output": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+    "targeted_review_receipt": "8ee2d82e74cd853256668638241e34cb4440b48ef8cf71d6bfb0a9ea2fd93b5c",
+    "translategemma_candidates": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+  },
+  "status": "VERIFIED_OPTIMISTIC_CANDIDATE_CEILING_ONLY_NOT_RELEASE_APPROVAL",
+  "targeted_new_joint_pass_rows_by_language": {
+    "de": 7,
+    "fr": 9,
+    "hi": 8,
+    "th": 12
+  },
+  "targeted_retry_counts": {
+    "fluency_pass": 15,
+    "joint_pass": 3,
+    "reviewed": 17,
+    "semantic_pass": 5
+  },
+  "targeted_retry_counts_by_language": {
+    "de": {
+      "fluency_pass": 3,
+      "joint_pass": 1,
+      "reviewed": 3,
+      "semantic_pass": 1
+    },
+    "fr": {
+      "fluency_pass": 2,
+      "joint_pass": 0,
+      "reviewed": 2,
+      "semantic_pass": 0
+    },
+    "hi": {
+      "fluency_pass": 9,
+      "joint_pass": 2,
+      "reviewed": 10,
+      "semantic_pass": 3
+    },
+    "th": {
+      "fluency_pass": 1,
+      "joint_pass": 0,
+      "reviewed": 2,
+      "semantic_pass": 1
+    }
+  },
+  "targeted_retry_joint_pass_overlap_by_language": {},
+  "targeted_retry_new_joint_pass_rows_by_language": {
+    "de": 1,
+    "hi": 2
+  },
+  "targeted_review_counts": {
+    "blocked": 17,
+    "fluency_pass": 169,
+    "joint_pass": 36,
+    "semantic_pass": 36
+  },
+  "training_eligible": false,
+  "translategemma_fullflagged_pass_rows_by_language": {
+    "de": 201,
+    "fr": 140,
+    "hi": 163,
+    "th": 179
+  }
+}
