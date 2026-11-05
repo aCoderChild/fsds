@@ -86,7 +86,12 @@
   "source_bound_release_gate": {
     "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
     "corpus_written": false,
+    "coverage_audit_path": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json",
+    "coverage_audit_sha256": "34e3f93206079d20ac4566e4d9eb951f2e78bfd9e2ef38a8960fa90b50d7422b",
+    "current_review_audit_eligible_composition_chains": 0,
     "eligible_composition_chains_source": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json; quarantined retries are not imported into the frozen review.",
+    "error": "Translation screen excluded required atomic cases: 5 forget and 3 retain; expected 117 and 39.",
+    "exit_code": 1,
     "interpretation": "Assembler failed closed before writing the release.",
     "manifest_written": false,
     "observed_eligible_atomic_cases": {
