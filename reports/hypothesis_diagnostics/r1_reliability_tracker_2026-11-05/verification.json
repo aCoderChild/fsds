@@ -1,0 +1,196 @@
+{
+  "current_experiment_state": {
+    "main_study_result_created": false,
+    "only_hypothesis_diagnostic": "one-seed Llama 3.2 1B pilot; exploratory and failed target-language competence gate",
+    "research_training_running": false,
+    "target_language_competence_gate": "FAILED in all four languages",
+    "unlearning_running": false
+  },
+  "kaggle_status_check": {
+    "checked_at_utc": "2026-11-05T07:18:00Z",
+    "checked_kernel_count": 9,
+    "relevant_kernels": [
+      {
+        "ref": "bunnoob2005/experiments",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-gap187-candidate-review-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-gap187-alias-retry-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-third-key-retry-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-third-marker-retry-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/sw-third-qwen-retry-2026-11-05",
+        "status": "KernelWorkerStatus.COMPLETE"
+      }
+    ],
+    "running_or_queued_among_checked": 0,
+    "scope_note": "These are the R1 main notebook, runtime smoke, and six translation diagnostic kernels; this is not an inventory of unrelated Kaggle notebooks."
+  },
+  "limitations": [
+    "Translation review remains AI-only and is not fluent-human certification.",
+    "Candidate/retry receipts are hash-verified diagnostics but quarantined; none promotes a canonical training translation.",
+    "The 8B runtime smoke proves code/runtime compatibility only.",
+    "The main SFT and unlearning experiment must remain stopped until the source-bound release gate passes and baseline competence is checked."
+  ],
+  "observed_at_utc": "2026-11-05T07:18:00Z",
+  "offline_pipeline_fixtures": {
+    "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+    "failed": 0,
+    "interpretation": "Synthetic fixtures only; no research rows or model experiment.",
+    "passed": 35,
+    "result": "OK"
+  },
+  "prepared_source_alignment": {
+    "canonical_sft_ids": 488,
+    "command": "python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only",
+    "interpretation": "Confirms prepared rows match source inputs; does not approve translations or a training corpus.",
+    "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+  },
+  "purpose": "Current reliability tracking snapshot; separates implementation/runtime checks from research results.",
+  "runtime_only_8b_smoke": {
+    "interpretation": "Synthetic LoRA/NPO compatibility smoke; not SFT on research data, unlearning, or a hypothesis result.",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "npo_optimizer_steps_completed": 1,
+    "research_data_loaded": false,
+    "runtime_receipt_sha256": "f203c9b06a88647ab9868e3c1052dd02325eb21522e5f5ccd5e0b436f783d09c",
+    "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+    "trainer_global_step": 1,
+    "trainer_train_loss": 0.02475927211344242,
+    "verification_sha256": "20b30850f96cdda63901db2d35eeeeaba00841a572244916d7190c3fc58eb003"
+  },
+  "source_bound_release_gate": {
+    "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
+    "corpus_written": false,
+    "eligible_composition_chains_source": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json; quarantined retries are not imported into the frozen review.",
+    "interpretation": "Assembler failed closed before writing the release.",
+    "manifest_written": false,
+    "observed_eligible_atomic_cases": {
+      "forget": 5,
+      "retain": 3
+    },
+    "release_approved": false,
+    "required_atomic_cases": {
+      "forget": 117,
+      "retain": 39
+    },
+    "required_composition_chains": 44,
+    "status": "BLOCKED"
+  },
+  "stage": "TRAINING_DATA_RELEASE",
+  "translation_retry_receipts": [
+    {
+      "counts": {
+        "blocked_rows": 17,
+        "joint_semantic_fluency_pass": 36,
+        "reviewed_rows": 170
+      },
+      "human_translation_reviewed": false,
+      "label": "187_row_targeted_review",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/run_receipt.json",
+      "receipt_sha256": "e02f7889d1856cdcd86de1f615f8759675313b7a290ff2440169b11c6e71a563",
+      "release_approved": false,
+      "status": "VERIFIED_AI_ONLY_DIAGNOSTIC_QUARANTINED",
+      "training_eligible": false
+    },
+    {
+      "counts": {
+        "blocked": 125,
+        "candidate_rows": 24,
+        "fluency_pass": 22,
+        "joint_pass": 3,
+        "reviewed": 23,
+        "semantic_pass": 4
+      },
+      "human_translation_reviewed": false,
+      "label": "148_row_nllb_candidate_review",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/remote_output/candidate_verification.json",
+      "receipt_sha256": "a0e763b9295af55a9aaa74866225a438f7407ee26f528bbc2484bea92cbc6ee0",
+      "release_approved": false,
+      "status": "VERIFIED_AI_ONLY_NLLB_CANDIDATES_QUARANTINED",
+      "training_eligible": false
+    },
+    {
+      "counts": {
+        "blocked": 1,
+        "candidate_rows": 124,
+        "fluency_pass": 101,
+        "joint_pass": 0,
+        "reviewed": 124,
+        "semantic_pass": 0
+      },
+      "human_translation_reviewed": false,
+      "label": "125_row_segmented_nllb_retry",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/remote_output/segmented_retry_verification.json",
+      "receipt_sha256": "6e48755b6fdf09786160b0e658bf99352dec9d7b1b9746e02c69332d40f7378e",
+      "release_approved": false,
+      "status": "VERIFIED_AI_ONLY_NLLB_SEGMENTED_RETRY_QUARANTINED",
+      "training_eligible": false
+    },
+    {
+      "counts": {
+        "BLOCKED": 15,
+        "FLAG": 2,
+        "PASS": 1
+      },
+      "human_translation_reviewed": false,
+      "label": "18_row_marker_safe_retry",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/marker_safe_retry_2026-11-05/verification.json",
+      "receipt_sha256": "70055a1c2e97ee6b12582e385e16c4bd2d3acbdc9bfb8fe7232e250392f0a4b9",
+      "release_approved": false,
+      "status": "VERIFIED_18_ROW_RETRY_DIAGNOSTIC_ONLY",
+      "training_eligible": false
+    },
+    {
+      "counts": {
+        "BLOCKED": 1,
+        "FLAG": 9,
+        "PASS": 5
+      },
+      "human_translation_reviewed": false,
+      "label": "15_row_qwen_retry",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/qwen_only_retry_2026-11-05/verification.json",
+      "receipt_sha256": "b3346771ce1867b50d36f1ad1930bbc0afc46bcb4820689a2d3523e159ffa735",
+      "release_approved": false,
+      "status": "VERIFIED_15_ROW_QWEN_RETRY_DIAGNOSTIC_ONLY",
+      "training_eligible": false
+    },
+    {
+      "counts": {
+        "decision": "PASS",
+        "rows": 1
+      },
+      "human_translation_reviewed": false,
+      "label": "one_row_key_constrained_retry",
+      "receipt_path": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/key_constrained_retry_2026-11-05/verification.json",
+      "receipt_sha256": "efb958c2421f8852e165acec8ab1d79063a28a9ef49038f67abede8236ef3187",
+      "release_approved": false,
+      "status": "VERIFIED_ONE_ROW_KEY_CONSTRAINED_DIAGNOSTIC_ONLY",
+      "training_eligible": false
+    }
+  ]
+}
