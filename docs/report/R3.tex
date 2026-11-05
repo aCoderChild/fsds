@@ -123,19 +123,17 @@ This project tests whether English-only unlearning of a learned first-hop fact c
 % ===================== 2 =====================
 \section{Summary of Progress Since Last Report}
 \guide{3--5 sentences: the main outcome of this period, and whether you completed what you planned in the previous report.}
-The one-seed Llama 3.2 1B pilot was independently rescored, but failed the baseline competence gate in all four target languages; it remains exploratory. Follow-up AI-only NLLB screens did not clear the translation release gate: 3/23 judged candidates passed both checks in the first screen, and none of 124 segmented candidates passed semantic review. The pinned Llama 3.1 8B Kaggle runtime smoke passed one synthetic LoRA and one NPO step on two T4 GPUs; this confirms runtime compatibility only. The source-verified training release remains blocked.
+The one-seed Llama 3.2 1B pilot failed the baseline competence gate in all four target languages and remains exploratory. The primary 187-row AI screen passed 36 candidates; follow-up screens added only one unique candidate row after deduplication, and none is approved for training. The source-verified release remains at 5/117 forget, 3/39 retain, and 0/44 composition cases. The pinned Llama 3.1 8B runtime smoke passed one synthetic LoRA and one NPO step on two T4 GPUs; no research data was loaded.
 
 % ===================== 3 =====================
 \section{Tasks Completed}
 \guide{One line per task: what was done and the result. For papers, add one \emph{Paper read} line per paper.}
 \begin{itemize}
-  \item \textbf{Pilot audit:} Independently rescored 7,740 predictions; all seven derived score/report files matched the archived outputs.
-  \item \textbf{SFT pipeline:} Replaced the fragile prompt-token-prefix mask with a single-render, offset-based assistant mask; all 35 fixture tests pass.
-  \item \textbf{Kaggle runtime:} The pinned 8B checkpoint passed the CPU mask preflight and a receipt-verified T4 x2 smoke (one synthetic LoRA step and one synthetic NPO update); no research data was loaded.
-  \item \textbf{Data audit:} Rechecked the source-verified release; eligible coverage remains below the required counts, so no training corpus was assembled.
-  \item \textbf{Translation candidates:} Screened 187 structurally valid masked candidates with NLLB and one Qwen judge. There were 36 joint passes, 134 non-passes, and 17 blocked rows; this AI-only screen is provisional and approves no translations.
-  \item \textbf{Translation retry audit:} A separate NLLB screen yielded 3 joint passes among 23 judged rows; a marker-preserving retry had 0 semantic passes among 124 candidates. Both batches remain quarantined.
-  \item \textbf{Reliability recheck:} Re-ran 35 offline fixtures, the prepared-source verifier, release gate, and 21 recent Kaggle kernel status checks. All fixtures and source-alignment checks passed; all checked kernels are complete; the release gate remains blocked.
+  \item \textbf{Pilot and pipeline:} Rescored 7,740 pilot predictions; all 7 derived outputs matched. The offset-based assistant mask is covered by 35 passing offline fixtures.
+  \item \textbf{8B runtime:} Receipt-verified T4 x2 smoke completed one synthetic LoRA step (loss 0.0248) and one synthetic NPO update (loss 13.8629); no research data was loaded.
+  \item \textbf{Translation screens:} The 799-row AI-only repair review had 445 passes, 323 flags, and 31 blocked rows. The primary 187-row queue had 36 passes; follow-ups yielded 3/17 and 3/23 joint passes, then 0/124, for one additional unique row after deduplication. No candidate was released.
+  \item \textbf{Reviewer controls:} Mistral disagreed with initial Qwen labels on 154/187 rows. Mistral and Qwen14 mistakenly passed 2/15 and 1/16 deliberate mismatches, respectively; these controls do not estimate real-world error rates. No human-gold review exists.
+  \item \textbf{Release and status:} Prepared-source alignment passed for 488 IDs; the real-data assembler failed closed. Five scoped Kaggle jobs are complete, but the published \texttt{experiments} alias is a legacy 1B preflight with \texttt{training\_started=false}; the 8B smoke is synthetic only. No v5.1 main training ran.
 \end{itemize}
 
 % ===================== 4 =====================
@@ -145,7 +143,7 @@ The one-seed Llama 3.2 1B pilot was independently rescored, but failed the basel
 \toprule
 \textbf{Work item} & \textbf{Current state} & \textbf{Status}\\
 \midrule
-Training-data release & Source-bound counts remain 5/117 forget, 3/39 retain, and 0/44 composition cases. AI-only retry screens produced no newly releasable translations. & Needs attention\\
+Training-data release & Source-bound counts remain 5/117 forget, 3/39 retain, and 0/44 composition cases. The larger AI-only candidate union is quarantined and does not alter eligibility. & Needs attention\\
 Llama 3.1 8B runtime gate & Pinned checkpoint and package stack passed the bounded synthetic smoke; receipt verified and Kaggle session stopped. & Passed (runtime only)\\
 \bottomrule
 \end{tabularx}
@@ -154,12 +152,10 @@ Llama 3.1 8B runtime gate & Pinned checkpoint and package stack passed the bound
 \section{Results and Findings}
 \guide{Findings and current experiment results.}
 \begin{itemize}
-  \item The pilot does not show greater multi-hop damage in non-English than in English. Estimates are imprecise, and the failed competence gate prevents a reliable hypothesis test.
-  \item On the same matched cases, target-language direct recall was correct in only 0--2 of 9--11 cases, while final answers remained correct in 8--10. The pilot's unlearning did not reliably remove downstream answering; the reason is unresolved.
-  \item Independent rescoring reproduced the outputs, but the archived run omitted the unlearning-script hash; exact training-code provenance is incomplete.
-  \item The 187-candidate AI screen is not a release result: only 36/170 completed judgments passed both checks, 17 rows were blocked, and no fluent-human review was performed.
-  \item Separate NLLB follow-ups also failed to establish usable translations: 3/23 candidates passed both checks in the first screen; 0/124 candidates passed semantic review in the segmented retry. The authoritative release gate is unchanged.
-  \item Runtime check only: pinned Llama 3.1 8B completed one synthetic LoRA step (loss 0.0248) and one NPO update (loss 13.8629); no study data was loaded.
+  \item The 1B pilot shows no clear cross-language amplification but fails all four target-language competence gates. On matched cases, direct recall was correct in 0--2/9--11 cases while final answers were correct in 8--10; the cause is unresolved. The archived run also lacks the unlearning-script hash.
+  \item A post-hoc multiplicity check (12 contrasts, 100,000 group-bootstrap draws) leaves all simultaneous 95\% intervals including zero; limits span $-71.4$ to $+100.0$ pp. With 5--7 groups, this indicates low precision, not no transfer.
+  \item The primary targeted queue passed 36/187 rows (19.3\%): French 8/21, German 3/19, Hindi 14/62, and Thai 11/85. The deduplicated AI-screened union has 1,677 prompt-language candidates, including complete target-language coverage for 42/117 forget cases (22 groups), 16/39 retain cases (12 groups), and 2/44 composition chains. These are quarantined coverage diagnostics, not quality estimates; the source-bound release remains 5/117, 3/39, and 0/44.
+  \item Reviewer reliability remains unresolved: Mistral passed 178/187 direct reviews and disagreed with initial Qwen on 154/187. The reviewers mistakenly passed 2/15 (Mistral) and 1/16 (Qwen14) constructed mismatches; these are not real-world error-rate estimates. No human-gold review was performed.
 \end{itemize}
 \textbf{Pre-unlearning baseline on forget cases:}\par\smallskip
 \begin{tabularx}{\textwidth}{@{}lrrr@{}}
