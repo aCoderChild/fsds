@@ -1,0 +1,245 @@
+{
+  "audit": "AI-only relation-aware translation-template reuse ceiling; diagnostic only",
+  "complete_atomic_cases_all_four_target_languages": {
+    "required": {
+      "forget": 117,
+      "retain": 39
+    },
+    "source_review_only": {
+      "forget": 5,
+      "retain": 3
+    },
+    "template_ceiling_case_ids": {
+      "forget": [
+        "0003-qa-sm",
+        "0005-qa-sm",
+        "0008-qa-sm",
+        "0013-qa-sm",
+        "0022-qa-sm",
+        "0027-qa-sm",
+        "0035-qa-sm",
+        "0052-qa-sm",
+        "0054-qa-sm",
+        "0063-qa-sm",
+        "0068-qa-sm",
+        "0074-qa-sm",
+        "0077-qa-sm",
+        "0082-qa-sm",
+        "0085-qa-sm",
+        "0087-qa-sm",
+        "0089-qa-sm",
+        "0094-qa-sm",
+        "0095-qa-sm",
+        "0096-qa-sm",
+        "0102-qa-sm",
+        "0108-qa-sm",
+        "0116-qa-sm",
+        "0120-qa-sm",
+        "0131-qa-sm",
+        "0142-qa-sm",
+        "0153-qa-sm",
+        "0161-qa-sm",
+        "0162-qa-sm",
+        "0164-qa-sm",
+        "0168-qa-sm",
+        "0170-qa-sm"
+      ],
+      "retain": [
+        "0057-qa-sm",
+        "0059-qa-sm",
+        "0061-qa-sm",
+        "0078-qa-sm",
+        "0093-qa-sm",
+        "0109-qa-sm",
+        "0139-qa-sm",
+        "0140-qa-sm",
+        "0150-qa-sm",
+        "0151-qa-sm",
+        "0160-qa-sm",
+        "0185-qa-sm"
+      ]
+    },
+    "template_reuse_ceiling": {
+      "forget": 32,
+      "retain": 12
+    },
+    "verified_candidate_union": {
+      "forget": 29,
+      "retain": 10
+    }
+  },
+  "complete_composition_chains_all_four_target_languages": {
+    "required": 44,
+    "source_review_only": 0,
+    "template_ceiling_chain_ids": [
+      "0383-qa-sm"
+    ],
+    "template_reuse_ceiling": 1,
+    "verified_candidate_union": 1
+  },
+  "corpus_written": false,
+  "created_at_utc": "2026-11-05T07:48:55+00:00",
+  "human_translation_reviewed": false,
+  "integrity": {
+    "original_review_input_checks": "Source hashes, review output hashes, English prompts, and exact translation text were verified against atomic reuse/draft/repair files and the composition review queue.",
+    "original_review_pass_rows": 1153,
+    "original_review_rows": 1952,
+    "original_review_source_pool_rows": {
+      "de": {
+        "atomic_draft": 148,
+        "atomic_repair": 0,
+        "atomic_reuse": 164,
+        "composition": 176
+      },
+      "fr": {
+        "atomic_draft": 148,
+        "atomic_repair": 0,
+        "atomic_reuse": 164,
+        "composition": 176
+      },
+      "hi": {
+        "atomic_draft": 147,
+        "atomic_repair": 1,
+        "atomic_reuse": 164,
+        "composition": 176
+      },
+      "th": {
+        "atomic_draft": 147,
+        "atomic_repair": 1,
+        "atomic_reuse": 164,
+        "composition": 176
+      }
+    },
+    "repair_review": {
+      "candidate_rows": 799,
+      "hash_and_source_binding_failures": 0,
+      "passing_rows": 445,
+      "private_map_rows": 799,
+      "review_rows": 799,
+      "status_counts": {
+        "AI_ONLY_REPAIR_REVIEW_BLOCKED": 31,
+        "AI_ONLY_REPAIR_REVIEW_FLAGGED": 323,
+        "AI_ONLY_REPAIR_REVIEW_PASS": 445
+      }
+    },
+    "repair_review_overlap_with_original_pass": 0,
+    "source_files_sha256": {
+      "data/synthworlds_sm/qa-sm-facts.jsonl": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+      "data/synthworlds_sm/qa-sm.jsonl": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+      "experiments/synthworlds_r1/training_release_draft/atomic_reuse.jsonl": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/de.jsonl": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/fr.jsonl": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/hi.jsonl": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/th.jsonl": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/de.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/fr.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/hi.jsonl": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/th.jsonl": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "experiments/synthworlds_r1/training_release_draft/composition_reuse.jsonl": "4a71ff1689ca092acbf2901ae6f5020e767a206a942705f52d73337abf8a2382",
+      "experiments/synthworlds_r1/training_release_draft/composition_translation_review_queue.jsonl": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/parsed_repair_candidates.jsonl": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/private_row_map.jsonl": "7648962af276064d0447da4c8d1b5a39cde433677a9e2c6f1242eee4bb45552c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merge_verification.json": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merged_full799_diagnostic_reviews.jsonl": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/de.jsonl": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/fr.jsonl": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/hi.jsonl": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/report.json": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/th.jsonl": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+    },
+    "verified_candidate_union_pass_rows": 1598,
+    "verified_repair_pass_rows": 445
+  },
+  "interpretation": "The estimate remains far below the frozen full-release requirements. Template reuse cannot repair the current coverage gap, especially for composition: relation-aware grouping yields 176 unique templates for 176 prompts. This estimate is not training data and does not certify human fluency.",
+  "release_approved": false,
+  "row_coverage_by_language_and_kind": {
+    "de": {
+      "atomic": {
+        "optimistic_rows_added_by_reuse": 3,
+        "prompt_rows": 312,
+        "relation_aware_template_reuse_ceiling": 279,
+        "source_review_pass_rows": 204,
+        "unique_templates": 274,
+        "verified_candidate_union_rows": 276
+      },
+      "composition": {
+        "optimistic_rows_added_by_reuse": 0,
+        "prompt_rows": 176,
+        "relation_aware_template_reuse_ceiling": 151,
+        "source_review_pass_rows": 105,
+        "unique_templates": 176,
+        "verified_candidate_union_rows": 151
+      }
+    },
+    "fr": {
+      "atomic": {
+        "optimistic_rows_added_by_reuse": 0,
+        "prompt_rows": 312,
+        "relation_aware_template_reuse_ceiling": 286,
+        "source_review_pass_rows": 195,
+        "unique_templates": 274,
+        "verified_candidate_union_rows": 286
+      },
+      "composition": {
+        "optimistic_rows_added_by_reuse": 0,
+        "prompt_rows": 176,
+        "relation_aware_template_reuse_ceiling": 166,
+        "source_review_pass_rows": 129,
+        "unique_templates": 176,
+        "verified_candidate_union_rows": 166
+      }
+    },
+    "hi": {
+      "atomic": {
+        "optimistic_rows_added_by_reuse": 1,
+        "prompt_rows": 312,
+        "relation_aware_template_reuse_ceiling": 251,
+        "source_review_pass_rows": 192,
+        "unique_templates": 274,
+        "verified_candidate_union_rows": 250
+      },
+      "composition": {
+        "optimistic_rows_added_by_reuse": 0,
+        "prompt_rows": 176,
+        "relation_aware_template_reuse_ceiling": 135,
+        "source_review_pass_rows": 96,
+        "unique_templates": 176,
+        "verified_candidate_union_rows": 135
+      }
+    },
+    "th": {
+      "atomic": {
+        "optimistic_rows_added_by_reuse": 8,
+        "prompt_rows": 312,
+        "relation_aware_template_reuse_ceiling": 233,
+        "source_review_pass_rows": 155,
+        "unique_templates": 274,
+        "verified_candidate_union_rows": 225
+      },
+      "composition": {
+        "optimistic_rows_added_by_reuse": 0,
+        "prompt_rows": 176,
+        "relation_aware_template_reuse_ceiling": 109,
+        "source_review_pass_rows": 77,
+        "unique_templates": 176,
+        "verified_candidate_union_rows": 109
+      }
+    }
+  },
+  "source_structure": {
+    "atomic_prompt_rows": 312,
+    "composition_fact_ids_required": 131,
+    "composition_fact_ids_resolved": 131,
+    "composition_prompt_rows": 176,
+    "rows_with_ambiguous_entity_aliases_excluded_from_reuse": 0,
+    "text_only_template_groups_with_relation_collisions": 12,
+    "unique_atomic_relation_aware_templates": 274,
+    "unique_composition_relation_aware_templates": 176
+  },
+  "template_method": {
+    "atomic_relation_signature": "Graph relation PID plus source relation label and atomic hop.",
+    "composition_relation_signature": "Ordered relation labels reconstructed from hash-matched source facts plus composition prompt hop.",
+    "entity_slots": "Exact source entity mentions, mapped to QIDs where available, assigned first-mention slots; repeated mentions share a slot. Ambiguous aliases are excluded from reuse.",
+    "optimistic_assumption": "A passing translation for any member of a relation-aware template is treated as reusable for every source row in that template, without retranslation or independent review of each rendering."
+  }
+}

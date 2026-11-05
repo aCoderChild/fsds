@@ -107,6 +107,111 @@
     "status": "BLOCKED"
   },
   "stage": "TRAINING_DATA_RELEASE",
+  "template_reuse_ceiling_audit": {
+    "command": "python -B reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/template_reuse_ceiling_audit.py",
+    "complete_atomic_cases_all_four_target_languages": {
+      "required": {
+        "forget": 117,
+        "retain": 39
+      },
+      "source_review_only": {
+        "forget": 5,
+        "retain": 3
+      },
+      "template_ceiling_case_ids": {
+        "forget": [
+          "0003-qa-sm",
+          "0005-qa-sm",
+          "0008-qa-sm",
+          "0013-qa-sm",
+          "0022-qa-sm",
+          "0027-qa-sm",
+          "0035-qa-sm",
+          "0052-qa-sm",
+          "0054-qa-sm",
+          "0063-qa-sm",
+          "0068-qa-sm",
+          "0074-qa-sm",
+          "0077-qa-sm",
+          "0082-qa-sm",
+          "0085-qa-sm",
+          "0087-qa-sm",
+          "0089-qa-sm",
+          "0094-qa-sm",
+          "0095-qa-sm",
+          "0096-qa-sm",
+          "0102-qa-sm",
+          "0108-qa-sm",
+          "0116-qa-sm",
+          "0120-qa-sm",
+          "0131-qa-sm",
+          "0142-qa-sm",
+          "0153-qa-sm",
+          "0161-qa-sm",
+          "0162-qa-sm",
+          "0164-qa-sm",
+          "0168-qa-sm",
+          "0170-qa-sm"
+        ],
+        "retain": [
+          "0057-qa-sm",
+          "0059-qa-sm",
+          "0061-qa-sm",
+          "0078-qa-sm",
+          "0093-qa-sm",
+          "0109-qa-sm",
+          "0139-qa-sm",
+          "0140-qa-sm",
+          "0150-qa-sm",
+          "0151-qa-sm",
+          "0160-qa-sm",
+          "0185-qa-sm"
+        ]
+      },
+      "template_reuse_ceiling": {
+        "forget": 32,
+        "retain": 12
+      },
+      "verified_candidate_union": {
+        "forget": 29,
+        "retain": 10
+      }
+    },
+    "complete_composition_chains_all_four_target_languages": {
+      "required": 44,
+      "source_review_only": 0,
+      "template_ceiling_chain_ids": [
+        "0383-qa-sm"
+      ],
+      "template_reuse_ceiling": 1,
+      "verified_candidate_union": 1
+    },
+    "corpus_written": false,
+    "human_translation_reviewed": false,
+    "interpretation": "Even the optimistic relation-aware template reuse ceiling is below the frozen requirements: 32/117 forget cases, 12/39 retain cases, and 1/44 composition chains. Keep full SFT and unlearning stopped.",
+    "observed_at_utc": "2026-11-05T07:48:55+00:00",
+    "original_review_ai_pass_rows": 1153,
+    "original_review_rows": 1952,
+    "repair_candidate_ai_pass_rows": 445,
+    "repair_hash_or_source_binding_failures": 0,
+    "repair_review_rows": 799,
+    "result_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/template_reuse_ceiling.json",
+    "result_sha256": "96b516e30b3fb4860d946570c1f9629d2e0a04842921164c6b4a33f37fbac5a0",
+    "script_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/template_reuse_ceiling_audit.py",
+    "script_sha256": "42689bf0982b2dc7f2b5499f9045c2007c48bb7a7112caec58b1ba14cd6f8bb9",
+    "status": "PASS_SOURCE_HASHES_AND_ROW_BINDINGS; DIAGNOSTIC_ONLY_NOT_RELEASE_APPROVAL",
+    "template_structure": {
+      "atomic_prompt_rows": 312,
+      "composition_fact_ids_required": 131,
+      "composition_fact_ids_resolved": 131,
+      "composition_prompt_rows": 176,
+      "rows_with_ambiguous_entity_aliases_excluded_from_reuse": 0,
+      "text_only_template_groups_with_relation_collisions": 12,
+      "unique_atomic_relation_aware_templates": 274,
+      "unique_composition_relation_aware_templates": 176
+    },
+    "training_eligible": false
+  },
   "translation_retry_receipts": [
     {
       "counts": {
