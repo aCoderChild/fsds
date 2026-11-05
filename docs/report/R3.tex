@@ -123,7 +123,7 @@ This project tests whether English-only unlearning of a learned first-hop fact c
 % ===================== 2 =====================
 \section{Summary of Progress Since Last Report}
 \guide{3--5 sentences: the main outcome of this period, and whether you completed what you planned in the previous report.}
-The one-seed Llama 3.2 1B pilot was independently rescored and its derived result files reproduced. The baseline competence requirement failed in all four target languages, so the pilot is exploratory and cannot answer the research question. The multilingual training release remains blocked. Llama 3.1 8B access is now accepted; the corrected Kaggle notebook passed its safe setup, but its GPU runtime smoke has not yet been rerun.
+The one-seed Llama 3.2 1B pilot was independently rescored, but failed the baseline competence gate in all four target languages; it remains exploratory. An AI-only screen of 187 translation candidates produced 36 passes, 134 non-passes, and 17 blocked rows; all candidates remain quarantined. The pinned Llama 3.1 8B Kaggle runtime smoke now passes its CPU mask check and one synthetic LoRA and NPO step on two T4 GPUs. This verifies runtime compatibility only; no research data or hypothesis result was produced. The source-verified training release remains blocked.
 
 % ===================== 3 =====================
 \section{Tasks Completed}
@@ -131,8 +131,9 @@ The one-seed Llama 3.2 1B pilot was independently rescored and its derived resul
 \begin{itemize}
   \item \textbf{Pilot audit:} Independently rescored 7,740 predictions; all seven derived score/report files matched the archived outputs.
   \item \textbf{SFT pipeline:} Replaced the fragile prompt-token-prefix mask with a single-render, offset-based assistant mask; all 35 fixture tests pass.
-  \item \textbf{Kaggle smoke:} Published notebook version 6 and verified its safe-default run. It loaded no weights and produced no experiment result.
+  \item \textbf{Kaggle runtime:} The pinned 8B checkpoint passed the CPU mask preflight and a receipt-verified T4 x2 smoke (one synthetic LoRA step and one synthetic NPO update); no research data was loaded.
   \item \textbf{Data audit:} Rechecked the source-verified release; eligible coverage remains below the required counts, so no training corpus was assembled.
+  \item \textbf{Translation candidates:} Screened 187 structurally valid masked candidates with NLLB and one Qwen judge. There were 36 joint passes, 134 non-passes, and 17 blocked rows; this AI-only screen is provisional and approves no translations.
 \end{itemize}
 
 % ===================== 4 =====================
@@ -142,8 +143,8 @@ The one-seed Llama 3.2 1B pilot was independently rescored and its derived resul
 \toprule
 \textbf{Work item} & \textbf{Current state} & \textbf{Status}\\
 \midrule
-Training-data release & 5/117 requested forget, 3/39 retain, and 0/44 training-only composition cases pass. & Needs attention\\
-Llama 3.1 8B runtime smoke & Access is accepted; corrected notebook is published. A T4 x2 interactive smoke run and receipt are still needed. & Needs attention\\
+Training-data release & Source-bound counts remain 5/117 forget, 3/39 retain, and 0/44 composition cases. The candidate screen has 36 joint passes and 17 blocked rows; none are released. & Needs attention\\
+Llama 3.1 8B runtime gate & Pinned checkpoint and package stack passed the bounded synthetic smoke; receipt verified and Kaggle session stopped. & Passed (runtime only)\\
 \bottomrule
 \end{tabularx}
 
@@ -154,6 +155,8 @@ Llama 3.1 8B runtime smoke & Access is accepted; corrected notebook is published
   \item The pilot does not show greater multi-hop damage in non-English than in English. Estimates are imprecise, and the failed competence gate prevents a reliable hypothesis test.
   \item On the same matched cases, target-language direct recall was correct in only 0--2 of 9--11 cases, while final answers remained correct in 8--10. The pilot's unlearning did not reliably remove downstream answering; the reason is unresolved.
   \item Independent rescoring reproduced the outputs, but the archived run omitted the unlearning-script hash; exact training-code provenance is incomplete.
+  \item The 187-candidate AI screen is not a release result: only 36/170 completed judgments passed both checks, 17 rows were blocked, and no fluent-human review was performed.
+  \item Runtime check only: pinned Llama 3.1 8B completed one synthetic LoRA step (loss 0.0248) and one NPO update (loss 13.8629); no study data was loaded.
 \end{itemize}
 \textbf{Pre-unlearning baseline on forget cases:}\par\smallskip
 \begin{tabularx}{\textwidth}{@{}lrrr@{}}
@@ -195,17 +198,15 @@ The pilot shows no clear cross-language amplification. Its small samples and fai
 \section{Issues / Blockers and Support Needed}
 \guide{List each problem and what you need (review, GPU time, data, a decision). Write ``None'' if there are no issues.}
 \begin{itemize}
-  \item \textbf{Data release:} Only 5/117 requested forget, 3/39 retain, and 0/44 composition cases pass. \textbf{Need:} Decide whether to expand or replace the candidate source while preserving leakage controls.
-  \item \textbf{8B smoke:} The prior run loaded weights but failed at the old mask check. \textbf{Need:} Rerun corrected notebook v6 interactively on Kaggle T4 x2 and save its receipt.
+  \item \textbf{Research data:} The release still has only 5/117 forget cases, 3/39 retain cases, and 0/44 composition cases eligible. \textbf{Need:} Decide whether to expand or replace candidate sources while preserving leakage controls. The 8B runtime is verified; it does not remove this data blocker.
 \end{itemize}
 
 % ===================== 7 =====================
 \section{Plan Until Next Report}
 \guide{Only list items that can be checked at the next report. Write each as a concrete outcome (``Choose the benchmark'', not ``Work on the benchmark'').}
 \begin{itemize}[label=$\square$]
-  \item Pass and verify the multilingual release, or document that the leakage-isolated cohort is unavailable.
-  \item Run the corrected 8B smoke and archive its passing receipt.
-  \item If both gates pass, run the 8B pre-unlearning baseline; start unlearning only if competence passes.
+  \item Resolve the quarantined translation candidates and rerun the frozen source-bound release gate; keep failed or unreviewed rows excluded.
+  \item If the release gate passes, assemble and verify the corpus, then run the 8B pre-unlearning competence baseline. Start unlearning only if its preregistered competence gate passes.
 \end{itemize}
 
 % ===================== 8 =====================
