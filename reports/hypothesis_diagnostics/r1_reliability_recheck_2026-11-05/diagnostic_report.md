@@ -1,6 +1,6 @@
 # R1 reliability recheck — 2026-11-05
 
-**Last verified: 2026-11-05 06:58 UTC. Current stage: training-data release. No main-study SFT corpus or local training run exists.** Kaggle reports all 20 kernels returned by `kaggle kernels list --mine`, plus the `experiments` notebook checked separately, as `COMPLETE`. This covers the 21 checked kernels, not every historical kernel in the account.
+**Last verified: 2026-11-05 07:09 UTC. Current stage: training-data release. No main-study SFT corpus or local training run exists.** Kaggle reports all 20 kernels returned by `kaggle kernels list --mine`, plus the `experiments` notebook checked separately, as `COMPLETE`. This covers the 21 checked kernels, not every historical kernel in the account.
 
 ## Current checks
 
