@@ -1,0 +1,239 @@
+% =====================================================================
+% FSDS Research Lab - Biweekly Progress Report (Monday & Thursday)
+% Compile with pdfLaTeX (Overleaf default). Put any figures in the
+% figures/ folder.
+%
+% HOW TO USE
+%   1. Fill in the "REPORT METADATA" block below (once per project).
+%   2. Update \reportday, \reportno, \reportperiod for every report.
+%   3. Write the sections. Set \showguidefalse to hide all grey
+%      guidance text before submitting.
+%   4. Export PDF, name it: <Lastname>_<Firstname>_Report<No>_<YYYY-MM-DD>.pdf
+% =====================================================================
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.2cm,top=4.1cm,bottom=2.6cm,headheight=2.6cm,headsep=0.8cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{graphicx}
+\graphicspath{{figures/}{../figures/}}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{needspace}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=fsds,urlcolor=fsds,citecolor=fsds]{hyperref}
+
+% ---------- colours ----------
+\definecolor{fsds}{HTML}{E8402F}
+\definecolor{ink}{HTML}{1F2430}
+\definecolor{muted}{HTML}{6B7280}
+
+% ---------- guidance toggle ----------
+\newif\ifshowguide
+\showguidefalse
+\newcommand{\guide}[1]{\ifshowguide{\par\small\itshape\color{muted}#1\par\medskip}\fi}
+
+% =====================================================================
+%                          REPORT METADATA
+% =====================================================================
+\newcommand{\labname}{FSDS Research Lab}
+\newcommand{\lastname}{Pham}
+\newcommand{\firstname}{Mai Anh}
+\newcommand{\email}{}
+\newcommand{\discord}{}
+\newcommand{\projecttitle}{Cross-Lingual Multi-Hop Machine Unlearning}
+\newcommand{\projectstage}{Experiments}
+\newcommand{\supervisor}{To be confirmed}
+\newcommand{\cosupervisora}{To be confirmed}
+\newcommand{\cosupervisorb}{To be confirmed}
+
+\newcommand{\reportday}{Thursday}
+\newcommand{\reportno}{03}
+\newcommand{\reportperiod}{Nov 2 -- Nov 5, 2026}
+\newcommand{\datesubmitted}{Nov 5, 2026}
+
+\newcommand{\githublink}{https://github.com/aCoderChild/fsds}
+% =====================================================================
+
+% ---------- header / footer ----------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{\raisebox{0.35cm}{\textcolor{fsds}{\bfseries FSDS}}}
+\rhead{\small\color{ink}\labname\\
+  \textbf{Researcher:} \firstname\ \lastname}
+\lfoot{\small\color{ink}\labname\ \textbar\ Report \#\reportno\ (\reportday)}
+\rfoot{\small\thepage/\pageref{LastPage}}
+
+% ---------- section style ----------
+\titleformat{\section}{\large\bfseries\color{ink}}{\thesection}{0.8em}{}
+\titlespacing*{\section}{0pt}{1.3em}{0.5em}
+\setlist[itemize]{topsep=2pt,itemsep=2pt,leftmargin=1.4em}
+\captionsetup{font=small,labelfont=bf}
+\renewcommand{\arraystretch}{1.25}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+% keep a heading together with the first lines under it
+\let\oldsection\section
+\renewcommand{\section}{\needspace{6\baselineskip}\oldsection}
+
+% ---------- helpers ----------
+\newcommand{\status}[1]{\textbf{#1}}   % On track / Needs attention
+\newcommand{\placeholder}[1]{\textcolor{muted}{[#1]}}
+
+\urlstyle{tt}
+\begin{document}
+
+% ===================== TITLE BLOCK =====================
+\begin{center}
+  {\LARGE\scshape\color{fsds} Reporting Period: \reportperiod}\\[6pt]
+  {\Large\scshape\color{ink} Project Title: \projecttitle}\\[8pt]
+  {\small\textsc{\reportday\ Report \#\reportno}\quad\textbar\quad Submitted: \datesubmitted\quad\textbar\quad Stage: \projectstage}\\[8pt]
+  \href{\githublink}{\textsc{GitHub}}
+\end{center}
+
+\ifshowguide
+\begin{center}
+\fcolorbox{fsds}{fsds!8}{\begin{minipage}{0.95\textwidth}
+\small\color{ink}\setlength{\parskip}{3pt}
+{\bfseries\color{fsds}BEFORE YOU WRITE}\par
+\textbf{Stage} (set \texttt{\textbackslash projectstage} in the metadata block; pick the closest one): \textbf{Literature review} (reading papers, mapping gaps), \textbf{Ideation} (forming the problem and method), \textbf{Implementation} (building code and baselines), \textbf{Experiments} (running and analysing), \textbf{Writing} (drafting the paper).\par
+\textbf{Length limit: maximum 3 pages of main text} (supervisor page not counted). Typical: 2 pages. Literature review, Ideation, Implementation: 1--2 pages. Experiments, Writing: up to 3 pages. Keep notes, raw logs, extra plots and long derivations in your GitHub repository (linked at the top) instead of pasting them here. A report covers only 3--4 days of work, so be concise.\par
+\textbf{Cadence.} Reports are due on \textbf{Monday} and \textbf{Thursday}. Each one covers the period since the previous report (Thursday to Monday, Monday to Thursday) and plans until the next one. If a section has nothing new, write ``No change''.
+\end{minipage}}
+\end{center}
+\fi
+
+% ===================== 1 =====================
+\section{Research Problem}
+\guide{3--5 sentences: the problem, why it matters, and the intended approach. Keep it stable across reports and edit only when the research direction changes. If the problem is still forming, write your current draft problem statement and list the open questions you are trying to settle.}
+This project tests whether English-only unlearning of a learned first-hop fact changes the model's final answer to dependent multi-hop questions in French, German, Hindi, and Thai. It measures direct recall of the targeted fact separately from downstream answer accuracy, and compares each language's change with English.
+
+% ===================== 2 =====================
+\section{Summary of Progress Since Last Report}
+\guide{3--5 sentences: the main outcome of this period, and whether you completed what you planned in the previous report.}
+The one-seed Llama 3.2 1B pilot was independently rescored and its derived result files reproduced. The baseline competence requirement failed in all four target languages, so the pilot is exploratory and cannot answer the research question. The multilingual training release remains blocked. Llama 3.1 8B access is now accepted; the corrected Kaggle notebook passed its safe setup, but its GPU runtime smoke has not yet been rerun.
+
+% ===================== 3 =====================
+\section{Tasks Completed}
+\guide{One line per task: what was done and the result. For papers, add one \emph{Paper read} line per paper.}
+\begin{itemize}
+  \item \textbf{Pilot audit:} Independently rescored 7,740 predictions; all seven derived score/report files matched the archived outputs.
+  \item \textbf{SFT pipeline:} Replaced the fragile prompt-token-prefix mask with a single-render, offset-based assistant mask; all 35 fixture tests pass.
+  \item \textbf{Kaggle smoke:} Published notebook version 6 and verified its safe-default run. It loaded no weights and produced no experiment result.
+  \item \textbf{Data audit:} Rechecked the source-verified release; eligible coverage remains below the required counts, so no training corpus was assembled.
+\end{itemize}
+
+% ===================== 4 =====================
+\section{Ongoing Work}
+\guide{Work in progress. If a task Needs attention, describe the problem and the support you need in section 6 (Issues).}
+\begin{tabularx}{\textwidth}{@{}p{4.4cm}X>{\raggedright\arraybackslash}p{5cm}@{}}
+\toprule
+\textbf{Work item} & \textbf{Current state} & \textbf{Status}\\
+\midrule
+Training-data release & 5/117 requested forget, 3/39 retain, and 0/44 training-only composition cases pass. & Needs attention\\
+Llama 3.1 8B runtime smoke & Access is accepted; corrected notebook is published. A T4 x2 interactive smoke run and receipt are still needed. & Needs attention\\
+\bottomrule
+\end{tabularx}
+
+% ===================== 5 =====================
+\section{Results and Findings}
+\guide{Findings and current experiment results.}
+\begin{itemize}
+  \item The pilot does not show greater multi-hop damage in non-English than in English. Estimates are imprecise, and the failed competence gate prevents a reliable hypothesis test.
+  \item On the same matched cases, target-language direct recall was correct in only 0--2 of 9--11 cases, while final answers remained correct in 8--10. The pilot's unlearning did not reliably remove downstream answering; the reason is unresolved.
+  \item Independent rescoring reproduced the outputs, but the archived run omitted the unlearning-script hash; exact training-code provenance is incomplete.
+\end{itemize}
+\textbf{Pre-unlearning baseline on forget cases:}\par\smallskip
+\begin{tabularx}{\textwidth}{@{}lrrr@{}}
+\toprule
+\textbf{Language} & \textbf{Direct accuracy} & \textbf{Multi-hop accuracy} & \textbf{Matched cases / groups}\\
+\midrule
+English & 94.8\% & 20.8\% & 15 / --\\
+French & 90.9\% & 18.2\% & 10 / 6\\
+German & 87.0\% & 19.5\% & 9 / 5\\
+Hindi & 87.0\% & 18.2\% & 9 / 6\\
+Thai & 94.8\% & 19.5\% & 11 / 7\\
+\bottomrule
+\end{tabularx}
+\captionof{table}{Llama 3.2 1B, seed 42. The target-language gate requires at least 15 matched cases across 8 groups; all four languages fall short.}
+
+\textbf{Post-unlearning paired contrast:} target-language multi-hop change minus English change, in percentage points. Positive values mean less damage in the target language. Intervals are 95\% entity-group bootstrap intervals (2,000 resamples); each comparison uses only 9--11 matched cases across 5--7 groups.
+\par\smallskip
+\begin{tabularx}{\textwidth}{@{}l>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X@{}}
+\toprule
+\textbf{Method} & \textbf{French} & \textbf{German} & \textbf{Hindi} & \textbf{Thai}\\
+\midrule
+GA  & $+10.0\;[0.0,50.0]$ & $+22.2\;[0.0,80.0]$ & $0.0\;[-33.3,33.3]$ & $+9.1\;[-28.6,57.1]$\\
+GD  & $+10.0\;[0.0,50.0]$ & $+11.1\;[-33.3,80.0]$ & $+11.1\;[0.0,50.0]$ & $+9.1\;[-42.9,71.4]$\\
+NPO & $+10.0\;[0.0,50.0]$ & $+11.1\;[-33.3,80.0]$ & $+11.1\;[0.0,50.0]$ & $+9.1\;[-27.3,57.1]$\\
+\bottomrule
+\end{tabularx}
+\captionof{table}{Target-minus-English multi-hop change (percentage points; 95\% CI). GA = Gradient Ascent; GD = Gradient Difference; NPO = Negative Preference Optimization. All 12 intervals include or touch zero.}
+
+The pilot shows no clear cross-language amplification. Its small samples and failed competence gate mean it cannot rule out meaningful effects or establish that there is no transfer.
+
+% Example figure (uncomment and replace):
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.6\textwidth]{results.png}
+%   \caption{What this figure shows and the conclusion.}
+% \end{figure}
+
+% ===================== 6 =====================
+\section{Issues / Blockers and Support Needed}
+\guide{List each problem and what you need (review, GPU time, data, a decision). Write ``None'' if there are no issues.}
+\begin{itemize}
+  \item \textbf{Data release:} Only 5/117 requested forget, 3/39 retain, and 0/44 composition cases pass. \textbf{Need:} Decide whether to expand or replace the candidate source while preserving leakage controls.
+  \item \textbf{8B smoke:} The prior run loaded weights but failed at the old mask check. \textbf{Need:} Rerun corrected notebook v6 interactively on Kaggle T4 x2 and save its receipt.
+\end{itemize}
+
+% ===================== 7 =====================
+\section{Plan Until Next Report}
+\guide{Only list items that can be checked at the next report. Write each as a concrete outcome (``Choose the benchmark'', not ``Work on the benchmark'').}
+\begin{itemize}[label=$\square$]
+  \item Pass and verify the multilingual release, or document that the leakage-isolated cohort is unavailable.
+  \item Run the corrected 8B smoke and archive its passing receipt.
+  \item If both gates pass, run the 8B pre-unlearning baseline; start unlearning only if competence passes.
+\end{itemize}
+
+% ===================== 8 =====================
+\section{Targeted Journal/Conference Submission Information}
+\guide{If there is no submission plan yet, write ``Not applicable''.}
+\begin{tabularx}{\textwidth}{@{}p{4.2cm}p{2.8cm}p{3.6cm}X@{}}
+\toprule
+\textbf{Venue} & \textbf{Deadline} & \textbf{Current stage} & \textbf{Notes}\\
+\midrule
+Not applicable & -- & Experiments & No submission planned yet.\\
+\bottomrule
+\end{tabularx}
+
+% ===================== SUPERVISOR PAGE =====================
+% One block per reviewer. To add a co-supervisor, copy one
+% \reviewerblock line below and change the name / role.
+% To remove one, delete its line. Blocks flow onto an extra page if needed.
+\newcommand{\reviewerblock}[2]{%
+  \needspace{8\baselineskip}%
+  \begin{tabularx}{\textwidth}{|p{4cm}|X|}\hline
+  \textbf{#2} & #1\\ \hline
+  \textbf{Date Reviewed} & \\ \hline
+  \textbf{Comments} & \rule[-3.6cm]{0pt}{3.7cm}\\ \hline
+  \end{tabularx}\par\medskip}
+
+\clearpage
+\section*{\color{fsds}Supervisor's Comment and Check}
+\guide{For supervisors only; the researcher leaves this page untouched. Each reviewer fills in their own block: date reviewed and comments.}
+
+\reviewerblock{\supervisor}{Supervisor}
+\reviewerblock{\cosupervisora}{Co-supervisor 1}
+\reviewerblock{\cosupervisorb}{Co-supervisor 2}
+
+\end{document}
