@@ -1,0 +1,11 @@
+{
+  "artifact_archive": {
+    "path": "/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip",
+    "bytes": 56860,
+    "sha256": "122b17e88dd8a61a761bd00d2f5e628b670a4ac08b1d09ae1291ca68c0da90f2",
+    "crc": "PASS"
+  },
+  "run_status": "ERROR",
+  "protocol_id": "tofu_3b_idk_ap_lora_profile_diagnostic_v1",
+  "protocol_sha256": "650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS_IDK_AP_PROTOCOL_DATA_AUDIT",
+  "protocol_id": "tofu_3b_idk_ap_lora_profile_diagnostic_v1",
+  "protocol_sha256": "650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049",
+  "tofu_sha256": {
+    "forget10.json": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+    "forget10_perturbed.json": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+    "retain90.json": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+    "holdout10.json": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd"
+  },
+  "idk_responses_sha256": "eb9a1e32a6f4112088306e1a65d297240f75513dd5223b2acb326454675fd605",
+  "idk_response_count": 100,
+  "profile_assignments": {
+    "forget10_dev_train_and_eval": [
+      [
+        0,
+        9
+      ]
+    ],
+    "forget10_final_train_and_eval": [
+      [
+        10,
+        19
+      ]
+    ],
+    "retain90_optimizer_train": [
+      [
+        0,
+        4
+      ],
+      [
+        6,
+        21
+      ],
+      [
+        23,
+        59
+      ],
+      [
+        100,
+        179
+      ]
+    ],
+    "retain90_dev_utility_eval": [
+      [
+        60,
+        79
+      ]
+    ],
+    "retain90_final_utility_eval": [
+      [
+        80,
+        99
+      ]
+    ],
+    "holdout10_dev_utility_eval": [
+      [
+        0,
+        9
+      ]
+    ],
+    "holdout10_final_utility_eval": [
+      [
+        10,
+        19
+      ]
+    ],
+    "retain90_excluded_conflicting_question_profiles": [
+      5,
+      22
+    ]
+  },
+  "excluded_retain_conflict_blocks": [
+    5,
+    22
+  ],
+  "cohort_counts": {
+    "dev": {
+      "forget10": 200,
+      "retain90_eval": 400,
+      "holdout10_eval": 200,
+      "retain90_optimizer": 2760
+    },
+    "final": {
+      "forget10": 200,
+      "retain90_eval": 400,
+      "holdout10_eval": 200,
+      "retain90_optimizer": 2760
+    }
+  },
+  "training_started": false,
+  "model_weights_loaded": false
+}

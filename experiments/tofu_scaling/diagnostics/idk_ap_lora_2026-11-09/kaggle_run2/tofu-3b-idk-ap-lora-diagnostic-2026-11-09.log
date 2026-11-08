@@ -1,0 +1,153 @@
+[{"stream_name":"stderr","time":8.080891957,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.080947099,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.080953823,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.080958332,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.70633552,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.706368094,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.706374917,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.706379407,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.89381802,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":9.911307862,"data":"Writing /kaggle/working/evaluate_npo_profile_cohort.py\n"}
+,{"stream_name":"stdout","time":9.92848336,"data":"Writing /kaggle/working/idk_ap_lora/validate_protocol.py\n"}
+,{"stream_name":"stdout","time":9.946168553,"data":"Writing /kaggle/working/idk_ap_lora/verify_objective.py\n"}
+,{"stream_name":"stdout","time":9.968853172,"data":"Writing /kaggle/working/idk_ap_lora/train.py\n"}
+,{"stream_name":"stdout","time":9.991525938,"data":"Writing /kaggle/working/idk_ap_lora/evaluate.py\n"}
+,{"stream_name":"stdout","time":10.011082394,"data":"Writing /kaggle/working/idk_ap_lora/run.py\n"}
+,{"stream_name":"stdout","time":10.031852552,"data":"Writing /kaggle/working/idk_ap_lora/verify_run.py\n"}
+,{"stream_name":"stdout","time":10.046239435,"data":"Writing /kaggle/working/idk_ap_lora/requirements.txt\n"}
+,{"stream_name":"stdout","time":10.081532512,"data":"Writing /kaggle/working/idk_ap_lora/idk_ap_lora_protocol.json\n"}
+,{"stream_name":"stdout","time":10.099065614,"data":"Writing /kaggle/working/idk_ap_lora_protocol.json\n"}
+,{"stream_name":"stdout","time":32.954288587,"data":"{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130', 'gpus': ['Tesla T4', 'Tesla T4'], 'internet': 'PASS'}\n"}
+,{"stream_name":"stderr","time":32.997258855,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":33.199726977,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":33.199753637,"data":"\n"}
+,{"stream_name":"stderr","time":33.199760571,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":34.533081482,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":34.533107451,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":34.592886075,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stdout","time":34.600289101,"data":"{'official_idk_ap_commit': 'b622294965f8b40feb5383c9e93dbdb26a76b6b3'}\n"}
+,{"stream_name":"stderr","time":34.60150179,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":34.601520358,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":34.601525506,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stderr","time":34.601546842,"data":"\n"}
+,{"stream_name":"stderr","time":34.601551161,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":34.601555252,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":34.601558832,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stdout","time":35.108592368,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/validate_protocol.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\"]}\n"}
+,{"stream_name":"stdout","time":35.310429398,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/validate_protocol.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\"]}\n"}
+,{"stream_name":"stdout","time":36.105945764,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1.0, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/pinned-data-profile-audit.log\"}\n"}
+,{"stream_name":"stdout","time":36.10630283,"data":"{\"stage\": \"official-objective-value-gradient-equivalence\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/verify_objective.py\", \"--upstream-losses\", \"/kaggle/working/closer-look-LLM-unlearning/trainer/losses.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\"]}\n"}
+,{"stream_name":"stdout","time":36.308882792,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1.0, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/pinned-data-profile-audit.log\"}\n"}
+,{"stream_name":"stdout","time":36.308917107,"data":"{\"stage\": \"official-objective-value-gradient-equivalence\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/verify_objective.py\", \"--upstream-losses\", \"/kaggle/working/closer-look-LLM-unlearning/trainer/losses.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\"]}\n"}
+,{"stream_name":"stdout","time":40.89408808,"data":"{\"stage\": \"official-objective-value-gradient-equivalence\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 4.79, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/official-objective-value-gradient-equivalence.log\"}\n"}
+,{"stream_name":"stdout","time":41.094840627,"data":"{\"stage\": \"official-objective-value-gradient-equivalence\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 4.79, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/official-objective-value-gradient-equivalence.log\"}\n"}
+,{"stream_name":"stdout","time":57.089838172,"data":"{\"stage\": \"dev-idk-ap-training\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/train.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--objective-check\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\", \"--data-audit\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--cohort\", \"dev\", \"--seed\", \"42\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training\"]}\n"}
+,{"stream_name":"stdout","time":57.292696572,"data":"{\"stage\": \"dev-idk-ap-training\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/train.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--objective-check\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\", \"--data-audit\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--cohort\", \"dev\", \"--seed\", \"42\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training\"]}\n"}
+,{"stream_name":"stdout","time":1509.465810561,"data":"{\"stage\": \"dev-idk-ap-training\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1452.38, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/dev-idk-ap-training.log\"}\n"}
+,{"stream_name":"stdout","time":1509.466929269,"data":"{\"stage\": \"dev-idk-ap-evaluation-and-gates\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/evaluate.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--cohort\", \"dev\", \"--adapter-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training/adapter\", \"--training-receipt\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training/training_receipt.json\", \"--reference-support-dir\", \"/kaggle/input/datasets/bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/evaluation\"]}\n"}
+,{"stream_name":"stdout","time":1509.673847697,"data":"{\"stage\": \"dev-idk-ap-training\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1452.38, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/dev-idk-ap-training.log\"}\n"}
+,{"stream_name":"stdout","time":1509.673877005,"data":"{\"stage\": \"dev-idk-ap-evaluation-and-gates\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/evaluate.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--cohort\", \"dev\", \"--adapter-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training/adapter\", \"--training-receipt\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/training/training_receipt.json\", \"--reference-support-dir\", \"/kaggle/input/datasets/bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/dev/evaluation\"]}\n"}
+,{"stream_name":"stdout","time":3934.105119182,"data":"{\"stage\": \"dev-idk-ap-evaluation-and-gates\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 2424.64, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/dev-idk-ap-evaluation-and-gates.log\"}\n"}
+,{"stream_name":"stdout","time":3934.105947428,"data":"{\"stage\": \"final-idk-ap-training\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/train.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--objective-check\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\", \"--data-audit\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--cohort\", \"final\", \"--seed\", \"42\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training\"]}\n"}
+,{"stream_name":"stdout","time":3934.312746435,"data":"{\"stage\": \"dev-idk-ap-evaluation-and-gates\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 2424.64, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/dev-idk-ap-evaluation-and-gates.log\"}\n"}
+,{"stream_name":"stdout","time":3934.312804375,"data":"{\"stage\": \"final-idk-ap-training\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/train.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--objective-check\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_objective_equivalence.json\", \"--data-audit\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--cohort\", \"final\", \"--seed\", \"42\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training\"]}\n"}
+,{"stream_name":"stdout","time":5440.55765339,"data":"{\"stage\": \"final-idk-ap-training\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1506.45, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/final-idk-ap-training.log\"}\n"}
+,{"stream_name":"stdout","time":5440.558736104,"data":"{\"stage\": \"final-idk-ap-evaluation-and-gates\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/evaluate.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--cohort\", \"final\", \"--adapter-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training/adapter\", \"--training-receipt\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training/training_receipt.json\", \"--reference-support-dir\", \"/kaggle/input/datasets/bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/evaluation\"]}\n"}
+,{"stream_name":"stdout","time":5440.772136635,"data":"{\"stage\": \"final-idk-ap-training\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 1506.45, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/final-idk-ap-training.log\"}\n"}
+,{"stream_name":"stdout","time":5440.772185539,"data":"{\"stage\": \"final-idk-ap-evaluation-and-gates\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/evaluate.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--cohort\", \"final\", \"--adapter-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training/adapter\", \"--training-receipt\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/training/training_receipt.json\", \"--reference-support-dir\", \"/kaggle/input/datasets/bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output-dir\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/final/evaluation\"]}\n"}
+,{"stream_name":"stdout","time":7831.941116884,"data":"{\"stage\": \"final-idk-ap-evaluation-and-gates\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 2391.38, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/final-idk-ap-evaluation-and-gates.log\"}\n"}
+,{"stream_name":"stdout","time":7832.147282828,"data":"{\"stage\": \"final-idk-ap-evaluation-and-gates\", \"status\": \"PASS\", \"returncode\": 0, \"elapsed_seconds\": 2391.38, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/final-idk-ap-evaluation-and-gates.log\"}\n"}
+,{"stream_name":"stdout","time":7843.510198533,"data":"{\n"}
+,{"stream_name":"stdout","time":7843.510236549,"data":"  \"run_receipt\": {\n"}
+,{"stream_name":"stdout","time":7843.510241778,"data":"    \"status\": \"FAIL_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7843.510246118,"data":"    \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":7843.510250125,"data":"    \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":7843.51026908,"data":"    \"upstream_source_commit\": \"b622294965f8b40feb5383c9e93dbdb26a76b6b3\",\n"}
+,{"stream_name":"stdout","time":7843.510272795,"data":"    \"upstream_losses_sha256\": \"078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f\",\n"}
+,{"stream_name":"stdout","time":7843.510276276,"data":"    \"kaggle_gpu_names\": [],\n"}
+,{"stream_name":"stdout","time":7843.510279865,"data":"    \"started_at_utc\": \"2026-11-08T17:32:42.925601+00:00\",\n"}
+,{"stream_name":"stdout","time":7843.510283157,"data":"    \"training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.510286185,"data":"    \"development_training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.510289645,"data":"    \"final_training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.510293125,"data":"    \"development_gate_status\": \"PASS_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7843.510296747,"data":"    \"development_comparison\": \"dev/evaluation/dev_idk_ap_comparison.json\",\n"}
+,{"stream_name":"stdout","time":7843.510300395,"data":"    \"final_comparison\": \"final/evaluation/final_idk_ap_comparison.json\",\n"}
+,{"stream_name":"stdout","time":7843.51030381,"data":"    \"completed_at_utc\": \"2026-11-08T19:42:39.759245+00:00\"\n"}
+,{"stream_name":"stdout","time":7843.510307371,"data":"  },\n"}
+,{"stream_name":"stdout","time":7843.510310487,"data":"  \"artifact_archive_manifest\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip.manifest.json\",\n"}
+,{"stream_name":"stdout","time":7843.510314997,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":7843.510319006,"data":"    \"path\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip\",\n"}
+,{"stream_name":"stdout","time":7843.510322803,"data":"    \"bytes\": 186305204,\n"}
+,{"stream_name":"stdout","time":7843.510326113,"data":"    \"sha256\": \"0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3\",\n"}
+,{"stream_name":"stdout","time":7843.510329378,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":7843.510332678,"data":"  }\n"}
+,{"stream_name":"stdout","time":7843.510335736,"data":"}\n"}
+,{"stream_name":"stdout","time":7843.712515736,"data":"{\n"}
+,{"stream_name":"stdout","time":7843.712553335,"data":"  \"run_receipt\": {\n"}
+,{"stream_name":"stdout","time":7843.712558239,"data":"    \"status\": \"FAIL_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7843.712561927,"data":"    \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":7843.712565433,"data":"    \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":7843.712568983,"data":"    \"upstream_source_commit\": \"b622294965f8b40feb5383c9e93dbdb26a76b6b3\",\n"}
+,{"stream_name":"stdout","time":7843.712572504,"data":"    \"upstream_losses_sha256\": \"078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f\",\n"}
+,{"stream_name":"stdout","time":7843.712575979,"data":"    \"kaggle_gpu_names\": [],\n"}
+,{"stream_name":"stdout","time":7843.712579404,"data":"    \"started_at_utc\": \"2026-11-08T17:32:42.925601+00:00\",\n"}
+,{"stream_name":"stdout","time":7843.712582679,"data":"    \"training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.712586135,"data":"    \"development_training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.712589625,"data":"    \"final_training_started\": true,\n"}
+,{"stream_name":"stdout","time":7843.712592849,"data":"    \"development_gate_status\": \"PASS_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7843.712596657,"data":"    \"development_comparison\": \"dev/evaluation/dev_idk_ap_comparison.json\",\n"}
+,{"stream_name":"stdout","time":7843.712616792,"data":"    \"final_comparison\": \"final/evaluation/final_idk_ap_comparison.json\",\n"}
+,{"stream_name":"stdout","time":7843.712620418,"data":"    \"completed_at_utc\": \"2026-11-08T19:42:39.759245+00:00\"\n"}
+,{"stream_name":"stdout","time":7843.712623856,"data":"  },\n"}
+,{"stream_name":"stdout","time":7843.712627194,"data":"  \"artifact_archive_manifest\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip.manifest.json\",\n"}
+,{"stream_name":"stdout","time":7843.712630691,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":7843.712634092,"data":"    \"path\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip\",\n"}
+,{"stream_name":"stdout","time":7843.712637618,"data":"    \"bytes\": 186305204,\n"}
+,{"stream_name":"stdout","time":7843.712641321,"data":"    \"sha256\": \"0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3\",\n"}
+,{"stream_name":"stdout","time":7843.712644977,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":7843.712648406,"data":"  }\n"}
+,{"stream_name":"stdout","time":7843.712651414,"data":"}\n"}
+,{"stream_name":"stdout","time":7848.382507558,"data":"{\n"}
+,{"stream_name":"stdout","time":7848.382547114,"data":"  \"status\": \"PASS_ARTIFACT_AND_RESULT_RECOMPUTATION\",\n"}
+,{"stream_name":"stdout","time":7848.382553344,"data":"  \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":7848.3825577,"data":"  \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":7848.382561936,"data":"  \"run_status\": \"FAIL_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7848.382565906,"data":"  \"cohorts_verified\": [\n"}
+,{"stream_name":"stdout","time":7848.382569827,"data":"    \"dev\",\n"}
+,{"stream_name":"stdout","time":7848.382573986,"data":"    \"final\"\n"}
+,{"stream_name":"stdout","time":7848.382577105,"data":"  ],\n"}
+,{"stream_name":"stdout","time":7848.382580287,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":7848.382584518,"data":"    \"bytes\": 186305204,\n"}
+,{"stream_name":"stdout","time":7848.38258796,"data":"    \"sha256\": \"0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3\",\n"}
+,{"stream_name":"stdout","time":7848.382591475,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":7848.382595292,"data":"  },\n"}
+,{"stream_name":"stdout","time":7848.382598892,"data":"  \"problems\": []\n"}
+,{"stream_name":"stdout","time":7848.382602824,"data":"}\n"}
+,{"stream_name":"stdout","time":7848.405434747,"data":"{\n"}
+,{"stream_name":"stdout","time":7848.405470253,"data":"  \"status\": \"PASS_ARTIFACT_AND_RESULT_RECOMPUTATION\",\n"}
+,{"stream_name":"stdout","time":7848.405476353,"data":"  \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":7848.405480462,"data":"  \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":7848.405484683,"data":"  \"run_status\": \"FAIL_DIAGNOSTIC_GATES\",\n"}
+,{"stream_name":"stdout","time":7848.405488027,"data":"  \"cohorts_verified\": [\n"}
+,{"stream_name":"stdout","time":7848.40549118,"data":"    \"dev\",\n"}
+,{"stream_name":"stdout","time":7848.405494139,"data":"    \"final\"\n"}
+,{"stream_name":"stdout","time":7848.405497467,"data":"  ],\n"}
+,{"stream_name":"stdout","time":7848.405500569,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":7848.405504141,"data":"    \"bytes\": 186305204,\n"}
+,{"stream_name":"stdout","time":7848.405521528,"data":"    \"sha256\": \"0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3\",\n"}
+,{"stream_name":"stdout","time":7848.405526594,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":7848.405529951,"data":"  },\n"}
+,{"stream_name":"stdout","time":7848.405533154,"data":"  \"problems\": []\n"}
+,{"stream_name":"stdout","time":7848.405536119,"data":"}\n"}
+,{"stream_name":"stdout","time":7848.405542429,"data":"{'status': 'FAIL_DIAGNOSTIC_GATES', 'protocol_id': 'tofu_3b_idk_ap_lora_profile_diagnostic_v1', 'protocol_sha256': '650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049', 'upstream_source_commit': 'b622294965f8b40feb5383c9e93dbdb26a76b6b3', 'upstream_losses_sha256': '078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f', 'kaggle_gpu_names': [], 'started_at_utc': '2026-11-08T17:32:42.925601+00:00', 'training_started': True, 'development_training_started': True, 'final_training_started': True, 'development_gate_status': 'PASS_DIAGNOSTIC_GATES', 'development_comparison': 'dev/evaluation/dev_idk_ap_comparison.json', 'final_comparison': 'final/evaluation/final_idk_ap_comparison.json', 'completed_at_utc': '2026-11-08T19:42:39.759245+00:00'}\n"}
+,{"stream_name":"stdout","time":7848.405553475,"data":"{'status': 'PASS_ARTIFACT_AND_RESULT_RECOMPUTATION', 'protocol_id': 'tofu_3b_idk_ap_lora_profile_diagnostic_v1', 'protocol_sha256': '650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049', 'run_status': 'FAIL_DIAGNOSTIC_GATES', 'cohorts_verified': ['dev', 'final'], 'artifact_archive': {'bytes': 186305204, 'sha256': '0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3', 'crc': 'PASS'}, 'problems': []}\n"}
+,{"stream_name":"stdout","time":7848.405560717,"data":"{'artifact': '/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip', 'bytes': 186305204}\n"}
+,{"stream_name":"stderr","time":7851.579441804,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7851.579500133,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7851.75670818,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7851.756756946,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7852.541419118,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7852.633597481,"data":"[NbConvertApp] Writing 233587 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":7855.199152178,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7856.125468939,"data":"[NbConvertApp] Writing 1059076 bytes to __results__.html\n"}
+]

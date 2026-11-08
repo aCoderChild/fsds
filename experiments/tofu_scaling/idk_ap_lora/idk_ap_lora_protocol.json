@@ -1,0 +1,211 @@
+{
+  "protocol_id": "tofu_3b_idk_ap_lora_profile_diagnostic_v1",
+  "status": "PREREGISTERED_BEFORE_GPU_RUN",
+  "registered_local_date": "2026-11-08",
+  "study_type": "One-seed exploratory LoRA adaptation diagnostic; not confirmatory and not an exact reproduction of the published full-parameter experiment.",
+  "research_question": "On the locked TOFU profile development cohort, does a fixed IDK+AP objective produce forget-set uncertainty while keeping retain-answer quality within the existing 5 percentage-point utility margins?",
+  "motivation": "A prior NPO+retain-NLL run failed forget Truth Ratio and retain ROUGE-L gates. This is a new method chosen before this run; no new alpha or learning-rate search will be performed.",
+  "model": {
+    "model_family": "3b",
+    "seed": 42,
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+    "architecture_id": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  "data": {
+    "repo_id": "locuslab/TOFU",
+    "revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "profile_block_size": 20,
+    "expected_rows": {
+      "forget10.json": 400,
+      "forget10_perturbed.json": 400,
+      "retain90.json": 3600,
+      "holdout10.json": 400
+    },
+    "sha256": {
+      "forget10.json": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+      "forget10_perturbed.json": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+      "retain90.json": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+      "holdout10.json": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd"
+    },
+    "profile_assignment_ranges_inclusive": {
+      "forget10_dev_train_and_eval": [
+        [
+          0,
+          9
+        ]
+      ],
+      "forget10_final_train_and_eval": [
+        [
+          10,
+          19
+        ]
+      ],
+      "retain90_optimizer_train": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          100,
+          179
+        ]
+      ],
+      "retain90_dev_utility_eval": [
+        [
+          60,
+          79
+        ]
+      ],
+      "retain90_final_utility_eval": [
+        [
+          80,
+          99
+        ]
+      ],
+      "holdout10_dev_utility_eval": [
+        [
+          0,
+          9
+        ]
+      ],
+      "holdout10_final_utility_eval": [
+        [
+          10,
+          19
+        ]
+      ],
+      "retain90_excluded_conflicting_question_profiles": [
+        5,
+        22
+      ]
+    },
+    "limitations": [
+      "TOFU profile blocks are inferred from contiguous groups of 20 rows because the published files do not expose a structured author ID.",
+      "The published full checkpoint was already fine-tuned on the TOFU training data; this protocol measures adapter effects relative to that checkpoint.",
+      "This follow-up uses a subset of the benchmark and is not a standard full-split TOFU leaderboard run.",
+      "Reuses the locked dev/final profile assignments from the prior preregistered TOFU cohort design; dev profiles have been observed in earlier NPO work, so this is a method diagnostic, not a fresh confirmatory test."
+    ]
+  },
+  "objective": {
+    "name": "IDK+AP",
+    "forget_loss": "mean token cross-entropy for a fixed sampled official IDK answer on each forget prompt",
+    "retain_loss": "-mean(logsigmoid(beta * (sum_response_NLL_idk - sum_response_NLL_correct)) / beta)",
+    "beta": 0.1,
+    "forget_coefficient": 1.0,
+    "retain_ap_coefficient": 1.0,
+    "source_repository": "sail-sg/closer-look-LLM-unlearning",
+    "source_commit": "b622294965f8b40feb5383c9e93dbdb26a76b6b3",
+    "loss_source_path": "trainer/losses.py",
+    "loss_source_sha256": "078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f",
+    "idk_response_source_path": "data/idontknow.jsonl",
+    "idk_response_file": "idontknow.jsonl",
+    "idk_response_sha256": "eb9a1e32a6f4112088306e1a65d297240f75513dd5223b2acb326454675fd605",
+    "idk_response_count": 100,
+    "upstream_loss_reduction": "Forget IDK loss uses model outputs.loss (mean over scored tokens); AP compares per-example summed response-token NLLs, averages paired examples, and divides by beta."
+  },
+  "training": {
+    "method": "IDK+AP objective with LoRA adapters; resource-adapted, not the paper exact full-parameter run",
+    "seed": 42,
+    "epochs": 5,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "optimizer": "torch AdamW",
+    "optimizer_betas": [
+      0.9,
+      0.999
+    ],
+    "optimizer_eps": 1e-08,
+    "scheduler": "linear with one training epoch of warmup",
+    "precision": "FP16 frozen base checkpoint; FP32 LoRA and loss; SDPA",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "microbatch_paired_examples": 1,
+    "gradient_accumulation_steps": 8,
+    "effective_paired_batch_size": 8,
+    "gradient_clip_norm": 1.0,
+    "max_length": 512,
+    "truncation": false,
+    "retain_pairing": "For each forget row, deterministically sample one retain row with replacement from the optimizer-only retain profile pool and one fixed IDK response; use the same retain question/IDK response pair in AP for all epochs.",
+    "forget_examples": 200,
+    "retain_optimizer_pool_examples": 2760,
+    "expected_optimizer_steps": 125,
+    "expected_loss_trace_rows": 1000,
+    "hardware": "Kaggle GPU T4 x2, sharded model, no CPU/disk offload",
+    "initialization_and_smoke": "Run one bounded real-data optimizer update, verify finite loss/gradients and nonzero LoRA change, restore the exact initial LoRA tensors, reset optimizer/sampler state, then begin the locked run without reloading model weights."
+  },
+  "evaluation": {
+    "metrics": [
+      "answer_probability",
+      "greedy-generation ROUGE-L recall",
+      "forget Truth Ratio score",
+      "forget IDK-marker rate",
+      "forget exact official-IDK response rate"
+    ],
+    "generation": "Greedy, do_sample=false, max_new_tokens=200",
+    "development_rows": {
+      "forget10": 200,
+      "retain90": 400,
+      "holdout10": 200
+    },
+    "final_rows": {
+      "forget10": 200,
+      "retain90": 400,
+      "holdout10": 200
+    },
+    "bootstrap": {
+      "unit": "profile block, paired by source row index",
+      "draws": 5000,
+      "seed": 42,
+      "interval": "percentile 95%"
+    },
+    "noninferiority_margin": 0.05,
+    "research_claim_limit": "One-seed, previously seen development cohort, LoRA adaptation; result is exploratory and cannot establish general effectiveness or reproduce the paper."
+  },
+  "decision_rule": {
+    "development_gates": {
+      "forget10.truth_ratio_score": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > 0",
+      "forget10.answer_probability": "upper bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be < 0",
+      "retain90.answer_probability": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05",
+      "retain90.rougeL_recall": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05",
+      "holdout10.answer_probability": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05"
+    },
+    "if_all_development_gates_pass": "Run exactly one final-cohort training/evaluation with identical hyperparameters and the disjoint final profile blocks; do not tune based on final metrics.",
+    "if_any_development_gate_fails": "Stop; do not train on or evaluate the final cohort under this protocol.",
+    "idk_marker_rates": "Descriptive only. A fixed lexical marker and exact-string screen; not a semantic refusal/factuality judgment and not a pass gate."
+  },
+  "reference_support": {
+    "kaggle_dataset": "bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08",
+    "reference_file": "full_reference_profile_eval.json",
+    "reference_file_sha256": "17c453122c9ab597daa7d05975ed232991cf4e9336c7951542d7260b2c46ead6",
+    "source_archive_sha256": "68b72db9abc1c6120e74397f3e495a97b2e2c3b1c1205f212408948136e45c02",
+    "reference_checkpoint_repo": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "reference_checkpoint_revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+  },
+  "stopping_rules": [
+    "Verify all pinned TOFU and IDK file hashes, row counts, profile assignments, evaluation reference lineage, and split disjointness before model loading.",
+    "Verify IDK and AP losses and gradients against the pinned official source before model loading.",
+    "Run exactly one bounded real-data smoke update and restore LoRA initialization before the research training loop.",
+    "Do not alter the single locked method or hyperparameters after training begins.",
+    "Do not run final profiles unless all five development gates pass.",
+    "Any runtime failure is an engineering failure, not a research result; preserve logs and receipts."
+  ]
+}

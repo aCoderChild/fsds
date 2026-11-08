@@ -1,0 +1,169 @@
+[{"stream_name":"stderr","time":10.498373596,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.498423698,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.498428518,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.498431228,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.204611158,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.204638406,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.204643014,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.204648079,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.584968122,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":12.602892839,"data":"Writing /kaggle/working/evaluate_npo_profile_cohort.py\n"}
+,{"stream_name":"stdout","time":12.620102893,"data":"Writing /kaggle/working/idk_ap_lora/validate_protocol.py\n"}
+,{"stream_name":"stdout","time":12.636190436,"data":"Writing /kaggle/working/idk_ap_lora/verify_objective.py\n"}
+,{"stream_name":"stdout","time":12.65927063,"data":"Writing /kaggle/working/idk_ap_lora/train.py\n"}
+,{"stream_name":"stdout","time":12.680876094,"data":"Writing /kaggle/working/idk_ap_lora/evaluate.py\n"}
+,{"stream_name":"stdout","time":12.709249907,"data":"Writing /kaggle/working/idk_ap_lora/run.py\n"}
+,{"stream_name":"stdout","time":12.732850201,"data":"Writing /kaggle/working/idk_ap_lora/verify_run.py\n"}
+,{"stream_name":"stdout","time":12.748213192,"data":"Writing /kaggle/working/idk_ap_lora/requirements.txt\n"}
+,{"stream_name":"stdout","time":12.764125332999999,"data":"Writing /kaggle/working/idk_ap_lora/idontknow.jsonl\n"}
+,{"stream_name":"stdout","time":12.782970113,"data":"Writing /kaggle/working/idk_ap_lora/idk_ap_lora_protocol.json\n"}
+,{"stream_name":"stdout","time":12.801340449,"data":"Writing /kaggle/working/idk_ap_lora_protocol.json\n"}
+,{"stream_name":"stdout","time":43.069476261,"data":"{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130', 'gpus': ['Tesla T4', 'Tesla T4'], 'internet': 'PASS'}\n"}
+,{"stream_name":"stderr","time":43.119742381,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":43.321978023,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":43.322003146,"data":"\n"}
+,{"stream_name":"stderr","time":43.322009155,"data":"Cloning into '/kaggle/working/closer-look-LLM-unlearning'...\n"}
+,{"stream_name":"stderr","time":45.494300012,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":45.494329184,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":45.559193658,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stdout","time":45.568615132,"data":"{'official_idk_ap_commit': 'b622294965f8b40feb5383c9e93dbdb26a76b6b3'}\n"}
+,{"stream_name":"stderr","time":45.569874504,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":45.569894993,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":45.569927538,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stderr","time":45.569932407,"data":"\n"}
+,{"stream_name":"stderr","time":45.569935814,"data":"From https://github.com/sail-sg/closer-look-LLM-unlearning\n"}
+,{"stream_name":"stderr","time":45.56993939,"data":" * branch            b622294965f8b40feb5383c9e93dbdb26a76b6b3 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":45.569942641,"data":"HEAD is now at b622294 Update requirements.txt\n"}
+,{"stream_name":"stdout","time":45.890483607,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/validate_protocol.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\"]}\n"}
+,{"stream_name":"stdout","time":46.092598638,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"STARTED\", \"command\": [\"/usr/bin/python3\", \"/kaggle/working/idk_ap_lora/validate_protocol.py\", \"--protocol\", \"/kaggle/working/idk_ap_lora_protocol.json\", \"--idk\", \"/kaggle/working/idk_ap_lora/idontknow.jsonl\", \"--output\", \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/idk_ap_data_audit.json\"]}\n"}
+,{"stream_name":"stdout","time":46.752740734,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"ERROR\", \"returncode\": 1, \"elapsed_seconds\": 0.86, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/pinned-data-profile-audit.log\"}\n"}
+,{"stream_name":"stdout","time":46.753083195,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":46.753109008,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 150, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":46.753115419,"data":"    main()\n"}
+,{"stream_name":"stdout","time":46.7531205,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":46.75312487,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 141, in main\n"}
+,{"stream_name":"stdout","time":46.753145285,"data":"    result = validate(args.protocol, args.idk)\n"}
+,{"stream_name":"stdout","time":46.753149394,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 100, in validate\n"}
+,{"stream_name":"stdout","time":46.753154203,"data":"    raise ValueError(\"Pinned IDK response file hash mismatch\")\n"}
+,{"stream_name":"stdout","time":46.753158287,"data":"ValueError: Pinned IDK response file hash mismatch\n"}
+,{"stream_name":"stdout","time":46.753162114,"data":"\n"}
+,{"stream_name":"stdout","time":46.764590876,"data":"{\n"}
+,{"stream_name":"stdout","time":46.764608719,"data":"  \"run_receipt\": {\n"}
+,{"stream_name":"stdout","time":46.764612819999996,"data":"    \"status\": \"ERROR\",\n"}
+,{"stream_name":"stdout","time":46.76461633,"data":"    \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":46.764620621,"data":"    \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":46.764624912,"data":"    \"upstream_source_commit\": \"b622294965f8b40feb5383c9e93dbdb26a76b6b3\",\n"}
+,{"stream_name":"stdout","time":46.764629405,"data":"    \"upstream_losses_sha256\": \"078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f\",\n"}
+,{"stream_name":"stdout","time":46.764633537,"data":"    \"kaggle_gpu_names\": [],\n"}
+,{"stream_name":"stdout","time":46.764637152,"data":"    \"started_at_utc\": \"2026-11-08T17:25:42.209134+00:00\",\n"}
+,{"stream_name":"stdout","time":46.764648979,"data":"    \"training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.764652525,"data":"    \"development_training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.764655939,"data":"    \"final_training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.764659168,"data":"    \"development_gate_status\": null,\n"}
+,{"stream_name":"stdout","time":46.764664102,"data":"    \"error\": \"RuntimeError: Pinned data/profile audit failed\",\n"}
+,{"stream_name":"stdout","time":46.764670867,"data":"    \"completed_at_utc\": \"2026-11-08T17:25:43.073710+00:00\"\n"}
+,{"stream_name":"stdout","time":46.764673269,"data":"  },\n"}
+,{"stream_name":"stdout","time":46.76467553,"data":"  \"artifact_archive_manifest\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip.manifest.json\",\n"}
+,{"stream_name":"stdout","time":46.764677919,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":46.764680155,"data":"    \"path\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip\",\n"}
+,{"stream_name":"stdout","time":46.764682558,"data":"    \"bytes\": 56860,\n"}
+,{"stream_name":"stdout","time":46.764684735,"data":"    \"sha256\": \"122b17e88dd8a61a761bd00d2f5e628b670a4ac08b1d09ae1291ca68c0da90f2\",\n"}
+,{"stream_name":"stdout","time":46.764687085,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":46.764689322,"data":"  }\n"}
+,{"stream_name":"stdout","time":46.764691551,"data":"}\n"}
+,{"stream_name":"stderr","time":46.765291223,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":46.765761462,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 228, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":46.765772876,"data":"    main()\n"}
+,{"stream_name":"stderr","time":46.765778096,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":46.765782437,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 125, in main\n"}
+,{"stream_name":"stderr","time":46.765787198,"data":"    raise RuntimeError(\"Pinned data/profile audit failed\")\n"}
+,{"stream_name":"stderr","time":46.765791989,"data":"RuntimeError: Pinned data/profile audit failed\n"}
+,{"stream_name":"stdout","time":46.788903755,"data":"{\"stage\": \"pinned-data-profile-audit\", \"status\": \"ERROR\", \"returncode\": 1, \"elapsed_seconds\": 0.86, \"log\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run/logs/pinned-data-profile-audit.log\"}\n"}
+,{"stream_name":"stdout","time":46.788925739,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":46.788931561,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 150, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":46.788937166,"data":"    main()\n"}
+,{"stream_name":"stdout","time":46.788941497,"data":"    ~~~~^^\n"}
+,{"stream_name":"stdout","time":46.788945785,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 141, in main\n"}
+,{"stream_name":"stdout","time":46.788950663,"data":"    result = validate(args.protocol, args.idk)\n"}
+,{"stream_name":"stdout","time":46.788955117,"data":"  File \"/kaggle/working/idk_ap_lora/validate_protocol.py\", line 100, in validate\n"}
+,{"stream_name":"stdout","time":46.788958965,"data":"    raise ValueError(\"Pinned IDK response file hash mismatch\")\n"}
+,{"stream_name":"stdout","time":46.788962938,"data":"ValueError: Pinned IDK response file hash mismatch\n"}
+,{"stream_name":"stdout","time":46.788966663,"data":"\n"}
+,{"stream_name":"stdout","time":46.788970659,"data":"{\n"}
+,{"stream_name":"stdout","time":46.788975533,"data":"  \"run_receipt\": {\n"}
+,{"stream_name":"stdout","time":46.788990628,"data":"    \"status\": \"ERROR\",\n"}
+,{"stream_name":"stdout","time":46.788995148,"data":"    \"protocol_id\": \"tofu_3b_idk_ap_lora_profile_diagnostic_v1\",\n"}
+,{"stream_name":"stdout","time":46.788999182,"data":"    \"protocol_sha256\": \"650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049\",\n"}
+,{"stream_name":"stdout","time":46.789003495,"data":"    \"upstream_source_commit\": \"b622294965f8b40feb5383c9e93dbdb26a76b6b3\",\n"}
+,{"stream_name":"stdout","time":46.789007626,"data":"    \"upstream_losses_sha256\": \"078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f\",\n"}
+,{"stream_name":"stdout","time":46.789011844,"data":"    \"kaggle_gpu_names\": [],\n"}
+,{"stream_name":"stdout","time":46.789015772,"data":"    \"started_at_utc\": \"2026-11-08T17:25:42.209134+00:00\",\n"}
+,{"stream_name":"stdout","time":46.789020201,"data":"    \"training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.789024659,"data":"    \"development_training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.789029689,"data":"    \"final_training_started\": false,\n"}
+,{"stream_name":"stdout","time":46.789033915,"data":"    \"development_gate_status\": null,\n"}
+,{"stream_name":"stdout","time":46.789037583,"data":"    \"error\": \"RuntimeError: Pinned data/profile audit failed\",\n"}
+,{"stream_name":"stdout","time":46.789041758,"data":"    \"completed_at_utc\": \"2026-11-08T17:25:43.073710+00:00\"\n"}
+,{"stream_name":"stdout","time":46.789046036,"data":"  },\n"}
+,{"stream_name":"stdout","time":46.789050313,"data":"  \"artifact_archive_manifest\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip.manifest.json\",\n"}
+,{"stream_name":"stdout","time":46.78905494,"data":"  \"artifact_archive\": {\n"}
+,{"stream_name":"stdout","time":46.789058877,"data":"    \"path\": \"/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip\",\n"}
+,{"stream_name":"stdout","time":46.789063136,"data":"    \"bytes\": 56860,\n"}
+,{"stream_name":"stdout","time":46.789067321,"data":"    \"sha256\": \"122b17e88dd8a61a761bd00d2f5e628b670a4ac08b1d09ae1291ca68c0da90f2\",\n"}
+,{"stream_name":"stdout","time":46.789077526,"data":"    \"crc\": \"PASS\"\n"}
+,{"stream_name":"stdout","time":46.789081859,"data":"  }\n"}
+,{"stream_name":"stdout","time":46.789085624,"data":"}\n"}
+,{"stream_name":"stderr","time":46.790346164,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":46.790362724,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 228, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":46.790385318,"data":"    main()\n"}
+,{"stream_name":"stderr","time":46.790389171,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":46.790393027,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 125, in main\n"}
+,{"stream_name":"stderr","time":46.790397053,"data":"    raise RuntimeError(\"Pinned data/profile audit failed\")\n"}
+,{"stream_name":"stderr","time":46.790400862,"data":"RuntimeError: Pinned data/profile audit failed\n"}
+,{"stream_name":"stderr","time":46.790404714,"data":"\n"}
+,{"stream_name":"stderr","time":46.790422139,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":46.790425816,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 228, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":46.79042962,"data":"    main()\n"}
+,{"stream_name":"stderr","time":46.790433151,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":46.790436501,"data":"  File \"/kaggle/working/idk_ap_lora/run.py\", line 125, in main\n"}
+,{"stream_name":"stderr","time":46.79044088,"data":"    raise RuntimeError(\"Pinned data/profile audit failed\")\n"}
+,{"stream_name":"stderr","time":46.790452841,"data":"RuntimeError: Pinned data/profile audit failed\n"}
+,{"stream_name":"stderr","time":49.801319383,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":49.801898437,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":49.801907893,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":49.801919718,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":49.801922623,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":49.801925273,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":49.801927704,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":49.801930202,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":49.801932735,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":49.80194688,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":49.801949457,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":49.801951929,"data":"Exception encountered at \"In [16]\":\n"}
+,{"stream_name":"stderr","time":49.801954468,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":49.801957571,"data":"CalledProcessError                        Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":49.801976125,"data":"/tmp/ipykernel_23/3159292342.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":49.801980912,"data":"      9 os.environ['TOFU_MODEL_CACHE_ROOT'] = '/kaggle/working/tofu_model_cache'\n"}
+,{"stream_name":"stderr","time":49.801985713,"data":"     10 command = [sys.executable, '/kaggle/working/idk_ap_lora/run.py', '--protocol', '/kaggle/working/idk_ap_lora_protocol.json', '--idk', '/kaggle/working/idk_ap_lora/idontknow.jsonl', '--upstream-repo', str(UPSTREAM), '--reference-support-dir', str(SUPPORT), '--root', str(RUN_ROOT), '--artifact-zip', str(ARTIFACT)]\n"}
+,{"stream_name":"stderr","time":49.801991084,"data":"---\u003e 11 subprocess.run(command, check=True)\n"}
+,{"stream_name":"stderr","time":49.801995324,"data":"     12 verification = Path('/kaggle/working/idk_ap_independent_verification.json')\n"}
+,{"stream_name":"stderr","time":49.801998992,"data":"     13 verify = [sys.executable, '/kaggle/working/idk_ap_lora/verify_run.py', '--run-root', str(RUN_ROOT), '--protocol', '/kaggle/working/idk_ap_lora_protocol.json', '--artifact-zip', str(ARTIFACT), '--output', str(verification)]\n"}
+,{"stream_name":"stderr","time":49.802003038,"data":"\n"}
+,{"stream_name":"stderr","time":49.802006354,"data":"/usr/lib/python3.13/subprocess.py in run(input, capture_output, timeout, check, *popenargs, **kwargs)\n"}
+,{"stream_name":"stderr","time":49.802010048,"data":"    576         retcode = process.poll()\n"}
+,{"stream_name":"stderr","time":49.80201351,"data":"    577         if check and retcode:\n"}
+,{"stream_name":"stderr","time":49.802016948,"data":"--\u003e 578             raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":49.802040528,"data":"    579                                      output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":49.802043448,"data":"    580     return CompletedProcess(process.args, retcode, stdout, stderr)\n"}
+,{"stream_name":"stderr","time":49.802049948,"data":"\n"}
+,{"stream_name":"stderr","time":49.802055494,"data":"CalledProcessError: Command '['/usr/bin/python3', '/kaggle/working/idk_ap_lora/run.py', '--protocol', '/kaggle/working/idk_ap_lora_protocol.json', '--idk', '/kaggle/working/idk_ap_lora/idontknow.jsonl', '--upstream-repo', '/kaggle/working/closer-look-LLM-unlearning', '--reference-support-dir', '/kaggle/input/datasets/bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08', '--root', '/kaggle/working/tofu_3b_idk_ap_lora_diagnostic_run', '--artifact-zip', '/kaggle/working/tofu_3b_idk_ap_lora_diagnostic.zip']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":49.802079724,"data":"\n"}
+,{"stream_name":"stderr","time":52.17714997,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":52.177188651,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":52.388573053,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":52.388598745,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":53.198261644,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":53.290002444,"data":"[NbConvertApp] Writing 233636 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":56.110097037,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":57.08588288,"data":"[NbConvertApp] Writing 1067389 bytes to __results__.html\n"}
+]

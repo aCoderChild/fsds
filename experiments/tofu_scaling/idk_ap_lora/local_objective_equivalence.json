@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "official_source": "sail-sg/closer-look-LLM-unlearning@b622294965f8b40feb5383c9e93dbdb26a76b6b3",
+  "official_losses_py_sha256": "078f64bb847bde0734747c00decf8cd06d44ca587e2c4eae2db01b12e7a2534f",
+  "protocol_sha256": "650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049",
+  "torch_version": "2.13.0",
+  "beta": 0.1,
+  "official_forget_loss": 3.044060468673706,
+  "candidate_forget_loss": 3.044060468673706,
+  "forget_loss_abs_difference": 0.0,
+  "official_ap_loss": 6.99643611907959,
+  "candidate_ap_loss": 6.99643611907959,
+  "ap_loss_abs_difference": 0.0,
+  "total_loss_abs_difference": 0.0,
+  "max_parameter_gradient_abs_difference": 0.0,
+  "batch_size": 2,
+  "response_token_counts_vary": true,
+  "loss_reduction": "forget IDK uses token-mean CE; AP uses mean of per-sequence summed-NLL preference losses"
+}
