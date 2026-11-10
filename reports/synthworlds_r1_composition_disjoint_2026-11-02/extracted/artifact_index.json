@@ -1,0 +1,165 @@
+{
+  "files": [
+    {
+      "file": "project_input/composition_corpus_disjoint.jsonl",
+      "bytes": 1335370,
+      "sha256": "12ff7668442753a57f319e505ea1cf22f1e2610d5243b939617626ff97c7a7e9"
+    },
+    {
+      "file": "project_input/composition_disjoint_manifest.json",
+      "bytes": 4414,
+      "sha256": "ffc11e06cec49a3843b8c014788476bc7b3638fd7fcb94c64d0ae09a8ed2530e"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/case_metrics.jsonl",
+      "bytes": 756188,
+      "sha256": "191c4bfe6708860e932bdd9e86d1e3c539e204bcaa1cccdb1d40ac3316bfef22"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/cross_language_contrasts.csv",
+      "bytes": 22,
+      "sha256": "e7195dd230b09a46e4c2d25e213f59ff853661751d6594042a6c8757ecaee25b"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/cross_language_contrasts.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/diagnostic_report.md",
+      "bytes": 5661,
+      "sha256": "dda34dd7d4328c665a4d21d2e152fffb722e6a6ba079c8093310c07c94b6469a"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/partial_predictions/pretrained.jsonl",
+      "bytes": 296039,
+      "sha256": "6c5d56676fcbc6c6027993f102aa9792d9f705fb90a626719bebb99bf48b4924"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/partial_predictions/retain_only.jsonl",
+      "bytes": 214040,
+      "sha256": "705fa797c53f0f67353004a64d5fbf6de58f32d7439ed8e64f4181ab9da59433"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/partial_predictions/sft.jsonl",
+      "bytes": 205328,
+      "sha256": "4bf1929ad0a4bca819d3ba0c8f48f61d4a4ebb3e300c9a29700a6dd9c96fb2d0"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/precompetent_english_forget_targets.json",
+      "bytes": 1424,
+      "sha256": "3e62a7222c5b3ada05df97bef92223ad4be1023689e36177f5a0b8aab852f2e9"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/predictions.jsonl",
+      "bytes": 715407,
+      "sha256": "85e9c4838e87dcd92aa628bb05ecd41fbbe39898f65184d4dfc142b48f8db635"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/scored_predictions.jsonl",
+      "bytes": 1144175,
+      "sha256": "c5c5f60512e6ccccda577ca7abd4abd40234d69705129f8ee4541adc4d3fe76c"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/summary.csv",
+      "bytes": 5154,
+      "sha256": "72ace9828ea6304bb6cc9f002c647198b21ae6df00a4a55c47855275e4fff7e8"
+    },
+    {
+      "file": "r1_composition_diagnostics_disjoint/summary.json",
+      "bytes": 29233,
+      "sha256": "e83361e729d389ce3831a280c3bab3c3248f75b91b4542cea20394fc5f07099b"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "bac52297ec2942c7dd57d2dc402b0100840e843f865f0bface68c15989891e78"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "220436e8f1f2fab9882a75fe1d19f2736b07694bfb190663da13ea21a105a571"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/adapter/training_args.bin",
+      "bytes": 5905,
+      "sha256": "3f6f9cb4eaa629f594e77448ef082384c466e7a995a9ab5412bfdc5414741857"
+    },
+    {
+      "file": "r1_composition_retain_only_disjoint/run_manifest.json",
+      "bytes": 1043,
+      "sha256": "3ccbdc87747ebf9b32bee92daa028c4c249e0902067441294eed6cab57b18198"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "0f5ebfb2dedccd012dce55f2e86beacc4694828acb5c5a0924b5a52fb5a52204"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "e9a7beebc2cf277d47cdcf268625b3e9929047e607cf0a8d789ea236c405645f"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/adapter/training_args.bin",
+      "bytes": 5841,
+      "sha256": "84d73c91bddf1e8472a895330102e737f51d2db3a86244f5a436693f94373d42"
+    },
+    {
+      "file": "r1_composition_sft_disjoint/run_manifest.json",
+      "bytes": 1061,
+      "sha256": "4da11d3d3a6f18e6e8a3389913b721a5c967002d2c9a3be24fbc0c61d3e9c0a7"
+    }
+  ],
+  "sha256_scope": "each source file before ZIP packaging"
+}

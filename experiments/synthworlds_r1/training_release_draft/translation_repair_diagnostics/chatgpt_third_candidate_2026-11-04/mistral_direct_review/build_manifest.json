@@ -1,0 +1,13 @@
+{
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "qwen_decisions_or_backtranslations_sent": false,
+  "release_approved": false,
+  "review_script_sha256": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+  "rows": 187,
+  "status": "PREPARED_BLINDED_DIRECT_CROSS_REVIEW_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

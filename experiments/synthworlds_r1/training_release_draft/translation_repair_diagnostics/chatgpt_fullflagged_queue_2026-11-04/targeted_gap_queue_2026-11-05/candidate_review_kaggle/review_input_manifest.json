@@ -1,0 +1,64 @@
+{
+  "status": "READY_FOR_BOUNDED_AI_ONLY_DIAGNOSTIC_REVIEW",
+  "review_rows": 187,
+  "rows_by_language": {
+    "fr": 21,
+    "de": 19,
+    "hi": 62,
+    "th": 85
+  },
+  "rows_by_kind": {
+    "atomic": 100,
+    "composition": 87
+  },
+  "review_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+  "reviewer_models": {
+    "backtranslation": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "judge": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "fields_sent": [
+    "opaque row key",
+    "language",
+    "kind",
+    "masked English question",
+    "candidate translated question"
+  ],
+  "answers_or_labels_sent": false,
+  "source_case_ids_sent": false,
+  "private_row_map_sent": false,
+  "human_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "input_source_hashes": {
+    "candidate_audit": "a762f6b002dae7c2f3b137b2d21725237e97c7e033cf6da3e5624198e9458a8c",
+    "requests/de/batch_01.jsonl": "7bdde863d1724a1f85b6f0a5531ba57231e3302797fed9fdb718259405538c3c",
+    "requests/de/batch_02.jsonl": "9a17a73eb306198bb755adba8081c0c6b3c9d3355e4b5d6a429060f5cce4160b",
+    "requests/fr/batch_01.jsonl": "b53cb2fa04f53bb3b66c1b6d122735cb5ee9f852a409031f43880ae627377624",
+    "requests/fr/batch_02.jsonl": "df85bd281a91b31ac4f218c0ab2288c5d6da4110b277629bcaa9f08cb91c12f4",
+    "requests/hi/batch_01.jsonl": "8e4e2ae360e5298ab189f3b957155896138acae0a46cd62cfef18997dd424919",
+    "requests/hi/batch_02.jsonl": "93cd18be3cfcf1d24df930a6591414a2b14094dd24db86b436a5dd2164b7bebe",
+    "requests/hi/batch_03.jsonl": "a1592f94825d903cf3185d3b1eee76672179a5f15e6262608aed811eb9fe4fd6",
+    "requests/hi/batch_04.jsonl": "ebb1895abf23219b0c853c5c8f6ddfb8a3e5f95f914d52580743055c59b161ce",
+    "requests/th/batch_01.jsonl": "a4c55bb4c8a1dbaf5d6f8f87b1d4035246f282d6155b31e50a8852caa464527a",
+    "requests/th/batch_02.jsonl": "8f15cee81a8fbcaca81d96ec66d590618ff4af44bf2017e0d2b7fc65d14a7032",
+    "requests/th/batch_03.jsonl": "4f8058cb707fd5977988bdcb920afb0fa5f6473f10a1f52d355e3cec37291e4f",
+    "requests/th/batch_04.jsonl": "d652523d756c09c21fb7e76e743af0f769de353e0f392cfcfc482423b5ae4a0e",
+    "requests/th/batch_05.jsonl": "b28c261354bc3099fc64f7fef668afc2559f27f985550a2dc18f1a9dea61d463",
+    "requests/th/batch_06.jsonl": "c650ee5f14f8d859cb8c999f8095991e215fb187655c8b8ba634be1d8bae8b54"
+  },
+  "candidate_file_hashes": {
+    "candidates/fr.jsonl": "dcc451f12f2306e3d3a158e87407f6f594f028e8a24443aee5f3951f61b92e93",
+    "candidates/de.jsonl": "3b0ac7a4c51fdfc416d3109777bd2087702696bcbd98f1fe5d54c575357e8e5f",
+    "candidates/hi.jsonl": "b7713eee78375d1cdbfdee4602c7fbe9503e58adf33f19a5dfccfcc93822238c",
+    "candidates/th.jsonl": "3cff17720b53321be6f5d9943d60e9462b4f033f3004ddf62ff3566056215c26"
+  },
+  "review_script_sha256": "cef9f1d677d259ff80c3b5ab1e1b2137509951d55ecdcbf21aa6ebdc81549cf1",
+  "verifier_script_sha256": "b734a7b40851cb354d9fcc328890eb02029c2815f93175fe393edba1e5f9f70f",
+  "kernel_metadata_sha256": "30164679750f79fb590ffa30b19103c0e7950b3b9b60e4d56e277a674a76d975"
+}

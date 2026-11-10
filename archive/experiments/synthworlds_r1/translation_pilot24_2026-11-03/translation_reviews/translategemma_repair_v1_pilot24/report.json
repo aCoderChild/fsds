@@ -1,0 +1,650 @@
+{
+  "ai_review_flagged_total": 556,
+  "ai_review_pass_total": 1774,
+  "batch_size": 1,
+  "completed_at_utc": "2026-11-03T03:55:16.902565+00:00",
+  "deduplication_scope": "exact masked source/translation payload, across each complete language file and resumed runs",
+  "duplicate_pair_decision_conflicts": 0,
+  "human_reviewed_total": 0,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "audit_record_rows": 585,
+      "cross_model_review_rows": 564,
+      "flagged_rows": 112,
+      "input_rows": 585,
+      "invalidated_saved_reviews": [
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "424ec710416c0fb47e9e0c2ecb9c2e9fc9cd118ec2b478c76222435bb3c0a625",
+          "prompt_id": "0005-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "5786e4aedd8748d9433aa34800ade5270bbffc47e81a043e5eb1ddc2c1d3f061"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "6b5b726e165daeb0b574d665a7b1d0eda9cb487865a86e96b707366934f64746",
+          "prompt_id": "0006-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "c50f008978ca3523c618c1126006e4145f7f840304b743f7fd667b8bc19dde49"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "6b5b726e165daeb0b574d665a7b1d0eda9cb487865a86e96b707366934f64746",
+          "prompt_id": "0006-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "54bf69d9aecfcf9fd84043adbeefc8b121bbcfa19b8adf2182fd5ff429d0a0b3"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "1ca0b8d7a27df492b323a79927c610ef796ba56af551804328fa2d8277df79d5",
+          "prompt_id": "0011-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "d17b7cc289eecb9779ddc3c8f41663ec6fb6261c5de7f1716126a3170ea7234b"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0c6447caa4c30504e51153625626a8a797b81d7378e57ad9965c72638ddf1635",
+          "prompt_id": "0016-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "e04218d46303e2cfc7cea60e583ea46b4249d427871d0e7557ad2c56b0a31dfa"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "791dc6b800a0b44c732060bc8fb1f763af207f3bce625309690304bb130b15d3",
+          "prompt_id": "0016-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "22cfb31e900ef0c629e08eaed8c67036efb08f74d9bfe6489602679d26d82bce"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "1e445b754d8732a5e055b3a2c0a8bdb4c6fe84984240ec4728ac2d6734f29b3c",
+          "prompt_id": "0018-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "c6c8a95f621684e50ffcc1135eefc37d4fb83185b498765398acbed47d6b6c66"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "fd8d8f99273b1525978c24e2f6e27aa49a9f618cbda19d807892add4df4a131e",
+          "prompt_id": "0019-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "175f89a949cf61a78755026627251f50da69ef9eb2ca75fceb4cb545e60274cc"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "637cff9583bcc46029d6312faa3089bccf95842cc1cdb61ab8100d466f2bb363",
+          "prompt_id": "0019-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "175f89a949cf61a78755026627251f50da69ef9eb2ca75fceb4cb545e60274cc"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "f8f17514c93f5d919c453fa982fd45a783950120a6678edee2e26833fd84fe88",
+          "prompt_id": "0023-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "1d674b58fad44b8673997759298e6e04bb05b4d41077e75b57ed6f25064a155e"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "f8f17514c93f5d919c453fa982fd45a783950120a6678edee2e26833fd84fe88",
+          "prompt_id": "0023-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "b5441eff220a4444961e93c3bce420d202989f9feccdc4b360d0007d50d29b71"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "a4256f8272d3e8b27f0754196b127dd156af8a285c5f43365928687de8b49e34",
+          "prompt_id": "0024-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "148109be97b72c04456ab4e655b978ff2b8cca7c5db288d2ba10bd70dbe1cd30"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "f1f15d4892a9a16207bf6380f3fc98b20d8a56c2aa2918137aee101cf21dec8e",
+          "prompt_id": "0028-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "d0c1138e58cf68d8b23ed2798027305fdf42e2be441e2d2af09e045e9830b037"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "07494e2a56880876bb1210fb159f526450f18bdbe81e94dc44533bded2d3d8b6",
+          "prompt_id": "0029-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "176a89c361c32ce8d1118de3bbfe23ad64a3303d8e5715346d0f3783007ca85a"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c1e27873073e5a452e2f5ecfe530f53023952163e738b2a873e78d1da223193a",
+          "prompt_id": "0031-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "43feeac7a9f6226d1a3bc1cbffad153ead8f2f757e29f6eec8de1f55b4dc3f76"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c1e27873073e5a452e2f5ecfe530f53023952163e738b2a873e78d1da223193a",
+          "prompt_id": "0031-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "43feeac7a9f6226d1a3bc1cbffad153ead8f2f757e29f6eec8de1f55b4dc3f76"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "794c7df277f78951bc8c290b8999daddd6bd1549512b496c52990ab475c47278",
+          "prompt_id": "0031-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "f156bc81bbc42cca9d9a41e918af4e2f372e918b4c0bbb174f6208fc448683b0"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "a08c2ef03a621981898f7ee1a46926cf295cdbb89debbe97e307c92ed34795d4",
+          "prompt_id": "0032-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "e5b41d931a42db26af7ccb434eb56c6f1f920d3f252df876356e9aa37e7212f8"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "32d9fa69d3a54e9d4fae49d7dbf7189a6f1095cad1f150124b62425417e007ac",
+          "prompt_id": "0034-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "0385cc39519051c3d93fc3bfad704ad1f0590985d59056f7c62023f7d1f39cd1"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "eaf465bce1abdc2f19ba5289bbca84950e5de7efbba6a371a1a36cbd678870dc",
+          "prompt_id": "0035-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "23ac179006ff1208693ce99939fad9e5ff1422e75a7d5902fa7dc2bff85e095f"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "a26a0ee324662cdec09a0bf3b449a09dea3abddbdb27aa06b2862dd258d1b071",
+          "prompt_id": "0037-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "32b032c7bfa63997319f140ca52d2a45a39fd4484b1ed6624b09098fe12f4466"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "94d9dc415e8e8b20054f91711de8a1a8516b8cd68a99f65adbbe5cff14d9fc27",
+          "prompt_id": "0040-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "bf9221f39e1c5d8b89f519dcd7bebc7bff85d55c9c04015806f4887090c31840"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "94d9dc415e8e8b20054f91711de8a1a8516b8cd68a99f65adbbe5cff14d9fc27",
+          "prompt_id": "0040-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "bf9221f39e1c5d8b89f519dcd7bebc7bff85d55c9c04015806f4887090c31840"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0b6d9f3281b1da5d01ebca593ac19291c290c61c8ba9f5280d15cf0e66b96c82",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "0f2f75f4d5b2f9391421523fdae7720977f3dd0c3e1c23512c0fff08b3f5f958"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0f2f75f4d5b2f9391421523fdae7720977f3dd0c3e1c23512c0fff08b3f5f958",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "0b6d9f3281b1da5d01ebca593ac19291c290c61c8ba9f5280d15cf0e66b96c82"
+        }
+      ],
+      "model_call_failures": [],
+      "pass_rows": 473,
+      "review_sha256": "c46e5e72000607f4038ab5d42133407d79552a50030efdbf100aa3d6638a42e6",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 21,
+      "status": "AI_ONLY_REVIEW_COMPLETE_REQUIRES_REPAIRS",
+      "translation_failed_rows": 0,
+      "translation_sha256": "d6533e5322d3df7c7cc1392f513e9598df161824d8b673f7e72870f626844b1d",
+      "unresolved_rows": 0
+    },
+    "fr": {
+      "audit_record_rows": 585,
+      "cross_model_review_rows": 559,
+      "flagged_rows": 121,
+      "input_rows": 585,
+      "invalidated_saved_reviews": [
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "7e33676cd144e237c451b9def144148fc06aa4734025306179bd1ca5537f1ae2",
+          "prompt_id": "0005-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "0c93f234042c6ef89519754afc20934119c052443ac80559b9afac1f7787f757"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "bad4e2d8ef10b0143cc96eb92977a49e63c5a768764f87ef618248e28b0b41f7",
+          "prompt_id": "0007-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "dc9aafcef5ccfaa473c3626187438081157cdedd82e9b2fe4a154c3e88a31d42"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "614b2154ecf47622ddfa22ac506f80becdd7a070b667d0e714f75d25cd04eafa",
+          "prompt_id": "0011-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "9139fa8049da2af87ea0b09675c632c0cd2410a4f2a9301ac9b2b60945894a21"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "4db81de426bbe8220e0302be1a405d8168c48aa71bafc36263f6ec53c91d0162",
+          "prompt_id": "0016-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "337a3da3ef2c691b1fe0800bd6f213a405a6c381efa0072faa7cf4b7ef575693"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "681dbf9b01903c950aa62a702be4a0afd80dc889e03a3be4d5e6b345f9b0fa70",
+          "prompt_id": "0017-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "6fad530211977d3e739f109f238e32e12343813d2291ceca1a185952af14091c"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "cbda9bf9952fe0a540b8a27343db75f05f61996a48aafd43d0ce017aff3b3170",
+          "prompt_id": "0017-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "b9be4b75ed1dfc147fbcf7f3dde8a96df96c4ca48488ede442b65b40a20fa760"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "852b7984e246d96dabbf9cb0149bb30b688b4594cb1ce8cfec33926087a3dc4e",
+          "prompt_id": "0019-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "f6b476f3eea58b85ee0e5c573b61de629bd67bd717e53f327925d0bb03c795ff"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "bc1341d824b8162943a64db4b8b744aaecf91224b6c42ff15c87712d2c512768",
+          "prompt_id": "0022-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "b73dd9f3424a50150fa95b40dcc194feb718b0202e136bffa9e5b5351678a5fb"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "558593e793ddba8c8bca9f88a109c31e87c7e1db2286e0e73748bc624a41f6f2",
+          "prompt_id": "0024-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "888ff65e47f115213e93a9de81ed1ea732743a32f12ac96458ec5efab65000e2"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "7b7d64ab1d818b8fe94464424a117a96297a96e17b07a7c963b8c8bb7c576b1e",
+          "prompt_id": "0026-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "e3bf220fa7d9865e9209d4297397fe4d211018665cd67adb5827a6fac7c2600a"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "3b1571762a921d505913acc38716d486016f77bf28839065197b8cba43858119",
+          "prompt_id": "0027-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "92de675f45431ce071e91405eb08d481d0a451e057b6207956b1bd3ca26a9522"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "a9f1bdd5a0d06ccc36e155958f276bbcb110113317179ea76cbb05e56137c06f",
+          "prompt_id": "0030-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "03a451a086639d3a240bb8c834e939086505c59ad9a7f4a91f1513b16e20de85"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "ad674abb67465b691fa59b3ebf545a200c99815866127670ea5fe9e1256aaa7c",
+          "prompt_id": "0031-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "b5f094c3ce8a1f014278dfae68d297ad52f46335954e3e63b14ced543e11f008"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "f1aa0f9ce20a1a2756ff5b61c66fbbdf4bdc57eafa465074251c65a34184a423",
+          "prompt_id": "0032-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "6b284cbbf5d540542dfc9e3b79a96f8a4e8a8fa4488f54f502ce430849535b72"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "869d54a8702c80ec3a8ec4e4fea05e2a926a1bb76c40a592a145e1a133d9db2a",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "69a64bb6da4f657995422f1992972a88b4b0d15d9971537475a13d47504e3768"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "69a64bb6da4f657995422f1992972a88b4b0d15d9971537475a13d47504e3768",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "869d54a8702c80ec3a8ec4e4fea05e2a926a1bb76c40a592a145e1a133d9db2a"
+        }
+      ],
+      "model_call_failures": [],
+      "pass_rows": 455,
+      "review_sha256": "cb9b80b99ab288b8b772d22e16f13cf17ca64085041e5753ddc42e1c10f9b07e",
+      "reviewed_rows": 576,
+      "same_model_self_check_rows": 17,
+      "status": "AI_ONLY_REVIEW_COMPLETE_WITH_BLOCKED_TRANSLATIONS",
+      "translation_failed_rows": 9,
+      "translation_sha256": "9b785dbf61f9525f3ae1e5777b5b78aaf810397856391c754ce2a8ca5202e69e",
+      "unresolved_rows": 0
+    },
+    "hi": {
+      "audit_record_rows": 585,
+      "cross_model_review_rows": 555,
+      "flagged_rows": 156,
+      "input_rows": 585,
+      "invalidated_saved_reviews": [
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "fe58c8c54d0dc09cb471ec0c2ff0ca6cd59813ff250e6d12d6cc33d3926672d9",
+          "prompt_id": "0000-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "abc8f46d45b0f0dd6c6983f6a6b021592d7f04d34226cb2bb52e0419dcc4ef81"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "ba44a12d859c4d9b5f60744c25ec91ce1834d8c0ab233aeef22bc144de41d95c",
+          "prompt_id": "0001-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "86958105beb9d29ff695c8f5c066d22fcc4d20151f66c4dfe462cb4bc480791f"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "8850b79cf47ab1e542deb933c1d4bf7e39687c9efccdf897b225af29ebfe534e",
+          "prompt_id": "0002-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "789bb59bf0298b78c193e0cbf75f7dceeb31ba8fc9f24176003d654f1cd48d12"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "39092d10850ebe7de9ce3fb5619772e5c691cd1fd7ad4fbe07a50aae2ee57e95",
+          "prompt_id": "0004-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "ff448a909c1c29bd9da1abbc9d6a3ef4d400b1dee0ce24cf94f8d3ebe41b0c31"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "68ca610074d6f4d25600d2f6f477e22835be52f111e87adbd24e9664de9be37d",
+          "prompt_id": "0004-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "2165a41952e143d5dc8d6c6b50c46cbf5c502d2eec10b3b14ddabc61b1c3f4f1"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "80f2ace1af167ac22431be7955ebbe11d3592f6ca1871ebfce41929553cc6533",
+          "prompt_id": "0005-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "f9b69b0acf250be58d66f6ad1959dd9bbb1bdc65b95516d22c5a304d48c27f2f"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "9497cbc49237ffe21cbec5ba7f5b382a760d8ccd6c2539b45c3d6a3ae9f78f28",
+          "prompt_id": "0006-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "0822a3662138c7e5bd94ff8006b761dbbf5c2457adcd0215ceb11576cd683b5b"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "e2f4b579f66e9e4b6330372aed4cbdac8008810c140fb666ab278f81167d2401",
+          "prompt_id": "0007-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "ca51f0edb857bfc2127b129bbd8c218e5c004f959e9834965683e791e31dc7b2"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "5571b7545af55365dc3edd71c6b15e97ad5403fb71a2bc876c5f7ae1ac2b7a72",
+          "prompt_id": "0008-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "de56b053b86be97df58177f0cbfb84c1e133b6dba7af400860c0156154f1960e"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "139ff018e4be5a9aacd26633d60848b4a4c5aa832cdd64e7e489b5f2ef6193c6",
+          "prompt_id": "0009-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "8a553b74279a87830739292357e16eeda7dab06432efac18398bd877b0643900"
+        },
+        {
+          "action": "prior failed-translation record discarded and queued for review",
+          "current_review_pair_sha256": null,
+          "prompt_id": "0010-qa-sm:multi_hop",
+          "reason": "prior translation was failed; current draft is machine-translated",
+          "stored_review_pair_sha256": null
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "942dd4ea1705cd46b03d06d6b90f88c9d46ec5957ed195f2fd2c23ed5ac30258",
+          "prompt_id": "0011-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "1fffb053b15c3cbcf62c242b9109d8f93aec53d43430b761c3c2edc05db5c8d7"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "908749966bf6a2b684a4e26e2cbcae31c79e3b9c247a1b83567d6e7a2282367f",
+          "prompt_id": "0013-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "a08c6061fd391d604af739d5ebc1d117a25058b9f2e7abac0154bacd30078149"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0ea7607cc74187d04a1c8d7d2757ec3acd5af791066f7802dbe04171f33c437e",
+          "prompt_id": "0015-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "92021bfa8059aac1b0aabd6ecae1835db00e96a2f0fa99180db12b931273a5d7"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0ea7607cc74187d04a1c8d7d2757ec3acd5af791066f7802dbe04171f33c437e",
+          "prompt_id": "0015-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "92021bfa8059aac1b0aabd6ecae1835db00e96a2f0fa99180db12b931273a5d7"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "5de3c66482398ed4a054b4aac3a3d4646c63e6c3ad993373c9dd13eee0423478",
+          "prompt_id": "0016-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "85e766f1ccd58259cec90298fe174233d689dc8d3a1827f7b5e7efa935d93b00"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "9e1cff59a89f2dd5b372a0be8020ddcc81c835bdae121af62f06438a07321b88",
+          "prompt_id": "0016-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "02a61e5a51c6f4bbfecc275abbfd961093df05e71cac21b1af3f6c7bdc34df8e"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "e2559fbc64e1e15707c85892d2fd5f5a3accdb0b96e388e055fb73a7af143265",
+          "prompt_id": "0020-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "a7413bb9862ba58aca3544f32474029751715f5d7e635f2d1ebf289b9e59c405"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "5f083d6ae8a53b5a7656f69129d7a248dc429d487af221fd417d4a2dee28801f",
+          "prompt_id": "0021-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "5b4581e6007da743c3444ea999d1f574993f977723c4f18c302f98eac5a8b329"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "54f9e728a8ae31c97f134e828c9fb36b5d69afd71bd8a3c0de0ca40fda2a4c40",
+          "prompt_id": "0022-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "6016ec8beef958a7e69606c4b4ef833b9738369d902504d123422e7aa642f3aa"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "975a5d0494828c139404cbd9cc90f4ff6efdac2f831c66a70d765557fbee2fd4",
+          "prompt_id": "0023-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "a5ecf550f0777319ce96c3d7700609d8b1284c98b15c5624aee14749816962e1"
+        },
+        {
+          "action": "prior failed-translation record discarded and queued for review",
+          "current_review_pair_sha256": null,
+          "prompt_id": "0043-qa-sm:direct_positive",
+          "reason": "prior translation was failed; current draft is machine-translated",
+          "stored_review_pair_sha256": null
+        },
+        {
+          "action": "prior failed-translation record discarded and queued for review",
+          "current_review_pair_sha256": null,
+          "prompt_id": "0140-qa-sm:multi_hop",
+          "reason": "prior translation was failed; current draft is machine-translated",
+          "stored_review_pair_sha256": null
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "fec8bd5ac3f4668ccfb085eac2b39a3e396c5f88ec971ae63c3cfdb76bc4bbaa",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "b28ab53164fb6a6c7cdc29fe65b27946733909d7e4e7739fa61679c7b90f84fd"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "b28ab53164fb6a6c7cdc29fe65b27946733909d7e4e7739fa61679c7b90f84fd",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "fec8bd5ac3f4668ccfb085eac2b39a3e396c5f88ec971ae63c3cfdb76bc4bbaa"
+        }
+      ],
+      "model_call_failures": [],
+      "pass_rows": 429,
+      "review_sha256": "45550c35ae2e01006a80aba89f4b945ba8ba46df4b2f8457b630389f5fba0ad9",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 30,
+      "status": "AI_ONLY_REVIEW_COMPLETE_REQUIRES_REPAIRS",
+      "translation_failed_rows": 0,
+      "translation_sha256": "79f3c6d7b29bd766c4f18ed4c34f028b2320ef0d65f87c15e3ab657840de2c7c",
+      "unresolved_rows": 0
+    },
+    "th": {
+      "audit_record_rows": 585,
+      "cross_model_review_rows": 558,
+      "flagged_rows": 167,
+      "input_rows": 585,
+      "invalidated_saved_reviews": [
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c77b4ba65440bdc2c4046b42dbabbadf6f4a4b9775e93e30a047c83ccd087922",
+          "prompt_id": "0000-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "084a6f445b623108d8f547f7f69d4f5177178caa860c0446d08f9ba9bcfad169"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "55725ebca9ee37c85ef848b2b798c3e0a396d960b5d1ffe0430efb43f79f2726",
+          "prompt_id": "0003-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "439ebb6027b568200540079228d143d2af46bc86cbc3e16cb6ed593508ecc2d2"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c11cf4e3c9a4d246dedf3e04b9f4aa6cdb09d4c9d282b9bb78ee831f6eaa9e10",
+          "prompt_id": "0004-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "3b2ad0830b29299adb81411134478dfbb73cea64129b387d4984de7a541ad783"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "24bdf8ba9c124394b83135733676ec263fe3f8bbb919a96f0d79632ee7965c9f",
+          "prompt_id": "0005-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "b1b603b7d2baebe4059326831bc6e9e59202fd0b70210f0eb1dd485f95fa2fe2"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "5159686e75c2aa28ce5e50d5ad8189805b84712b9d806bf6225e8a7ee98e9ce6",
+          "prompt_id": "0006-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "76bc38ef2365d568427e934b88e1fb205a44e2a847205caabeec6af251392ee0"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c6bb5c19a25e4aba05eb276814be6376375885bc8e316d130a73d8cc900453a0",
+          "prompt_id": "0007-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "77b47bcbc972589087e1424a0a855aa713a74885a92c6721fc239f08252f0081"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "c6bb5c19a25e4aba05eb276814be6376375885bc8e316d130a73d8cc900453a0",
+          "prompt_id": "0007-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "77b47bcbc972589087e1424a0a855aa713a74885a92c6721fc239f08252f0081"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "6aec7ad71560610bd9ee1b7e572eb9a2127fb7a2abd8296e41178f215ff3393f",
+          "prompt_id": "0008-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "88b1ddb77c78466a0851c9091e2d89f318de89edbe66ff8cc8939a4906b3f7b8"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "fc7bb18a7a68cb5587ab16560dde716e8325a6234ef27af45499ec3aa015cb96",
+          "prompt_id": "0009-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "323fb6630accee3f85e404bbc44a4e742fca0c631c4932b37ec1df2b2fc70dbb"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "adde6887b777b0f5bf6227795240bdd9066bddbd23611b9ef35674ae7d07f102",
+          "prompt_id": "0011-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "f1d38116f9ea2ba1e1db68bb6012f0260540a11e45b09b599790be1d16aafba1"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "1fd5d5aad72161615a2557357f68501092f7a7da523dc481958b04e7d509d0e6",
+          "prompt_id": "0013-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "a65741e60f5e1ddcf07c6e3c7986a6bd58d00490f52bd0510356624e44618bde"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0ff6650fd7e83a3cd074193b2be7f9d667253331eeb511ade8595246fb39b95a",
+          "prompt_id": "0015-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "39098a1ff921722225aaa0da722a4f53b77c63cfc18a3baa2911c0f6d312c022"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "0ff6650fd7e83a3cd074193b2be7f9d667253331eeb511ade8595246fb39b95a",
+          "prompt_id": "0015-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "39098a1ff921722225aaa0da722a4f53b77c63cfc18a3baa2911c0f6d312c022"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "9e3788539d8b3058cb14aeebeeb7f677405840b1c3d1919996e90db218056f64",
+          "prompt_id": "0015-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "e6cba8ef018118166d5642bd755d5dec71cb5bc456f6ef0822c55627cc06f3b3"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "4bdfdca9a48f2cf89dd26893bffc1983798118581faacfc66874fed42d23af18",
+          "prompt_id": "0016-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "4b0e912ac1d8e0e4f5400744e6d13e501b64c6dce4e6079358fe4e1c8c521e8a"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "da17fa8eeab3215dabaf1b38a498d74ca6043bf03adea1e9095d09e1be4d7e4e",
+          "prompt_id": "0017-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "d2986b8e5bb88742f82e92a38f75027f57c134116a30240f03709094c9b9f76d"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "4cda70a1cc5a3d9ae750b91ab64b702a1128ae95675b85ad2d0022334b18dc78",
+          "prompt_id": "0018-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "4a113c125a2243f7e719dc7fc44b112e6651e212d21149826fd26690a6835963"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "d6fb1d0ee557f7810c170fd553fbd292a4f7d05dd12eda47edc0a4634977079e",
+          "prompt_id": "0019-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "53bef57d5c8d889cca9b8d3812132c8d3f754113cc3eee2e9077bcbdfc60d6c5"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "aa868481dd94443e857a72d22ffe7ad533a07de0f5a68f9b4865cabe20d9244a",
+          "prompt_id": "0022-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "c24ed72e90cf2200917a520fdbb2f059ef95afdd8057446d1f18666e9f29fad6"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "12d7b84316e89a3d60fa0cd6d879b6af72b061e7590ad747acb693496577208d",
+          "prompt_id": "0023-qa-sm:direct_positive",
+          "stored_review_pair_sha256": "5faa0335badf3cd908bacd4a2d34e6cc51098fea43c00c6d177abcdaf556415d"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "12d7b84316e89a3d60fa0cd6d879b6af72b061e7590ad747acb693496577208d",
+          "prompt_id": "0023-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "5faa0335badf3cd908bacd4a2d34e6cc51098fea43c00c6d177abcdaf556415d"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "f7186ee5b49c1993790136360cc1443711f06caa6065ca1fafde1807391ab8c8",
+          "prompt_id": "0023-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "1fad7e5319241fe3588420a85223d9095b238f610a6c0b17fa8e4ca714dc9b3d"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "7e03426a67ebaf942c1e9a62cdfdd7ac636aa0e785168c25cf040faebfc0e3a7",
+          "prompt_id": "0024-qa-sm:multi_hop",
+          "stored_review_pair_sha256": "f541aced4266c1076d9be2d7a31288fa52794230a20e94ab65a4c625cdcc38b9"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "31f492dd0af8f2201490bd1707b77cf75d14550c0c8bf3a339e0114ae20800f4",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "bd00b24a3692452280b8ddd392cb6ebf44bc0c21bdcc4269a0e00f1c15787f0c"
+        },
+        {
+          "action": "prior verdict discarded and queued for re-review",
+          "current_review_pair_sha256": "bd00b24a3692452280b8ddd392cb6ebf44bc0c21bdcc4269a0e00f1c15787f0c",
+          "prompt_id": "0072-qa-sm:direct_negative_control",
+          "stored_review_pair_sha256": "31f492dd0af8f2201490bd1707b77cf75d14550c0c8bf3a339e0114ae20800f4"
+        }
+      ],
+      "model_call_failures": [],
+      "pass_rows": 417,
+      "review_sha256": "655401cfbb2f40f8de5e741c6d237019e178c7452b6a1c8c73392526bf4b324b",
+      "reviewed_rows": 584,
+      "same_model_self_check_rows": 26,
+      "status": "AI_ONLY_REVIEW_COMPLETE_WITH_BLOCKED_TRANSLATIONS",
+      "translation_failed_rows": 1,
+      "translation_sha256": "08e6ca62b6393cfa904d73c9a60748cf0ddc3a70720ace67706e9e0dfba99ec2",
+      "unresolved_rows": 0
+    }
+  },
+  "limitations": [
+    "AI-only review is not certification by a fluent human reviewer.",
+    "Automated model judgments can miss semantic or pragmatic translation errors.",
+    "Entity names and direct-positive versus negative-control labels are masked from the reviewer to reduce factual-answer bias.",
+    "Qwen fallback translations were screened by the same Qwen model; those rows are consistency checks, not independent-model verification.",
+    "The evaluation prompts and translated text are synthetic and source-derived."
+  ],
+  "review_mode": "AI_ONLY_BLINDED_TRANSLATION_SCREEN_ENTITY_NAMES_AND_DIRECT_LABELS_MASKED_GLOBAL_DEDUPLICATED",
+  "review_protocol_id": "blind_entity_probe_neutral_global_deduplicated_v4",
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "source_requests_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "status": "AI_ONLY_REVIEW_COMPLETE_WITH_BLOCKED_TRANSLATIONS",
+  "translation_failed_total": 10,
+  "translation_model": "PER_ROW; see translation_model on each draft",
+  "translation_models": [
+    "facebook/nllb-200-distilled-600M",
+    "ollama:qwen2.5:7b-instruct",
+    "ollama:translategemma:4b"
+  ],
+  "unique_masked_pair_payloads_reviewed": 1660,
+  "unresolved_total": 0
+}

@@ -1,0 +1,21 @@
+{
+  "archive_date": "2026-11-03",
+  "archived_pilots": {
+    "synthworlds_sm_pilot_v1": {
+      "files": 28,
+      "bytes": 1715438,
+      "tree_sha256": "7a78a57ee45bf617f9849e34806f05f0620d553ae8ca375e363f71e9d7ab783b"
+    },
+    "synthworlds_sm_pilot_v5": {
+      "files": 58,
+      "bytes": 13048122,
+      "tree_sha256": "c292453d913ccdf7798114ba68274982042e1e3364da1328202a11d7df88fbab"
+    }
+  },
+  "canonical_project": {
+    "old_path": "data/synthworlds_sm_pilot_v5_1",
+    "new_path": "experiments/synthworlds_r1",
+    "compatibility_path": "data/synthworlds_sm_pilot_v5_1",
+    "move_mode": "byte-preserving directory move; old path becomes symlink"
+  }
+}

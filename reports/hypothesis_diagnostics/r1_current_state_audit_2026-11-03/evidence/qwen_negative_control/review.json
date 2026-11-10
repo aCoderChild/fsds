@@ -1,0 +1,178 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "input_sha256": "8e4a157d862439d71150cf341728826e880ca66dd590237ebb0b27f2df0ba7e0",
+  "generator_revision": "not recorded",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about a godparent. It is not fluent in French as it does not make sense in context.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation changes the question type from asking about a color to asking about a godparent. It is not fluent in French as it does not make sense in context."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about a parent-in-law. This alters the meaning significantly.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the question type from asking about a color to asking about a parent-in-law. This alters the meaning significantly."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about an editor. This alters the meaning significantly.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the question type from asking about a color to asking about an editor. This alters the meaning significantly."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about a doctoral student, which alters the meaning completely. The fluency in German is acceptable.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the question type from asking about a color to asking about a doctoral student, which alters the meaning completely. The fluency in German is acceptable."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about a work where [ENTITY_A] is described. This alters the meaning significantly.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the question type from asking about a color to asking about a work where [ENTITY_A] is described. This alters the meaning significantly."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning or question type. The original question asks about the color of an entity, while the translation asks about a political office that succeeded another state with a certain capital. This is completely unrelated.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning or question type. The original question asks about the color of an entity, while the translation asks about a political office that succeeded another state with a certain capital. This is completely unrelated."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation changes the question type from asking about a color to asking about a shoe part. It also changes the subject from [ENTITY_A] to 'der Stiefelternteil', which is not equivalent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation changes the question type from asking about a color to asking about a shoe part. It also changes the subject from [ENTITY_A] to 'der Stiefelternteil', which is not equivalent."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately reflect the original question. The original question asks about the color of an entity, while the translation asks what is at the limit/range of that entity.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately reflect the original question. The original question asks about the color of an entity, while the translation asks what is at the limit/range of that entity."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning. The question asks about the color of an entity, but the translation refers to a description in a document, which is incorrect. Additionally, the translation is not fluent as 'कृति' (kṛti) typically means 'work' or 'composition' and is not appropriate here.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning. The question asks about the color of an entity, but the translation refers to a description in a document, which is incorrect. Additionally, the translation is not fluent as 'कृति' (kṛti) typically means 'work' or 'composition' and is not appropriate here."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not match the original question. The original question asks about the color of an entity, but the translation inquires about the father or mother of a religion.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not match the original question. The original question asks about the color of an entity, but the translation inquires about the father or mother of a religion."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the meaning of the original question. The original question asks about the color of [ENTITY_A], but the translation asks about the geographical feature that [ENTITY_A] is located on.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the meaning of the original question. The original question asks about the color of [ENTITY_A], but the translation asks about the geographical feature that [ENTITY_A] is located on."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not match the original question. The original question asks about the color of an entity, while the translation asks about the honorific prefix used before the name of the entity.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not match the original question. The original question asks about the color of an entity, while the translation asks about the honorific prefix used before the name of the entity."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the meaning from asking about the color of [ENTITY_A] to asking who portrays [ENTITY_A]. The relationship direction and question type are incorrect.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the meaning from asking about the color of [ENTITY_A] to asking who portrays [ENTITY_A]. The relationship direction and question type are incorrect."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not match the original question. The original question asks about the color of [ENTITY_A], but the translation asks about the father of the creator's rank holder. This changes both the meaning and the relationship direction.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not match the original question. The original question asks about the color of [ENTITY_A], but the translation asks about the father of the creator's rank holder. This changes both the meaning and the relationship direction."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not match the original question. The original question asks about the color of an entity, but the translation asks about the parent (พ่อทูนหัว or แม่ทูนหัว) of the entity, which is completely different in meaning.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not match the original question. The original question asks about the color of an entity, but the translation asks about the parent (พ่อทูนหัว or แม่ทูนหัว) of the entity, which is completely different in meaning."
+      }
+    }
+  ]
+}

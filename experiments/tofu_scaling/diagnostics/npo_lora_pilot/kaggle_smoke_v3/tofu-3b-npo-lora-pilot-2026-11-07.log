@@ -1,0 +1,176 @@
+[{"stream_name":"stderr","time":8.185041216,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.185099257,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.185106517,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.185110894,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.831894051999999,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.831943719,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.831950056,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.831954672,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.000198886,"data":"{'full_training_enabled': False, 'notebook_mode': 'bounded smoke only'}\n"}
+,{"stream_name":"stdout","time":25.415432453,"data":"{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130'}\n"}
+,{"stream_name":"stdout","time":33.667470632,"data":"{'gpu_names': ['Tesla T4', 'Tesla T4'], 'total_memory_bytes': [15636037632, 15636037632], 'internet_http_status': 200}\n"}
+,{"stream_name":"stderr","time":33.714538472,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":33.916619583,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":33.916644654,"data":"\n"}
+,{"stream_name":"stderr","time":33.916650672,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":36.326399561,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":36.326425328,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":36.342787037,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":36.350244623,"data":"{'open_unlearning_commit': '2d98027677f3468d52b6baa3fc4f2b9f2dc08820'}\n"}
+,{"stream_name":"stderr","time":36.351149077,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":36.351166683,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":36.351171843,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stderr","time":36.351176019,"data":"\n"}
+,{"stream_name":"stderr","time":36.351179283,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":36.351183413,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":36.351187501,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":36.388155046,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":36.411116357,"data":"Writing /kaggle/working/verify_tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":36.426114193,"data":"Writing /kaggle/working/npo_objective.py\n"}
+,{"stream_name":"stdout","time":36.442802398,"data":"Writing /kaggle/working/verify_npo_objective.py\n"}
+,{"stream_name":"stdout","time":36.466183751,"data":"Writing /kaggle/working/npo_lora_train.py\n"}
+,{"stream_name":"stdout","time":36.484505923,"data":"Writing /kaggle/working/evaluate_npo_adapter.py\n"}
+,{"stream_name":"stdout","time":36.506471524,"data":"Writing /kaggle/working/verify_npo_run.py\n"}
+,{"stream_name":"stdout","time":36.52419433,"data":"Writing /kaggle/working/npo_lora_pilot_protocol.json\n"}
+,{"stream_name":"stdout","time":36.539186173,"data":"Overwriting /kaggle/working/requirements-npo-pilot.txt\n"}
+,{"stream_name":"stdout","time":38.515494904,"data":"{\n"}
+,{"stream_name":"stdout","time":38.515523483,"data":"  \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":38.515528367,"data":"  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"}
+,{"stream_name":"stdout","time":38.515532449,"data":"  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"}
+,{"stream_name":"stdout","time":38.515536734,"data":"  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"}
+,{"stream_name":"stdout","time":38.515540814,"data":"  \"protocol_sha256\": \"eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69\",\n"}
+,{"stream_name":"stdout","time":38.515544777,"data":"  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"}
+,{"stream_name":"stdout","time":38.515548741,"data":"  \"torch_version\": \"2.11.0+cu130\",\n"}
+,{"stream_name":"stdout","time":38.515556836,"data":"  \"npo_beta\": 0.1,\n"}
+,{"stream_name":"stdout","time":38.515560427,"data":"  \"upstream_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":38.515564204,"data":"  \"candidate_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":38.515567923,"data":"  \"absolute_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.515571736,"data":"  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"}
+,{"stream_name":"stdout","time":38.515575676,"data":"  \"retain_nll_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.515579519,"data":"  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.515583346,"data":"  \"examples\": 2,\n"}
+,{"stream_name":"stdout","time":38.515586924,"data":"  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"}
+,{"stream_name":"stdout","time":38.515590894,"data":"}\n"}
+,{"stream_name":"stdout","time":38.718596036,"data":"{\n"}
+,{"stream_name":"stdout","time":38.718626234,"data":"  \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":38.718631871,"data":"  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"}
+,{"stream_name":"stdout","time":38.718637255,"data":"  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"}
+,{"stream_name":"stdout","time":38.718641863,"data":"  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"}
+,{"stream_name":"stdout","time":38.718647056,"data":"  \"protocol_sha256\": \"eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69\",\n"}
+,{"stream_name":"stdout","time":38.718651798,"data":"  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"}
+,{"stream_name":"stdout","time":38.718656668,"data":"  \"torch_version\": \"2.11.0+cu130\",\n"}
+,{"stream_name":"stdout","time":38.718661121,"data":"  \"npo_beta\": 0.1,\n"}
+,{"stream_name":"stdout","time":38.71866557,"data":"  \"upstream_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":38.718670466,"data":"  \"candidate_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":38.718685066,"data":"  \"absolute_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.718688973,"data":"  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"}
+,{"stream_name":"stdout","time":38.718710695,"data":"  \"retain_nll_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.71871684,"data":"  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":38.718721084,"data":"  \"examples\": 2,\n"}
+,{"stream_name":"stdout","time":38.718724858,"data":"  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"}
+,{"stream_name":"stdout","time":38.718728403,"data":"}\n"}
+,{"stream_name":"stdout","time":41.64392381,"data":"{'objective_check': {'status': 'PASS', 'upstream': 'locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820', 'upstream_utils_sha256': '742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9', 'candidate_objective_sha256': 'f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9', 'protocol_sha256': 'eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69', 'python_version': '3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]', 'torch_version': '2.11.0+cu130', 'npo_beta': 0.1, 'upstream_loss': 13.862943649291992, 'candidate_loss': 13.862943649291992, 'absolute_loss_difference': 0.0, 'maximum_parameter_gradient_difference': 5.960464477539063e-08, 'retain_nll_loss_difference': 0.0, 'combined_vs_sequential_backward_max_gradient_difference': 0.0, 'examples': 2, 'loss_reduction': 'sum token NLL per sequence; batch mean for NPO; token mean for retain NLL'}}\n"}
+,{"stream_name":"stdout","time":51.854779129,"data":"{'run_root': '/kaggle/working/tofu_npo_run_20261107T055048Z', 'restored_baseline_files': ['official_eval_status.json', 'audit/tofu_readiness_audit.json', 'audit/tofu_readiness_audit.md', 'llama_3_2_3b_full_official_eval.json', 'llama_3_2_3b_full_examples.jsonl', 'llama_3_2_3b_retain90_official_eval.json', 'llama_3_2_3b_retain90_examples.jsonl', 'llama_3_1_8b_full_official_eval.json', 'llama_3_1_8b_full_examples.jsonl'], 'baseline_verification': 'PARTIAL', 'required_3b_baselines': 'PASS'}\n"}
+,{"stream_name":"stdout","time":126.507174599,"data":"{'artifact_zip': '/kaggle/working/tofu_npo_lora_pilot_artifacts.zip', 'bytes': 1970070}\n"}
+,{"stream_name":"stderr","time":127.244222489,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":127.244996012,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":127.245017276,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":127.245025902,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245031488,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":127.245036496,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":127.245041423,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245046353,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":127.24505157,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":127.245056289,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":127.245071418,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":127.245075676,"data":"Exception encountered at \"In [16]\":\n"}
+,{"stream_name":"stderr","time":127.24507983,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":127.245083698,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":127.245087444,"data":"/tmp/ipykernel_22/3093883518.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":127.245091457,"data":"     11 (RUN_ROOT / 'smoke.stdout.log').write_text(smoke.stdout + smoke.stderr)\n"}
+,{"stream_name":"stderr","time":127.245095344,"data":"     12 archive_run()\n"}
+,{"stream_name":"stderr","time":127.245098984,"data":"---\u003e 13 if smoke.returncode: raise RuntimeError('Bounded real-data smoke failed; receipt/log preserved in the artifact ZIP. ' + smoke.stderr[-4000:])\n"}
+,{"stream_name":"stderr","time":127.245103451,"data":"     14 smoke_receipt = json.loads((SMOKE_DIR / 'training_receipt.json').read_text())\n"}
+,{"stream_name":"stderr","time":127.245107918,"data":"     15 if smoke_receipt.get('status') != 'SMOKE_PASS' or smoke_receipt.get('global_steps') != 1 or smoke_receipt.get('smoke_max_abs_lora_parameter_update', 0) \u003c= 0:\n"}
+,{"stream_name":"stderr","time":127.24511244,"data":"\n"}
+,{"stream_name":"stderr","time":127.245116547,"data":"RuntimeError: Bounded real-data smoke failed; receipt/log preserved in the artifact ZIP. s.\n"}
+,{"stream_name":"stderr","time":127.245120947,"data":"\n"}
+,{"stream_name":"stderr","time":127.245124964,"data":"Fetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":127.245128843,"data":"Fetching 2 files:  50%|█████     | 1/2 [00:30\u003c00:30, 30.56s/it]\n"}
+,{"stream_name":"stderr","time":127.245133307,"data":"Fetching 2 files: 100%|██████████| 2/2 [00:32\u003c00:00, 13.74s/it]\n"}
+,{"stream_name":"stderr","time":127.245139227,"data":"Fetching 2 files: 100%|██████████| 2/2 [00:32\u003c00:00, 16.26s/it]\n"}
+,{"stream_name":"stderr","time":127.245143293,"data":"\n"}
+,{"stream_name":"stderr","time":127.245146879,"data":"Loading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":127.245150596,"data":"Loading weights:   0%|          | 1/254 [00:01\u003c05:15,  1.25s/it]\n"}
+,{"stream_name":"stderr","time":127.24515426,"data":"Loading weights:  26%|██▌       | 66/254 [00:01\u003c00:02, 66.18it/s]\n"}
+,{"stream_name":"stderr","time":127.245158067,"data":"Loading weights:  39%|███▉      | 99/254 [00:01\u003c00:02, 73.90it/s]\n"}
+,{"stream_name":"stderr","time":127.245162493,"data":"Loading weights:  48%|████▊     | 121/254 [00:02\u003c00:01, 71.97it/s]\n"}
+,{"stream_name":"stderr","time":127.24516655,"data":"Loading weights:  54%|█████▍    | 137/254 [00:02\u003c00:01, 80.20it/s]\n"}
+,{"stream_name":"stderr","time":127.245170358,"data":"Loading weights:  60%|█████▉    | 152/254 [00:02\u003c00:01, 77.26it/s]\n"}
+,{"stream_name":"stderr","time":127.245174305,"data":"Loading weights:  65%|██████▍   | 165/254 [00:02\u003c00:01, 73.07it/s]\n"}
+,{"stream_name":"stderr","time":127.245178527,"data":"Loading weights:  69%|██████▉   | 176/254 [00:02\u003c00:00, 78.15it/s]\n"}
+,{"stream_name":"stderr","time":127.245185905,"data":"Loading weights:  76%|███████▌  | 192/254 [00:02\u003c00:00, 84.36it/s]\n"}
+,{"stream_name":"stderr","time":127.245195284,"data":"Loading weights:  80%|███████▉  | 203/254 [00:03\u003c00:00, 84.52it/s]\n"}
+,{"stream_name":"stderr","time":127.245199744,"data":"Loading weights:  84%|████████▍ | 213/254 [00:03\u003c00:00, 80.25it/s]\n"}
+,{"stream_name":"stderr","time":127.245203553,"data":"Loading weights:  87%|████████▋ | 222/254 [00:03\u003c00:00, 81.75it/s]\n"}
+,{"stream_name":"stderr","time":127.245207448,"data":"Loading weights:  93%|█████████▎| 237/254 [00:03\u003c00:00, 85.98it/s]\n"}
+,{"stream_name":"stderr","time":127.245211505,"data":"Loading weights:  97%|█████████▋| 247/254 [00:03\u003c00:00, 87.85it/s]\n"}
+,{"stream_name":"stderr","time":127.245216235,"data":"Loading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 71.78it/s]\n"}
+,{"stream_name":"stderr","time":127.245220491,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":127.245224434,"data":"  File \"/kaggle/working/npo_lora_train.py\", line 438, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":127.245228747,"data":"    main()\n"}
+,{"stream_name":"stderr","time":127.245232485,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":127.245236507,"data":"  File \"/kaggle/working/npo_lora_train.py\", line 434, in main\n"}
+,{"stream_name":"stderr","time":127.245240707,"data":"    train(args)\n"}
+,{"stream_name":"stderr","time":127.245244601,"data":"    ~~~~~^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245248405,"data":"  File \"/kaggle/working/npo_lora_train.py\", line 273, in train\n"}
+,{"stream_name":"stderr","time":127.245252629,"data":"    model = get_peft_model(model, lora)\n"}
+,{"stream_name":"stderr","time":127.245257016,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/mapping_func.py\", line 198, in get_peft_model\n"}
+,{"stream_name":"stderr","time":127.245260873,"data":"    return MODEL_TYPE_TO_PEFT_MODEL_MAPPING[peft_config.task_type](\n"}
+,{"stream_name":"stderr","time":127.245264785,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":127.245269024,"data":"        model,\n"}
+,{"stream_name":"stderr","time":127.245273057,"data":"        ^^^^^^\n"}
+,{"stream_name":"stderr","time":127.24527691,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":127.245280938,"data":"        low_cpu_mem_usage=low_cpu_mem_usage,\n"}
+,{"stream_name":"stderr","time":127.24528518,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245289058,"data":"    )\n"}
+,{"stream_name":"stderr","time":127.245292991,"data":"    ^\n"}
+,{"stream_name":"stderr","time":127.245297726,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 2082, in __init__\n"}
+,{"stream_name":"stderr","time":127.24530175,"data":"    super().__init__(model, peft_config, adapter_name, **kwargs)\n"}
+,{"stream_name":"stderr","time":127.24530571,"data":"    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.24531002,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 177, in __init__\n"}
+,{"stream_name":"stderr","time":127.245314442,"data":"    self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)\n"}
+,{"stream_name":"stderr","time":127.245318521,"data":"                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245322588,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 344, in __init__\n"}
+,{"stream_name":"stderr","time":127.245330682,"data":"    self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)\n"}
+,{"stream_name":"stderr","time":127.245335134,"data":"    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245339322,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 978, in inject_adapter\n"}
+,{"stream_name":"stderr","time":127.245343481,"data":"    self._create_and_replace(\n"}
+,{"stream_name":"stderr","time":127.245348047,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":127.245352314,"data":"        peft_config, adapter_name, target, target_name, parent, current_key=key\n"}
+,{"stream_name":"stderr","time":127.245356379,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":127.245360601,"data":"    )\n"}
+,{"stream_name":"stderr","time":127.245364599,"data":"    ^\n"}
+,{"stream_name":"stderr","time":127.245368641,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 389, in _create_and_replace\n"}
+,{"stream_name":"stderr","time":127.245373446,"data":"    new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)\n"}
+,{"stream_name":"stderr","time":127.245377346,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 552, in _create_new_module\n"}
+,{"stream_name":"stderr","time":127.245381796,"data":"    new_module = dispatcher(target, adapter_name, config=lora_config, **kwargs)\n"}
+,{"stream_name":"stderr","time":127.245386242,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/torchao.py\", line 160, in dispatch_torchao\n"}
+,{"stream_name":"stderr","time":127.245390505,"data":"    if not is_torchao_available():\n"}
+,{"stream_name":"stderr","time":127.245394479,"data":"           ~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":127.245398507,"data":"  File \"/usr/local/lib/python3.13/dist-packages/peft/import_utils.py\", line 162, in is_torchao_available\n"}
+,{"stream_name":"stderr","time":127.245402914,"data":"    raise ImportError(\n"}
+,{"stream_name":"stderr","time":127.245406978,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":127.24541095,"data":"    )\n"}
+,{"stream_name":"stderr","time":127.2454152,"data":"ImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported\n"}
+,{"stream_name":"stderr","time":127.245419598,"data":"\n"}
+,{"stream_name":"stderr","time":127.245423614,"data":"\n"}
+,{"stream_name":"stderr","time":129.387092444,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":129.387118961,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":129.554647756,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":129.554671316,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":130.329100535,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":130.41977129,"data":"[NbConvertApp] Writing 204972 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":133.01454151,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":133.933756083,"data":"[NbConvertApp] Writing 958915 bytes to __results__.html\n"}
+]

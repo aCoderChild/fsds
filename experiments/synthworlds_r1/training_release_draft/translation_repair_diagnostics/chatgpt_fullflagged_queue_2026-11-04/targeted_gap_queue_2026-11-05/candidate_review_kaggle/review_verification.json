@@ -1,0 +1,67 @@
+{
+  "status": "VERIFIED_AI_ONLY_DIAGNOSTIC_QUARANTINED",
+  "artifact_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+  "input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+  "reviewed_input_rows": 187,
+  "record_rows": 187,
+  "counts": {
+    "semantic_pass": 36,
+    "fluency_pass": 169,
+    "joint_pass": 36,
+    "blocked": 17
+  },
+  "by_language": {
+    "fr": {
+      "reviewed": 19,
+      "semantic_pass": 9,
+      "fluency_pass": 18,
+      "joint_pass": 9,
+      "blocked": 2
+    },
+    "de": {
+      "reviewed": 16,
+      "semantic_pass": 7,
+      "fluency_pass": 16,
+      "joint_pass": 7,
+      "blocked": 3
+    },
+    "hi": {
+      "reviewed": 52,
+      "semantic_pass": 8,
+      "fluency_pass": 52,
+      "joint_pass": 8,
+      "blocked": 10
+    },
+    "th": {
+      "reviewed": 83,
+      "semantic_pass": 12,
+      "fluency_pass": 83,
+      "joint_pass": 12,
+      "blocked": 2
+    }
+  },
+  "by_kind": {
+    "atomic": {
+      "reviewed": 86,
+      "semantic_pass": 18,
+      "fluency_pass": 85,
+      "joint_pass": 18,
+      "blocked": 14
+    },
+    "composition": {
+      "reviewed": 84,
+      "semantic_pass": 18,
+      "fluency_pass": 84,
+      "joint_pass": 18,
+      "blocked": 3
+    }
+  },
+  "model_revisions": {
+    "nllb": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+    "qwen": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "errors": []
+}

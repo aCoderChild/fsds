@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up",
+  "title": "TOFU 3B NPO-LoRA Alpha 40 Follow-up",
+  "code_file": "tofu_3b_npo_alpha40_followup.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "GPU T4 x2",
+  "dataset_sources": [
+    "bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08"
+  ]
+}

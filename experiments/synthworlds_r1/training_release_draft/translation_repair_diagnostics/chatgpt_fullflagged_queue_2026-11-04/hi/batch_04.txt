@@ -1,0 +1,35 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0097","question_en":"In which work is ZXQENTAQXZ described?"}
+{"row_id":"HI0098","question_en":"What work follows ZXQENTAQXZ?"}
+{"row_id":"HI0099","question_en":"In what year did ZXQENTBQXZ become the spouse of ZXQENTAQXZ?"}
+{"row_id":"HI0100","question_en":"Who is ZXQENTAQXZ's child?"}
+{"row_id":"HI0101","question_en":"What did ZXQENTAQXZ replace?"}
+{"row_id":"HI0102","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"HI0103","question_en":"Which town is ZXQENTAQXZ twinned with?"}
+{"row_id":"HI0104","question_en":"ZXQENTAQXZ is the capital of which administrative division?"}
+{"row_id":"HI0105","question_en":"With which country does the Caelum Archipelago have diplomatic relations?"}
+{"row_id":"HI0106","question_en":"Who is ZXQENTAQXZ different from?"}
+{"row_id":"HI0107","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"HI0108","question_en":"On what date did ZXQENTBQXZ stop being the capital of ZXQENTAQXZ?"}
+{"row_id":"HI0109","question_en":"What was ZXQENTAQXZ nominated for?"}
+{"row_id":"HI0110","question_en":"Which administrative territorial entity is contained within ZXQENTAQXZ?"}
+{"row_id":"HI0111","question_en":"Which award did ZXQENTAQXZ receive?"}
+{"row_id":"HI0112","question_en":"When did ZXQENTBQXZ become part of the ZXQENTAQXZ?"}
+{"row_id":"HI0113","question_en":"Which town is ZXQENTAQXZ twinned with?"}
+{"row_id":"HI0114","question_en":"In what year did the plague epidemic associated with ZXQENTAQXZ end?"}
+{"row_id":"HI0115","question_en":"In what year did ZXQENTBQXZ stop serving as a board member of ZXQENTAQXZ?"}
+{"row_id":"HI0116","question_en":"Who is a doctoral student of ZXQENTAQXZ?"}
+{"row_id":"HI0117","question_en":"Who was a doctoral student of ZXQENTAQXZ?"}
+{"row_id":"HI0118","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"HI0119","question_en":"Who is ZXQENTAQXZ's godparent?"}
+{"row_id":"HI0120","question_en":"During which time period did ZXQENTAQXZ occur?"}
+{"row_id":"HI0121","question_en":"What is a part of the ZXQENTAQXZ?"}
+{"row_id":"HI0122","question_en":"What is a part of the next higher rank above the class of which the ZXQENTAQXZ is a subclass?"}
+{"row_id":"HI0123","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"HI0124","question_en":"Who is the stepparent of the father of the head of state of ZXQENTAQXZ?"}
+{"row_id":"HI0125","question_en":"Who is the spouse of ZXQENTAQXZ?"}
+{"row_id":"HI0126","question_en":"Who is the father of the unmarried partner of the spouse of ZXQENTAQXZ?"}
+{"row_id":"HI0127","question_en":"What immediately followed the event in which ZXQENTAQXZ's partner in business or sport participated?"}
+{"row_id":"HI0128","question_en":"Where was the organization of which the place where ZXQENTAQXZ was detained is a member formed?"}

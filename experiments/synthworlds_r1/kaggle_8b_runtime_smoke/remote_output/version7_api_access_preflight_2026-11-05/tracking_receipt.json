@@ -1,0 +1,18 @@
+{
+  "gpu_enabled": false,
+  "huggingface_access_page_observation": "Authenticated browser showed You have been granted access to meta-llama/Llama-3.1-8B-Instruct.",
+  "internet_enabled": true,
+  "interpretation": "API-launched preflight failed before contacting Hugging Face because Kaggle secret retrieval returned ConnectionError. This does not contradict the Hugging Face account access grant. No GPU work or model-data work occurred.",
+  "kaggle_kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "kaggle_kernel_status": "ERROR",
+  "kaggle_secrets_panel_observation": "Current editor panel showed no existing secret rows; opening Add Secret showed a blank New secret form. Closed without entering or saving credential data.",
+  "observed_at_utc": "2026-11-05T01:52:02Z",
+  "published_notebook_sha256": "46adead5fdc785b5015b3b087b197ce860bd70fcf9e65414a9476398e1160d73",
+  "published_version": 7,
+  "receipt_sha256": "195bdaf8632e329141a547dbcab0fd81f17ae5322fbb6cb39b41c6c65a5a3f91",
+  "research_data_loaded": false,
+  "source_artifact": "access_preflight_publish_v6",
+  "source_notebook_sha256": "fba8db318cec593c6f9cc8660afbe99317ec39283046e64055b68e86719434f5",
+  "training_started": false,
+  "weights_downloaded": false
+}

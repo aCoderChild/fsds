@@ -1,0 +1,71 @@
+{
+  "checked_at_utc": "2026-11-09T02:14:07.354361+00:00",
+  "interpretation": "The current remote v2 source matches the locally validated full notebook cell-for-cell after normalizing the notebook source representation. Both full and smoke package validation pass. This verifies the submitted design, not the remote optimizer progress or experiment result.",
+  "kernel": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08",
+  "kernel_status_raw": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08 has status \"KernelWorkerStatus.RUNNING\"",
+  "kernel_version": 2,
+  "last_output_files_found": 0,
+  "last_output_inventory_check_utc": "2026-11-09T01:59:34.863393+00:00",
+  "local_full_notebook_sha256": "9005964ad82d2866cf92f7a4fcb59b026e633188b8ed154900bb943052ad9506",
+  "locked_hashes": {
+    "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+    "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b"
+  },
+  "objective_equivalence": {
+    "absolute_loss_difference": 0.0,
+    "candidate_loss": 13.862943649291992,
+    "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+    "examples": 2,
+    "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL",
+    "maximum_parameter_gradient_difference": 6.705522537231445e-08,
+    "npo_beta": 0.1,
+    "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+    "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "retain_nll_loss_difference": 0.0,
+    "status": "PASS",
+    "torch_version": "2.13.0",
+    "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "upstream_loss": 13.862943649291992,
+    "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9"
+  },
+  "offline_package_validation": {
+    "both_pass": true,
+    "environment": "/tmp/tofu-npo-verify-venv",
+    "full": {
+      "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+      "errors": [],
+      "notebook_sha256": "9005964ad82d2866cf92f7a4fcb59b026e633188b8ed154900bb943052ad9506",
+      "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+      "status": "PASS"
+    },
+    "smoke": {
+      "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+      "errors": [],
+      "notebook_sha256": "a1045c0a46ddbd6cdcadb61ab360b32dd3787d024ec0231653115cef6fbb683e",
+      "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+      "status": "PASS"
+    },
+    "system_python_attempt": "FAIL_MISSING_ROUGE_SCORE; rerunning under the prepared verifier environment passed"
+  },
+  "pulled_kernel_metadata": {
+    "dataset_sources": [
+      "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08"
+    ],
+    "enable_gpu": true,
+    "enable_internet": true,
+    "id": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "pulled_remote_notebook_sha256": "f69308bd5754c99bebad895eee500da0eb00fac279b57adb4a6132bea2d9bbb6",
+  "run_artifact_available": false,
+  "run_progress": "UNVERIFIED",
+  "source_comparison": {
+    "local_cell_count": 18,
+    "normalized_all_cell_sources_match": true,
+    "normalized_remote_cell_sources_sha256": "b46693e10d21a9036169ac24418540a4f4d82a5ab2c1e6d6d934f420f8187bad",
+    "remote_cell_count": 18
+  },
+  "status": "PASS_SOURCE_AND_PACKAGE_CHECKS_RUN_STILL_ACTIVE",
+  "tracker_process": "39665 01:37:41 Ss     0.0  0.1"
+}

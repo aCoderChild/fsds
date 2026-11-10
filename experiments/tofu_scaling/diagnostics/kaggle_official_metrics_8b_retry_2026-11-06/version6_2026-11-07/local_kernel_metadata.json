@@ -1,0 +1,13 @@
+{
+  "id": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "title": "TOFU Official Metrics 8B Retry 2026-11-06",
+  "code_file": "tofu_official_metrics_retry_8b.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "bunnoob2005/tofu-3b-8bfull-resume-2026-11-07"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "status": "IN_PROGRESS_QWEN14B_REVIEW",
+  "mode": "pilot16",
+  "input_sha256": "847aefe984e9403614c0db6ed5ca6b088e3e6a0fbf3bef0dc87b1e707109f60d",
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "records": [
+    {
+      "review_key": "R0001",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "c22801a9ef6403eef8f825e0ddc61f3858f89ca2c29a13ee246b766171b6f510",
+      "backtranslation_en": "In which year did [ENTITY_A] found [ENTITY_B]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0001",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The French question correctly preserves the meaning, asking about the founding year of [ENTITY_B] by [ENTITY_A], and it is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0001\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The French question correctly preserves the meaning, asking about the founding year of [ENTITY_B] by [ENTITY_A], and it is grammatically correct.\"}]}",
+      "backtranslation_sha256": "1d431cb4b13619947dedf6fd0bab00bd220c9e7f3ef61b2f5a7474cbdd35bacc"
+    },
+    {
+      "review_key": "R0002",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "213c4b51170f276d4092a4e2ab842277de0cabd1a9eb1dc2e61f1d425c3e0e99",
+      "translation_sha256": "b04a9a49ff6a5eafc6b185181bf75e116ee3dc7989372635e513fdf327e10aed",
+      "backtranslation_en": "What award was [ENTITY_A] nominated for?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0002",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the original meaning and is fluent in French."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0002\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the original meaning and is fluent in French.\"}]}",
+      "backtranslation_sha256": "68023a3c15dad1894b3c6ab7f0c137d2f29592aa6a1b8465cac313500b15732a"
+    },
+    {
+      "review_key": "R0118",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "translation_sha256": "a62cc2091272bec62467ca42a6240c824c8525f023c4c776f3fe5c193b3371d5",
+      "backtranslation_en": "What class is [ENTITY_A] a subclass of?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0118",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about the superclass of [ENTITY_A]. The back-translation aligns well with the original question, and the French sentence is grammatically correct and natural."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0118\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about the superclass of [ENTITY_A]. The back-translation aligns well with the original question, and the French sentence is grammatically correct and natural.\"}]}",
+      "backtranslation_sha256": "9017131171182eaaa26bd3264498b76bdbdab02d0470d7e28b20f4c268c33b64"
+    },
+    {
+      "review_key": "R0119",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "138d842b248f76c80cc2bb7ca8e30e26010ed24756be01e0bd6c499cee256dca",
+      "translation_sha256": "e973ff8ffa1ab25ff0825fe30f9cd8ca1298a2590d4ef443d30bdad667d5635d",
+      "backtranslation_en": "What is the immediate ranking above [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0119",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The French translation accurately conveys the original question's meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0119\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The French translation accurately conveys the original question's meaning and is grammatically correct.\"}] }",
+      "backtranslation_sha256": "28523c9d412869ab7a5e513028ecaad670777aa206424264704d894b40536a76"
+    },
+    {
+      "review_key": "R0165",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "3c3fc709a107401c05d87d6a4fa6007c372901b7a145c5f3fec16bea022d90dc",
+      "backtranslation_en": "In which year did [ENTITY_A] found [ENTITY_B]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0165",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The German question correctly preserves the meaning, asking about the founding year of [ENTITY_B] by [ENTITY_A], and it is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0165\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The German question correctly preserves the meaning, asking about the founding year of [ENTITY_B] by [ENTITY_A], and it is grammatically correct.\"}]}",
+      "backtranslation_sha256": "1d431cb4b13619947dedf6fd0bab00bd220c9e7f3ef61b2f5a7474cbdd35bacc"
+    },
+    {
+      "review_key": "R0166",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "b09aeb82126be10fbe4b015d2a81bc776a290fa27e72cce9524d512005863e11",
+      "backtranslation_en": "What does a border have in common with [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0166",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests a misunderstanding of 'shares a border'; it incorrectly interprets 'shares a border' as 'has in common with', changing the spatial relationship."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0166\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests a misunderstanding of 'shares a border'; it incorrectly interprets 'shares a border' as 'has in common with', changing the spatial relationship.\"}]}\n\n",
+      "backtranslation_sha256": "688cd86284861d0b946f26fe8af2950f852a6ad72c64b3233201b979a9fa163d"
+    },
+    {
+      "review_key": "R0273",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "translation_sha256": "c1e998e01c2fc918b91135a8bc5ac613abb69c68e38533c1d489f657b2380ce2",
+      "backtranslation_en": "What class is [ENTITY_A] a subclass of?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0273",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the original meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0273\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the original meaning and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "9017131171182eaaa26bd3264498b76bdbdab02d0470d7e28b20f4c268c33b64"
+    },
+    {
+      "review_key": "R0274",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c",
+      "translation_sha256": "bba94a33bfb480a8be271b58a154dae6630059c5713501b8b028318c0f6aae5d",
+      "backtranslation_en": "What is part of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0274",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking what is a part of [ENTITY_A], and it is grammatically correct in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0274\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking what is a part of [ENTITY_A], and it is grammatically correct in German.\"}]}",
+      "backtranslation_sha256": "eefd99f4105cf6b825880658b127cae85f43c82b6b494cb0f956012a1c323224"
+    },
+    {
+      "review_key": "R0344",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "8f7658e2ed48d94e7a834a9ea7399f457423375b7c1a6719958a2cbc0d053dc9",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 2}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "R0345",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "0661a1750f35b0a7da5a8fa000b17bbae59ec643ca8c74d8d6fde5e459dbf4ef",
+      "backtranslation_en": "What is the limit of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0345",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation does not match the original question; it asks about limits rather than borders."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0345\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation does not match the original question; it asks about limits rather than borders.\"}]}\n\n",
+      "backtranslation_sha256": "6dd81222a579fb4c4241d7026a7f8af72621567951a356e7cc6883087356f054"
+    },
+    {
+      "review_key": "R0464",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "translation_sha256": "2a46caf1fc1243d799ca1a8d2ca7349a86a43a7b0cce6dfd6cc070dea2a0f176",
+      "backtranslation_en": "What is the next part of the upper class above that class of which [ENTITY_A] is a subclass?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0464",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests 'part' instead of 'rank', changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0464\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests 'part' instead of 'rank', changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "d16e46fdc8a9bb76bf42cc122ba9722aa306878c55c2479770a7723b7ac9bc64"
+    },
+    {
+      "review_key": "R0465",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c",
+      "translation_sha256": "339f97d1c90e47ec2ef8d31bb187832b474cecaaf7c254aad47ef91b71643bde",
+      "backtranslation_en": "What is the part of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0465",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation reverses the possessive relationship, asking 'What is the part of [ENTITY_A]' instead of 'What is a part of [ENTITY_A]?'"
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0465\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation reverses the possessive relationship, asking 'What is the part of [ENTITY_A]' instead of 'What is a part of [ENTITY_A]?'\" }]}",
+      "backtranslation_sha256": "2acbdcd5e9b4fc63f4ccedc84e5c4e638172009abdab36585f904eab485f6b87"
+    },
+    {
+      "review_key": "R0544",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "35180d601cc659e40b900900f5e09f71686bd9ff0c73881f55e01f1a7201c0de",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 1}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "R0545",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "bacbb7b21298f1b549dc3109151c7a52c1675b5ab098743e611b6c33a825b38c",
+      "backtranslation_en": "What's the boundary with [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0545",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation asks about a boundary rather than something sharing a border, changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0545\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation asks about a boundary rather than something sharing a border, changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "1eb726c8859747520a3d1c8fea9af19e6e770418ca579103cdfdd1a45b7632c7"
+    },
+    {
+      "review_key": "R0701",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "translation_sha256": "bc1f99c293c20987a5df9c19f3b20910170198a8021c2217823db76a318ca1a6",
+      "backtranslation_en": "What is part of the higher order of a class from which [ENTITY_A] is a subclass?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0701",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests 'higher order' instead of 'next higher rank', changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0701\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests 'higher order' instead of 'next higher rank', changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "7aa8ede777dfcbd36fd4b0ea390bf515034dd126a0990fe97ca00e4178a225b4"
+    },
+    {
+      "review_key": "R0702",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "translation_sha256": "0c667e8152ab8994cf49aa744ef0e7b781c8685ffb75e0c692e1c0e6bdab2563",
+      "backtranslation_en": "[ENTITY_A] is a subclass of any class.",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0702",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly states 'any class' instead of asking about a specific class."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"R0702\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly states 'any class' instead of asking about a specific class.\"}]}\n\n",
+      "backtranslation_sha256": "f971b739fca60876b05426c7d166bc7d2abd39ce7838de273fae203edb35a655"
+    }
+  ],
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "started_at_utc": "2026-11-03T23:41:42.422064+00:00"
+}

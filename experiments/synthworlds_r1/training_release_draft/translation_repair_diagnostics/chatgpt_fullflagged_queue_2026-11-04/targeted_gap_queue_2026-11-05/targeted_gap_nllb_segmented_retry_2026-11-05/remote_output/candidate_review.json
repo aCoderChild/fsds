@@ -1,0 +1,4040 @@
+{
+  "status": "AI_ONLY_NLLB_SEGMENTED_RETRY_HAS_BLOCKS",
+  "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+  "input_payload": {
+    "answers_or_split_labels_included": false,
+    "expected_rows": 125,
+    "human_translation_reviewed": false,
+    "mode": "AI_ONLY_DIAGNOSTIC_SEGMENTED_RETRY_NO_RELEASE_APPROVAL",
+    "nllb_model_id": "facebook/nllb-200-distilled-600M",
+    "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+    "previous_candidate_input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+    "previous_candidate_output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+    "previous_candidate_receipt_sha256": "a0e763b9295af55a9aaa74866225a438f7407ee26f528bbc2484bea92cbc6ee0",
+    "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "release_approved": false,
+    "row_map_sha256": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+    "rows": [
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0001",
+        "source_question_en": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?",
+        "source_sha256": "8ad08b0666a0d52931d8efa1f89c3eed0663a159772c55f960e5e693bf605cca"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0002",
+        "source_question_en": "What is the official anthem of [ENTITY_A]?",
+        "source_sha256": "61c012052dc2b42c18176bb54583c2ca4fbe080a6ec3b95ab09982899cc720b0"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0003",
+        "source_question_en": "Which entity is owned by [ENTITY_A]?",
+        "source_sha256": "a29ce462f0fdefa7242c477f0e1c9cd2a8e98fe9d4cca85059b6c9416b2aa860"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0004",
+        "source_question_en": "To whom is the [ENTITY_A] dedicated?",
+        "source_sha256": "9e4c022191c7b798707da1bc20862b1563542cc963915fa11529b73b5f20b802"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0005",
+        "source_question_en": "Which town is [ENTITY_A] twinned with?",
+        "source_sha256": "623106a1d9c0a3ba3f5826efba6963d30caecc1464b4d3596bd0a88fbc282fae"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0006",
+        "source_question_en": "In which work is [ENTITY_A] described?",
+        "source_sha256": "b91d02dc96ba0a7e661f91c16343ef9449fe59e67d6570b781f553d552e74913"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0007",
+        "source_question_en": "What is the equivalent given name of the opposite gender for [ENTITY_A]?",
+        "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0008",
+        "source_question_en": "What is a part of the [ENTITY_A]?",
+        "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0010",
+        "source_question_en": "Who is [ENTITY_A]'s godparent?",
+        "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0012",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0013",
+        "source_question_en": "What language is [ENTITY_A] a dialect of?",
+        "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0014",
+        "source_question_en": "During which time period did [ENTITY_A] occur?",
+        "source_sha256": "42d4d484dc70a500cb3a2d41e6f971f9828f9fd6b89f2250e5a959a80ab2c903"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0015",
+        "source_question_en": "What is [ENTITY_A] part of?",
+        "source_sha256": "08e9bfe4739fb63eb34bdd9996764853ecd86f8c4aab182cd4ef13311c208412"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0017",
+        "source_question_en": "Who is the rector of [ENTITY_A]?",
+        "source_sha256": "062db3cd4f3d8bcebaa83c6e732c30bfcf8353c06d3d738058eae8dad4fc3c3b"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0019",
+        "source_question_en": "Who is the spouse of the person for whom the place where [ENTITY_A] worked was named?",
+        "source_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0021",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0022",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0023",
+        "source_question_en": "Which political office of the state that replaced the country whose capital is [ENTITY_A] is held by its head of state?",
+        "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0024",
+        "source_question_en": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?",
+        "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0025",
+        "source_question_en": "What is [ENTITY_A]'s field of work?",
+        "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0026",
+        "source_question_en": "In what year did [ENTITY_A] receive the [ENTITY_B]?",
+        "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0027",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0028",
+        "source_question_en": "Who represents the creator of the participant in [ENTITY_A]?",
+        "source_sha256": "d00cde8fd3a1bf8d9d9c09b7c6f103a0e71e9acca66359502bb3accf30cb51f0"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0030",
+        "source_question_en": "Which work does [ENTITY_A] follow in its series?",
+        "source_sha256": "f2d483118d912263347243c2e709e6e36152c5248cf35a1cb3a888efd8ba4dfe"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0031",
+        "source_question_en": "What did [ENTITY_A] replace?",
+        "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0032",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0033",
+        "source_question_en": "Who is the father of the person whom the unmarried partner of [ENTITY_A] is interested in?",
+        "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0035",
+        "source_question_en": "Who is the curator of [ENTITY_A]?",
+        "source_sha256": "50b9b1065c3d296199e391f1583e48bf82fbd8d34b5998cfb37dafe0baa3158e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0036",
+        "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+        "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0037",
+        "source_question_en": "In which area does the [ENTITY_A] operate?",
+        "source_sha256": "c45d127389aa1d7e66d329f18390ae76276c46337d27482ccd2e46be707c1592"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0038",
+        "source_question_en": "Which movement is [ENTITY_A] associated with?",
+        "source_sha256": "aeda6b768bef9cb6a00f2d377c5186d7d8e94a5edeaa1adb58039e9e970d1cb7"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0039",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0040",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0042",
+        "source_question_en": "Who performed [ENTITY_A]?",
+        "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0043",
+        "source_question_en": "Who founded the organization that the rank above the [ENTITY_A] is part of?",
+        "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0045",
+        "source_question_en": "Who is [ENTITY_A]'s child?",
+        "source_sha256": "8b409d8894d3627faf8ad2879a5864821d6c4687fbf13c68bc7fcdf6e59465fe"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0048",
+        "source_question_en": "What immediately follows [ENTITY_A]?",
+        "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0049",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0051",
+        "source_question_en": "Who is the exhibited creator of [ENTITY_A]?",
+        "source_sha256": "58f207dc8261bd767fa2421e4590e97c52ebec4ed58214c588d3aaaac72a3733"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0052",
+        "source_question_en": "Which work describes [ENTITY_A]?",
+        "source_sha256": "b750c298b8bd7368e17ae110e97989cf8c9d150b76c5ecf34ef0b23022eb9bc5"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0054",
+        "source_question_en": "What honorific prefix is used before the name of the unmarried partner of the founder of [ENTITY_A]?",
+        "source_sha256": "ebf318b0f3984fbe028bff6ef7f21e820045f92a4cd2a181e3e6dee3922c81f4"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0056",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0057",
+        "source_question_en": "What shares a border with [ENTITY_A]?",
+        "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0059",
+        "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+        "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0061",
+        "source_question_en": "Who is the sibling of the person after whom the place that houses the [ENTITY_A] is named?",
+        "source_sha256": "853f0c66bf9fe678936e5febe3dc4493abc433216d41774b7a4b374c832d6acb"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0062",
+        "source_question_en": "What shares a border with [ENTITY_A]?",
+        "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0063",
+        "source_question_en": "Which institution holds the artist files for [ENTITY_A]?",
+        "source_sha256": "824fbc02d3d38a977cba21df2f5a70bdf3c1de61b4aedfcab4ff51d0986b65b5"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0064",
+        "source_question_en": "Which work describes the [ENTITY_A]?",
+        "source_sha256": "ee6c37e06269bb29fc128d3757c7ca439724ebe1ef111e1305e830767294f388"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0065",
+        "source_question_en": "Who is [ENTITY_A]'s godparent?",
+        "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0070",
+        "source_question_en": "What administrative territorial entity is contained within [ENTITY_A]?",
+        "source_sha256": "2985e3177830cbc7bf50046e7433ae29e8b707fc8a1b832427ef8997ae4d2997"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0071",
+        "source_question_en": "What is the female version of the name [ENTITY_A]?",
+        "source_sha256": "4c76cdf14a47041ca224d69380ae5431aeb6f9299bd34ef2d3f8eb350306cd70"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0074",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0076",
+        "source_question_en": "Where was the organization of which the place where [ENTITY_A] was detained is a member formed?",
+        "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0078",
+        "source_question_en": "What language does the stepparent of the founder of [ENTITY_A] speak?",
+        "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0081",
+        "source_question_en": "Who is the spouse of the godparent of the head of state of [ENTITY_A]?",
+        "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0082",
+        "source_question_en": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?",
+        "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0083",
+        "source_question_en": "What immediately follows [ENTITY_A]?",
+        "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0084",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0088",
+        "source_question_en": "Who participated in the [ENTITY_A]?",
+        "source_sha256": "ae0b329aff0fb17515f26e900ca17dfc08d6d62a02442ddcbf0c0f1342d7c5b6"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0089",
+        "source_question_en": "On what date was [ENTITY_A] incorporated?",
+        "source_sha256": "024d137c445804ec546790cfc51bdbd094cd03ff0bde49342a438cfc33f60430"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0090",
+        "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+        "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0092",
+        "source_question_en": "In what year did [ENTITY_A] become the spouse of [ENTITY_B]?",
+        "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0094",
+        "source_question_en": "Which work follows [ENTITY_A]?",
+        "source_sha256": "f3d40643457bfdcf5a26c949aade18db82c47c87167d0cbf54a12d4761db4c78"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0095",
+        "source_question_en": "Who was the doctoral advisor of the rector of [ENTITY_A]'s employer?",
+        "source_sha256": "8af29a89e57654b5a5690880a86b6152bd8534499ed92369c6613f79896cd444"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0096",
+        "source_question_en": "What payment types are accepted by the organizer of the event [ENTITY_A] participated in?",
+        "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0097",
+        "source_question_en": "What honorific prefix is used for [ENTITY_A]?",
+        "source_sha256": "9cf7223a119014950e322299e877cf802e51d889248b76b32fa75a1f3c80ca49"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0098",
+        "source_question_en": "Who is the stepparent of the father of the head of state of [ENTITY_A]?",
+        "source_sha256": "87d36bcb2f7297025133e6d8b89103c8e373c2465c8f8cc27ba3490e115d3707"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0099",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0102",
+        "source_question_en": "What immediately followed the event in which [ENTITY_A]'s partner in business or sport participated?",
+        "source_sha256": "d8fab2f954f106dd5f203ca65f7aa16d3343ef8403372f54c84300470ffe0331"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0104",
+        "source_question_en": "Who is a significant person associated with the movement that [ENTITY_A]'s doctoral advisor is associated with?",
+        "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0105",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0107",
+        "source_question_en": "Who is a significant person associated with the movement that [ENTITY_A]'s doctoral advisor is associated with?",
+        "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0109",
+        "source_question_en": "With which country does the Caelum Archipelago have diplomatic relations?",
+        "source_sha256": "a80d5fd1f6b58f09c3de4b63cf1c689208db2c96ecb5b85544af025a61b7da81"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0110",
+        "source_question_en": "Which political office of [ENTITY_A] is held by its head of state?",
+        "source_sha256": "49c84ffee5de25f774da7847f0fdbe4c2c47901d926d7225a10c2cc25a12825f"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0111",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0113",
+        "source_question_en": "On what date did [ENTITY_A] cease to be the country of [ENTITY_B]?",
+        "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0115",
+        "source_question_en": "Who does the teacher of [ENTITY_A]'s father differ from?",
+        "source_sha256": "5ff6918f270246728a37de6f861f8d7f85ec4393455f5ff28597041a77174c3a"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0116",
+        "source_question_en": "Which award did the family of [ENTITY_A]'s child receive?",
+        "source_sha256": "fcbd98e5e68d4887f208d3da6eb6c61b44b6d4e20134242975258372f28a4e55"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0117",
+        "source_question_en": "Who is the chairperson of [ENTITY_A]?",
+        "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0119",
+        "source_question_en": "Which notable work is by [ENTITY_A]?",
+        "source_sha256": "2a2d3ca7a38b69a754bea48224249c962d4928e56f7cb89248fcda141aea362d"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0120",
+        "source_question_en": "Which work is a part of [ENTITY_A]?",
+        "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0121",
+        "source_question_en": "Who founded the organization that the rank above the [ENTITY_A] is part of?",
+        "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0122",
+        "source_question_en": "Who commissioned [ENTITY_A]?",
+        "source_sha256": "86f9357fc6dced2252c978aca250a9df76a0db45e39c7f1f5a39d5b6dddab5c2"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0123",
+        "source_question_en": "What position has the child of the patron saint of [ENTITY_A] held?",
+        "source_sha256": "fe1f8234db46a3290149717617951b4d4b8a12bdea9f0ce91ddecdf8ea7f8991"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0124",
+        "source_question_en": "Which institution holds the documentation files about the person after whom the city that houses the [ENTITY_A]'s headquarters is named?",
+        "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0126",
+        "source_question_en": "What family does [ENTITY_A] belong to?",
+        "source_sha256": "40bc5915d1b191528ae065bc7dc3a4abb4f8fbea701555a7ee0e4b55a17311f7"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0127",
+        "source_question_en": "Where is the [ENTITY_A] language indigenous to?",
+        "source_sha256": "88d2ba90720a7e54ce9bcf7d59160cf94c4d5cf396038677c2dd259b8eee3d53"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0128",
+        "source_question_en": "Where was the organization of which the place where [ENTITY_A] was detained is a member formed?",
+        "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0130",
+        "source_question_en": "Who is the chairperson of [ENTITY_A]?",
+        "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0131",
+        "source_question_en": "What is the given name of the director of the work that is part of [ENTITY_A]?",
+        "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0133",
+        "source_question_en": "Who is the father of the creator of the noble title held by [ENTITY_A]?",
+        "source_sha256": "bb76b81ef32f868822c08966fa181084b96ac9a9a2e6f0aab31121f197786058"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0134",
+        "source_question_en": "Who is the head of state of the country of which [ENTITY_A]'s spouse is a citizen?",
+        "source_sha256": "2fbed2a246771de4bebff790c88be63f40f8121564c8f522907bf4d682fb0d33"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0136",
+        "source_question_en": "Who produced [ENTITY_A]?",
+        "source_sha256": "c02be921ce228e3758e070fbab6f522b65eabfc12aa3aa87a8faf8b033a2f13d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0138",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0139",
+        "source_question_en": "What is the family name of the entity that immediately follows the family to which [ENTITY_A] belongs?",
+        "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0141",
+        "source_question_en": "With which movement is [ENTITY_A] associated?",
+        "source_sha256": "0e7b1efdc9964f3c2de4db74f30f8e29718366d1e23cf32cd3c4e8d0fd07cae5"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0142",
+        "source_question_en": "On what date did [ENTITY_A] stop being the capital of [ENTITY_B]?",
+        "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0143",
+        "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+        "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0145",
+        "source_question_en": "Where is the mother of the person [ENTITY_A] works for buried?",
+        "source_sha256": "d67419d73f39ce08ff79ee60bb1a292c66f398c992235bdb561c3221fd5f118b"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0146",
+        "source_question_en": "What is [ENTITY_A] compatible with?",
+        "source_sha256": "b15c1b8d075503fbfa9754b7a75476952733e4bdf6d6f6f5ce410b447f1e7d8e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0148",
+        "source_question_en": "Where did the person who consecrated [ENTITY_A]'s child die?",
+        "source_sha256": "9f856e65a2bc0b91b25fc8f6913d83a4e6b8d4b2e495422a6b5b7c7124082e4d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0149",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0152",
+        "source_question_en": "Which work is [ENTITY_A] an edition or translation of?",
+        "source_sha256": "51db6cc2d48c969bb0acb315ea6602b949d57538f98f2d079ce2522f6eb6ec0e"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0153",
+        "source_question_en": "Who does [ENTITY_A] represent?",
+        "source_sha256": "fbda3cc4a41427d98e40975c501c267d240405c0f6d77ddf273aeacf79b78fc3"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0154",
+        "source_question_en": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?",
+        "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0155",
+        "source_question_en": "In which work does [ENTITY_A] appear?",
+        "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0156",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0157",
+        "source_question_en": "What is the family name of the entity that immediately follows the family to which [ENTITY_A] belongs?",
+        "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0158",
+        "source_question_en": "Who consecrated [ENTITY_A]?",
+        "source_sha256": "308e8320ee49c7236bb3e01e37be87253136b05e6a53d4a28cb5393930f3a963"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0160",
+        "source_question_en": "Who is [ENTITY_A] the godparent of?",
+        "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0162",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0163",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0164",
+        "source_question_en": "Who performed [ENTITY_A]?",
+        "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0167",
+        "source_question_en": "What series is [ENTITY_A] part of?",
+        "source_sha256": "8eb776190396def0a1512c8e95492355e499fb3926c8666c7374a8a15fa7786a"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0168",
+        "source_question_en": "Of which house is the [ENTITY_A] a part?",
+        "source_sha256": "30cf3344d557d62f5aa07e913bb70cbde1b42e1be2ed0a83b95563a0dd0a9b84"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0169",
+        "source_question_en": "What language is [ENTITY_A] a dialect of?",
+        "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0170",
+        "source_question_en": "What is [ENTITY_A]'s field of work?",
+        "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0171",
+        "source_question_en": "What did [ENTITY_A] replace?",
+        "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0173",
+        "source_question_en": "Of what class is the [ENTITY_A] a subclass?",
+        "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0174",
+        "source_question_en": "Who is the spouse of the godparent of the head of state of [ENTITY_A]?",
+        "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0179",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0180",
+        "source_question_en": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?",
+        "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0181",
+        "source_question_en": "Who is [ENTITY_A] different from?",
+        "source_sha256": "13b23b5f77210d0dc38ac38b33908774a09bc0f9eb41ce7e98b31d5d998c4b8c"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0183",
+        "source_question_en": "What is the religion of the child of [ENTITY_A]'s unmarried partner?",
+        "source_sha256": "56e6456bbcc362df40e93f2dbd2b903e3b95be8481e93b1d0f79f4bf7f84c8d6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0185",
+        "source_question_en": "Who is the director of the crew that the [ENTITY_A] crew member belongs to?",
+        "source_sha256": "88c868a62ce5d0bb1a343aba5612c60134c0454b2869c00ad9aa93f97f17b96f"
+      }
+    ],
+    "schema": "synthworlds-nllb-segmented-retry-v1",
+    "source_review_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+    "training_eligible": false
+  },
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "records": [
+    {
+      "review_key": "G0001",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8ad08b0666a0d52931d8efa1f89c3eed0663a159772c55f960e5e693bf605cca",
+      "candidate_translation": "ใครคือพ่อของคู่รักที่ไม่ได้แต่งงานของคู่รักของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "b694aec1a7c21b294b77e6303a8a208c24e8680677b1d9a9286aacab4eff3f06",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the father of the unmarried couple? [ENTITY_A]- What?",
+      "backtranslation_sha256": "9f72557277873450d54b2182d99112e7a4180b3b52e3a1e971c1c10b088cfd12",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0001",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0001\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0002",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "61c012052dc2b42c18176bb54583c2ca4fbe080a6ec3b95ab09982899cc720b0",
+      "candidate_translation": "คําร้องทางการของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "c50d42e1a21dcb46ff2e76d1fde3653caac960584aacebaaac0c534ee0a1ffee",
+      "candidate_error": null,
+      "backtranslation_en": "The official complaint of [ENTITY_A]- What?",
+      "backtranslation_sha256": "85a28db58f4c656a2974f4249f63ff46032f2106295019bdf19edeb86d45f040",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0002",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, wrong term used."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0002\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, wrong term used.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0003",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "a29ce462f0fdefa7242c477f0e1c9cd2a8e98fe9d4cca85059b6c9416b2aa860",
+      "candidate_translation": "สินค้าใดคือของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "52c822c3acd2e7251d155b717c6ed6d65cad259f504738705ae2c274ca8ef743",
+      "candidate_error": null,
+      "backtranslation_en": "What kind of goods are of [ENTITY_A]- What?",
+      "backtranslation_sha256": "b8e5cc6d23f3c8f630951a589cda8545a3468726d17543724dd29f173e9297ff",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0003",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0003\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0004",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9e4c022191c7b798707da1bc20862b1563542cc963915fa11529b73b5f20b802",
+      "candidate_translation": "ใครคือ [ENTITY_A] เผยอาสา?",
+      "candidate_sha256": "1158ee7f667dd59f6693dd08c8cf064d2980cf1ff5ae2d868d0e807ed52b9091",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A] - What?",
+      "backtranslation_sha256": "e98fd3e61aec3731a2fbee397deda43d893f9e77b1d8ff7a9bf1962a9f064c32",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0004",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0004\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0005",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "623106a1d9c0a3ba3f5826efba6963d30caecc1464b4d3596bd0a88fbc282fae",
+      "candidate_translation": "कौन सा शहर है [ENTITY_A] के साथ जुड़वां?",
+      "candidate_sha256": "fa30897feb373f1d4af77e71ab6e3730655e1e16509b5cb76a7ad0d813b2c584",
+      "candidate_error": null,
+      "backtranslation_en": "Which city is [ENTITY_A] twins with?",
+      "backtranslation_sha256": "a43cdabcb8f814cfb431ff87d14c2466f1a67dd87ab4650e6d0de57326606a3c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0005",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mentions 'city' instead of 'town'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0005\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mentions 'city' instead of 'town'.\"}] }"
+    },
+    {
+      "review_key": "G0006",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "b91d02dc96ba0a7e661f91c16343ef9449fe59e67d6570b781f553d552e74913",
+      "candidate_translation": "ในงานที่ [ENTITY_A] สอนไว้?",
+      "candidate_sha256": "98a1fa7542ca55d65c0c1564822ea8ba58bec298d16ef5fcc63c4eac50df508f",
+      "candidate_error": null,
+      "backtranslation_en": "In that job. [ENTITY_A] Teaching him?",
+      "backtranslation_sha256": "4f4ec02b5d9cfb1dcf08ecc508d06618cfd4e87467ab497df35d749a88529ba7",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0006",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation and meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0006\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation and meaning.\"}]}"
+    },
+    {
+      "review_key": "G0007",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b",
+      "candidate_translation": "ชื่อที่เทียบเท่าของเพศตรงข้าม [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "c8ac17fad757fbda41717784a31363818945412fe4b6af20307b87cb518cb9db",
+      "candidate_error": null,
+      "backtranslation_en": "The name is the opposite sex. [ENTITY_A]- What?",
+      "backtranslation_sha256": "ee866a75d3229be8de0f4f6b777915502b67b39a34012509402e1f85c7d6c951",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0007",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0007\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation and scope.\"}] }"
+    },
+    {
+      "review_key": "G0008",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c",
+      "candidate_translation": "क्या हिस्सा है [ENTITY_A]?",
+      "candidate_sha256": "88eddd8aa0206a2529df34837aebd849e48b6b7f9dd859b9131e0f243d889620",
+      "candidate_error": null,
+      "backtranslation_en": "What part [ENTITY_A]What?",
+      "backtranslation_sha256": "8027d75babeea16691460c06e4f91b2f19cd78100aa1248a9ed4ad95faa66e48",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0008",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0008\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0010",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "candidate_translation": "ใครคือ [ENTITY_A]เป็นพ่อแม่เลี้ยง?",
+      "candidate_sha256": "25b0cec8382e343705687a9eed887aa346a97740c257f3f68a08acc6f1bed888",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]As a foster parent?",
+      "backtranslation_sha256": "1bebfcf8f17c1512206ca7a54e2372d154158aeeaac87eeb4a6ee2bc09535d20",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0010",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterpretation of godparent, grammatical issues."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0010\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterpretation of godparent, grammatical issues.\"}] }"
+    },
+    {
+      "review_key": "G0012",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "อะไรคือ [ENTITY_A]ชื่อของใคร?",
+      "candidate_sha256": "8c4b955ee86b44e91ef329221df7ee09a508c8673d30ca2fe1263169241882b3",
+      "candidate_error": null,
+      "backtranslation_en": "What is it? [ENTITY_A]Whose name?",
+      "backtranslation_sha256": "f3a8c010dc1ce7169b21d143d9ee6a29d2f3e46355b195eb7171682544580528",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0012",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0012\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0013",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3",
+      "candidate_translation": "भाषा क्या है [ENTITY_A] एक बोली के?",
+      "candidate_sha256": "9c2e81011ef1d3847c6b1f8e3cf090fdd70dee2d5c095571daa9793efa9170bc",
+      "candidate_error": null,
+      "backtranslation_en": "What is language [ENTITY_A] A bid?",
+      "backtranslation_sha256": "ba9f9acf47ee8adc14365024d036c7ea309256b74d1819371015cac5c8b9e2d7",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0013",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrectly translated, back-translation mismatch."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0013\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrectly translated, back-translation mismatch.\"}] }"
+    },
+    {
+      "review_key": "G0014",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "42d4d484dc70a500cb3a2d41e6f971f9828f9fd6b89f2250e5a959a80ab2c903",
+      "candidate_translation": "ในช่วงเวลาใด [ENTITY_A] เกิดขึ้นไหม",
+      "candidate_sha256": "19d0b478ab83331c523620e67eb4a88a6a0903969311f9a48c39e346769e9212",
+      "candidate_error": null,
+      "backtranslation_en": "At what time? [ENTITY_A] Did it happen?",
+      "backtranslation_sha256": "8ecc629294b7e4da5b2843c54a0f120bec51bf18464ba9e79eaa7c7674d2222d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0014",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changed question structure, missing period context."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0014\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changed question structure, missing period context.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0015",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "08e9bfe4739fb63eb34bdd9996764853ecd86f8c4aab182cd4ef13311c208412",
+      "candidate_translation": "क्या है [ENTITY_A] का हिस्सा?",
+      "candidate_sha256": "c7cb77ed09c1d2bcb11894fa16dff5b0de6faaba2ee103d0ebe9ad2d199b8c6d",
+      "candidate_error": null,
+      "backtranslation_en": "What is it [ENTITY_A] part of it?",
+      "backtranslation_sha256": "1cd55f4f480e6ffd32c571aca01c2bc649a5fdae43f96d16a363372eace5ebc5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0015",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, unclear reference."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0015\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, unclear reference.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0017",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "062db3cd4f3d8bcebaa83c6e732c30bfcf8353c06d3d738058eae8dad4fc3c3b",
+      "candidate_translation": "ใครเป็นผู้อํานวยการของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "5fc0c914bd0ec2b2e28b52d9d1e34e9f52aaaad0a1eea7539bb9fab573a04098",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the director of the [ENTITY_A]- What?",
+      "backtranslation_sha256": "9116d0104a11bb55893b32a193d2e5877e2ba7d30cbba67c13d0b8eb80a4e978",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0017",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, added 'What'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0017\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, added 'What'.\"}]}"
+    },
+    {
+      "review_key": "G0019",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517",
+      "candidate_translation": "जिस व्यक्ति के लिए स्थान जहां [ENTITY_A] काम किया गया नाम था?",
+      "candidate_sha256": "62c67dedccfb57545118ce13ab92cfacb721f279c32b32ec4e46513ff2458370",
+      "candidate_error": null,
+      "backtranslation_en": "location for the person where [ENTITY_A] Was the working name?",
+      "backtranslation_sha256": "bbd83c925d4b820d2b43316ed4a7e992a57bc080916078b6477481d77f022c98",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0019",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and missing spouse reference."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0019\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and missing spouse reference.\"}] }"
+    },
+    {
+      "review_key": "G0021",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "ใครคือ [ENTITY_A]เป็นพ่อแม่เลี้ยงเหรอ",
+      "candidate_sha256": "ae3e27d3325baac3e770294f36918a7112e25d3239bb3c0316e0a68e84fe21e2",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]You're the foster parent?",
+      "backtranslation_sha256": "5acf0b4c5b5bfdf0fa8b02b377e3b3dbcbc54aa21e18389aac2bed8e6af12ae2",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0021",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0021\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0022",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "ผู้ที่มอบหมาย [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "913d8b06e51525018a00e6b947d0cc3182231a64c85086be97ec0558c6f7bcf1",
+      "candidate_error": null,
+      "backtranslation_en": "The one who's in charge. [ENTITY_A]- What?",
+      "backtranslation_sha256": "423942fc0272b1ac6f1c7fa99bae929f29a5b3c7e44ae9f2c1dc1a47a406cf58",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0022",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0022\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}]}"
+    },
+    {
+      "review_key": "G0023",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "candidate_translation": "राज्य की कौन सी राजनीतिक कार्यालय है जिसने उस देश की जगह ली है जिसकी राजधानी है [ENTITY_A] अपने राज्य के प्रमुख द्वारा आयोजित किया जाता है?",
+      "candidate_sha256": "f264e44ba0fb7994555bbd789742be9a3f0d8f541a7316b1f9cf756d1d2914ae",
+      "candidate_error": null,
+      "backtranslation_en": "What political office of the state has taken the place of the country whose capital is [ENTITY_A] Is organized by the head of your state?",
+      "backtranslation_sha256": "b10602b9ce42847a20cfc0d515fd34a8f827177294e2ebacef8698a119234fe4",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0023",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Material change, grammatical errors."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0023\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Material change, grammatical errors.\"}]}"
+    },
+    {
+      "review_key": "G0024",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "candidate_translation": "สถานที่ที่ติดกับสถานที่นั้นอยู่ไหน [ENTITY_A] เป็นพื้นเมืองที่ตั้งหลัก?",
+      "candidate_sha256": "0e5eb14743363806cd23168adebbce909fdeb4d974a581e577efbba39c2d119d",
+      "candidate_error": null,
+      "backtranslation_en": "Where's the contact with that place? [ENTITY_A] Is it the main indigenous?",
+      "backtranslation_sha256": "5a63c71955effa5377d84b40ba10706778d0e979bd13836780594f6bcb22b034",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0024",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterprets relation, changes scope"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0024\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterprets relation, changes scope\"}]}"
+    },
+    {
+      "review_key": "G0025",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72",
+      "candidate_translation": "क्या है [ENTITY_A]काम का क्षेत्र?",
+      "candidate_sha256": "0ae110860db256cc818ba60108df69312da7aa215d0c176bc276d3a512115b64",
+      "candidate_error": null,
+      "backtranslation_en": "What is it [ENTITY_A]The work area?",
+      "backtranslation_sha256": "0aaf3771fea345cfeaa2d0225978a0b0c4c901619f7a0481e33755fd2958222f",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0025",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0025\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0026",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "candidate_translation": "ในปีใด [ENTITY_A] รับการ [ENTITY_B]- อะไรนะ",
+      "candidate_sha256": "bea74c0201f8c2011ff241d11276d6cb8ea473fdc9a87bfa827123f5d746ed9b",
+      "candidate_error": null,
+      "backtranslation_en": "What year? [ENTITY_A] I got it. [ENTITY_B]- What?",
+      "backtranslation_sha256": "db5b0951f1730bcea3f7ef5aa04adfb9b3556038642b8408e0fd8aa4d19df52e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0026",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Material change, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0026\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Material change, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0027",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "ชื่ออันยิ่งใหญ่ [ENTITY_A] รอหน่อย",
+      "candidate_sha256": "054e7f2984935c2e3f787650d92126a2c48c0cdc33e2499a23445ce62f0d4a05",
+      "candidate_error": null,
+      "backtranslation_en": "A great name. [ENTITY_A] Wait a minute.",
+      "backtranslation_sha256": "8558cf752799069f2c0c7cdcf3e7eb194a7a96a812c22d321b051c441816127c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0027",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation and meaning"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0027\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation and meaning\"}]}"
+    },
+    {
+      "review_key": "G0028",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d00cde8fd3a1bf8d9d9c09b7c6f103a0e71e9acca66359502bb3accf30cb51f0",
+      "candidate_translation": "ผู้ที่แทนผู้สร้างของผู้เข้าร่วมใน [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "03eec24d6679762cb4df1c4e0ec37a9b2fd880130870541f9cf5b13f9678946d",
+      "candidate_error": null,
+      "backtranslation_en": "Who represents the creator of the participants in [ENTITY_A]- What?",
+      "backtranslation_sha256": "6f69a849a24dc9b55aac896aa445116838936a8789648d5f180e2d569b40df51",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0028",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, added 's'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0028\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, added 's'\"}]}"
+    },
+    {
+      "review_key": "G0030",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "f2d483118d912263347243c2e709e6e36152c5248cf35a1cb3a888efd8ba4dfe",
+      "candidate_translation": "งานอะไร [ENTITY_A] ตามลําดับของมัน?",
+      "candidate_sha256": "060f6871025c25035dbf37b12dcaa04d7eb30ace461b60e0837d1828455b513b",
+      "candidate_error": null,
+      "backtranslation_en": "What's the job? [ENTITY_A] In its order?",
+      "backtranslation_sha256": "6f22565bc73895cb8458bc61f0d9639378ed3d1f8dd0cc70081c5d6cdbdea86a",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0030",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation doesn't match original question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0030\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation doesn't match original question.\"}] }"
+    },
+    {
+      "review_key": "G0031",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6",
+      "candidate_translation": "क्या किया [ENTITY_A] प्रतिस्थापन?",
+      "candidate_sha256": "e33652677bb1a20af395d64c7f9c75ba4a703449074fe4ecd73256ebedd861d4",
+      "candidate_error": null,
+      "backtranslation_en": "what did [ENTITY_A] Replacement?",
+      "backtranslation_sha256": "2b904ea4d33607d8ca8807ad051cb4a352f3f5d8fc5df600da6ac276f4e9b7b1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0031",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect replacement of 'replace' with 'Replacement'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0031\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect replacement of 'replace' with 'Replacement'.\"}] }"
+    },
+    {
+      "review_key": "G0032",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "ใครคือ [ENTITY_A]เป็นพ่อแม่เลี้ยงเหรอ",
+      "candidate_sha256": "ae3e27d3325baac3e770294f36918a7112e25d3239bb3c0316e0a68e84fe21e2",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]You're the foster parent?",
+      "backtranslation_sha256": "5acf0b4c5b5bfdf0fa8b02b377e3b3dbcbc54aa21e18389aac2bed8e6af12ae2",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0032",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0032\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0033",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354",
+      "candidate_translation": "जिस व्यक्ति के अविवाहित साथी का पिता कौन है [ENTITY_A] में रुचि रखते हैं?",
+      "candidate_sha256": "22dfcca28081c988c2278abce780d4654ce753eac55eaeb6ac4b630229296f98",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the father of a person who is not married? [ENTITY_A] interested in?",
+      "backtranslation_sha256": "d25abd31c5b6645df91804de526b5ae8f866471ab4045377bdb7fce42e6f9614",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0033",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing 'whom partner is interested in'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0033\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing 'whom partner is interested in'\"}]}"
+    },
+    {
+      "review_key": "G0035",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "50b9b1065c3d296199e391f1583e48bf82fbd8d34b5998cfb37dafe0baa3158e",
+      "candidate_translation": "ใครเป็นผู้ดูแล [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "dc35dcd8bd27620ab75936ca7e5c0fd455d25d8352d20817850c7beb13c80f13",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the caretaker? [ENTITY_A]- What?",
+      "backtranslation_sha256": "f0efa8d576f214b74a4aaf24908314f8887356256a6683edeb47e1b213583028",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0035",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing entity, asks what instead."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0035\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing entity, asks what instead.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0036",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "candidate_translation": "อะไรคือส่วนหนึ่งของชั้นสูงต่อไปเหนือชั้นที่มี [ENTITY_A] เป็นชั้นใต้?",
+      "candidate_sha256": "17627987e0ab0fa83db265576c3ea2e664e19aee2541bf9262653aa1d4980968",
+      "candidate_error": null,
+      "backtranslation_en": "What is part of the next higher layer above the existing layer? [ENTITY_A] Is it the south?",
+      "backtranslation_sha256": "075b5156f86007f29294ab3fe59dda11f7a6afb0a457f612d728e24f0d14a549",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0036",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, added 'Is it the south?'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0036\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, added 'Is it the south?'\"}]}"
+    },
+    {
+      "review_key": "G0037",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c45d127389aa1d7e66d329f18390ae76276c46337d27482ccd2e46be707c1592",
+      "candidate_translation": "किस क्षेत्र में [ENTITY_A] ऑपरेट करें?",
+      "candidate_sha256": "062242c3f0842ae15125f79b32c6fb2b059ffabdba1220be311c084fa68aa3bb",
+      "candidate_error": null,
+      "backtranslation_en": "in which field [ENTITY_A] Operate?",
+      "backtranslation_sha256": "441a564a747c9c8c55444cd69e4271a560d81e6b6e82f60ae7d2a5ff8b7f1a18",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0037",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Area vs Field"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0037\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Area vs Field\"}]}"
+    },
+    {
+      "review_key": "G0038",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "aeda6b768bef9cb6a00f2d377c5186d7d8e94a5edeaa1adb58039e9e970d1cb7",
+      "candidate_translation": "การเคลื่อนไหวที่ [ENTITY_A] ที่เกี่ยวข้องกับ?",
+      "candidate_sha256": "511cb4c31340b73cb386d0ec5d0e77fb0d3b0109379f6558bc357ff6f8e44d23",
+      "candidate_error": null,
+      "backtranslation_en": "Movement that [ENTITY_A] Related to?",
+      "backtranslation_sha256": "b1877136b66dac4f59b566b8820785752f6ea3632ca226150ca62b701dcc38df",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0038",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect structure, changes meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0038\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect structure, changes meaning.\"}] }"
+    },
+    {
+      "review_key": "G0039",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "ผู้ที่มอบหมาย [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "913d8b06e51525018a00e6b947d0cc3182231a64c85086be97ec0558c6f7bcf1",
+      "candidate_error": null,
+      "backtranslation_en": "The one who's in charge. [ENTITY_A]- What?",
+      "backtranslation_sha256": "423942fc0272b1ac6f1c7fa99bae929f29a5b3c7e44ae9f2c1dc1a47a406cf58",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0039",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes meaning, adds confusion."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0039\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes meaning, adds confusion.\"}]}"
+    },
+    {
+      "review_key": "G0040",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "ใครคือ [ENTITY_A]พี่น้องเหรอ?",
+      "candidate_sha256": "943fa225cc975042c86f97d4e880e7e849b09c088ff96cfb36b894e70e5bab1c",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]Are you a brother?",
+      "backtranslation_sha256": "ab497c25f183540f9dfe10698258a9d22eb3a1179d84037a91d849368e993ad1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0040",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0040\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope.\"}] }"
+    },
+    {
+      "review_key": "G0042",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef",
+      "candidate_translation": "ผู้แสดง [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "2efb5b3356f02273b9f369cbce7c52e7ef450ff3a96c5a1dcd9036c09d0e1aa0",
+      "candidate_error": null,
+      "backtranslation_en": "The actor. [ENTITY_A]- What?",
+      "backtranslation_sha256": "aec2710958002f424b0c25cc92ca77ba5bb28e3426b2d0d8738cc2e6d1e50409",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0042",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0042\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0043",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54",
+      "candidate_translation": "संगठन की स्थापना की कि रैंक से ऊपर [ENTITY_A] का हिस्सा है?",
+      "candidate_sha256": "2df6f43ad669c39004b4421abde8910d5058ef730ccdc736ce3511049a47063a",
+      "candidate_error": null,
+      "backtranslation_en": "organization established that rank above [ENTITY_A] part of?",
+      "backtranslation_sha256": "3039af35b7e61d01eb1a18bd7f97fba757df0584d07ec7c54e294c079ee67793",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0043",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing founder, wrong structure"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0043\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing founder, wrong structure\"}]}"
+    },
+    {
+      "review_key": "G0045",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "8b409d8894d3627faf8ad2879a5864821d6c4687fbf13c68bc7fcdf6e59465fe",
+      "candidate_translation": "कौन है [ENTITY_A]बच्चे के लिए?",
+      "candidate_sha256": "708626b2c764ddb2da666dc7c8f1ef2ee3c5223ecabfb5a517755a3805075ff0",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]For the baby?",
+      "backtranslation_sha256": "159b2b65bedef1c2c7ef2c8da6fd0050a9d930e99dce0723707562525782511e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0045",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0045\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope\"}]}"
+    },
+    {
+      "review_key": "G0048",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "candidate_translation": "สิ่งที่เกิดขึ้นทันที [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "2b29f21aca3e76cbd723108013caa2452b2493595b2b25c7d38f65016cbc2851",
+      "candidate_error": null,
+      "backtranslation_en": "What happened right away? [ENTITY_A]- What?",
+      "backtranslation_sha256": "9e8cb9931f02126a4f81418e1cf7b17cd8aee314ceb4bf6dac30de19ba27c6e5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0048",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, missing 'immediately follows'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0048\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, missing 'immediately follows'.\"}]}"
+    },
+    {
+      "review_key": "G0049",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "ใครคือพ่อแม่ของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "1de1b80f72617c7ac9903a4cc264f4c5dfbdaec4fbc283251693d50342ee24ab",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the parents? [ENTITY_A]- What?",
+      "backtranslation_sha256": "e861e4be35d52a1f3494d1b16203d20320b299b3e988d11244405102048a37a5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0049",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation, asks about parents instead of godparent."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0049\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation, asks about parents instead of godparent.\"}]}"
+    },
+    {
+      "review_key": "G0051",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "58f207dc8261bd767fa2421e4590e97c52ebec4ed58214c588d3aaaac72a3733",
+      "candidate_translation": "कौन है प्रदर्शित निर्माता [ENTITY_A]?",
+      "candidate_sha256": "71ff30203d6f83bbb77c7d39e679e8d2a54268c6be8de6a46a6e4ed76ac50e0e",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the display maker [ENTITY_A]What?",
+      "backtranslation_sha256": "413fc37740cba968342fff97ad80475aeef2a7e507962780c3b6ba82bbe951da",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0051",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, added 'What'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0051\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, added 'What'\"}]}"
+    },
+    {
+      "review_key": "G0052",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "b750c298b8bd7368e17ae110e97989cf8c9d150b76c5ecf34ef0b23022eb9bc5",
+      "candidate_translation": "जो काम वर्णन करता है [ENTITY_A]?",
+      "candidate_sha256": "158f779081335db7edf5087c559296aad75e8bf5f63bddb8016671004b7d08f1",
+      "candidate_error": null,
+      "backtranslation_en": "which describes the work [ENTITY_A]What?",
+      "backtranslation_sha256": "faae140a4c7a4b1c7cc128a397b2e45557ce6c694fb9f447b882c4acae181037",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0052",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0052\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0054",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "ebf318b0f3984fbe028bff6ef7f21e820045f92a4cd2a181e3e6dee3922c81f4",
+      "candidate_translation": "Welches Ehrenprefix wird vor dem Namen des unverheirateten Partners des Gründers verwendet? [ENTITY_A]- Ich weiß .",
+      "candidate_sha256": "20171e75693f1a974961811f9c6433e482ebb14e7d61cb8fab2edb41647b4fac",
+      "candidate_error": null,
+      "backtranslation_en": "What honorific prefix is used before the name of the founder's unmarried partner? [ENTITY_A]- I know , I know .",
+      "backtranslation_sha256": "c58dee7b2128894f36547f780ecccd7eb6376b1fe5adceba9404a04bad8e9bd3",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0054",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing entity A, mixed subject."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0054\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing entity A, mixed subject.\"}]}"
+    },
+    {
+      "review_key": "G0056",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "ใครคือ [ENTITY_A]พี่น้องเหรอ?",
+      "candidate_sha256": "943fa225cc975042c86f97d4e880e7e849b09c088ff96cfb36b894e70e5bab1c",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]Are you a brother?",
+      "backtranslation_sha256": "ab497c25f183540f9dfe10698258a9d22eb3a1179d84037a91d849368e993ad1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0056",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0056\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope.\"}]}"
+    },
+    {
+      "review_key": "G0057",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "candidate_translation": "जो सीमा साझा करता है [ENTITY_A]?",
+      "candidate_sha256": "eb81ab352ac6e2dc141342653881ffe0b9a8c38764ae2bcb1aa2b50f6b9b90f4",
+      "candidate_error": null,
+      "backtranslation_en": "which shares a boundary [ENTITY_A]What?",
+      "backtranslation_sha256": "5ef6732a4f20de645bd1b13b971bf9bbef5a96597046a9be676c0723b2115c3f",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0057",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation is incomplete and lacks clarity."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0057\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation is incomplete and lacks clarity.\"}] }"
+    },
+    {
+      "review_key": "G0059",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+      "candidate_translation": "ในวันไหน [ENTITY_A]ประจําตําแหน่งผู้อํานวยการ [ENTITY_B] จบ?",
+      "candidate_sha256": "9f50e18792ec5c694ad52b36a3c9b3ebe38e628a9837b5897fe3c9d55d7f678c",
+      "candidate_error": null,
+      "backtranslation_en": "What day? [ENTITY_A]I'm the director. [ENTITY_B] Finished?",
+      "backtranslation_sha256": "40a574bee9c4b92516bbe21c30630479cf3783fb01ce26638bfe93e48b0813d9",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0059",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect meaning, grammar issues."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0059\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect meaning, grammar issues.\"}]}"
+    },
+    {
+      "review_key": "G0061",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "853f0c66bf9fe678936e5febe3dc4493abc433216d41774b7a4b374c832d6acb",
+      "candidate_translation": "ใครคือพี่น้องของคนที่หลังจากที่ที่พักที่บ้าน [ENTITY_A] ชื่ออะไร?",
+      "candidate_sha256": "eb3580149c89f9a4a258bf0aca0ce54109529128f64c21eee2e27e8daa2a2722",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the brother of the man after the stay at home? [ENTITY_A] What's your name?",
+      "backtranslation_sha256": "2440fe2c8388ceb56f9bb92eec0db90af6c7622620137b7338788dc835b5744d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0061",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Misinterpretation, grammatically incorrect."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0061\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Misinterpretation, grammatically incorrect.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0062",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "candidate_translation": "जो सीमा साझा करता है [ENTITY_A]?",
+      "candidate_sha256": "eb81ab352ac6e2dc141342653881ffe0b9a8c38764ae2bcb1aa2b50f6b9b90f4",
+      "candidate_error": null,
+      "backtranslation_en": "which shares a boundary [ENTITY_A]What?",
+      "backtranslation_sha256": "5ef6732a4f20de645bd1b13b971bf9bbef5a96597046a9be676c0723b2115c3f",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0062",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation missing 'with', reversed sentence structure."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0062\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation missing 'with', reversed sentence structure.\"}] }"
+    },
+    {
+      "review_key": "G0063",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "824fbc02d3d38a977cba21df2f5a70bdf3c1de61b4aedfcab4ff51d0986b65b5",
+      "candidate_translation": "किस संस्थान में कलाकारों की फाइलें हैं [ENTITY_A]?",
+      "candidate_sha256": "9ce1176005ad17aa1fdf62682ed34acaa5a1a891cdc66bd59134d2b2e372ed1b",
+      "candidate_error": null,
+      "backtranslation_en": "Which institution has artists ' files [ENTITY_A]What?",
+      "backtranslation_sha256": "ba0fb4cd014fd1dd76635579f2c6dcd42d65490a7fe3a3611fddb6937b7221ea",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0063",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, extra word."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0063\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, extra word.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0064",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ee6c37e06269bb29fc128d3757c7ca439724ebe1ef111e1305e830767294f388",
+      "candidate_translation": "ซึ่งงานอธิบาย [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "3b9d40e23babfa93f5033ac796729b0be8c3a4e1485517462a0d0adde535f919",
+      "candidate_error": null,
+      "backtranslation_en": "Which the work explains. [ENTITY_A]- What?",
+      "backtranslation_sha256": "f8d252d1c3bf3b631f7f2c5254c1b7d4637ceb8ffb7c6a06eb1a9e848977a0bc",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0064",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0064\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0065",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "candidate_translation": "ใครคือ [ENTITY_A]เป็นพ่อแม่เลี้ยง?",
+      "candidate_sha256": "25b0cec8382e343705687a9eed887aa346a97740c257f3f68a08acc6f1bed888",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]As a foster parent?",
+      "backtranslation_sha256": "1bebfcf8f17c1512206ca7a54e2372d154158aeeaac87eeb4a6ee2bc09535d20",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0065",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect role relationship"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0065\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect role relationship\"}]}"
+    },
+    {
+      "review_key": "G0070",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "2985e3177830cbc7bf50046e7433ae29e8b707fc8a1b832427ef8997ae4d2997",
+      "candidate_translation": "สถานที่บริหารส่วนท้องถิ่นใด [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "e6032f31e038df588892458ab5bcf3d63e3033e460cbd4aba1d6f61fa54b56a7",
+      "candidate_error": null,
+      "backtranslation_en": "What local administrative area? [ENTITY_A]- What?",
+      "backtranslation_sha256": "55bf42cf7f148da45633c64e9aeda470dafc9951ca3a07c8c01488a9b7c3b8fa",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0070",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing contained entity, asks what instead."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0070\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing contained entity, asks what instead.\"}]}"
+    },
+    {
+      "review_key": "G0071",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4c76cdf14a47041ca224d69380ae5431aeb6f9299bd34ef2d3f8eb350306cd70",
+      "candidate_translation": "ชื่อของผู้หญิงคืออะไร [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "47abd4cf355c5272b29af1ee6b3e6e867e2fb7b88b2d4818836ab98e45f9c722",
+      "candidate_error": null,
+      "backtranslation_en": "What's the girl's name? [ENTITY_A]- What?",
+      "backtranslation_sha256": "69eb7ac5831d348183b66e8a6fb954cd8edd25c8e1e4e293f7a73254d74c2c16",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0071",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing female version context"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0071\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing female version context\"}]}"
+    },
+    {
+      "review_key": "G0074",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "ใครคือ [ENTITY_A]พี่น้องเหรอ?",
+      "candidate_sha256": "943fa225cc975042c86f97d4e880e7e849b09c088ff96cfb36b894e70e5bab1c",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]Are you a brother?",
+      "backtranslation_sha256": "ab497c25f183540f9dfe10698258a9d22eb3a1179d84037a91d849368e993ad1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0074",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0074\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope.\"}] }"
+    },
+    {
+      "review_key": "G0076",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87",
+      "candidate_translation": "ที่ไหนคือองค์กรของที่ไหนที่ [ENTITY_A] ถูกจับกุมแล้ว มีสมาชิกตั้งหรือไม่",
+      "candidate_sha256": "fccce0c903f6f7a4ad7c0da764a5faa0f080e000b18bcc6a5b85681903a8688a",
+      "candidate_error": null,
+      "backtranslation_en": "Where is the organization of where? [ENTITY_A] Have you been arrested?",
+      "backtranslation_sha256": "097276e75c208491a23941106afcf7e2e1bbf80d67fe3d09ab161457dfc6a929",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0076",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changed relation and scope"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0076\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changed relation and scope\"}]}"
+    },
+    {
+      "review_key": "G0078",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850",
+      "candidate_translation": "संस्थापक के सौतेले माता-पिता किस भाषा में करते हैं [ENTITY_A] बोलना?",
+      "candidate_sha256": "fe9e1cdefcfbf440efe4b96a6dd3fcb269a0c63ea61b81b2b2b8abe4a474b1aa",
+      "candidate_error": null,
+      "backtranslation_en": "What language do the founding fathers ' stepmothers do in [ENTITY_A] Speak?",
+      "backtranslation_sha256": "054e9e8bd23154f0b2e4b633fbd83f8fc2a05dbcd2073f6ab206dbad72a26937",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0078",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect relation, grammar issues"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0078\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect relation, grammar issues\"}]}"
+    },
+    {
+      "review_key": "G0081",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a",
+      "candidate_translation": "राज्य के प्रमुख के पादपाती का पति कौन है [ENTITY_A]?",
+      "candidate_sha256": "1228f949b0bab774c04500342f353253f12353b18560459a734896df904afd74",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the husband of the head of state's plantation [ENTITY_A]What?",
+      "backtranslation_sha256": "45574b051abebfc3220a387c17b6d948786e2ba65423da7c00ffdb93df29dd49",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0081",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation, husband instead of spouse's spouse"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0081\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation, husband instead of spouse's spouse\"}]}"
+    },
+    {
+      "review_key": "G0082",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "candidate_translation": "वह इकाई कहाँ है जो उस स्थान के साथ सीमा पार करती है [ENTITY_A] मुख्यालय में स्वदेशी है?",
+      "candidate_sha256": "78565a89de481e79779e34e1c2fc6484bf4d0a63d9a1209378935df8c1ab1d95",
+      "candidate_error": null,
+      "backtranslation_en": "Where is the unit that crosses the boundary with that place [ENTITY_A] Is there an indigenous in the headquarters?",
+      "backtranslation_sha256": "5e293cb6c77ada76bf31e767c13f1fe01d1ba61ad0ddc52d139e0a3d8d9bcc1d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0082",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misrepresents relation and adds 'Is there'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0082\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misrepresents relation and adds 'Is there'.\"}]}"
+    },
+    {
+      "review_key": "G0083",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "candidate_translation": "इसके तुरंत बाद क्या होगा [ENTITY_A]?",
+      "candidate_sha256": "99eefec04631c8b818206e4f7426b57f2220b3e533258b2212e4dbad64c52801",
+      "candidate_error": null,
+      "backtranslation_en": "What happens immediately afterwards [ENTITY_A]What?",
+      "backtranslation_sha256": "7473310751e1f18f259fd03b0e49061ca4df5b57311688894d06c21a39001c49",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0083",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, extra word."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0083\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, extra word.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0084",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "कौन है [ENTITY_A]एक सौतेले माता पिता है?",
+      "candidate_sha256": "08e326a21ae25846ce78465fdc7918f9c32b5f3cb01e608747de6365b59394b8",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]A stepfather?",
+      "backtranslation_sha256": "18e93b464e1006805f9c30339bfe93f67bc85b2ccad9722d1f048209b066cbb5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0084",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and incomplete sentence."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0084\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and incomplete sentence.\"}] }"
+    },
+    {
+      "review_key": "G0088",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ae0b329aff0fb17515f26e900ca17dfc08d6d62a02442ddcbf0c0f1342d7c5b6",
+      "candidate_translation": "ผู้ร่วมงาน [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "e239e894d923ef30d9dfbf8cc4630e44748d5bd2decaaa37a06fdf572d33969c",
+      "candidate_error": null,
+      "backtranslation_en": "The co-worker. [ENTITY_A]- What?",
+      "backtranslation_sha256": "10335b1896c63222d4f5df991943887aab6f402adb07f6602131ac2ad01d8105",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0088",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match original question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0088\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match original question.\"}] }"
+    },
+    {
+      "review_key": "G0089",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "024d137c445804ec546790cfc51bdbd094cd03ff0bde49342a438cfc33f60430",
+      "candidate_translation": "ในวันไหน [ENTITY_A] ลงประกอบ?",
+      "candidate_sha256": "ff53de1265408f28549576de47d31064e24c27165dc13994337903efe51d63b4",
+      "candidate_error": null,
+      "backtranslation_en": "What day? [ENTITY_A] - What's the matter?",
+      "backtranslation_sha256": "ce40a42d65ef4ecf3d430b34dc8f7eda64d82f3fe13e66098186ddb05f4479e4",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0089",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changed meaning, back-translation doesn't match."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0089\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changed meaning, back-translation doesn't match.\"}] }"
+    },
+    {
+      "review_key": "G0090",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "candidate_translation": "किस तारीख पर किया [ENTITY_A] देश बन गया जो [ENTITY_B] वहाँ है?",
+      "candidate_sha256": "146d59ce7969e85e961b28eb4370c6afd854a5be2ba4a542da0888cedf8e4fa0",
+      "candidate_error": null,
+      "backtranslation_en": "on what date [ENTITY_A] became a country that [ENTITY_B] Is there?",
+      "backtranslation_sha256": "b0ddc138786672bb954aeebd2fb7125d7a44664e442598c6217a6b1871ec1d39",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0090",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0090\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning\"}]}"
+    },
+    {
+      "review_key": "G0092",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "candidate_translation": "किस वर्ष में किया [ENTITY_A] पति-पत्नी बनें [ENTITY_B]?",
+      "candidate_sha256": "af4354293ce33350975641b6396498c231385e3282e4e22192e43a3942a29fc8",
+      "candidate_error": null,
+      "backtranslation_en": "in which year [ENTITY_A] Become a Husband and Wife [ENTITY_B]What?",
+      "backtranslation_sha256": "db0881186ea1b65bacce33fbcb88592c0b08019d3a191b27b035379212381636",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0092",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, missing preposition, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0092\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, missing preposition, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0094",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "f3d40643457bfdcf5a26c949aade18db82c47c87167d0cbf54a12d4761db4c78",
+      "candidate_translation": "ซึ่งงานที่ตามมา [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "9c99e853410a4dfe3a2cd9caf1d791992f3b086fd2c1c161139fd7e6238da2df",
+      "candidate_error": null,
+      "backtranslation_en": "Which is the job that follows. [ENTITY_A]- What?",
+      "backtranslation_sha256": "8404b7d90fb32fb0af7f2f2eb897316f0608c8569eb52c6fea0fac5ab028dc29",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0094",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing follow-up context, altered meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0094\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing follow-up context, altered meaning.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0095",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8af29a89e57654b5a5690880a86b6152bd8534499ed92369c6613f79896cd444",
+      "candidate_translation": "ผู้ที่เคยเป็นปรึกษาปริญญาเอกของผู้อํานวยการ [ENTITY_A]ของนายงานเหรอ",
+      "candidate_sha256": "639c525bbec3a1f0ff3e36a19c695b72b45307b08c45261ce030a6d36478eb91",
+      "candidate_error": null,
+      "backtranslation_en": "Who was the director's doctoral advisor. [ENTITY_A]Your job?",
+      "backtranslation_sha256": "9e0932b4408e357e74e105c4fb59fc34966acc295c23f7151a9d576b0c459215",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0095",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Missing entity, wrong relation, incomplete."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0095\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Missing entity, wrong relation, incomplete.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0096",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "candidate_translation": "आयोजन के आयोजक द्वारा भुगतान के कौन से प्रकार स्वीकार किए जाते हैं [ENTITY_A] इसमें भाग लिया?",
+      "candidate_sha256": "70b7e6d8bdbfe92c5be96c1eeab195b6bf5d7e3cfbf8c819b4edf916b888d4e6",
+      "candidate_error": null,
+      "backtranslation_en": "What types of payment are accepted by the organiser of the event [ENTITY_A] Participated in it?",
+      "backtranslation_sha256": "5d9e354dec105019df3c11a4cd25efaf659d131efa60f97a0039b03c5237ea0e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0096",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation alters original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0096\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation alters original meaning.\"}]}"
+    },
+    {
+      "review_key": "G0097",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "9cf7223a119014950e322299e877cf802e51d889248b76b32fa75a1f3c80ca49",
+      "candidate_translation": "คําคัดเลือกที่ใช้สําหรับการเกียรติ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "d875339ef7983f2cbb4767ea70ae8f7976ff1d7ec71fcdc9d66bc10c1e0416e4",
+      "candidate_error": null,
+      "backtranslation_en": "The nomination used for honor. [ENTITY_A]- What?",
+      "backtranslation_sha256": "c70c3af05d4e673c5e9f6810d35248b0d6c5ad51be7c2ac86c860039ba9164d5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0097",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterprets prefix as nomination."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0097\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterprets prefix as nomination.\"}] }"
+    },
+    {
+      "review_key": "G0098",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "87d36bcb2f7297025133e6d8b89103c8e373c2465c8f8cc27ba3490e115d3707",
+      "candidate_translation": "राज्य के प्रमुख के पिता का सौतेला माता-पिता कौन है [ENTITY_A]?",
+      "candidate_sha256": "62f411d35805bfffd42b683af81fb60cf0fd181a19129b7fb7198af6bf658e3b",
+      "candidate_error": null,
+      "backtranslation_en": "Who are the stepparents of the head of state's father? [ENTITY_A]What?",
+      "backtranslation_sha256": "3d60af561ebac7f4dc7828254f16ab40ac35ac75827242e459fa7547fbdffba7",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0098",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing entity, wrong stepparents"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0098\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing entity, wrong stepparents\"}]}"
+    },
+    {
+      "review_key": "G0099",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "कौन है पिता [ENTITY_A]?",
+      "candidate_sha256": "64493b157f1f05391474e49ec5ff14507fce9be4659738c16b489761f8f7b562",
+      "candidate_error": null,
+      "backtranslation_en": "Who is father [ENTITY_A]What?",
+      "backtranslation_sha256": "156773a279560c73dc95ebc170902eeee4bf62c74146ea8c5a5c94dd8722f9e0",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0099",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect translation, asks about father instead of godparent."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0099\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect translation, asks about father instead of godparent.\"}] }"
+    },
+    {
+      "review_key": "G0102",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d8fab2f954f106dd5f203ca65f7aa16d3343ef8403372f54c84300470ffe0331",
+      "candidate_translation": "สิ่งที่เกิดขึ้นหลังจากเหตุการณ์ที่ [ENTITY_A]มีคู่หูในธุรกิจหรือกีฬาร่วมงานหรือไม่",
+      "candidate_sha256": "1df0b3a0e6ccbe5d6ee6fef4e45a62c1a805346b4c6f0986abca3185a76bebcc",
+      "candidate_error": null,
+      "backtranslation_en": "What happened after that? [ENTITY_A]Do you have a business or sports partner?",
+      "backtranslation_sha256": "e78c34f8318d9b50c7d4d8579234fddda752ed755a3ab1917b8524f955b91c43",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0102",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, asks if has partner instead."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0102\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, asks if has partner instead.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0104",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83",
+      "candidate_translation": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับการเคลื่อนไหวที่ [ENTITY_A]ที่ปรึกษาปริญญาเอกที่เกี่ยวข้องกับ?",
+      "candidate_sha256": "44846a6765275643b04bb8357eb66fa24685b829a02f9ff9c0fdf149de1d2bb1",
+      "candidate_error": null,
+      "backtranslation_en": "Who are the key figures involved in the movement? [ENTITY_A]The doctoral counselor involved?",
+      "backtranslation_sha256": "34d569c6287201958d5981d045251d20db8b634cb004933a413ef209e57dac91",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0104",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing key figure, misaligned parts."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0104\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing key figure, misaligned parts.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0105",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "อะไรคือ [ENTITY_A]ชื่อของใคร?",
+      "candidate_sha256": "8c4b955ee86b44e91ef329221df7ee09a508c8673d30ca2fe1263169241882b3",
+      "candidate_error": null,
+      "backtranslation_en": "What is it? [ENTITY_A]Whose name?",
+      "backtranslation_sha256": "f3a8c010dc1ce7169b21d143d9ee6a29d2f3e46355b195eb7171682544580528",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0105",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0105\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0107",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83",
+      "candidate_translation": "आंदोलन से जुड़े महत्वपूर्ण व्यक्ति कौन है [ENTITY_A]डॉक्टर सलाहकार से जुड़ा है?",
+      "candidate_sha256": "96480bb47b5de0469e3723887dbbf6383d4936e111520172e7ea9206ec9427dd",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the important person associated with the movement [ENTITY_A]Is the doctor connected to the counselor?",
+      "backtranslation_sha256": "f8a8b0d7dce628cede639e01f3c975e000b2bc9d6c7102373ab1d58ad1053227",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0107",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Misinterpretation, grammatical errors."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0107\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Misinterpretation, grammatical errors.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0109",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "a80d5fd1f6b58f09c3de4b63cf1c689208db2c96ecb5b85544af025a61b7da81",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: question has no protected entity placeholder",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0110",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "49c84ffee5de25f774da7847f0fdbe4c2c47901d926d7225a10c2cc25a12825f",
+      "candidate_translation": "किस राजनीतिक कार्यालय के [ENTITY_A] अपने राज्य के प्रमुख द्वारा आयोजित किया जाता है?",
+      "candidate_sha256": "a94f4a2d3de4076880e928819d4ad730b4a50a083a16bfba62bd1e6e3706960c",
+      "candidate_error": null,
+      "backtranslation_en": "of which political office [ENTITY_A] Is organized by the head of your state?",
+      "backtranslation_sha256": "178d9a026e4cf69395febc5d3c88bbf0a0f8a78dbf85c50de4be6f58f9d2b2c2",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0110",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Material change in relation and direction."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0110\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Material change in relation and direction.\"}] }"
+    },
+    {
+      "review_key": "G0111",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "อะไรคือ [ENTITY_A]ชื่อของใคร?",
+      "candidate_sha256": "8c4b955ee86b44e91ef329221df7ee09a508c8673d30ca2fe1263169241882b3",
+      "candidate_error": null,
+      "backtranslation_en": "What is it? [ENTITY_A]Whose name?",
+      "backtranslation_sha256": "f3a8c010dc1ce7169b21d143d9ee6a29d2f3e46355b195eb7171682544580528",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0111",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0111\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0113",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "candidate_translation": "किस तारीख पर किया [ENTITY_A] देश के होने से रोकना [ENTITY_B]?",
+      "candidate_sha256": "d504069e0fea6545fc523c9d8e342c365c558cc6866b1bcce165a5eb3a0c52c0",
+      "candidate_error": null,
+      "backtranslation_en": "on what date [ENTITY_A] To prevent the country from being [ENTITY_B]What?",
+      "backtranslation_sha256": "ef1ff7bf545b8246c96d308e2fc9190d3f812c9058865d0809394019993fa353",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0113",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "incorrect semantics, grammatically incorrect"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0113\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"incorrect semantics, grammatically incorrect\"}]}"
+    },
+    {
+      "review_key": "G0115",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "5ff6918f270246728a37de6f861f8d7f85ec4393455f5ff28597041a77174c3a",
+      "candidate_translation": "कौन करता है शिक्षक [ENTITY_A]पिताजी से अलग?",
+      "candidate_sha256": "458a93f35311587500343bca2ea3a55d0d505968b594ef978dcbb04be838142f",
+      "candidate_error": null,
+      "backtranslation_en": "Who does the teacher [ENTITY_A]Separate from Dad?",
+      "backtranslation_sha256": "2a3d4938f8cc72c8afb4f9a6f484fd10bcdf4966e238d5f31696488c27164557",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0115",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect relation, missing 'father's'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0115\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect relation, missing 'father's'.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0116",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "fcbd98e5e68d4887f208d3da6eb6c61b44b6d4e20134242975258372f28a4e55",
+      "candidate_translation": "Welche Auszeichnung hat die Familie von [ENTITY_A]- Wer bekommt das Kind?",
+      "candidate_sha256": "b01f2b9b8580cf743a3bab04833ff4adf45439e66ac109f609eb559f356bfee4",
+      "candidate_error": null,
+      "backtranslation_en": "What is the family of [ENTITY_A]- Who's having the baby?",
+      "backtranslation_sha256": "bb27c7083bfcd46008473f036e25b68ddc39298146820e5a7070b53daf898f8c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0116",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation and adds unrelated question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0116\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation and adds unrelated question.\"}] }"
+    },
+    {
+      "review_key": "G0117",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e",
+      "candidate_translation": "अध्यक्ष कौन है [ENTITY_A]?",
+      "candidate_sha256": "f9db09da5045cad8dc3965f861f633c1d4e687f8d25fcb6f3df6d68400131ca8",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the Chairman [ENTITY_A]What?",
+      "backtranslation_sha256": "ef91732fc3d5cb572959c8707951ee0c586e1d61dcc3921e56bd0d6f38eba064",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0117",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, extra word."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0117\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, extra word.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0119",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "2a2d3ca7a38b69a754bea48224249c962d4928e56f7cb89248fcda141aea362d",
+      "candidate_translation": "जो उल्लेखनीय काम द्वारा है [ENTITY_A]?",
+      "candidate_sha256": "14d8af9cc3ba97847e5133ca5a7c821836eadf5ae39f0ef4853c353641156a23",
+      "candidate_error": null,
+      "backtranslation_en": "which is by remarkable work [ENTITY_A]What?",
+      "backtranslation_sha256": "c04fe8b6eab2080d024795992fbfe25aacb033244d6fff8dcbd767506265e2fd",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0119",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, missing article, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0119\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, missing article, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0120",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337",
+      "candidate_translation": "ซึ่งงานเป็นส่วนหนึ่งของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "2c7f2dfd18ce1333956c712c292ea97c3f27a937c319f8cdae544273975df240",
+      "candidate_error": null,
+      "backtranslation_en": "Which work is part of the [ENTITY_A]- What?",
+      "backtranslation_sha256": "81f7afa0fe73cf659dfb0f4de2081d4e927deb87d1c764c252009ded5344da7d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0120",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation adds 'the' and 'What?'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0120\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation adds 'the' and 'What?'.\"}]}"
+    },
+    {
+      "review_key": "G0121",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54",
+      "candidate_translation": "ผู้ก่อตั้งองค์กรที่ระดับเหนือกว่า [ENTITY_A] เป็นส่วนหนึ่งของ?",
+      "candidate_sha256": "2561a6e59429222b1214d52221568fcb077a10b9d5a34f77d9a44ce0627917fd",
+      "candidate_error": null,
+      "backtranslation_en": "The founder of a higher-level organization. [ENTITY_A] As part of?",
+      "backtranslation_sha256": "cf8fc5fce3016b92dbd8b679ffb9bf7cbd145e3e20d990ca1adfb1cbe0e4146d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0121",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0121\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source.\"}] }"
+    },
+    {
+      "review_key": "G0122",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "86f9357fc6dced2252c978aca250a9df76a0db45e39c7f1f5a39d5b6dddab5c2",
+      "candidate_translation": "किसने आदेश दिया [ENTITY_A]?",
+      "candidate_sha256": "c9493546b1479dd5d0833fb09059adf417e203e58f432c63c830a9b2cd7aa8e8",
+      "candidate_error": null,
+      "backtranslation_en": "Who ordered [ENTITY_A]What?",
+      "backtranslation_sha256": "114845caee3d00bcfdba39a804fed29208591143f99dca4af0ee6e03b1a50e79",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0122",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, added 'What?'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0122\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, added 'What?'\"}]}"
+    },
+    {
+      "review_key": "G0123",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "fe1f8234db46a3290149717617951b4d4b8a12bdea9f0ce91ddecdf8ea7f8991",
+      "candidate_translation": "ลูกของผู้ปกครองของ [ENTITY_A] จัดไว้เหรอ",
+      "candidate_sha256": "4fc197adc9918a8c4286c841827fe52c341233019c834ea882f3200ca43e93c3",
+      "candidate_error": null,
+      "backtranslation_en": "The child of the parent. [ENTITY_A] You got it?",
+      "backtranslation_sha256": "643b7710cb362dd46c4ba56a57d445d0039836b9a28d66abae6a42e10079859a",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0123",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changed meaning, missing position query."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0123\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changed meaning, missing position query.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0124",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "candidate_translation": "किस संस्थान में उस व्यक्ति के बारे में दस्तावेज हैं जिसके बाद शहर है जो आवास [ENTITY_A]मुख्यालय का नाम है?",
+      "candidate_sha256": "eebbf74e9f6aed2a7ca457bd9e7e5b9374e5e28e5b49e2a1bff2fdf837dd661f",
+      "candidate_error": null,
+      "backtranslation_en": "Which institution has documents about the person after which the city has housing [ENTITY_A]What's the name of the headquarters?",
+      "backtranslation_sha256": "dbc9e5c75ec06e9fd0b14afae86c3aaa81b26d6dc07b435781b09e9e7a7e84d5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0124",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, extra info added."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0124\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, extra info added.\"}]}"
+    },
+    {
+      "review_key": "G0126",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "40bc5915d1b191528ae065bc7dc3a4abb4f8fbea701555a7ee0e4b55a17311f7",
+      "candidate_translation": "สิ่งที่ครอบครัวทํา [ENTITY_A] เป็นส่วนของ?",
+      "candidate_sha256": "0830f8503169d363d7655531dbe336276903c98499fb1db9a6a719248bc8a470",
+      "candidate_error": null,
+      "backtranslation_en": "What a family does. [ENTITY_A] As part of?",
+      "backtranslation_sha256": "f3b1597f1a34a807a470e034d954753ad9e379ca8df2109db5c4802adee23c6e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0126",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0126\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0127",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "88d2ba90720a7e54ce9bcf7d59160cf94c4d5cf396038677c2dd259b8eee3d53",
+      "candidate_translation": "ที่ไหนคือ [ENTITY_A] เป็นภาษาพื้นเมือง?",
+      "candidate_sha256": "6e17f77947c9372722f9349ab784c5be6c1ebe1b740fb38bc8e69af94a1a008b",
+      "candidate_error": null,
+      "backtranslation_en": "Where is it? [ENTITY_A] It's a native language?",
+      "backtranslation_sha256": "6a57f30b39cf40bc7022e14cd53e3530e487882d6b195dfe0408d33ab4907761",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0127",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0127\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source.\"}]}"
+    },
+    {
+      "review_key": "G0128",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87",
+      "candidate_translation": "जहां संगठन था किसे जगह जहां [ENTITY_A] एक सदस्य का गठन किया गया था?",
+      "candidate_sha256": "6dec8555cb3f56220b41fd9bf5c46d9dcf5b50d95a9fe5af2d7b41556c83729d",
+      "candidate_error": null,
+      "backtranslation_en": "where the organization was from where [ENTITY_A] A member was formed?",
+      "backtranslation_sha256": "3120403ac5d9d32874b3a026f77894b5a7fec6df1dc7ccfef550f69102de5746",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0128",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect formation of membership"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0128\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect formation of membership\"}]}"
+    },
+    {
+      "review_key": "G0130",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e",
+      "candidate_translation": "ผู้ประธาน [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "4cd2c20c65845bb58590a149de714e845ee03b2b84dd64020af3d31e95d752ab",
+      "candidate_error": null,
+      "backtranslation_en": "The President. [ENTITY_A]- What?",
+      "backtranslation_sha256": "42be853aaea967545fb3351285e8e41bd1e60f2c96f8fb5034cb3f2aa34848cc",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0130",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Asks what president instead of who"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0130\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Asks what president instead of who\"}]}"
+    },
+    {
+      "review_key": "G0131",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d",
+      "candidate_translation": "ชื่อผู้อํานวยการของงานที่เป็นส่วนหนึ่งของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "c5fad0ff6036f037987703e54966ebfbb13cad2248e0894a48c3f150da382507",
+      "candidate_error": null,
+      "backtranslation_en": "The name of the director of the project is part of the [ENTITY_A]- What?",
+      "backtranslation_sha256": "147ca3bc529bff55766f659a0895e88d524e63576090630f6c9e3f5209730d1e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0131",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0131\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0133",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "bb76b81ef32f868822c08966fa181084b96ac9a9a2e6f0aab31121f197786058",
+      "candidate_translation": "ใครคือพ่อของผู้สร้างของพระเกียรติที่ถือโดย [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "c6f4d94c2924b76b2a2c5c32648abb04be889970b8e9c495e1f8fb84257e1026",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the father of the creator of honor held by [ENTITY_A]- What?",
+      "backtranslation_sha256": "450c88756ec3719c1d34b2ddcae3cd4215fdff16146317db20f1957449781d33",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0133",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0133\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0134",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2fbed2a246771de4bebff790c88be63f40f8121564c8f522907bf4d682fb0d33",
+      "candidate_translation": "किस देश का राज्य प्रमुख है [ENTITY_A]पति नागरिक है?",
+      "candidate_sha256": "d10b04451765c5efd40db8113bbcb2b796a4d893229f81da44392bc1eeaefd4e",
+      "candidate_error": null,
+      "backtranslation_en": "Which country is the head of state [ENTITY_A]Husband is a citizen?",
+      "backtranslation_sha256": "0071b4c4f355df1b12c4dab4d83fb61562d5912d24c0bb09305855377fb345ff",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0134",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, missing elements"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0134\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, missing elements\"}]}"
+    },
+    {
+      "review_key": "G0136",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c02be921ce228e3758e070fbab6f522b65eabfc12aa3aa87a8faf8b033a2f13d",
+      "candidate_translation": "किसने उत्पादन किया [ENTITY_A]?",
+      "candidate_sha256": "f641b87b10fa3ad48db2a8133dffb7975993852745c4fc59148adff92717e71c",
+      "candidate_error": null,
+      "backtranslation_en": "Who produced [ENTITY_A]What?",
+      "backtranslation_sha256": "23ab363452adbdb84abdeedbb71a497cf82789316d854bb7e5ee1b4aef6241dd",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0136",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation includes extra 'What?'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0136\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation includes extra 'What?'\"}]}"
+    },
+    {
+      "review_key": "G0138",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "जो महान पदनाम करता है [ENTITY_A] प्रतीक्षा करें?",
+      "candidate_sha256": "c010ae104fe21dfe2bd09cf0f9bf141cd9ae31e63df7d736c04dcb7248403ba8",
+      "candidate_error": null,
+      "backtranslation_en": "Who gives great honours [ENTITY_A] Wait a minute?",
+      "backtranslation_sha256": "14816a7428adf249c525f5436273c4f75db218f6c6c16dfa6fa35a66484e8008",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0138",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect meaning, grammatically incorrect"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0138\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect meaning, grammatically incorrect\"}]}"
+    },
+    {
+      "review_key": "G0139",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227",
+      "candidate_translation": "जिस परिवार के बाद तत्काल इकाई का परिवार नाम क्या है [ENTITY_A] क्या वह है?",
+      "candidate_sha256": "8632e8f8279bbb21d9072eedaebdfe13780a9ba4a3cc6a5bf3ed6190103ccedc",
+      "candidate_error": null,
+      "backtranslation_en": "What is the family name of the immediate unit after the family? [ENTITY_A] Is that it?",
+      "backtranslation_sha256": "644c23def2bcc936c3b519b81eea3f9bacf8a84b9e0fd999cc95e7c4455462f8",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0139",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing ENTITY_A reference, altered meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0139\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing ENTITY_A reference, altered meaning.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0141",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "0e7b1efdc9964f3c2de4db74f30f8e29718366d1e23cf32cd3c4e8d0fd07cae5",
+      "candidate_translation": "โดยการเคลื่อนไหว [ENTITY_A] ที่เกี่ยวข้อง?",
+      "candidate_sha256": "4c635e0589527ff4c585e1fd30901bc3066aafead5e2df9285624069c868c22d",
+      "candidate_error": null,
+      "backtranslation_en": "By movement. [ENTITY_A] Related?",
+      "backtranslation_sha256": "3be5e07d1d11b83594563d81a34d538af3a719763b698d4f2742f815f0345f25",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0141",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and grammar."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0141\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and grammar.\"}] }"
+    },
+    {
+      "review_key": "G0142",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "candidate_translation": "किस तारीख पर किया [ENTITY_A] राजधानी होने से रोकें [ENTITY_B]?",
+      "candidate_sha256": "fde55f27675425da5d413e0de6768bdf14323f249f55e2060d04683767b465e5",
+      "candidate_error": null,
+      "backtranslation_en": "on what date [ENTITY_A] Stop being capital [ENTITY_B]What?",
+      "backtranslation_sha256": "21079563e9981ff9292de6dfb612649e73dc8b256da411e42e42c9cef042e922",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0142",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, missing elements, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0142\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, missing elements, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0143",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7",
+      "candidate_translation": "สถานที่บริหารส่วนท้องถิ่นใด [ENTITY_A] จะมีอะไรอยู่?",
+      "candidate_sha256": "c93d7fdf822b042b24f9309ae7a1e879126982909f3564dbea964899e8f5c831",
+      "candidate_error": null,
+      "backtranslation_en": "What local administrative area? [ENTITY_A] What's going on?",
+      "backtranslation_sha256": "e56c65289c775d189d21eb002f4aaf25c9d8dce2ca35df4c708e5642f3bd40f1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0143",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match original question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0143\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match original question.\"}] }"
+    },
+    {
+      "review_key": "G0145",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d67419d73f39ce08ff79ee60bb1a292c66f398c992235bdb561c3221fd5f118b",
+      "candidate_translation": "แม่ของคนคนนั้นอยู่ไหน [ENTITY_A] ทํางานเพื่อฝัง?",
+      "candidate_sha256": "355c4ff7229ab5b096a121f92f5e4bb5880829b92528121d70aa6650fd6f6661",
+      "candidate_error": null,
+      "backtranslation_en": "Where's that man's mother? [ENTITY_A] Work for the funeral?",
+      "backtranslation_sha256": "62e2ec0c02a09f1db4b6842c58fad09ef225a5062963258ebf982da5d6ba97d5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0145",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and context."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0145\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and context.\"}]}"
+    },
+    {
+      "review_key": "G0146",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "b15c1b8d075503fbfa9754b7a75476952733e4bdf6d6f6f5ce410b447f1e7d8e",
+      "candidate_translation": "क्या है [ENTITY_A] के साथ संगत?",
+      "candidate_sha256": "b68a20968b91b38107d5d7a3770191ad48d60bd026d3e457d134bb183f191095",
+      "candidate_error": null,
+      "backtranslation_en": "What is it [ENTITY_A] compatible with?",
+      "backtranslation_sha256": "cd37ad433043203ecd6354bf960a1d806736c2e7871aa396cc89945d7dba864d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0146",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing 'with' preposition."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0146\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing 'with' preposition.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0148",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9f856e65a2bc0b91b25fc8f6913d83a4e6b8d4b2e495422a6b5b7c7124082e4d",
+      "candidate_translation": "คนที่ตั้งอาสา [ENTITY_A]ลูกตายเหรอ?",
+      "candidate_sha256": "26b00f175a4951a681ab8eeff35613fa915078f6c7b9fab29e0f38bcb25ece00",
+      "candidate_error": null,
+      "backtranslation_en": "A volunteer. [ENTITY_A]You're dead?",
+      "backtranslation_sha256": "a2562edb349828b0ec22af8b27ead396d0a9da054abdbd9da7e1aca400dd882c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0148",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Misinterpretation, grammatically incorrect."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0148\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Misinterpretation, grammatically incorrect.\"}] }"
+    },
+    {
+      "review_key": "G0149",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "जो प्रदान करता है [ENTITY_A]?",
+      "candidate_sha256": "ea4dfe3a4457120a9dc5019fcc6557dc43e35343f147ee2e867659c453e4bf0e",
+      "candidate_error": null,
+      "backtranslation_en": "which provides [ENTITY_A]What?",
+      "backtranslation_sha256": "5f4893a01db946aa97786f49fbd206a27e864a30ee6e07fa56e6f04cd42c800f",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0149",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0149\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation does not match source question.\"}]}"
+    },
+    {
+      "review_key": "G0152",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "51db6cc2d48c969bb0acb315ea6602b949d57538f98f2d079ce2522f6eb6ec0e",
+      "candidate_translation": "ซึ่งงาน [ENTITY_A] เป็นฉบับหรือการแปลของ?",
+      "candidate_sha256": "d27de4f9feb98d03231b1227a0c899cca23998f89ba5b1bc1a3633bbd6f636b8",
+      "candidate_error": null,
+      "backtranslation_en": "That's the job. [ENTITY_A] Is it a copy or a translation?",
+      "backtranslation_sha256": "e471f3a8f23711a5a63aab473c489ac04e4f1d1232730d48be23264a81d24cc9",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0152",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation alters original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0152\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation alters original meaning.\"}]}"
+    },
+    {
+      "review_key": "G0153",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "fbda3cc4a41427d98e40975c501c267d240405c0f6d77ddf273aeacf79b78fc3",
+      "candidate_translation": "कौन करता है [ENTITY_A] प्रतिनिधित्व?",
+      "candidate_sha256": "f7e456fc72a4f91b2b0802529bb964b0c174e382f8d66a20b50e9da54a271cb2",
+      "candidate_error": null,
+      "backtranslation_en": "who does [ENTITY_A] Representation?",
+      "backtranslation_sha256": "f06d36ededd43138254d9165f4090fc1d306457b6ac63ba8aa87f86ac2f8be12",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0153",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Polarity reversed, asks who represents instead."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0153\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Polarity reversed, asks who represents instead.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0154",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d",
+      "candidate_translation": "विवाह के अविवाहित साथी का नाम क्या है? [ENTITY_A]भाई का भाई?",
+      "candidate_sha256": "cec9aaa39aeba906b869d5d3823e301ec05cce14cd3f9ec1828c893b7c1b882b",
+      "candidate_error": null,
+      "backtranslation_en": "What is the name of the unmarried spouse? [ENTITY_A]Brother's brother?",
+      "backtranslation_sha256": "5769aac302eb558c46577e5edfd051e1becd59171497bf383f28b703f340f6db",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0154",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0154\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0155",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51",
+      "candidate_translation": "जिसमें काम करता है [ENTITY_A] दिखाई देता है?",
+      "candidate_sha256": "1239b8ce1004bc6c4484871a39f06793f2a64b98e9ef7ae599cd56fd53d552cb",
+      "candidate_error": null,
+      "backtranslation_en": "in which it works [ENTITY_A] Do you see?",
+      "backtranslation_sha256": "4978a3725f9005a4f14944cb03f5e556824eaa3ba87f51db1d16625e4e6780f6",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0155",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and scope"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0155\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and scope\"}]}"
+    },
+    {
+      "review_key": "G0156",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "ใครคือพ่อแม่ของ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "1de1b80f72617c7ac9903a4cc264f4c5dfbdaec4fbc283251693d50342ee24ab",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the parents? [ENTITY_A]- What?",
+      "backtranslation_sha256": "e861e4be35d52a1f3494d1b16203d20320b299b3e988d11244405102048a37a5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0156",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect entity, unclear question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0156\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect entity, unclear question.\"}] }"
+    },
+    {
+      "review_key": "G0157",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227",
+      "candidate_translation": "ชื่อครอบครัวขององค์กรที่ติดตามครอบครัวที่ [ENTITY_A] ที่อยู่?",
+      "candidate_sha256": "c530047bad803d37a6c4467ce8adca02fc9db17f84ea7ead0705f4c5c67f9496",
+      "candidate_error": null,
+      "backtranslation_en": "The family name of the organization that tracked the family that [ENTITY_A] Where is he?",
+      "backtranslation_sha256": "e1d4a4820749e0f3dc2e464d48941cb1470ab26178b22a2e1aed0d5fbe53da4d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0157",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changed relation and introduced ambiguity."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0157\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changed relation and introduced ambiguity.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0158",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "308e8320ee49c7236bb3e01e37be87253136b05e6a53d4a28cb5393930f3a963",
+      "candidate_translation": "ผู้ที่ตั้งอาสา [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "5d3e8cbe702d33b98d8a6b5588b88bc521d737c265352d7dcab3097507c34d20",
+      "candidate_error": null,
+      "backtranslation_en": "The volunteer. [ENTITY_A]- What?",
+      "backtranslation_sha256": "59638ac53f59c85f2a47844f5c978536b9ae42b5f623cc0d587f45812d9dbed0",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0158",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes meaning, asks about volunteer instead."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0158\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes meaning, asks about volunteer instead.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0160",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa",
+      "candidate_translation": "ใครคือ [ENTITY_A] พ่อเลี้ยงของใคร?",
+      "candidate_sha256": "301a48e48cc0a4067ce2b36c0939cbf6a5c2693fe66c6393640d7b8d78f17c9e",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A] Whose foster father?",
+      "backtranslation_sha256": "39c738fcb6e8aeed854595c49eed22f613d9a32525624ccae10582dc53c59f82",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0160",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0160\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source.\"}] }"
+    },
+    {
+      "review_key": "G0162",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "जो महान पदनाम करता है [ENTITY_A] प्रतीक्षा करें?",
+      "candidate_sha256": "c010ae104fe21dfe2bd09cf0f9bf141cd9ae31e63df7d736c04dcb7248403ba8",
+      "candidate_error": null,
+      "backtranslation_en": "Who gives great honours [ENTITY_A] Wait a minute?",
+      "backtranslation_sha256": "14816a7428adf249c525f5436273c4f75db218f6c6c16dfa6fa35a66484e8008",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0162",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect meaning, grammatically incorrect"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0162\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect meaning, grammatically incorrect\"}]}"
+    },
+    {
+      "review_key": "G0163",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "कौन है [ENTITY_A]एक सौतेले माता पिता है?",
+      "candidate_sha256": "08e326a21ae25846ce78465fdc7918f9c32b5f3cb01e608747de6365b59394b8",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A]A stepfather?",
+      "backtranslation_sha256": "18e93b464e1006805f9c30339bfe93f67bc85b2ccad9722d1f048209b066cbb5",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0163",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation and incomplete sentence."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0163\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation and incomplete sentence.\"}] }"
+    },
+    {
+      "review_key": "G0164",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef",
+      "candidate_translation": "ผู้แสดง [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "2efb5b3356f02273b9f369cbce7c52e7ef450ff3a96c5a1dcd9036c09d0e1aa0",
+      "candidate_error": null,
+      "backtranslation_en": "The actor. [ENTITY_A]- What?",
+      "backtranslation_sha256": "aec2710958002f424b0c25cc92ca77ba5bb28e3426b2d0d8738cc2e6d1e50409",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0164",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0164\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0167",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "8eb776190396def0a1512c8e95492355e499fb3926c8666c7374a8a15fa7786a",
+      "candidate_translation": "รายการอะไร [ENTITY_A] ส่วนหนึ่งของ?",
+      "candidate_sha256": "ee59df07822876a9617f331ed48e03ea63ae0f31f3a4cf3426d0963d66db8b54",
+      "candidate_error": null,
+      "backtranslation_en": "What show? [ENTITY_A] Part of what?",
+      "backtranslation_sha256": "501187e0519a2a98b061a4b73d2c8d30ead29e7e0f8f17af8bcb3f6b68288efb",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0167",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0167\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0168",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "30cf3344d557d62f5aa07e913bb70cbde1b42e1be2ed0a83b95563a0dd0a9b84",
+      "candidate_translation": "บ้านไหนคือ [ENTITY_A] เป็นบทบาท?",
+      "candidate_sha256": "70ca677f3edd9387e2543ffff28d6046c1764cf72091bd033c1b0f3189eac2f0",
+      "candidate_error": null,
+      "backtranslation_en": "What house is it? [ENTITY_A] A role?",
+      "backtranslation_sha256": "7e4a4b816be04e45cd686df1b21e6ac4135fda0f10e282f72a95a1fbe9ff29c8",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0168",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0168\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0169",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3",
+      "candidate_translation": "ภาษาอะไร [ENTITY_A] เป็นภาษาอะไร?",
+      "candidate_sha256": "cca6a8e93287a2b5093f945ec9acee5746c8b485d88370d87650b2df1e05d5f7",
+      "candidate_error": null,
+      "backtranslation_en": "What language? [ENTITY_A] What language?",
+      "backtranslation_sha256": "a22e641baa6daa224669adc218b04db40da5dcdfbb33704daada1829babd1753",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0169",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0169\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question.\"}] }"
+    },
+    {
+      "review_key": "G0170",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72",
+      "candidate_translation": "क्या है [ENTITY_A]काम का क्षेत्र?",
+      "candidate_sha256": "0ae110860db256cc818ba60108df69312da7aa215d0c176bc276d3a512115b64",
+      "candidate_error": null,
+      "backtranslation_en": "What is it [ENTITY_A]The work area?",
+      "backtranslation_sha256": "0aaf3771fea345cfeaa2d0225978a0b0c4c901619f7a0481e33755fd2958222f",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0170",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation does not match source"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0170\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation does not match source\"}]}"
+    },
+    {
+      "review_key": "G0171",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6",
+      "candidate_translation": "क्या किया [ENTITY_A] प्रतिस्थापन?",
+      "candidate_sha256": "e33652677bb1a20af395d64c7f9c75ba4a703449074fe4ecd73256ebedd861d4",
+      "candidate_error": null,
+      "backtranslation_en": "what did [ENTITY_A] Replacement?",
+      "backtranslation_sha256": "2b904ea4d33607d8ca8807ad051cb4a352f3f5d8fc5df600da6ac276f4e9b7b1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0171",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Polarity and scope mismatch."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0171\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Polarity and scope mismatch.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0173",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "candidate_translation": "ของชั้นไหนคือ [ENTITY_A] สาขาล่าง?",
+      "candidate_sha256": "48739960e89dc609afc218a7b6918cfcb9a5406ad2d8bf30ef8778e6bb36c9e2",
+      "candidate_error": null,
+      "backtranslation_en": "Which one's mine? [ENTITY_A] The lower branch?",
+      "backtranslation_sha256": "57de313a7db6592a929f149177387d48f9ba91563410d376e2ac9aed1a0471d3",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0173",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect class hierarchy, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0173\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect class hierarchy, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0174",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a",
+      "candidate_translation": "ใครคือคู่ครองของพ่อเลี้ยงของหัวหน้ารัฐ [ENTITY_A]- อะไรนะ",
+      "candidate_sha256": "4ec382b641e26df03dd641f4dca621ecfa250d524c30c9bb3a3e6ab1c0f67881",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the wife of the head of state's foster father? [ENTITY_A]- What?",
+      "backtranslation_sha256": "ac88b33305660bb64e16c23985bdd16600a071b2b806a99642fe16c94092420d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0174",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect relation, added confusion."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0174\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect relation, added confusion.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0179",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "อะไรคือ [ENTITY_A]ชื่อของใคร?",
+      "candidate_sha256": "8c4b955ee86b44e91ef329221df7ee09a508c8673d30ca2fe1263169241882b3",
+      "candidate_error": null,
+      "backtranslation_en": "What is it? [ENTITY_A]Whose name?",
+      "backtranslation_sha256": "f3a8c010dc1ce7169b21d143d9ee6a29d2f3e46355b195eb7171682544580528",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0179",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Incorrect structure, unclear meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0179\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Incorrect structure, unclear meaning.\"}] }"
+    },
+    {
+      "review_key": "G0180",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d",
+      "candidate_translation": "ชื่อของคู่รักที่ยังไม่ได้แต่งงานของ [ENTITY_A]พี่น้องเหรอ?",
+      "candidate_sha256": "f20ba9b29bd74c94f9530870f4cd20f46431ef351a251de4885009c847b840d9",
+      "candidate_error": null,
+      "backtranslation_en": "The name of the unmarried couple. [ENTITY_A]Are you a brother?",
+      "backtranslation_sha256": "b37b848ea602b06060532d32b2abe9d79df6734cdf1ca705cd3d131cc1e7f281",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0180",
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "Changed relation,scope,polarity"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0180\", \"semantic_pass\": false, \"fluency_pass\": false, \"reason\": \"Changed relation,scope,polarity\"}]}"
+    },
+    {
+      "review_key": "G0181",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "13b23b5f77210d0dc38ac38b33908774a09bc0f9eb41ce7e98b31d5d998c4b8c",
+      "candidate_translation": "कौन है [ENTITY_A] अलग से?",
+      "candidate_sha256": "9825d289c7b14fa1c78a8b8257f3c2bdce9f9ce0ede40facc32567747f289596",
+      "candidate_error": null,
+      "backtranslation_en": "Who is it? [ENTITY_A] Separately?",
+      "backtranslation_sha256": "0ccb9efabe3f0d663688fd8bfba7e1959ffb4ff25466291cc3e573ad6cd9d8a1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0181",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterprets 'different from'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0181\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterprets 'different from'.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0183",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "56e6456bbcc362df40e93f2dbd2b903e3b95be8481e93b1d0f79f4bf7f84c8d6",
+      "candidate_translation": "สมาคมของเด็กของ [ENTITY_A]แฟนที่ยังไม่ได้แต่งงานเหรอ",
+      "candidate_sha256": "122796078e809b98df6c4ee2443ceaf561cc4ce2db3f7a6798f66974616a313c",
+      "candidate_error": null,
+      "backtranslation_en": "The children's society. [ENTITY_A]A fan who's not married?",
+      "backtranslation_sha256": "d7b49d8c926f75f4b95898c23602b4d7c134052caf731c2faaf88fa9441bf8de",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0183",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation, direction, and scope."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0183\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation, direction, and scope.\"}] }"
+    },
+    {
+      "review_key": "G0185",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "88c868a62ce5d0bb1a343aba5612c60134c0454b2869c00ad9aa93f97f17b96f",
+      "candidate_translation": "ใครคือผู้อํานวยการของลูกเรือที่ [ENTITY_A] สมาชิกทีมเป็นของ?",
+      "candidate_sha256": "b0dbdcdaad2da10638e56a62cc2c348b1c3229c271c5fe90c21b9a1f4c1ef39e",
+      "candidate_error": null,
+      "backtranslation_en": "Who is the director of the crew? [ENTITY_A] What's the team member?",
+      "backtranslation_sha256": "756b1890cddd508d48cae3a83fc0318133ab7446157782ee296e803cd9acfa81",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0185",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing relation between crew and member."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0185\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing relation between crew and member.\"}]}\n\n"
+    }
+  ],
+  "started_at_utc": "2026-11-05T06:20:34.434940+00:00",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "quantization": "Qwen NF4 double quantization, float16 compute",
+  "human_translation_reviewed": false,
+  "answers_or_split_labels_included": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "completed_at_utc": "2026-11-05T06:39:52.628402+00:00",
+  "reviewed_rows": 124,
+  "blocked_rows": 1,
+  "candidate_rows": 124
+}

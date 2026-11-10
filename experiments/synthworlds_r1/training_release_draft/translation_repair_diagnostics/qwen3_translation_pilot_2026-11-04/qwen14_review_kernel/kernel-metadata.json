@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/qwen3-pilot-qwen14-review-2026-11-04",
+  "title": "Qwen3 Pilot Qwen14 Review 2026-11-04",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

@@ -6,9 +6,225 @@
     "target_language_competence_gate": "FAILED in all four languages",
     "unlearning_running": false
   },
+  "direct31_extended_coverage_audit": {
+    "audit_sha256": "123df62fae3d24a84a94978fd38f57630aa64f55f41df0800773c2c3b09bc42d",
+    "canonical_release_changed": false,
+    "checked_at_utc": "2026-11-05T08:39:55+00:00",
+    "command": "python -B reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/direct31_extended_coverage_audit.py",
+    "complete_composition_chains": 1,
+    "composition_chain_gap_histogram": {
+      "0": 1,
+      "1": 11,
+      "2": 5,
+      "3": 12,
+      "4": 4,
+      "5": 4,
+      "6": 5,
+      "7": 1,
+      "8": 1
+    },
+    "corpus_written": false,
+    "direct_screen": {
+      "human_gold_controls": 0,
+      "overall_agreement_with_roundtrip_labels": 13,
+      "pass_rows": 30,
+      "rows": 31
+    },
+    "exact_complete_candidate_cases": {
+      "forget": 36,
+      "retain": 15
+    },
+    "human_translation_reviewed": false,
+    "leakage_groups_for_complete_candidate_cases": {
+      "forget": 18,
+      "retain": 12
+    },
+    "near_complete_composition_chains": 11,
+    "optimistic_relation_aware_template_reuse_ceiling": {
+      "forget": 40,
+      "retain": 17
+    },
+    "release_approved": false,
+    "research_training_started": false,
+    "script_sha256": "4248a2005853fdca606ea1797d53059c1e6bfb0185d7056e9122fbc0f8f3c748",
+    "status": "VERIFIED_DIAGNOSTIC_ONLY_NOT_RELEASE_APPROVAL",
+    "training_eligible": false,
+    "unique_candidate_pass_rows": 1628
+  },
+  "fresh_recheck_2026_11_05_0915_utc": {
+    "checked_at_utc": "2026-11-05T09:17:40Z",
+    "disk_free_gib_at_check": 58,
+    "git_diff_check": "PASS",
+    "kaggle_status": {
+      "checked_kernel_count": 12,
+      "cli_warning": "Installed Kaggle CLI reports that it is outdated; each status query still exited 0.",
+      "complete": 12,
+      "queries_exit_code_zero": true,
+      "refs": [
+        "bunnoob2005/experiments",
+        "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+        "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04",
+        "bunnoob2005/qwen3-pilot-qwen14-review-2026-11-04",
+        "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
+        "bunnoob2005/sw-gap187-candidate-review-2026-11-05",
+        "bunnoob2005/sw-gap187-alias-retry-2026-11-05",
+        "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
+        "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
+        "bunnoob2005/sw-third-key-retry-2026-11-05",
+        "bunnoob2005/sw-third-marker-retry-2026-11-05",
+        "bunnoob2005/sw-third-qwen-retry-2026-11-05"
+      ],
+      "running_or_queued": 0
+    },
+    "main_hypothesis_result_created": false,
+    "offline_pipeline_fixtures": {
+      "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+      "failed": 0,
+      "passed": 35,
+      "script_sha256": "dcc08cff240eea45e1e301de0c0a298b8a8d58db39de11ac77a32a4e57c7e34c",
+      "status": "PASS_SYNTHETIC_FIXTURES_ONLY"
+    },
+    "pilot_rescore": {
+      "command": "python3 reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/scripts/evaluate_crosslingual_unlearning.py --eval-root reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/evaluation_dataset --predictions reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/predictions.jsonl --output-dir /tmp/r1_v4_independent_rescore_2026-11-05_0913 --score-only --bootstrap 2000 --checkpoint sft=unused --contrast-model GA --contrast-model GD --contrast-model NPO",
+      "generation_failures": 0,
+      "invalid_output_flags": 0,
+      "output_hashes": {
+        "case_metrics.jsonl": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+        "cross_language_contrasts.csv": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+        "cross_language_contrasts.json": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+        "diagnostic_report.md": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+        "scored_predictions.jsonl": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+        "summary.csv": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+        "summary.json": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+      },
+      "outputs_byte_identical": 7,
+      "outputs_expected": 7,
+      "prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+      "predictions": 7740,
+      "scorer_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+      "status": "PASS_INDEPENDENT_SCORE_REPRODUCTION_EXPLORATORY_ONLY"
+    },
+    "pilot_statistics": {
+      "baseline_multihop_accuracy": {
+        "de": "19.5%",
+        "en": "20.8%",
+        "fr": "18.2%",
+        "hi": "18.2%",
+        "th": "19.5%"
+      },
+      "competence_gate": "FAILED; requires at least 15 bilingual cases and 8 groups per target language",
+      "confirmatory": "false",
+      "evaluation_cases": {
+        "forget": 77,
+        "holdout": 26,
+        "retain": 26
+      },
+      "matched_cases_and_groups": {
+        "de": "9/5",
+        "fr": "10/6",
+        "hi": "9/6",
+        "th": "11/7"
+      },
+      "model": "meta-llama/Llama-3.2-1B-Instruct",
+      "seed": 42,
+      "target_minus_english_95pct_entity_group_bootstrap_intervals_including_or_touching_zero": "12/12"
+    },
+    "prepared_source_alignment": {
+      "canonical_sft_ids": 488,
+      "command": "python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only",
+      "prepared_ids_manifest_sha256": "3c2329c098559c35c6ca2684c710b5d4745a8c193cb20bf25fa6fca8783f0cb2",
+      "source_validation_sha256": "3856e5685e0174b1e8bee104f443c19a4416eccba4fa009e640f3b47b1225844",
+      "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+    },
+    "report_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/diagnostic_report.md",
+    "report_sha256": "514f2cb2a0a1bcdbad92da6aa7051618d0c1654e8b92e102223a67096b51fc44",
+    "research_sft_running": false,
+    "runtime_only_8b_smoke": {
+      "gpu": "2 x Tesla T4",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "peak_memory_gib": [
+        10.47,
+        5.61
+      ],
+      "receipt_sha256": "f203c9b06a88647ab9868e3c1052dd02325eb21522e5f5ccd5e0b436f783d09c",
+      "receipt_validation_command": "python experiments/synthworlds_r1/kaggle_8b_runtime_smoke/verify_receipt.py experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/r1_8b_runtime_smoke.json",
+      "research_data_loaded": false,
+      "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
+      "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+      "synthetic_lora_loss": 0.02475927211344242,
+      "synthetic_lora_optimizer_steps": 1,
+      "synthetic_npo_loss": 13.86294174194336,
+      "synthetic_npo_optimizer_steps": 1,
+      "validator_sha256": "522713eff9aad9249480a147377e465b22ccb3192f35afa44215609f17a36b10"
+    },
+    "safe_publish_check": {
+      "research_data_loaded": false,
+      "runtime_smoke_enabled_in_checked_artifact": false,
+      "scope_note": "This validates the v6 access-preflight artifact, not the v8 interactive smoke notebook source.",
+      "status": "VERIFIED_V6_ACCESS_PREFLIGHT_PUBLISH_ARTIFACT"
+    },
+    "source_bound_release_gate": {
+      "assembler_sha256": "afb34f4abad6772c4aab984e520e7345b23ed6e57b4dd92b45d0ac39fcc29beb",
+      "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
+      "composition_count_source": "Hash-bound frozen review audit reports 0/44; see reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json (SHA-256 34e3f93206079d20ac4566e4d9eb951f2e78bfd9e2ef38a8960fa90b50d7422b). The fresh assembler stopped earlier at the atomic case gate.",
+      "corpus_absent": true,
+      "corpus_written": false,
+      "eligible_composition_chains": 0,
+      "error": "Translation screen excluded required atomic cases: {'forget': 5, 'retain': 3}; expected {'forget': 117, 'retain': 39}",
+      "exit_code": 1,
+      "legacy_assembler_sha256": "851614ae2c73457f640acff423db8e25ed6cda95fdf5f04143637eafab128a14",
+      "manifest_absent": true,
+      "manifest_written": false,
+      "observed_atomic_cases": {
+        "forget": 5,
+        "retain": 3
+      },
+      "required_atomic_cases": {
+        "forget": 117,
+        "retain": 39
+      },
+      "required_composition_chains": 44,
+      "status": "BLOCKED_EXPECTED_FAIL_CLOSED"
+    },
+    "status": "VERIFIED_EXPLORATORY_DIAGNOSTIC_ONLY; MAIN STUDY BLOCKED AT DATA RELEASE",
+    "unlearning_running": false
+  },
+  "implementation_recheck": {
+    "checked_at_utc": "2026-11-05T08:01:05Z",
+    "finding": "English unlearning used the unsafe separately-tokenized prompt-prefix mask while SFT used the shared offset-based mask.",
+    "limitation": "Fixture/runtime compatibility does not verify real SFT or unlearning effects. Dataset release and baseline competence gates remain mandatory.",
+    "resolution": "Unlearning now uses the shared assistant_masking.encode_assistant_only helper; the SFT and unlearning run manifests record its hash, unlearning preflight requires the matching helper hash, and the Kaggle notebook checks and exports that source.",
+    "source_sha256": {
+      "experiments/synthworlds_r1/README.md": "4748d05c3cd7672221edf393759bb3f5bfdfe31c1ebcf6c4ab08a1903797fe77",
+      "experiments/synthworlds_r1/kaggle/r1_multiseed_experiment.ipynb": "ff51a0b966dd5861a0667c81a44f960d168764fc0c76398d1b02df6e64de2ab5",
+      "experiments/synthworlds_r1/scripts/assistant_masking.py": "6c91f6047e14438b5f7eda646402580734478a8d312cdcef36a71cdec45f45c6",
+      "experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py": "dcc08cff240eea45e1e301de0c0a298b8a8d58db39de11ac77a32a4e57c7e34c",
+      "experiments/synthworlds_r1/scripts/train_sft_lora.py": "6aa5d8ed60c0f5727bb6f92b68a169f03e38fa6ce11672542e7754ea7a58a99b",
+      "experiments/synthworlds_r1/scripts/unlearn_lora.py": "033c37582e60ff4d7f02f4eddd9b56a70ea4c66b79339136a54de5c8c1989697"
+    },
+    "verification": {
+      "offline_pipeline_fixtures": {
+        "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+        "passed": 36,
+        "failed": 0,
+        "script_sha256": "413162b01eb58adbf7826be2f99b24bbeac900870cd4f657d67248ba65e4cc3f",
+        "status": "PASS_SYNTHETIC_FIXTURES_ONLY"
+      },
+      "prepared_source_alignment": {
+        "canonical_sft_ids": 488,
+        "command": "python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only",
+        "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+      },
+      "python_syntax_and_notebook_json": "PASS",
+      "research_data_release_ready": false,
+      "research_training_started": false
+    }
+  },
   "kaggle_status_check": {
-    "checked_at_utc": "2026-11-05T07:18:00Z",
-    "checked_kernel_count": 9,
+    "all_status_queries_exit_code_zero": true,
+    "checked_at_utc": "2026-11-05T09:38:00Z",
+    "checked_kernel_count": 12,
     "relevant_kernels": [
       {
         "ref": "bunnoob2005/experiments",
@@ -16,6 +232,18 @@
       },
       {
         "ref": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/qwen3-pilot-qwen14-review-2026-11-04",
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      {
+        "ref": "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
         "status": "KernelWorkerStatus.COMPLETE"
       },
       {
@@ -48,7 +276,33 @@
       }
     ],
     "running_or_queued_among_checked": 0,
-    "scope_note": "These are the R1 main notebook, runtime smoke, and six translation diagnostic kernels; this is not an inventory of unrelated Kaggle notebooks."
+    "scope_note": "Status refresh only. The Llama 3.1 8B kernel is a synthetic runtime smoke, not an R1 training or unlearning experiment.",
+    "status": "12/12 COMPLETE; no active research-training job"
+  },
+  "latest_recheck": {
+    "checked_at_utc": "2026-11-05T08:44:22Z",
+    "hypothesis_result_created": false,
+    "kaggle_kernels": "12/12 COMPLETE; 0 running or queued",
+    "mask_preflight": "VERIFIED_MASK_PREFLIGHT_ONLY",
+    "model_weights_loaded": true,
+    "prepared_notebook": "VERIFIED_PREPARED_NOTEBOOK_SAFE_TO_PUBLISH",
+    "quarantined_candidate_coverage": {
+      "composition_chains": 1,
+      "composition_missing_translation_rows": 138,
+      "composition_required": 44,
+      "forget_cases": 36,
+      "forget_groups": 18,
+      "one_gap_chains": 11,
+      "retain_cases": 15,
+      "retain_groups": 12
+    },
+    "release_assembler": "BLOCKED; failed closed at translation coverage gate; no release files written",
+    "research_data_loaded": false,
+    "research_sft_running": false,
+    "runtime_receipt": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+    "synthetic_lora_steps": 1,
+    "synthetic_npo_steps": 1,
+    "unlearning_running": false
   },
   "limitations": [
     "Translation review remains AI-only and is not fluent-human certification.",
@@ -56,13 +310,81 @@
     "The 8B runtime smoke proves code/runtime compatibility only.",
     "The main SFT and unlearning experiment must remain stopped until the source-bound release gate passes and baseline competence is checked."
   ],
-  "observed_at_utc": "2026-11-05T07:18:00Z",
+  "observed_at_utc": "2026-11-05T14:37:21+00:00",
   "offline_pipeline_fixtures": {
     "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+    "passed": 36,
     "failed": 0,
-    "interpretation": "Synthetic fixtures only; no research rows or model experiment.",
-    "passed": 35,
-    "result": "OK"
+    "script_sha256": "413162b01eb58adbf7826be2f99b24bbeac900870cd4f657d67248ba65e4cc3f",
+    "result": "OK",
+    "interpretation": "Synthetic fixtures only; no translation-quality or model-effect evidence."
+  },
+  "pilot_diagnostic_recheck": {
+    "alternate_prediction_set": "5,906/7,740 predictions differ; unverified provenance; excluded",
+    "checked_at_utc": "2026-11-05T08:59:24Z",
+    "generation_failures": 0,
+    "independent_score_reproduction": "7/7 derived outputs byte-identical",
+    "limits": [
+      "One seed, Llama 3.2 1B",
+      "AI-only translation review",
+      "All target-language competence gates fail",
+      "Small bilingual matched cohorts (9–11 cases; 5–7 groups)",
+      "Original scorer intervals are unadjusted; separate exact post-hoc sensitivity applies Bonferroni adjustment over 12 primary and 12 secondary cells",
+      "Unlearning script hash absent from raw run manifest",
+      "V3 local snapshot verifier flags one working-notebook hash mismatch (182/183 files match); archived score reproduction is separate, but training-code provenance is incomplete."
+    ],
+    "output_invalid_flags": 0,
+    "prediction_rows": 7740,
+    "primary_contrasts_with_95pct_group_bootstrap_ci_including_or_touching_zero": "12/12",
+    "report_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/pilot_diagnostic_results.md",
+    "report_sha256": "294b2e4d6e3dc6dfee569e7ad0d295af6b166785ddf4650bd3ca0217db885f00",
+    "status": "VERIFIED_EXPLORATORY_DIAGNOSTIC_ONLY",
+    "target_language_competence_gate": "FAILED in FR/DE/HI/TH",
+    "verification_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/pilot_diagnostic_verification.json",
+    "verification_sha256": "f7cf2cf0647b7837ddbe9e65d5a47af8588d7e42ddfc8fe97ad136a94315d6f9",
+    "exact_sensitivity_checked_at_utc": "2026-11-05T14:25:42+00:00",
+    "exact_sensitivity_result_sha256": "e5b6d6e1ec1f9dc7803103376224910e9dced094550fee58377acbbb4a5d1122",
+    "exact_sensitivity_markdown_sha256": "539bfecaec9afe12117b0827d1e7423d67ca1e297b01b4cb139d3a22e869db00",
+    "primary_familywise_intervals_including_or_touching_zero": "12/12",
+    "secondary_did_familywise_intervals_including_or_touching_zero": "12/12",
+    "v3_snapshot_status": "FAIL_ON_WORKING_NOTEBOOK_HASH_DRIFT: 182/183 manifest-listed files match"
+  },
+  "post_hoc_multiplicity_sensitivity_2026_11_05": {
+    "status": "VERIFIED_EXACT_POST_HOC_CLUSTER_BOOTSTRAP_SENSITIVITY_EXPLORATORY_ONLY",
+    "analysis_script_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/pilot_exact_cluster_sensitivity.py",
+    "analysis_script_sha256": "5043477802bbbc0637a70358d9e54d55d9b0e2e1ad7f390b7097483103378dea",
+    "results_json_path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/pilot_exact_cluster_sensitivity.json",
+    "results_json_sha256": "e5b6d6e1ec1f9dc7803103376224910e9dced094550fee58377acbbb4a5d1122",
+    "results_markdown_sha256": "539bfecaec9afe12117b0827d1e7423d67ca1e297b01b4cb139d3a22e869db00",
+    "input_archive_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+    "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+    "method": "Exhaustive enumeration of all ordered entity-group bootstrap draws; Bonferroni nominal familywise 95% intervals over 12 method-language cells, separately for each estimand.",
+    "primary_estimand": "Target-language post-minus-pre multi-hop exact-match change on the same bilingual SFT-precompetent forget cases",
+    "primary_familywise_intervals_including_or_touching_zero": "12/12",
+    "primary_point_changes_pp_by_language": {
+      "fr": 0.0,
+      "de": -11.11111111111111,
+      "hi": -11.11111111111111,
+      "th": -18.181818181818183
+    },
+    "primary_familywise_interval_outer_bounds_pp": [
+      -85.71428571428571,
+      0.0
+    ],
+    "secondary_estimand": "Target-language minus English multi-hop change on the same bilingual SFT-precompetent forget cases",
+    "secondary_familywise_intervals_including_or_touching_zero": "12/12",
+    "secondary_familywise_interval_outer_bounds_pp": [
+      -71.42857142857143,
+      100.0
+    ],
+    "maximum_endpoint_difference_from_prior_100000_draw_simulation_pp": 0.0,
+    "limitations": [
+      "Post-hoc sensitivity analysis, not preregistered and not a replacement for the primary estimand.",
+      "Only 5-7 independent entity groups per contrast; exact enumeration removes Monte Carlo error, not small-sample uncertainty.",
+      "All four target-language competence gates failed; these estimates cannot answer the hypothesis.",
+      "One seed, Llama 3.2 1B, and AI-only translations without fluent-human review."
+    ],
+    "tracker_report_sha256": "752ae52e5a0885866444311cc5708a32344835f146a11d326148b5660a500b03"
   },
   "prepared_source_alignment": {
     "canonical_sft_ids": 488,
@@ -72,19 +394,33 @@
   },
   "purpose": "Current reliability tracking snapshot; separates implementation/runtime checks from research results.",
   "runtime_only_8b_smoke": {
+    "checked_at_utc": "2026-11-05T08:44:22Z",
+    "gpu": "2 x Tesla T4",
     "interpretation": "Synthetic LoRA/NPO compatibility smoke; not SFT on research data, unlearning, or a hypothesis result.",
+    "mask_preflight_passed": true,
+    "mask_preflight_receipt_path": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/version8_interactive_mask_preflight_2026-11-05/r1_8b_mask_preflight.json",
     "model_id": "meta-llama/Llama-3.1-8B-Instruct",
     "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "model_weights_loaded": true,
     "npo_optimizer_steps_completed": 1,
+    "prepared_notebook_safe_to_publish": true,
+    "prepared_notebook_verifier": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/verify_prepared_notebook.py",
+    "receipt_path": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/r1_8b_runtime_smoke.json",
     "research_data_loaded": false,
+    "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
     "runtime_receipt_sha256": "f203c9b06a88647ab9868e3c1052dd02325eb21522e5f5ccd5e0b436f783d09c",
     "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+    "synthetic_lora_optimizer_steps": 1,
+    "synthetic_npo_optimizer_steps": 1,
     "trainer_global_step": 1,
     "trainer_train_loss": 0.02475927211344242,
+    "verification_path": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/verification.json",
     "verification_sha256": "20b30850f96cdda63901db2d35eeeeaba00841a572244916d7190c3fc58eb003"
   },
   "source_bound_release_gate": {
+    "checked_at_utc": "2026-11-05T08:44:22Z",
     "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
+    "corpus_file_absent_after_recheck": true,
     "corpus_written": false,
     "coverage_audit_path": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json",
     "coverage_audit_sha256": "34e3f93206079d20ac4566e4d9eb951f2e78bfd9e2ef38a8960fa90b50d7422b",
@@ -92,7 +428,11 @@
     "eligible_composition_chains_source": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/training_translation_coverage_audit.json; quarantined retries are not imported into the frozen review.",
     "error": "Translation screen excluded required atomic cases: 5 forget and 3 retain; expected 117 and 39.",
     "exit_code": 1,
+    "fresh_assembler_error": "Translation screen excluded required atomic cases: {'forget': 5, 'retain': 3}; expected {'forget': 117, 'retain': 39}",
+    "fresh_assembler_exit_code": 1,
+    "fresh_assembler_rerun": true,
     "interpretation": "Assembler failed closed before writing the release.",
+    "manifest_file_absent_after_recheck": true,
     "manifest_written": false,
     "observed_eligible_atomic_cases": {
       "forget": 5,
@@ -212,6 +552,87 @@
     },
     "training_eligible": false
   },
+  "translation_diagnostic_recheck": {
+    "blinded_direct_paired_screen": {
+      "blocked": 0,
+      "candidate_flag_counts": {
+        "assistant_ai_candidate": 6,
+        "qwen3_14b": 5
+      },
+      "candidate_pass_counts": {
+        "assistant_ai_candidate": 10,
+        "qwen3_14b": 11
+      },
+      "candidate_rows": 32,
+      "completion_receipt_binds_script_output_log": true,
+      "human_translation_reviewed": false,
+      "input_sha256": "63928c1ff976329a231bd719f6e41ab931a44b6b45ffd87fbb87c532f45b78b4",
+      "kaggle_status": "KernelWorkerStatus.COMPLETE",
+      "known_mismatch_sentinels": 16,
+      "limitations": [
+        "Small, selected diagnostic sample; not representative.",
+        "AI reviewers are not fluent-human gold labels.",
+        "Direct screen used FP16 with CPU offload and unconstrained JSON; round-trip screen used NF4 with constrained decoding, so label differences cannot be attributed to NLLB alone.",
+        "One planted mismatch was accepted despite the coarse calibration threshold passing."
+      ],
+      "output_sha256": "5a7ead7093ce86b432d739479c493b2a0f611390c2b28b76a39901ac11c1bfc1",
+      "predeclared_calibration_threshold": "at least 15/16 known mismatches rejected; zero blocked",
+      "release_approved": false,
+      "reviewer_script_sha256": "36b57e771ff8cf45859c39a86e3244cb21f2025647f08dbcf57fbb6f4c0ff0a1",
+      "roundtrip_to_direct_label_changes": {
+        "assistant_flag_to_pass": 4,
+        "assistant_pass_to_flag": 3,
+        "qwen3_flag_to_pass": 8,
+        "qwen3_pass_to_flag": 0
+      },
+      "rows_reviewed": 48,
+      "sentinel_false_accept": {
+        "control_id": "HN012",
+        "error": "candidate substitutes director for editor",
+        "kind": "composition",
+        "language": "hi",
+        "reviewer_decision": "semantic_pass"
+      },
+      "sentinel_semantic_accepted_error": 1,
+      "sentinel_semantic_rejected": 15,
+      "source_questions": 16,
+      "status": "VERIFIED_BLINDED_DIRECT_PAIRED_AI_SCREEN_DIAGNOSTIC_ONLY",
+      "threshold_passed": true
+    },
+    "checked_at_utc": "2026-11-05T08:09:33Z",
+    "commands": [
+      "python -B verify.py",
+      "python -B verify_review.py",
+      "python -B verify_paired_direct_review.py"
+    ],
+    "diagnostic_dir": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/qwen3_translation_pilot_2026-11-04",
+    "generation": {
+      "blocked_rows": 0,
+      "human_translation_reviewed": false,
+      "input_sha256": "c9e41c15d3f60cb77d62dcfdef75fc3a1ae5d72ccd10c7bbc8e06d907f3cf1fc",
+      "kaggle_source_matches_local": true,
+      "output_sha256": "2aa9843ea528302d63b6dee84d081bc296274ff56eb9e71736b5ef98cd9e719e",
+      "pinned_model": "Qwen/Qwen3-14B@40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "release_approved": false,
+      "rows": 16,
+      "status": "VERIFIED_QWEN3_TRANSLATION_PILOT_DIAGNOSTIC_ONLY",
+      "training_eligible": false,
+      "translated_rows": 16
+    },
+    "interpretation": "The direct paired AI screen disagrees with the NLLB round-trip labels on several candidates and catches 15/16 seeded mismatches, but it also accepts one known error. This is evidence that reviewer method can affect labels, not proof that any candidate is correct. All candidates remain quarantined; canonical source-review coverage and release eligibility are unchanged.",
+    "roundtrip_review": {
+      "blocked": 3,
+      "flag": 9,
+      "human_translation_reviewed": false,
+      "input_sha256": "e2b120430cda89f777daacdd991270b5c97607bbd4781f21d929f56880b4a1fa",
+      "output_sha256": "006d8923f1641de7a0eb4afada228e102854017efcf2e02ebe26df5d2d2284cc",
+      "pass": 4,
+      "release_approved": false,
+      "reviewer_script_matches_kaggle_source": true,
+      "rows": 16,
+      "status": "VERIFIED_QWEN14_NLLB_SCREEN_WITH_BLOCKED_ROWS_DIAGNOSTIC_ONLY"
+    }
+  },
   "translation_retry_receipts": [
     {
       "counts": {
@@ -302,5 +723,454 @@
       "status": "VERIFIED_ONE_ROW_KEY_CONSTRAINED_DIAGNOSTIC_ONLY",
       "training_eligible": false
     }
-  ]
+  ],
+  "targeted_gap_union_audit_2026_11_05": {
+    "status": "VERIFIED_DIAGNOSTIC_ONLY_NOT_RELEASE_APPROVAL",
+    "checked_at_utc": "2026-11-05T10:57:05+00:00",
+    "command": "python -B reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/targeted_gap_union_audit.py",
+    "script_sha256": "4b2a21fae5e327d10f0f09a43a7cce40d4415ec599d6e9c54d570bf90bc7b49b",
+    "json_sha256": "7728425d424ee2241bb5da0fdbf2d2fefd6ecde57da6acdede87edbd53e80c11",
+    "markdown_sha256": "9de91183efdfe779cb46176949564cd6dc035d348c5891f7c175c8a3706500ad",
+    "tracked_source_and_code_hash_count": 115,
+    "verifier_reruns_passed": [
+      "alias_retry",
+      "mistral_hard_negative_control",
+      "nllb_alternate_candidates",
+      "primary",
+      "qwen14_hard_negative_control",
+      "segmented_nllb_retry",
+      "third_candidate_mistral_direct_review",
+      "third_candidate_mistral_rationale_audit",
+      "third_candidate_overlay",
+      "third_candidate_reviewer_comparison"
+    ],
+    "candidate_union": {
+      "pass_rows_before": 1628,
+      "pass_rows_after": 1677,
+      "net_unique_prompt_language_rows": 49,
+      "exact_forget_cases_and_groups": {
+        "count": 42,
+        "required": 117,
+        "groups": 22
+      },
+      "exact_retain_cases_and_groups": {
+        "count": 16,
+        "required": 39,
+        "groups": 12
+      },
+      "optimistic_relation_aware_template_ceiling": {
+        "forget": 47,
+        "retain": 19
+      },
+      "composition_chains_complete": 2,
+      "composition_chains_required": 44,
+      "composition_missing_translation_rows": 114
+    },
+    "reviewer_diagnostic": {
+      "mistral_vs_initial_qwen_disagreement": "154/187",
+      "mistral_mismatch_control_both_pass": "2/15",
+      "qwen14_mismatch_control_both_pass": "1/16",
+      "human_gold_controls": 0
+    },
+    "frozen_release_gate_unchanged": "117 forget, 39 retain, and all 44 training-only composition chains",
+    "release_approved": false,
+    "training_corpus_written": false,
+    "research_training_started": false
+  },
+  "r3_report_refresh_2026_11_05": {
+    "source_file": "docs/report/R3.tex",
+    "source_sha256": "605bab0b3017dd48d4b3a62f57c5cdf14a20dc74142f011ad0fb6902a03b72bc",
+    "compile_command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=/tmp/fsds-r3-final R3.tex (run from docs/report)",
+    "compile_status": "PASS",
+    "compiled_pdf": "temporary output; deleted after verification",
+    "compiled_pdf_sha256": "91ae7dac34d3df28b7e4f7a91755ff7a906f5772b1691314c2f360c623dcc55a",
+    "pages_total_including_supervisor_page": 4,
+    "main_text_pages": 3,
+    "compile_errors": 0,
+    "warnings": [
+      "Non-fatal underfull hbox warnings in narrow tables",
+      "Non-fatal caption warnings because table captions are outside floats"
+    ],
+    "includes_private_kaggle_pilot_notebook_dataset_and_8b_smoke_links": true,
+    "includes_primary_and_secondary_exact_pilot_results": true,
+    "visual_check": "PASS: four-page report inspected; 3 main pages plus supervisor page; no clipping.",
+    "tracker_report_sha256": "f6b5db002bcafd4f92b24251b344ef7e9b5e5bfd50cf72069f1e70e8f0d48878",
+    "includes_latest_exact_row_candidate_coverage": true,
+    "candidate_coverage": {
+      "source_bound_release": {
+        "forget": "5/117",
+        "retain": "3/39",
+        "composition": "0/44"
+      },
+      "quarantined_exact_row_union": {
+        "forget": "42/117",
+        "retain": "16/39",
+        "composition": "2/44"
+      },
+      "optimistic_template_reuse_ceiling": {
+        "forget": "47/117",
+        "retain": "19/39",
+        "composition": "2/44"
+      }
+    },
+    "includes_v3_snapshot_warning": true,
+    "temporary_build_directory_cleaned": true,
+    "compiled_pdf_artifact_retained": false
+  },
+  "live_recheck_2026_11_05_1011_utc": {
+    "checked_at_utc": "2026-11-05T10:11:00Z",
+    "kaggle_status": {
+      "checked_kernel_count": 12,
+      "complete": 12,
+      "running_or_queued": 0,
+      "queries_exit_code_zero": true,
+      "cli_warning": "Installed Kaggle CLI reports outdated; all 12 status queries nevertheless exited successfully."
+    },
+    "runtime_only_8b_smoke": {
+      "receipt_validation": "PASS",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "gpu": "2 x Tesla T4",
+      "synthetic_lora_steps": 1,
+      "synthetic_npo_steps": 1,
+      "research_data_loaded": false
+    },
+    "offline_pipeline_fixtures": {
+      "passed": 35,
+      "failed": 0,
+      "status": "PASS"
+    },
+    "research_training_running": false,
+    "source_bound_release_gate": {
+      "status": "BLOCKED",
+      "eligible_cases": {
+        "forget": "5/117",
+        "retain": "3/39",
+        "composition_train_only": "0/44"
+      },
+      "training_corpus_written": false,
+      "note": "Quarantined translation-candidate coverage does not change this frozen release gate."
+    },
+    "interpretation": "Runtime and fixture checks pass. No 8B research-data SFT or unlearning has run; the project remains at training-data release."
+  },
+  "latest_live_recheck_2026_11_05_1026_utc": {
+    "checked_at_utc": "2026-11-05T10:30:10+00:00",
+    "kaggle_status": {
+      "queries": 14,
+      "complete": 13,
+      "error": 1,
+      "running_or_queued": 0,
+      "query_exit_codes_zero": true,
+      "error_kernel": "bunnoob2005/synthworlds-ai-only-translation-repair-review",
+      "recovery_kernel": "bunnoob2005/synthworlds-translation-repair-retry-v1",
+      "recovery_kernel_status": "COMPLETE",
+      "checked_at_utc": "2026-11-05T10:23:40+00:00"
+    },
+    "full799_repair_review": {
+      "review_mode": "AI_ONLY_DIAGNOSTIC; no fluent-human translation review",
+      "source_rows": 799,
+      "initial_partial": {
+        "valid_decisions": 702,
+        "blocked_attempts": 31,
+        "pending": 66,
+        "status": "Kaggle worker ERROR after 733/799 progress"
+      },
+      "retry": {
+        "rows": 97,
+        "status": "VERIFIED_COMPLETE_RETRY_AI_ONLY_DIAGNOSTIC",
+        "counts": {
+          "AI_ONLY_REPAIR_REVIEW_BLOCKED": 31,
+          "AI_ONLY_REPAIR_REVIEW_FLAGGED": 44,
+          "AI_ONLY_REPAIR_REVIEW_PASS": 22
+        },
+        "retry_output_sha256": "40db8398174bb772c3a4b81c9fe80638de1c9bb69d0f8d36fab2f6ff69226de8",
+        "verified_retry_rows_sha256": "751dd1f04b761309a545bfbd7f9d40a28fad1dbe097f7d63953a08e8e2849ee1",
+        "script_sha256": "307ba70f42c3db85ae1002f96e848e54e45925b168e94270b6b3213a5d085d01"
+      },
+      "retry_error_causes": {
+        "nllb_backtranslation_placeholder_failures": 28,
+        "qwen_schema_or_inference_errors": 3,
+        "all_failures_remain_blocked": true
+      },
+      "merged": {
+        "status": "VERIFIED_799_ROW_AI_ONLY_DIAGNOSTIC_MERGE_NOT_RELEASE_APPROVAL",
+        "unique_rows": 799,
+        "exact_source_coverage": true,
+        "counts": {
+          "AI_ONLY_REPAIR_REVIEW_BLOCKED": 31,
+          "AI_ONLY_REPAIR_REVIEW_FLAGGED": 323,
+          "AI_ONLY_REPAIR_REVIEW_PASS": 445
+        },
+        "percent_of_799": {
+          "AI_ONLY_REPAIR_REVIEW_BLOCKED": 3.9,
+          "AI_ONLY_REPAIR_REVIEW_FLAGGED": 40.4,
+          "AI_ONLY_REPAIR_REVIEW_PASS": 55.7
+        },
+        "merged_rows_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+        "merge_receipt_sha256": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+        "fresh_download_matches_archived_output": true,
+        "fresh_merge_matches_archived_rows_and_receipt": true,
+        "release_approved": false,
+        "training_eligible": false
+      }
+    },
+    "candidate_union_ceiling": {
+      "status": "OPTIMISTIC_CANDIDATE_UNION_CEILING_NOT_RELEASE_APPROVAL",
+      "chatgpt_candidate_passes": 445,
+      "translategemma_candidate_passes": 397,
+      "overlap": 230,
+      "unique_rows_with_at_least_one_candidate_pass": 612,
+      "rows_without_any_candidate_pass": 187,
+      "optimistic_complete_cases": {
+        "forget": {
+          "complete": 60,
+          "required": 117
+        },
+        "retain": {
+          "complete": 19,
+          "required": 39
+        },
+        "composition": {
+          "complete": 6,
+          "required": 44
+        }
+      },
+      "source_hashes": {
+        "chatgpt_candidate_file": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+        "merged_chatgpt_receipt": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+        "merged_chatgpt_rows": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+        "partial_chatgpt_output": "f7147371c08c9aab319d9772d98bed22fb95442557ae5fd9abdbc6a870aa770e",
+        "partial_chatgpt_verification": "6f2c413e8dd52321ba5f6d709b9bfc11db121b025fadb39ec30041b5c226f4e2",
+        "partial_chatgpt_verified_rows": "dbc2d620dbd0be81ee08d3c59f91b17b6de164fd862d488788d408c75d4f936c",
+        "private_map": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+        "review_input": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+        "translategemma_candidate_file": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+      },
+      "audit_script_sha256": "181570f73f59f17755e7a0d9f4544723df7c1ce95597cf7fad1119829f46d810",
+      "audit_json_sha256": "e86f459c231223186ceab9ccf3b3f5d918446c841586b707252558bc66927d3d",
+      "optimistic_only": true,
+      "human_translation_reviewed": false,
+      "release_approved": false,
+      "training_eligible": false
+    },
+    "frozen_release_gate": {
+      "status": "BLOCKED",
+      "eligible_atomic_cases": {
+        "forget": "5/117",
+        "retain": "3/39"
+      },
+      "eligible_train_only_composition_chains": "0/44",
+      "composition_source_audit_sha256": "34e3f93206079d20ac4566e4d9eb951f2e78bfd9e2ef38a8960fa90b50d7422b",
+      "corpus_written": false,
+      "manifest_written": false,
+      "training_started": false
+    },
+    "implementation_verification": {
+      "offline_fixture_tests": {
+        "passed": 35,
+        "failed": 0,
+        "status": "PASS_SYNTHETIC_FIXTURES_ONLY"
+      },
+      "prepared_source_alignment": {
+        "canonical_ids": 488,
+        "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+      },
+      "release_assembler": "FAIL_CLOSED: frozen translation gate rejected corpus assembly; no release files were written",
+      "runtime_8b_smoke": "PASS_RUNTIME_ONLY: one synthetic LoRA step and one synthetic NPO step on 2xT4; no research data",
+      "checked_at_utc": "2026-11-05T10:23:40+00:00"
+    },
+    "research_result_state": {
+      "main_r1_study_result_created": false,
+      "research_training_running": false,
+      "only_hypothesis_diagnostic": "one-seed Llama 3.2 1B feasibility pilot",
+      "pilot_competence_gate": "FAILED in FR, DE, HI, TH",
+      "confirmatory_result": false
+    }
+  },
+  "latest_live_recheck_2026_11_05_1102_utc": {
+    "checked_at_utc": "2026-11-05T11:02:55+00:00",
+    "kaggle_status": {
+      "checked_kernel_count": 15,
+      "complete": 15,
+      "error": 0,
+      "running_or_queued": 0,
+      "all_queries_exit_code_zero": true,
+      "refs": [
+        "bunnoob2005/experiments",
+        "bunnoob2005/qwen3-pilot-qwen14-review-2026-11-04",
+        "bunnoob2005/sw-gap187-alias-retry-2026-11-05",
+        "bunnoob2005/sw-gap187-candidate-review-2026-11-05",
+        "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
+        "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
+        "bunnoob2005/sw-third-key-retry-2026-11-05",
+        "bunnoob2005/sw-third-marker-retry-2026-11-05",
+        "bunnoob2005/sw-third-qwen-retry-2026-11-05",
+        "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
+        "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+        "bunnoob2005/synthworlds-mistral-cross-review-2026-11-04",
+        "bunnoob2005/synthworlds-qwen14b-hard-negative-2026-11-04",
+        "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04",
+        "bunnoob2005/synthworlds-third-candidate-review-2026-11-04"
+      ],
+      "scope_note": "All checked jobs are prior pilot, runtime-smoke, and translation-diagnostic kernels; no main R1 train/unlearning job is active."
+    },
+    "offline_pipeline_fixtures": {
+      "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+      "passed": 35,
+      "failed": 0,
+      "status": "PASS_SYNTHETIC_FIXTURES_ONLY",
+      "script_sha256": "ebb193ea4554b80c4494fd0a34e009340b640c9711b3a8e9275c7f141f6564b9"
+    },
+    "prepared_source_alignment": {
+      "canonical_sft_ids": 488,
+      "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+    },
+    "targeted_candidate_union": {
+      "audit_json_sha256": "7728425d424ee2241bb5da0fdbf2d2fefd6ecde57da6acdede87edbd53e80c11",
+      "audit_created_at_utc": "2026-11-05T10:57:05+00:00",
+      "source_and_code_hash_count": 115,
+      "candidate_pass_rows": "1628 -> 1677 (+49 unique)",
+      "exact_complete_cases": "forget 42/117 across 22 groups; retain 16/39 across 12 groups",
+      "optimistic_template_ceiling": "forget 47/117; retain 19/39",
+      "composition": "2/44 complete; 114 translation rows missing",
+      "human_review": false,
+      "quarantined": true
+    },
+    "source_bound_release_gate": {
+      "status": "BLOCKED_EXPECTED_FAIL_CLOSED",
+      "eligible_atomic_cases": {
+        "forget": "5/117",
+        "retain": "3/39"
+      },
+      "eligible_composition_chains": "0/44",
+      "assembler_exit_code": 1,
+      "corpus_written": false,
+      "manifest_written": false,
+      "corpus_and_manifest_absent": true,
+      "error": "Translation screen excluded required atomic cases: {'forget': 5, 'retain': 3}; expected {'forget': 117, 'retain': 39}",
+      "assembler_sha256": "afb34f4abad6772c4aab984e520e7345b23ed6e57b4dd92b45d0ac39fcc29beb"
+    },
+    "runtime_only_8b_smoke": {
+      "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+      "one_synthetic_lora_step": true,
+      "one_synthetic_npo_step": true,
+      "research_data_loaded": false
+    },
+    "research_result_state": {
+      "main_hypothesis_result_created": false,
+      "research_training_running": false,
+      "unlearning_running": false,
+      "only_hypothesis_diagnostic": "one-seed Llama 3.2 1B exploratory feasibility pilot; target-language competence gate failed"
+    },
+    "git_diff_check": "PASS",
+    "report_source_sha256": "9435c3550a6da600d25673228b05107f3be95e100a708aa614594ce09167dbcc",
+    "report_pdf_sha256": "bb06f420f79f66cfba918bc2d6403abd730b8b25379fb3791bd861998bfb9228",
+    "report_pages_total": 4,
+    "report_main_text_pages": 3,
+    "local_research_processes": 0,
+    "tracker_report_sha256": "05990ee2579375ae800b3c8f3a9801bf6059aca39773b379a211645446312a5d"
+  },
+  "r1_protocol_compile_2026_11_05": {
+    "source_file": "docs/report/R1.tex",
+    "source_sha256": "df7493f1ebcbd32a277c514159957e70c2b2ef69aeb39c0e5f1a752bc75f67ef",
+    "compile_command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=/tmp/fsds-r1-check R1.tex (run from docs/report)",
+    "compile_status": "PASS",
+    "compiled_pdf_sha256": "324677b0e752c95bcaeb6a06f05fbff51b0a6c3d93aca5d4aac7b600213a740d",
+    "pages": 17,
+    "overfull_hboxes": 0,
+    "tracker_report_sha256": "f6b5db002bcafd4f92b24251b344ef7e9b5e5bfd50cf72069f1e70e8f0d48878",
+    "compiled_pdf_artifact_retained": false,
+    "temporary_build_directory_cleaned": true
+  },
+  "v3_snapshot_verifier_recheck": {
+    "command": "python -B data/synthworlds_sm_pilot_v3/scripts/verify_v3.py",
+    "status": "FAIL_ON_WORKING_NOTEBOOK_HASH_DRIFT",
+    "manifest_listed_files": 183,
+    "current_file_hash_matches": 182,
+    "mismatch_path": "data/synthworlds_sm_pilot_v3/kaggle/sft_lora_pilot.ipynb",
+    "expected_sha256": "9854c7c1e619f0226bc30da9939b1284b84ae4536af644ad3f18656faebfe92d",
+    "observed_sha256": "3f533af42e786aef7caaee4ba32002f2e46a80cb0a7add746f08e29255897c2a",
+    "checksum_index_matches_snapshot_manifest": true,
+    "interpretation": "Do not rewrite the frozen historical manifest to bless the current notebook. This snapshot mismatch is separate from the hash-verified archived prediction rescore; exact training-code-to-run association is incomplete."
+  },
+  "final_recheck_2026_11_05_1437_utc": {
+    "checked_at_utc": "2026-11-05T14:37:21+00:00",
+    "kaggle_relevant_kernels": {
+      "bunnoob2005/experiments": "COMPLETE",
+      "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04": "COMPLETE",
+      "scope_note": "These statuses show no active pilot or smoke job; the smoke is not the research experiment."
+    },
+    "source_bound_release_gate": {
+      "status": "BLOCKED_EXPECTED_FAIL_CLOSED",
+      "eligible_cases": {
+        "forget": "5/117",
+        "retain": "3/39",
+        "composition": "0/44"
+      },
+      "assembler_exit_code": 1,
+      "corpus_or_manifest_written": false,
+      "error": "Translation screen excluded required atomic cases: {'retain': 3, 'forget': 5}; expected {'forget': 39, 'retain': 117}"
+    },
+    "offline_pipeline_fixtures": {
+      "passed": 36,
+      "failed": 0,
+      "synthetic_fixtures_only": true
+    },
+    "exact_posthoc_sensitivity": {
+      "primary_cells_touching_zero": 12,
+      "secondary_did_cells_touching_zero": 12,
+      "max_endpoint_delta_vs_100k_monte_carlo_pp": 0.0
+    },
+    "research_training_running": false,
+    "unlearning_running": false,
+    "R1_compile": {
+      "status": "PASS",
+      "pages": 17,
+      "source_sha256": "df7493f1ebcbd32a277c514159957e70c2b2ef69aeb39c0e5f1a752bc75f67ef",
+      "pdf_sha256": "324677b0e752c95bcaeb6a06f05fbff51b0a6c3d93aca5d4aac7b600213a740d",
+      "overfull_hboxes": 0
+    },
+    "R3_compile": {
+      "status": "PASS",
+      "pages_total_including_supervisor": 4,
+      "main_pages": 3,
+      "source_sha256": "605bab0b3017dd48d4b3a62f57c5cdf14a20dc74142f011ad0fb6902a03b72bc",
+      "pdf_sha256": "91ae7dac34d3df28b7e4f7a91755ff7a906f5772b1691314c2f360c623dcc55a",
+      "visual_check": "PASS"
+    },
+    "git_diff_check": "PASS",
+    "tracker_report_sha256": "752ae52e5a0885866444311cc5708a32344835f146a11d326148b5660a500b03",
+    "protocol_implementation_audit_sha256": "6ba98f138a51945bc0bd114075dbb016a3b9b51f2edfc2702fa852aec29d6c13",
+    "pilot_diagnostic_report_sha256": "294b2e4d6e3dc6dfee569e7ad0d295af6b166785ddf4650bd3ca0217db885f00",
+    "pilot_diagnostic_verification_sha256": "f7cf2cf0647b7837ddbe9e65d5a47af8588d7e42ddfc8fe97ad136a94315d6f9",
+    "candidate_coverage": {
+      "source_bound_release": {
+        "forget": "5/117",
+        "retain": "3/39",
+        "composition": "0/44"
+      },
+      "quarantined_exact_row_union": {
+        "forget": "42/117",
+        "retain": "16/39",
+        "composition": "2/44"
+      },
+      "optimistic_template_reuse_ceiling": {
+        "forget": "47/117",
+        "retain": "19/39",
+        "composition": "2/44"
+      }
+    },
+    "v3_snapshot_verifier": {
+      "command": "python -B data/synthworlds_sm_pilot_v3/scripts/verify_v3.py",
+      "status": "FAIL_ON_WORKING_NOTEBOOK_HASH_DRIFT",
+      "manifest_listed_files": 183,
+      "current_file_hash_matches": 182,
+      "mismatch_path": "data/synthworlds_sm_pilot_v3/kaggle/sft_lora_pilot.ipynb",
+      "expected_sha256": "9854c7c1e619f0226bc30da9939b1284b84ae4536af644ad3f18656faebfe92d",
+      "observed_sha256": "3f533af42e786aef7caaee4ba32002f2e46a80cb0a7add746f08e29255897c2a",
+      "checksum_index_matches_snapshot_manifest": true,
+      "interpretation": "Do not rewrite the frozen historical manifest to bless the current notebook. This snapshot mismatch is separate from the hash-verified archived prediction rescore; exact training-code-to-run association is incomplete."
+    },
+    "temporary_build_directories_cleaned": true
+  }
 }

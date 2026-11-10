@@ -1,0 +1,77 @@
+{
+  "ai_review_flagged_total": 1474,
+  "ai_review_pass_total": 866,
+  "batch_size": 3,
+  "completed_at_utc": "2026-11-03T01:53:38.768712+00:00",
+  "cross_model_review_total": 2242,
+  "human_reviewed_total": 0,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "cross_model_review_rows": 565,
+      "flagged_rows": 361,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 224,
+      "review_sha256": "0e29f25e4c77d0fb7ed63bf97f6103338652c304d6c91b5484cd08bde507edb5",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 20,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "aa7ef7a2c5df0c72aad921b63fda1ef9f75571a3c77ec84d498779ba2874a1b6",
+      "unresolved_rows": 0
+    },
+    "fr": {
+      "cross_model_review_rows": 571,
+      "flagged_rows": 347,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 238,
+      "review_sha256": "56177c607032cafc867e434e580752c0e662180290708b5f84fd90322452c90a",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 14,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "b312e0b70fc973e699d438c295ef9fce2e43cfa66ec81826b7f19ec48e6c75d4",
+      "unresolved_rows": 0
+    },
+    "hi": {
+      "cross_model_review_rows": 548,
+      "flagged_rows": 381,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 204,
+      "review_sha256": "2cf70f6b374217225ea4c7e8cfa147413f2af983fed79dec048ab30b32fece7e",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 37,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "5f373692ba505016e25b4a4219b85f9689de73e622c55cecbd46547a89b0ee32",
+      "unresolved_rows": 0
+    },
+    "th": {
+      "cross_model_review_rows": 558,
+      "flagged_rows": 385,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 200,
+      "review_sha256": "aab0bcfd65531ea0411f9bb9f569622d54bc028446c13e59c9dfdca0b729419b",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 27,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "206f9e2e023ca08d9afaa336cd075855efe9e47e68a9018f057856c8f6e64779",
+      "unresolved_rows": 0
+    }
+  },
+  "limitations": [
+    "AI-only review is not certification by a fluent human reviewer.",
+    "Automated model judgments can miss semantic or pragmatic translation errors.",
+    "Qwen fallback translations were screened by the same Qwen model; those rows are consistency checks, not independent-model verification.",
+    "The evaluation prompts and translated text are synthetic and source-derived."
+  ],
+  "report_version": 2,
+  "review_mode": "AI_ONLY_SCREEN_CROSS_MODEL_FOR_NLLB_PRIMARY_SAME_MODEL_FOR_QWEN_FALLBACK",
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "same_model_self_check_total": 98,
+  "source_requests_sha256": "cb46e839bef29b836d882fb489372b80d8ce18517a711fe1bd94999c4754500c",
+  "status": "AI_ONLY_REVIEW_REQUIRES_REPAIRS_OR_HUMAN_REVIEW",
+  "translation_model": "facebook/nllb-200-distilled-600M",
+  "unresolved_total": 0
+}

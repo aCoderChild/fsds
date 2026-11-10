@@ -1,0 +1,73 @@
+{
+  "ai_reviewed_rows": 924,
+  "atomic_rows_by_language": {
+    "de": 205,
+    "en": 205,
+    "fr": 205,
+    "hi": 205,
+    "th": 205
+  },
+  "composition_label_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+  "composition_policy": {
+    "examples_per_language": 26,
+    "human_translation_reviewed": false,
+    "primary_generalization_split": "forget",
+    "retain_prompt_eval_overlap": true,
+    "source_split": "retain",
+    "total_examples": 130,
+    "uses_forget_or_holdout_labels": false
+  },
+  "composition_prompt_sha256": {
+    "de": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a",
+    "en": "30c93bfe6b043564e8c1a5aed164b1a51766c8788b7e4b4891cf0e20f9a68f70",
+    "fr": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42",
+    "hi": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32",
+    "th": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+  },
+  "composition_rows_by_language": {
+    "de": 26,
+    "en": 26,
+    "fr": 26,
+    "hi": 26,
+    "th": 26
+  },
+  "composition_source_ids_sha256": "68de14bb700c4d4e0d6991f186afa9c85bc89604e2a871a5c59c1f76a6685749",
+  "corpus_sha256": "973f5f7e4816118b0e7dc9f66f82dad21f41f5bc0aade8074cd47d155cdbc013",
+  "do_not_train": false,
+  "evaluation_manifest_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4",
+  "forget_composition_rows": 0,
+  "holdout_rows": 0,
+  "human_translation_reviewed": false,
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "retain_composition_rows": 130,
+  "rows_by_language": {
+    "de": 231,
+    "en": 231,
+    "fr": 231,
+    "hi": 231,
+    "th": 231
+  },
+  "source_corpus_sha256": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f",
+  "source_manifest_sha256": "b61d7fea47084ec0c536074deb595e73d8f5a20a3198590f8cb87d2b3bf7c94d",
+  "split_approval": {
+    "record_sha256": "315590b41146e09ba0327ae3ce6e5f3c4467e5c3f10edfc0534a594219cd16d9",
+    "review_date": "2026-11-02",
+    "reviewer_name": "OpenAI Codex (delegated AI technical review)",
+    "reviewer_type": "AI",
+    "status": "APPROVED_PILOT_SPLIT"
+  },
+  "status": "AI_ONLY_REVIEWED_FIVE_LANGUAGE_COMPOSITION_SFT_CORPUS",
+  "total_rows": 1155,
+  "training_variant": "atomic_five_language_sft_plus_retained_chain_composition",
+  "translation_review_authorization": "AI_ONLY_REVIEW_AUTHORIZED",
+  "translation_review_mode": "AI_ONLY",
+  "translation_review_policy_sha256": "c712b04cc4f92f14cbb77095d0620ff9a7aef94c966115c7c4aa401484ea9ef5",
+  "translation_review_report_sha256": "89e9ef6fa51e4c06ad17fe9aef098de5c53b4e2672568b1bf7622183551a7f2a",
+  "unique_sft_ids_per_language": 231
+}

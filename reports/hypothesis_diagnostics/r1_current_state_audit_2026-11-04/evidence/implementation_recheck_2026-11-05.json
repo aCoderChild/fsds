@@ -1,0 +1,88 @@
+{
+  "audit_date": "2026-11-05",
+  "current_blockers": {
+    "eligible_forget_cases": "5/117",
+    "eligible_retain_cases": "3/39",
+    "eligible_training_composition_chains": "0/44",
+    "exact_8b_hf_config_access": "HTTP 403 on 2026-11-04 authenticated preflight",
+    "kaggle_8b_runtime_smoke_kernel_status": "ERROR",
+    "new_sft_or_unlearning_run_started": false,
+    "weights_downloaded": false
+  },
+  "future_model_reproducibility": {
+    "1b_new_run_revision": "UNSET_FAIL_CLOSED_HISTORICAL_MANIFEST_OMITTED_REVISION",
+    "local_runtime_smoke_manifest_sha256": "aff113894067bff6a04d7bbbfc43d60ae0c9ff7651d049e095c95b0c61250dbf",
+    "local_runtime_smoke_notebook_sha256": "7ad6cf020051759fce14cd862719c39420f299e6767e066909c4a066c6bae92c",
+    "main_model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "pinned_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "runtime_smoke_notebook_manifest": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/notebook_manifest.json"
+  },
+  "historical_pilot": {
+    "archive_crc": "PASS",
+    "baseline_competence_cases": {
+      "de": 9,
+      "fr": 10,
+      "hi": 9,
+      "th": 11
+    },
+    "baseline_competence_groups": {
+      "de": 5,
+      "fr": 6,
+      "hi": 6,
+      "th": 7
+    },
+    "confirmatory": false,
+    "generation_failures": 0,
+    "independent_rescore_outputs_byte_identical": "7/7",
+    "indexed_files_verified": "77/77",
+    "invalid_output_flags": 0,
+    "minimum_cases_and_groups_per_language": {
+      "cases": 15,
+      "groups": 8
+    },
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "paired_95_percent_intervals_all_touch_or_include_zero": true,
+    "paired_probe_summary_sha256": "1a1592d7e735ca74a6ee58b92055426317f62c77429852168ee45e5f99706e2e",
+    "prediction_rows": 7740,
+    "result_bundle_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+    "seed": 42,
+    "target_minus_english_did_range_pp": [
+      0.0,
+      22.2
+    ],
+    "unique_prediction_keys": true
+  },
+  "local_verification": {
+    "gpu_used": false,
+    "main_notebook_python_cells": "PASS",
+    "mocked_hf_access_preflight": {
+      "cases": [
+        "success",
+        "secret_failure",
+        "architecture_mismatch",
+        "credential_non_disclosure"
+      ],
+      "status": "PASS"
+    },
+    "r1_fixture_suite": {
+      "failed": 0,
+      "passed": 35,
+      "status": "PASS"
+    },
+    "runtime_smoke_notebook_python_cells": "PASS",
+    "standalone_smoke_receipt_wrong_revision_rejected": true,
+    "v6_archived_publish_artifact": "PASS"
+  },
+  "status": "REPRODUCIBLE_EXPLORATORY_DIAGNOSTIC_ONLY",
+  "translation_diagnostic_overlay": {
+    "blocked": 0,
+    "flags": 151,
+    "human_translation_reviewed": false,
+    "overlay_sha256": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+    "passes": 36,
+    "release_approved": false,
+    "repaired_rows": 18,
+    "rows": 187,
+    "training_eligible": false
+  }
+}

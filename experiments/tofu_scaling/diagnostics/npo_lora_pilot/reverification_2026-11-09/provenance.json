@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-11-08T21:58:13.920187+00:00",
+  "study": "TOFU Llama 3.2 3B NPO-LoRA one-seed pilot; independent local reverification",
+  "overall_artifact_verification": "PASS",
+  "research_diagnostic_gate_status": "FAIL_DIAGNOSTIC_GATES",
+  "original_kaggle_v5_verification_status": "FAIL",
+  "original_kaggle_v5_verification_problems": [
+    "expected 4000 per-forget loss trace rows, found 2000"
+  ],
+  "original_failure_explanation": "The embedded v5 verifier hardcoded 4000 loss-trace rows. The trainer source and receipt specify 2 forget + 2 retain examples per microbatch, gradient accumulation 4, and 2000 paired-microbatch trace rows over 10 epochs. The source-aware current verifier derives 2000 expected rows and passes.",
+  "hashes_sha256": {
+    "current_source_aware_verifier": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594",
+    "archived_v5_verifier": "cb7aa25b0660db8cf5df9498c7b8179b96562ab630526b6f46c5b274a9f7b401",
+    "training_receipt": "2554688564313f4b68ce52944c5267d5e4a1ceab9edd1a5f1d250951e849fc18",
+    "trainer_source": "79036aab028fb0b2abaceae8bde3ac9f789be0918bb8a880265bb50cb594edca",
+    "loss_trace": "c65908645a3ff48032aea8a0638a43ce88a384cfb5a781d3c9a52434b18730a7",
+    "protocol": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+    "objective_check": "3ff6d888817852288b1c3d1853b4be3494dde969156a04a7bf117ceb82e9235f",
+    "original_kaggle_v5_verification": "4d72c3ec7ee3c9ad9b70f36a1ec227080ebb1978a1515b0504c845e205ed820a",
+    "primary_baseline": "4807ebd41dd294633fe0340e30f94783f5aeb22c5219801578b2c55f39055a41",
+    "retain90_oracle": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+    "npo_adapter_evaluation": "ae635754bad048e6a4aae4822b72e5f0ebb13cccfb978ab7b438d38c15f59368",
+    "recorded_comparison": "871a44174c3d93546851f11ada7e2d42e692d3d87dc49ec0daaa9ba76bcde4ab"
+  },
+  "training": {
+    "status": "TRAINING_COMPLETE",
+    "optimizer_steps": 500,
+    "runtime_seconds": 1600.87,
+    "model": {
+      "label": "Llama 3.2 3B full",
+      "family": "llama_3_2_3b",
+      "role": "full",
+      "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+      "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+    },
+    "seed": 42,
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "method": {
+      "method": "NPO + retain NLL (LoRA adapter)",
+      "beta": 0.1,
+      "gamma_forget": 1.0,
+      "alpha_retain": 1.0,
+      "retain_loss_type": "NLL",
+      "learning_rate": 1e-05,
+      "weight_decay": 0.0,
+      "epochs": 10,
+      "max_length": 512,
+      "lora_rank": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.0,
+      "lora_target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "gradient_clip_norm": 1.0,
+      "batching": "1 forget + 1 retain example per microbatch; effective paired batch 8",
+      "optimizer": "torch AdamW, betas=(0.9,0.999), eps=1e-8",
+      "scheduler": "linear; one epoch warmup",
+      "precision": "FP16 frozen base checkpoint; FP32 LoRA parameters and loss; SDPA",
+      "retain_sampling": "uniform with replacement, one retain row per forget row, as in pinned upstream anchor=forget wrapper"
+    }
+  },
+  "primary_result": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_delta_b_minus_a": 0.08027557179308718,
+    "profile_cluster_bootstrap_95pct_ci": [
+      0.06828081315270661,
+      0.09211722051287935
+    ],
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "utility_gates": {
+    "retain90.answer_probability": {
+      "delta": -0.609747486697955,
+      "ci95": [
+        -0.6318482522641509,
+        -0.5876925999029162
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.34973822773297036,
+      "ci95": [
+        -0.37077881711965177,
+        -0.32852892989552385
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "holdout10.answer_probability": {
+      "delta": -0.03783390870372269,
+      "ci95": [
+        -0.053318232512651234,
+        -0.02306980674081647
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "model_utility.harmonic_mean": {
+      "baseline": 0.6701627348543244,
+      "npo": 0.5287491137875375,
+      "delta": -0.1414136210667869,
+      "noninferiority_margin": -0.05,
+      "pass": false,
+      "interval": null,
+      "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+    }
+  },
+  "scope_note": "This is an exploratory single-seed diagnostic. Artifact verification PASS is separate from the scientific/utility gate FAIL."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "SCORED_CORRECTED_GD_NPO_EXPLORATORY",
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "source_old_predictions_sha256": "89d2e88e11a4828e3904f1a1ca1cede487ca7af4cc09ca6e1761394965c0c56b",
+  "source_corrected_gd_npo_sha256": "87aaa7010aede33e2e76ab39b19eb3f5ef212594f7fb5e96a978342fe39ca405",
+  "merged_predictions_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+  "eval_manifest_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4",
+  "per_model": {
+    "pretrained": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    },
+    "sft": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    },
+    "retain_only": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    },
+    "GA": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    },
+    "GD": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    },
+    "NPO": {
+      "rows": 1290,
+      "unique_keys": 1290,
+      "generation_failed": 0
+    }
+  },
+  "models_expected": 6,
+  "rows_expected": 7740,
+  "rows_actual": 7740,
+  "source_reuse_note": "pretrained/SFT/retain-only plus GA reused; corrected GA adapter SHA-256 verified identical to prior GA"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "SFT_CORPUS_READY",
+  "do_not_train": false,
+  "total_rows": 1025,
+  "corpus_sha256": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f",
+  "split_approval": {
+    "status": "APPROVED_PILOT_SPLIT",
+    "reviewer_name": "OpenAI Codex (delegated AI technical review)",
+    "reviewer_type": "AI",
+    "review_date": "2026-11-02",
+    "record_sha256": "315590b41146e09ba0327ae3ce6e5f3c4467e5c3f10edfc0534a594219cd16d9"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "candidate_sha256": "18d869f4c7757dae66b6f3426e3ca2c20ac3c2fe7597699de2680bf7f604822f",
+  "duplicate_payload_rows_retained": 12,
+  "duplicates_note": "Every row remains source-ID bound; same prompt text across different IDs is not merged because entity-specific grammatical context is hidden by placeholders.",
+  "exact_row_prior_route_passes": 0,
+  "previous_complement_pass_overlaps_exact_row": 0,
+  "prior_routes_checked": [
+    "full799 ChatGPT/NLLB/Qwen14 diagnostic",
+    "TranslateGemma deterministic+Qwen7 preliminary pass",
+    "75-row standardized complement final Qwen14 screen"
+  ],
+  "release_approved": false,
+  "request_sha256": "6d4090178783b14eff9317d6e09ae58f4c3c2e2907ee1faa6429ce92a4cf7fba",
+  "rows": 187,
+  "status": "PASS_EXACT_ROW_CANDIDATE_ROUTE_COVERAGE",
+  "training_eligible": false,
+  "unique_language_kind_source_candidate_payloads": 175
+}

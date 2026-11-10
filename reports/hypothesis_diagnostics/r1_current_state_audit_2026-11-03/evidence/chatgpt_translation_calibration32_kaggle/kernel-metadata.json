@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/synthworlds-chatgpt-translations-review32",
+  "title": "SynthWorlds ChatGPT translation 32 review",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

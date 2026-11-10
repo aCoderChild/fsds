@@ -1,0 +1,16 @@
+{"row_id": "G0105", "source_english": "What is [ENTITY_A]'s given name?", "target_language": "Thai"}
+{"row_id": "G0111", "source_english": "What is [ENTITY_A]'s given name?", "target_language": "Thai"}
+{"row_id": "G0120", "source_english": "Which work is a part of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0121", "source_english": "Who founded the organization that the rank above the [ENTITY_A] is part of?", "target_language": "Thai"}
+{"row_id": "G0123", "source_english": "What position has the child of the patron saint of [ENTITY_A] held?", "target_language": "Thai"}
+{"row_id": "G0126", "source_english": "What family does [ENTITY_A] belong to?", "target_language": "Thai"}
+{"row_id": "G0127", "source_english": "Where is the [ENTITY_A] language indigenous to?", "target_language": "Thai"}
+{"row_id": "G0129", "source_english": "Where does the head of state of the administrative territorial entity contained within [ENTITY_A] work?", "target_language": "Thai"}
+{"row_id": "G0130", "source_english": "Who is the chairperson of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0131", "source_english": "What is the given name of the director of the work that is part of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0133", "source_english": "Who is the father of the creator of the noble title held by [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0137", "source_english": "What writing system does [ENTITY_A] use?", "target_language": "Thai"}
+{"row_id": "G0141", "source_english": "With which movement is [ENTITY_A] associated?", "target_language": "Thai"}
+{"row_id": "G0143", "source_english": "Which administrative territorial entity does [ENTITY_A] contain?", "target_language": "Thai"}
+{"row_id": "G0145", "source_english": "Where is the mother of the person [ENTITY_A] works for buried?", "target_language": "Thai"}
+{"row_id": "G0148", "source_english": "Where did the person who consecrated [ENTITY_A]'s child die?", "target_language": "Thai"}

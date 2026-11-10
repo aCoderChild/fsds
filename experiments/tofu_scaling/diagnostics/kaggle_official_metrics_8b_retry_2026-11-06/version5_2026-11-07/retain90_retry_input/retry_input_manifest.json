@@ -1,0 +1,48 @@
+{
+  "artifact_kind": "oracle_only_retry_input",
+  "source_reconciled_directory": "experiments/tofu_scaling/diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version5_2026-11-07/reconciled_partial_3b_8bfull_verified",
+  "archive": "tofu_3b_and_8b_full_verified_resume.zip",
+  "archive_sha256": "31ae0d13fd58ad4046b4e9376e0cb178a8069ad4c13969584dc608734c181ffc",
+  "archive_crc": "PASS",
+  "models_to_reuse": [
+    "llama_3_2_3b_full",
+    "llama_3_2_3b_retain90",
+    "llama_3_1_8b_full"
+  ],
+  "model_to_run": "llama_3_1_8b_retain90",
+  "source_files": {
+    "audit/tofu_readiness_audit.json": {
+      "source_file": "tofu_readiness_audit.json",
+      "sha256": "fa331ed4c0c49dd9c01f61101e7ce691816a7ddd2a055c31b3c1627371a5f0b8"
+    },
+    "audit/tofu_readiness_audit.md": {
+      "source_file": "tofu_readiness_audit.md",
+      "sha256": "3c87268fffc90854556ee8feb55c0fab199234890f0661e0e5f518a980dd9257"
+    },
+    "llama_3_2_3b_full_official_eval.json": {
+      "source_file": "llama_3_2_3b_full_official_eval.json",
+      "sha256": "4807ebd41dd294633fe0340e30f94783f5aeb22c5219801578b2c55f39055a41"
+    },
+    "llama_3_2_3b_full_examples.jsonl": {
+      "source_file": "llama_3_2_3b_full_examples.jsonl",
+      "sha256": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306"
+    },
+    "llama_3_2_3b_retain90_official_eval.json": {
+      "source_file": "llama_3_2_3b_retain90_official_eval.json",
+      "sha256": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68"
+    },
+    "llama_3_2_3b_retain90_examples.jsonl": {
+      "source_file": "llama_3_2_3b_retain90_examples.jsonl",
+      "sha256": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0"
+    },
+    "llama_3_1_8b_full_official_eval.json": {
+      "source_file": "llama_3_1_8b_full_official_eval.json",
+      "sha256": "213b7fd296c52bfcbba0c143c73480d8e80c5cba594151c696c8febdf5f6659d"
+    },
+    "llama_3_1_8b_full_examples.jsonl": {
+      "source_file": "llama_3_1_8b_full_examples.jsonl",
+      "sha256": "8f8e6e1d3c78bae56d14d4e5b908e409fb9f9a197425e48f0889bf116b12d1db"
+    }
+  },
+  "training_started": false
+}

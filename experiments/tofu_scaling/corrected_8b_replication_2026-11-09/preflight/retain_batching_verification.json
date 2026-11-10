@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fixture_token_counts_by_microbatch": [
+    2,
+    5
+  ],
+  "token_weighted_loss_abs_error": 0.0,
+  "token_weighted_gradient_abs_error": 0.0,
+  "difference_from_old_equal_example_weighting": 0.07285717129707336,
+  "tolerance": 1e-07,
+  "interpretation": "Unequal-length microbatches accumulate to the same token-mean value and gradient as one pooled batch."
+}

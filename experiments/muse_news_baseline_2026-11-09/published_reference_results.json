@@ -1,0 +1,50 @@
+{
+  "artifact_kind": "published_muse_news_reference_not_local_run",
+  "source": {
+    "paper": "MUSE: Machine Unlearning Six-Way Evaluation for Language Models",
+    "url": "https://arxiv.org/abs/2407.06460",
+    "reported_tables": [3, 6],
+    "interpretation": "Published paper values; not measurements produced by this repository or the staged Kaggle notebook."
+  },
+  "metrics": {
+    "C1_verbmem_forget_rougeL_f1_percent": {"direction": "lower_is_better"},
+    "C2_knowmem_forget_rouge_percent": {"direction": "lower_is_better"},
+    "C3_privacy_leak_percent": {"ideal_interval": [-5, 5]},
+    "C4_knowmem_retain_rouge_percent": {"direction": "higher_is_better"}
+  },
+  "news": {
+    "target": {
+      "C1_verbmem_forget_rougeL_f1_percent": {"mean": 58.4, "ci95": [54.1, 62.9]},
+      "C2_knowmem_forget_rouge_percent": {"mean": 63.9, "ci95": [58.7, 69.0]},
+      "C3_privacy_leak_percent": {"mean": -99.8, "ci95": null},
+      "C4_knowmem_retain_rouge_percent": {"mean": 55.2, "ci95": [50.7, 59.9]}
+    },
+    "retrain_retain_only_oracle": {
+      "C1_verbmem_forget_rougeL_f1_percent": {"mean": 20.8, "ci95": [18.5, 23.7]},
+      "C2_knowmem_forget_rouge_percent": {"mean": 33.1, "ci95": [26.8, 39.5]},
+      "C3_privacy_leak_percent": {"mean": 0.0, "ci95": null},
+      "C4_knowmem_retain_rouge_percent": {"mean": 55.0, "ci95": [50.3, 59.8]}
+    },
+    "GA": {
+      "C1_verbmem_forget_rougeL_f1_percent": {"mean": 0.0, "ci95": [0.0, 0.0]},
+      "C2_knowmem_forget_rouge_percent": {"mean": 0.0, "ci95": [0.0, 0.0]},
+      "C3_privacy_leak_percent": {"mean": 5.2, "ci95": null},
+      "C4_knowmem_retain_rouge_percent": {"mean": 0.0, "ci95": [0.0, 0.0]}
+    },
+    "NPO": {
+      "C1_verbmem_forget_rougeL_f1_percent": {"mean": 0.0, "ci95": [0.0, 0.0]},
+      "C2_knowmem_forget_rouge_percent": {"mean": 0.0, "ci95": [0.0, 0.0]},
+      "C3_privacy_leak_percent": {"mean": 24.4, "ci95": null},
+      "C4_knowmem_retain_rouge_percent": {"mean": 0.0, "ci95": [0.0, 0.0]}
+    }
+  },
+  "uncertainty": {
+    "C1_C2_C4": "95% percentile bootstrap intervals with 9,999 resamples, as stated in the paper.",
+    "C3": "The cited table reports point values only; no interval transcribed here."
+  },
+  "limitations": [
+    "These are published reference numbers, not a fresh reproduction.",
+    "The public Hugging Face target checkpoint has an incomplete model card; exact checkpoint-to-paper provenance remains to be verified.",
+    "Do not use this table as evidence that the project's Kaggle experiment ran."
+  ]
+}

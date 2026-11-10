@@ -1,0 +1,452 @@
+[
+  {
+    "model": "GA",
+    "split": "forget",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "forget",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 3,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "forget",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 6,
+    "n_entity_groups": 3,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "forget",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "retain",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GA",
+    "split": "retain",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "retain",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GA",
+    "split": "retain",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GA",
+    "split": "holdout",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GA",
+    "split": "holdout",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GA",
+    "split": "holdout",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GA",
+    "split": "holdout",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "forget",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "forget",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 3,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "forget",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 6,
+    "n_entity_groups": 3,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "forget",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "retain",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "retain",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "retain",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "GD",
+    "split": "retain",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "holdout",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "holdout",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "holdout",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "GD",
+    "split": "holdout",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "forget",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "forget",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 3,
+    "n_entity_groups": 2,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "forget",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 6,
+    "n_entity_groups": 3,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "forget",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 4,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "retain",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "retain",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "retain",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 1,
+    "n_entity_groups": 1,
+    "english_multi_delta_vs_sft_pp": -100.0,
+    "language_multi_delta_vs_sft_pp": -100.0,
+    "language_minus_english_did_pp": 0.0,
+    "cluster_bootstrap_95ci_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "model": "NPO",
+    "split": "retain",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "holdout",
+    "language": "fr",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "holdout",
+    "language": "de",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "holdout",
+    "language": "hi",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  },
+  {
+    "model": "NPO",
+    "split": "holdout",
+    "language": "th",
+    "n_bilingual_precompetent_cases": 0,
+    "n_entity_groups": 0,
+    "english_multi_delta_vs_sft_pp": null,
+    "language_multi_delta_vs_sft_pp": null,
+    "language_minus_english_did_pp": null,
+    "cluster_bootstrap_95ci_pp": null
+  }
+]

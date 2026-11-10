@@ -1,0 +1,13 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE",
+  "rows": 9,
+  "input_sha256": "56794242bf15f01619252bf5e118ed17ee927fb5865acd95d63b10ac27755c3a",
+  "source_review_sha256": "20acac21b7eb8c72f812199fb5f16aec77d5cd2b99974a50422339707c6ba01c",
+  "builder_sha256": "1e81a8b5d5903f1fe350bc433ce7983dd3110a98f1f4e933d0f27719563ee688",
+  "review_script_sha256": "daaa58f956d32b0928dc85de2988646d15e04ffc74b49ace0ff04e2908cd3267",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "answers_included": false,
+  "target_marker_policy": "ZXQ markers preserved exactly; no mapping or answers included",
+  "human_translation_reviewed": false
+}

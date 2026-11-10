@@ -1,0 +1,35 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0129","question_en":"Who is the editor of ZXQENTAQXZ?"}
+{"row_id":"HI0130","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"HI0131","question_en":"Who is the spouse of the editor of the creative work ZXQENTAQXZ contributed to?"}
+{"row_id":"HI0132","question_en":"Which administrative territorial entity does ZXQENTAQXZ contain?"}
+{"row_id":"HI0133","question_en":"Where does the ZXQENTAQXZ work?"}
+{"row_id":"HI0134","question_en":"Where does the head of state of the administrative territorial entity contained within ZXQENTAQXZ work?"}
+{"row_id":"HI0135","question_en":"Who was ZXQENTAQXZ's doctoral advisor?"}
+{"row_id":"HI0136","question_en":"Who is a significant person associated with ZXQENTAQXZ?"}
+{"row_id":"HI0137","question_en":"Who is a significant person associated with the movement that ZXQENTAQXZ's doctoral advisor is associated with?"}
+{"row_id":"HI0138","question_en":"What replaced the ZXQENTAQXZ?"}
+{"row_id":"HI0139","question_en":"Which political office of ZXQENTAQXZ is held by its head of state?"}
+{"row_id":"HI0140","question_en":"Which political office of the state that replaced the country whose capital is ZXQENTAQXZ is held by its head of state?"}
+{"row_id":"HI0141","question_en":"Who is a crew member of the ZXQENTAQXZ?"}
+{"row_id":"HI0142","question_en":"Who is ZXQENTAQXZ's child?"}
+{"row_id":"HI0143","question_en":"What position has ZXQENTAQXZ held?"}
+{"row_id":"HI0144","question_en":"What position has the child of the patron saint of ZXQENTAQXZ held?"}
+{"row_id":"HI0145","question_en":"Who consecrated ZXQENTAQXZ?"}
+{"row_id":"HI0146","question_en":"What payment types are accepted by the organizer of the event ZXQENTAQXZ participated in?"}
+{"row_id":"HI0147","question_en":"What is the ZXQENTAQXZ part of?"}
+{"row_id":"HI0148","question_en":"Who founded the organization that the rank above the ZXQENTAQXZ is part of?"}
+{"row_id":"HI0149","question_en":"Which work does ZXQENTAQXZ reference?"}
+{"row_id":"HI0150","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"HI0151","question_en":"Which institution holds the documentation files about the person after whom the city that houses the ZXQENTAQXZ's headquarters is named?"}
+{"row_id":"HI0152","question_en":"Who is ZXQENTAQXZ different from?"}
+{"row_id":"HI0153","question_en":"Who does the teacher of ZXQENTAQXZ's father differ from?"}
+{"row_id":"HI0154","question_en":"Who is the rector of ZXQENTAQXZ?"}
+{"row_id":"HI0155","question_en":"Who was the doctoral advisor of the rector of ZXQENTAQXZ's employer?"}
+{"row_id":"HI0156","question_en":"What honorific prefix is used before ZXQENTAQXZ's name?"}
+{"row_id":"HI0157","question_en":"Who is the father of the person whom the unmarried partner of ZXQENTAQXZ is interested in?"}
+{"row_id":"HI0158","question_en":"Which work is a part of ZXQENTAQXZ?"}
+{"row_id":"HI0159","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"HI0160","question_en":"What is the given name of the director of the work that is part of ZXQENTAQXZ?"}

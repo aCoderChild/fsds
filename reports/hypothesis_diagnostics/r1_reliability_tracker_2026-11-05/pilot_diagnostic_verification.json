@@ -1,0 +1,535 @@
+{
+  "alternate_prediction_set_reconciliation": {
+    "different_prediction_rows": 5906,
+    "different_rows_by_model": {
+      "GA": 1290,
+      "GD": 1269,
+      "NPO": 1258,
+      "retain_only": 1232,
+      "sft": 857
+    },
+    "older_report_invalid_predictions": 1385,
+    "path": "reports/hypothesis_diagnostics/r1_pilot_recomputed_v2/predictions.jsonl",
+    "prediction_sha256": "5baee1b513c0ffa91550f7079a993c6b503d84d234041c2a23ffc2f87ba48cd1",
+    "resolution": "The older folder is not bound to the verified v4 archive and lacks run provenance there. Keep it as an unverified alternate result; do not merge its metrics or describe it as the same run.",
+    "same_keys": true,
+    "shared_prediction_keys": 7740,
+    "v4_prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+    "v4_verified_invalid_predictions": 0
+  },
+  "archive": {
+    "indexed_file_hashes": "PASS",
+    "indexed_files": 77,
+    "zip_crc": "PASS",
+    "zip_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43"
+  },
+  "authoritative_run": "r1_synthworlds_v4_retainfix_corrected_2026-11-03",
+  "baseline_by_language": [
+    {
+      "direct_accuracy": 0.948051948051948,
+      "gate_pass": null,
+      "language": "en",
+      "matched_cases": null,
+      "matched_entity_groups": null,
+      "multi_accuracy": 0.2077922077922078,
+      "n": 77,
+      "sft_precompetent_cases": 15,
+      "sft_precompetent_groups": 10
+    },
+    {
+      "direct_accuracy": 0.9090909090909091,
+      "gate_pass": false,
+      "language": "fr",
+      "matched_cases": 10,
+      "matched_entity_groups": 6,
+      "multi_accuracy": 0.18181818181818182,
+      "n": 77,
+      "sft_precompetent_cases": 13,
+      "sft_precompetent_groups": 9
+    },
+    {
+      "direct_accuracy": 0.8701298701298701,
+      "gate_pass": false,
+      "language": "de",
+      "matched_cases": 9,
+      "matched_entity_groups": 5,
+      "multi_accuracy": 0.19480519480519481,
+      "n": 77,
+      "sft_precompetent_cases": 12,
+      "sft_precompetent_groups": 8
+    },
+    {
+      "direct_accuracy": 0.8701298701298701,
+      "gate_pass": false,
+      "language": "hi",
+      "matched_cases": 9,
+      "matched_entity_groups": 6,
+      "multi_accuracy": 0.18181818181818182,
+      "n": 77,
+      "sft_precompetent_cases": 11,
+      "sft_precompetent_groups": 7
+    },
+    {
+      "direct_accuracy": 0.948051948051948,
+      "gate_pass": false,
+      "language": "th",
+      "matched_cases": 11,
+      "matched_entity_groups": 7,
+      "multi_accuracy": 0.19480519480519481,
+      "n": 77,
+      "sft_precompetent_cases": 15,
+      "sft_precompetent_groups": 11
+    }
+  ],
+  "competence_gate": "FAILED in all four target languages; documented feasibility threshold requires at least 15 bilingual cases and 8 entity groups per target language",
+  "created_utc": "2026-11-05",
+  "direct_B_vs_final_C": [
+    {
+      "B_wrong_C_correct": 10,
+      "cases": 10,
+      "groups": 6,
+      "language": "fr",
+      "method": "GA",
+      "target_B_direct_correct": 0,
+      "target_B_n": 10,
+      "target_C_final_correct": 10,
+      "target_C_n": 10
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 9,
+      "groups": 5,
+      "language": "de",
+      "method": "GA",
+      "target_B_direct_correct": 0,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 9,
+      "groups": 6,
+      "language": "hi",
+      "method": "GA",
+      "target_B_direct_correct": 0,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 9,
+      "cases": 11,
+      "groups": 7,
+      "language": "th",
+      "method": "GA",
+      "target_B_direct_correct": 0,
+      "target_B_n": 11,
+      "target_C_final_correct": 9,
+      "target_C_n": 11
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 10,
+      "groups": 6,
+      "language": "fr",
+      "method": "GD",
+      "target_B_direct_correct": 2,
+      "target_B_n": 10,
+      "target_C_final_correct": 10,
+      "target_C_n": 10
+    },
+    {
+      "B_wrong_C_correct": 7,
+      "cases": 9,
+      "groups": 5,
+      "language": "de",
+      "method": "GD",
+      "target_B_direct_correct": 1,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 9,
+      "groups": 6,
+      "language": "hi",
+      "method": "GD",
+      "target_B_direct_correct": 0,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 9,
+      "cases": 11,
+      "groups": 7,
+      "language": "th",
+      "method": "GD",
+      "target_B_direct_correct": 0,
+      "target_B_n": 11,
+      "target_C_final_correct": 9,
+      "target_C_n": 11
+    },
+    {
+      "B_wrong_C_correct": 9,
+      "cases": 10,
+      "groups": 6,
+      "language": "fr",
+      "method": "NPO",
+      "target_B_direct_correct": 1,
+      "target_B_n": 10,
+      "target_C_final_correct": 10,
+      "target_C_n": 10
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 9,
+      "groups": 5,
+      "language": "de",
+      "method": "NPO",
+      "target_B_direct_correct": 0,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 8,
+      "cases": 9,
+      "groups": 6,
+      "language": "hi",
+      "method": "NPO",
+      "target_B_direct_correct": 0,
+      "target_B_n": 9,
+      "target_C_final_correct": 8,
+      "target_C_n": 9
+    },
+    {
+      "B_wrong_C_correct": 9,
+      "cases": 11,
+      "groups": 7,
+      "language": "th",
+      "method": "NPO",
+      "target_B_direct_correct": 0,
+      "target_B_n": 11,
+      "target_C_final_correct": 9,
+      "target_C_n": 11
+    }
+  ],
+  "evaluation_cases": {
+    "forget": 77,
+    "holdout": 26,
+    "retain": 26,
+    "total": 129
+  },
+  "generation_failures": 0,
+  "independent_rescore": {
+    "all_seven_outputs_byte_identical": true,
+    "archived_output_sha256": {
+      "case_metrics.jsonl": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+      "cross_language_contrasts.csv": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+      "cross_language_contrasts.json": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+      "diagnostic_report.md": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+      "scored_predictions.jsonl": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+      "summary.csv": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+      "summary.json": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+    },
+    "checked_at_utc": "2026-11-05T08:59:24Z",
+    "command": "python3 reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/scripts/evaluate_crosslingual_unlearning.py --eval-root reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/evaluation_dataset --predictions reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/predictions.jsonl --output-dir /tmp/r1_v4_corrected_independent_rescore_2026-11-05_0858 --score-only --bootstrap 2000 --checkpoint sft=unused --contrast-model GA --contrast-model GD --contrast-model NPO",
+    "prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+    "rescore_output_sha256": {
+      "case_metrics.jsonl": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+      "cross_language_contrasts.csv": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+      "cross_language_contrasts.json": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+      "diagnostic_report.md": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+      "scored_predictions.jsonl": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+      "summary.csv": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+      "summary.json": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+    },
+    "scorer_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+    "status": "PASS_INDEPENDENT_SCORE_REPRODUCTION_EXPLORATORY_ONLY"
+  },
+  "latest_recheck": {
+    "alternate_prediction_set": {
+      "alternate_output_invalid": 1385,
+      "alternate_predictions_sha256": "5baee1b513c0ffa91550f7079a993c6b503d84d234041c2a23ffc2f87ba48cd1",
+      "authoritative_v4_predictions_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+      "cause": "unresolved; exclude alternate metrics",
+      "different_answer_rows": 5906,
+      "different_rows_by_model": {
+        "GA": 1290,
+        "GD": 1269,
+        "NPO": 1258,
+        "retain_only": 1232,
+        "sft": 857
+      },
+      "rows": 7740,
+      "same_keys": true,
+      "v4_output_invalid": 0
+    },
+    "checked_at_utc": "2026-11-05T08:59:24Z",
+    "independent_score_reproduction": {
+      "derived_outputs_identical": 7,
+      "derived_outputs_total": 7,
+      "status": "PASS",
+      "temporary_output_directory_cleaned": true
+    },
+    "kaggle_kernels": {
+      "all_queries_exit_code_zero": true,
+      "complete": 12,
+      "count": 12,
+      "running_or_queued": 0
+    },
+    "offline_pipeline_fixtures": {
+      "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+      "failed": 0,
+      "passed": 35,
+      "script_sha256": "dcc08cff240eea45e1e301de0c0a298b8a8d58db39de11ac77a32a4e57c7e34c",
+      "status": "PASS"
+    },
+    "prepared_source_alignment": {
+      "canonical_sft_ids": 488,
+      "command": "python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only",
+      "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+    },
+    "source_bound_release_gate": {
+      "assembler_sha256": "afb34f4abad6772c4aab984e520e7345b23ed6e57b4dd92b45d0ac39fcc29beb",
+      "corpus_absent": true,
+      "error": "Translation screen excluded required atomic cases: retain 3 and forget 5; expected retain 39 and forget 117.",
+      "exit_code": 1,
+      "manifest_absent": true,
+      "observed_atomic_cases": {
+        "forget": 5,
+        "retain": 3
+      },
+      "required_atomic_cases": {
+        "forget": 117,
+        "retain": 39
+      },
+      "required_composition_chains": 44,
+      "status": "BLOCKED"
+    }
+  },
+  "limitations": [
+    "One seed and the Llama 3.2 1B feasibility model; not the planned three-seed Llama 3.1 8B study.",
+    "All target languages fail the documented bilingual baseline-competence feasibility gate.",
+    "Primary paired cells contain only 9–11 cases across 5–7 entity groups; exact resampling removes Monte Carlo noise but cannot stabilize coverage with so few groups.",
+    "The original scorer intervals are unadjusted; a separate post-hoc sensitivity applies Bonferroni adjustment over 12 primary and 12 secondary cells.",
+    "SFT final multi-hop baseline accuracy is only 18.2–20.8% over the full 77-case forget set.",
+    "Translations have AI-only review.",
+    "Raw unlearning manifests omitted the unlearning-script hash; code-to-run provenance is post-run reconciled, not cryptographic attestation.",
+    "V3 local snapshot check flags one changed notebook hash (182/183 listed files match); archived run scoring reproduces, but historical notebook-to-run association remains incomplete."
+  ],
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "output_invalid_flags": 0,
+  "prediction_rows": 7740,
+  "primary_contrasts_with_ci_including_zero": 12,
+  "primary_cross_language_contrasts": [
+    {
+      "cases": 10,
+      "ci95_pp": [
+        0.0,
+        50.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -10.0,
+      "groups": 6,
+      "language": "fr",
+      "method": "GA",
+      "target_change_pp": 0.0,
+      "target_minus_english_pp": 10.0
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        0.0,
+        80.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -33.33333333333333,
+      "groups": 5,
+      "language": "de",
+      "method": "GA",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 22.22222222222222
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        -33.33333333333333,
+        33.33333333333333
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -11.11111111111111,
+      "groups": 6,
+      "language": "hi",
+      "method": "GA",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 0.0
+    },
+    {
+      "cases": 11,
+      "ci95_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -27.27272727272727,
+      "groups": 7,
+      "language": "th",
+      "method": "GA",
+      "target_change_pp": -18.181818181818183,
+      "target_minus_english_pp": 9.090909090909092
+    },
+    {
+      "cases": 10,
+      "ci95_pp": [
+        0.0,
+        50.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -10.0,
+      "groups": 6,
+      "language": "fr",
+      "method": "GD",
+      "target_change_pp": 0.0,
+      "target_minus_english_pp": 10.0
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        -33.33333333333333,
+        80.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -22.22222222222222,
+      "groups": 5,
+      "language": "de",
+      "method": "GD",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 11.11111111111111
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        0.0,
+        50.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -22.22222222222222,
+      "groups": 6,
+      "language": "hi",
+      "method": "GD",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 11.11111111111111
+    },
+    {
+      "cases": 11,
+      "ci95_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -27.27272727272727,
+      "groups": 7,
+      "language": "th",
+      "method": "GD",
+      "target_change_pp": -18.181818181818183,
+      "target_minus_english_pp": 9.090909090909092
+    },
+    {
+      "cases": 10,
+      "ci95_pp": [
+        0.0,
+        50.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -10.0,
+      "groups": 6,
+      "language": "fr",
+      "method": "NPO",
+      "target_change_pp": 0.0,
+      "target_minus_english_pp": 10.0
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        -33.33333333333333,
+        80.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -22.22222222222222,
+      "groups": 5,
+      "language": "de",
+      "method": "NPO",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 11.11111111111111
+    },
+    {
+      "cases": 9,
+      "ci95_pp": [
+        0.0,
+        50.0
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -22.22222222222222,
+      "groups": 6,
+      "language": "hi",
+      "method": "NPO",
+      "target_change_pp": -11.11111111111111,
+      "target_minus_english_pp": 11.11111111111111
+    },
+    {
+      "cases": 11,
+      "ci95_pp": [
+        -27.27272727272727,
+        57.14285714285714
+      ],
+      "ci_includes_zero": true,
+      "english_change_pp": -27.27272727272727,
+      "groups": 7,
+      "language": "th",
+      "method": "NPO",
+      "target_change_pp": -18.181818181818183,
+      "target_minus_english_pp": 9.090909090909092
+    }
+  ],
+  "rows_per_checkpoint": 1290,
+  "seed": 42,
+  "status": "VERIFIED_EXPLORATORY_DIAGNOSTIC",
+  "translation_review": "AI-only; no fluent-human review",
+  "post_hoc_exact_cluster_sensitivity": {
+    "checked_at_utc": "2026-11-05T14:24:08+00:00",
+    "status": "VERIFIED_EXACT_POST_HOC_CLUSTER_BOOTSTRAP_SENSITIVITY_EXPLORATORY_ONLY",
+    "path": "reports/hypothesis_diagnostics/r1_reliability_tracker_2026-11-05/pilot_exact_cluster_sensitivity.json",
+    "sha256": "e5b6d6e1ec1f9dc7803103376224910e9dced094550fee58377acbbb4a5d1122",
+    "analysis_script_sha256": "5043477802bbbc0637a70358d9e54d55d9b0e2e1ad7f390b7097483103378dea",
+    "method": "Exact enumeration of all ordered cluster draws with replacement; each selected cluster contributes all its member cases",
+    "primary_estimand": "Target-language post-minus-pre multi-hop exact-match change on the same bilingual SFT-precompetent forget cases",
+    "primary_cells_with_familywise_interval_including_or_touching_zero": 12,
+    "primary_ci_outer_bounds_pp": [
+      -85.71428571428571,
+      0.0
+    ],
+    "secondary_estimand": "Target-language minus English multi-hop change on the same bilingual SFT-precompetent forget cases",
+    "secondary_cells_with_familywise_interval_including_or_touching_zero": 12,
+    "secondary_ci_outer_bounds_pp": [
+      -71.42857142857143,
+      100.0
+    ],
+    "max_endpoint_difference_from_100k_draw_monte_carlo_pp": 0.0,
+    "interpretation": "Post-hoc diagnostic only; all language competence gates failed and only 5–7 independent groups support each contrast."
+  },
+  "v3_snapshot_verifier_recheck": {
+    "command": "python -B data/synthworlds_sm_pilot_v3/scripts/verify_v3.py",
+    "status": "FAIL_ON_WORKING_NOTEBOOK_HASH_DRIFT",
+    "listed_file_count": 183,
+    "listed_hashes_matching_current_files": 182,
+    "mismatch_path": "kaggle/sft_lora_pilot.ipynb",
+    "expected_sha256": "9854c7c1e619f0226bc30da9939b1284b84ae4536af644ad3f18656faebfe92d",
+    "observed_sha256": "3f533af42e786aef7caaee4ba32002f2e46a80cb0a7add746f08e29255897c2a",
+    "checksum_index_matches_snapshot_manifest": true,
+    "interpretation": "The output-manifest source snapshot is not the same as the current working notebook. Do not rewrite the historical manifest to bless the changed file; archived pilot score reproduction remains separately verified."
+  }
+}

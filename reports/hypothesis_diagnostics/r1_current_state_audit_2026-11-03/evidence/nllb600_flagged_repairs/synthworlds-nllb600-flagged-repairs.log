@@ -1,0 +1,39 @@
+[{"stream_name":"stderr","time":16.665024965,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.665066117,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.665070992,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.665073662,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.665076183,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.968083219,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":52.968110689,"data":"I0000 00:00:1793727414.757201       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":90.305090948,"data":"Generated 8 / 180\n"}
+,{"stream_name":"stdout","time":90.683084475,"data":"Generated 16 / 180\n"}
+,{"stream_name":"stdout","time":91.114705815,"data":"Generated 21 / 180\n"}
+,{"stream_name":"stdout","time":91.408218367,"data":"Generated 29 / 180\n"}
+,{"stream_name":"stdout","time":91.843686287,"data":"Generated 37 / 180\n"}
+,{"stream_name":"stdout","time":92.264248742,"data":"Generated 45 / 180\n"}
+,{"stream_name":"stdout","time":92.789704688,"data":"Generated 53 / 180\n"}
+,{"stream_name":"stdout","time":93.007243139,"data":"Generated 54 / 180\n"}
+,{"stream_name":"stdout","time":93.355388245,"data":"Generated 62 / 180\n"}
+,{"stream_name":"stdout","time":93.689554193,"data":"Generated 70 / 180\n"}
+,{"stream_name":"stdout","time":93.991060321,"data":"Generated 78 / 180\n"}
+,{"stream_name":"stdout","time":94.399682758,"data":"Generated 86 / 180\n"}
+,{"stream_name":"stdout","time":94.804603682,"data":"Generated 94 / 180\n"}
+,{"stream_name":"stdout","time":95.334639657,"data":"Generated 102 / 180\n"}
+,{"stream_name":"stdout","time":95.787410095,"data":"Generated 110 / 180\n"}
+,{"stream_name":"stdout","time":96.042488143,"data":"Generated 113 / 180\n"}
+,{"stream_name":"stdout","time":96.388156539,"data":"Generated 121 / 180\n"}
+,{"stream_name":"stdout","time":96.759078287,"data":"Generated 129 / 180\n"}
+,{"stream_name":"stdout","time":97.135966213,"data":"Generated 137 / 180\n"}
+,{"stream_name":"stdout","time":97.45673211,"data":"Generated 145 / 180\n"}
+,{"stream_name":"stdout","time":100.101361162,"data":"Generated 153 / 180\n"}
+,{"stream_name":"stdout","time":100.628758102,"data":"Generated 161 / 180\n"}
+,{"stream_name":"stdout","time":101.185364455,"data":"Generated 169 / 180\n"}
+,{"stream_name":"stdout","time":101.578724538,"data":"Generated 177 / 180\n"}
+,{"stream_name":"stdout","time":102.023288303,"data":"Generated 180 / 180\n"}
+,{"stream_name":"stderr","time":108.975465162,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":108.975493099,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":109.220153006,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":109.220177311,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":109.975629661,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":110.475229657,"data":"[NbConvertApp] Writing 318100 bytes to __results__.html\n"}
+]

@@ -1,0 +1,106 @@
+{
+  "overall_status": "PASS",
+  "research_diagnostic_gate_status": "FAIL_DIAGNOSTIC_GATES",
+  "research_interpretation": "Single-seed exploratory NPO-LoRA diagnostic. Artifact integrity may pass even when the prespecified scientific/utility gates fail.",
+  "problems": [],
+  "training_receipt_sha256": "21b3f1881bccc0a4046bccf300fba9834d4cac7ba13bba25c8775c913c3d0b01",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "objective_equivalence": {
+    "status": "PASS",
+    "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+    "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+    "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "torch_version": "2.11.0+cu130",
+    "npo_beta": 0.1,
+    "upstream_loss": 13.862943649291992,
+    "candidate_loss": 13.862943649291992,
+    "absolute_loss_difference": 0.0,
+    "maximum_parameter_gradient_difference": 5.960464477539063e-08,
+    "retain_nll_loss_difference": 0.0,
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+    "examples": 2,
+    "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL"
+  },
+  "loss_trace_audit": {
+    "status": "PASS",
+    "unit": "one mean-loss record per paired microbatch",
+    "forget_examples_per_microbatch": 1,
+    "gradient_accumulation_steps": 8,
+    "expected_optimizer_steps": 500,
+    "observed_optimizer_steps": 500,
+    "expected_rows": 4000,
+    "observed_rows": 4000,
+    "rows_by_epoch": {
+      "1": 400,
+      "2": 400,
+      "3": 400,
+      "4": 400,
+      "5": 400,
+      "6": 400,
+      "7": 400,
+      "8": 400,
+      "9": 400,
+      "10": 400
+    },
+    "unique_optimizer_steps": 500,
+    "problems": []
+  },
+  "verified_splits": {
+    "forget10": 400,
+    "retain90": 400,
+    "holdout10": 400,
+    "real_authors": 100,
+    "world_facts": 117
+  },
+  "primary_result": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_delta_b_minus_a": 0.04049759203190909,
+    "profile_cluster_bootstrap_95pct_ci": [
+      0.026707521440950673,
+      0.055234789376596156
+    ],
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "utility_gates": {
+    "retain90.answer_probability": {
+      "delta": -0.605046131179074,
+      "ci95": [
+        -0.6279713559470926,
+        -0.5820702265454125
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.34000683652487884,
+      "ci95": [
+        -0.3653256831392628,
+        -0.31615362282979403
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "holdout10.answer_probability": {
+      "delta": -0.025027502191833372,
+      "ci95": [
+        -0.03827969515533735,
+        -0.012232167673479582
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": true
+    },
+    "model_utility.harmonic_mean": {
+      "baseline": 0.6370193562502499,
+      "npo": 0.5349665911632361,
+      "delta": -0.10205276508701377,
+      "noninferiority_margin": -0.05,
+      "pass": false,
+      "interval": null,
+      "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+    }
+  }
+}

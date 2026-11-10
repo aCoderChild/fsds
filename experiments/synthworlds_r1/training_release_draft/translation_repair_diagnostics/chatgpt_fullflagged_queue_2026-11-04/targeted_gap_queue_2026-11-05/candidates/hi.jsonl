@@ -1,0 +1,62 @@
+{"row_id":"G0005","translation":"कौन-सा नगर [ENTITY_A] का जुड़वाँ नगर है?"}
+{"row_id":"G0008","translation":"[ENTITY_A] का हिस्सा क्या है?"}
+{"row_id":"G0009","translation":"[ENTITY_A] का गॉडपेरेंट कौन है?"}
+{"row_id":"G0013","translation":"[ENTITY_A] किस भाषा की बोली है?"}
+{"row_id":"G0015","translation":"[ENTITY_A] किसका हिस्सा है?"}
+{"row_id":"G0019","translation":"[ENTITY_A] ने जिस जगह पर काम किया, उस जगह का नाम जिस व्यक्ति के नाम पर रखा गया था, उस व्यक्ति का जीवनसाथी कौन है?"}
+{"row_id":"G0023","translation":"उस राज्य का कौन-सा राजनीतिक पद उसके राष्ट्राध्यक्ष के पास है, जिसने उस देश का स्थान लिया जिसकी राजधानी [ENTITY_A] है?"}
+{"row_id":"G0025","translation":"[ENTITY_A] का कार्य-क्षेत्र क्या है?"}
+{"row_id":"G0031","translation":"[ENTITY_A] ने किसकी जगह ली?"}
+{"row_id":"G0033","translation":"उस व्यक्ति के पिता कौन हैं जिसमें [ENTITY_A] के अविवाहित साथी की रुचि है?"}
+{"row_id":"G0037","translation":"[ENTITY_A] किस क्षेत्र में सक्रिय है?"}
+{"row_id":"G0041","translation":"[ENTITY_A] का बच्चा कौन है?"}
+{"row_id":"G0043","translation":"जिस संगठन का हिस्सा [ENTITY_A] से ऊपर का पद है, उसकी स्थापना किसने की?"}
+{"row_id":"G0045","translation":"[ENTITY_A] का बच्चा कौन है?"}
+{"row_id":"G0051","translation":"प्रदर्शनी में [ENTITY_A] के रचनाकार के रूप में किसे दर्शाया गया है?"}
+{"row_id":"G0052","translation":"[ENTITY_A] का वर्णन कौन-सी कृति करती है?"}
+{"row_id":"G0055","translation":"किस वर्ष [ENTITY_A] ने [ENTITY_B] के बोर्ड सदस्य के रूप में काम करना बंद किया?"}
+{"row_id":"G0057","translation":"[ENTITY_A] के साथ किसकी सीमा लगती है?"}
+{"row_id":"G0062","translation":"[ENTITY_A] के साथ किसकी सीमा लगती है?"}
+{"row_id":"G0063","translation":"[ENTITY_A] के कलाकार की फाइलें किस संस्था के पास हैं?"}
+{"row_id":"G0077","translation":"जिस वर्ग का [ENTITY_A] उपवर्ग है, उससे एक स्तर ऊपर के वर्गीकरण पद का हिस्सा क्या है?"}
+{"row_id":"G0078","translation":"[ENTITY_A] के संस्थापक के सौतेले अभिभावक कौन-सी भाषा बोलते हैं?"}
+{"row_id":"G0081","translation":"[ENTITY_A] के राष्ट्राध्यक्ष के गॉडपेरेंट का जीवनसाथी कौन है?"}
+{"row_id":"G0082","translation":"उस इकाई का मुख्यालय कहाँ है जो उस स्थान से लगती है जहाँ [ENTITY_A] मूल निवासी है?"}
+{"row_id":"G0083","translation":"[ENTITY_A] के तुरंत बाद क्या आता है?"}
+{"row_id":"G0084","translation":"[ENTITY_A] का सौतेला अभिभावक कौन है?"}
+{"row_id":"G0085","translation":"किस तारीख को [ENTITY_A] और [ENTITY_B] रिश्तेदार बने?"}
+{"row_id":"G0090","translation":"किस तारीख को [ENTITY_A] वह देश बना जिसमें [ENTITY_B] स्थित है?"}
+{"row_id":"G0092","translation":"किस वर्ष [ENTITY_A] और [ENTITY_B] जीवनसाथी बने?"}
+{"row_id":"G0093","translation":"[ENTITY_A] के नियोक्ता के रेक्टर के डॉक्टरेट सलाहकार कौन थे?"}
+{"row_id":"G0096","translation":"जिस आयोजन में [ENTITY_A] ने भाग लिया, उसके आयोजक कौन-से भुगतान प्रकार स्वीकार करते हैं?"}
+{"row_id":"G0098","translation":"[ENTITY_A] के राष्ट्राध्यक्ष के पिता के सौतेले अभिभावक कौन हैं?"}
+{"row_id":"G0099","translation":"[ENTITY_A] के गॉडपेरेंट कौन हैं?"}
+{"row_id":"G0107","translation":"उस आंदोलन से जुड़ा कोई प्रमुख व्यक्ति कौन है जिससे [ENTITY_A] के डॉक्टरेट सलाहकार जुड़े हैं?"}
+{"row_id":"G0109","translation":"Caelum Archipelago के किस देश के साथ राजनयिक संबंध हैं?"}
+{"row_id":"G0110","translation":"[ENTITY_A] का कौन-सा राजनीतिक पद उसके राष्ट्राध्यक्ष के पास है?"}
+{"row_id":"G0113","translation":"किस तारीख को [ENTITY_A], [ENTITY_B] का देश होना बंद हुआ?"}
+{"row_id":"G0114","translation":"[ENTITY_A] [ENTITY_B] का हिस्सा कब बना?"}
+{"row_id":"G0115","translation":"[ENTITY_A] के पिता के शिक्षक किससे भिन्न हैं?"}
+{"row_id":"G0117","translation":"[ENTITY_A] के अध्यक्ष कौन हैं?"}
+{"row_id":"G0118","translation":"उस व्यक्ति का भाई या बहन कौन है जिसके नाम पर वह स्थान रखा गया है जहाँ [ENTITY_A] स्थित है?"}
+{"row_id":"G0119","translation":"[ENTITY_A] की कौन-सी उल्लेखनीय कृति है?"}
+{"row_id":"G0122","translation":"[ENTITY_A] का निर्माण किसने करवाया?"}
+{"row_id":"G0124","translation":"उस व्यक्ति के बारे में दस्तावेज़ीकरण संबंधी फाइलें किस संस्था के पास हैं, जिसके नाम पर वह शहर है जहाँ [ENTITY_A] का मुख्यालय स्थित है?"}
+{"row_id":"G0128","translation":"जिस संगठन का सदस्य वह स्थान है जहाँ [ENTITY_A] को हिरासत में रखा गया था, उसकी स्थापना कहाँ हुई थी?"}
+{"row_id":"G0134","translation":"उस देश का राष्ट्राध्यक्ष कौन है जिसका नागरिक [ENTITY_A] का जीवनसाथी है?"}
+{"row_id":"G0136","translation":"[ENTITY_A] का निर्माता कौन है?"}
+{"row_id":"G0138","translation":"[ENTITY_A] के पास कौन-सी कुलीन उपाधि है?"}
+{"row_id":"G0139","translation":"जिस परिवार से [ENTITY_A] संबंधित है, उसके तुरंत बाद आने वाले परिवार का कुलनाम क्या है?"}
+{"row_id":"G0142","translation":"किस तारीख को [ENTITY_A] ने [ENTITY_B] की राजधानी होना बंद किया?"}
+{"row_id":"G0146","translation":"[ENTITY_A] किसके साथ संगत है?"}
+{"row_id":"G0149","translation":"[ENTITY_A] कौन प्रदान करता है?"}
+{"row_id":"G0153","translation":"[ENTITY_A] किसका प्रतिनिधित्व करता है?"}
+{"row_id":"G0154","translation":"[ENTITY_A] के भाई या बहन के अविवाहित साथी का पहला नाम क्या है?"}
+{"row_id":"G0155","translation":"[ENTITY_A] किस रचना में दिखाई देता है?"}
+{"row_id":"G0162","translation":"[ENTITY_A] के पास कौन-सी कुलीन उपाधि है?"}
+{"row_id":"G0163","translation":"[ENTITY_A] का सौतेला अभिभावक कौन है?"}
+{"row_id":"G0170","translation":"[ENTITY_A] का कार्य-क्षेत्र क्या है?"}
+{"row_id":"G0171","translation":"[ENTITY_A] ने किसकी जगह ली?"}
+{"row_id":"G0175","translation":"किसने [ENTITY_A] के निर्देशन में डॉक्टरेट की पढ़ाई की?"}
+{"row_id":"G0178","translation":"[ENTITY_A] अपनी श्रृंखला में किस कृति के बाद आता है?"}
+{"row_id":"G0181","translation":"[ENTITY_A] किससे भिन्न है?"}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "tolerance": 1e-06,
+  "exact_fields": [
+    "status",
+    "upstream",
+    "upstream_utils_sha256",
+    "candidate_objective_sha256",
+    "protocol_sha256",
+    "npo_beta",
+    "examples",
+    "loss_reduction"
+  ],
+  "numeric_fields": [
+    "upstream_loss",
+    "candidate_loss",
+    "absolute_loss_difference",
+    "maximum_parameter_gradient_difference",
+    "retain_nll_loss_difference",
+    "combined_vs_sequential_backward_max_gradient_difference"
+  ],
+  "numeric_absolute_deltas": {
+    "upstream_loss": 0.0,
+    "candidate_loss": 0.0,
+    "absolute_loss_difference": 0.0,
+    "maximum_parameter_gradient_difference": 7.450580596923828e-09,
+    "retain_nll_loss_difference": 0.0,
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0
+  },
+  "archived_runtime": {
+    "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "torch_version": "2.11.0+cu130"
+  },
+  "local_runtime": {
+    "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "torch_version": "2.13.0"
+  },
+  "runtime_metadata_difference_is_expected": true,
+  "mismatches": []
+}

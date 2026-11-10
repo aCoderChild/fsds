@@ -1,0 +1,26 @@
+{
+  "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+  "problems": [],
+  "run_status": "NO_DEV_CANDIDATE_PASSES",
+  "selected_alpha_retain": null,
+  "verified_development_attempts": [
+    {
+      "alpha_retain": 5.0,
+      "gate_status": "FAIL_DIAGNOSTIC_GATES"
+    },
+    {
+      "alpha_retain": 10.0,
+      "gate_status": "FAIL_DIAGNOSTIC_GATES"
+    },
+    {
+      "alpha_retain": 20.0,
+      "gate_status": "FAIL_DIAGNOSTIC_GATES"
+    }
+  ],
+  "artifact_zip": {
+    "crc": "PASS",
+    "bad_file": null
+  },
+  "training_started": true,
+  "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a"
+}

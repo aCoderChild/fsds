@@ -1,0 +1,145 @@
+{
+  "active_ollama_models": [],
+  "caution": "This removes local cached weights only. It does not delete source datasets, generated translation/review artifacts, model outputs, or unrelated Hugging Face caches.",
+  "decision": "Remove these five inactive R1 translation/review model caches; their model identifiers, revisions/manifests, configuration hashes, prior review artifacts, and translation diagnostics are preserved. The current repair path uses ChatGPT UI translations and Kaggle-hosted Qwen2.5-14B review; future remote download can use the recorded revisions if needed.",
+  "huggingface_models": [
+    {
+      "repo_id": "facebook/nllb-200-distilled-1.3B",
+      "revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+      "snapshot_files": {
+        "config.json": {
+          "sha256": "6918d76e923d6b372a14b8d1d837f27b809bd009943c4ebe943f8e34b2226233"
+        },
+        "generation_config.json": {
+          "sha256": "0bb604cdb8392649176935a447ce994128f170a6908c135a17d0e3dfb8113cb2"
+        },
+        "pytorch_model.bin": {
+          "bytes": 5482882236,
+          "cache_blob_id": "7e40f838a5aad3d60e9254632ab876bda44340386ca7ebad3e099db7432b04e1"
+        },
+        "special_tokens_map.json": {
+          "sha256": "992bd4ed610d644d6823081937bcc91bb8878dd556cea4ae5327f2480361330e"
+        },
+        "tokenizer_config.json": {
+          "sha256": "d1aa8c3697d3e35674f97b5b7e9c99d22b010f528e80140257d97316be90d044"
+        }
+      }
+    },
+    {
+      "repo_id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "snapshot_files": {
+        "config.json": {
+          "sha256": "f9b4081d3d108e9d06532ea8d92b932c04ed3a15ff2f87e6982f8e14db51fbc5"
+        },
+        "generation_config.json": {
+          "sha256": "0bb604cdb8392649176935a447ce994128f170a6908c135a17d0e3dfb8113cb2"
+        },
+        "pytorch_model.bin": {
+          "bytes": 2460457927,
+          "cache_blob_id": "c266c2cfd19758b6d09c1fc31ecdf1e485509035f6b51dfe84f1ada83eefcc42"
+        },
+        "special_tokens_map.json": {
+          "sha256": "992bd4ed610d644d6823081937bcc91bb8878dd556cea4ae5327f2480361330e"
+        },
+        "tokenizer_config.json": {
+          "sha256": "d1aa8c3697d3e35674f97b5b7e9c99d22b010f528e80140257d97316be90d044"
+        }
+      }
+    }
+  ],
+  "measured_cache_sizes": {
+    "huggingface_hub_du_sh": "11G",
+    "nllb_1_3b_du_sh": "5.1G",
+    "nllb_600m_du_sh": "2.3G",
+    "ollama_models_du_sh": "16G"
+  },
+  "ollama_models": [
+    {
+      "config_digest": "sha256:db59b814cab753a51167db007fa6b6e0095f678ff24c9f7284753b75b34c6df3",
+      "layers": [
+        {
+          "digest": "sha256:2049f5674b1e92b4464e5729975c9689fcfbf0b0e4443ccf10b5339f370f9a54",
+          "mediaType": "application/vnd.ollama.image.model",
+          "size": 8988110688
+        },
+        {
+          "digest": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+          "mediaType": "application/vnd.ollama.image.system",
+          "size": 68
+        },
+        {
+          "digest": "sha256:eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+          "mediaType": "application/vnd.ollama.image.template",
+          "size": 1482
+        },
+        {
+          "digest": "sha256:832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "mediaType": "application/vnd.ollama.image.license",
+          "size": 11343
+        }
+      ],
+      "manifest_path_relative": "manifests/registry.ollama.ai/library/qwen2.5/14b",
+      "manifest_sha256": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "name": "qwen2.5:14b"
+    },
+    {
+      "config_digest": "sha256:37490ee3c3a4ed4437a014611f3f9e9a7bc1d9934db250edaf2f929cd4f1f5b5",
+      "layers": [
+        {
+          "digest": "sha256:bdbf939b402e2f88fbe3e918beb777813009335756b4c17be7fe008dfe4815d4",
+          "mediaType": "application/vnd.ollama.image.model",
+          "size": 3298866368
+        },
+        {
+          "digest": "sha256:e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+          "mediaType": "application/vnd.ollama.image.template",
+          "size": 358
+        },
+        {
+          "digest": "sha256:3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132",
+          "mediaType": "application/vnd.ollama.image.license",
+          "size": 8431
+        },
+        {
+          "digest": "sha256:339e884a40f6708bc761d367f0c08e448d5bb6f16b3961c340e44e0e4835a004",
+          "mediaType": "application/vnd.ollama.image.params",
+          "size": 61
+        }
+      ],
+      "manifest_path_relative": "manifests/registry.ollama.ai/library/translategemma/4b",
+      "manifest_sha256": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1",
+      "name": "translategemma:4b"
+    },
+    {
+      "config_digest": "sha256:2f15b3218f0552c60647ce60ada83632d2c09755b16259b13e3e4458e9ae419d",
+      "layers": [
+        {
+          "digest": "sha256:2bada8a7450677000f678be90653b85d364de7db25eb5ea54136ada5f3933730",
+          "mediaType": "application/vnd.ollama.image.model",
+          "size": 4683073952
+        },
+        {
+          "digest": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+          "mediaType": "application/vnd.ollama.image.system",
+          "size": 68
+        },
+        {
+          "digest": "sha256:eb4402837c7829a690fa845de4d7f3fd842c2adee476d5341da8a46ea9255175",
+          "mediaType": "application/vnd.ollama.image.template",
+          "size": 1482
+        },
+        {
+          "digest": "sha256:832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "mediaType": "application/vnd.ollama.image.license",
+          "size": 11343
+        }
+      ],
+      "manifest_path_relative": "manifests/registry.ollama.ai/library/qwen2.5/7b-instruct",
+      "manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "name": "qwen2.5:7b-instruct"
+    }
+  ],
+  "ollama_ps_output": "NAME    ID    SIZE    PROCESSOR    CONTEXT    UNTIL \n",
+  "recorded_at_utc": "2026-11-03T19:29:04.444608+00:00"
+}

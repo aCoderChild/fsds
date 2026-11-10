@@ -1,0 +1,171 @@
+[{"stream_name":"stderr","time":15.524391244,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.524452095000001,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.524457568,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.524460438,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.524463202,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":47.321765365,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":47.32179756,"data":"I0000 00:00:1793728413.144123       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":168.689921969,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:49\u003c12:46, 109.55s/it]\rFetching 8 files:  25%|██▌       | 2/8 [01:58\u003c05:01, 50.19s/it] \rFetching 8 files: 100%|██████████| 8/8 [01:58\u003c00:00, 14.78s/it]\n"}
+,{"stream_name":"stderr","time":181.986335361,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":290.65316579,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:12\u003c01:27, 12.44s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:23\u003c01:08, 11.34s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:38\u003c01:05, 13.13s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:53\u003c00:56, 14.06s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:09\u003c00:44, 14.70s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:25\u003c00:30, 15.10s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:41\u003c00:15, 15.35s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:48\u003c00:00, 12.62s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:48\u003c00:00, 13.51s/it]\n"}
+,{"stream_name":"stderr","time":290.883330064,"data":"WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stderr","time":291.006068118,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":291.006098011,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":291.00671477,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":291.006733628,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":291.006739359,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":291.006756851,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":313.243678236,"data":"Reviewed 1 / 147\n"}
+,{"stream_name":"stdout","time":341.018814524,"data":"Reviewed 2 / 147\n"}
+,{"stream_name":"stdout","time":361.391127879,"data":"Reviewed 3 / 147\n"}
+,{"stream_name":"stdout","time":381.820374419,"data":"Reviewed 4 / 147\n"}
+,{"stream_name":"stdout","time":400.328051219,"data":"Reviewed 5 / 147\n"}
+,{"stream_name":"stdout","time":423.042460722,"data":"Reviewed 6 / 147\n"}
+,{"stream_name":"stdout","time":450.795402231,"data":"Reviewed 7 / 147\n"}
+,{"stream_name":"stdout","time":478.531302669,"data":"Reviewed 8 / 147\n"}
+,{"stream_name":"stdout","time":506.324999229,"data":"Reviewed 9 / 147\n"}
+,{"stream_name":"stdout","time":524.840719327,"data":"Reviewed 10 / 147\n"}
+,{"stream_name":"stdout","time":549.810689474,"data":"Reviewed 11 / 147\n"}
+,{"stream_name":"stdout","time":568.386259206,"data":"Reviewed 12 / 147\n"}
+,{"stream_name":"stdout","time":588.911055384,"data":"Reviewed 13 / 147\n"}
+,{"stream_name":"stdout","time":612.451051365,"data":"Reviewed 14 / 147\n"}
+,{"stream_name":"stdout","time":655.886216578,"data":"Reviewed 15 / 147\n"}
+,{"stream_name":"stdout","time":689.248229343,"data":"Reviewed 16 / 147\n"}
+,{"stream_name":"stdout","time":717.146724155,"data":"Reviewed 17 / 147\n"}
+,{"stream_name":"stdout","time":742.726595822,"data":"Reviewed 18 / 147\n"}
+,{"stream_name":"stdout","time":778.837194941,"data":"Reviewed 19 / 147\n"}
+,{"stream_name":"stdout","time":815.000729454,"data":"Reviewed 20 / 147\n"}
+,{"stream_name":"stdout","time":834.898816585,"data":"Reviewed 21 / 147\n"}
+,{"stream_name":"stdout","time":857.11865383,"data":"Reviewed 22 / 147\n"}
+,{"stream_name":"stdout","time":884.962674653,"data":"Reviewed 23 / 147\n"}
+,{"stream_name":"stdout","time":913.291648281,"data":"Reviewed 24 / 147\n"}
+,{"stream_name":"stdout","time":935.092532979,"data":"Reviewed 25 / 147\n"}
+,{"stream_name":"stdout","time":959.469101613,"data":"Reviewed 26 / 147\n"}
+,{"stream_name":"stdout","time":987.213121141,"data":"Reviewed 27 / 147\n"}
+,{"stream_name":"stdout","time":1026.529180743,"data":"Reviewed 28 / 147\n"}
+,{"stream_name":"stdout","time":1054.307966401,"data":"Reviewed 29 / 147\n"}
+,{"stream_name":"stdout","time":1079.372332602,"data":"Reviewed 30 / 147\n"}
+,{"stream_name":"stdout","time":1101.052558563,"data":"Reviewed 31 / 147\n"}
+,{"stream_name":"stdout","time":1120.963467849,"data":"Reviewed 32 / 147\n"}
+,{"stream_name":"stdout","time":1167.102474814,"data":"Reviewed 33 / 147\n"}
+,{"stream_name":"stdout","time":1187.564443273,"data":"Reviewed 34 / 147\n"}
+,{"stream_name":"stdout","time":1207.951085618,"data":"Reviewed 35 / 147\n"}
+,{"stream_name":"stdout","time":1234.433243731,"data":"Reviewed 36 / 147\n"}
+,{"stream_name":"stdout","time":1264.564012552,"data":"Reviewed 37 / 147\n"}
+,{"stream_name":"stdout","time":1285.379124174,"data":"Reviewed 38 / 147\n"}
+,{"stream_name":"stdout","time":1330.738775401,"data":"Reviewed 39 / 147\n"}
+,{"stream_name":"stdout","time":1350.593906278,"data":"Reviewed 40 / 147\n"}
+,{"stream_name":"stdout","time":1370.971847277,"data":"Reviewed 41 / 147\n"}
+,{"stream_name":"stdout","time":1391.285663961,"data":"Reviewed 42 / 147\n"}
+,{"stream_name":"stdout","time":1413.944307178,"data":"Reviewed 43 / 147\n"}
+,{"stream_name":"stdout","time":1439.087477971,"data":"Reviewed 44 / 147\n"}
+,{"stream_name":"stdout","time":1461.343655537,"data":"Reviewed 45 / 147\n"}
+,{"stream_name":"stdout","time":1488.708635683,"data":"Reviewed 46 / 147\n"}
+,{"stream_name":"stdout","time":1508.712143177,"data":"Reviewed 47 / 147\n"}
+,{"stream_name":"stdout","time":1541.679409161,"data":"Reviewed 48 / 147\n"}
+,{"stream_name":"stdout","time":1562.597537955,"data":"Reviewed 49 / 147\n"}
+,{"stream_name":"stdout","time":1597.754689585,"data":"Reviewed 50 / 147\n"}
+,{"stream_name":"stdout","time":1627.953377709,"data":"Reviewed 51 / 147\n"}
+,{"stream_name":"stdout","time":1679.766446835,"data":"Reviewed 52 / 147\n"}
+,{"stream_name":"stdout","time":1702.167705828,"data":"Reviewed 53 / 147\n"}
+,{"stream_name":"stdout","time":1724.107308403,"data":"Reviewed 54 / 147\n"}
+,{"stream_name":"stdout","time":1745.527517431,"data":"Reviewed 55 / 147\n"}
+,{"stream_name":"stdout","time":1780.205278388,"data":"Reviewed 56 / 147\n"}
+,{"stream_name":"stdout","time":1806.213244103,"data":"Reviewed 57 / 147\n"}
+,{"stream_name":"stdout","time":1828.040324687,"data":"Reviewed 58 / 147\n"}
+,{"stream_name":"stdout","time":1849.914435975,"data":"Reviewed 59 / 147\n"}
+,{"stream_name":"stdout","time":1878.197403163,"data":"Reviewed 60 / 147\n"}
+,{"stream_name":"stdout","time":1904.564896717,"data":"Reviewed 61 / 147\n"}
+,{"stream_name":"stdout","time":1927.861736928,"data":"Reviewed 62 / 147\n"}
+,{"stream_name":"stdout","time":1948.271082684,"data":"Reviewed 63 / 147\n"}
+,{"stream_name":"stdout","time":1966.4754727,"data":"Reviewed 64 / 147\n"}
+,{"stream_name":"stdout","time":1984.676058122,"data":"Reviewed 65 / 147\n"}
+,{"stream_name":"stdout","time":2007.015707563,"data":"Reviewed 66 / 147\n"}
+,{"stream_name":"stdout","time":2029.348303146,"data":"Reviewed 67 / 147\n"}
+,{"stream_name":"stdout","time":2052.149131951,"data":"Reviewed 68 / 147\n"}
+,{"stream_name":"stdout","time":2080.940967126,"data":"Reviewed 69 / 147\n"}
+,{"stream_name":"stdout","time":2105.985003227,"data":"Reviewed 70 / 147\n"}
+,{"stream_name":"stdout","time":2125.101321404,"data":"Reviewed 71 / 147\n"}
+,{"stream_name":"stdout","time":2152.939924708,"data":"Reviewed 72 / 147\n"}
+,{"stream_name":"stdout","time":2176.171645903,"data":"Reviewed 73 / 147\n"}
+,{"stream_name":"stdout","time":2208.598628734,"data":"Reviewed 74 / 147\n"}
+,{"stream_name":"stdout","time":2237.343652811,"data":"Reviewed 75 / 147\n"}
+,{"stream_name":"stdout","time":2258.7298004,"data":"Reviewed 76 / 147\n"}
+,{"stream_name":"stdout","time":2276.949715967,"data":"Reviewed 77 / 147\n"}
+,{"stream_name":"stdout","time":2298.83814416,"data":"Reviewed 78 / 147\n"}
+,{"stream_name":"stdout","time":2320.620782182,"data":"Reviewed 79 / 147\n"}
+,{"stream_name":"stdout","time":2341.129250723,"data":"Reviewed 80 / 147\n"}
+,{"stream_name":"stdout","time":2370.364261502,"data":"Reviewed 81 / 147\n"}
+,{"stream_name":"stdout","time":2388.569749735,"data":"Reviewed 82 / 147\n"}
+,{"stream_name":"stdout","time":2421.295478759,"data":"Reviewed 83 / 147\n"}
+,{"stream_name":"stdout","time":2443.09878669,"data":"Reviewed 84 / 147\n"}
+,{"stream_name":"stdout","time":2468.266279126,"data":"Reviewed 85 / 147\n"}
+,{"stream_name":"stdout","time":2497.897029184,"data":"Reviewed 86 / 147\n"}
+,{"stream_name":"stdout","time":2521.559290649,"data":"Reviewed 87 / 147\n"}
+,{"stream_name":"stdout","time":2555.259349692,"data":"Reviewed 88 / 147\n"}
+,{"stream_name":"stdout","time":2578.143340628,"data":"Reviewed 89 / 147\n"}
+,{"stream_name":"stdout","time":2600.448899081,"data":"Reviewed 90 / 147\n"}
+,{"stream_name":"stdout","time":2618.656449317,"data":"Reviewed 91 / 147\n"}
+,{"stream_name":"stdout","time":2642.337610838,"data":"Reviewed 92 / 147\n"}
+,{"stream_name":"stdout","time":2664.636873144,"data":"Reviewed 93 / 147\n"}
+,{"stream_name":"stdout","time":2687.905719921,"data":"Reviewed 94 / 147\n"}
+,{"stream_name":"stdout","time":2719.442735726,"data":"Reviewed 95 / 147\n"}
+,{"stream_name":"stdout","time":2744.095864855,"data":"Reviewed 96 / 147\n"}
+,{"stream_name":"stdout","time":2777.506508101,"data":"Reviewed 97 / 147\n"}
+,{"stream_name":"stdout","time":2814.999981885,"data":"Reviewed 98 / 147\n"}
+,{"stream_name":"stdout","time":2853.34195321,"data":"Reviewed 99 / 147\n"}
+,{"stream_name":"stdout","time":2889.377112361,"data":"Reviewed 100 / 147\n"}
+,{"stream_name":"stdout","time":2914.376215907,"data":"Reviewed 101 / 147\n"}
+,{"stream_name":"stdout","time":2938.459737513,"data":"Reviewed 102 / 147\n"}
+,{"stream_name":"stdout","time":2974.926323806,"data":"Reviewed 103 / 147\n"}
+,{"stream_name":"stdout","time":3009.593194986,"data":"Reviewed 104 / 147\n"}
+,{"stream_name":"stdout","time":3041.581158852,"data":"Reviewed 105 / 147\n"}
+,{"stream_name":"stdout","time":3078.459427412,"data":"Reviewed 106 / 147\n"}
+,{"stream_name":"stdout","time":3100.722043098,"data":"Reviewed 107 / 147\n"}
+,{"stream_name":"stdout","time":3118.470309335,"data":"Reviewed 108 / 147\n"}
+,{"stream_name":"stdout","time":3152.708780877,"data":"Reviewed 109 / 147\n"}
+,{"stream_name":"stdout","time":3176.772672483,"data":"Reviewed 110 / 147\n"}
+,{"stream_name":"stdout","time":3213.425979633,"data":"Reviewed 111 / 147\n"}
+,{"stream_name":"stdout","time":3260.796724212,"data":"Reviewed 112 / 147\n"}
+,{"stream_name":"stdout","time":3292.797920192,"data":"Reviewed 113 / 147\n"}
+,{"stream_name":"stdout","time":3320.508972762,"data":"Reviewed 114 / 147\n"}
+,{"stream_name":"stdout","time":3344.772529165,"data":"Reviewed 115 / 147\n"}
+,{"stream_name":"stdout","time":3368.320458541,"data":"Reviewed 116 / 147\n"}
+,{"stream_name":"stdout","time":3405.292742202,"data":"Reviewed 117 / 147\n"}
+,{"stream_name":"stdout","time":3428.608891689,"data":"Reviewed 118 / 147\n"}
+,{"stream_name":"stdout","time":3456.956120785,"data":"Reviewed 119 / 147\n"}
+,{"stream_name":"stdout","time":3488.408087358,"data":"Reviewed 120 / 147\n"}
+,{"stream_name":"stdout","time":3511.603582286,"data":"Reviewed 121 / 147\n"}
+,{"stream_name":"stdout","time":3547.524836928,"data":"Reviewed 122 / 147\n"}
+,{"stream_name":"stdout","time":3581.709975152,"data":"Reviewed 123 / 147\n"}
+,{"stream_name":"stdout","time":3613.262817239,"data":"Reviewed 124 / 147\n"}
+,{"stream_name":"stdout","time":3655.827931642,"data":"Reviewed 125 / 147\n"}
+,{"stream_name":"stdout","time":3680.891485246,"data":"Reviewed 126 / 147\n"}
+,{"stream_name":"stdout","time":3710.113801219,"data":"Reviewed 127 / 147\n"}
+,{"stream_name":"stdout","time":3749.950145326,"data":"Reviewed 128 / 147\n"}
+,{"stream_name":"stdout","time":3781.848526766,"data":"Reviewed 129 / 147\n"}
+,{"stream_name":"stdout","time":3821.68385335,"data":"Reviewed 130 / 147\n"}
+,{"stream_name":"stdout","time":3852.335021362,"data":"Reviewed 131 / 147\n"}
+,{"stream_name":"stdout","time":3882.911185274,"data":"Reviewed 132 / 147\n"}
+,{"stream_name":"stdout","time":3914.959027952,"data":"Reviewed 133 / 147\n"}
+,{"stream_name":"stdout","time":3966.322308386,"data":"Reviewed 134 / 147\n"}
+,{"stream_name":"stdout","time":3992.719249871,"data":"Reviewed 135 / 147\n"}
+,{"stream_name":"stdout","time":4028.861869812,"data":"Reviewed 136 / 147\n"}
+,{"stream_name":"stdout","time":4053.955445177,"data":"Reviewed 137 / 147\n"}
+,{"stream_name":"stdout","time":4075.879382954,"data":"Reviewed 138 / 147\n"}
+,{"stream_name":"stdout","time":4106.496247231,"data":"Reviewed 139 / 147\n"}
+,{"stream_name":"stdout","time":4132.015271059,"data":"Reviewed 140 / 147\n"}
+,{"stream_name":"stdout","time":4162.090622869,"data":"Reviewed 141 / 147\n"}
+,{"stream_name":"stdout","time":4206.916915009,"data":"Reviewed 142 / 147\n"}
+,{"stream_name":"stdout","time":4245.282991926,"data":"Reviewed 143 / 147\n"}
+,{"stream_name":"stdout","time":4283.546280522,"data":"Reviewed 144 / 147\n"}
+,{"stream_name":"stdout","time":4318.394281758,"data":"Reviewed 145 / 147\n"}
+,{"stream_name":"stdout","time":4349.506506569,"data":"Reviewed 146 / 147\n"}
+,{"stream_name":"stdout","time":4375.454652542,"data":"Reviewed 147 / 147\n"}
+,{"stream_name":"stderr","time":4382.607997983,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4382.608026493,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4382.872451624,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4382.872480626,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4383.752128638,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4384.4883187,"data":"[NbConvertApp] Writing 319665 bytes to __results__.html\n"}
+]

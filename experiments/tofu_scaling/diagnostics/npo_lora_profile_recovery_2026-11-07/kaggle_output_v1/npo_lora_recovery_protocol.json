@@ -1,0 +1,111 @@
+{
+  "protocol_id": "tofu_3b_npo_lora_profile_recovery_v1",
+  "status": "PREREGISTERED_BEFORE_GPU_RUN",
+  "study_type": "Exploratory post-hoc alpha-selection follow-up; one seed; not confirmatory.",
+  "registered_locally_at": "2026-11-07",
+  "relationship_to_prior_run": "Post-hoc follow-up prompted by the prior one-seed adapter run failing all four utility gates. This is diagnostic, not confirmatory, and does not change the prior result.",
+  "research_question": "Can a stronger retain-NLL weight reduce utility damage from the previous 3B NPO-LoRA setup while preserving measurable forgetting on separate TOFU author-profile cohorts?",
+  "model": {
+    "model_family": "3b",
+    "seed": 42,
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+    "architecture_id": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  "objective": {
+    "source": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "beta": 0.1,
+    "forget_weight_gamma": 1.0,
+    "retain_loss_type": "token_mean_nll"
+  },
+  "data": {
+    "repo_id": "locuslab/TOFU",
+    "revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "profile_block_size": 20,
+    "expected_rows": {
+      "forget10.json": 400,
+      "forget10_perturbed.json": 400,
+      "retain90.json": 3600,
+      "holdout10.json": 400
+    },
+    "sha256": {
+      "forget10.json": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+      "forget10_perturbed.json": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+      "retain90.json": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+      "holdout10.json": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd"
+    },
+    "profile_assignment_ranges_inclusive": {
+      "forget10_dev_train_and_eval": [[0, 9]],
+      "forget10_final_train_and_eval": [[10, 19]],
+      "retain90_optimizer_train": [[0, 4], [6, 21], [23, 59], [100, 179]],
+      "retain90_dev_utility_eval": [[60, 79]],
+      "retain90_final_utility_eval": [[80, 99]],
+      "holdout10_dev_utility_eval": [[0, 9]],
+      "holdout10_final_utility_eval": [[10, 19]],
+      "retain90_excluded_conflicting_question_profiles": [5, 22]
+    },
+    "limitations": [
+      "TOFU profile blocks are inferred from contiguous groups of 20 rows because the published files do not expose a structured author ID.",
+      "The published full checkpoint was already fine-tuned on the TOFU training data; this protocol measures adapter effects relative to that checkpoint.",
+      "This follow-up uses a subset of the benchmark and is not a standard full-split TOFU leaderboard run."
+    ]
+  },
+  "selection": {
+    "candidate_retain_nll_weights_ascending": [5.0, 10.0, 20.0],
+    "rule": "Run candidates in ascending alpha_retain order and stop at the first candidate satisfying every development gate. If none passes, stop without running the final cohort.",
+    "development_gates": {
+      "forget10.truth_ratio_score": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > 0",
+      "forget10.answer_probability": "upper bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be < 0",
+      "retain90.answer_probability": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05",
+      "retain90.rougeL_recall": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05",
+      "holdout10.answer_probability": "lower bound of paired profile-block bootstrap 95% CI for candidate minus full checkpoint must be > -0.05"
+    },
+    "final_gates": "Apply the same five gates once to the disjoint final profile cohorts. No threshold changes after development results are observed.",
+    "bootstrap": {
+      "unit": "profile block, paired by source row index",
+      "draws": 5000,
+      "seed": 42,
+      "interval": "percentile 95%"
+    },
+    "noninferiority_margin": 0.05
+  },
+  "training": {
+    "method": "NPO forget objective plus weighted retain token-mean NLL, LoRA adapters only",
+    "beta": 0.1,
+    "forget_weight_gamma": 1.0,
+    "learning_rate": 0.00001,
+    "weight_decay": 0.0,
+    "optimizer_betas": [0.9, 0.999],
+    "optimizer_eps": 1e-8,
+    "scheduler": "linear; one epoch warmup",
+    "precision": "FP16 frozen base checkpoint; FP32 LoRA parameters and loss; SDPA",
+    "gradient_clip_norm": 1.0,
+    "epochs": 10,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "effective_paired_batch_size": 8,
+    "retain_sampling": "uniform with replacement from optimizer-only retain profiles; seed 42",
+    "max_length": 512,
+    "truncation": false,
+    "hardware": "Kaggle T4 x2 only; no CPU/disk offload; FP16 frozen base, FP32 LoRA and loss; SDPA",
+    "expected_steps_per_cohort": 250,
+    "expected_loss_trace_rows_per_cohort": 1000
+  },
+  "evaluation": {
+    "metrics": ["answer_probability", "greedy-generation ROUGE-L recall", "forget Truth Ratio score"],
+    "generations": "greedy, max_new_tokens=200",
+    "dev_rows": {"forget10": 200, "retain90": 400, "holdout10": 200},
+    "final_rows": {"forget10": 200, "retain90": 400, "holdout10": 200},
+    "research_claim_limit": "One-seed exploratory diagnostic; final cohort is held out from alpha selection, but the result is not confirmatory."
+  },
+  "stopping_rules": [
+    "Verify the pinned data hashes, row counts, profile assignments, and all disjointness checks before loading model weights.",
+    "Verify the exact pinned NPO objective value and gradients before GPU training.",
+    "Run candidates sequentially and stop at the first candidate that passes every development gate.",
+    "If no candidate passes, do not run final-cohort training and report the negative development result.",
+    "If a candidate passes development, run one final-cohort training/evaluation with its selected alpha and unchanged settings.",
+    "Any runtime failure preserves logs and receipts; do not interpret a partial run as a research result."
+  ]
+}

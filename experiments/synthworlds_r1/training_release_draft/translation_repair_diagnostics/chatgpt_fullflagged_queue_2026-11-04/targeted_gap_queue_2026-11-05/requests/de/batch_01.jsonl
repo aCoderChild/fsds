@@ -1,0 +1,16 @@
+{"row_id": "G0011", "source_english": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?", "target_language": "German"}
+{"row_id": "G0016", "source_english": "Which work does [ENTITY_A] follow?", "target_language": "German"}
+{"row_id": "G0018", "source_english": "What is the [ENTITY_A] different from?", "target_language": "German"}
+{"row_id": "G0046", "source_english": "Which country does [ENTITY_A] serve?", "target_language": "German"}
+{"row_id": "G0053", "source_english": "Who is [ENTITY_A] the godparent of?", "target_language": "German"}
+{"row_id": "G0054", "source_english": "What honorific prefix is used before the name of the unmarried partner of the founder of [ENTITY_A]?", "target_language": "German"}
+{"row_id": "G0069", "source_english": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?", "target_language": "German"}
+{"row_id": "G0072", "source_english": "Which entity is [ENTITY_A] different from?", "target_language": "German"}
+{"row_id": "G0079", "source_english": "What does [ENTITY_A] replace?", "target_language": "German"}
+{"row_id": "G0087", "source_english": "Which administrative territorial entity does [ENTITY_A] contain?", "target_language": "German"}
+{"row_id": "G0106", "source_english": "Who is the unmarried partner of [ENTITY_A]?", "target_language": "German"}
+{"row_id": "G0112", "source_english": "What is the given name of the director of the work that is part of [ENTITY_A]?", "target_language": "German"}
+{"row_id": "G0116", "source_english": "Which award did the family of [ENTITY_A]'s child receive?", "target_language": "German"}
+{"row_id": "G0125", "source_english": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?", "target_language": "German"}
+{"row_id": "G0135", "source_english": "Who is [ENTITY_A] named after?", "target_language": "German"}
+{"row_id": "G0166", "source_english": "Who is the godparent of [ENTITY_A]?", "target_language": "German"}

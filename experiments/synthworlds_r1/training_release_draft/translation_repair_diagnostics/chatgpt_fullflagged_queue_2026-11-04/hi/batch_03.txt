@@ -1,0 +1,35 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0065","question_en":"What is ZXQENTAQXZ the capital of?"}
+{"row_id":"HI0066","question_en":"What replaced the ZXQENTAQXZ?"}
+{"row_id":"HI0067","question_en":"Who is the chairperson of ZXQENTAQXZ?"}
+{"row_id":"HI0068","question_en":"What does ZXQENTAQXZ replace?"}
+{"row_id":"HI0069","question_en":"What is ZXQENTAQXZ different from?"}
+{"row_id":"HI0070","question_en":"On what date did ZXQENTAQXZ become the country that ZXQENTBQXZ is in?"}
+{"row_id":"HI0071","question_en":"Where is ZXQENTAQXZ indigenous?"}
+{"row_id":"HI0072","question_en":"What language is ZXQENTAQXZ a dialect of?"}
+{"row_id":"HI0073","question_en":"After whom is the ZXQENTAQXZ named?"}
+{"row_id":"HI0074","question_en":"Where is ZXQENTAQXZ indigenous to?"}
+{"row_id":"HI0075","question_en":"In which work does ZXQENTAQXZ appear?"}
+{"row_id":"HI0076","question_en":"Which noble title does ZXQENTAQXZ hold?"}
+{"row_id":"HI0077","question_en":"Who is ZXQENTAQXZ the godparent of?"}
+{"row_id":"HI0078","question_en":"Which institution holds the artist files for ZXQENTAQXZ?"}
+{"row_id":"HI0079","question_en":"Who confers the ZXQENTAQXZ?"}
+{"row_id":"HI0080","question_en":"On what date did ZXQENTAQXZ cease to be the country of ZXQENTBQXZ?"}
+{"row_id":"HI0081","question_en":"Which work is a part of ZXQENTAQXZ?"}
+{"row_id":"HI0082","question_en":"Who is the exhibited creator of ZXQENTAQXZ?"}
+{"row_id":"HI0083","question_en":"What does ZXQENTAQXZ own?"}
+{"row_id":"HI0084","question_en":"In which work is ZXQENTAQXZ described?"}
+{"row_id":"HI0085","question_en":"What is the ZXQENTAQXZ different from?"}
+{"row_id":"HI0086","question_en":"Who does ZXQENTAQXZ represent?"}
+{"row_id":"HI0087","question_en":"What is the equivalent given name of the opposite gender for ZXQENTAQXZ?"}
+{"row_id":"HI0088","question_en":"On what date was ZXQENTAQXZ incorporated?"}
+{"row_id":"HI0089","question_en":"In which area does the ZXQENTAQXZ operate?"}
+{"row_id":"HI0090","question_en":"Who represents ZXQENTAQXZ?"}
+{"row_id":"HI0091","question_en":"When did the republic become the basic form of government of ZXQENTAQXZ?"}
+{"row_id":"HI0092","question_en":"Who does ZXQENTAQXZ work for?"}
+{"row_id":"HI0093","question_en":"What organization was ZXQENTAQXZ merged into?"}
+{"row_id":"HI0094","question_en":"Where was ZXQENTAQXZ born?"}
+{"row_id":"HI0095","question_en":"In which work is ZXQENTAQXZ described?"}
+{"row_id":"HI0096","question_en":"Which work is ZXQENTAQXZ an edition or translation of?"}

@@ -1,0 +1,35 @@
+{
+  "answers_sent_to_reviewer": false,
+  "checkpoint_sha256": "9b5ed99d6bb13f99837d772440f8e3b65892ff68ed871d7b8b06104de25057d1",
+  "counts": {
+    "ERROR": 1,
+    "FLAGGED": 3,
+    "PRELIMINARY_PASS": 4
+  },
+  "human_translation_reviewed": false,
+  "identity": {
+    "comparison_checkpoint_sha256": "d087b79a2f7c17b42466ffae1879d3a3d299f5d774e8a93781a5468bc1b98a30",
+    "comparison_report_sha256": "9aadfee3f6337941867dc3ff3bc047633ec94d21b5b2290881adf6519e7ee615",
+    "prior_checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97",
+    "review_model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "script_sha256": "06c0b6e86cbe8d179e8df33a50d9bef436c845c76bf1f0ed27b0647747c7213b",
+    "selected_keys": [
+      "fr|atomic|0050-qa-sm:r1",
+      "fr|composition|disjoint-b:0348-qa-sm:q2",
+      "de|atomic|0169-qa-sm:r1",
+      "de|atomic|0196-qa-sm:r1",
+      "hi|atomic|0046-qa-sm:r2",
+      "hi|atomic|0072-qa-sm:r1",
+      "th|atomic|0044-qa-sm:r2",
+      "th|atomic|0152-qa-sm:r1"
+    ],
+    "translation_model_digest": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+  },
+  "limitations": [
+    "Eight reviewer-selected flagged rows; not a representative quality estimate.",
+    "Feedback and screening are AI-only and may reinforce model errors.",
+    "Candidates have not passed the round-trip and 14B release review."
+  ],
+  "rows": 8,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

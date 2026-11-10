@@ -1,0 +1,178 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "input_sha256": "8e4a157d862439d71150cf341728826e880ca66dd590237ebb0b27f2df0ba7e0",
+  "generator_revision": "not recorded",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the godparent of the entity, which is a completely different question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the godparent of the entity, which is a completely different question."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the grandparent of the entity, which is a completely different question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the grandparent of the entity, which is a completely different question."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The English question asks for the color of an entity, while the German translation asks for the publisher or publishers of the entity. The question types and relationships are not preserved.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The English question asks for the color of an entity, while the German translation asks for the publisher or publishers of the entity. The question types and relationships are not preserved."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the doctoral candidate or doctoral candidate of the entity, which is a completely different question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the doctoral candidate or doctoral candidate of the entity, which is a completely different question."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation preserves the question type (interrogative) and the relationship direction (from Entity A to a description), but the question in German does not directly ask about the color of an entity. Instead, it asks in which work Entity A is described. This is a common issue with literal translations and may not be natural in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation preserves the question type (interrogative) and the relationship direction (from Entity A to a description), but the question in German does not directly ask about the color of an entity. Instead, it asks in which work Entity A is described. This is a common issue with literal translations and may not be natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The English question is asking about the color of an entity, while the German translation is asking about the political office of a state that replaced a country with a capital [ENTITY_A]. The question types and relationships are not preserved. Additionally, the translation is not natural in German as it is unclear what 'das Land mit der Hauptstadt [ENTITY_A]' refers to.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The English question is asking about the color of an entity, while the German translation is asking about the political office of a state that replaced a country with a capital [ENTITY_A]. The question types and relationships are not preserved. Additionally, the translation is not natural in German as it is unclear what 'das Land mit der Hauptstadt [ENTITY_A]' refers to."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The English question asks for the color of an entity, while the German translation asks for the parent of the entity, which changes the question type and meaning. Additionally, the question is not natural in German as 'Stiefelternteil' (stepparent part) is not a common term and does not relate to color.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The English question asks for the color of an entity, while the German translation asks for the parent of the entity, which changes the question type and meaning. Additionally, the question is not natural in German as 'Stiefelternteil' (stepparent part) is not a common term and does not relate to color."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning of the question, which is asking about the color of an entity. The question type remains the same as the original (interrogative). The sentence structure and word choice are natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning of the question, which is asking about the color of an entity. The question type remains the same as the original (interrogative). The sentence structure and word choice are natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation preserves the question type (interrogative) and the relationship direction (asking about the color of Entity A). However, the question in Hindi is less direct and more formal, which may not be as natural in everyday conversation.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation preserves the question type (interrogative) and the relationship direction (asking about the color of Entity A). However, the question in Hindi is less direct and more formal, which may not be as natural in everyday conversation."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks for the color of an entity, while the translation asks for the gender of the entity (mother or father). The question type has been changed from a factual question to a question about personal attributes.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks for the color of an entity, while the translation asks for the gender of the entity (mother or father). The question type has been changed from a factual question to a question about personal attributes."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately preserve the question type and the relationship direction. The original question asks about the color of an entity, but the translation asks about the country that [ENTITY_A] is on. The question type is changed from a simple attribute question to a location question.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately preserve the question type and the relationship direction. The original question asks about the color of an entity, but the translation asks about the country that [ENTITY_A] is on. The question type is changed from a simple attribute question to a location question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the question type (interrogative) and the relationship direction (asking for the color of Entity A). The question is rephrased in Thai to maintain the original meaning, and the use of 'คำยกย่องที่ใช้เป็นคำนำหน้าชื่อ' (the word used as a prefix for the name of) is appropriate to indicate the color of the entity.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the question type (interrogative) and the relationship direction (asking for the color of Entity A). The question is rephrased in Thai to maintain the original meaning, and the use of 'คำยกย่องที่ใช้เป็นคำนำหน้าชื่อ' (the word used as a prefix for the name of) is appropriate to indicate the color of the entity."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation preserves the question type and the relationship direction, but the question is asking about the color of an entity, not a person. In Thai, the question should be: 'สีของ [ENTITY_A] เป็นไหน?'\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation preserves the question type and the relationship direction, but the question is asking about the color of an entity, not a person. In Thai, the question should be: 'สีของ [ENTITY_A] เป็นไหน?'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the owner of the father of the creator of the entity, which is a completely different question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, while the translation asks about the owner of the father of the creator of the entity, which is a completely different question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, but the translation asks about the parent (father or mother) of the head (which is not defined in the original question) of the entity in Thai. The question type has also changed from a factual question to a question about relationships.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning and question type. The original question asks about the color of an entity, but the translation asks about the parent (father or mother) of the head (which is not defined in the original question) of the entity in Thai. The question type has also changed from a factual question to a question about relationships."
+      }
+    }
+  ]
+}

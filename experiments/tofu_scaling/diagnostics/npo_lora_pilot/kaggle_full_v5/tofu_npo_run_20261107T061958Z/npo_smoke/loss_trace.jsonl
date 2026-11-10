@@ -1,0 +1,1 @@
+{"epoch": 1, "forget_npo_loss": 13.862943649291992, "retain_token_nll": 0.04127676784992218, "combined_loss": 13.904220417141914, "global_step": 1, "learning_rate": 0.0, "gradient_norm": 11.08829402923584}

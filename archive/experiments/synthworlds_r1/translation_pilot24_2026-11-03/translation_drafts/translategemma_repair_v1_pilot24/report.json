@@ -1,0 +1,105 @@
+{
+  "created_at_utc": "2026-11-03T03:51:08.386290+00:00",
+  "human_translation_reviewed": false,
+  "input_translation_and_review_sha256": {
+    "de": {
+      "review": "e29fa34df4438a083ddc85057b9ec363318cf043a5953e6a9e79f4515753d9a8",
+      "translation": "ff59f2a592d471701654f7aa2663dd3b8fe4d99f94cf5c05a01d278153cdec7a"
+    },
+    "fr": {
+      "review": "8e8b48d206261f08745b384d50474449198cf225842df0f3c3170bf011863b1e",
+      "translation": "654471c53fc488871a963d7548390b1369dc521a964d363b7765aba6ba9e113d"
+    },
+    "hi": {
+      "review": "263546f836526885a9430bc989fb9bebc4cf04ef44e28122487ce37b67d42225",
+      "translation": "4dab240257dfe884e317912e894b064d97c18ed07ea218ad3fb1fc626f4761eb"
+    },
+    "th": {
+      "review": "098e67c003e326eb8fa89e4879af2f754c049143afe3dc7591d1a8071f6ec48f",
+      "translation": "35bec196a99e215d7b3c74fcdfc0a05de2aad9d0ddd83fd546a13162d87d929b"
+    }
+  },
+  "languages": {
+    "de": {
+      "flagged_or_failed_selected": 24,
+      "output_sha256": "d6533e5322d3df7c7cc1392f513e9598df161824d8b673f7e72870f626844b1d",
+      "repair_errors": [],
+      "repaired_rows": 24,
+      "translation_failures_after_repair": 0
+    },
+    "fr": {
+      "flagged_or_failed_selected": 24,
+      "output_sha256": "9b785dbf61f9525f3ae1e5777b5b78aaf810397856391c754ce2a8ca5202e69e",
+      "repair_errors": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0008-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_negative_control"
+        }
+      ],
+      "repaired_rows": 15,
+      "translation_failures_after_repair": 9
+    },
+    "hi": {
+      "flagged_or_failed_selected": 24,
+      "output_sha256": "79f3c6d7b29bd766c4f18ed4c34f028b2320ef0d65f87c15e3ab657840de2c7c",
+      "repair_errors": [],
+      "repaired_rows": 24,
+      "translation_failures_after_repair": 0
+    },
+    "th": {
+      "flagged_or_failed_selected": 24,
+      "output_sha256": "08e6ca62b6393cfa904d73c9a60748cf0ddc3a70720ace67706e9e0dfba99ec2",
+      "repair_errors": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0010-qa-sm:multi_hop"
+        }
+      ],
+      "repaired_rows": 23,
+      "translation_failures_after_repair": 1
+    }
+  },
+  "max_per_language": 24,
+  "model": "ollama:translategemma:4b",
+  "repair_scope": "PILOT_SUBSET_OF_FLAGGED_ROWS_PLUS_ALL_FAILED_ROWS",
+  "selected_prompt_ids_sha256_by_language": {
+    "de": "42b57c2d413fea90e83b0f4a5b92b09220e038f9889cf1cf1fdd5b8400afd713",
+    "fr": "00598a870d012d66111bc18bfb13911c765a6b52b40988bea425846ff0421762",
+    "hi": "5870612aafd870916047ceec6bf8b4a683de4124f4b28781ae4049a22ddc90cf",
+    "th": "0d28cfa88fd59f06fff63a28441b93c349469004b4ea5a749cd718303378ef52"
+  },
+  "source_requests_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "status": "TRANSLATEGEMMA_REPAIR_DRAFT_PENDING_QWEN_REVIEW"
+}

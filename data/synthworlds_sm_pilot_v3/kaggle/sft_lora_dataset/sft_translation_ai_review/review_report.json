@@ -1,0 +1,235 @@
+{
+  "ai_approved_total": 820,
+  "backtranslation_is_independent_model": false,
+  "backtranslation_model": "facebook/nllb-200-distilled-600M",
+  "corrections_applied": 22,
+  "draft_translation_model": "facebook/nllb-200-distilled-600M",
+  "human_fluency_review": false,
+  "human_reviewed_total": 0,
+  "languages": {
+    "de": {
+      "ai_approved": 205,
+      "backtranslated_fields": 410,
+      "backtranslation_source_sha256": "100ab3e859e79bce9d5cf0f7e443548fb79dcbc33989a4104a12cef913ccdeab",
+      "candidate_sha256": "91568187ef96a91a9282887c48cf78fd824ec585a0ba3de91b341d19b01bf952",
+      "human_reviewed": 0,
+      "low_lexical_overlap_flags_inspected": 4,
+      "records": 205
+    },
+    "fr": {
+      "ai_approved": 205,
+      "backtranslated_fields": 410,
+      "backtranslation_source_sha256": "698bfb0f21812781d22fae32c19d74506079aa76462d241af0e7ab3281a3fb99",
+      "candidate_sha256": "9e28aac42a101eab14ffe6e785d2438ff77866346beca116a97be61ca392cfd8",
+      "human_reviewed": 0,
+      "low_lexical_overlap_flags_inspected": 3,
+      "records": 205
+    },
+    "hi": {
+      "ai_approved": 205,
+      "backtranslated_fields": 410,
+      "backtranslation_source_sha256": "8e709eac442d30f862207ad05360aebea24aaacc53ff3ece265e997217ae1a00",
+      "candidate_sha256": "ec84839df92c20e4fc9b0d3bfc765d7ce98cab36bdea0a5faccc65d3cec93a29",
+      "human_reviewed": 0,
+      "low_lexical_overlap_flags_inspected": 3,
+      "records": 205
+    },
+    "th": {
+      "ai_approved": 205,
+      "backtranslated_fields": 410,
+      "backtranslation_source_sha256": "7026760fd39502743747b5ce26bb901a3d16a78000914e125b6e6141d1f51871",
+      "candidate_sha256": "9bb2ece3bc450372092e17ddc0d1d06e26d8b2d9ba32cd1d583dae417f0f6193",
+      "human_reviewed": 0,
+      "low_lexical_overlap_flags_inspected": 12,
+      "records": 205
+    }
+  },
+  "limitations": [
+    "No fluent human has reviewed or attested to these translations.",
+    "Back-translation used the same NLLB-200 distilled 600M model family as the draft translator, so it is a consistency check rather than an independent quality proof.",
+    "An AI-only reviewed corpus is suitable only for a clearly labeled feasibility pilot and must not be reported as human-validated multilingual data."
+  ],
+  "low_lexical_overlap_flags": [
+    {
+      "backtranslation_question_en": "Where did the name Vireth come from?",
+      "language": "fr",
+      "question": "Le nom de Vireth vient de qui ?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0133-qa-sm:r2",
+      "source_question_en": "Who is Vireth named after?"
+    },
+    {
+      "backtranslation_question_en": "What's next for Zephyrian?",
+      "language": "fr",
+      "question": "Qu'est-ce qui suit immédiatement Zephyrian ?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0138-qa-sm:r2",
+      "source_question_en": "What immediately follows Zephyrian?"
+    },
+    {
+      "backtranslation_question_en": "What school did Nyler Pinkney go to?",
+      "language": "fr",
+      "question": "Dans quel établissement Nyler Pinkney a-t-il été formé?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0186-qa-sm:r2",
+      "source_question_en": "At which institution was Nyler Pinkney educated?"
+    },
+    {
+      "backtranslation_question_en": "What county is Aetherdon located in?",
+      "language": "de",
+      "question": "In welcher Gebietskörperschaft befindet sich Aetherdon?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0089-qa-sm:r2",
+      "source_question_en": "In which administrative territorial entity is Aetherdon located?"
+    },
+    {
+      "backtranslation_question_en": "What territory is included in United Sovereignty?",
+      "language": "de",
+      "question": "Welche Gebietskörperschaft ist in United Sovereignty enthalten?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0105-qa-sm:r1",
+      "source_question_en": "What administrative territorial entity is contained within United Sovereignty?"
+    },
+    {
+      "backtranslation_question_en": "What year did Liam Thornfield start his career?",
+      "language": "de",
+      "question": "In welchem Jahr begann Liam Thornfield seine Tätigkeit?",
+      "question_overlap_score": 0.42857142857142855,
+      "sft_id": "0116-qa-sm:r2",
+      "source_question_en": "In what year did Liam Thornfield's period of activity begin?"
+    },
+    {
+      "backtranslation_question_en": "What's next for Zephyrian?",
+      "language": "de",
+      "question": "Was folgt sofort auf Zephyrian?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0138-qa-sm:r2",
+      "source_question_en": "What immediately follows Zephyrian?"
+    },
+    {
+      "backtranslation_question_en": "Which administrative regional body is included in Novemara?",
+      "language": "hi",
+      "question": "Novemara में कौन सा प्रशासनिक क्षेत्रीय निकाय शामिल है?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0111-qa-sm:r1",
+      "source_question_en": "Which administrative territorial entity is contained within Novemara?"
+    },
+    {
+      "backtranslation_question_en": "What is the mother tongue of Kaldren Sythorix?",
+      "language": "hi",
+      "question": "Kaldren Sythorix की मातृभाषा क्या है?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0115-qa-sm:r1",
+      "source_question_en": "What is Kaldren Sythorix's native language?"
+    },
+    {
+      "backtranslation_question_en": "What is the mother tongue of Felynd Rosales?",
+      "language": "hi",
+      "question": "Felynd Rosales की मातृभाषा क्या है?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0148-qa-sm:r1",
+      "source_question_en": "What is Felynd Rosales's native language?"
+    },
+    {
+      "backtranslation_question_en": "When was Orinthos founded?",
+      "language": "th",
+      "question": "Orinthos ก่อตั้งขึ้นเมื่อวันที่เท่าใด?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0005-qa-sm:r2",
+      "source_question_en": "On what date was Orinthos incorporated?"
+    },
+    {
+      "backtranslation_question_en": "Who are the key figures involved in Ustara Daily?",
+      "language": "th",
+      "question": "บุคคลสำคัญคนใดมีความเกี่ยวข้องกับ Ustara Daily?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0052-qa-sm:r1",
+      "source_question_en": "Who is a significant person associated with Ustara Daily?"
+    },
+    {
+      "backtranslation_question_en": "What role does Iridia Hawkins play?",
+      "language": "th",
+      "question": "Iridia Hawkins มีตำแหน่งขุนนางใด?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0056-qa-sm:r1",
+      "source_question_en": "Which noble title does Iridia Hawkins hold?"
+    },
+    {
+      "backtranslation_question_en": "Which county is Aetherdon located in?",
+      "language": "th",
+      "question": "Aetherdon ตั้งอยู่ในเขตการปกครองใด?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0089-qa-sm:r2",
+      "source_question_en": "In which administrative territorial entity is Aetherdon located?"
+    },
+    {
+      "backtranslation_question_en": "What is the source of the Luminara River?",
+      "language": "th",
+      "question": "Luminara River ไหลลงสู่แหล่งน้ำใด?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0090-qa-sm:r2",
+      "source_question_en": "Into which body of water does the Luminara River drain?"
+    },
+    {
+      "backtranslation_question_en": "Which governing body is located within the United Sovereignty?",
+      "language": "th",
+      "question": "หน่วยการปกครองใดตั้งอยู่ภายใน United Sovereignty?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0105-qa-sm:r1",
+      "source_question_en": "What administrative territorial entity is contained within United Sovereignty?"
+    },
+    {
+      "backtranslation_question_en": "Which authority is located within Novemara?",
+      "language": "th",
+      "question": "หน่วยการปกครองใดตั้งอยู่ภายใน Novemara?",
+      "question_overlap_score": 0.2,
+      "sft_id": "0111-qa-sm:r1",
+      "source_question_en": "Which administrative territorial entity is contained within Novemara?"
+    },
+    {
+      "backtranslation_question_en": "What is the mother tongue of Kaldren Sythorix?",
+      "language": "th",
+      "question": "ภาษาแม่ของ Kaldren Sythorix คืออะไร?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0115-qa-sm:r1",
+      "source_question_en": "What is Kaldren Sythorix's native language?"
+    },
+    {
+      "backtranslation_question_en": "What year did Liam Thornfield start in the role?",
+      "language": "th",
+      "question": "Liam Thornfield เริ่มมีบทบาทในปีใด?",
+      "question_overlap_score": 0.42857142857142855,
+      "sft_id": "0116-qa-sm:r2",
+      "source_question_en": "In what year did Liam Thornfield's period of activity begin?"
+    },
+    {
+      "backtranslation_question_en": "Aeliana appears as evidence in what paper?",
+      "language": "th",
+      "question": "Aeliana ปรากฏเป็นหลักฐานอยู่ในเอกสารฉบับใด?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0137-qa-sm:r1",
+      "source_question_en": "In which document is Aeliana attested?"
+    },
+    {
+      "backtranslation_question_en": "What's after Zephyrian right now?",
+      "language": "th",
+      "question": "สิ่งใดตามหลัง Zephyrian ทันที?",
+      "question_overlap_score": 0.3333333333333333,
+      "sft_id": "0138-qa-sm:r2",
+      "source_question_en": "What immediately follows Zephyrian?"
+    },
+    {
+      "backtranslation_question_en": "What is Felynd Rosales' mother tongue?",
+      "language": "th",
+      "question": "ภาษาแม่ของ Felynd Rosales คืออะไร?",
+      "question_overlap_score": 0.4,
+      "sft_id": "0148-qa-sm:r1",
+      "source_question_en": "What is Felynd Rosales's native language?"
+    }
+  ],
+  "review_date": "2026-11-02",
+  "review_mode": "AI_ONLY",
+  "reviewer": "OpenAI Codex (AI-only review)",
+  "status": "AI_ONLY_TRANSLATION_REVIEW_COMPLETE_HUMAN_REVIEW_NOT_PERFORMED",
+  "translation_policy_sha256": "c712b04cc4f92f14cbb77095d0620ff9a7aef94c966115c7c4aa401484ea9ef5"
+}

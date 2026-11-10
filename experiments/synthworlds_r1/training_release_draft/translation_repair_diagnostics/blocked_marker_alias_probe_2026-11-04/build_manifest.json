@@ -1,0 +1,15 @@
+{
+  "status": "SOURCE_BOUND_28_ROW_ALIAS_PROBE_READY_NOT_APPROVAL",
+  "rows": 28,
+  "input_sha256": "2093e8eab1bbd56e8f939a96034bf50745f409072c359d12a8520ad2d2d9c961",
+  "input_keys_sha256": "18351e10d81045d304fe5e8ce27c545baea50e5c775542c601a1b8615859afee",
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "answers_or_splits_sent": false,
+  "aliases": {
+    "[ENTITY_A]": "Alice",
+    "[ENTITY_B]": "Bob"
+  },
+  "human_translation_reviewed": false,
+  "training_eligible": false
+}

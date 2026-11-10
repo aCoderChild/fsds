@@ -1,0 +1,16 @@
+{"row_id": "G0099", "source_english": "Who is the godparent of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0107", "source_english": "Who is a significant person associated with the movement that [ENTITY_A]'s doctoral advisor is associated with?", "target_language": "Hindi"}
+{"row_id": "G0109", "source_english": "With which country does the Caelum Archipelago have diplomatic relations?", "target_language": "Hindi"}
+{"row_id": "G0110", "source_english": "Which political office of [ENTITY_A] is held by its head of state?", "target_language": "Hindi"}
+{"row_id": "G0113", "source_english": "On what date did [ENTITY_A] cease to be the country of [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0114", "source_english": "When did [ENTITY_A] become part of the [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0115", "source_english": "Who does the teacher of [ENTITY_A]'s father differ from?", "target_language": "Hindi"}
+{"row_id": "G0117", "source_english": "Who is the chairperson of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0118", "source_english": "Who is the sibling of the person after whom the place that houses the [ENTITY_A] is named?", "target_language": "Hindi"}
+{"row_id": "G0119", "source_english": "Which notable work is by [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0122", "source_english": "Who commissioned [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0124", "source_english": "Which institution holds the documentation files about the person after whom the city that houses the [ENTITY_A]'s headquarters is named?", "target_language": "Hindi"}
+{"row_id": "G0128", "source_english": "Where was the organization of which the place where [ENTITY_A] was detained is a member formed?", "target_language": "Hindi"}
+{"row_id": "G0134", "source_english": "Who is the head of state of the country of which [ENTITY_A]'s spouse is a citizen?", "target_language": "Hindi"}
+{"row_id": "G0136", "source_english": "Who produced [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0138", "source_english": "Which noble title does [ENTITY_A] hold?", "target_language": "Hindi"}

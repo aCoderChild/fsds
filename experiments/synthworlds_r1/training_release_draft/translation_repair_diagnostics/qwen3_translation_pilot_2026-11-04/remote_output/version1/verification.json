@@ -1,0 +1,40 @@
+{
+  "answers_or_splits_sent": false,
+  "blocked_rows": 4,
+  "counts_by_language_kind": {
+    "de/atomic": 2,
+    "de/composition": 2,
+    "fr/atomic": 2,
+    "fr/composition": 2,
+    "hi/atomic": 2,
+    "hi/composition": 2,
+    "th/atomic": 2,
+    "th/composition": 2
+  },
+  "generation_error_types": {
+    "JSONDecodeError": 4
+  },
+  "generation_script_sha256": "6bacf1600f636ecfc52c000760c47ba8238b6869cc1d40597c74f6b36ca7d85e",
+  "human_translation_reviewed": false,
+  "input_sha256": "c9e41c15d3f60cb77d62dcfdef75fc3a1ae5d72ccd10c7bbc8e06d907f3cf1fc",
+  "model_id": "Qwen/Qwen3-14B",
+  "model_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+  "note": "This verifies provenance, structure, and placeholder preservation only; translation quality still requires the separate blinded review screen.",
+  "output_sha256": "255ef3991aba9eefb33bb2bef27472758e79e3f52c64df1fc7b209c4553c3923",
+  "release_approved": false,
+  "rows": 16,
+  "runtime": {
+    "completed_at_utc": "2026-11-04T13:33:26.003459+00:00",
+    "gpu": "Tesla T4",
+    "packages": {
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "transformers": "4.51.3"
+    },
+    "quantization": "4-bit NF4",
+    "started_at_utc": "2026-11-04T13:26:51.863099+00:00"
+  },
+  "status": "VERIFIED_QWEN3_TRANSLATION_PILOT_WITH_BLOCKED_ROWS_DIAGNOSTIC_ONLY",
+  "training_eligible": false,
+  "translated_rows": 12
+}

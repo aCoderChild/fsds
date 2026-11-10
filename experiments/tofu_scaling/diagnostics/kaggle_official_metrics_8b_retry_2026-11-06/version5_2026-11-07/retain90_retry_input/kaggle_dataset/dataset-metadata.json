@@ -1,0 +1,10 @@
+{
+  "title": "TOFU 3B and 8B Full Verified Resume 2026-11-07",
+  "id": "bunnoob2005/tofu-3b-8bfull-resume-2026-11-07",
+  "licenses": [
+    {
+      "name": "unknown"
+    }
+  ],
+  "description": "Private intermediate resume artifact for the inference-only TOFU baseline retry. Contains the verified 3B full/oracle outputs, the completed 8B full-checkpoint output, and a SHA-256/CRC-checked archive. The only model to run is the missing 8B retain90 oracle. Not a public dataset release; no training data beyond the pinned benchmark evaluation rows is added."
+}

@@ -1,0 +1,259 @@
+{
+  "analysis": "DAP = P(final multi-hop remains correct | direct intermediate-fact recall fails after unlearning), among cases where SFT got both probes correct in that target language",
+  "bootstrap": "Exact enumeration of all ordered leakage-group draws with replacement; percentile interval uses order statistic floor(p*(N-1)); undefined zero-denominator draws are reported and excluded from the conditional interval",
+  "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+  "input_path": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/case_metrics.jsonl",
+  "limitations": [
+    "Post-hoc diagnostic, not preregistered and not confirmatory.",
+    "One 1B seed; does not estimate seed-to-seed variation.",
+    "The pilot's bilingual baseline competence gates failed; this per-language DAP does not bypass those gates.",
+    "AI-only translation review; no fluent-human review or human-gold controls.",
+    "Exact enumeration removes Monte Carlo error, not uncertainty from the small number of entity groups."
+  ],
+  "results": [
+    {
+      "dap": 1.0,
+      "direct_failure_with_final_answer_correct": 10,
+      "entity_groups": 9,
+      "exact_group_bootstrap": {
+        "cluster_count": 9,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 24310,
+        "exact_percentile_95ci": [
+          1.0,
+          1.0
+        ],
+        "ordered_resamples": 387420489,
+        "undefined_resample_fraction": 5.080526342529086e-05
+      },
+      "language": "fr",
+      "method": "GA",
+      "post_direct_failures": 10,
+      "sft_precompetent_cases": 13
+    },
+    {
+      "dap": 0.8888888888888888,
+      "direct_failure_with_final_answer_correct": 8,
+      "entity_groups": 8,
+      "exact_group_bootstrap": {
+        "cluster_count": 8,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 6435,
+        "exact_percentile_95ci": [
+          0.4,
+          1.0
+        ],
+        "ordered_resamples": 16777216,
+        "undefined_resample_fraction": 0.0003910660743713379
+      },
+      "language": "de",
+      "method": "GA",
+      "post_direct_failures": 9,
+      "sft_precompetent_cases": 12
+    },
+    {
+      "dap": 0.9,
+      "direct_failure_with_final_answer_correct": 9,
+      "entity_groups": 7,
+      "exact_group_bootstrap": {
+        "cluster_count": 7,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 1716,
+        "exact_percentile_95ci": [
+          0.5,
+          1.0
+        ],
+        "ordered_resamples": 823543,
+        "undefined_resample_fraction": 1.2142656789020123e-06
+      },
+      "language": "hi",
+      "method": "GA",
+      "post_direct_failures": 10,
+      "sft_precompetent_cases": 11
+    },
+    {
+      "dap": 0.8333333333333334,
+      "direct_failure_with_final_answer_correct": 10,
+      "entity_groups": 11,
+      "exact_group_bootstrap": {
+        "cluster_count": 11,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 352716,
+        "exact_percentile_95ci": [
+          0.4444444444444444,
+          1.0
+        ],
+        "ordered_resamples": 285311670611,
+        "undefined_resample_fraction": 6.208894281143024e-07
+      },
+      "language": "th",
+      "method": "GA",
+      "post_direct_failures": 12,
+      "sft_precompetent_cases": 15
+    },
+    {
+      "dap": 1.0,
+      "direct_failure_with_final_answer_correct": 8,
+      "entity_groups": 9,
+      "exact_group_bootstrap": {
+        "cluster_count": 9,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 24310,
+        "exact_percentile_95ci": [
+          1.0,
+          1.0
+        ],
+        "ordered_resamples": 387420489,
+        "undefined_resample_fraction": 0.0006766394845988643
+      },
+      "language": "fr",
+      "method": "GD",
+      "post_direct_failures": 8,
+      "sft_precompetent_cases": 13
+    },
+    {
+      "dap": 0.875,
+      "direct_failure_with_final_answer_correct": 7,
+      "entity_groups": 8,
+      "exact_group_bootstrap": {
+        "cluster_count": 8,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 6435,
+        "exact_percentile_95ci": [
+          0.25,
+          1.0
+        ],
+        "ordered_resamples": 16777216,
+        "undefined_resample_fraction": 0.00390625
+      },
+      "language": "de",
+      "method": "GD",
+      "post_direct_failures": 8,
+      "sft_precompetent_cases": 12
+    },
+    {
+      "dap": 0.9,
+      "direct_failure_with_final_answer_correct": 9,
+      "entity_groups": 7,
+      "exact_group_bootstrap": {
+        "cluster_count": 7,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 1716,
+        "exact_percentile_95ci": [
+          0.5,
+          1.0
+        ],
+        "ordered_resamples": 823543,
+        "undefined_resample_fraction": 1.2142656789020123e-06
+      },
+      "language": "hi",
+      "method": "GD",
+      "post_direct_failures": 10,
+      "sft_precompetent_cases": 11
+    },
+    {
+      "dap": 0.8181818181818182,
+      "direct_failure_with_final_answer_correct": 9,
+      "entity_groups": 11,
+      "exact_group_bootstrap": {
+        "cluster_count": 11,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 352716,
+        "exact_percentile_95ci": [
+          0.375,
+          1.0
+        ],
+        "ordered_resamples": 285311670611,
+        "undefined_resample_fraction": 1.4700779645704025e-05
+      },
+      "language": "th",
+      "method": "GD",
+      "post_direct_failures": 11,
+      "sft_precompetent_cases": 15
+    },
+    {
+      "dap": 1.0,
+      "direct_failure_with_final_answer_correct": 9,
+      "entity_groups": 9,
+      "exact_group_bootstrap": {
+        "cluster_count": 9,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 24310,
+        "exact_percentile_95ci": [
+          1.0,
+          1.0
+        ],
+        "ordered_resamples": 387420489,
+        "undefined_resample_fraction": 5.080526342529086e-05
+      },
+      "language": "fr",
+      "method": "NPO",
+      "post_direct_failures": 9,
+      "sft_precompetent_cases": 13
+    },
+    {
+      "dap": 0.8888888888888888,
+      "direct_failure_with_final_answer_correct": 8,
+      "entity_groups": 8,
+      "exact_group_bootstrap": {
+        "cluster_count": 8,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 6435,
+        "exact_percentile_95ci": [
+          0.4,
+          1.0
+        ],
+        "ordered_resamples": 16777216,
+        "undefined_resample_fraction": 0.0003910660743713379
+      },
+      "language": "de",
+      "method": "NPO",
+      "post_direct_failures": 9,
+      "sft_precompetent_cases": 12
+    },
+    {
+      "dap": 0.9,
+      "direct_failure_with_final_answer_correct": 9,
+      "entity_groups": 7,
+      "exact_group_bootstrap": {
+        "cluster_count": 7,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 1716,
+        "exact_percentile_95ci": [
+          0.5,
+          1.0
+        ],
+        "ordered_resamples": 823543,
+        "undefined_resample_fraction": 1.2142656789020123e-06
+      },
+      "language": "hi",
+      "method": "NPO",
+      "post_direct_failures": 10,
+      "sft_precompetent_cases": 11
+    },
+    {
+      "dap": 0.8333333333333334,
+      "direct_failure_with_final_answer_correct": 10,
+      "entity_groups": 11,
+      "exact_group_bootstrap": {
+        "cluster_count": 11,
+        "conditional_on_defined_resamples": true,
+        "distinct_multiplicity_vectors": 352716,
+        "exact_percentile_95ci": [
+          0.4444444444444444,
+          1.0
+        ],
+        "ordered_resamples": 285311670611,
+        "undefined_resample_fraction": 6.208894281143024e-07
+      },
+      "language": "th",
+      "method": "NPO",
+      "post_direct_failures": 12,
+      "sft_precompetent_cases": 15
+    }
+  ],
+  "run": "Llama 3.2 1B, seed 42; exploratory v4 pilot",
+  "script_sha256": "40ec667b5ea36bd5915575724e0401fa4616e75209df9fa7cf28f0a98f10add6",
+  "split": "forget",
+  "status": "PASS_EXACT_POSTHOC_CLUSTERED_DAP_DIAGNOSTIC"
+}

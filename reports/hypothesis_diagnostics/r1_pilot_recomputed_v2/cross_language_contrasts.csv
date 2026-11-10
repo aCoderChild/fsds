@@ -1,0 +1,37 @@
+model,split,language,n_bilingual_precompetent_cases,n_entity_groups,english_multi_delta_vs_sft_pp,language_multi_delta_vs_sft_pp,language_minus_english_did_pp,cluster_bootstrap_95ci_pp
+GA,forget,fr,4,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,forget,de,3,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,forget,hi,6,3,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,forget,th,4,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,retain,fr,0,0,,,,
+GA,retain,de,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,retain,hi,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GA,retain,th,0,0,,,,
+GA,holdout,fr,0,0,,,,
+GA,holdout,de,0,0,,,,
+GA,holdout,hi,0,0,,,,
+GA,holdout,th,0,0,,,,
+GD,forget,fr,4,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,forget,de,3,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,forget,hi,6,3,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,forget,th,4,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,retain,fr,0,0,,,,
+GD,retain,de,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,retain,hi,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+GD,retain,th,0,0,,,,
+GD,holdout,fr,0,0,,,,
+GD,holdout,de,0,0,,,,
+GD,holdout,hi,0,0,,,,
+GD,holdout,th,0,0,,,,
+NPO,forget,fr,4,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,forget,de,3,2,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,forget,hi,6,3,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,forget,th,4,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,retain,fr,0,0,,,,
+NPO,retain,de,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,retain,hi,1,1,-100.0,-100.0,0.0,"[0.0, 0.0]"
+NPO,retain,th,0,0,,,,
+NPO,holdout,fr,0,0,,,,
+NPO,holdout,de,0,0,,,,
+NPO,holdout,hi,0,0,,,,
+NPO,holdout,th,0,0,,,,

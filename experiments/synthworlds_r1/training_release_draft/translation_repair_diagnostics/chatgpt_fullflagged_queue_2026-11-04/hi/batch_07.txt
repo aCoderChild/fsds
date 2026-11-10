@@ -1,0 +1,11 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0193","question_en":"Who is ZXQENTAQXZ's child?"}
+{"row_id":"HI0194","question_en":"Which noble title does ZXQENTAQXZ hold?"}
+{"row_id":"HI0195","question_en":"Who is the creator of ZXQENTAQXZ?"}
+{"row_id":"HI0196","question_en":"Which country does ZXQENTAQXZ have diplomatic relations with?"}
+{"row_id":"HI0197","question_en":"Who is the godparent of ZXQENTAQXZ?"}
+{"row_id":"HI0198","question_en":"Where did the father of the godparent of ZXQENTAQXZ die?"}
+{"row_id":"HI0199","question_en":"Which collection has works by ZXQENTAQXZ?"}
+{"row_id":"HI0200","question_en":"Who is the curator of ZXQENTAQXZ?"}

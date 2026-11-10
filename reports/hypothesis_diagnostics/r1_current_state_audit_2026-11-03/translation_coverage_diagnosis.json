@@ -1,0 +1,312 @@
+{
+  "atomic_training_case_coverage_by_split": {
+    "gemma3_only_unreviewed_repairs": {
+      "forget": 43,
+      "retain": 14
+    },
+    "qwen7b_and_gemma3_unreviewed_repairs": {
+      "forget": 26,
+      "retain": 9
+    },
+    "qwen7b_gemma3_integrity_unreviewed_repairs": {
+      "forget": 11,
+      "retain": 6
+    },
+    "qwen7b_only_unreviewed_repairs": {
+      "forget": 28,
+      "retain": 10
+    },
+    "strict_final_review": {
+      "forget": 5,
+      "retain": 3
+    }
+  },
+  "evaluation_case_atomic_coverage": {
+    "gemma3_only_unreviewed_repairs": {
+      "forget": {
+        "eligible_cases": 16,
+        "eligible_entity_groups": 10,
+        "evaluation_cases": 43
+      },
+      "holdout": {
+        "eligible_cases": 0,
+        "eligible_entity_groups": 0,
+        "evaluation_cases": 17
+      },
+      "retain": {
+        "eligible_cases": 7,
+        "eligible_entity_groups": 6,
+        "evaluation_cases": 20
+      }
+    },
+    "qwen7b_and_gemma3_unreviewed_repairs": {
+      "forget": {
+        "eligible_cases": 10,
+        "eligible_entity_groups": 5,
+        "evaluation_cases": 43
+      },
+      "holdout": {
+        "eligible_cases": 0,
+        "eligible_entity_groups": 0,
+        "evaluation_cases": 17
+      },
+      "retain": {
+        "eligible_cases": 3,
+        "eligible_entity_groups": 3,
+        "evaluation_cases": 20
+      }
+    },
+    "qwen7b_gemma3_integrity_unreviewed_repairs": {
+      "forget": {
+        "eligible_cases": 5,
+        "eligible_entity_groups": 3,
+        "evaluation_cases": 43
+      },
+      "holdout": {
+        "eligible_cases": 0,
+        "eligible_entity_groups": 0,
+        "evaluation_cases": 17
+      },
+      "retain": {
+        "eligible_cases": 2,
+        "eligible_entity_groups": 2,
+        "evaluation_cases": 20
+      }
+    },
+    "qwen7b_only_unreviewed_repairs": {
+      "forget": {
+        "eligible_cases": 10,
+        "eligible_entity_groups": 5,
+        "evaluation_cases": 43
+      },
+      "holdout": {
+        "eligible_cases": 0,
+        "eligible_entity_groups": 0,
+        "evaluation_cases": 17
+      },
+      "retain": {
+        "eligible_cases": 4,
+        "eligible_entity_groups": 3,
+        "evaluation_cases": 20
+      }
+    },
+    "strict_final_review": {
+      "forget": {
+        "eligible_cases": 3,
+        "eligible_entity_groups": 2,
+        "evaluation_cases": 43
+      },
+      "holdout": {
+        "eligible_cases": 0,
+        "eligible_entity_groups": 0,
+        "evaluation_cases": 17
+      },
+      "retain": {
+        "eligible_cases": 2,
+        "eligible_entity_groups": 2,
+        "evaluation_cases": 20
+      }
+    }
+  },
+  "final_translation_review": {
+    "human_reviewed": false,
+    "passes_per_language": {
+      "de": 309,
+      "fr": 324,
+      "hi": 288,
+      "th": 232
+    },
+    "rows_per_language": {
+      "de": 488,
+      "fr": 488,
+      "hi": 488,
+      "th": 488
+    }
+  },
+  "full_flagged_repair_diagnostic": {
+    "candidate_rows": 948,
+    "deterministic_passes": 948,
+    "gemma3_second_opinion": {
+      "decision_rows": 948,
+      "decision_sha256": "81fe882781bd31697d2b92fcf078a27ee044c06aa62087e0b703bc4e003779a4",
+      "different_model_family_from_qwen_reviewers": true,
+      "passes_by_language_and_kind": {
+        "de": {
+          "atomic": {
+            "gemma3_passes": 160,
+            "qwen7b_gemma3_agreements": 147,
+            "qwen7b_preliminary_passes": 150,
+            "review_errors": 0,
+            "reviewed": 166
+          },
+          "composition": {
+            "gemma3_passes": 74,
+            "qwen7b_gemma3_agreements": 50,
+            "qwen7b_preliminary_passes": 51,
+            "review_errors": 0,
+            "reviewed": 77
+          }
+        },
+        "fr": {
+          "atomic": {
+            "gemma3_passes": 101,
+            "qwen7b_gemma3_agreements": 84,
+            "qwen7b_preliminary_passes": 103,
+            "review_errors": 0,
+            "reviewed": 131
+          },
+          "composition": {
+            "gemma3_passes": 58,
+            "qwen7b_gemma3_agreements": 35,
+            "qwen7b_preliminary_passes": 37,
+            "review_errors": 0,
+            "reviewed": 64
+          }
+        },
+        "hi": {
+          "atomic": {
+            "gemma3_passes": 123,
+            "qwen7b_gemma3_agreements": 103,
+            "qwen7b_preliminary_passes": 105,
+            "review_errors": 0,
+            "reviewed": 127
+          },
+          "composition": {
+            "gemma3_passes": 100,
+            "qwen7b_gemma3_agreements": 58,
+            "qwen7b_preliminary_passes": 58,
+            "review_errors": 0,
+            "reviewed": 100
+          }
+        },
+        "th": {
+          "atomic": {
+            "gemma3_passes": 164,
+            "qwen7b_gemma3_agreements": 111,
+            "qwen7b_preliminary_passes": 126,
+            "review_errors": 0,
+            "reviewed": 185
+          },
+          "composition": {
+            "gemma3_passes": 96,
+            "qwen7b_gemma3_agreements": 52,
+            "qwen7b_preliminary_passes": 53,
+            "review_errors": 0,
+            "reviewed": 98
+          }
+        }
+      },
+      "review_report_sha256": "26ea7e264c6cee1eb94d6bda508fb0a62b8459aed3b9daaad3850a4ada8b18c5",
+      "same_model_family_as_repair_translator": true,
+      "total_gemma3_passes": 876,
+      "total_qwen7b_gemma3_agreements": 640
+    },
+    "preliminary_qwen7b_passes": 683,
+    "preliminary_qwen7b_passes_by_language": {
+      "de": 201,
+      "fr": 140,
+      "hi": 163,
+      "th": 179
+    },
+    "qwen14b_roundtrip_release_review_completed": false,
+    "recomputed_integrity": {
+      "failures_by_check": {
+        "no_unrestored_marker": 0,
+        "nonempty": 0,
+        "protected_names_preserved": 456,
+        "protected_numbers_preserved": 0,
+        "target_script_present": 0
+      },
+      "gemma_source_with_unmasked_protected_name": 947,
+      "passes": 492,
+      "required_checks": [
+        "nonempty",
+        "target_script_present",
+        "protected_names_preserved",
+        "protected_numbers_preserved",
+        "no_unrestored_marker"
+      ],
+      "stored_pass_but_recomputed_fail": 456,
+      "strict_original_final_pass_failures_by_check": {}
+    },
+    "translation_successes": 948
+  },
+  "limits": [
+    "All repaired rows remain unapproved: Qwen7B and Gemma3 checks are diagnostics, and the frozen Qwen14B/back-translation release review has not been run on replacements.",
+    "The NLLB 1.3B calibration has only 64 rows and does not estimate full-corpus translation accuracy.",
+    "TranslateGemma and Gemma3 share the Gemma family; Qwen7B is a different family. AI-only agreement is not fluent-human certification.",
+    "Repair-generation and Gemma-review inputs omitted protected entity lists from saved review rows; recomputed checks use the original protected lists. The saved review did not consistently mask entities.",
+    "No source translation, split, training file, or model artifact is changed by this script."
+  ],
+  "matched_composition_training_prompts": {
+    "gemma3_only_unreviewed_repairs": {
+      "chains_with_all_four_common_prompts": 9,
+      "chains_with_at_least_one_common_prompt": 41,
+      "common_multi_hop_prompt_ids": 28,
+      "common_prompt_ids_across_all_four_target_languages": 110,
+      "common_support_prompt_ids_by_type": {
+        "q1": 26,
+        "q2": 25,
+        "q3": 31
+      }
+    },
+    "qwen7b_and_gemma3_unreviewed_repairs": {
+      "chains_with_all_four_common_prompts": 1,
+      "chains_with_at_least_one_common_prompt": 38,
+      "common_multi_hop_prompt_ids": 5,
+      "common_prompt_ids_across_all_four_target_languages": 74,
+      "common_support_prompt_ids_by_type": {
+        "q1": 23,
+        "q2": 20,
+        "q3": 26
+      }
+    },
+    "qwen7b_gemma3_integrity_unreviewed_repairs": {
+      "chains_with_all_four_common_prompts": 0,
+      "chains_with_at_least_one_common_prompt": 32,
+      "common_multi_hop_prompt_ids": 0,
+      "common_prompt_ids_across_all_four_target_languages": 52,
+      "common_support_prompt_ids_by_type": {
+        "q1": 17,
+        "q2": 13,
+        "q3": 22
+      }
+    },
+    "qwen7b_only_unreviewed_repairs": {
+      "chains_with_all_four_common_prompts": 1,
+      "chains_with_at_least_one_common_prompt": 38,
+      "common_multi_hop_prompt_ids": 5,
+      "common_prompt_ids_across_all_four_target_languages": 74,
+      "common_support_prompt_ids_by_type": {
+        "q1": 23,
+        "q2": 20,
+        "q3": 26
+      }
+    },
+    "strict_final_review": {
+      "chains_with_all_four_common_prompts": 0,
+      "chains_with_at_least_one_common_prompt": 32,
+      "common_multi_hop_prompt_ids": 0,
+      "common_prompt_ids_across_all_four_target_languages": 45,
+      "common_support_prompt_ids_by_type": {
+        "q1": 14,
+        "q2": 12,
+        "q3": 19
+      }
+    }
+  },
+  "nllb_1_3b_calibration": {
+    "do_not_train": true,
+    "full_screen_passes": 28,
+    "sample_size": 64,
+    "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+  },
+  "source_hashes": {
+    "final_review_report": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+    "nllb_calibration_candidates": "bac95fd807d67ec8ff1f3bf801654a2dda69ca0867ec28489396d12b1e5c841e",
+    "nllb_calibration_report": "c9ed45e86ac24f578e797321ecbdd94eb7dfb7cc92ae419f1fea80dd70a77bac",
+    "repair_candidates": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+    "repair_report": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336"
+  },
+  "status": "READ_ONLY_DIAGNOSTIC_NOT_RELEASE_APPROVAL"
+}

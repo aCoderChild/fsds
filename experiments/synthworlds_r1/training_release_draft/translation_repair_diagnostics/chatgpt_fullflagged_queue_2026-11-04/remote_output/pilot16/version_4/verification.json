@@ -1,0 +1,69 @@
+{
+  "accelerate": "1.15.0",
+  "answers_or_splits_sent": false,
+  "backtranslator_model_id": "facebook/nllb-200-distilled-600M",
+  "backtranslator_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "bitsandbytes": "0.50.2",
+  "blocked_rows": 2,
+  "counts": {
+    "AI_ONLY_REPAIR_REVIEW_BLOCKED": 2,
+    "AI_ONLY_REPAIR_REVIEW_FLAGGED": 7,
+    "AI_ONLY_REPAIR_REVIEW_PASS": 7
+  },
+  "counts_by_language_kind": {
+    "de/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 1,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 1
+    },
+    "de/composition": {
+      "AI_ONLY_REPAIR_REVIEW_PASS": 2
+    },
+    "fr/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_PASS": 2
+    },
+    "fr/composition": {
+      "AI_ONLY_REPAIR_REVIEW_PASS": 2
+    },
+    "hi/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 1,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 1
+    },
+    "hi/composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 2
+    },
+    "th/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 1,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 1
+    },
+    "th/composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 2
+    }
+  },
+  "gpu": "Tesla T4",
+  "human_translation_reviewed": false,
+  "input_sha256": "847aefe984e9403614c0db6ed5ca6b088e3e6a0fbf3bef0dc87b1e707109f60d",
+  "kernel_id": "bunnoob2005/synthworlds-ai-only-translation-repair-review",
+  "limitations": [
+    "AI-only review is not fluent-human certification.",
+    "The NLLB backtranslation is lower-capacity and is diagnostic evidence, not ground truth.",
+    "Qwen2.5 7B and Qwen2.5 14B share a model family; reviewer errors can be correlated.",
+    "This diagnostic does not modify source translation files or approve an SFT release."
+  ],
+  "mode": "pilot16",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "output_sha256": "6afdcfe60367afbbca620b07e20b0088e3592fb0e16044a8211df6622b04f0d8",
+  "quantization": "4-bit NF4",
+  "release_approved": false,
+  "remote_finalization_error": "Remote script failed in the final blocked-row tally after all per-row decisions were checkpointed.",
+  "remote_status": "IN_PROGRESS_QWEN14B_REVIEW",
+  "review_script_sha256": "d7658b22cb49880c3073c2fc315b5f6308a774c55d4b5fc77b32a4ecdade4a1d",
+  "reviewed_rows": 14,
+  "rows": 16,
+  "run_log_sha256": "68ff23971c9f433fa3b92a16c7d8a25e055f48addfbbcce5d2ddaffe7e876623",
+  "status": "VERIFIED_ROWS_REMOTE_FINALIZATION_FAILED_AFTER_ALL_DECISIONS",
+  "submitted_script_matches_launch_manifest": true,
+  "torch": "2.11.0+cu130",
+  "training_eligible": false,
+  "transformers": "4.51.3"
+}

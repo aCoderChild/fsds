@@ -1,0 +1,285 @@
+{
+  "overall_status": "PARTIAL",
+  "run_status": "COMPLETE",
+  "raw_run_status": null,
+  "run_error": null,
+  "audit_status": "PASS",
+  "missing_models": [
+    "llama_3_2_3b_full",
+    "llama_3_2_3b_retain90"
+  ],
+  "problems": [],
+  "models": {
+    "llama_3_2_3b_full": {
+      "status": "MISSING",
+      "problems": [
+        "missing llama_3_2_3b_full_official_eval.json"
+      ]
+    },
+    "llama_3_2_3b_retain90": {
+      "status": "MISSING",
+      "problems": [
+        "missing llama_3_2_3b_retain90_official_eval.json"
+      ]
+    },
+    "llama_3_1_8b_full": {
+      "status": "PASS",
+      "problems": [],
+      "model": {
+        "label": "Llama 3.1 8B full",
+        "family": "llama_3_1_8b",
+        "role": "full",
+        "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full",
+        "revision": "1a5c5b1a557f8c99bdadecd5168ebd03f640b00e"
+      },
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9912107371930028,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9892480867574496,
+            0.9929124027678559
+          ],
+          "mean_rougeL_recall": 0.9888230077513359,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.9818215184998467,
+            0.9949332981832981
+          ],
+          "mean_truth_ratio": 0.5203915938614097,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.48247089228139745,
+            0.5585325921359025
+          ],
+          "mean_truth_ratio_score": 0.4734332034773024,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.4483654797261678,
+            0.5006872402560267
+          ]
+        },
+        "retain90": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9909814517467894,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.989227731206057,
+            0.9924628245647886
+          ],
+          "mean_rougeL_recall": 0.9953821522571522,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.990162082974583,
+            0.9992820945945945
+          ],
+          "mean_truth_ratio": 0.48509996329454247,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.45131526780430986,
+            0.5178296541199766
+          ],
+          "mean_truth_ratio_score": 0.53042940582295,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.5026806775284419,
+            0.5597570820735961
+          ]
+        },
+        "holdout10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.12264667913364333,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.10653386621705087,
+            0.139410947935484
+          ],
+          "mean_rougeL_recall": 0.3688620620637394,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.34360273383656875,
+            0.3920955771804428
+          ]
+        },
+        "real_authors": {
+          "n_questions": 100,
+          "n_profile_blocks": 0,
+          "mean_answer_probability": 0.01892363318111979,
+          "mean_rougeL_recall": 0.9490000000000001,
+          "mean_truth_ratio": 4.562049478473508,
+          "mean_truth_ratio_score": 0.5124006709968674,
+          "mean_normalized_option_probability": 0.4078885737987939
+        },
+        "world_facts": {
+          "n_questions": 117,
+          "n_profile_blocks": 0,
+          "mean_answer_probability": 0.007485913894315023,
+          "mean_rougeL_recall": 0.9116809116809117,
+          "mean_truth_ratio": 9.280187225052625,
+          "mean_truth_ratio_score": 0.6275568134422225,
+          "mean_normalized_option_probability": 0.48031904934331243
+        }
+      },
+      "runtime": {
+        "torch_version": "2.11.0+cu130",
+        "transformers_version": "5.22.1",
+        "accelerate_version": "1.15.0",
+        "rouge_score_version": "0.1.2",
+        "scipy_version": "1.17.1",
+        "inference_dtype": "float16",
+        "max_memory_per_gpu_gib": 13.0,
+        "device_map_strategy": "balanced",
+        "hf_device_map": {
+          "model.embed_tokens": "0",
+          "model.layers.0": "0",
+          "model.layers.1": "0",
+          "model.layers.2": "0",
+          "model.layers.3": "0",
+          "model.layers.4": "0",
+          "model.layers.5": "0",
+          "model.layers.6": "0",
+          "model.layers.7": "0",
+          "model.layers.8": "0",
+          "model.layers.9": "0",
+          "model.layers.10": "0",
+          "model.layers.11": "0",
+          "model.layers.12": "0",
+          "model.layers.13": "0",
+          "model.layers.14": "0",
+          "model.layers.15": "0",
+          "model.layers.16": "1",
+          "model.layers.17": "1",
+          "model.layers.18": "1",
+          "model.layers.19": "1",
+          "model.layers.20": "1",
+          "model.layers.21": "1",
+          "model.layers.22": "1",
+          "model.layers.23": "1",
+          "model.layers.24": "1",
+          "model.layers.25": "1",
+          "model.layers.26": "1",
+          "model.layers.27": "1",
+          "model.layers.28": "1",
+          "model.layers.29": "1",
+          "model.layers.30": "1",
+          "model.layers.31": "1",
+          "model.norm": "1",
+          "model.rotary_emb": "1",
+          "lm_head": "1"
+        },
+        "cpu_offload_used": false,
+        "allocator_warmup_strategy": "disabled for 8B to avoid duplicate preallocation; weights load normally",
+        "placement_smoke": {
+          "status": "PASS",
+          "new_tokens": 3,
+          "elapsed_seconds": 2.5,
+          "research_rows_used": 0
+        },
+        "gpu_names": [
+          "Tesla T4",
+          "Tesla T4"
+        ],
+        "gpu_total_memory_bytes": [
+          15636037632,
+          15636037632
+        ],
+        "elapsed_seconds": 4208.96,
+        "training_started": false,
+        "research_adapter_created": false
+      }
+    },
+    "llama_3_1_8b_retain90": {
+      "status": "PASS",
+      "problems": [],
+      "model": {
+        "label": "Llama 3.1 8B retain90 oracle",
+        "family": "llama_3_1_8b",
+        "role": "retain90_oracle",
+        "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_retain90",
+        "revision": "f02956a9f25a18f38ad7808fbefb2f957347273e"
+      },
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.10446533164825642,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.08514305782138085,
+            0.1256571914626666
+          ],
+          "mean_truth_ratio": 0.9175083885189906,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.8526109546059015,
+            0.9843565028920712
+          ],
+          "mean_truth_ratio_score": 0.640740942137616,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.6172968485619378,
+            0.6618874391112048
+          ]
+        }
+      },
+      "runtime": {
+        "torch_version": "2.11.0+cu130",
+        "transformers_version": "5.22.1",
+        "accelerate_version": "1.15.0",
+        "rouge_score_version": "0.1.2",
+        "scipy_version": "1.17.1",
+        "inference_dtype": "float16",
+        "max_memory_per_gpu_gib": 13.0,
+        "device_map_strategy": "balanced",
+        "hf_device_map": {
+          "model.embed_tokens": "0",
+          "model.layers.0": "0",
+          "model.layers.1": "0",
+          "model.layers.2": "0",
+          "model.layers.3": "0",
+          "model.layers.4": "0",
+          "model.layers.5": "0",
+          "model.layers.6": "0",
+          "model.layers.7": "0",
+          "model.layers.8": "0",
+          "model.layers.9": "0",
+          "model.layers.10": "0",
+          "model.layers.11": "0",
+          "model.layers.12": "0",
+          "model.layers.13": "0",
+          "model.layers.14": "0",
+          "model.layers.15": "0",
+          "model.layers.16": "1",
+          "model.layers.17": "1",
+          "model.layers.18": "1",
+          "model.layers.19": "1",
+          "model.layers.20": "1",
+          "model.layers.21": "1",
+          "model.layers.22": "1",
+          "model.layers.23": "1",
+          "model.layers.24": "1",
+          "model.layers.25": "1",
+          "model.layers.26": "1",
+          "model.layers.27": "1",
+          "model.layers.28": "1",
+          "model.layers.29": "1",
+          "model.layers.30": "1",
+          "model.layers.31": "1",
+          "model.norm": "1",
+          "model.rotary_emb": "1",
+          "lm_head": "1"
+        },
+        "cpu_offload_used": false,
+        "allocator_warmup_strategy": "disabled for 8B to avoid duplicate preallocation; weights load normally",
+        "placement_smoke": {
+          "status": "PASS",
+          "new_tokens": 3,
+          "elapsed_seconds": 1.73,
+          "research_rows_used": 0
+        },
+        "gpu_names": [
+          "Tesla T4",
+          "Tesla T4"
+        ],
+        "gpu_total_memory_bytes": [
+          15636037632,
+          15636037632
+        ],
+        "elapsed_seconds": 423.93,
+        "training_started": false,
+        "research_adapter_created": false
+      }
+    }
+  }
+}

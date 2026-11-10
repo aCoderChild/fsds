@@ -1,0 +1,26 @@
+{
+  "dataset": "MQuAKE-original-mixed",
+  "source_sha256": "679b7cc3cc953e4be5f964fc10dea468ad442595a0572cb5c53fe8823e629295",
+  "source_sft": "/kaggle/input/mquake-real-01-source-translation-sft/full_sft_adapter",
+  "methods": [
+    "ga",
+    "gd",
+    "npo"
+  ],
+  "steps": {
+    "ga": 512,
+    "gd": 512,
+    "npo": 512
+  },
+  "lr": {
+    "ga": 1e-05,
+    "gd": 1e-05,
+    "npo": 2e-05
+  },
+  "beta": 0.1,
+  "retain_weight": 1.0,
+  "seed": 20261026,
+  "unlearning_language": "en",
+  "unlearning_probe": "first_hop_direct",
+  "evaluation_two_hops_seen_during_sft_for_forget_cases": false
+}

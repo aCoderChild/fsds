@@ -1,0 +1,84 @@
+{
+  "overall_status": "FAIL",
+  "research_diagnostic_gate_status": "FAIL_DIAGNOSTIC_GATES",
+  "research_interpretation": "Single-seed exploratory NPO-LoRA diagnostic. Artifact integrity may pass even when the prespecified scientific/utility gates fail.",
+  "problems": [
+    "expected 4000 per-forget loss trace rows, found 2000"
+  ],
+  "training_receipt_sha256": "2554688564313f4b68ce52944c5267d5e4a1ceab9edd1a5f1d250951e849fc18",
+  "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+  "objective_equivalence": {
+    "status": "PASS",
+    "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+    "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+    "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "torch_version": "2.11.0+cu130",
+    "npo_beta": 0.1,
+    "upstream_loss": 13.862943649291992,
+    "candidate_loss": 13.862943649291992,
+    "absolute_loss_difference": 0.0,
+    "maximum_parameter_gradient_difference": 5.960464477539063e-08,
+    "retain_nll_loss_difference": 0.0,
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+    "examples": 2,
+    "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL"
+  },
+  "verified_splits": {
+    "forget10": 400,
+    "retain90": 400,
+    "holdout10": 400,
+    "real_authors": 100,
+    "world_facts": 117
+  },
+  "primary_result": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_delta_b_minus_a": 0.08027557179308718,
+    "profile_cluster_bootstrap_95pct_ci": [
+      0.06828081315270661,
+      0.09211722051287935
+    ],
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "utility_gates": {
+    "retain90.answer_probability": {
+      "delta": -0.609747486697955,
+      "ci95": [
+        -0.6318482522641509,
+        -0.5876925999029162
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.34973822773297036,
+      "ci95": [
+        -0.37077881711965177,
+        -0.32852892989552385
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "holdout10.answer_probability": {
+      "delta": -0.03783390870372269,
+      "ci95": [
+        -0.053318232512651234,
+        -0.02306980674081647
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "model_utility.harmonic_mean": {
+      "baseline": 0.6701627348543244,
+      "npo": 0.5287491137875375,
+      "delta": -0.1414136210667869,
+      "noninferiority_margin": -0.05,
+      "pass": false,
+      "interval": null,
+      "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+    }
+  }
+}

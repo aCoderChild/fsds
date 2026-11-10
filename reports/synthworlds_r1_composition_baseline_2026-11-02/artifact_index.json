@@ -1,0 +1,188 @@
+{
+  "run_date": "2026-11-02",
+  "secret_handling": "HF_TOKEN is referenced only by Kaggle Secret label; no token values are present in these artifacts.",
+  "artifacts": [
+    {
+      "file": "adapters/composition_retain_only/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "8c6b7c1ce8039010b8fca6dc9c37ab754095a1e5abe2756d3a7f3445e6ea49da",
+      "top_level_keys": [
+        "alora_invocation_tokens",
+        "alpha_pattern",
+        "arrow_config",
+        "auto_mapping",
+        "base_model_name_or_path",
+        "bias",
+        "corda_config",
+        "ensure_weight_tying",
+        "eva_config",
+        "exclude_modules",
+        "fan_in_fan_out",
+        "inference_mode",
+        "init_lora_weights",
+        "layer_replication",
+        "layers_pattern",
+        "layers_to_transform",
+        "loftq_config",
+        "lora_alpha",
+        "lora_bias",
+        "lora_dropout",
+        "lora_ga_config",
+        "megatron_config",
+        "megatron_core",
+        "modules_to_save",
+        "monteclora_config",
+        "peft_type",
+        "peft_version",
+        "qalora_group_size",
+        "r",
+        "rank_pattern",
+        "revision",
+        "target_modules",
+        "target_parameters",
+        "task_type",
+        "trainable_token_indices",
+        "use_bdlora",
+        "use_dora",
+        "use_qalora",
+        "use_rslora",
+        "velora_config"
+      ]
+    },
+    {
+      "file": "adapters/composition_retain_only/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "70393f3dcfcf3dabdbd5f181f5f6e548b47e1707d3b8afdc1ba281e735b55a10"
+    },
+    {
+      "file": "adapters/composition_sft/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "d52f216b0967a1a98cbe640f06607c30f40f73f7cf1279e35578e763b74fcf38",
+      "top_level_keys": [
+        "alora_invocation_tokens",
+        "alpha_pattern",
+        "arrow_config",
+        "auto_mapping",
+        "base_model_name_or_path",
+        "bias",
+        "corda_config",
+        "ensure_weight_tying",
+        "eva_config",
+        "exclude_modules",
+        "fan_in_fan_out",
+        "inference_mode",
+        "init_lora_weights",
+        "layer_replication",
+        "layers_pattern",
+        "layers_to_transform",
+        "loftq_config",
+        "lora_alpha",
+        "lora_bias",
+        "lora_dropout",
+        "lora_ga_config",
+        "megatron_config",
+        "megatron_core",
+        "modules_to_save",
+        "monteclora_config",
+        "peft_type",
+        "peft_version",
+        "qalora_group_size",
+        "r",
+        "rank_pattern",
+        "revision",
+        "target_modules",
+        "target_parameters",
+        "task_type",
+        "trainable_token_indices",
+        "use_bdlora",
+        "use_dora",
+        "use_qalora",
+        "use_rslora",
+        "velora_config"
+      ]
+    },
+    {
+      "file": "adapters/composition_sft/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "71ecf567d636b7d516ab909954c7c2d42506d6afb2d2cc37a9997644e159e9a0"
+    },
+    {
+      "file": "case_metrics.jsonl",
+      "bytes": 756337,
+      "sha256": "3047beaffdc6f2f78424bcd35c896351a826e56f59ea184a1ee97a9ac57eb880",
+      "rows": 1935
+    },
+    {
+      "file": "composition_retain_only_run_manifest.json",
+      "bytes": 970,
+      "sha256": "1755952b193f5dc1438f2f5e543e7043c0beb5aca8f1d708dfa979066c4f9dc9",
+      "status": "TRAINING_COMPLETE",
+      "training_variant": "composition_retain_only",
+      "rows": 390,
+      "rows_by_split": {
+        "retain": 390
+      },
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "translation_review_mode": "AI_ONLY",
+      "human_translation_reviewed": false
+    },
+    {
+      "file": "composition_sft_run_manifest.json",
+      "bytes": 993,
+      "sha256": "934fd88cebd81eadc6d9531fa04c6a7506aaa07c771293bbea277c09300ebd31",
+      "status": "TRAINING_COMPLETE",
+      "training_variant": "composition_sft",
+      "rows": 1155,
+      "rows_by_split": {
+        "forget": 765,
+        "retain": 390
+      },
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "translation_review_mode": "AI_ONLY",
+      "human_translation_reviewed": false
+    },
+    {
+      "file": "cross_language_contrasts.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "entries": 0,
+      "meaning": "Empty because no unlearning run was performed."
+    },
+    {
+      "file": "diagnostic_report.md",
+      "bytes": 5663,
+      "sha256": "327b8fd6cb11f575a476d595ee785dab5dd23d1b836fd2a66ca1451361287711"
+    },
+    {
+      "file": "predictions.jsonl",
+      "bytes": 712949,
+      "sha256": "b20f473b74e92e0fc70a1d4156c9de1dd6d6615724bbc6d021a6acb5c115f383",
+      "rows": 3870,
+      "models": [
+        "pretrained",
+        "retain_only",
+        "sft"
+      ],
+      "generation_failures": 0
+    },
+    {
+      "file": "scored_predictions.jsonl",
+      "bytes": 1141866,
+      "sha256": "ca6adf25ecfdc0673a9aaf7cc53e14697152fba607b87f6bd542a5ab5ecdbc02",
+      "rows": 3870,
+      "models": [
+        "pretrained",
+        "retain_only",
+        "sft"
+      ],
+      "invalid_outputs": 0
+    },
+    {
+      "file": "summary.json",
+      "bytes": 29239,
+      "sha256": "2d6b9e7cf06d58d99f3a039d482380628e86cc296318a7d8714f73242fd3175f",
+      "json_type": "list",
+      "entries": 45
+    }
+  ]
+}

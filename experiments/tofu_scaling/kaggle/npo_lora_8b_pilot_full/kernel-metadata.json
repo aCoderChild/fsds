@@ -1,0 +1,13 @@
+{
+  "id": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08",
+  "title": "TOFU 8B NPO LoRA Pilot 2026-11-08",
+  "code_file": "tofu_8b_npo_lora_pilot.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08"
+  ]
+}

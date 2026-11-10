@@ -1,0 +1,10 @@
+{
+  "answers_present": false,
+  "batches": 27,
+  "files_hashed": true,
+  "protected_names_and_numbers_masked": true,
+  "request_rows": 799,
+  "source_rows_reconstructed_and_matched": true,
+  "status": "PASS_SOURCE_BOUND_MASKED_TRANSLATION_QUEUE",
+  "unique_row_ids": 799
+}

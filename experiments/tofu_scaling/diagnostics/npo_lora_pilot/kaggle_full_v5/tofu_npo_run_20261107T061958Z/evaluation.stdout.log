@@ -1,0 +1,439 @@
+Loading Llama 3.2 3B full with balanced; max_memory=12.5GiB per T4
+{'loaded_model': 'Llama 3.2 3B full', 'hf_device_map': {'model.embed_tokens': 0, 'lm_head': 0, 'model.layers.0': 0, 'model.layers.1': 0, 'model.layers.2': 0, 'model.layers.3': 0, 'model.layers.4': 0, 'model.layers.5': 0, 'model.layers.6': 0, 'model.layers.7': 0, 'model.layers.8': 0, 'model.layers.9': 0, 'model.layers.10': 0, 'model.layers.11': 0, 'model.layers.12': 0, 'model.layers.13': 0, 'model.layers.14': 0, 'model.layers.15': 1, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.norm': 1, 'model.rotary_emb': 1}, 'offloaded_devices': []}
+{'placement_smoke': {'status': 'PASS', 'new_tokens': 4, 'elapsed_seconds': 1.09, 'research_rows_used': 0}}
+Starting answer scoring: 6868 candidates
+Scored 100/6868 answer candidates
+Scored 200/6868 answer candidates
+Scored 300/6868 answer candidates
+Scored 400/6868 answer candidates
+Scored 500/6868 answer candidates
+Scored 600/6868 answer candidates
+Scored 700/6868 answer candidates
+Scored 800/6868 answer candidates
+Scored 900/6868 answer candidates
+Scored 1000/6868 answer candidates
+Scored 1100/6868 answer candidates
+Scored 1200/6868 answer candidates
+Scored 1300/6868 answer candidates
+Scored 1400/6868 answer candidates
+Scored 1500/6868 answer candidates
+Scored 1600/6868 answer candidates
+Scored 1700/6868 answer candidates
+Scored 1800/6868 answer candidates
+Scored 1900/6868 answer candidates
+Scored 2000/6868 answer candidates
+Scored 2100/6868 answer candidates
+Scored 2200/6868 answer candidates
+Scored 2300/6868 answer candidates
+Scored 2400/6868 answer candidates
+Scored 2500/6868 answer candidates
+Scored 2600/6868 answer candidates
+Scored 2700/6868 answer candidates
+Scored 2800/6868 answer candidates
+Scored 2900/6868 answer candidates
+Scored 3000/6868 answer candidates
+Scored 3100/6868 answer candidates
+Scored 3200/6868 answer candidates
+Scored 3300/6868 answer candidates
+Scored 3400/6868 answer candidates
+Scored 3500/6868 answer candidates
+Scored 3600/6868 answer candidates
+Scored 3700/6868 answer candidates
+Scored 3800/6868 answer candidates
+Scored 3900/6868 answer candidates
+Scored 4000/6868 answer candidates
+Scored 4100/6868 answer candidates
+Scored 4200/6868 answer candidates
+Scored 4300/6868 answer candidates
+Scored 4400/6868 answer candidates
+Scored 4500/6868 answer candidates
+Scored 4600/6868 answer candidates
+Scored 4700/6868 answer candidates
+Scored 4800/6868 answer candidates
+Scored 4900/6868 answer candidates
+Scored 5000/6868 answer candidates
+Scored 5100/6868 answer candidates
+Scored 5200/6868 answer candidates
+Scored 5300/6868 answer candidates
+Scored 5400/6868 answer candidates
+Scored 5500/6868 answer candidates
+Scored 5600/6868 answer candidates
+Scored 5700/6868 answer candidates
+Scored 5800/6868 answer candidates
+Scored 5900/6868 answer candidates
+Scored 6000/6868 answer candidates
+Scored 6100/6868 answer candidates
+Scored 6200/6868 answer candidates
+Scored 6300/6868 answer candidates
+Scored 6400/6868 answer candidates
+Scored 6500/6868 answer candidates
+Scored 6600/6868 answer candidates
+Scored 6700/6868 answer candidates
+Scored 6800/6868 answer candidates
+Scored 6868/6868 answer candidates
+Starting greedy generation: 1417 prompts
+Generated 25/1417 answers
+Generated 50/1417 answers
+Generated 75/1417 answers
+Generated 100/1417 answers
+Generated 125/1417 answers
+Generated 150/1417 answers
+Generated 175/1417 answers
+Generated 200/1417 answers
+Generated 225/1417 answers
+Generated 250/1417 answers
+Generated 275/1417 answers
+Generated 300/1417 answers
+Generated 325/1417 answers
+Generated 350/1417 answers
+Generated 375/1417 answers
+Generated 400/1417 answers
+Generated 425/1417 answers
+Generated 450/1417 answers
+Generated 475/1417 answers
+Generated 500/1417 answers
+Generated 525/1417 answers
+Generated 550/1417 answers
+Generated 575/1417 answers
+Generated 600/1417 answers
+Generated 625/1417 answers
+Generated 650/1417 answers
+Generated 675/1417 answers
+Generated 700/1417 answers
+Generated 725/1417 answers
+Generated 750/1417 answers
+Generated 775/1417 answers
+Generated 800/1417 answers
+Generated 825/1417 answers
+Generated 850/1417 answers
+Generated 875/1417 answers
+Generated 900/1417 answers
+Generated 925/1417 answers
+Generated 950/1417 answers
+Generated 975/1417 answers
+Generated 1000/1417 answers
+Generated 1025/1417 answers
+Generated 1050/1417 answers
+Generated 1075/1417 answers
+Generated 1100/1417 answers
+Generated 1125/1417 answers
+Generated 1150/1417 answers
+Generated 1175/1417 answers
+Generated 1200/1417 answers
+Generated 1225/1417 answers
+Generated 1250/1417 answers
+Generated 1275/1417 answers
+Generated 1300/1417 answers
+Generated 1325/1417 answers
+Generated 1350/1417 answers
+Generated 1375/1417 answers
+Generated 1400/1417 answers
+Generated 1417/1417 answers
+{
+  "eval_status": "PASS_OFFICIAL_TOFU_ADAPTER_EVAL",
+  "comparison_status": "FAIL_DIAGNOSTIC_GATES",
+  "comparison": {
+    "status": "FAIL_DIAGNOSTIC_GATES",
+    "interpretation": "One-seed LoRA-NPO diagnostic only; not a full-parameter NPO reproduction or a confirmatory result.",
+    "primary_outcome": "Forget10 Truth Ratio score (higher means perturbed and paraphrased answer likelihoods are less distinguishable; oracle proximity is assessed separately).",
+    "primary_npo_minus_full": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_delta_b_minus_a": 0.08027557179308718,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.06828081315270661,
+        0.09211722051287935
+      ],
+      "bootstrap_draws": 5000,
+      "bootstrap_seed": 42
+    },
+    "forget10_npo_minus_oracle": {
+      "npo_minus_oracle.answer_probability": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": 0.12409390140768214,
+        "profile_cluster_bootstrap_95pct_ci": [
+          0.08902704137368761,
+          0.15686524300804178
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_oracle.truth_ratio_score": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.09062277705696185,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.10889175743984031,
+          -0.07383348362958364
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      }
+    },
+    "cluster_bootstrap_deltas": {
+      "forget10": {
+        "npo_minus_full.answer_probability": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.695639073059042,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.7165733346945635,
+            -0.6749648352374362
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_oracle.answer_probability": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": 0.12409390140768214,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.08902704137368761,
+            0.15686524300804178
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_full.truth_ratio_score": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": 0.08027557179308718,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.06828081315270661,
+            0.09211722051287935
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_oracle.truth_ratio_score": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.09062277705696185,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.10889175743984031,
+            -0.07383348362958364
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_full.rougeL_recall": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.4159458261712126,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.44990318981736216,
+            -0.37722868954888406
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      },
+      "retain90": {
+        "npo_minus_full.answer_probability": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.609747486697955,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.6318482522641509,
+            -0.5876925999029162
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_full.truth_ratio_score": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.03913261362661942,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.04840935526582876,
+            -0.03011159348838965
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_full.rougeL_recall": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.34973822773297036,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.37077881711965177,
+            -0.32852892989552385
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      },
+      "holdout10": {
+        "npo_minus_full.answer_probability": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": -0.03783390870372269,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.053318232512651234,
+            -0.02306980674081647
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "npo_minus_full.rougeL_recall": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_delta_b_minus_a": 0.07035925612951885,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.05061675592935611,
+            0.08853751350812657
+          ],
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      }
+    },
+    "utility_noninferiority_gates": {
+      "retain90.answer_probability": {
+        "delta": -0.609747486697955,
+        "ci95": [
+          -0.6318482522641509,
+          -0.5876925999029162
+        ],
+        "noninferiority_margin": -0.05,
+        "pass": false
+      },
+      "retain90.rougeL_recall": {
+        "delta": -0.34973822773297036,
+        "ci95": [
+          -0.37077881711965177,
+          -0.32852892989552385
+        ],
+        "noninferiority_margin": -0.05,
+        "pass": false
+      },
+      "holdout10.answer_probability": {
+        "delta": -0.03783390870372269,
+        "ci95": [
+          -0.053318232512651234,
+          -0.02306980674081647
+        ],
+        "noninferiority_margin": -0.05,
+        "pass": false
+      },
+      "model_utility.harmonic_mean": {
+        "baseline": 0.6701627348543244,
+        "npo": 0.5287491137875375,
+        "delta": -0.1414136210667869,
+        "noninferiority_margin": -0.05,
+        "pass": false,
+        "interval": null,
+        "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+      }
+    },
+    "primary_forget_gate_pass": true,
+    "all_utility_gates_pass": false,
+    "npo_model_utility_harmonic_mean": 0.5287491137875375,
+    "baseline_model_utility_harmonic_mean": 0.6701627348543244,
+    "forget10_summary": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_answer_probability": 0.24928898503792843,
+      "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+        0.23098542617151493,
+        0.2676420914816311
+      ],
+      "mean_rougeL_recall": 0.49815690923872324,
+      "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+        0.47596261213079105,
+        0.5206415992387876
+      ],
+      "mean_truth_ratio": 0.5846932355737454,
+      "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+        0.5545851486081321,
+        0.6158196253090182
+      ],
+      "mean_truth_ratio_score": 0.5530463873204514,
+      "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+        0.5303031460082752,
+        0.5747202012766209
+      ]
+    },
+    "retain90_summary": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_answer_probability": 0.326939061837089,
+      "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+        0.30670650294483687,
+        0.3471331807358126
+      ],
+      "mean_rougeL_recall": 0.5530701185632065,
+      "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+        0.5280705123474267,
+        0.5759791505186029
+      ],
+      "mean_truth_ratio": 0.5023760219242757,
+      "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+        0.4832845002413048,
+        0.5197051111131599
+      ],
+      "mean_truth_ratio_score": 0.5021472210182903,
+      "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+        0.48607017867122726,
+        0.5199989441247257
+      ]
+    },
+    "holdout10_summary": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_answer_probability": 0.10829588697086351,
+      "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+        0.1020030635821172,
+        0.11459989871406494
+      ],
+      "mean_rougeL_recall": 0.4477260665017285,
+      "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+        0.4299659962765101,
+        0.464506691863221
+      ]
+    },
+    "bootstrap": {
+      "draws": 5000,
+      "seed": 42,
+      "unit": "profile block, paired by source row"
+    },
+    "model_family": "llama_3_2_3b",
+    "seed": 42,
+    "base_checkpoint": {
+      "label": "Llama 3.2 3B full",
+      "family": "llama_3_2_3b",
+      "role": "full",
+      "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+      "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+    },
+    "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "training_receipt": "training_receipt.json",
+    "training_receipt_sha256": "2554688564313f4b68ce52944c5267d5e4a1ceab9edd1a5f1d250951e849fc18",
+    "adapter_eval_receipt": "llama_3_2_3b_npo_lora_seed42_official_eval.json"
+  }
+}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:14<00:14, 14.58s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:37<00:00, 19.54s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:37<00:00, 18.80s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:01<05:13,  1.24s/it]
+Loading weights:  26%|██▌       | 66/254 [00:01<00:02, 65.73it/s]
+Loading weights:  37%|███▋      | 95/254 [00:01<00:02, 70.84it/s]
+Loading weights:  45%|████▌     | 115/254 [00:01<00:01, 75.41it/s]
+Loading weights:  52%|█████▏    | 131/254 [00:02<00:01, 74.34it/s]
+Loading weights:  58%|█████▊    | 147/254 [00:02<00:01, 82.72it/s]
+Loading weights:  63%|██████▎   | 160/254 [00:02<00:01, 81.17it/s]
+Loading weights:  69%|██████▊   | 174/254 [00:02<00:00, 84.22it/s]
+Loading weights:  73%|███████▎  | 185/254 [00:02<00:00, 82.54it/s]
+Loading weights:  77%|███████▋  | 195/254 [00:02<00:00, 84.89it/s]
+Loading weights:  81%|████████  | 205/254 [00:03<00:00, 81.50it/s]
+Loading weights:  86%|████████▌ | 219/254 [00:03<00:00, 80.60it/s]
+Loading weights:  90%|█████████ | 229/254 [00:03<00:00, 80.72it/s]
+Loading weights:  94%|█████████▎| 238/254 [00:03<00:00, 81.05it/s]
+Loading weights: 100%|██████████| 254/254 [00:03<00:00, 72.79it/s]
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.

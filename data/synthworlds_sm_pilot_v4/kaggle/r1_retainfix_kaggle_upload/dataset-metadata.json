@@ -1,0 +1,10 @@
+{
+  "title": "SynthWorlds-SM R1 Retrainfix v4",
+  "id": "bunnoob2005/synthworlds-sm-r1-retrainfix-v4",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-4.0"
+    }
+  ],
+  "description": "Private exploratory follow-up preserving the v3 evaluation split and adding 85 source-verified Type-B three-edge train-only chains. Derived from kenqgu/SynthWorlds (CC-BY-4.0); NLLB translations are CC-BY-NC-4.0. AI-only automated consistency checks; no fluent human review. Research pilot; not human-validated multilingual data. New private dataset slug for the retain-sampler-corrected rerun; preserves prior v3/v4 datasets."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "FAIL_HF_ACCESS_PREFLIGHT",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "scope": "HF_ACCESS_PREFLIGHT_ONLY",
+  "gpu_required": false,
+  "weights_downloaded": false,
+  "research_data_loaded": false,
+  "training_started": false,
+  "failed_stage": "retrieve_kaggle_secret",
+  "error_type": "ConnectionError",
+  "interpretation": "No training or model-weight download was attempted."
+}

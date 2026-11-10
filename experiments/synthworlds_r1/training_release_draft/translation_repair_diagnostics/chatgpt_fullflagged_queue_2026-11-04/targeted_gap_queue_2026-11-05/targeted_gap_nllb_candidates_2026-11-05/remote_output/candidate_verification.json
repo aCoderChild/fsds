@@ -1,0 +1,55 @@
+{
+  "status": "VERIFIED_AI_ONLY_NLLB_CANDIDATES_QUARANTINED",
+  "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+  "output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+  "submitted_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+  "pulled_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+  "rows": 148,
+  "counts": {
+    "blocked": 125,
+    "candidate_rows": 24,
+    "reviewed": 23,
+    "semantic_pass": 4,
+    "fluency_pass": 22,
+    "joint_pass": 3
+  },
+  "counts_by_language": {
+    "fr": {
+      "candidate_rows": 12,
+      "reviewed": 12,
+      "semantic_pass": 0,
+      "fluency_pass": 12,
+      "joint_pass": 0
+    },
+    "de": {
+      "candidate_rows": 10,
+      "reviewed": 9,
+      "semantic_pass": 4,
+      "fluency_pass": 8,
+      "joint_pass": 3,
+      "blocked": 2
+    },
+    "hi": {
+      "blocked": 52
+    },
+    "th": {
+      "blocked": 71,
+      "candidate_rows": 2,
+      "reviewed": 2,
+      "semantic_pass": 0,
+      "fluency_pass": 2,
+      "joint_pass": 0
+    }
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "human_translation_reviewed": false,
+  "answers_or_split_labels_included": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "interpretation": "AI-only alternate candidate screen; no translation is certified or admitted to the training release."
+}

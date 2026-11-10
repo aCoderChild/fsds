@@ -1,0 +1,31 @@
+[{"stream_name":"stderr","time":16.853405052,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.853452555,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.853458716,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.853462489,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.853466211,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":57.825026412,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":57.8250872,"data":"I0000 00:00:1793726700.627660       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":120.419211404,"data":"\rFetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rFetching 3 files:  33%|███▎      | 1/3 [00:57\u003c01:55, 57.72s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:57\u003c00:00, 19.26s/it]\n"}
+,{"stream_name":"stderr","time":154.118578546,"data":"\rLoading checkpoint shards:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  33%|███▎      | 1/3 [00:06\u003c00:12,  6.12s/it]\rLoading checkpoint shards:  67%|██████▋   | 2/3 [00:13\u003c00:07,  7.04s/it]\rLoading checkpoint shards: 100%|██████████| 3/3 [00:22\u003c00:00,  8.02s/it]\rLoading checkpoint shards: 100%|██████████| 3/3 [00:22\u003c00:00,  7.66s/it]\n"}
+,{"stream_name":"stdout","time":161.409279508,"data":"Reviewed 1 / 15\n"}
+,{"stream_name":"stdout","time":166.069545916,"data":"Reviewed 2 / 15\n"}
+,{"stream_name":"stdout","time":170.291546847,"data":"Reviewed 3 / 15\n"}
+,{"stream_name":"stdout","time":175.292822927,"data":"Reviewed 4 / 15\n"}
+,{"stream_name":"stdout","time":181.703413541,"data":"Reviewed 5 / 15\n"}
+,{"stream_name":"stdout","time":188.749736112,"data":"Reviewed 6 / 15\n"}
+,{"stream_name":"stdout","time":194.982282616,"data":"Reviewed 7 / 15\n"}
+,{"stream_name":"stdout","time":199.997496721,"data":"Reviewed 8 / 15\n"}
+,{"stream_name":"stdout","time":205.223961604,"data":"Reviewed 9 / 15\n"}
+,{"stream_name":"stdout","time":210.832670809,"data":"Reviewed 10 / 15\n"}
+,{"stream_name":"stdout","time":216.512139703,"data":"Reviewed 11 / 15\n"}
+,{"stream_name":"stdout","time":224.947800873,"data":"Reviewed 12 / 15\n"}
+,{"stream_name":"stdout","time":230.76590182,"data":"Reviewed 13 / 15\n"}
+,{"stream_name":"stdout","time":235.829780477,"data":"Reviewed 14 / 15\n"}
+,{"stream_name":"stdout","time":242.499055219,"data":"Reviewed 15 / 15\n"}
+,{"stream_name":"stderr","time":249.758525128,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":249.758551799,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":250.05385657,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":250.05389728,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":250.836704293,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":251.590126391,"data":"[NbConvertApp] Writing 290139 bytes to __results__.html\n"}
+]

@@ -1,0 +1,7 @@
+Translate each English question into natural French. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"FR0161","question_en":"Which award did ZXQENTAQXZ receive?"}
+{"row_id":"FR0162","question_en":"Which award did the family of ZXQENTAQXZ's child receive?"}
+{"row_id":"FR0163","question_en":"Which noble title does ZXQENTAQXZ hold?"}
+{"row_id":"FR0164","question_en":"Where did the father of the godparent of ZXQENTAQXZ die?"}

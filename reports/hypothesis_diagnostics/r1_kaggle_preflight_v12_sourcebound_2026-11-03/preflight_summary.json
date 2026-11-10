@@ -1,0 +1,44 @@
+{
+  "kaggle_kernel": "bunnoob2005/experiments",
+  "kernel_version": 12,
+  "kernel_status": "COMPLETE",
+  "run_type": "preflight_only",
+  "project_root": "/kaggle/input/datasets/bunnoob2005/synthworlds-sm-sft-pilot-v3",
+  "dataset_sources": [
+    "bunnoob2005/synthworlds-sm-sft-pilot-v3"
+  ],
+  "cuda_available": true,
+  "gpu": "Tesla T4",
+  "dataset_project_discovery": "PASS",
+  "training_package_preflight": {
+    "status": "READY_TO_TRAIN",
+    "training_started": false,
+    "train_flag": false,
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "errors": [],
+    "translation_review_mode": "AI_ONLY",
+    "human_translation_reviewed": false,
+    "training_packages": {
+      "torch": true,
+      "transformers": true,
+      "peft": true,
+      "accelerate": true,
+      "numpy": true
+    },
+    "training_packages_ready": true,
+    "hf_token_present": false,
+    "note": "Preflight never downloads weights or starts training. The approved corpus uses user-authorized AI-only translation review; no human fluency review was performed."
+  },
+  "combined_training_gate": "BLOCKED",
+  "hf_token_present": false,
+  "ai_translation_review": "AI_ONLY_REVIEWED_COMPLETE",
+  "human_translation_review": "NOT_PERFORMED",
+  "sft_started": false,
+  "retain_only_started": false,
+  "unlearning_started": false,
+  "evaluation_started": false,
+  "traceback_or_exception": false,
+  "pip_dependency_warning": true,
+  "log_sha256": "03ddd345f4a48da7982a347a34fc4770ea3042722f3b78c115dcff081dfcf310",
+  "remote_notebook_sha256": "3c98b2773c56f63e83d55f1d9b009ac5c417f13d4a003aa0805fbe85c18cf85d"
+}

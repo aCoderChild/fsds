@@ -1,0 +1,243 @@
+{
+  "observed_at_utc": "2026-11-05T15:36:24.419920+00:00",
+  "status": "PASS_SCOPED_LIVE_INVENTORY",
+  "scope": "All Kaggle kernels visible to the configured account in the retrieved pages whose refs contain SynthWorlds R1 naming markers, plus the legacy experiments alias. Status is Kaggle job state only; completed jobs require output-receipt inspection to determine whether research training occurred.",
+  "account": "bunnoob2005",
+  "listing_pages": 3,
+  "visible_kernels_scanned": 106,
+  "related_kernels": 38,
+  "status_counts": {
+    "KernelWorkerStatus.COMPLETE": 36,
+    "KernelWorkerStatus.ERROR": 2
+  },
+  "kernels": {
+    "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05": {
+      "title": "SW Gap187 NLLB Segmented Retry 2026-11-05",
+      "last_run_time": "2026-11-05 06:19:49.700000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05": {
+      "title": "SW Gap187 NLLB 148 Candidate Review 2026-11-05",
+      "last_run_time": "2026-11-05 05:54:38.417000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-gap187-alias-retry-2026-11-05": {
+      "title": "SW Gap187 Alias Retry 2026-11-05",
+      "last_run_time": "2026-11-05 05:30:36.143000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04": {
+      "title": "SynthWorlds Llama31 8B Runtime Smoke 2026-11-04",
+      "last_run_time": "2026-11-05 03:59:44.563000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-gap187-candidate-review-2026-11-05": {
+      "title": "SW Gap187 Candidate Review 2026-11-05",
+      "last_run_time": "2026-11-05 02:35:51.460000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-third-key-retry-2026-11-05": {
+      "title": "sw-third-key-retry-2026-11-05",
+      "last_run_time": "2026-11-04 18:35:35.620000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-third-qwen-retry-2026-11-05": {
+      "title": "sw-third-qwen-retry-2026-11-05",
+      "last_run_time": "2026-11-04 18:24:43.597000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/sw-third-marker-retry-2026-11-05": {
+      "title": "sw-third-marker-retry-2026-11-05",
+      "last_run_time": "2026-11-04 18:14:51.113000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04": {
+      "title": "Synthworlds R1 Direct Same31 Review 2026 11 04",
+      "last_run_time": "2026-11-04 17:00:54.407000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04": {
+      "title": "SynthWorlds R1 Qwen retry truncated 3 2026-11-04",
+      "last_run_time": "2026-11-04 16:49:41.443000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-r1-blocked-qwen-recheck-2026-11-04": {
+      "title": "SynthWorlds R1 blocked Qwen recheck 2026-11-04",
+      "last_run_time": "2026-11-04 16:33:23.723000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-r1-placeholder-alias-probe-2026-11-04": {
+      "title": "SynthWorlds R1 placeholder alias probe 2026-11-04",
+      "last_run_time": "2026-11-04 16:14:49.013000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04": {
+      "title": "SWSM Qwen14 Direct Paired Calibration 2026-11-04",
+      "last_run_time": "2026-11-04 14:46:13.963000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/swsm-qwen3-pilot-paired-review-2026-11-04": {
+      "title": "SWSM Qwen3 Pilot Paired Review 2026-11-04",
+      "last_run_time": "2026-11-04 14:20:35.337000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04": {
+      "title": "SynthWorlds Qwen3 Translation Pilot 2026-11-04",
+      "last_run_time": "2026-11-04 13:38:36.263000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-llama31-8b-access-probe-2026-11-04": {
+      "title": "SynthWorlds Llama31 8B Access Probe 2026-11-04",
+      "last_run_time": "2026-11-04 08:41:10.493000",
+      "status": "KernelWorkerStatus.ERROR",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-mistral-cross-review-2026-11-04": {
+      "title": "SynthWorlds Mistral Cross Review 2026-11-04",
+      "last_run_time": "2026-11-04 07:55:26.490000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-third-candidate-review-2026-11-04": {
+      "title": "SynthWorlds Third Candidate Review 2026-11-04",
+      "last_run_time": "2026-11-04 07:08:26.750000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/experiments": {
+      "title": "experiments",
+      "last_run_time": "2026-11-04 06:52:23.007000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-r1-tg-complement-review-v1": {
+      "title": "SynthWorlds R1 TG Complement Review v1",
+      "last_run_time": "2026-11-04 04:14:04.510000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-translation-repair-retry-v1": {
+      "title": "SynthWorlds Translation Repair Retry v1",
+      "last_run_time": "2026-11-04 03:06:04.060000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-ai-only-translation-repair-review": {
+      "title": "SynthWorlds AI-only Translation Repair Review",
+      "last_run_time": "2026-11-03 23:52:57.173000",
+      "status": "KernelWorkerStatus.ERROR",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen14b-positive-controls-2026-11-04": {
+      "title": "SynthWorlds Qwen14B Positive Controls 2026-11-04",
+      "last_run_time": "2026-11-03 23:17:16.453000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen14b-pipeline-controls-2026-11-04": {
+      "title": "SynthWorlds Qwen14B Pipeline Controls 2026-11-04",
+      "last_run_time": "2026-11-03 21:41:44.273000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen14b-hard-negative-2026-11-04": {
+      "title": "SynthWorlds Qwen14B Hard Negative 2026-11-04",
+      "last_run_time": "2026-11-03 21:11:12.977000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen14b-negative-control-2026-11-04": {
+      "title": "SynthWorlds Qwen14B Negative Control 2026-11-04",
+      "last_run_time": "2026-11-03 20:50:23.890000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-chatgpt-cal32-mistral-cross-review-9": {
+      "title": "SynthWorlds ChatGPT Cal32 Mistral Cross Review 9",
+      "last_run_time": "2026-11-03 19:49:02.937000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-chatgpt-translation-32-review": {
+      "title": "SynthWorlds ChatGPT translation 32 review",
+      "last_run_time": "2026-11-03 19:14:32.500000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen14-unresolved-review": {
+      "title": "SynthWorlds Qwen14 unresolved review",
+      "last_run_time": "2026-11-03 17:52:44.237000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-nllb600-repair-review": {
+      "title": "SynthWorlds NLLB600 repair review",
+      "last_run_time": "2026-11-03 17:39:29.773000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-nllb600-flagged-repairs": {
+      "title": "SynthWorlds NLLB600 flagged repairs",
+      "last_run_time": "2026-11-03 17:36:00.080000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-qwen-negative-control": {
+      "title": "SynthWorlds Qwen negative control",
+      "last_run_time": "2026-11-03 17:29:47.747000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-mistral-negative-control": {
+      "title": "SynthWorlds Mistral negative control",
+      "last_run_time": "2026-11-03 17:23:59.513000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-mistral-review-probe": {
+      "title": "SynthWorlds Mistral review probe",
+      "last_run_time": "2026-11-03 17:18:18.473000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-full-candidate-review": {
+      "title": "SynthWorlds full candidate review",
+      "last_run_time": "2026-11-03 16:27:09.627000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-full-nllb-candidate-draft": {
+      "title": "SynthWorlds full NLLB candidate draft",
+      "last_run_time": "2026-11-03 16:20:50.060000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-assistant-backtranslation-probe": {
+      "title": "SynthWorlds assistant backtranslation probe",
+      "last_run_time": "2026-11-03 16:15:53.080000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    },
+    "bunnoob2005/synthworlds-assistant-review-probe": {
+      "title": "SynthWorlds assistant review probe",
+      "last_run_time": "2026-11-03 16:06:02.727000",
+      "status": "KernelWorkerStatus.COMPLETE",
+      "exit_code": 0
+    }
+  }
+}

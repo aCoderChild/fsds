@@ -1,0 +1,842 @@
+{
+  "excluded_rows": 92,
+  "excluded_rows_by_language": {
+    "de": 8,
+    "fr": 2,
+    "hi": 41,
+    "th": 41
+  },
+  "exclusions": [
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0025-qa-sm:r2",
+      "source_review_key": "R0015"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0156-qa-sm:r1",
+      "source_review_key": "R0092"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0025-qa-sm:r2",
+      "source_review_key": "R0175"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0043-qa-sm:r2",
+      "source_review_key": "R0182"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0067-qa-sm:r1",
+      "source_review_key": "R0197"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0148-qa-sm:r2",
+      "source_review_key": "R0245"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0156-qa-sm:r1",
+      "source_review_key": "R0247"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0183-qa-sm:r1",
+      "source_review_key": "R0265"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "source_review_key": "R0286"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "source_review_key": "R0295"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0001-qa-sm:r2",
+      "source_review_key": "R0344"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0026-qa-sm:r1",
+      "source_review_key": "R0354"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0026-qa-sm:r2",
+      "source_review_key": "R0355"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0029-qa-sm:r2",
+      "source_review_key": "R0358"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0045-qa-sm:r1",
+      "source_review_key": "R0366"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0051-qa-sm:r2",
+      "source_review_key": "R0371"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0062-qa-sm:r2",
+      "source_review_key": "R0376"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0066-qa-sm:r1",
+      "source_review_key": "R0377"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0067-qa-sm:r1",
+      "source_review_key": "R0378"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0072-qa-sm:r2",
+      "source_review_key": "R0383"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0076-qa-sm:r2",
+      "source_review_key": "R0386"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0081-qa-sm:r2",
+      "source_review_key": "R0389"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0086-qa-sm:r1",
+      "source_review_key": "R0392"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0101-qa-sm:r2",
+      "source_review_key": "R0402"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0105-qa-sm:r2",
+      "source_review_key": "R0403"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0114-qa-sm:r1",
+      "source_review_key": "R0406"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0124-qa-sm:r1",
+      "source_review_key": "R0411"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0132-qa-sm:r2",
+      "source_review_key": "R0418"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0141-qa-sm:r2",
+      "source_review_key": "R0422"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0149-qa-sm:r1",
+      "source_review_key": "R0424"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0156-qa-sm:r1",
+      "source_review_key": "R0427"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0157-qa-sm:r1",
+      "source_review_key": "R0428"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0167-qa-sm:r2",
+      "source_review_key": "R0438"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0169-qa-sm:r2",
+      "source_review_key": "R0442"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0180-qa-sm:r2",
+      "source_review_key": "R0450"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0187-qa-sm:r2",
+      "source_review_key": "R0455"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0189-qa-sm:r1",
+      "source_review_key": "R0456"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0197-qa-sm:r1",
+      "source_review_key": "R0462"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "source_review_key": "R0468"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0209-qa-sm:multi",
+      "source_review_key": "R0470"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "source_review_key": "R0476"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "source_review_key": "R0482"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0242-qa-sm:q2",
+      "source_review_key": "R0486"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "source_review_key": "R0496"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0284-qa-sm:q2",
+      "source_review_key": "R0498"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "source_review_key": "R0501"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0305-qa-sm:q2",
+      "source_review_key": "R0512"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "source_review_key": "R0513"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "source_review_key": "R0515"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0373-qa-sm:q1",
+      "source_review_key": "R0536"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "source_review_key": "R0540"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0001-qa-sm:r2",
+      "source_review_key": "R0544"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0004-qa-sm:r1",
+      "source_review_key": "R0545"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0004-qa-sm:r2",
+      "source_review_key": "R0546"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0015-qa-sm:r2",
+      "source_review_key": "R0555"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0021-qa-sm:r2",
+      "source_review_key": "R0558"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0028-qa-sm:r2",
+      "source_review_key": "R0566"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0034-qa-sm:r2",
+      "source_review_key": "R0571"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0039-qa-sm:r1",
+      "source_review_key": "R0572"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0048-qa-sm:r1",
+      "source_review_key": "R0582"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0050-qa-sm:r2",
+      "source_review_key": "R0585"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0053-qa-sm:r1",
+      "source_review_key": "R0588"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0097-qa-sm:r2",
+      "source_review_key": "R0623"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0099-qa-sm:r2",
+      "source_review_key": "R0624"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0125-qa-sm:r2",
+      "source_review_key": "R0647"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0128-qa-sm:r1",
+      "source_review_key": "R0649"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0132-qa-sm:r1",
+      "source_review_key": "R0652"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0132-qa-sm:r2",
+      "source_review_key": "R0653"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0149-qa-sm:r1",
+      "source_review_key": "R0660"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0152-qa-sm:r2",
+      "source_review_key": "R0662"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0154-qa-sm:r1",
+      "source_review_key": "R0663"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0164-qa-sm:r1",
+      "source_review_key": "R0673"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0165-qa-sm:r2",
+      "source_review_key": "R0674"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0184-qa-sm:r2",
+      "source_review_key": "R0690"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0187-qa-sm:r1",
+      "source_review_key": "R0692"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0195-qa-sm:r1",
+      "source_review_key": "R0696"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0196-qa-sm:r1",
+      "source_review_key": "R0697"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0218-qa-sm:q1",
+      "source_review_key": "R0710"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "source_review_key": "R0714"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "source_review_key": "R0717"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0238-qa-sm:q1",
+      "source_review_key": "R0718"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0242-qa-sm:q2",
+      "source_review_key": "R0725"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0246-qa-sm:multi",
+      "source_review_key": "R0729"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0251-qa-sm:q2",
+      "source_review_key": "R0732"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "source_review_key": "R0741"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "source_review_key": "R0742"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0335-qa-sm:multi",
+      "source_review_key": "R0774"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0363-qa-sm:multi",
+      "source_review_key": "R0785"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0373-qa-sm:multi",
+      "source_review_key": "R0789"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "source_review_key": "R0795"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0398-qa-sm:multi",
+      "source_review_key": "R0797"
+    },
+    {
+      "failed_checks": [
+        "protected_names_preserved"
+      ],
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0398-qa-sm:q1",
+      "source_review_key": "R0798"
+    }
+  ],
+  "expected_preliminary_complement_rows": 167,
+  "status": "PRELIMINARY_CANDIDATES_EXCLUDED_BY_RECOMPUTED_DETERMINISTIC_CHECKS",
+  "training_eligible": false
+}

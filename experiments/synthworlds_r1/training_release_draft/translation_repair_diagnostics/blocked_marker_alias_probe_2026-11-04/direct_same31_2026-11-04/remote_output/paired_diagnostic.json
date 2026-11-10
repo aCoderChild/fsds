@@ -1,0 +1,350 @@
+{
+  "verification": {
+    "status": "VERIFIED_MATCHED_DIRECT_REVIEW_DIAGNOSTIC_ONLY",
+    "rows": 31,
+    "direct_counts": {
+      "PASS": 30,
+      "FLAG": 1
+    },
+    "backtranslation_to_direct_matrix": {
+      "FLAG->FLAG": 1,
+      "FLAG->PASS": 18,
+      "PASS->PASS": 12
+    },
+    "semantic_agreement": {
+      "DISAGREE": 19,
+      "AGREE": 12
+    },
+    "fluency_agreement": {
+      "AGREE": 30,
+      "DISAGREE": 1
+    },
+    "overall_pass_flag_agreement": 13,
+    "formerly_flagged_direct_pass": 18,
+    "formerly_pass_direct_flag": 0,
+    "model_id": "Qwen/Qwen2.5-14B-Instruct",
+    "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "input_sha256": "14c79c8dbb4da0c95128521954c8695174c53cad0983b1af934e40b6ffe28310",
+    "parent_overlay_sha256": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+    "submitted_script_sha256": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+    "pulled_script_sha256": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+    "output_sha256": "db424d1c0e2762c2069ac4c097b68aa31ade30fce6e54570938b3ff855b6a236",
+    "answers_or_splits_sent": false,
+    "human_translation_reviewed": false,
+    "release_approved": false,
+    "training_eligible": false,
+    "interpretation": "Agreement or disagreement measures sensitivity to reviewer presentation; neither screen is human-gold and this cannot establish which judgment is correct."
+  },
+  "rows": [
+    {
+      "review_key": "R0011",
+      "language": "fr",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent French."
+    },
+    {
+      "review_key": "R0036",
+      "language": "fr",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent French."
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent German."
+    },
+    {
+      "review_key": "R0206",
+      "language": "de",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Correct translation preserves meaning and is fluent."
+    },
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent German."
+    },
+    {
+      "review_key": "R0238",
+      "language": "de",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent German."
+    },
+    {
+      "review_key": "R0344",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0360",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0371",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0379",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0407",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0417",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0418",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0421",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0436",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0442",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0449",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0455",
+      "language": "hi",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0481",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0489",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0493",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0512",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0521",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "FLAG",
+      "semantic_agreement": false,
+      "fluency_agreement": false,
+      "direct_reason": "Natural paraphrase but grammatically incorrect."
+    },
+    {
+      "review_key": "R0537",
+      "language": "hi",
+      "kind": "composition",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Hindi."
+    },
+    {
+      "review_key": "R0544",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning and fluency match source question."
+    },
+    {
+      "review_key": "R0553",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning and fluency match source question."
+    },
+    {
+      "review_key": "R0571",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Thai."
+    },
+    {
+      "review_key": "R0587",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning and fluency match source question."
+    },
+    {
+      "review_key": "R0602",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "FLAG",
+      "direct_screen": "PASS",
+      "semantic_agreement": false,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning preserved, fluent Thai."
+    },
+    {
+      "review_key": "R0677",
+      "language": "th",
+      "kind": "atomic",
+      "backtranslation_screen": "PASS",
+      "direct_screen": "PASS",
+      "semantic_agreement": true,
+      "fluency_agreement": true,
+      "direct_reason": "Meaning and fluency match source question."
+    }
+  ]
+}

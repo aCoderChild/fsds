@@ -1,0 +1,42 @@
+{
+  "status": "PASS_POSTHOC_RECOMPUTATION",
+  "analysis": "descriptive final-cohort profile influence; not preregistered and not a replacement gate",
+  "archive_sha256": "0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3",
+  "cohort": "final",
+  "metric": "retain90.rougeL_recall",
+  "n_questions": 400,
+  "n_profile_blocks": 20,
+  "pooled_delta_candidate_minus_full_pp": -3.057580288888568,
+  "preregistered_gate_ci95_pp": [
+    -5.1099254629130435,
+    -0.9930287173733794
+  ],
+  "profile_blocks_with_negative_mean": 16,
+  "profile_block_delta_pp_min": -10.574249923129916,
+  "profile_block_delta_pp_max": 5.678571428571429,
+  "leave_one_profile_out_pooled_mean_pp_min": -3.5173777477022523,
+  "leave_one_profile_out_pooled_mean_pp_max": -2.6619660976127073,
+  "profile_block_means_pp": {
+    "80": 5.678571428571429,
+    "81": -5.641374024526199,
+    "82": -6.8385448916408675,
+    "83": -0.8447802197802199,
+    "84": 3.742387013284846,
+    "85": -0.5698529411764708,
+    "86": -10.144908840729276,
+    "87": -3.2363171355498723,
+    "88": -3.8851851851851844,
+    "89": -0.926908457396262,
+    "90": -1.1904761904761907,
+    "91": -0.2857142857142857,
+    "92": 0.05931766646052383,
+    "93": -3.958810068649885,
+    "94": -1.7434210526315788,
+    "95": -9.955164955164955,
+    "96": -9.627063983488133,
+    "97": -10.574249923129916,
+    "98": -4.304347826086956,
+    "99": 3.0952380952380953
+  },
+  "interpretation": "The point estimate remains negative after omitting any single profile block. This does not make the failed preregistered non-inferiority gate pass."
+}

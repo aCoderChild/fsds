@@ -1,0 +1,69 @@
+{
+  "coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 29,
+        "required": 117
+      },
+      "retain": {
+        "complete": 10,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 0,
+      "required": 44
+    }
+  },
+  "created_at_utc": "2026-11-04T03:11:47.959896+00:00",
+  "diagnostic_blocked": 31,
+  "diagnostic_flagged": 279,
+  "diagnostic_passes": 423,
+  "human_translation_reviewed": false,
+  "input_rows": 799,
+  "limitations": [
+    "Pending, blocked, and flagged rows are treated as not passing; results are a lower bound on current candidate coverage.",
+    "A candidate-review pass is only a possibility for the full frozen production re-screen, never approval by itself.",
+    "AI-only judgments do not certify human translation quality."
+  ],
+  "optimistic_only": true,
+  "pending": 66,
+  "release_approved": false,
+  "review_receipt_sha256": "6f2c413e8dd52321ba5f6d709b9bfc11db121b025fadb39ec30041b5c226f4e2",
+  "rows_by_language": {
+    "de": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 4,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 57,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 118,
+      "original_passes": 309
+    },
+    "fr": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 2,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 34,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 128,
+      "original_passes": 324
+    },
+    "hi": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 19,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 84,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 97,
+      "original_passes": 288
+    },
+    "th": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 6,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 104,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 80,
+      "original_passes": 232
+    }
+  },
+  "semantic_review_progress": 733,
+  "status": "PARTIAL_REPAIR_LOWER_BOUND_DIAGNOSTIC_NOT_RELEASE_APPROVAL",
+  "training_eligible": false,
+  "verified_decisions": 733,
+  "verified_rows_sha256": "dbc2d620dbd0be81ee08d3c59f91b17b6de164fd862d488788d408c75d4f936c"
+}

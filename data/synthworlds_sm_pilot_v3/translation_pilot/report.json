@@ -1,0 +1,59 @@
+{
+  "counts_per_language": {
+    "de": {
+      "chain_facts_audit_only": 6,
+      "documents_audit_only": 6,
+      "evaluation_labels": 3,
+      "qa_review_rows": 3,
+      "question_only_eval_prompts": 3,
+      "review_queue_items": 21,
+      "sft_candidate": 4
+    },
+    "fr": {
+      "chain_facts_audit_only": 6,
+      "documents_audit_only": 6,
+      "evaluation_labels": 3,
+      "qa_review_rows": 3,
+      "question_only_eval_prompts": 3,
+      "review_queue_items": 21,
+      "sft_candidate": 4
+    },
+    "hi": {
+      "chain_facts_audit_only": 6,
+      "documents_audit_only": 6,
+      "evaluation_labels": 3,
+      "qa_review_rows": 3,
+      "question_only_eval_prompts": 3,
+      "review_queue_items": 21,
+      "sft_candidate": 4
+    },
+    "th": {
+      "chain_facts_audit_only": 6,
+      "documents_audit_only": 6,
+      "evaluation_labels": 3,
+      "qa_review_rows": 3,
+      "question_only_eval_prompts": 3,
+      "review_queue_items": 21,
+      "sft_candidate": 4
+    }
+  },
+  "evaluation_condition": "Question-only; support passages and labels are segregated from model inputs.",
+  "holdout_sft_candidate_count": 0,
+  "human_review_status": "PENDING_FLUENT_REVIEW",
+  "languages": [
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "method": "Assistant-authored translation drafts; no native-speaker review claimed.",
+  "note": "Only the two verified chain facts per selected QA are translated. Full passages and chain facts are audit-only; full fact rows are not included because they may expose unrelated examples. Draft text is not human-certified.",
+  "selected_qa_ids_by_split": {
+    "forget": "0077-qa-sm",
+    "holdout": "0110-qa-sm",
+    "retain": "0055-qa-sm"
+  },
+  "status": "DRAFT_TRANSLATIONS_PENDING_FLUENT_REVIEW_NOT_APPROVED",
+  "translated_canonical_passages": 6,
+  "whole_fact_rows_translated": 0
+}

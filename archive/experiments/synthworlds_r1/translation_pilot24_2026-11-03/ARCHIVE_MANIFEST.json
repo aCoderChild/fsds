@@ -1,0 +1,66 @@
+{
+  "archive_name": "translation_pilot24",
+  "date": "2026-11-03",
+  "files": [
+    {
+      "path": "translation_drafts/translategemma_repair_v1_pilot24/de.jsonl",
+      "bytes": 570509,
+      "sha256": "d6533e5322d3df7c7cc1392f513e9598df161824d8b673f7e72870f626844b1d"
+    },
+    {
+      "path": "translation_drafts/translategemma_repair_v1_pilot24/fr.jsonl",
+      "bytes": 569844,
+      "sha256": "9b785dbf61f9525f3ae1e5777b5b78aaf810397856391c754ce2a8ca5202e69e"
+    },
+    {
+      "path": "translation_drafts/translategemma_repair_v1_pilot24/hi.jsonl",
+      "bytes": 628491,
+      "sha256": "79f3c6d7b29bd766c4f18ed4c34f028b2320ef0d65f87c15e3ab657840de2c7c"
+    },
+    {
+      "path": "translation_drafts/translategemma_repair_v1_pilot24/report.json",
+      "bytes": 4469,
+      "sha256": "2c9f0b3ceecf0b1c3d8800a0c7c927aa45a20aa764ef773c66fb4ec3d531ab69"
+    },
+    {
+      "path": "translation_drafts/translategemma_repair_v1_pilot24/th.jsonl",
+      "bytes": 635960,
+      "sha256": "08e6ca62b6393cfa904d73c9a60748cf0ddc3a70720ace67706e9e0dfba99ec2"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/de.jsonl",
+      "bytes": 557392,
+      "sha256": "c46e5e72000607f4038ab5d42133407d79552a50030efdbf100aa3d6638a42e6"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/diagnostic_report.md",
+      "bytes": 3899,
+      "sha256": "14a1920b51a5b0ec9afc3b878eaa05e31cb5cccd6811ee1465426945c083aed5"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/fr.jsonl",
+      "bytes": 557922,
+      "sha256": "cb9b80b99ab288b8b772d22e16f13cf17ca64085041e5753ddc42e1c10f9b07e"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/hi.jsonl",
+      "bytes": 558356,
+      "sha256": "45550c35ae2e01006a80aba89f4b945ba8ba46df4b2f8457b630389f5fba0ad9"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/report.json",
+      "bytes": 36739,
+      "sha256": "1faa1728b8bb567e0823a6c1936fbab22ae0dca6a33309ba49806dbb669319b6"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/summary.json",
+      "bytes": 4845,
+      "sha256": "5f583916a7d09f5931562003074677105b6e895800878d46e350bed21d9f943b"
+    },
+    {
+      "path": "translation_reviews/translategemma_repair_v1_pilot24/th.jsonl",
+      "bytes": 558515,
+      "sha256": "655401cfbb2f40f8de5e741c6d237019e178c7452b6a1c8c73392526bf4b324b"
+    }
+  ]
+}

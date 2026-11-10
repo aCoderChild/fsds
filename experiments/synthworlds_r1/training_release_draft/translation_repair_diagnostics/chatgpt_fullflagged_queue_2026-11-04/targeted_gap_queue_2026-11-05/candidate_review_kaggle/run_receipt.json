@@ -1,0 +1,23 @@
+{
+  "kernel_id": "bunnoob2005/sw-gap187-candidate-review-2026-11-05",
+  "kernel_status": "COMPLETE",
+  "started_at_utc": "2026-11-05T02:36:30.486415+00:00",
+  "completed_at_utc": "2026-11-05T03:10:52.787691+00:00",
+  "elapsed_seconds": 2062.3,
+  "accelerator": "Tesla T4 x2 (model reports Tesla T4)",
+  "review_rows": 187,
+  "reviewed_rows": 170,
+  "blocked_rows": 17,
+  "joint_semantic_fluency_pass": 36,
+  "output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+  "verification_status": "VERIFIED_AI_ONLY_DIAGNOSTIC_QUARANTINED",
+  "human_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "runtime_caveats": [
+    "15 rows blocked because NLLB did not preserve the exact masked-placeholder multiplicities; decisions were withheld.",
+    "2 rows blocked because the judge returned invalid decision coverage/schema.",
+    "Transformers logged that sliding-window attention is not implemented for the selected SDPA backend and unexpected results may occur.",
+    "Pip logged pre-existing environment dependency conflicts; all 187 review-loop progress messages completed."
+  ]
+}

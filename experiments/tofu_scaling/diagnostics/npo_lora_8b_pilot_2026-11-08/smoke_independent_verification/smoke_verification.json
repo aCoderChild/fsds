@@ -1,0 +1,27 @@
+{
+  "status": "PASS_BOUNDED_SMOKE_ONLY",
+  "artifact_zip_crc": "PASS",
+  "artifact_zip_sha256": "b6506cf44a39a8d9634d9212ae285064d3aca5761442b163d4d3c464dfea71a7",
+  "artifact_zip_bytes": 1167379,
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "model": {
+    "label": "Llama 3.1 8B full",
+    "family": "llama_3_1_8b",
+    "role": "full",
+    "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full",
+    "revision": "1a5c5b1a557f8c99bdadecd5168ebd03f640b00e"
+  },
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "optimizer_steps": 1,
+  "finite_update_steps": 1,
+  "max_abs_lora_update": 9.99999883788405e-06,
+  "smoke_runtime_seconds": 121.69,
+  "truncated_examples": 0,
+  "cpu_or_disk_offload": false,
+  "full_training_enabled": false,
+  "research_result_created": false,
+  "problems": []
+}

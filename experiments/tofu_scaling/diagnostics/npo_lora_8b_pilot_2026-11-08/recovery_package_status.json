@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-11-09T05:00:06.234561+00:00",
+  "active_kernel": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08",
+  "kaggle_status_exit_code": 0,
+  "kaggle_status_output": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08 has status \"KernelWorkerStatus.COMPLETE\"",
+  "latest_artifact_query": "No matching ZIP available at last query while status was RUNNING",
+  "evaluation_recovery_notebook": "experiments/tofu_scaling/kaggle/npo_lora_8b_eval_recovery_v1/tofu_8b_npo_eval_recovery.ipynb",
+  "evaluation_recovery_notebook_sha256": "05ddb0f25df97fc5200714d910924d20aa6c65f4c40d62665b948b226ec6fb3a",
+  "offline_package_verification": "PASS_OFFLINE_PACKAGE_CHECKS",
+  "archive_preflight_fixtures": {
+    "valid_completed_archive_without_gpu": "PASS",
+    "modified_adapter_rejected": "PASS",
+    "zip_path_traversal_rejected": "PASS",
+    "missing_evaluation_without_gpu_rejected": "PASS"
+  },
+  "recovery_gpu_run_started": false,
+  "research_result_verified": false
+}

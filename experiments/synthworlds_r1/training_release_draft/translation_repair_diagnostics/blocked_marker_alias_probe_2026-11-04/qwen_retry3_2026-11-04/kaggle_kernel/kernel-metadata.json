@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04",
+  "title": "SynthWorlds R1 Qwen retry truncated 3 2026-11-04",
+  "code_file": "retry.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

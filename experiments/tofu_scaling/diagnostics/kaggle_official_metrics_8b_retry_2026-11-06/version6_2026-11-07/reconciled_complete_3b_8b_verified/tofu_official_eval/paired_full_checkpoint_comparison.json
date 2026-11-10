@@ -1,0 +1,153 @@
+{
+  "forget10": {
+    "answer_probability": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.04628267909603225,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.039331993823653516,
+        0.05463539605154839
+      ]
+    },
+    "rougeL_recall": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.07472027234140001,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.044576776804291264,
+        0.11092686750665885
+      ]
+    },
+    "truth_ratio": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.02203983535447107,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.003556932869261857,
+        0.047979627731234736
+      ]
+    },
+    "truth_ratio_score": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.0006623879499381919,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.015421611154592086,
+        0.017744861265992052
+      ]
+    }
+  },
+  "retain90": {
+    "answer_probability": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.05429490321174566,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.046721969469871914,
+        0.062204728792491906
+      ]
+    },
+    "rougeL_recall": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.0925738059609754,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.06934183439198224,
+        0.11762230580740943
+      ]
+    },
+    "truth_ratio": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": 0.01816711889462967,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.002061880999447379,
+        0.03725277672927579
+      ]
+    },
+    "truth_ratio_score": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": -0.010850428821959843,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.028556134404593144,
+        0.007998934264112368
+      ]
+    }
+  },
+  "holdout10": {
+    "answer_probability": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": -0.02348311654094286,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.029253856305200117,
+        -0.01790568020261711
+      ]
+    },
+    "rougeL_recall": {
+      "n_questions": 400,
+      "mean_8b_minus_3b": -0.008504748308470249,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.01723414089787375,
+        0.0006365486640592355
+      ]
+    }
+  },
+  "real_authors": {
+    "answer_probability": {
+      "n_questions": 100,
+      "mean_8b_minus_3b": -0.0007422425630519251,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "rougeL_recall": {
+      "n_questions": 100,
+      "mean_8b_minus_3b": 0.087,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "truth_ratio": {
+      "n_questions": 100,
+      "mean_8b_minus_3b": 3.3738957564028107,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "truth_ratio_score": {
+      "n_questions": 100,
+      "mean_8b_minus_3b": -0.13009982381627727,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "normalized_option_probability": {
+      "n_questions": 100,
+      "mean_8b_minus_3b": -0.09037027172775267,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    }
+  },
+  "world_facts": {
+    "answer_probability": {
+      "n_questions": 117,
+      "mean_8b_minus_3b": 0.0007923210249559346,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "rougeL_recall": {
+      "n_questions": 117,
+      "mean_8b_minus_3b": 0.04957264957264957,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "truth_ratio": {
+      "n_questions": 117,
+      "mean_8b_minus_3b": 6.721283988662278,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "truth_ratio_score": {
+      "n_questions": 117,
+      "mean_8b_minus_3b": -0.036736764616265356,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    },
+    "normalized_option_probability": {
+      "n_questions": 117,
+      "mean_8b_minus_3b": -0.015209677754563434,
+      "interval": null,
+      "interval_note": "No explicit profile cluster IDs; no inferential interval reported."
+    }
+  },
+  "interpretation_limit": "Descriptive paired checkpoint contrasts only; model generations/training histories differ."
+}

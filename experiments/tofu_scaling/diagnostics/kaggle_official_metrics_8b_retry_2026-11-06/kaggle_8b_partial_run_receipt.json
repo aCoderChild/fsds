@@ -1,0 +1,35 @@
+{
+  "artifact_kind": "observed_partial_run_receipt",
+  "observed_at_utc": "2026-11-06T16:16:28.526231+00:00",
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_status_observed": "KernelWorkerStatus.CANCEL_ACKNOWLEDGED",
+  "configured_notebook_execution_timeout_seconds": 43200,
+  "raw_output_status": "RUNNING",
+  "raw_output_completed_model_keys": [
+    "llama_3_2_3b_full",
+    "llama_3_2_3b_retain90"
+  ],
+  "eight_b_result_files_present": [],
+  "eight_b_weights_loaded_log_evidence": [
+    {
+      "elapsed_seconds": 193.132248445,
+      "event": " Loading weights:  97%|█████████▋| 283/291 [00:35<00:01,  5.38it/s] Loading weights:  98%|█████████▊| 284/291 [00:36<00:01,  5.34it/s] Loading weights: 100%|██████████| 291/291 [00:36<00:00,  8.05it/s]\n"
+    },
+    {
+      "elapsed_seconds": 193.332731789,
+      "event": " Loading weights:  98%|█████████▊| 284/291 [00:36<00:01,  5.34it/s] Loading weights: 100%|██████████| 291/291 [00:36<00:00,  8.05it/s]\n"
+    },
+    {
+      "elapsed_seconds": 193.332767232,
+      "event": " Loading weights:  98%|█████████▊| 284/291 [00:36<00:01,  5.34it/s] Loading weights: 100%|██████████| 291/291 [00:36<00:00,  8.05it/s]\n"
+    }
+  ],
+  "last_log_event": {
+    "elapsed_seconds": 8686.264951606,
+    "stream": "stderr",
+    "message": "[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"
+  },
+  "finding": "The 8B checkpoint weights loaded, but the Kaggle output contains no completed 8B evaluation JSON or question-level score file. The evaluator saves results only after scoring and generation finish, so this run produced no recoverable 8B rows. The exact point where progress stalled is not established by the captured log.",
+  "training_started": false,
+  "research_adapter_created": false
+}

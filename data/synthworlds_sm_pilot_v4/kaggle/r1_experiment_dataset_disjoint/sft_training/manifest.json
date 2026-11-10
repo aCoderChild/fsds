@@ -1,0 +1,42 @@
+{
+  "ai_reviewed_rows": 820,
+  "corpus_sha256": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f",
+  "do_not_train": false,
+  "holdout_rows": 0,
+  "human_translation_reviewed": false,
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "rows_by_language": {
+    "de": 205,
+    "en": 205,
+    "fr": 205,
+    "hi": 205,
+    "th": 205
+  },
+  "source_sha256": {
+    "de": "91568187ef96a91a9282887c48cf78fd824ec585a0ba3de91b341d19b01bf952",
+    "english": "4034839b4ae8ad22d352fc4e0ba14e8d20ba655a4388b5e4e11c98b03a7cffe3",
+    "fr": "9e28aac42a101eab14ffe6e785d2438ff77866346beca116a97be61ca392cfd8",
+    "hi": "ec84839df92c20e4fc9b0d3bfc765d7ce98cab36bdea0a5faccc65d3cec93a29",
+    "th": "9bb2ece3bc450372092e17ddc0d1d06e26d8b2d9ba32cd1d583dae417f0f6193"
+  },
+  "split_approval": {
+    "record_sha256": "315590b41146e09ba0327ae3ce6e5f3c4467e5c3f10edfc0534a594219cd16d9",
+    "review_date": "2026-11-02",
+    "reviewer_name": "OpenAI Codex (delegated AI technical review)",
+    "reviewer_type": "AI",
+    "status": "APPROVED_PILOT_SPLIT"
+  },
+  "status": "AI_ONLY_REVIEWED_FIVE_LANGUAGE_SFT_CORPUS",
+  "total_rows": 1025,
+  "translation_review_authorization": "AI_ONLY_REVIEW_AUTHORIZED",
+  "translation_review_mode": "AI_ONLY",
+  "translation_review_policy_sha256": "c712b04cc4f92f14cbb77095d0620ff9a7aef94c966115c7c4aa401484ea9ef5",
+  "translation_review_report_sha256": "89e9ef6fa51e4c06ad17fe9aef098de5c53b4e2672568b1bf7622183551a7f2a",
+  "unique_sft_ids_per_language": 205
+}

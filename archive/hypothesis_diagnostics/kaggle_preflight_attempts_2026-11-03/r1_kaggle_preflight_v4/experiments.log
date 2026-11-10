@@ -1,0 +1,65 @@
+[{"stream_name":"stderr","time":7.382109638,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.382157308,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.382165024,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.382169896,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.017457313,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.017489644,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.017495907,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.017508994,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.55040598,"data":"Project root: /kaggle/input/synthworlds-sm-sft-pilot-v3/sft_lora_dataset\n"}
+,{"stream_name":"stdout","time":10.550444002,"data":"Approved corpus present: True\n"}
+,{"stream_name":"stderr","time":27.01765772,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":27.017686061,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.017692646,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.017697345,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221568345,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":27.221602995,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221607991,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221611807,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221615424,"data":"\n"}
+,{"stream_name":"stderr","time":27.221618634,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":27.221622281,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221625849,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":27.221629234,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":27.284417141,"data":"SFT dependencies installed.\n"}
+,{"stream_name":"stdout","time":38.936844983,"data":"torch: 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":38.936879619,"data":"transformers: 4.57.6\n"}
+,{"stream_name":"stdout","time":38.936898857,"data":"CUDA available: True\n"}
+,{"stream_name":"stdout","time":38.936902489,"data":"GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":39.020004112,"data":"HF_TOKEN secret retrieval failed: ConnectionError\n"}
+,{"stream_name":"stdout","time":39.020034774,"data":"Add-ons → Secrets must expose HF_TOKEN to this notebook version.\n"}
+,{"stream_name":"stdout","time":39.773435184,"data":"{\n"}
+,{"stream_name":"stdout","time":39.77347941,"data":"  \"status\": \"READY_TO_TRAIN\",\n"}
+,{"stream_name":"stdout","time":39.773484441,"data":"  \"training_started\": false,\n"}
+,{"stream_name":"stdout","time":39.773487596,"data":"  \"train_flag\": false,\n"}
+,{"stream_name":"stdout","time":39.773490326,"data":"  \"model_id\": \"meta-llama/Llama-3.2-1B-Instruct\",\n"}
+,{"stream_name":"stdout","time":39.773493435,"data":"  \"errors\": [],\n"}
+,{"stream_name":"stdout","time":39.773496123,"data":"  \"translation_review_mode\": \"AI_ONLY\",\n"}
+,{"stream_name":"stdout","time":39.773498887,"data":"  \"human_translation_reviewed\": false,\n"}
+,{"stream_name":"stdout","time":39.773501599,"data":"  \"training_packages\": {\n"}
+,{"stream_name":"stdout","time":39.77350435,"data":"    \"torch\": true,\n"}
+,{"stream_name":"stdout","time":39.773507256,"data":"    \"transformers\": true,\n"}
+,{"stream_name":"stdout","time":39.773511031,"data":"    \"peft\": true,\n"}
+,{"stream_name":"stdout","time":39.773514756,"data":"    \"accelerate\": true\n"}
+,{"stream_name":"stdout","time":39.773517464,"data":"  },\n"}
+,{"stream_name":"stdout","time":39.773520016,"data":"  \"hf_token_present\": false,\n"}
+,{"stream_name":"stdout","time":39.773522739,"data":"  \"note\": \"Preflight never downloads weights or starts training. The approved corpus uses user-authorized AI-only translation review; no human fluency review was performed.\"\n"}
+,{"stream_name":"stdout","time":39.773525775,"data":"}\n"}
+,{"stream_name":"stdout","time":39.773528358,"data":"\n"}
+,{"stream_name":"stdout","time":39.773531024,"data":"Combined training gate: BLOCKED — corpus, secret, or model-access check did not pass\n"}
+,{"stream_name":"stdout","time":39.787094206,"data":"Training not started. Combined training gate: BLOCKED\n"}
+,{"stream_name":"stdout","time":39.849702328,"data":"AI-only translation review: NOT_STARTED\n"}
+,{"stream_name":"stdout","time":39.849732143,"data":"Human review: NOT_PERFORMED\n"}
+,{"stream_name":"stdout","time":39.849751722,"data":"Evaluation gate: BLOCKED\n"}
+,{"stream_name":"stdout","time":39.86551024,"data":"Retain-only training not started.\n"}
+,{"stream_name":"stdout","time":39.882312182,"data":"Unlearning not started.\n"}
+,{"stream_name":"stdout","time":39.899651582,"data":"Evaluation not started.\n"}
+,{"stream_name":"stderr","time":45.882353315,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":45.882389508,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":46.057102098,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":46.0571278,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":46.870453836,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":46.9567485,"data":"[NbConvertApp] Writing 25592 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":49.553724185,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":50.113453241,"data":"[NbConvertApp] Writing 319409 bytes to __results__.html\n"}
+]

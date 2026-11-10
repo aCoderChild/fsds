@@ -1,0 +1,42 @@
+{
+  "audit_id": "tofu_8b_npo_pilot_scope_alignment_2026-11-09",
+  "checked_at_utc": "2026-11-09T05:42:35.338759+00:00",
+  "current_8b_run": {
+    "benchmark": "same pinned TOFU forget10/retain90/holdout10 splits",
+    "live_status_at_0219_utc": "RUNNING",
+    "method": "NPO plus retain NLL, LoRA adaptation",
+    "model": "Llama 3.1 8B",
+    "planned_optimizer_steps": 500,
+    "seed": 42,
+    "study_type": "exploratory single-seed pilot; not confirmatory evidence and not a controlled scaling comparison",
+    "verified_result_archive": true,
+    "verified_training_receipt": true,
+    "status_at_completion": "COMPLETE",
+    "training_global_steps": 500,
+    "protocol_alignment": "FAIL_PROTOCOL_ALIGNMENT",
+    "research_diagnostic_gate_status": "FAIL_DIAGNOSTIC_GATES",
+    "artifact_sha256": "91fad5f8df28b6e8f26dbaab93cc24797c3b36bbfcf2620e5cd5efdec9e61c9c",
+    "diagnostic_report": "experiments/tofu_scaling/diagnostics/npo_lora_8b_pilot_2026-11-08/diagnostic_report.md"
+  },
+  "evidence_files": {
+    "8b_protocol": "experiments/tofu_scaling/npo_lora_8b_pilot_protocol.json",
+    "8b_protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+    "r3_report": "docs/report/R3.tex",
+    "r3_report_sha256": "7b73bf5acc65752f424ce21dafcbbdc752b464ff5b8384ca8b41f6f9899fa561"
+  },
+  "r3_main_study": {
+    "benchmark": "TOFU standard splits",
+    "final_gates": "4 of 5 passed; retain90 ROUGE-L non-inferiority gate failed because the 95% lower bound was -5.11 percentage points against a strict > -5 point threshold",
+    "method": "IDK+AP LoRA",
+    "model": "Llama 3.2 3B",
+    "next_plan": "Use a new public benchmark/cohort with unseen questions and entities; lock a new protocol before running confirmatory development/final cohorts.",
+    "status": "completed exploratory one-seed diagnostic"
+  },
+  "scope_assessment": {
+    "alignment": "PARTIAL",
+    "interpretation_rule": "Treat the completed 8B outcome as a diagnostic of the implementation that actually ran. It is not an independent cohort replication, a controlled scale comparison, or evidence that the 3B ROUGE-L failure was resolved.",
+    "what_it_can_test": "The completed fixed 8B NPO-LoRA implementation moved the selected TOFU forget Truth Ratio in the expected direction, but utility gates failed and the executed retain weighting did not match the preregistered update-wide token mean.",
+    "what_it_cannot_establish": "It is not an independent cohort replication of R3, cannot isolate model scale, and cannot support a general claim that the prior IDK+AP retain ROUGE-L failure is resolved."
+  },
+  "next_stage": "MUSE-News feasibility audit completed; model-use terms and QA-to-article grouping remain blockers before training or inferential bootstrap."
+}

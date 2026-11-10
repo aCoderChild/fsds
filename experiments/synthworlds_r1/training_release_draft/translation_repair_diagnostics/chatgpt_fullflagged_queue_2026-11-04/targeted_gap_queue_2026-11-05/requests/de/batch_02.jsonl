@@ -1,0 +1,3 @@
+{"row_id": "G0172", "source_english": "Who was the doctoral advisor of the rector of [ENTITY_A]'s employer?", "target_language": "German"}
+{"row_id": "G0182", "source_english": "Who is the unmarried partner of [ENTITY_A]?", "target_language": "German"}
+{"row_id": "G0187", "source_english": "Who is the main subject of [ENTITY_A]?", "target_language": "German"}

@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED_ANSWER_BLIND_NLLB_CANDIDATE_INPUT",
+  "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+  "source_review_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+  "prior_review_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+  "prior_retry_output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+  "row_map_sha256": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+  "rows": 148,
+  "previous_joint_passes_excluded": 39,
+  "language_rows": {
+    "de": 11,
+    "fr": 12,
+    "hi": 52,
+    "th": 73
+  },
+  "answers_or_split_labels_included": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "candidate_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+  "kernel_id": "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05"
+}

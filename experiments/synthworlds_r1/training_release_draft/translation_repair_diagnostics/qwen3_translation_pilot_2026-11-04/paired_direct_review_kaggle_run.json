@@ -1,0 +1,14 @@
+{
+  "kernel_id": "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
+  "status": "KernelWorkerStatus.COMPLETE",
+  "status_api": "Authenticated Kaggle API kernels_status: COMPLETE",
+  "run_id": null,
+  "run_id_note": "Kaggle CLI/API used here exposes latest kernel status and lastRunTime, but not a run identifier.",
+  "kernel_last_run_time_utc": "2026-11-04T14:46:13.963000Z",
+  "runtime_seconds_log_last_event": 1536.52,
+  "observed_at_utc": "2026-11-04T15:18:07.005879+00:00",
+  "review_script_sha256": "36b57e771ff8cf45859c39a86e3244cb21f2025647f08dbcf57fbb6f4c0ff0a1",
+  "output_sha256": "5a7ead7093ce86b432d739479c493b2a0f611390c2b28b76a39901ac11c1bfc1",
+  "log_sha256": "3b8be72e46b59892b660c3de9fb1fb53e8e546cd6c46a44d8cd60042ae003c1c",
+  "completion_evidence": "Authenticated Kaggle kernels_status=COMPLETE; matching kernel lastRunTime; downloaded result says reviewed_rows=48 and blocked_rows=0; Kaggle log includes final result serialization."
+}

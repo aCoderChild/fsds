@@ -1,0 +1,44 @@
+{
+  "ai_candidate_complete_cases": {
+    "forget": {
+      "cases": 31,
+      "entity_groups": 17
+    },
+    "retain": {
+      "cases": 11,
+      "entity_groups": 8
+    }
+  },
+  "baseline_competence_gate": "NOT_RUN; only a model baseline can establish this",
+  "coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 31,
+        "required": 117
+      },
+      "retain": {
+        "complete": 11,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 1,
+      "required": 44
+    }
+  },
+  "full_r1_release_approved": false,
+  "human_translation_reviewed": false,
+  "review_counts": {
+    "AI_ONLY_REPAIR_REVIEW_BLOCKED": 5,
+    "AI_ONLY_REPAIR_REVIEW_FLAGGED": 43,
+    "AI_ONLY_REPAIR_REVIEW_PASS": 27
+  },
+  "review_rows": 75,
+  "status": "PILOT_COVERAGE_AFTER_STANDARDIZED_AI_SCREEN_DIAGNOSTIC_NOT_RELEASE",
+  "training_eligible": false
+}

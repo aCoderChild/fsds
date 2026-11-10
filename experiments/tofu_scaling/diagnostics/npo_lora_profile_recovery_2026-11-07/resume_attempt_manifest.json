@@ -1,0 +1,48 @@
+{
+  "study": "tofu_3b_npo_lora_profile_recovery_v1",
+  "attempt": "continuation_after_kaggle_zip_expansion_fix",
+  "status": "ERROR",
+  "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-3b-npo-profile-recovery-resume",
+  "kaggle_kernel_version": 2,
+  "submitted_at_utc": "2026-11-07T21:26:29Z",
+  "latest_observed_kaggle_status": "KernelWorkerStatus.ERROR",
+  "artifact_dataset": "https://www.kaggle.com/datasets/bunnoob2005/tofu-3b-recovery-v1-2026-11-08",
+  "artifact_zip_sha256": "83332e17863a4126808f19e07f546dd5cbacd774bf966b531f5b4a479c8853b8",
+  "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+  "alpha5_reconciliation": "PASS_INDEPENDENT_GATE_RECOMPUTATION; FAIL_DIAGNOSTIC_GATES",
+  "candidate_grid_remaining": [
+    20.0
+  ],
+  "resume_behavior": "Reuse pinned baseline and alpha=5 outputs; continue remaining preregistered dev candidates; final cohort only if a development candidate passes all five locked gates.",
+  "machine_shape": "GPU T4 x2",
+  "internet": true,
+  "research_result_available": false,
+  "notebook_sha256": "a09302797097c0f43a83d738005b7ccd7c62c0ee89c434e1423ca17eafa5773a",
+  "artifact_tree_sha256": "12065640ba5c1cf4cdb8ed083820ed65bc44092f8f9bfb33ef520e0419e072cf",
+  "artifact_tree_file_count": 31,
+  "previous_version_1": {
+    "status": "ERROR",
+    "failed_before_training": true,
+    "reason": "Kaggle expanded the source ZIP into its mounted directory; the notebook incorrectly searched for the original ZIP file.",
+    "verified_log": "resume_kaggle_v1_failure.log"
+  },
+  "preflight_verification": "PASS: Python compile; notebook JSON/structure; source ZIP CRC; all 31 source files hash/size and inventory match; saved alpha=5 gates independently recomputed and fail as expected.",
+  "latest_observed_at_utc": "2026-11-08T02:41:22Z",
+  "phase": "v2 failed after alpha10 training/evaluation at receipt validation; alpha10 independently reverified and saved for reuse",
+  "completed_at_utc": "2026-11-07T22:42:58.268292+00:00",
+  "error": "NameError: name 'reference_hashes' is not defined",
+  "output_archive_sha256": "74a8a86c7c1f67f0c9625df2805293679a9bacf808204736a8579b839b65d370",
+  "output_archive_file_count": 48,
+  "output_archive_bytes": 187184387,
+  "alpha10_independent_verification": "PASS_ALPHA10_ARTIFACTS_AND_GATE_RECOMPUTATION; FAIL_DIAGNOSTIC_GATES",
+  "alpha10_gate_status": "FAIL_DIAGNOSTIC_GATES",
+  "alpha10_all_gates_pass": false,
+  "alpha10_training_steps": 250,
+  "alpha10_evaluation_rows": {
+    "forget10": 200,
+    "retain90": 400,
+    "holdout10": 200
+  },
+  "alpha10_verification_file": "alpha10_independent_verification.json",
+  "final_cohort_training_started": false
+}

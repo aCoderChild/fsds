@@ -1,0 +1,188 @@
+{
+  "answers_sent_to_reviewer": false,
+  "answers_sent_to_translator": false,
+  "calibration_id": "nllb13_strictflagged_cal64_v1",
+  "candidate_rows_sha256": "0149f3491813d5dca50b6047fd0904922b698d47603d7b9c323d8454ff7bf9ec",
+  "completed_at_utc": "2026-11-03T12:45:10.310461+00:00",
+  "do_not_train": true,
+  "generation_config": {
+    "batch_size": 2,
+    "device": "mps",
+    "do_sample": false,
+    "dtype": "float32",
+    "num_beams": 2
+  },
+  "human_translation_reviewed": false,
+  "limits": [
+    "This is a stratified calibration, not a representative estimate or release review.",
+    "The Qwen reviewer is AI-only and does not certify human fluency.",
+    "Passing results require full, hash-bound, blinded translation screening before release.",
+    "No source translation, release manifest, or training artifact was modified."
+  ],
+  "model_id": "facebook/nllb-200-distilled-1.3B",
+  "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "per_language_kind": {
+    "de": {
+      "atomic": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 7,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 1,
+        "paired_translategemma_qwen_pass": 7,
+        "selected": 8,
+        "translation_success": 8
+      },
+      "composition": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 5,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 0,
+        "paired_translategemma_qwen_pass": 8,
+        "selected": 8,
+        "translation_success": 8
+      }
+    },
+    "fr": {
+      "atomic": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 8,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 1,
+        "paired_translategemma_qwen_pass": 7,
+        "selected": 8,
+        "translation_success": 8
+      },
+      "composition": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 6,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 5,
+        "paired_translategemma_qwen_pass": 3,
+        "selected": 8,
+        "translation_success": 8
+      }
+    },
+    "hi": {
+      "atomic": {
+        "deterministic_pass": 7,
+        "nllb_qwen_pass": 7,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 3,
+        "paired_translategemma_qwen_pass": 5,
+        "selected": 8,
+        "translation_success": 7
+      },
+      "composition": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 8,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 3,
+        "paired_translategemma_qwen_pass": 5,
+        "selected": 8,
+        "translation_success": 8
+      }
+    },
+    "th": {
+      "atomic": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 8,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 3,
+        "paired_translategemma_qwen_pass": 5,
+        "selected": 8,
+        "translation_success": 8
+      },
+      "composition": {
+        "deterministic_pass": 8,
+        "nllb_qwen_pass": 6,
+        "nllb_qwen_review_errors": 0,
+        "paired_translategemma_diagnostic_error": 0,
+        "paired_translategemma_qwen_fail": 1,
+        "paired_translategemma_qwen_pass": 7,
+        "selected": 8,
+        "translation_success": 8
+      }
+    }
+  },
+  "review_config": {
+    "batch_size": 4,
+    "malformed_batch_fallback": "retry each item individually; unresolved review errors count as failures",
+    "model": "ollama:qwen2.5:7b-instruct"
+  },
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "sample_counts": {
+    "de": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "fr": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "hi": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "th": {
+      "atomic": 8,
+      "composition": 8
+    }
+  },
+  "sample_rule": "8 rows per language x kind, flagged by both frozen review stages; stable SHA-256 order",
+  "sample_size": 64,
+  "source_hashes": {
+    "current_sources_de": {
+      "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_de": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "current_sources_fr": {
+      "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_fr": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "current_sources_hi": {
+      "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_hi": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "current_sources_th": {
+      "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_th": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "final_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+    "final_rows_de_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+    "final_rows_fr_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+    "final_rows_hi_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+    "final_rows_th_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+    "initial_report_sha256": "b5cdfcf944366f64b3e6110d412e78b2c2b3b53380400e020f98df96e45b41d6",
+    "initial_rows_de_sha256": "e3850e8d4b5600985a20a7f5517b571cb832f20db0057f776bdcd7c67c78af9f",
+    "initial_rows_fr_sha256": "871bdf0f91de439e2e67d1e95d10e2e4db895d6b0a8e061a19a7deab29e7b469",
+    "initial_rows_hi_sha256": "0cc789e1a46c99e3ef03e8827694e055c7d45820a44dd3cfce11da2e0063cfbb",
+    "initial_rows_th_sha256": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb",
+    "script_sha256": "0fdb808349080969b98b4cad3aea9685537f448ff2650d6fb8b1bbddefbbf017",
+    "translategemma_repair_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+    "translategemma_repair_rows_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

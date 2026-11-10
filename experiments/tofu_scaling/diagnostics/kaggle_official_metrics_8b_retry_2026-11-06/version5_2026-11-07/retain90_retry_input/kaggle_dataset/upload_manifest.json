@@ -1,0 +1,10 @@
+{
+  "dataset_id": "bunnoob2005/tofu-3b-8bfull-resume-2026-11-07",
+  "visibility": "private",
+  "archive": "tofu_3b_and_8b_full_verified_resume.zip",
+  "archive_sha256": "5882fc3ebf8299413b60503edd9eeee080724909f071f5d3ba34dae683f8ea70",
+  "archive_bytes": 1918078,
+  "archive_crc": "PASS",
+  "purpose": "Supply checksum-pinned result resume files to a fresh Kaggle runtime without embedding a large base64 archive in the notebook.",
+  "model_to_run": "llama_3_1_8b_retain90"
+}

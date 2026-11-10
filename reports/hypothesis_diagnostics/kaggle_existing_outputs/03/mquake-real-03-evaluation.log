@@ -1,0 +1,1159 @@
+[{"stream_name":"stderr","time":7.231260786,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.231296308,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.231302346,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.231306103,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.829584617,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.829608212,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.829613129,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.829616928,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":49.69527425,"data":"\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":49.695297987000004,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":49.695303174,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":49.695317579,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":49.695323188,"data":"google-adk 2.7.1 requires opentelemetry-api\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-api 1.45.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":49.695328654,"data":"google-adk 2.7.1 requires opentelemetry-sdk\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-sdk 1.45.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":50.020897573,"data":"\u001b[0mNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":84.361068997,"data":"GPU devices: [(0, 'Tesla T4'), (1, 'Tesla T4')]\n"}
+,{"stream_name":"stdout","time":89.148123926,"data":"Evaluation IDs 192 by split/depth {('forget', 2): 32, ('forget', 3): 32, ('forget', 4): 32, ('holdout', 2): 16, ('holdout', 3): 16, ('holdout', 4): 16, ('retain', 2): 16, ('retain', 3): 16, ('retain', 4): 16}\n"}
+,{"stream_name":"stdout","time":89.148148523,"data":"Dataset SHA 679b7cc3cc953e4be5f964fc10dea468ad442595a0572cb5c53fe8823e629295 languages ('en', 'de', 'ru', 'zh', 'tr', 'vi')\n"}
+,{"stream_name":"stdout","time":96.524487284,"data":"Loaded 128 public HotpotQA validation examples\n"}
+,{"stream_name":"stdout","time":96.977913029,"data":"Checkpoint: pretrained\n"}
+,{"stream_name":"stdout","time":97.179283418,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":97.179310428,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stderr","time":97.331434225,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":97.331457465,"data":"\n"}
+,{"stream_name":"stderr","time":97.33146439,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":97.333226606,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":97.333262325,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_165117-5x7v0fgo\u001b[0m\n"}
+,{"stream_name":"stderr","time":97.33326943,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":97.333274971,"data":"\n"}
+,{"stream_name":"stderr","time":97.333279725,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":97.333285766,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_165117-5x7v0fgo\u001b[0m\n"}
+,{"stream_name":"stderr","time":97.333291772,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":98.329725689,"data":"[W\u0026B] offline run: 5x7v0fgo | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stderr","time":98.379602478,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":98.379626292,"data":"\n"}
+,{"stream_name":"stderr","time":98.379630431,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":212.139298323,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":212.139335511,"data":"\n"}
+,{"stream_name":"stderr","time":212.139341849,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":212.181591224,"data":"The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.\n"}
+,{"stream_name":"stderr","time":212.181622946,"data":"\n"}
+,{"stream_name":"stderr","time":212.181629928,"data":"The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.\n"}
+,{"stream_name":"stdout","time":260.115116016,"data":"pretrained completed 20 / 192\n"}
+,{"stream_name":"stdout","time":317.000712902,"data":"pretrained completed 40 / 192\n"}
+,{"stream_name":"stdout","time":373.864149506,"data":"pretrained completed 60 / 192\n"}
+,{"stream_name":"stdout","time":430.291645881,"data":"pretrained completed 80 / 192\n"}
+,{"stream_name":"stdout","time":489.035717254,"data":"pretrained completed 100 / 192\n"}
+,{"stream_name":"stdout","time":542.830800461,"data":"pretrained completed 120 / 192\n"}
+,{"stream_name":"stdout","time":597.861011549,"data":"pretrained completed 140 / 192\n"}
+,{"stream_name":"stdout","time":650.21864464,"data":"pretrained completed 160 / 192\n"}
+,{"stream_name":"stdout","time":704.322723572,"data":"pretrained completed 180 / 192\n"}
+,{"stream_name":"stdout","time":775.712073783,"data":"pretrained HotpotQA closed-book exact/alias accuracy 0.15625 n= 128\n"}
+,{"stream_name":"stderr","time":775.846629962,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.846665887,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":775.846672132,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":775.846677163,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":775.846681294,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.846685252,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":775.846689202,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.15625\n"}
+,{"stream_name":"stderr","time":775.84669343,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":775.846697247,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.846700781,"data":"\n"}
+,{"stream_name":"stderr","time":775.846704054,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.846708014,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":775.846711495,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":775.84671537,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":775.846719352,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.846723143,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":775.84672692,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.15625\n"}
+,{"stream_name":"stderr","time":775.846730845,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":775.846734758,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":775.847857571,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":775.847876071,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_165117-5x7v0fgo\u001b[0m\n"}
+,{"stream_name":"stderr","time":775.847882009,"data":"\n"}
+,{"stream_name":"stderr","time":775.847885785,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":775.847889767,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_165117-5x7v0fgo\u001b[0m\n"}
+,{"stream_name":"stderr","time":775.84901993,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_165117-5x7v0fgo/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":775.849052256,"data":"\n"}
+,{"stream_name":"stderr","time":775.849067035,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_165117-5x7v0fgo/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":776.336608285,"data":"Checkpoint: full_sft\n"}
+,{"stream_name":"stderr","time":776.525907308,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":776.525932465,"data":"\n"}
+,{"stream_name":"stderr","time":776.525937669,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":776.527121764,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":776.527183489,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_170237-t6d7gz74\u001b[0m\n"}
+,{"stream_name":"stderr","time":776.527190479,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":776.527195167,"data":"\n"}
+,{"stream_name":"stderr","time":776.527198577,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":776.527203133,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_170237-t6d7gz74\u001b[0m\n"}
+,{"stream_name":"stderr","time":776.527207187,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":776.539339595,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":776.539359511,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":777.456129579,"data":"[W\u0026B] offline run: t6d7gz74 | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stdout","time":896.336128668,"data":"full_sft completed 20 / 192\n"}
+,{"stream_name":"stdout","time":1011.575747945,"data":"full_sft completed 40 / 192\n"}
+,{"stream_name":"stdout","time":1109.659862035,"data":"full_sft completed 60 / 192\n"}
+,{"stream_name":"stdout","time":1210.652965994,"data":"full_sft completed 80 / 192\n"}
+,{"stream_name":"stdout","time":1309.445978004,"data":"full_sft completed 100 / 192\n"}
+,{"stream_name":"stdout","time":1415.671346365,"data":"full_sft completed 120 / 192\n"}
+,{"stream_name":"stdout","time":1519.501266883,"data":"full_sft completed 140 / 192\n"}
+,{"stream_name":"stdout","time":1628.166949377,"data":"full_sft completed 160 / 192\n"}
+,{"stream_name":"stdout","time":1725.657848426,"data":"full_sft completed 180 / 192\n"}
+,{"stream_name":"stdout","time":1846.430033537,"data":"full_sft HotpotQA closed-book exact/alias accuracy 0.15625 n= 128\n"}
+,{"stream_name":"stderr","time":1846.465961293,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.465987583,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":1846.465992969,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":1846.465998074,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":1846.466002518,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.466006639,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":1846.466035649,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.15625\n"}
+,{"stream_name":"stderr","time":1846.466046747,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":1846.466051153,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.466068432,"data":"\n"}
+,{"stream_name":"stderr","time":1846.466071036,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.46607346,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":1846.46607596,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":1846.46607848,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":1846.466080996,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.466083449,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":1846.466085965,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.15625\n"}
+,{"stream_name":"stderr","time":1846.466088511,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":1846.466091153,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":1846.467022746,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":1846.467041171,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_170237-t6d7gz74\u001b[0m\n"}
+,{"stream_name":"stderr","time":1846.467046184,"data":"\n"}
+,{"stream_name":"stderr","time":1846.46704987,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":1846.467053846,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_170237-t6d7gz74\u001b[0m\n"}
+,{"stream_name":"stderr","time":1846.46798282,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_170237-t6d7gz74/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":1846.467999853,"data":"\n"}
+,{"stream_name":"stderr","time":1846.468004077,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_170237-t6d7gz74/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":1846.983696467,"data":"Checkpoint: retain_only\n"}
+,{"stream_name":"stderr","time":1847.057493644,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":1847.057517803,"data":"\n"}
+,{"stream_name":"stderr","time":1847.057522513,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":1847.058501932,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":1847.058522137,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_172027-ydkgrngf\u001b[0m\n"}
+,{"stream_name":"stderr","time":1847.058527167,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":1847.058530909,"data":"\n"}
+,{"stream_name":"stderr","time":1847.058534227,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":1847.0585386,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_172027-ydkgrngf\u001b[0m\n"}
+,{"stream_name":"stderr","time":1847.058553164,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":1847.184210818,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":1847.184234458,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":1847.960479704,"data":"[W\u0026B] offline run: ydkgrngf | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stdout","time":1977.871612484,"data":"retain_only completed 20 / 192\n"}
+,{"stream_name":"stdout","time":2096.749800539,"data":"retain_only completed 40 / 192\n"}
+,{"stream_name":"stdout","time":2201.335628438,"data":"retain_only completed 60 / 192\n"}
+,{"stream_name":"stdout","time":2303.04249413,"data":"retain_only completed 80 / 192\n"}
+,{"stream_name":"stdout","time":2406.503872377,"data":"retain_only completed 100 / 192\n"}
+,{"stream_name":"stdout","time":2519.09364808,"data":"retain_only completed 120 / 192\n"}
+,{"stream_name":"stdout","time":2626.453010826,"data":"retain_only completed 140 / 192\n"}
+,{"stream_name":"stdout","time":2740.963939584,"data":"retain_only completed 160 / 192\n"}
+,{"stream_name":"stdout","time":2844.861704305,"data":"retain_only completed 180 / 192\n"}
+,{"stream_name":"stdout","time":2971.937395219,"data":"retain_only HotpotQA closed-book exact/alias accuracy 0.2109375 n= 128\n"}
+,{"stream_name":"stderr","time":2971.993914183,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.993939756,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":2971.993944958,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":2971.993950018,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":2971.993954518,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.99395872,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":2971.993963494,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.21094\n"}
+,{"stream_name":"stderr","time":2971.993969851,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":2971.993974838,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.993980129,"data":"\n"}
+,{"stream_name":"stderr","time":2971.994038989,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.994057149,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":2971.994062822,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":2971.994067239,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":2971.994071736,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.994076122,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":2971.994080573,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.21094\n"}
+,{"stream_name":"stderr","time":2971.994085261,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":2971.994089618,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2971.995268968,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":2971.995288251,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_172027-ydkgrngf\u001b[0m\n"}
+,{"stream_name":"stderr","time":2971.995293854,"data":"\n"}
+,{"stream_name":"stderr","time":2971.995298,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":2971.995301874,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_172027-ydkgrngf\u001b[0m\n"}
+,{"stream_name":"stderr","time":2971.996321566,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_172027-ydkgrngf/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":2971.996341979,"data":"\n"}
+,{"stream_name":"stderr","time":2971.996346515,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_172027-ydkgrngf/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":2972.494554533,"data":"Checkpoint: ga\n"}
+,{"stream_name":"stderr","time":2972.564500145,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":2972.564526224,"data":"\n"}
+,{"stream_name":"stderr","time":2972.564530968,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":2972.565928348,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":2972.565950401,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_173913-vlnrgx66\u001b[0m\n"}
+,{"stream_name":"stderr","time":2972.565955895,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":2972.565959978,"data":"\n"}
+,{"stream_name":"stderr","time":2972.565963712,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":2972.565968627,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_173913-vlnrgx66\u001b[0m\n"}
+,{"stream_name":"stderr","time":2972.565972607,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":2972.695507445,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":2972.695538416,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":2973.495017047,"data":"[W\u0026B] offline run: vlnrgx66 | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stdout","time":3740.541699391,"data":"ga completed 20 / 192\n"}
+,{"stream_name":"stdout","time":4486.567561689,"data":"ga completed 40 / 192\n"}
+,{"stream_name":"stdout","time":5237.449874314,"data":"ga completed 60 / 192\n"}
+,{"stream_name":"stdout","time":5989.280233656,"data":"ga completed 80 / 192\n"}
+,{"stream_name":"stdout","time":6738.612496798,"data":"ga completed 100 / 192\n"}
+,{"stream_name":"stdout","time":7487.065251839,"data":"ga completed 120 / 192\n"}
+,{"stream_name":"stdout","time":8234.347549101,"data":"ga completed 140 / 192\n"}
+,{"stream_name":"stdout","time":8974.723026038,"data":"ga completed 160 / 192\n"}
+,{"stream_name":"stdout","time":9717.122005209,"data":"ga completed 180 / 192\n"}
+,{"stream_name":"stdout","time":10565.385250175,"data":"ga HotpotQA closed-book exact/alias accuracy 0.0 n= 128\n"}
+,{"stream_name":"stderr","time":10565.460375791,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.4605194,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":10565.460535012,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":10565.460540648,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":10565.460545385,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.460550112,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":10565.460554577,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0\n"}
+,{"stream_name":"stderr","time":10565.460559717,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":10565.460564365,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.460568677,"data":"\n"}
+,{"stream_name":"stderr","time":10565.460572625,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.46057738,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":10565.460581877,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":10565.460587158,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":10565.460591958,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.460596233,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":10565.460600747,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0\n"}
+,{"stream_name":"stderr","time":10565.460605385,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":10565.460609887,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":10565.461707049,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":10565.461726058,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_173913-vlnrgx66\u001b[0m\n"}
+,{"stream_name":"stderr","time":10565.461731881,"data":"\n"}
+,{"stream_name":"stderr","time":10565.461735983,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":10565.461744913,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_173913-vlnrgx66\u001b[0m\n"}
+,{"stream_name":"stderr","time":10565.462612752,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_173913-vlnrgx66/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":10565.462633009,"data":"\n"}
+,{"stream_name":"stderr","time":10565.462638982,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_173913-vlnrgx66/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":10565.991950019,"data":"Checkpoint: gd\n"}
+,{"stream_name":"stderr","time":10566.061099377,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":10566.061163814,"data":"\n"}
+,{"stream_name":"stderr","time":10566.061168124,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":10566.062817471,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":10566.062840302,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_194546-u6bj2ql7\u001b[0m\n"}
+,{"stream_name":"stderr","time":10566.06284548,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":10566.062849578,"data":"\n"}
+,{"stream_name":"stderr","time":10566.062852836,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":10566.062856919,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_194546-u6bj2ql7\u001b[0m\n"}
+,{"stream_name":"stderr","time":10566.062860848,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":10566.191846622,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":10566.191873724,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":10566.985808755,"data":"[W\u0026B] offline run: u6bj2ql7 | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stdout","time":10724.846210813,"data":"gd completed 20 / 192\n"}
+,{"stream_name":"stdout","time":10866.249970899,"data":"gd completed 40 / 192\n"}
+,{"stream_name":"stdout","time":10970.561248566,"data":"gd completed 60 / 192\n"}
+,{"stream_name":"stdout","time":11071.337430962,"data":"gd completed 80 / 192\n"}
+,{"stream_name":"stdout","time":11179.367299347,"data":"gd completed 100 / 192\n"}
+,{"stream_name":"stdout","time":11319.565463147,"data":"gd completed 120 / 192\n"}
+,{"stream_name":"stdout","time":11427.464287479,"data":"gd completed 140 / 192\n"}
+,{"stream_name":"stdout","time":11564.44000247,"data":"gd completed 160 / 192\n"}
+,{"stream_name":"stdout","time":11666.059711739,"data":"gd completed 180 / 192\n"}
+,{"stream_name":"stdout","time":11798.933047448,"data":"gd HotpotQA closed-book exact/alias accuracy 0.1328125 n= 128\n"}
+,{"stream_name":"stderr","time":11798.964926788,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.964947899,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":11798.964952971,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":11798.964957851,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":11798.964962213,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.964966694,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":11798.964980431,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.13281\n"}
+,{"stream_name":"stderr","time":11798.964984169,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":11798.964987428,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.964990813,"data":"\n"}
+,{"stream_name":"stderr","time":11798.964994968,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.964998549,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":11798.965002382,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":11798.965006538,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":11798.965010533,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.965014396,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":11798.965018364,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.13281\n"}
+,{"stream_name":"stderr","time":11798.965022228,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":11798.965026665,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":11798.965729981,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":11798.965749635,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_194546-u6bj2ql7\u001b[0m\n"}
+,{"stream_name":"stderr","time":11798.965754826,"data":"\n"}
+,{"stream_name":"stderr","time":11798.965759352,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":11798.965763932,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_194546-u6bj2ql7\u001b[0m\n"}
+,{"stream_name":"stderr","time":11798.966832658,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_194546-u6bj2ql7/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":11798.966852041,"data":"\n"}
+,{"stream_name":"stderr","time":11798.966856401,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_194546-u6bj2ql7/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":11799.475080224,"data":"Checkpoint: npo\n"}
+,{"stream_name":"stderr","time":11799.543469104,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":11799.543490701,"data":"\n"}
+,{"stream_name":"stderr","time":11799.543495294,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":11799.544970624,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":11799.544990717,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_200620-bgpskiba\u001b[0m\n"}
+,{"stream_name":"stderr","time":11799.544995691,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":11799.544999844,"data":"\n"}
+,{"stream_name":"stderr","time":11799.545012622,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":11799.545017215,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_200620-bgpskiba\u001b[0m\n"}
+,{"stream_name":"stderr","time":11799.545021281,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":11799.675089705,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":11799.675110203,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":11800.451724417,"data":"[W\u0026B] offline run: bgpskiba | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stdout","time":12017.711495385,"data":"npo completed 20 / 192\n"}
+,{"stream_name":"stdout","time":12232.230952276,"data":"npo completed 40 / 192\n"}
+,{"stream_name":"stdout","time":12438.318375174,"data":"npo completed 60 / 192\n"}
+,{"stream_name":"stdout","time":12641.275035995,"data":"npo completed 80 / 192\n"}
+,{"stream_name":"stdout","time":12838.494569775,"data":"npo completed 100 / 192\n"}
+,{"stream_name":"stdout","time":13044.147141802,"data":"npo completed 120 / 192\n"}
+,{"stream_name":"stdout","time":13264.719088987,"data":"npo completed 140 / 192\n"}
+,{"stream_name":"stdout","time":13451.714350498,"data":"npo completed 160 / 192\n"}
+,{"stream_name":"stdout","time":13661.89787961,"data":"npo completed 180 / 192\n"}
+,{"stream_name":"stdout","time":13889.151068362,"data":"npo HotpotQA closed-book exact/alias accuracy 0.078125 n= 128\n"}
+,{"stream_name":"stderr","time":13889.205161815,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.205213978,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":13889.205221399,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":13889.205228459,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":13889.205234364,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.205240043,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":13889.205258146,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.07812\n"}
+,{"stream_name":"stderr","time":13889.205262562,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":13889.205267067,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.20527194,"data":"\n"}
+,{"stream_name":"stderr","time":13889.205276115,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.205280325,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":13889.205284606,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy ▁\n"}
+,{"stream_name":"stderr","time":13889.205289047,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n ▁\n"}
+,{"stream_name":"stderr","time":13889.205293679,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.205297803,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":13889.205313616,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: external/hotpotqa_closed_book_accuracy 0.07812\n"}
+,{"stream_name":"stderr","time":13889.205317525,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                    external/hotpotqa_n 128\n"}
+,{"stream_name":"stderr","time":13889.205321162,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":13889.207027794,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":13889.207053479,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_200620-bgpskiba\u001b[0m\n"}
+,{"stream_name":"stderr","time":13889.207058527,"data":"\n"}
+,{"stream_name":"stderr","time":13889.207062999,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":13889.207067146,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_200620-bgpskiba\u001b[0m\n"}
+,{"stream_name":"stderr","time":13889.208593872,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_200620-bgpskiba/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":13889.208610707,"data":"\n"}
+,{"stream_name":"stderr","time":13889.208614821,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_200620-bgpskiba/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":13889.981281857,"data":" checkpoint   split  depth language  probe  recovery  correct_n  count\n"}
+,{"stream_name":"stdout","time":13889.981307215,"data":"   full_sft  forget      2       de direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.981312227,"data":"   full_sft  forget      2       de  multi   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.981315734,"data":"   full_sft  forget      2       en direct   1.00000         32     32\n"}
+,{"stream_name":"stdout","time":13889.981320352,"data":"   full_sft  forget      2       en  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.981323758,"data":"   full_sft  forget      2       ru direct   0.68750         22     32\n"}
+,{"stream_name":"stdout","time":13889.981327177,"data":"   full_sft  forget      2       ru  multi   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.981330955,"data":"   full_sft  forget      2       tr direct   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.981334424,"data":"   full_sft  forget      2       tr  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.98133822,"data":"   full_sft  forget      2       vi direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.981341737,"data":"   full_sft  forget      2       vi  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.981344906,"data":"   full_sft  forget      2       zh direct   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.981348227,"data":"   full_sft  forget      2       zh  multi   0.56250         18     32\n"}
+,{"stream_name":"stdout","time":13889.981351663,"data":"   full_sft  forget      3       de direct   1.00000         32     32\n"}
+,{"stream_name":"stdout","time":13889.981355185,"data":"   full_sft  forget      3       de  multi   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.981358946,"data":"   full_sft  forget      3       en direct   1.00000         32     32\n"}
+,{"stream_name":"stdout","time":13889.981362305,"data":"   full_sft  forget      3       en  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.98137486,"data":"   full_sft  forget      3       ru direct   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.981379265,"data":"   full_sft  forget      3       ru  multi   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.981383052,"data":"   full_sft  forget      3       tr direct   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.981387332,"data":"   full_sft  forget      3       tr  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.981391492,"data":"   full_sft  forget      3       vi direct   0.96875         31     32\n"}
+,{"stream_name":"stdout","time":13889.981394924,"data":"   full_sft  forget      3       vi  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.981398477,"data":"   full_sft  forget      3       zh direct   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.981401726,"data":"   full_sft  forget      3       zh  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.981405183,"data":"   full_sft  forget      4       de direct   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.981429289,"data":"   full_sft  forget      4       de  multi   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.981432982,"data":"   full_sft  forget      4       en direct   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.981438737,"data":"   full_sft  forget      4       en  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.981442202,"data":"   full_sft  forget      4       ru direct   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.981445757,"data":"   full_sft  forget      4       ru  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.981449244,"data":"   full_sft  forget      4       tr direct   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.981452906,"data":"   full_sft  forget      4       tr  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.981456257,"data":"   full_sft  forget      4       vi direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.981459615,"data":"   full_sft  forget      4       vi  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.981463271,"data":"   full_sft  forget      4       zh direct   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.981466429,"data":"   full_sft  forget      4       zh  multi   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.981469872,"data":"   full_sft holdout      2       de direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981473302,"data":"   full_sft holdout      2       de  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981476526,"data":"   full_sft holdout      2       en direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981479801,"data":"   full_sft holdout      2       en  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981482999,"data":"   full_sft holdout      2       ru direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981486938,"data":"   full_sft holdout      2       ru  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981490458,"data":"   full_sft holdout      2       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.981493824,"data":"   full_sft holdout      2       tr  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981497192,"data":"   full_sft holdout      2       vi direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981500511,"data":"   full_sft holdout      2       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981519637,"data":"   full_sft holdout      2       zh direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.98152336,"data":"   full_sft holdout      2       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.981526574,"data":"   full_sft holdout      3       de direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981529868,"data":"   full_sft holdout      3       de  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981533296,"data":"   full_sft holdout      3       en direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981536613,"data":"   full_sft holdout      3       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981540021,"data":"   full_sft holdout      3       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.981543554,"data":"   full_sft holdout      3       ru  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981547445,"data":"   full_sft holdout      3       tr direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981550674,"data":"   full_sft holdout      3       tr  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981554473,"data":"   full_sft holdout      3       vi direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981557539,"data":"   full_sft holdout      3       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981560999,"data":"   full_sft holdout      3       zh direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981564032,"data":"   full_sft holdout      3       zh  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981567149,"data":"   full_sft holdout      4       de direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981570298,"data":"   full_sft holdout      4       de  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981573619,"data":"   full_sft holdout      4       en direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981576917,"data":"   full_sft holdout      4       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981580296,"data":"   full_sft holdout      4       ru direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981583739,"data":"   full_sft holdout      4       ru  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981587123,"data":"   full_sft holdout      4       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.981590615,"data":"   full_sft holdout      4       tr  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981594153,"data":"   full_sft holdout      4       vi direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.981597943,"data":"   full_sft holdout      4       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.98160149,"data":"   full_sft holdout      4       zh direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.981605127,"data":"   full_sft holdout      4       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.981608681,"data":"   full_sft  retain      2       de direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981612244,"data":"   full_sft  retain      2       de  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981615814,"data":"   full_sft  retain      2       en direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981622854,"data":"   full_sft  retain      2       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981626312,"data":"   full_sft  retain      2       ru direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.981629578,"data":"   full_sft  retain      2       ru  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.981632705,"data":"   full_sft  retain      2       tr direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981635965,"data":"   full_sft  retain      2       tr  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981639168,"data":"   full_sft  retain      2       vi direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.98164261,"data":"   full_sft  retain      2       vi  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981645961,"data":"   full_sft  retain      2       zh direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.981649366,"data":"   full_sft  retain      2       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.981652815,"data":"   full_sft  retain      3       de direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981657216,"data":"   full_sft  retain      3       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981660505,"data":"   full_sft  retain      3       en direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981664187,"data":"   full_sft  retain      3       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981667553,"data":"   full_sft  retain      3       ru direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981671014,"data":"   full_sft  retain      3       ru  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981674253,"data":"   full_sft  retain      3       tr direct   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981677498,"data":"   full_sft  retain      3       tr  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981680939,"data":"   full_sft  retain      3       vi direct   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981684488,"data":"   full_sft  retain      3       vi  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981688025,"data":"   full_sft  retain      3       zh direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981694843,"data":"   full_sft  retain      3       zh  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.981698434,"data":"   full_sft  retain      4       de direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981701852,"data":"   full_sft  retain      4       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981705094,"data":"   full_sft  retain      4       en direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981708713,"data":"   full_sft  retain      4       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981712107,"data":"   full_sft  retain      4       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.981715658,"data":"   full_sft  retain      4       ru  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981718822,"data":"   full_sft  retain      4       tr direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.981722166,"data":"   full_sft  retain      4       tr  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.981728942,"data":"   full_sft  retain      4       vi direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.981732479,"data":"   full_sft  retain      4       vi  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981735887,"data":"   full_sft  retain      4       zh direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.9817393,"data":"   full_sft  retain      4       zh  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.981742734,"data":"         ga  forget      2       de direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981746087,"data":"         ga  forget      2       de  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981749501,"data":"         ga  forget      2       en direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981752967,"data":"         ga  forget      2       en  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981756673,"data":"         ga  forget      2       ru direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981760031,"data":"         ga  forget      2       ru  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981763929,"data":"         ga  forget      2       tr direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981767572,"data":"         ga  forget      2       tr  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.98177087,"data":"         ga  forget      2       vi direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981774349,"data":"         ga  forget      2       vi  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981777894,"data":"         ga  forget      2       zh direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981781532,"data":"         ga  forget      2       zh  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981785157,"data":"         ga  forget      3       de direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981788719,"data":"         ga  forget      3       de  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981792192,"data":"         ga  forget      3       en direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981795756,"data":"         ga  forget      3       en  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981799497,"data":"         ga  forget      3       ru direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981803378,"data":"         ga  forget      3       ru  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981806974,"data":"         ga  forget      3       tr direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981810453,"data":"         ga  forget      3       tr  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981813776,"data":"         ga  forget      3       vi direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981817349,"data":"         ga  forget      3       vi  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981820696,"data":"         ga  forget      3       zh direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981824213,"data":"         ga  forget      3       zh  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981827672,"data":"         ga  forget      4       de direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981834471,"data":"         ga  forget      4       de  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981838249,"data":"         ga  forget      4       en direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.98184187,"data":"         ga  forget      4       en  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981845272,"data":"         ga  forget      4       ru direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981848665,"data":"         ga  forget      4       ru  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981852099,"data":"         ga  forget      4       tr direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981855598,"data":"         ga  forget      4       tr  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981859099,"data":"         ga  forget      4       vi direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981862547,"data":"         ga  forget      4       vi  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981865979,"data":"         ga  forget      4       zh direct   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981869904,"data":"         ga  forget      4       zh  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.981873421,"data":"         ga holdout      2       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98187697,"data":"         ga holdout      2       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981880443,"data":"         ga holdout      2       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98188395,"data":"         ga holdout      2       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981887225,"data":"         ga holdout      2       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981890659,"data":"         ga holdout      2       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981894123,"data":"         ga holdout      2       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981897681,"data":"         ga holdout      2       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98190106,"data":"         ga holdout      2       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981904282,"data":"         ga holdout      2       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981907314,"data":"         ga holdout      2       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981910717,"data":"         ga holdout      2       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981913985,"data":"         ga holdout      3       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981917505,"data":"         ga holdout      3       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981921066,"data":"         ga holdout      3       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981924374,"data":"         ga holdout      3       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981929008,"data":"         ga holdout      3       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981932677,"data":"         ga holdout      3       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98193993,"data":"         ga holdout      3       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981943459,"data":"         ga holdout      3       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981946789,"data":"         ga holdout      3       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981950496,"data":"         ga holdout      3       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98195386,"data":"         ga holdout      3       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981957392,"data":"         ga holdout      3       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981960839,"data":"         ga holdout      4       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981964235,"data":"         ga holdout      4       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981967958,"data":"         ga holdout      4       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981971477,"data":"         ga holdout      4       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981975498,"data":"         ga holdout      4       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981978988,"data":"         ga holdout      4       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981982521,"data":"         ga holdout      4       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981986389,"data":"         ga holdout      4       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981990317,"data":"         ga holdout      4       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981994261,"data":"         ga holdout      4       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.981998786,"data":"         ga holdout      4       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982002199,"data":"         ga holdout      4       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982006367,"data":"         ga  retain      2       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98200964,"data":"         ga  retain      2       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982012897,"data":"         ga  retain      2       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982016371,"data":"         ga  retain      2       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982019905,"data":"         ga  retain      2       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982023013,"data":"         ga  retain      2       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982026259,"data":"         ga  retain      2       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98202969,"data":"         ga  retain      2       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982033042,"data":"         ga  retain      2       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982036265,"data":"         ga  retain      2       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982039488,"data":"         ga  retain      2       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982046554,"data":"         ga  retain      2       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98205001,"data":"         ga  retain      3       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98205315,"data":"         ga  retain      3       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982056269,"data":"         ga  retain      3       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982059665,"data":"         ga  retain      3       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982063117,"data":"         ga  retain      3       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982066425,"data":"         ga  retain      3       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982069995,"data":"         ga  retain      3       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982073576,"data":"         ga  retain      3       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982078509,"data":"         ga  retain      3       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982082104,"data":"         ga  retain      3       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98208536,"data":"         ga  retain      3       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982088639,"data":"         ga  retain      3       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982091828,"data":"         ga  retain      4       de direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982095293,"data":"         ga  retain      4       de  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982098687,"data":"         ga  retain      4       en direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982102189,"data":"         ga  retain      4       en  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982105512,"data":"         ga  retain      4       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982108747,"data":"         ga  retain      4       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98211182,"data":"         ga  retain      4       tr direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982115222,"data":"         ga  retain      4       tr  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98211864,"data":"         ga  retain      4       vi direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982122492,"data":"         ga  retain      4       vi  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982126004,"data":"         ga  retain      4       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982129478,"data":"         ga  retain      4       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982132897,"data":"         gd  forget      2       de direct   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982136812,"data":"         gd  forget      2       de  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.982140445,"data":"         gd  forget      2       en direct   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.982143894,"data":"         gd  forget      2       en  multi   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.982151279,"data":"         gd  forget      2       ru direct   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.98215517,"data":"         gd  forget      2       ru  multi   0.62500         20     32\n"}
+,{"stream_name":"stdout","time":13889.9821584,"data":"         gd  forget      2       tr direct   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.982161944,"data":"         gd  forget      2       tr  multi   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.982165392,"data":"         gd  forget      2       vi direct   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.982168883,"data":"         gd  forget      2       vi  multi   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.982172331,"data":"         gd  forget      2       zh direct   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.98217563,"data":"         gd  forget      2       zh  multi   0.46875         15     32\n"}
+,{"stream_name":"stdout","time":13889.982179068,"data":"         gd  forget      3       de direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.982182858,"data":"         gd  forget      3       de  multi   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.982186055,"data":"         gd  forget      3       en direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.982189442,"data":"         gd  forget      3       en  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.982192792,"data":"         gd  forget      3       ru direct   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.982196182,"data":"         gd  forget      3       ru  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.98219957,"data":"         gd  forget      3       tr direct   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.982203024,"data":"         gd  forget      3       tr  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.982206409,"data":"         gd  forget      3       vi direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.982209849,"data":"         gd  forget      3       vi  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982213046,"data":"         gd  forget      3       zh direct   0.62500         20     32\n"}
+,{"stream_name":"stdout","time":13889.982216407,"data":"         gd  forget      3       zh  multi   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.982219775,"data":"         gd  forget      4       de direct   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.982223135,"data":"         gd  forget      4       de  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.98222661,"data":"         gd  forget      4       en direct   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.982230068,"data":"         gd  forget      4       en  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982233217,"data":"         gd  forget      4       ru direct   0.50000         16     32\n"}
+,{"stream_name":"stdout","time":13889.982236684,"data":"         gd  forget      4       ru  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.9822402,"data":"         gd  forget      4       tr direct   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.982243733,"data":"         gd  forget      4       tr  multi   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.982247327,"data":"         gd  forget      4       vi direct   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982254721,"data":"         gd  forget      4       vi  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.982258173,"data":"         gd  forget      4       zh direct   0.43750         14     32\n"}
+,{"stream_name":"stdout","time":13889.982261604,"data":"         gd  forget      4       zh  multi   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.98226484,"data":"         gd holdout      2       de direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.9822681,"data":"         gd holdout      2       de  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982271479,"data":"         gd holdout      2       en direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982275079,"data":"         gd holdout      2       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982278547,"data":"         gd holdout      2       ru direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982282077,"data":"         gd holdout      2       ru  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982286215,"data":"         gd holdout      2       tr direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.98229023,"data":"         gd holdout      2       tr  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982293837,"data":"         gd holdout      2       vi direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.98229744,"data":"         gd holdout      2       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.98230096,"data":"         gd holdout      2       zh direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.982304592,"data":"         gd holdout      2       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982308095,"data":"         gd holdout      3       de direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982311617,"data":"         gd holdout      3       de  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982314923,"data":"         gd holdout      3       en direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982318315,"data":"         gd holdout      3       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982321296,"data":"         gd holdout      3       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982324814,"data":"         gd holdout      3       ru  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982328055,"data":"         gd holdout      3       tr direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982331461,"data":"         gd holdout      3       tr  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.982335017,"data":"         gd holdout      3       vi direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982338516,"data":"         gd holdout      3       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982341874,"data":"         gd holdout      3       zh direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.982345262,"data":"         gd holdout      3       zh  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982348684,"data":"         gd holdout      4       de direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.98235216,"data":"         gd holdout      4       de  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.98235876,"data":"         gd holdout      4       en direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982362482,"data":"         gd holdout      4       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982365942,"data":"         gd holdout      4       ru direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982369364,"data":"         gd holdout      4       ru  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982372692,"data":"         gd holdout      4       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982376179,"data":"         gd holdout      4       tr  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982379527,"data":"         gd holdout      4       vi direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982383094,"data":"         gd holdout      4       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.982386533,"data":"         gd holdout      4       zh direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982390356,"data":"         gd holdout      4       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982393841,"data":"         gd  retain      2       de direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982397242,"data":"         gd  retain      2       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982400598,"data":"         gd  retain      2       en direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982404055,"data":"         gd  retain      2       en  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982431395,"data":"         gd  retain      2       ru direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.982435537,"data":"         gd  retain      2       ru  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982438878,"data":"         gd  retain      2       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982442527,"data":"         gd  retain      2       tr  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982446061,"data":"         gd  retain      2       vi direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.982449317,"data":"         gd  retain      2       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982452765,"data":"         gd  retain      2       zh direct   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.982456219,"data":"         gd  retain      2       zh  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982459457,"data":"         gd  retain      3       de direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982462837,"data":"         gd  retain      3       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982466373,"data":"         gd  retain      3       en direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.98247006,"data":"         gd  retain      3       en  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982474237,"data":"         gd  retain      3       ru direct   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982477825,"data":"         gd  retain      3       ru  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.98248135,"data":"         gd  retain      3       tr direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982495575,"data":"         gd  retain      3       tr  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982499334,"data":"         gd  retain      3       vi direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982502709,"data":"         gd  retain      3       vi  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982505993,"data":"         gd  retain      3       zh direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982523329,"data":"         gd  retain      3       zh  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982526925,"data":"         gd  retain      4       de direct   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982530439,"data":"         gd  retain      4       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.98253379,"data":"         gd  retain      4       en direct   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982537294,"data":"         gd  retain      4       en  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982541522,"data":"         gd  retain      4       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982544985,"data":"         gd  retain      4       ru  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982548414,"data":"         gd  retain      4       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982551805,"data":"         gd  retain      4       tr  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.982555198,"data":"         gd  retain      4       vi direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982558611,"data":"         gd  retain      4       vi  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982562056,"data":"         gd  retain      4       zh direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982565522,"data":"         gd  retain      4       zh  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982568844,"data":"        npo  forget      2       de direct   0.40625         13     32\n"}
+,{"stream_name":"stdout","time":13889.982572104,"data":"        npo  forget      2       de  multi   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.98257577,"data":"        npo  forget      2       en direct   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.98257968,"data":"        npo  forget      2       en  multi   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.982583022,"data":"        npo  forget      2       ru direct   0.34375         11     32\n"}
+,{"stream_name":"stdout","time":13889.982586317,"data":"        npo  forget      2       ru  multi   0.50000         16     32\n"}
+,{"stream_name":"stdout","time":13889.982589764,"data":"        npo  forget      2       tr direct   0.31250         10     32\n"}
+,{"stream_name":"stdout","time":13889.982593194,"data":"        npo  forget      2       tr  multi   0.50000         16     32\n"}
+,{"stream_name":"stdout","time":13889.982596583,"data":"        npo  forget      2       vi direct   0.37500         12     32\n"}
+,{"stream_name":"stdout","time":13889.982600107,"data":"        npo  forget      2       vi  multi   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.982603208,"data":"        npo  forget      2       zh direct   0.15625          5     32\n"}
+,{"stream_name":"stdout","time":13889.982606479,"data":"        npo  forget      2       zh  multi   0.25000          8     32\n"}
+,{"stream_name":"stdout","time":13889.9826196,"data":"        npo  forget      3       de direct   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.982623204,"data":"        npo  forget      3       de  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982626709,"data":"        npo  forget      3       en direct   0.37500         12     32\n"}
+,{"stream_name":"stdout","time":13889.982630032,"data":"        npo  forget      3       en  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982633212,"data":"        npo  forget      3       ru direct   0.31250         10     32\n"}
+,{"stream_name":"stdout","time":13889.982636274,"data":"        npo  forget      3       ru  multi   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.982639619,"data":"        npo  forget      3       tr direct   0.25000          8     32\n"}
+,{"stream_name":"stdout","time":13889.982643019,"data":"        npo  forget      3       tr  multi   0.68750         22     32\n"}
+,{"stream_name":"stdout","time":13889.982646129,"data":"        npo  forget      3       vi direct   0.40625         13     32\n"}
+,{"stream_name":"stdout","time":13889.982650301,"data":"        npo  forget      3       vi  multi   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.98265339,"data":"        npo  forget      3       zh direct   0.31250         10     32\n"}
+,{"stream_name":"stdout","time":13889.982657065,"data":"        npo  forget      3       zh  multi   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.982660319,"data":"        npo  forget      4       de direct   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.98266454,"data":"        npo  forget      4       de  multi   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.982667658,"data":"        npo  forget      4       en direct   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.982671414,"data":"        npo  forget      4       en  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982674664,"data":"        npo  forget      4       ru direct   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.98267819,"data":"        npo  forget      4       ru  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.982681444,"data":"        npo  forget      4       tr direct   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.982684939,"data":"        npo  forget      4       tr  multi   0.68750         22     32\n"}
+,{"stream_name":"stdout","time":13889.98268836,"data":"        npo  forget      4       vi direct   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.98269157,"data":"        npo  forget      4       vi  multi   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.982694969,"data":"        npo  forget      4       zh direct   0.12500          4     32\n"}
+,{"stream_name":"stdout","time":13889.982697968,"data":"        npo  forget      4       zh  multi   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.982701407,"data":"        npo holdout      2       de direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.98270463,"data":"        npo holdout      2       de  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982707937,"data":"        npo holdout      2       en direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.982711246,"data":"        npo holdout      2       en  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982714786,"data":"        npo holdout      2       ru direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982721952,"data":"        npo holdout      2       ru  multi   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.982725754,"data":"        npo holdout      2       tr direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.982729224,"data":"        npo holdout      2       tr  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982732355,"data":"        npo holdout      2       vi direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.98273559,"data":"        npo holdout      2       vi  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982738955,"data":"        npo holdout      2       zh direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.982742192,"data":"        npo holdout      2       zh  multi   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982745541,"data":"        npo holdout      3       de direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.982749309,"data":"        npo holdout      3       de  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982752675,"data":"        npo holdout      3       en direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982756092,"data":"        npo holdout      3       en  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.982759231,"data":"        npo holdout      3       ru direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982762514,"data":"        npo holdout      3       ru  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982765974,"data":"        npo holdout      3       tr direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.98276936,"data":"        npo holdout      3       tr  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982772742,"data":"        npo holdout      3       vi direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.98277607,"data":"        npo holdout      3       vi  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982779339,"data":"        npo holdout      3       zh direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982783035,"data":"        npo holdout      3       zh  multi   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982786554,"data":"        npo holdout      4       de direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982789749,"data":"        npo holdout      4       de  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982792922,"data":"        npo holdout      4       en direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982797054,"data":"        npo holdout      4       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982800514,"data":"        npo holdout      4       ru direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.982804254,"data":"        npo holdout      4       ru  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982807641,"data":"        npo holdout      4       tr direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.982811087,"data":"        npo holdout      4       tr  multi   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982814229,"data":"        npo holdout      4       vi direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982820665,"data":"        npo holdout      4       vi  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982829142,"data":"        npo holdout      4       zh direct   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.982832722,"data":"        npo holdout      4       zh  multi   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.982835887,"data":"        npo  retain      2       de direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982839225,"data":"        npo  retain      2       de  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.9828426,"data":"        npo  retain      2       en direct   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.982846071,"data":"        npo  retain      2       en  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982849115,"data":"        npo  retain      2       ru direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.982852539,"data":"        npo  retain      2       ru  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982856188,"data":"        npo  retain      2       tr direct   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.982859566,"data":"        npo  retain      2       tr  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982862726,"data":"        npo  retain      2       vi direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.98286597,"data":"        npo  retain      2       vi  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982869762,"data":"        npo  retain      2       zh direct   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.98287327,"data":"        npo  retain      2       zh  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.982876441,"data":"        npo  retain      3       de direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.98287987,"data":"        npo  retain      3       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982883276,"data":"        npo  retain      3       en direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.98288668,"data":"        npo  retain      3       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.982889891,"data":"        npo  retain      3       ru direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982894482,"data":"        npo  retain      3       ru  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982897871,"data":"        npo  retain      3       tr direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982901448,"data":"        npo  retain      3       tr  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982904988,"data":"        npo  retain      3       vi direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982908486,"data":"        npo  retain      3       vi  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982912039,"data":"        npo  retain      3       zh direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982915635,"data":"        npo  retain      3       zh  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.982919231,"data":"        npo  retain      4       de direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982922762,"data":"        npo  retain      4       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.98292631,"data":"        npo  retain      4       en direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982930029,"data":"        npo  retain      4       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.9829373,"data":"        npo  retain      4       ru direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.982940905,"data":"        npo  retain      4       ru  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.982944239,"data":"        npo  retain      4       tr direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.982947397,"data":"        npo  retain      4       tr  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.982950816,"data":"        npo  retain      4       vi direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.982954211,"data":"        npo  retain      4       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.982957734,"data":"        npo  retain      4       zh direct   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.982962559,"data":"        npo  retain      4       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.982966237,"data":" pretrained  forget      2       de direct   0.31250         10     32\n"}
+,{"stream_name":"stdout","time":13889.98296968,"data":" pretrained  forget      2       de  multi   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.982973129,"data":" pretrained  forget      2       en direct   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.982976575,"data":" pretrained  forget      2       en  multi   0.37500         12     32\n"}
+,{"stream_name":"stdout","time":13889.982980067,"data":" pretrained  forget      2       ru direct   0.34375         11     32\n"}
+,{"stream_name":"stdout","time":13889.982983482,"data":" pretrained  forget      2       ru  multi   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.982986798,"data":" pretrained  forget      2       tr direct   0.56250         18     32\n"}
+,{"stream_name":"stdout","time":13889.982990139,"data":" pretrained  forget      2       tr  multi   0.25000          8     32\n"}
+,{"stream_name":"stdout","time":13889.982993567,"data":" pretrained  forget      2       vi direct   0.40625         13     32\n"}
+,{"stream_name":"stdout","time":13889.982997009,"data":" pretrained  forget      2       vi  multi   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.983000393,"data":" pretrained  forget      2       zh direct   0.09375          3     32\n"}
+,{"stream_name":"stdout","time":13889.98300382,"data":" pretrained  forget      2       zh  multi   0.00000          0     32\n"}
+,{"stream_name":"stdout","time":13889.983007284,"data":" pretrained  forget      3       de direct   0.43750         14     32\n"}
+,{"stream_name":"stdout","time":13889.983010519,"data":" pretrained  forget      3       de  multi   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.983013855,"data":" pretrained  forget      3       en direct   0.50000         16     32\n"}
+,{"stream_name":"stdout","time":13889.983017522,"data":" pretrained  forget      3       en  multi   0.25000          8     32\n"}
+,{"stream_name":"stdout","time":13889.98302089,"data":" pretrained  forget      3       ru direct   0.28125          9     32\n"}
+,{"stream_name":"stdout","time":13889.983024388,"data":" pretrained  forget      3       ru  multi   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.983027787,"data":" pretrained  forget      3       tr direct   0.43750         14     32\n"}
+,{"stream_name":"stdout","time":13889.983031094,"data":" pretrained  forget      3       tr  multi   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.983034317,"data":" pretrained  forget      3       vi direct   0.46875         15     32\n"}
+,{"stream_name":"stdout","time":13889.98304115,"data":" pretrained  forget      3       vi  multi   0.21875          7     32\n"}
+,{"stream_name":"stdout","time":13889.983044726,"data":" pretrained  forget      3       zh direct   0.06250          2     32\n"}
+,{"stream_name":"stdout","time":13889.983048066,"data":" pretrained  forget      3       zh  multi   0.06250          2     32\n"}
+,{"stream_name":"stdout","time":13889.983051441,"data":" pretrained  forget      4       de direct   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.983055073,"data":" pretrained  forget      4       de  multi   0.34375         11     32\n"}
+,{"stream_name":"stdout","time":13889.983058312,"data":" pretrained  forget      4       en direct   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.98306169,"data":" pretrained  forget      4       en  multi   0.43750         14     32\n"}
+,{"stream_name":"stdout","time":13889.983065599,"data":" pretrained  forget      4       ru direct   0.37500         12     32\n"}
+,{"stream_name":"stdout","time":13889.983069302,"data":" pretrained  forget      4       ru  multi   0.34375         11     32\n"}
+,{"stream_name":"stdout","time":13889.983072788,"data":" pretrained  forget      4       tr direct   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.98307618,"data":" pretrained  forget      4       tr  multi   0.40625         13     32\n"}
+,{"stream_name":"stdout","time":13889.983079619,"data":" pretrained  forget      4       vi direct   0.62500         20     32\n"}
+,{"stream_name":"stdout","time":13889.983082917,"data":" pretrained  forget      4       vi  multi   0.40625         13     32\n"}
+,{"stream_name":"stdout","time":13889.983086072,"data":" pretrained  forget      4       zh direct   0.09375          3     32\n"}
+,{"stream_name":"stdout","time":13889.98308957,"data":" pretrained  forget      4       zh  multi   0.09375          3     32\n"}
+,{"stream_name":"stdout","time":13889.98309297,"data":" pretrained holdout      2       de direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983096173,"data":" pretrained holdout      2       de  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983099444,"data":" pretrained holdout      2       en direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983102683,"data":" pretrained holdout      2       en  multi   0.25000          4     16\n"}
+,{"stream_name":"stdout","time":13889.98310589,"data":" pretrained holdout      2       ru direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.9831092,"data":" pretrained holdout      2       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.983112562,"data":" pretrained holdout      2       tr direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983115934,"data":" pretrained holdout      2       tr  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983119366,"data":" pretrained holdout      2       vi direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983122887,"data":" pretrained holdout      2       vi  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983125876,"data":" pretrained holdout      2       zh direct   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.983129294,"data":" pretrained holdout      2       zh  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983132592,"data":" pretrained holdout      3       de direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.983136142,"data":" pretrained holdout      3       de  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983143329,"data":" pretrained holdout      3       en direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983147002,"data":" pretrained holdout      3       en  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983150258,"data":" pretrained holdout      3       ru direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983153634,"data":" pretrained holdout      3       ru  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983156777,"data":" pretrained holdout      3       tr direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983159954,"data":" pretrained holdout      3       tr  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983163026,"data":" pretrained holdout      3       vi direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983166632,"data":" pretrained holdout      3       vi  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.98316998,"data":" pretrained holdout      3       zh direct   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983173182,"data":" pretrained holdout      3       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.98317626,"data":" pretrained holdout      4       de direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983179592,"data":" pretrained holdout      4       de  multi   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983183059,"data":" pretrained holdout      4       en direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.983186275,"data":" pretrained holdout      4       en  multi   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983189644,"data":" pretrained holdout      4       ru direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983192861,"data":" pretrained holdout      4       ru  multi   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983195999,"data":" pretrained holdout      4       tr direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.98319916,"data":" pretrained holdout      4       tr  multi   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.983203023,"data":" pretrained holdout      4       vi direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983206456,"data":" pretrained holdout      4       vi  multi   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.98320998,"data":" pretrained holdout      4       zh direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983213397,"data":" pretrained holdout      4       zh  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983216599,"data":" pretrained  retain      2       de direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983220038,"data":" pretrained  retain      2       de  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983223377,"data":" pretrained  retain      2       en direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.98322666,"data":" pretrained  retain      2       en  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983230059,"data":" pretrained  retain      2       ru direct   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.983233288,"data":" pretrained  retain      2       ru  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.983236657,"data":" pretrained  retain      2       tr direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983243099,"data":" pretrained  retain      2       tr  multi   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.983246599,"data":" pretrained  retain      2       vi direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983249837,"data":" pretrained  retain      2       vi  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983252941,"data":" pretrained  retain      2       zh direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.98325655,"data":" pretrained  retain      2       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.983259713,"data":" pretrained  retain      3       de direct   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.98326316,"data":" pretrained  retain      3       de  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983266974,"data":" pretrained  retain      3       en direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.983270418,"data":" pretrained  retain      3       en  multi   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983273947,"data":" pretrained  retain      3       ru direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983277375,"data":" pretrained  retain      3       ru  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983280769,"data":" pretrained  retain      3       tr direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983284285,"data":" pretrained  retain      3       tr  multi   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.983287838,"data":" pretrained  retain      3       vi direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983291333,"data":" pretrained  retain      3       vi  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983295255,"data":" pretrained  retain      3       zh direct   0.06250          1     16\n"}
+,{"stream_name":"stdout","time":13889.983298823,"data":" pretrained  retain      3       zh  multi   0.00000          0     16\n"}
+,{"stream_name":"stdout","time":13889.983302378,"data":" pretrained  retain      4       de direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983305928,"data":" pretrained  retain      4       de  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983309203,"data":" pretrained  retain      4       en direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.98331259,"data":" pretrained  retain      4       en  multi   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983315807,"data":" pretrained  retain      4       ru direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983319374,"data":" pretrained  retain      4       ru  multi   0.18750          3     16\n"}
+,{"stream_name":"stdout","time":13889.983322683,"data":" pretrained  retain      4       tr direct   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.98332611,"data":" pretrained  retain      4       tr  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.98332974,"data":" pretrained  retain      4       vi direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983333622,"data":" pretrained  retain      4       vi  multi   0.37500          6     16\n"}
+,{"stream_name":"stdout","time":13889.983337099,"data":" pretrained  retain      4       zh direct   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.983340437,"data":" pretrained  retain      4       zh  multi   0.12500          2     16\n"}
+,{"stream_name":"stdout","time":13889.98334717,"data":"retain_only  forget      2       de direct   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.983351734,"data":"retain_only  forget      2       de  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.983355204,"data":"retain_only  forget      2       en direct   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.983358661,"data":"retain_only  forget      2       en  multi   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.983361965,"data":"retain_only  forget      2       ru direct   0.59375         19     32\n"}
+,{"stream_name":"stdout","time":13889.983365212,"data":"retain_only  forget      2       ru  multi   0.56250         18     32\n"}
+,{"stream_name":"stdout","time":13889.983368786,"data":"retain_only  forget      2       tr direct   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.983373044,"data":"retain_only  forget      2       tr  multi   0.71875         23     32\n"}
+,{"stream_name":"stdout","time":13889.983376462,"data":"retain_only  forget      2       vi direct   0.78125         25     32\n"}
+,{"stream_name":"stdout","time":13889.983379939,"data":"retain_only  forget      2       vi  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.983383484,"data":"retain_only  forget      2       zh direct   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.983386724,"data":"retain_only  forget      2       zh  multi   0.50000         16     32\n"}
+,{"stream_name":"stdout","time":13889.983390337,"data":"retain_only  forget      3       de direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.983393686,"data":"retain_only  forget      3       de  multi   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.983397269,"data":"retain_only  forget      3       en direct   0.93750         30     32\n"}
+,{"stream_name":"stdout","time":13889.983400807,"data":"retain_only  forget      3       en  multi   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.983404259,"data":"retain_only  forget      3       ru direct   0.68750         22     32\n"}
+,{"stream_name":"stdout","time":13889.983429132,"data":"retain_only  forget      3       ru  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.983432824,"data":"retain_only  forget      3       tr direct   0.65625         21     32\n"}
+,{"stream_name":"stdout","time":13889.983436305,"data":"retain_only  forget      3       tr  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.983439849,"data":"retain_only  forget      3       vi direct   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.983443387,"data":"retain_only  forget      3       vi  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.983447012,"data":"retain_only  forget      3       zh direct   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.98345048,"data":"retain_only  forget      3       zh  multi   0.68750         22     32\n"}
+,{"stream_name":"stdout","time":13889.983453987,"data":"retain_only  forget      4       de direct   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.983457502,"data":"retain_only  forget      4       de  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.983461144,"data":"retain_only  forget      4       en direct   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.983464412,"data":"retain_only  forget      4       en  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.983467926,"data":"retain_only  forget      4       ru direct   0.56250         18     32\n"}
+,{"stream_name":"stdout","time":13889.983475492,"data":"retain_only  forget      4       ru  multi   0.81250         26     32\n"}
+,{"stream_name":"stdout","time":13889.983479101,"data":"retain_only  forget      4       tr direct   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.983482456,"data":"retain_only  forget      4       tr  multi   0.84375         27     32\n"}
+,{"stream_name":"stdout","time":13889.983485958,"data":"retain_only  forget      4       vi direct   0.87500         28     32\n"}
+,{"stream_name":"stdout","time":13889.983489481,"data":"retain_only  forget      4       vi  multi   0.90625         29     32\n"}
+,{"stream_name":"stdout","time":13889.98349318,"data":"retain_only  forget      4       zh direct   0.53125         17     32\n"}
+,{"stream_name":"stdout","time":13889.98349706,"data":"retain_only  forget      4       zh  multi   0.75000         24     32\n"}
+,{"stream_name":"stdout","time":13889.983500589,"data":"retain_only holdout      2       de direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983504045,"data":"retain_only holdout      2       de  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983514904,"data":"retain_only holdout      2       en direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983518424,"data":"retain_only holdout      2       en  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983521922,"data":"retain_only holdout      2       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983525578,"data":"retain_only holdout      2       ru  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983529205,"data":"retain_only holdout      2       tr direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983532634,"data":"retain_only holdout      2       tr  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.983536132,"data":"retain_only holdout      2       vi direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983539849,"data":"retain_only holdout      2       vi  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983543455,"data":"retain_only holdout      2       zh direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983547014,"data":"retain_only holdout      2       zh  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983550662,"data":"retain_only holdout      3       de direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983554162,"data":"retain_only holdout      3       de  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983557707,"data":"retain_only holdout      3       en direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983561197,"data":"retain_only holdout      3       en  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983564815,"data":"retain_only holdout      3       ru direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.9835684,"data":"retain_only holdout      3       ru  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983572056,"data":"retain_only holdout      3       tr direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983575816,"data":"retain_only holdout      3       tr  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983579374,"data":"retain_only holdout      3       vi direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983582837,"data":"retain_only holdout      3       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983593294,"data":"retain_only holdout      3       zh direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983597071,"data":"retain_only holdout      3       zh  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983600688,"data":"retain_only holdout      4       de direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983604206,"data":"retain_only holdout      4       de  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983607707,"data":"retain_only holdout      4       en direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983611272,"data":"retain_only holdout      4       en  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983615173,"data":"retain_only holdout      4       ru direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983618766,"data":"retain_only holdout      4       ru  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983622439,"data":"retain_only holdout      4       tr direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983625976,"data":"retain_only holdout      4       tr  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983629539,"data":"retain_only holdout      4       vi direct   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983632987,"data":"retain_only holdout      4       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983636559,"data":"retain_only holdout      4       zh direct   0.43750          7     16\n"}
+,{"stream_name":"stdout","time":13889.983640122,"data":"retain_only holdout      4       zh  multi   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983643887,"data":"retain_only  retain      2       de direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983647657,"data":"retain_only  retain      2       de  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983651239,"data":"retain_only  retain      2       en direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.98365475,"data":"retain_only  retain      2       en  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983658369,"data":"retain_only  retain      2       ru direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983661842,"data":"retain_only  retain      2       ru  multi   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983665569,"data":"retain_only  retain      2       tr direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983669052,"data":"retain_only  retain      2       tr  multi   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983672552,"data":"retain_only  retain      2       vi direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983675999,"data":"retain_only  retain      2       vi  multi   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.98367956,"data":"retain_only  retain      2       zh direct   0.31250          5     16\n"}
+,{"stream_name":"stdout","time":13889.983683185,"data":"retain_only  retain      2       zh  multi   0.50000          8     16\n"}
+,{"stream_name":"stdout","time":13889.983686825,"data":"retain_only  retain      3       de direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.98369011,"data":"retain_only  retain      3       de  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.983693615,"data":"retain_only  retain      3       en direct   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.983700361,"data":"retain_only  retain      3       en  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.983703975,"data":"retain_only  retain      3       ru direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983707127,"data":"retain_only  retain      3       ru  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.983710689,"data":"retain_only  retain      3       tr direct   0.62500         10     16\n"}
+,{"stream_name":"stdout","time":13889.983714044,"data":"retain_only  retain      3       tr  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.983717583,"data":"retain_only  retain      3       vi direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983722159,"data":"retain_only  retain      3       vi  multi   1.00000         16     16\n"}
+,{"stream_name":"stdout","time":13889.983725995,"data":"retain_only  retain      3       zh direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983729586,"data":"retain_only  retain      3       zh  multi   0.75000         12     16\n"}
+,{"stream_name":"stdout","time":13889.983733066,"data":"retain_only  retain      4       de direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983736574,"data":"retain_only  retain      4       de  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.98374005,"data":"retain_only  retain      4       en direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983743672,"data":"retain_only  retain      4       en  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.983747052,"data":"retain_only  retain      4       ru direct   0.68750         11     16\n"}
+,{"stream_name":"stdout","time":13889.983750384,"data":"retain_only  retain      4       ru  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983753839,"data":"retain_only  retain      4       tr direct   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983757308,"data":"retain_only  retain      4       tr  multi   0.87500         14     16\n"}
+,{"stream_name":"stdout","time":13889.983760757,"data":"retain_only  retain      4       vi direct   0.81250         13     16\n"}
+,{"stream_name":"stdout","time":13889.983764309,"data":"retain_only  retain      4       vi  multi   0.93750         15     16\n"}
+,{"stream_name":"stdout","time":13889.983770083,"data":"retain_only  retain      4       zh direct   0.56250          9     16\n"}
+,{"stream_name":"stdout","time":13889.983773835,"data":"retain_only  retain      4       zh  multi   0.93750         15     16\n"}
+,{"stream_name":"stderr","time":13891.03439586,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":13891.034445967,"data":"\n"}
+,{"stream_name":"stderr","time":13891.034452292,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":13891.035019005,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":13891.0350383,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_204111-h3r8ajlk\u001b[0m\n"}
+,{"stream_name":"stderr","time":13891.035045665,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":13891.035050999,"data":"\n"}
+,{"stream_name":"stderr","time":13891.035067315,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":13891.035073313,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_204111-h3r8ajlk\u001b[0m\n"}
+,{"stream_name":"stderr","time":13891.035079045,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":13891.178700502,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":13891.178721932,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":13892.037162769,"data":"[W\u0026B] offline run: h3r8ajlk | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stderr","time":13892.093554457,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":13892.093577557,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_204111-h3r8ajlk\u001b[0m\n"}
+,{"stream_name":"stderr","time":13892.093583062,"data":"\n"}
+,{"stream_name":"stderr","time":13892.093587311,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":13892.093591531,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_204111-h3r8ajlk\u001b[0m\n"}
+,{"stream_name":"stderr","time":13892.094560171,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_204111-h3r8ajlk/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":13892.094579268,"data":"\n"}
+,{"stream_name":"stderr","time":13892.094584526,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_204111-h3r8ajlk/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":13892.110769773,"data":"Matched slice summary:\n"}
+,{"stream_name":"stdout","time":13892.110788231,"data":" checkpoint  split  depth language  n  n_eligible  pre_direct  pre_multi  post_direct  post_multi  n_direct_lost  n_downstream_recovered  recover_given_direct_loss\n"}
+,{"stream_name":"stdout","time":13892.110794762,"data":"         ga forget      2       de 32          25     0.93750    0.78125      0.00000     0.00000             30                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110802814,"data":"         ga forget      2       en 32          29     1.00000    0.90625      0.00000     0.00000             32                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110820448,"data":"         ga forget      2       ru 32          14     0.68750    0.59375      0.00000     0.00000             22                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110824801,"data":"         ga forget      2       tr 32          22     0.84375    0.75000      0.00000     0.00000             27                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110829292,"data":"         ga forget      2       vi 32          24     0.93750    0.75000      0.00000     0.00000             30                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110833531,"data":"         ga forget      2       zh 32          14     0.59375    0.56250      0.00000     0.00000             19                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110847488,"data":"         ga forget      3       de 32          30     1.00000    0.93750      0.00000     0.00000             32                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110852077,"data":"         ga forget      3       en 32          29     1.00000    0.90625      0.00000     0.00000             32                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110855669,"data":"         ga forget      3       ru 32          23     0.81250    0.87500      0.00000     0.00000             26                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110859251,"data":"         ga forget      3       tr 32          23     0.84375    0.84375      0.00000     0.00000             27                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110862923,"data":"         ga forget      3       vi 32          26     0.96875    0.84375      0.00000     0.00000             31                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.11086791,"data":"         ga forget      3       zh 32          20     0.75000    0.75000      0.00000     0.00000             24                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110871558,"data":"         ga forget      4       de 32          27     0.90625    0.93750      0.00000     0.00000             29                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110875176,"data":"         ga forget      4       en 32          26     0.90625    0.90625      0.00000     0.00000             29                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110878799,"data":"         ga forget      4       ru 32          17     0.59375    0.81250      0.00000     0.00000             19                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110882461,"data":"         ga forget      4       tr 32          23     0.90625    0.75000      0.00000     0.00000             29                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.11088597,"data":"         ga forget      4       vi 32          25     0.93750    0.84375      0.00000     0.00000             30                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.11088951,"data":"         ga forget      4       zh 32          13     0.53125    0.71875      0.00000     0.00000             17                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.110893187,"data":"         gd forget      2       de 32          25     0.93750    0.78125      0.84375     0.75000              3                       3                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110902923,"data":"         gd forget      2       en 32          29     1.00000    0.90625      0.53125     0.71875             15                      11                   0.733333\n"}
+,{"stream_name":"stdout","time":13892.110905708,"data":"         gd forget      2       ru 32          14     0.68750    0.59375      0.71875     0.62500              1                       1                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110928208,"data":"         gd forget      2       tr 32          22     0.84375    0.75000      0.78125     0.71875              2                       2                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110932778,"data":"         gd forget      2       vi 32          24     0.93750    0.75000      0.78125     0.65625              5                       2                   0.400000\n"}
+,{"stream_name":"stdout","time":13892.11093725,"data":"         gd forget      2       zh 32          14     0.59375    0.56250      0.53125     0.46875              2                       1                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.110945717,"data":"         gd forget      3       de 32          30     1.00000    0.93750      0.93750     0.93750              2                       2                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110950142,"data":"         gd forget      3       en 32          29     1.00000    0.90625      0.93750     0.90625              2                       2                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110954288,"data":"         gd forget      3       ru 32          23     0.81250    0.87500      0.75000     0.81250              3                       2                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.110958188,"data":"         gd forget      3       tr 32          23     0.84375    0.84375      0.78125     0.81250              2                       1                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.11096246,"data":"         gd forget      3       vi 32          26     0.96875    0.84375      0.93750     0.84375              1                       1                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.11096621,"data":"         gd forget      3       zh 32          20     0.75000    0.75000      0.62500     0.78125              4                       3                   0.750000\n"}
+,{"stream_name":"stdout","time":13892.110969898,"data":"         gd forget      4       de 32          27     0.90625    0.93750      0.87500     0.84375              1                       1                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110973548,"data":"         gd forget      4       en 32          26     0.90625    0.90625      0.87500     0.84375              1                       1                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110977195,"data":"         gd forget      4       ru 32          17     0.59375    0.81250      0.50000     0.84375              3                       3                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.110980895,"data":"         gd forget      4       tr 32          23     0.90625    0.75000      0.81250     0.78125              3                       1                   0.333333\n"}
+,{"stream_name":"stdout","time":13892.110984549,"data":"         gd forget      4       vi 32          25     0.93750    0.84375      0.84375     0.81250              3                       2                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.110988182,"data":"         gd forget      4       zh 32          13     0.53125    0.71875      0.43750     0.65625              3                       2                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.110995362,"data":"        npo forget      2       de 32          25     0.93750    0.78125      0.40625     0.53125             17                      10                   0.588235\n"}
+,{"stream_name":"stdout","time":13892.110999095,"data":"        npo forget      2       en 32          29     1.00000    0.90625      0.28125     0.65625             23                      16                   0.695652\n"}
+,{"stream_name":"stdout","time":13892.111002754,"data":"        npo forget      2       ru 32          14     0.68750    0.59375      0.34375     0.50000             12                       5                   0.416667\n"}
+,{"stream_name":"stdout","time":13892.111006295,"data":"        npo forget      2       tr 32          22     0.84375    0.75000      0.31250     0.50000             17                       8                   0.470588\n"}
+,{"stream_name":"stdout","time":13892.111009977,"data":"        npo forget      2       vi 32          24     0.93750    0.75000      0.37500     0.59375             18                      10                   0.555556\n"}
+,{"stream_name":"stdout","time":13892.111017537,"data":"        npo forget      2       zh 32          14     0.59375    0.56250      0.15625     0.25000             14                       4                   0.285714\n"}
+,{"stream_name":"stdout","time":13892.111022133,"data":"        npo forget      3       de 32          30     1.00000    0.93750      0.28125     0.84375             23                      20                   0.869565\n"}
+,{"stream_name":"stdout","time":13892.111026422,"data":"        npo forget      3       en 32          29     1.00000    0.90625      0.37500     0.84375             20                      14                   0.700000\n"}
+,{"stream_name":"stdout","time":13892.11103076,"data":"        npo forget      3       ru 32          23     0.81250    0.87500      0.31250     0.71875             17                      14                   0.823529\n"}
+,{"stream_name":"stdout","time":13892.111034711,"data":"        npo forget      3       tr 32          23     0.84375    0.84375      0.25000     0.68750             19                      12                   0.631579\n"}
+,{"stream_name":"stdout","time":13892.111038913,"data":"        npo forget      3       vi 32          26     0.96875    0.84375      0.40625     0.65625             18                      12                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.111042937,"data":"        npo forget      3       zh 32          20     0.75000    0.75000      0.31250     0.59375             15                      10                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.111047417,"data":"        npo forget      4       de 32          27     0.90625    0.93750      0.21875     0.87500             22                      19                   0.863636\n"}
+,{"stream_name":"stdout","time":13892.111051405,"data":"        npo forget      4       en 32          26     0.90625    0.90625      0.21875     0.84375             22                      19                   0.863636\n"}
+,{"stream_name":"stdout","time":13892.111055972,"data":"        npo forget      4       ru 32          17     0.59375    0.81250      0.28125     0.84375             11                      10                   0.909091\n"}
+,{"stream_name":"stdout","time":13892.111059359,"data":"        npo forget      4       tr 32          23     0.90625    0.75000      0.21875     0.68750             22                      18                   0.818182\n"}
+,{"stream_name":"stdout","time":13892.111063149,"data":"        npo forget      4       vi 32          25     0.93750    0.84375      0.28125     0.65625             21                      14                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.11106665,"data":"        npo forget      4       zh 32          13     0.53125    0.71875      0.12500     0.59375             13                       8                   0.615385\n"}
+,{"stream_name":"stdout","time":13892.111070272,"data":"retain_only forget      2       de 32          25     0.93750    0.78125      0.81250     0.75000              4                       3                   0.750000\n"}
+,{"stream_name":"stdout","time":13892.111074423,"data":"retain_only forget      2       en 32          29     1.00000    0.90625      0.87500     0.78125              4                       3                   0.750000\n"}
+,{"stream_name":"stdout","time":13892.111078155,"data":"retain_only forget      2       ru 32          14     0.68750    0.59375      0.59375     0.56250              3                       2                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.111081914,"data":"retain_only forget      2       tr 32          22     0.84375    0.75000      0.65625     0.71875              6                       2                   0.333333\n"}
+,{"stream_name":"stdout","time":13892.111085741,"data":"retain_only forget      2       vi 32          24     0.93750    0.75000      0.78125     0.75000              5                       2                   0.400000\n"}
+,{"stream_name":"stdout","time":13892.11109358,"data":"retain_only forget      2       zh 32          14     0.59375    0.56250      0.53125     0.50000              2                       0                   0.000000\n"}
+,{"stream_name":"stdout","time":13892.111097432,"data":"retain_only forget      3       de 32          30     1.00000    0.93750      0.93750     0.87500              2                       1                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.111102175,"data":"retain_only forget      3       en 32          29     1.00000    0.90625      0.93750     0.87500              2                       1                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.111106327,"data":"retain_only forget      3       ru 32          23     0.81250    0.87500      0.68750     0.84375              4                       2                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.11111065,"data":"retain_only forget      3       tr 32          23     0.84375    0.84375      0.65625     0.84375              6                       4                   0.666667\n"}
+,{"stream_name":"stdout","time":13892.111115084,"data":"retain_only forget      3       vi 32          26     0.96875    0.84375      0.81250     0.81250              6                       5                   0.833333\n"}
+,{"stream_name":"stdout","time":13892.111119482,"data":"retain_only forget      3       zh 32          20     0.75000    0.75000      0.75000     0.68750              2                       1                   0.500000\n"}
+,{"stream_name":"stdout","time":13892.111123797,"data":"retain_only forget      4       de 32          27     0.90625    0.93750      0.81250     0.90625              4                       4                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111127392,"data":"retain_only forget      4       en 32          26     0.90625    0.90625      0.84375     0.90625              2                       2                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111131628,"data":"retain_only forget      4       ru 32          17     0.59375    0.81250      0.56250     0.81250              3                       3                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111135808,"data":"retain_only forget      4       tr 32          23     0.90625    0.75000      0.75000     0.84375              5                       5                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111139373,"data":"retain_only forget      4       vi 32          25     0.93750    0.84375      0.87500     0.90625              2                       2                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111143768,"data":"retain_only forget      4       zh 32          13     0.53125    0.71875      0.53125     0.75000              3                       3                   1.000000\n"}
+,{"stream_name":"stdout","time":13892.111147854,"data":"Paired bootstrap CIs:\n"}
+,{"stream_name":"stdout","time":13892.111151385,"data":" checkpoint  split  depth language  paired_competent_n  difference_vs_en  ci_95_low  ci_95_high\n"}
+,{"stream_name":"stdout","time":13892.111155154,"data":"         ga forget      2       de                  25          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111160099,"data":"         ga forget      2       ru                  14          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111163568,"data":"         ga forget      2       tr                  22          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.11116746,"data":"         ga forget      2       vi                  24          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111174932,"data":"         ga forget      2       zh                  14          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111178512,"data":"         ga forget      3       de                  29          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111181528,"data":"         ga forget      3       ru                  22          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111184738,"data":"         ga forget      3       tr                  23          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111188165,"data":"         ga forget      3       vi                  26          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111191547,"data":"         ga forget      3       zh                  19          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111194872,"data":"         ga forget      4       de                  25          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111198403,"data":"         ga forget      4       ru                  16          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111201882,"data":"         ga forget      4       tr                  22          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111205676,"data":"         ga forget      4       vi                  23          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111210415,"data":"         ga forget      4       zh                  12          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111214282,"data":"         gd forget      2       de                  25         -0.280000  -0.480000   -0.080000\n"}
+,{"stream_name":"stdout","time":13892.111217522,"data":"         gd forget      2       ru                  14         -0.428571  -0.714286   -0.212500\n"}
+,{"stream_name":"stdout","time":13892.11122095,"data":"         gd forget      2       tr                  22         -0.409091  -0.590909   -0.227273\n"}
+,{"stream_name":"stdout","time":13892.111224437,"data":"         gd forget      2       vi                  24         -0.291667  -0.500000   -0.125000\n"}
+,{"stream_name":"stdout","time":13892.111227918,"data":"         gd forget      2       zh                  14         -0.357143  -0.571429   -0.141071\n"}
+,{"stream_name":"stdout","time":13892.111232177,"data":"         gd forget      3       de                  29          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111235697,"data":"         gd forget      3       ru                  22          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111239749,"data":"         gd forget      3       tr                  23          0.043478   0.000000    0.130435\n"}
+,{"stream_name":"stdout","time":13892.111244891,"data":"         gd forget      3       vi                  26          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.11124929,"data":"         gd forget      3       zh                  19          0.052632   0.000000    0.157895\n"}
+,{"stream_name":"stdout","time":13892.111252789,"data":"         gd forget      4       de                  25          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111256614,"data":"         gd forget      4       ru                  16          0.125000   0.000000    0.312500\n"}
+,{"stream_name":"stdout","time":13892.111260472,"data":"         gd forget      4       tr                  22          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111264299,"data":"         gd forget      4       vi                  23          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111273622,"data":"         gd forget      4       zh                  12          0.083333   0.000000    0.250000\n"}
+,{"stream_name":"stdout","time":13892.111277761,"data":"        npo forget      2       de                  25         -0.160000  -0.320000   -0.040000\n"}
+,{"stream_name":"stdout","time":13892.111281497,"data":"        npo forget      2       ru                  14         -0.285714  -0.571429   -0.071429\n"}
+,{"stream_name":"stdout","time":13892.11128524,"data":"        npo forget      2       tr                  22         -0.227273  -0.409091   -0.090909\n"}
+,{"stream_name":"stdout","time":13892.111288929,"data":"        npo forget      2       vi                  24         -0.125000  -0.292708    0.041667\n"}
+,{"stream_name":"stdout","time":13892.111292684,"data":"        npo forget      2       zh                  14         -0.357143  -0.642857   -0.071429\n"}
+,{"stream_name":"stdout","time":13892.111296379,"data":"        npo forget      3       de                  29          0.206897   0.068966    0.344828\n"}
+,{"stream_name":"stdout","time":13892.1113004,"data":"        npo forget      3       ru                  22          0.090909  -0.046591    0.272727\n"}
+,{"stream_name":"stdout","time":13892.111304325,"data":"        npo forget      3       tr                  23          0.130435  -0.130435    0.391304\n"}
+,{"stream_name":"stdout","time":13892.111308247,"data":"        npo forget      3       vi                  26          0.000000  -0.153846    0.153846\n"}
+,{"stream_name":"stdout","time":13892.11131258,"data":"        npo forget      3       zh                  19          0.000000  -0.263158    0.263158\n"}
+,{"stream_name":"stdout","time":13892.111316715,"data":"        npo forget      4       de                  25          0.000000  -0.160000    0.160000\n"}
+,{"stream_name":"stdout","time":13892.111320603,"data":"        npo forget      4       ru                  16         -0.125000  -0.375000    0.125000\n"}
+,{"stream_name":"stdout","time":13892.111324549,"data":"        npo forget      4       tr                  22          0.000000  -0.227273    0.227273\n"}
+,{"stream_name":"stdout","time":13892.111328255,"data":"        npo forget      4       vi                  23         -0.130435  -0.304348    0.043478\n"}
+,{"stream_name":"stdout","time":13892.111332758,"data":"        npo forget      4       zh                  12         -0.083333  -0.333333    0.166667\n"}
+,{"stream_name":"stdout","time":13892.111336163,"data":"retain_only forget      2       de                  25          0.000000  -0.120000    0.120000\n"}
+,{"stream_name":"stdout","time":13892.111339564,"data":"retain_only forget      2       ru                  14          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111343,"data":"retain_only forget      2       tr                  22         -0.045455  -0.181818    0.090909\n"}
+,{"stream_name":"stdout","time":13892.111346358,"data":"retain_only forget      2       vi                  24         -0.041667  -0.125000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111349715,"data":"retain_only forget      2       zh                  14          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111353112,"data":"retain_only forget      3       de                  29          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111356568,"data":"retain_only forget      3       ru                  22          0.045455   0.000000    0.136364\n"}
+,{"stream_name":"stdout","time":13892.111360023,"data":"retain_only forget      3       tr                  23          0.130435   0.000000    0.260870\n"}
+,{"stream_name":"stdout","time":13892.111367186,"data":"retain_only forget      3       vi                  26          0.153846   0.038462    0.307692\n"}
+,{"stream_name":"stdout","time":13892.111371354,"data":"retain_only forget      3       zh                  19          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111374789,"data":"retain_only forget      4       de                  25          0.080000   0.000000    0.200000\n"}
+,{"stream_name":"stdout","time":13892.111378027,"data":"retain_only forget      4       ru                  16          0.062500   0.000000    0.187500\n"}
+,{"stream_name":"stdout","time":13892.111381302,"data":"retain_only forget      4       tr                  22          0.090909   0.000000    0.227273\n"}
+,{"stream_name":"stdout","time":13892.111384455,"data":"retain_only forget      4       vi                  23          0.000000   0.000000    0.000000\n"}
+,{"stream_name":"stdout","time":13892.111387793,"data":"retain_only forget      4       zh                  12          0.166667   0.000000    0.416667\n"}
+,{"stream_name":"stdout","time":13892.111391309,"data":"IMPORTANT: multi-hop final answers differ from first-hop target.\n"}
+,{"stream_name":"stdout","time":13892.111394615,"data":"This estimates downstream answer persistence, NOT definitive recovery of erased intermediate fact.\n"}
+,{"stream_name":"stdout","time":13892.133036959,"data":"Source SHA 679b7cc3cc953e4be5f964fc10dea468ad442595a0572cb5c53fe8823e629295\n"}
+,{"stream_name":"stdout","time":13892.133062342,"data":"SFT training languages ['en', 'de']\n"}
+,{"stream_name":"stdout","time":13892.133066335,"data":"Out-of-SFT evaluation languages ['ru', 'zh', 'tr', 'vi']\n"}
+,{"stream_name":"stdout","time":13892.133086756,"data":"Counts by depth and language in /kaggle/working/recovery_summary.csv\n"}
+,{"stream_name":"stdout","time":13892.13309195,"data":"External HotpotQA accuracy uses CLOSED-BOOK QA, not official HotpotQA F1.\n"}
+,{"stream_name":"stdout","time":13892.133097203,"data":"For research claims: audit question translations, temporal ambiguity and answer aliases.\n"}
+,{"stream_name":"stdout","time":13892.133101653,"data":"A full paper requires 3+ random seeds, unlearning strength tuning on DEV only,\n"}
+,{"stream_name":"stdout","time":13892.133105775,"data":"and explicit intermediate-recovery probes, not downstream answer alone.\n"}
+,{"stream_name":"stderr","time":13897.713207366,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13897.713235725,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13897.891565545,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13897.891604119,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13898.733471483,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":13898.861943078,"data":"[NbConvertApp] Writing 345529 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13901.423911382,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13902.069878998,"data":"[NbConvertApp] Writing 644798 bytes to __results__.html\n"}
+]

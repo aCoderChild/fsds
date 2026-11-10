@@ -1,0 +1,53 @@
+{
+  "review_id": "alpha40_blinded_retain_pairwise_ai_review_2026-11-08",
+  "reviewer": "Codex GPT-6; AI-only, one reviewer, one pass",
+  "rating_basis": "consistency with the supplied TOFU reference answers; no external fact verification",
+  "design": "case-control qualitative diagnostic, not a probability sample",
+  "n_pairs": 60,
+  "strata": {
+    "answer-string-lost": {
+      "n_pairs": 40,
+      "preferred_condition": {
+        "tie": 18,
+        "baseline": 22
+      },
+      "reference_consistency_labels": {
+        "alpha40:correct": 18,
+        "baseline:correct": 40,
+        "alpha40:partly_correct": 16,
+        "alpha40:incorrect": 6
+      },
+      "date_conflict_flags": {
+        "adapter_introduced": 1
+      }
+    },
+    "changed-output-control": {
+      "n_pairs": 20,
+      "preferred_condition": {
+        "tie": 13,
+        "baseline": 5,
+        "alpha40": 2
+      },
+      "reference_consistency_labels": {
+        "alpha40:incorrect": 3,
+        "baseline:incorrect": 5,
+        "baseline:correct": 15,
+        "alpha40:partly_correct": 5,
+        "alpha40:correct": 12
+      },
+      "date_conflict_flags": {
+        "already_at_baseline": 1
+      }
+    }
+  },
+  "limitations": [
+    "The 40 answer-string-loss cases were deliberately enriched and the 20 controls were selected; counts do not estimate population prevalence or benchmark accuracy.",
+    "This is a single AI reviewer, not fluent-human review or independent inter-rater validation.",
+    "Labels judge consistency with the supplied synthetic reference answer, not external factual truth.",
+    "No confidence intervals or significance tests are appropriate for this selected qualitative sample."
+  ],
+  "input_sha256": {
+    "blinded_sheet": "abf050e430399f10dd597e6a505f3ee21e0a86251eed8fa0b5355b21c37cfae2",
+    "ai_annotations": "715fdd8586c962f55971d5dad243ab90320e75e278e290de52acaee95e69202a"
+  }
+}

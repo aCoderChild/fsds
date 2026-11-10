@@ -1,0 +1,460 @@
+[{"stream_name":"stderr","time":7.940019703,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.940069457,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.940074053,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.940076684,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.571273027,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.571303963,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.571314668,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.571317587,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":52.568066007,"data":"\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":52.568098515,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":52.568105271,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":52.568110213,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":52.568115387,"data":"google-adk 2.7.1 requires opentelemetry-api\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-api 1.45.1 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":52.568120286,"data":"google-adk 2.7.1 requires opentelemetry-sdk\u003c=1.42.1,\u003e=1.39, but you have opentelemetry-sdk 1.45.1 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":52.912953455,"data":"\u001b[0mNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":90.27733201,"data":"GPU devices: [(0, 'Tesla T4'), (1, 'Tesla T4')]\n"}
+,{"stream_name":"stdout","time":93.472570021,"data":"Source SHA: 679b7cc3cc953e4be5f964fc10dea468ad442595a0572cb5c53fe8823e629295 Forget: 512 Retain: 16156\n"}
+,{"stream_name":"stdout","time":103.503310802,"data":"Starting ga\n"}
+,{"stream_name":"stdout","time":103.503338257,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":103.50334463,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stderr","time":103.765946313,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":103.765975865,"data":"\n"}
+,{"stream_name":"stderr","time":103.76598298,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":103.767603855,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":103.767626234,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_152632-57nu1v2m\u001b[0m\n"}
+,{"stream_name":"stderr","time":103.767643889,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":103.767648898,"data":"\n"}
+,{"stream_name":"stderr","time":103.76765259,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":103.767657533,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_152632-57nu1v2m\u001b[0m\n"}
+,{"stream_name":"stderr","time":103.767661791,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":104.783595617,"data":"[W\u0026B] offline run: 57nu1v2m | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stderr","time":104.841589331,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":104.841610361,"data":"\n"}
+,{"stream_name":"stderr","time":104.841615566,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":225.943152181,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":225.94321291,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":225.943217728,"data":"\n"}
+,{"stream_name":"stderr","time":225.943221349,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":225.943225566,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":228.22826119,"data":"ga 1 loss -0.0\n"}
+,{"stream_name":"stderr","time":228.229444191,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":228.229464218,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":228.229470823,"data":"\n"}
+,{"stream_name":"stderr","time":228.229477091,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":228.229496685,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":235.017192407,"data":"ga 8 loss -0.0004\n"}
+,{"stream_name":"stdout","time":242.841963053,"data":"ga 16 loss -0.0256\n"}
+,{"stream_name":"stdout","time":250.743281244,"data":"ga 24 loss -0.0001\n"}
+,{"stream_name":"stdout","time":258.748977832,"data":"ga 32 loss -0.0008\n"}
+,{"stream_name":"stdout","time":266.882402283,"data":"ga 40 loss -0.0008\n"}
+,{"stream_name":"stdout","time":275.047251206,"data":"ga 48 loss -0.0006\n"}
+,{"stream_name":"stdout","time":283.377424277,"data":"ga 56 loss -0.001\n"}
+,{"stream_name":"stdout","time":291.834493589,"data":"ga 64 loss -0.0031\n"}
+,{"stream_name":"stdout","time":300.30956537,"data":"ga 72 loss -0.0003\n"}
+,{"stream_name":"stdout","time":308.896857371,"data":"ga 80 loss -0.0004\n"}
+,{"stream_name":"stdout","time":317.598457423,"data":"ga 88 loss -0.0006\n"}
+,{"stream_name":"stdout","time":326.409185071,"data":"ga 96 loss -0.0078\n"}
+,{"stream_name":"stdout","time":335.122411679,"data":"ga 104 loss -0.0\n"}
+,{"stream_name":"stdout","time":343.734402989,"data":"ga 112 loss -0.0008\n"}
+,{"stream_name":"stdout","time":352.264687961,"data":"ga 120 loss -0.0015\n"}
+,{"stream_name":"stdout","time":360.788321945,"data":"ga 128 loss -0.0075\n"}
+,{"stream_name":"stdout","time":369.252191811,"data":"ga 136 loss -0.0074\n"}
+,{"stream_name":"stdout","time":377.757123409,"data":"ga 144 loss -1.3935\n"}
+,{"stream_name":"stdout","time":386.224731119,"data":"ga 152 loss -0.1894\n"}
+,{"stream_name":"stdout","time":394.729812788,"data":"ga 160 loss -0.0016\n"}
+,{"stream_name":"stdout","time":403.330168296,"data":"ga 168 loss -0.0113\n"}
+,{"stream_name":"stdout","time":411.924454104,"data":"ga 176 loss -0.0025\n"}
+,{"stream_name":"stdout","time":420.541404986,"data":"ga 184 loss -0.0017\n"}
+,{"stream_name":"stdout","time":429.11251716,"data":"ga 192 loss -0.0009\n"}
+,{"stream_name":"stdout","time":437.689060298,"data":"ga 200 loss -0.0004\n"}
+,{"stream_name":"stdout","time":446.293285684,"data":"ga 208 loss -1.3199\n"}
+,{"stream_name":"stdout","time":454.851195748,"data":"ga 216 loss -0.0001\n"}
+,{"stream_name":"stdout","time":463.401634379,"data":"ga 224 loss -0.0006\n"}
+,{"stream_name":"stdout","time":471.932457278,"data":"ga 232 loss -0.0017\n"}
+,{"stream_name":"stdout","time":480.489776536,"data":"ga 240 loss -7.1081\n"}
+,{"stream_name":"stdout","time":489.093680338,"data":"ga 248 loss -0.0249\n"}
+,{"stream_name":"stdout","time":497.698731733,"data":"ga 256 loss -11.5882\n"}
+,{"stream_name":"stdout","time":506.228769044,"data":"ga 264 loss -0.0003\n"}
+,{"stream_name":"stdout","time":514.833003026,"data":"ga 272 loss -0.0027\n"}
+,{"stream_name":"stdout","time":523.420502458,"data":"ga 280 loss -1.3691\n"}
+,{"stream_name":"stdout","time":532.002548178,"data":"ga 288 loss -0.0002\n"}
+,{"stream_name":"stdout","time":540.553183304,"data":"ga 296 loss -0.1579\n"}
+,{"stream_name":"stdout","time":549.102922696,"data":"ga 304 loss -23.7313\n"}
+,{"stream_name":"stdout","time":557.672432248,"data":"ga 312 loss -0.0003\n"}
+,{"stream_name":"stdout","time":566.227248245,"data":"ga 320 loss -0.0033\n"}
+,{"stream_name":"stdout","time":574.827003616,"data":"ga 328 loss -0.023\n"}
+,{"stream_name":"stdout","time":583.368547945,"data":"ga 336 loss -41.5818\n"}
+,{"stream_name":"stdout","time":591.971219803,"data":"ga 344 loss -0.0\n"}
+,{"stream_name":"stdout","time":600.556832663,"data":"ga 352 loss -0.1498\n"}
+,{"stream_name":"stdout","time":609.105989844,"data":"ga 360 loss -2.6041\n"}
+,{"stream_name":"stdout","time":617.704088777,"data":"ga 368 loss -69.2605\n"}
+,{"stream_name":"stdout","time":626.283650907,"data":"ga 376 loss -0.0002\n"}
+,{"stream_name":"stdout","time":634.886593134,"data":"ga 384 loss -84.6876\n"}
+,{"stream_name":"stdout","time":643.479190734,"data":"ga 392 loss -0.0379\n"}
+,{"stream_name":"stdout","time":652.03666931,"data":"ga 400 loss -0.0118\n"}
+,{"stream_name":"stdout","time":660.633674522,"data":"ga 408 loss -0.0043\n"}
+,{"stream_name":"stdout","time":669.221039215,"data":"ga 416 loss -8.9739\n"}
+,{"stream_name":"stdout","time":677.829137219,"data":"ga 424 loss -21.201\n"}
+,{"stream_name":"stdout","time":686.427564488,"data":"ga 432 loss -53.1604\n"}
+,{"stream_name":"stdout","time":695.051833346,"data":"ga 440 loss -79.4217\n"}
+,{"stream_name":"stdout","time":703.663531509,"data":"ga 448 loss -79.3205\n"}
+,{"stream_name":"stdout","time":712.271030077,"data":"ga 456 loss -69.1353\n"}
+,{"stream_name":"stdout","time":720.83003013,"data":"ga 464 loss -96.8385\n"}
+,{"stream_name":"stdout","time":729.427638348,"data":"ga 472 loss -91.7762\n"}
+,{"stream_name":"stdout","time":738.012507805,"data":"ga 480 loss -114.4261\n"}
+,{"stream_name":"stdout","time":746.609774473,"data":"ga 488 loss -110.472\n"}
+,{"stream_name":"stdout","time":755.154272988,"data":"ga 496 loss -115.0399\n"}
+,{"stream_name":"stdout","time":763.7387247,"data":"ga 504 loss -120.8791\n"}
+,{"stream_name":"stdout","time":772.322474966,"data":"ga 512 loss -126.6946\n"}
+,{"stream_name":"stderr","time":772.746985625,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":772.747028043,"data":"\n"}
+,{"stream_name":"stderr","time":772.747033489,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":772.776182519,"data":"The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.\n"}
+,{"stream_name":"stderr","time":772.77620987,"data":"\n"}
+,{"stream_name":"stderr","time":772.776215255,"data":"The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.\n"}
+,{"stream_name":"stdout","time":772.938500255,"data":"Saved /kaggle/working/ga_adapter\n"}
+,{"stream_name":"stderr","time":922.202172631,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.202204548,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":922.202211,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":922.202216998,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":922.20222226,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":922.202229233,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████████████████████████▃█▃█▇▅▅▂▂▄▂▂▁\n"}
+,{"stream_name":"stderr","time":922.202244046,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":922.202249308,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▂▂▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇█████\n"}
+,{"stream_name":"stderr","time":922.202253945,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ████████████████████████▇█▇█▇███▅▄▄▃▂▃▂▁\n"}
+,{"stream_name":"stderr","time":922.202258825,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.202262705,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":922.202266819,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0\n"}
+,{"stream_name":"stderr","time":922.202270842,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0\n"}
+,{"stream_name":"stderr","time":922.202275367,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.22401\n"}
+,{"stream_name":"stderr","time":922.202279446,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.202283774,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.202287885,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 1e-05\n"}
+,{"stream_name":"stderr","time":922.202292108,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":922.202296174,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":922.202300211,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.202304228,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.20230808,"data":"\n"}
+,{"stream_name":"stderr","time":922.202311837,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.202315811,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":922.202319775,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":922.202323945,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":922.202329653,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":922.2023345,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████████████████████████▃█▃█▇▅▅▂▂▄▂▂▁\n"}
+,{"stream_name":"stderr","time":922.202339244,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":922.2023439,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▂▂▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇█████\n"}
+,{"stream_name":"stderr","time":922.202353173,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ████████████████████████▇█▇█▇███▅▄▄▃▂▃▂▁\n"}
+,{"stream_name":"stderr","time":922.202357913,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.202361974,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":922.202365885,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0\n"}
+,{"stream_name":"stderr","time":922.202370217,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0\n"}
+,{"stream_name":"stderr","time":922.202374377,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.22401\n"}
+,{"stream_name":"stderr","time":922.202378748,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.202382908,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.20238714,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 1e-05\n"}
+,{"stream_name":"stderr","time":922.202391188,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":922.202395088,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":922.202399376,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss -126.69465\n"}
+,{"stream_name":"stderr","time":922.202403546,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":922.203342454,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":922.203361292,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_152632-57nu1v2m\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.203366087,"data":"\n"}
+,{"stream_name":"stderr","time":922.203369495,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":922.20337354,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_152632-57nu1v2m\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.204257642,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_152632-57nu1v2m/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.204293179,"data":"\n"}
+,{"stream_name":"stderr","time":922.20429858,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_152632-57nu1v2m/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":922.685314749,"data":"Debug 24-target direct accuracy after unlearning: {'de': 0.0, 'en': 0.0}\n"}
+,{"stream_name":"stderr","time":922.896869559,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":922.896894023,"data":"\n"}
+,{"stream_name":"stderr","time":922.89689868,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":922.897886152,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":922.897947073,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_154011-qxx465zu\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.897964354,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.897968989,"data":"\n"}
+,{"stream_name":"stderr","time":922.897972464,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":922.897976868,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_154011-qxx465zu\u001b[0m\n"}
+,{"stream_name":"stderr","time":922.89798109,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":923.011104327,"data":"Starting gd\n"}
+,{"stream_name":"stdout","time":923.011158498,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":923.011166345,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":923.801362345,"data":"[W\u0026B] offline run: qxx465zu | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stderr","time":943.104387457,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":943.104419831,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":943.104423979,"data":"\n"}
+,{"stream_name":"stderr","time":943.104427388,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":943.104432177,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":945.290925967,"data":"gd 1 loss -0.001\n"}
+,{"stream_name":"stdout","time":960.306125164,"data":"gd 8 loss -0.0027\n"}
+,{"stream_name":"stdout","time":978.11942263,"data":"gd 16 loss 0.0173\n"}
+,{"stream_name":"stdout","time":995.676445619,"data":"gd 24 loss -0.639\n"}
+,{"stream_name":"stdout","time":1012.577514175,"data":"gd 32 loss -0.0044\n"}
+,{"stream_name":"stdout","time":1030.090671757,"data":"gd 40 loss -0.002\n"}
+,{"stream_name":"stdout","time":1047.364687525,"data":"gd 48 loss 0.0055\n"}
+,{"stream_name":"stdout","time":1064.815031541,"data":"gd 56 loss -0.0003\n"}
+,{"stream_name":"stdout","time":1082.239834867,"data":"gd 64 loss -0.0176\n"}
+,{"stream_name":"stdout","time":1099.338044132,"data":"gd 72 loss 0.0022\n"}
+,{"stream_name":"stdout","time":1116.565935412,"data":"gd 80 loss -0.0091\n"}
+,{"stream_name":"stdout","time":1133.968290681,"data":"gd 88 loss 0.0\n"}
+,{"stream_name":"stdout","time":1151.694386503,"data":"gd 96 loss -0.0012\n"}
+,{"stream_name":"stdout","time":1168.839288293,"data":"gd 104 loss -0.0019\n"}
+,{"stream_name":"stdout","time":1186.15313109,"data":"gd 112 loss 0.0056\n"}
+,{"stream_name":"stdout","time":1203.532543092,"data":"gd 120 loss 0.0\n"}
+,{"stream_name":"stdout","time":1220.771892418,"data":"gd 128 loss -0.0001\n"}
+,{"stream_name":"stdout","time":1237.827210941,"data":"gd 136 loss 0.0063\n"}
+,{"stream_name":"stdout","time":1254.924514795,"data":"gd 144 loss 0.0001\n"}
+,{"stream_name":"stdout","time":1272.259558398,"data":"gd 152 loss 0.0007\n"}
+,{"stream_name":"stdout","time":1289.396612097,"data":"gd 160 loss -0.1171\n"}
+,{"stream_name":"stdout","time":1306.482940676,"data":"gd 168 loss -0.2305\n"}
+,{"stream_name":"stdout","time":1323.961225901,"data":"gd 176 loss 0.0218\n"}
+,{"stream_name":"stdout","time":1341.533219499,"data":"gd 184 loss -0.1116\n"}
+,{"stream_name":"stdout","time":1358.64274832,"data":"gd 192 loss -0.0004\n"}
+,{"stream_name":"stdout","time":1376.012725492,"data":"gd 200 loss 0.0078\n"}
+,{"stream_name":"stdout","time":1393.363607743,"data":"gd 208 loss -0.0499\n"}
+,{"stream_name":"stdout","time":1410.469402645,"data":"gd 216 loss -0.016\n"}
+,{"stream_name":"stdout","time":1428.384611718,"data":"gd 224 loss -0.0001\n"}
+,{"stream_name":"stdout","time":1445.933079697,"data":"gd 232 loss -3.4854\n"}
+,{"stream_name":"stdout","time":1463.425241299,"data":"gd 240 loss -0.1656\n"}
+,{"stream_name":"stdout","time":1481.032954495,"data":"gd 248 loss -0.0003\n"}
+,{"stream_name":"stdout","time":1498.13549661,"data":"gd 256 loss -0.1355\n"}
+,{"stream_name":"stdout","time":1515.240359807,"data":"gd 264 loss -0.0\n"}
+,{"stream_name":"stdout","time":1532.491524916,"data":"gd 272 loss -0.0033\n"}
+,{"stream_name":"stdout","time":1549.752634093,"data":"gd 280 loss -0.0268\n"}
+,{"stream_name":"stdout","time":1567.087366601,"data":"gd 288 loss -0.1492\n"}
+,{"stream_name":"stdout","time":1584.43048459,"data":"gd 296 loss 0.0371\n"}
+,{"stream_name":"stdout","time":1602.628531528,"data":"gd 304 loss -0.0004\n"}
+,{"stream_name":"stdout","time":1620.213851547,"data":"gd 312 loss -1.7747\n"}
+,{"stream_name":"stdout","time":1637.571985908,"data":"gd 320 loss 0.0008\n"}
+,{"stream_name":"stdout","time":1654.904168374,"data":"gd 328 loss -1.218\n"}
+,{"stream_name":"stdout","time":1672.069787368,"data":"gd 336 loss -1.9928\n"}
+,{"stream_name":"stdout","time":1689.646544967,"data":"gd 344 loss -10.8026\n"}
+,{"stream_name":"stdout","time":1706.7104609,"data":"gd 352 loss 0.0067\n"}
+,{"stream_name":"stdout","time":1723.986307512,"data":"gd 360 loss -0.0042\n"}
+,{"stream_name":"stdout","time":1741.34005405,"data":"gd 368 loss -0.0013\n"}
+,{"stream_name":"stdout","time":1758.460766092,"data":"gd 376 loss 0.0001\n"}
+,{"stream_name":"stdout","time":1775.779591263,"data":"gd 384 loss -16.9901\n"}
+,{"stream_name":"stdout","time":1793.117208152,"data":"gd 392 loss -14.4678\n"}
+,{"stream_name":"stdout","time":1810.732858248,"data":"gd 400 loss -18.5232\n"}
+,{"stream_name":"stdout","time":1827.983576416,"data":"gd 408 loss 0.0057\n"}
+,{"stream_name":"stdout","time":1845.019578069,"data":"gd 416 loss -1.1415\n"}
+,{"stream_name":"stdout","time":1862.21321506,"data":"gd 424 loss -0.9229\n"}
+,{"stream_name":"stdout","time":1879.716781663,"data":"gd 432 loss 0.0\n"}
+,{"stream_name":"stdout","time":1896.884724872,"data":"gd 440 loss -33.4535\n"}
+,{"stream_name":"stdout","time":1914.196308663,"data":"gd 448 loss 0.1604\n"}
+,{"stream_name":"stdout","time":1931.573413793,"data":"gd 456 loss 0.0\n"}
+,{"stream_name":"stdout","time":1948.638137148,"data":"gd 464 loss 0.0002\n"}
+,{"stream_name":"stdout","time":1965.796439358,"data":"gd 472 loss 0.0003\n"}
+,{"stream_name":"stdout","time":1983.110985148,"data":"gd 480 loss -0.0085\n"}
+,{"stream_name":"stdout","time":2000.164273698,"data":"gd 488 loss -13.8744\n"}
+,{"stream_name":"stdout","time":2017.362949778,"data":"gd 496 loss -0.0119\n"}
+,{"stream_name":"stdout","time":2034.394168157,"data":"gd 504 loss -0.0001\n"}
+,{"stream_name":"stdout","time":2051.550098689,"data":"gd 512 loss -63.3261\n"}
+,{"stream_name":"stdout","time":2052.148338388,"data":"Saved /kaggle/working/gd_adapter\n"}
+,{"stream_name":"stderr","time":2101.997557837,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.997591723,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":2101.997598617,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":2101.997605357,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":2101.997611286,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":2101.997622074,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████████████████████▇██▆███▅▆███▁▂███\n"}
+,{"stream_name":"stderr","time":2101.997628625,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":2101.997635267,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▁▁▂▂▂▂▂▂▂▃▃▃▃▃▃▃▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇█\n"}
+,{"stream_name":"stderr","time":2101.997641957,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss ▁▁▁▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▂▁▂▁\n"}
+,{"stream_name":"stderr","time":2101.997648139,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▆▇▇▅▇▇▇▇▂▇▁▇▇\n"}
+,{"stream_name":"stderr","time":2101.997654723,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.997660235,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":2101.99766603,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0.875\n"}
+,{"stream_name":"stderr","time":2101.997672443,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0.5\n"}
+,{"stream_name":"stderr","time":2101.997678556,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.23988\n"}
+,{"stream_name":"stderr","time":2101.997684287,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss -63.32609\n"}
+,{"stream_name":"stderr","time":2101.997689991,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss -63.32619\n"}
+,{"stream_name":"stderr","time":2101.997695744,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 1e-05\n"}
+,{"stream_name":"stderr","time":2101.997702102,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":2101.997716767,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":2101.997721466,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss 0.0001\n"}
+,{"stream_name":"stderr","time":2101.997726508,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss -63.32609\n"}
+,{"stream_name":"stderr","time":2101.997731149,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.997736646,"data":"\n"}
+,{"stream_name":"stderr","time":2101.997740862,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.997744955,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":2101.997749645,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":2101.997754338,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":2101.997758944,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":2101.997764572,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████████████████████▇██▆███▅▆███▁▂███\n"}
+,{"stream_name":"stderr","time":2101.997769629,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":2101.997775063,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▁▁▂▂▂▂▂▂▂▃▃▃▃▃▃▃▄▄▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇▇▇█\n"}
+,{"stream_name":"stderr","time":2101.997780443,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss ▁▁▁▁▁▁▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█▁▁▁▁▁▂▁▂▁\n"}
+,{"stream_name":"stderr","time":2101.997785679,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇█▆▇▇▅▇▇▇▇▂▇▁▇▇\n"}
+,{"stream_name":"stderr","time":2101.997790769,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.997794846,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":2101.99779954,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0.875\n"}
+,{"stream_name":"stderr","time":2101.99780388,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0.5\n"}
+,{"stream_name":"stderr","time":2101.997808448,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.23988\n"}
+,{"stream_name":"stderr","time":2101.99781276,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss -63.32609\n"}
+,{"stream_name":"stderr","time":2101.997817002,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss -63.32619\n"}
+,{"stream_name":"stderr","time":2101.997821586,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 1e-05\n"}
+,{"stream_name":"stderr","time":2101.997826383,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":2101.997835218,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":2101.997839337,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss 0.0001\n"}
+,{"stream_name":"stderr","time":2101.997843588,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss -63.32609\n"}
+,{"stream_name":"stderr","time":2101.997848686,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":2101.9986511,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":2101.998674446,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_154011-qxx465zu\u001b[0m\n"}
+,{"stream_name":"stderr","time":2101.998681029,"data":"\n"}
+,{"stream_name":"stderr","time":2101.998685156,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":2101.99868963,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_154011-qxx465zu\u001b[0m\n"}
+,{"stream_name":"stderr","time":2101.999607472,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_154011-qxx465zu/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":2101.999628275,"data":"\n"}
+,{"stream_name":"stderr","time":2101.999633201,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_154011-qxx465zu/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":2102.476441873,"data":"Debug 24-target direct accuracy after unlearning: {'de': 0.875, 'en': 0.5}\n"}
+,{"stream_name":"stderr","time":2102.66821857,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":2102.668243101,"data":"\n"}
+,{"stream_name":"stderr","time":2102.668248036,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.31.0\n"}
+,{"stream_name":"stderr","time":2102.669952386,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":2102.669971583,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_155951-h12loweu\u001b[0m\n"}
+,{"stream_name":"stderr","time":2102.669977105,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stderr","time":2102.669982234,"data":"\n"}
+,{"stream_name":"stderr","time":2102.66998597,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: W\u0026B syncing is set to \u001b[1m`offline`\u001b[0m in this directory. Run \u001b[1m`wandb online`\u001b[0m or set \u001b[1mWANDB_MODE=online\u001b[0m to enable cloud syncing.\n"}
+,{"stream_name":"stderr","time":2102.669990874,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/offline-run-20261026_155951-h12loweu\u001b[0m\n"}
+,{"stream_name":"stderr","time":2102.669995154,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: View this run in the terminal with \u001b[1m`wandb leet`\u001b[0m\n"}
+,{"stream_name":"stdout","time":2102.798599415,"data":"Starting npo\n"}
+,{"stream_name":"stdout","time":2102.798626446,"data":"[W\u0026B] Kaggle WANDB_API_KEY not accessible (ConnectionError). Logging OFFLINE to /kaggle/working/wandb; training will continue.\n"}
+,{"stream_name":"stdout","time":2102.798646302,"data":"[W\u0026B] Enable the notebook's Kaggle Secrets permission for live graphs.\n"}
+,{"stream_name":"stdout","time":2103.654028675,"data":"[W\u0026B] offline run: h12loweu | project: https://forge.coreweave.com/wandb/crosslingual/multilingual_deepunlearning\n"}
+,{"stream_name":"stderr","time":2213.031502977,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":2213.031543252,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":2213.031549294,"data":"\n"}
+,{"stream_name":"stderr","time":2213.031554029,"data":"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.\n"}
+,{"stream_name":"stderr","time":2213.031559738,"data":"  return fn(*args, **kwargs)\n"}
+,{"stream_name":"stdout","time":2215.154742435,"data":"npo 1 loss 13.863\n"}
+,{"stream_name":"stdout","time":2230.232689402,"data":"npo 8 loss 13.8635\n"}
+,{"stream_name":"stdout","time":2247.558023496,"data":"npo 16 loss 13.8653\n"}
+,{"stream_name":"stdout","time":2264.657927476,"data":"npo 24 loss 13.857\n"}
+,{"stream_name":"stdout","time":2281.953345135,"data":"npo 32 loss 13.8628\n"}
+,{"stream_name":"stdout","time":2299.476622306,"data":"npo 40 loss 14.1319\n"}
+,{"stream_name":"stdout","time":2316.869078421,"data":"npo 48 loss 13.8422\n"}
+,{"stream_name":"stdout","time":2334.390385397,"data":"npo 56 loss 13.8631\n"}
+,{"stream_name":"stdout","time":2351.725078542,"data":"npo 64 loss 13.8618\n"}
+,{"stream_name":"stdout","time":2369.021763354,"data":"npo 72 loss 13.8622\n"}
+,{"stream_name":"stdout","time":2386.587706419,"data":"npo 80 loss 13.8788\n"}
+,{"stream_name":"stdout","time":2403.725115783,"data":"npo 88 loss 13.8307\n"}
+,{"stream_name":"stdout","time":2421.552033947,"data":"npo 96 loss 7.776\n"}
+,{"stream_name":"stdout","time":2438.678843016,"data":"npo 104 loss 13.8375\n"}
+,{"stream_name":"stdout","time":2456.459918335,"data":"npo 112 loss 13.8392\n"}
+,{"stream_name":"stdout","time":2474.042635407,"data":"npo 120 loss 13.8198\n"}
+,{"stream_name":"stdout","time":2491.153573628,"data":"npo 128 loss 14.274\n"}
+,{"stream_name":"stdout","time":2508.732799095,"data":"npo 136 loss 13.2838\n"}
+,{"stream_name":"stdout","time":2526.172025496,"data":"npo 144 loss 9.9313\n"}
+,{"stream_name":"stdout","time":2543.368375033,"data":"npo 152 loss 6.0229\n"}
+,{"stream_name":"stdout","time":2560.829678461,"data":"npo 160 loss 13.8391\n"}
+,{"stream_name":"stdout","time":2578.180172659,"data":"npo 168 loss 13.8679\n"}
+,{"stream_name":"stdout","time":2595.463454081,"data":"npo 176 loss 6.9373\n"}
+,{"stream_name":"stdout","time":2612.936786184,"data":"npo 184 loss 11.5292\n"}
+,{"stream_name":"stdout","time":2630.161663064,"data":"npo 192 loss 12.5887\n"}
+,{"stream_name":"stdout","time":2647.82487354,"data":"npo 200 loss 13.819\n"}
+,{"stream_name":"stdout","time":2665.016858463,"data":"npo 208 loss 19.8373\n"}
+,{"stream_name":"stdout","time":2682.596488155,"data":"npo 216 loss 13.862\n"}
+,{"stream_name":"stdout","time":2699.814200569,"data":"npo 224 loss 9.8358\n"}
+,{"stream_name":"stdout","time":2717.029849387,"data":"npo 232 loss 14.5446\n"}
+,{"stream_name":"stdout","time":2734.471887626,"data":"npo 240 loss 13.9957\n"}
+,{"stream_name":"stdout","time":2752.099359483,"data":"npo 248 loss 3.2173\n"}
+,{"stream_name":"stdout","time":2769.480804752,"data":"npo 256 loss 13.8652\n"}
+,{"stream_name":"stdout","time":2787.14566931,"data":"npo 264 loss 13.6706\n"}
+,{"stream_name":"stdout","time":2804.727088758,"data":"npo 272 loss 13.841\n"}
+,{"stream_name":"stdout","time":2822.319979665,"data":"npo 280 loss 6.0548\n"}
+,{"stream_name":"stdout","time":2839.565855971,"data":"npo 288 loss 0.8501\n"}
+,{"stream_name":"stdout","time":2856.932363159,"data":"npo 296 loss 7.6883\n"}
+,{"stream_name":"stdout","time":2874.645419985,"data":"npo 304 loss 7.2022\n"}
+,{"stream_name":"stdout","time":2891.822691163,"data":"npo 312 loss 21.0854\n"}
+,{"stream_name":"stdout","time":2909.243425211,"data":"npo 320 loss 18.0435\n"}
+,{"stream_name":"stdout","time":2926.659840968,"data":"npo 328 loss 4.2227\n"}
+,{"stream_name":"stdout","time":2944.332002091,"data":"npo 336 loss 13.8781\n"}
+,{"stream_name":"stdout","time":2961.544860482,"data":"npo 344 loss 9.2092\n"}
+,{"stream_name":"stdout","time":2979.007190855,"data":"npo 352 loss 3.7932\n"}
+,{"stream_name":"stdout","time":2996.388393889,"data":"npo 360 loss 2.8203\n"}
+,{"stream_name":"stdout","time":3014.042097776,"data":"npo 368 loss 6.0169\n"}
+,{"stream_name":"stdout","time":3031.152868032,"data":"npo 376 loss 8.7391\n"}
+,{"stream_name":"stdout","time":3048.327124098,"data":"npo 384 loss 4.0695\n"}
+,{"stream_name":"stdout","time":3065.716960693,"data":"npo 392 loss 13.8623\n"}
+,{"stream_name":"stdout","time":3083.132952662,"data":"npo 400 loss 18.7237\n"}
+,{"stream_name":"stdout","time":3100.816028846,"data":"npo 408 loss 6.1362\n"}
+,{"stream_name":"stdout","time":3118.088642736,"data":"npo 416 loss 1.0295\n"}
+,{"stream_name":"stdout","time":3135.532037935,"data":"npo 424 loss 13.8363\n"}
+,{"stream_name":"stdout","time":3152.747837406,"data":"npo 432 loss 0.8426\n"}
+,{"stream_name":"stdout","time":3170.085478034,"data":"npo 440 loss 7.2124\n"}
+,{"stream_name":"stdout","time":3187.747675129,"data":"npo 448 loss 11.4215\n"}
+,{"stream_name":"stdout","time":3204.979773217,"data":"npo 456 loss 10.133\n"}
+,{"stream_name":"stdout","time":3222.246043011,"data":"npo 464 loss 0.8406\n"}
+,{"stream_name":"stdout","time":3240.065660841,"data":"npo 472 loss 0.006\n"}
+,{"stream_name":"stdout","time":3257.468825124,"data":"npo 480 loss 23.6118\n"}
+,{"stream_name":"stdout","time":3275.084026374,"data":"npo 488 loss 4.626\n"}
+,{"stream_name":"stdout","time":3292.80906232,"data":"npo 496 loss 17.4775\n"}
+,{"stream_name":"stdout","time":3310.231261989,"data":"npo 504 loss 1.2779\n"}
+,{"stream_name":"stdout","time":3327.710172819,"data":"npo 512 loss 0.5306\n"}
+,{"stream_name":"stdout","time":3328.323993357,"data":"Saved /kaggle/working/npo_adapter\n"}
+,{"stream_name":"stderr","time":3384.984302872,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.984347521,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":3384.984354069,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":3384.984360619,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":3384.984366079,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":3384.984384757,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████▂███▇████▂▃█▅▂██▂▃▁█▂▁▁▇▇███▇█▁▃▁\n"}
+,{"stream_name":"stderr","time":3384.984389824,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":3384.98439462,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇█\n"}
+,{"stream_name":"stderr","time":3384.984399699,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▂▃▁▃▁▁▁▁▁▁▁▄▁▆▄▄▁▃▁▆▁▁▁▁▁▂█\n"}
+,{"stream_name":"stderr","time":3384.984404618,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ██████████▅▆██▄█▄██▃█▄▇███▃█▄▂▂▄█▁▂██▁██\n"}
+,{"stream_name":"stderr","time":3384.984410114,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.984414288,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":3384.984418488,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0.33333\n"}
+,{"stream_name":"stderr","time":3384.984422735,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0.29167\n"}
+,{"stream_name":"stderr","time":3384.984427001,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.24183\n"}
+,{"stream_name":"stderr","time":3384.984431432,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss 0.53056\n"}
+,{"stream_name":"stderr","time":3384.98443594,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss 0.44991\n"}
+,{"stream_name":"stderr","time":3384.984440272,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 2e-05\n"}
+,{"stream_name":"stderr","time":3384.98444491,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":3384.984449423,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":3384.984453487,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss 0.08065\n"}
+,{"stream_name":"stderr","time":3384.984457781,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss 0.53056\n"}
+,{"stream_name":"stderr","time":3384.984463317,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.984467971,"data":"\n"}
+,{"stream_name":"stderr","time":3384.984472217,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.984476794,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run history:\n"}
+,{"stream_name":"stderr","time":3384.984481425,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":3384.984486005,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning ▁\n"}
+,{"stream_name":"stderr","time":3384.984490299,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":3384.984499219,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss ███████▂███▇████▂▃█▅▂██▂▃▁█▂▁▁▇▇███▇█▁▃▁\n"}
+,{"stream_name":"stderr","time":3384.984504259,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁\n"}
+,{"stream_name":"stderr","time":3384.984509733,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step ▁▁▁▁▁▁▂▂▂▂▂▂▃▃▃▃▄▄▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▇▇▇▇▇█\n"}
+,{"stream_name":"stderr","time":3384.984515254,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▂▃▁▃▁▁▁▁▁▁▁▄▁▆▄▄▁▃▁▆▁▁▁▁▁▂█\n"}
+,{"stream_name":"stderr","time":3384.984520559,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss ██████████▅▆██▄█▄██▃█▄▇███▃█▄▂▂▄█▁▂██▁██\n"}
+,{"stream_name":"stderr","time":3384.984525523,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.984529527,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Run summary:\n"}
+,{"stream_name":"stderr","time":3384.984533631,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/de_direct_accuracy_after_unlearning 0.33333\n"}
+,{"stream_name":"stderr","time":3384.984538319,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: debug/en_direct_accuracy_after_unlearning 0.29167\n"}
+,{"stream_name":"stderr","time":3384.984542583,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       system/gpu_peak_gib 8.24183\n"}
+,{"stream_name":"stderr","time":3384.984547061,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/final_loss 0.53056\n"}
+,{"stream_name":"stderr","time":3384.984551157,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/forget_loss 0.44991\n"}
+,{"stream_name":"stderr","time":3384.984555612,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                       train/learning_rate 2e-05\n"}
+,{"stream_name":"stderr","time":3384.984559797,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                      train/optimizer_step 512\n"}
+,{"stream_name":"stderr","time":3384.984564239,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                     train/optimizer_steps 512\n"}
+,{"stream_name":"stderr","time":3384.984568578,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                         train/retain_loss 0.08065\n"}
+,{"stream_name":"stderr","time":3384.984572977,"data":"\u001b[34m\u001b[1mwandb\u001b[0m:                          train/total_loss 0.53056\n"}
+,{"stream_name":"stderr","time":3384.984577897,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \n"}
+,{"stream_name":"stderr","time":3384.985519173,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":3384.985544288,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_155951-h12loweu\u001b[0m\n"}
+,{"stream_name":"stderr","time":3384.985549619,"data":"\n"}
+,{"stream_name":"stderr","time":3384.985553674,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: You can sync this run to the cloud by running:\n"}
+,{"stream_name":"stderr","time":3384.985558314,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[1mwandb sync /kaggle/working/wandb/offline-run-20261026_155951-h12loweu\u001b[0m\n"}
+,{"stream_name":"stderr","time":3384.986477617,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_155951-h12loweu/logs\u001b[0m\n"}
+,{"stream_name":"stderr","time":3384.986501353,"data":"\n"}
+,{"stream_name":"stderr","time":3384.986505815,"data":"\u001b[34m\u001b[1mwandb\u001b[0m: Find logs at: \u001b[35m\u001b[1m./wandb/offline-run-20261026_155951-h12loweu/logs\u001b[0m\n"}
+,{"stream_name":"stdout","time":3385.468028724,"data":"Debug 24-target direct accuracy after unlearning: {'de': 0.3333333333333333, 'en': 0.2916666666666667}\n"}
+,{"stream_name":"stdout","time":3385.602796323,"data":"Notebook 02 complete. Save Kaggle version with adapters.\n"}
+,{"stream_name":"stderr","time":3391.99449903,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3391.994552358,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3392.178012657,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3392.178048174,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3393.049153547,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":3393.176324048,"data":"[NbConvertApp] Writing 220233 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":3395.730924105,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3396.358602788,"data":"[NbConvertApp] Writing 515949 bytes to __results__.html\n"}
+]

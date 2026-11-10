@@ -1,0 +1,42 @@
+{
+  "overall_status": "PASS",
+  "scope": "Independent ROUGE-L recomputation from saved generations and independent recomputation of nine utility components/harmonic mean.",
+  "baseline_file": "experiments/tofu_scaling/kaggle/npo_lora_8b_pilot_full/baseline_input/llama_3_1_8b_full_official_eval.json",
+  "baseline_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+  "candidate_file": "experiments/tofu_scaling/kaggle/npo_lora_8b_pilot_full/baseline_input/llama_3_1_8b_full_official_eval.json",
+  "candidate_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "metrics": {
+    "baseline": {
+      "rouge_rows_recomputed": 1417,
+      "model_utility_components": {
+        "retain_probability": 0.9909814517467894,
+        "retain_rougeL_recall": 0.9953821522571522,
+        "retain_truth_ratio_score": 0.53042940582295,
+        "real_authors_normalized_option_probability": 0.4078885737987939,
+        "real_authors_rougeL_recall": 0.9490000000000001,
+        "real_authors_truth_ratio_score": 0.5124006709968674,
+        "world_facts_normalized_option_probability": 0.48031904934331243,
+        "world_facts_rougeL_recall": 0.9116809116809117,
+        "world_facts_truth_ratio_score": 0.6275568134422225
+      },
+      "model_utility_harmonic_mean_recomputed": 0.6370193562502499
+    },
+    "candidate": {
+      "rouge_rows_recomputed": 1417,
+      "model_utility_components": {
+        "retain_probability": 0.9909814517467894,
+        "retain_rougeL_recall": 0.9953821522571522,
+        "retain_truth_ratio_score": 0.53042940582295,
+        "real_authors_normalized_option_probability": 0.4078885737987939,
+        "real_authors_rougeL_recall": 0.9490000000000001,
+        "real_authors_truth_ratio_score": 0.5124006709968674,
+        "world_facts_normalized_option_probability": 0.48031904934331243,
+        "world_facts_rougeL_recall": 0.9116809116809117,
+        "world_facts_truth_ratio_score": 0.6275568134422225
+      },
+      "model_utility_harmonic_mean_recomputed": 0.6370193562502499
+    }
+  },
+  "problems": []
+}

@@ -1,0 +1,186 @@
+{
+  "overall_status": "FAIL",
+  "audit_status": "PASS",
+  "problems": [
+    "run status is RUNNING, expected COMPLETE",
+    "llama_3_2_3b_full forget-quality KS statistic: missing numeric value (expected 0.37750000000000006, found None)",
+    "llama_3_2_3b_full forget-quality p-value: missing numeric value (expected 8.999307866955786e-26, found None)"
+  ],
+  "models": {
+    "llama_3_2_3b_full": {
+      "status": "PASS",
+      "problems": [],
+      "model": {
+        "label": "Llama 3.2 3B full",
+        "family": "llama_3_2_3b",
+        "role": "full",
+        "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+        "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+      },
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9449280580969706,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9356189378884794,
+            0.9527283293523241
+          ],
+          "mean_rougeL_recall": 0.9141027354099358,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.87299975704771,
+            0.9473587135229039
+          ],
+          "mean_truth_ratio": 0.4983517585069386,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.46613086417347865,
+            0.5297390144119065
+          ],
+          "mean_truth_ratio_score": 0.4727708155273642,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.44561063056251976,
+            0.4987778183397748
+          ]
+        },
+        "retain90": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.936686548535044,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.929279704653006,
+            0.9437005246702798
+          ],
+          "mean_rougeL_recall": 0.9028083462961769,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.8782861367207933,
+            0.9261235594757455
+          ],
+          "mean_truth_ratio": 0.4669328443999128,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.4412221669334966,
+            0.4909429891637888
+          ],
+          "mean_truth_ratio_score": 0.5412798346449098,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.5206845887466893,
+            0.5642249004667584
+          ]
+        },
+        "holdout10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.14612979567458617,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.12802058617007606,
+            0.16461981694713057
+          ],
+          "mean_rougeL_recall": 0.3773668103722096,
+          "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+            0.35109586011016697,
+            0.40168670342623736
+          ]
+        },
+        "real_authors": {
+          "n_questions": 100,
+          "n_profile_blocks": 0,
+          "mean_answer_probability": 0.019665875744171717,
+          "mean_rougeL_recall": 0.862,
+          "mean_truth_ratio": 1.1881537220706975,
+          "mean_truth_ratio_score": 0.6425004948131446,
+          "mean_normalized_option_probability": 0.4982588455265466
+        },
+        "world_facts": {
+          "n_questions": 117,
+          "n_profile_blocks": 0,
+          "mean_answer_probability": 0.006693592869359089,
+          "mean_rougeL_recall": 0.8621082621082621,
+          "mean_truth_ratio": 2.558903236390347,
+          "mean_truth_ratio_score": 0.664293578058488,
+          "mean_normalized_option_probability": 0.4955287270978759
+        }
+      },
+      "runtime": {
+        "torch_version": "2.11.0+cu130",
+        "transformers_version": "5.22.1",
+        "accelerate_version": "1.15.0",
+        "rouge_score_version": "0.1.2",
+        "scipy_version": "1.17.1",
+        "inference_dtype": "float16",
+        "gpu_names": [
+          "Tesla T4",
+          "Tesla T4"
+        ],
+        "gpu_total_memory_bytes": [
+          15636037632,
+          15636037632
+        ],
+        "elapsed_seconds": 1561.05,
+        "training_started": false,
+        "research_adapter_created": false
+      }
+    },
+    "llama_3_2_3b_retain90": {
+      "status": "PASS",
+      "problems": [],
+      "model": {
+        "label": "Llama 3.2 3B retain90 oracle",
+        "family": "llama_3_2_3b",
+        "role": "retain90_oracle",
+        "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_retain90",
+        "revision": "2c35819e9a731d096df9abd6efbcc361870c5333"
+      },
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.12519508363024628,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.102334789146874,
+            0.15097606603063807
+          ],
+          "mean_truth_ratio": 0.8540515373438466,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+            0.7965125197756513,
+            0.9138295631451608
+          ],
+          "mean_truth_ratio_score": 0.6436691643774133,
+          "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+            0.6212875647299547,
+            0.6651984248175217
+          ]
+        }
+      },
+      "runtime": {
+        "torch_version": "2.11.0+cu130",
+        "transformers_version": "5.22.1",
+        "accelerate_version": "1.15.0",
+        "rouge_score_version": "0.1.2",
+        "scipy_version": "1.17.1",
+        "inference_dtype": "float16",
+        "gpu_names": [
+          "Tesla T4",
+          "Tesla T4"
+        ],
+        "gpu_total_memory_bytes": [
+          15636037632,
+          15636037632
+        ],
+        "elapsed_seconds": 155.39,
+        "training_started": false,
+        "research_adapter_created": false
+      }
+    },
+    "llama_3_1_8b_full": {
+      "status": "MISSING",
+      "problems": [
+        "missing llama_3_1_8b_full_official_eval.json"
+      ]
+    },
+    "llama_3_1_8b_retain90": {
+      "status": "MISSING",
+      "problems": [
+        "missing llama_3_1_8b_retain90_official_eval.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "protocol_id": "muse_news_target_baseline_c1_c2_c4_v1",
+  "status": "LOCKED_BASELINE_ONLY_PENDING_OFFICIAL_TOKENIZER_ACCESS",
+  "created_at_local": "2026-11-09",
+  "question": "What are the published MUSE-News target checkpoint's baseline scores on verbatim-forget and knowledge-forget/retain evaluation sets before any unlearning?",
+  "scope": {
+    "training": false,
+    "model": "muse-bench/MUSE-news_target",
+    "model_revision": "a2f39769e9a0b98ec1cdd12f65e9962502208935",
+    "tokenizer": "meta-llama/Llama-2-7b-hf",
+    "tokenizer_revision": "01c7f73d771dfac7d292323805ebc428287df4f9",
+    "dataset": "muse-bench/MUSE-News",
+    "dataset_revision": "506bd5b150b92814d45e4404a82f120ab2d748bf",
+    "official_evaluator": "jaechan-repo/muse_bench",
+    "official_evaluator_commit": "6d4fdcbdebe4ad46dccaf70f8526cd23ecff609e",
+    "metrics": [
+      "C1 verbmem_f mean ROUGE-L",
+      "C2 knowmem_f mean ROUGE-L",
+      "C4 knowmem_r mean ROUGE-L"
+    ],
+    "evaluation_rows": {
+      "verbmem_forget": 100,
+      "knowmem_forget_qa": 100,
+      "knowmem_retain_qa": 100,
+      "forget_icl_examples": 10,
+      "retain_icl_examples": 10
+    },
+    "decoding": {
+      "do_sample": false,
+      "verbmem_max_new_tokens": 128,
+      "knowmem_max_new_tokens": 32,
+      "precision": "float32",
+      "gpu_policy": "2xT4 only; fail if any CPU/disk model placement occurs"
+    },
+    "uncertainty": {
+      "method": "percentile bootstrap of individual benchmark rows",
+      "resamples": 9999,
+      "confidence_level": 0.95,
+      "seed": 20261109,
+      "limitation": "No released article/source IDs are available; intervals are row-level and are not cluster-robust."
+    }
+  },
+  "execution_gates": [
+    "Verify pinned dataset, model and evaluator revisions.",
+    "Retrieve the tokenizer from the official gated Meta repository using the user's HF_TOKEN; do not substitute an unofficial mirror.",
+    "Validate all five data files and expected row counts before loading weights.",
+    "Load the target model in float32 on two GPUs without CPU or disk offload.",
+    "Compare a two-example smoke run against the pinned official evaluator before processing all 300 evaluation rows.",
+    "Save per-row predictions and scores incrementally; independently recompute means and seeded row-bootstrap intervals from the final output."
+  ],
+  "interpretation_limits": [
+    "This is a baseline evaluation only, not an unlearning result.",
+    "The public target-model card does not state a license or detailed provenance. Do not redistribute weights or a derivative; resolve model terms before any training or release.",
+    "String-based QA-to-article linkage is unresolved. Use only MUSE's fixed evaluation sets and do not claim source-cluster inference.",
+    "A single public benchmark checkpoint does not establish real-world deletion or privacy guarantees."
+  ]
+}

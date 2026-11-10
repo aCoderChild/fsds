@@ -1,0 +1,392 @@
+{
+  "created_utc": "2026-11-03",
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 811,
+      "sha256": "3d039db807427918be1c694e8e18da8751d6b6346ef6a4201de709a40d2f07aa"
+    },
+    {
+      "file": "baseline_diagnostics/precompetent_english_forget_targets.json",
+      "bytes": 1550,
+      "sha256": "2f2598d8b5e41fa01e3d201d95485987166448679abfa127ca754aeac45d5866"
+    },
+    {
+      "file": "corrected_evaluation/case_metrics.jsonl",
+      "bytes": 1500436,
+      "sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9"
+    },
+    {
+      "file": "corrected_evaluation/corrected_gd_npo_predictions.jsonl",
+      "bytes": 406246,
+      "sha256": "87aaa7010aede33e2e76ab39b19eb3f5ef212594f7fb5e96a978342fe39ca405"
+    },
+    {
+      "file": "corrected_evaluation/cross_language_contrasts.csv",
+      "bytes": 2864,
+      "sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7"
+    },
+    {
+      "file": "corrected_evaluation/cross_language_contrasts.json",
+      "bytes": 12977,
+      "sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9"
+    },
+    {
+      "file": "corrected_evaluation/diagnostic_report.md",
+      "bytes": 11632,
+      "sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de"
+    },
+    {
+      "file": "corrected_evaluation/generation.log",
+      "bytes": 18134,
+      "sha256": "24ab089f3c1ba5f37c99d40fbeec3534466aa5eff8063c7178d4fc2ab0276fae"
+    },
+    {
+      "file": "corrected_evaluation/partial_predictions/GD.jsonl",
+      "bytes": 202577,
+      "sha256": "fbf4103c04455831cee62f17920c005e0a2a3e4133a648e3fb6affa9b97b9b18"
+    },
+    {
+      "file": "corrected_evaluation/partial_predictions/NPO.jsonl",
+      "bytes": 203669,
+      "sha256": "c5ddd6df42675c0dec05db3fb5e823c397e703cb92bdb2bde801a9d9493c5b25"
+    },
+    {
+      "file": "corrected_evaluation/predictions.jsonl",
+      "bytes": 1323357,
+      "sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe"
+    },
+    {
+      "file": "corrected_evaluation/scored_predictions.jsonl",
+      "bytes": 2179918,
+      "sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b"
+    },
+    {
+      "file": "corrected_evaluation/summary.csv",
+      "bytes": 11239,
+      "sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f"
+    },
+    {
+      "file": "corrected_evaluation/summary.json",
+      "bytes": 59760,
+      "sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+    },
+    {
+      "file": "corrected_evaluation/verification.json",
+      "bytes": 1344,
+      "sha256": "f4926263d2168a33ed835b266185a829939a8b178d3a69ef6c522e2a611b6e6a"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "6fbf946a93907b471fe9e9589007b230401b1dc52c6de73bd20df46ccf1e6b9f"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "6cbf30f76737cadda36a6f3f0c1cd30526c7a36a51a706b8f35c5c8b93c061c3"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "corrected_unlearning/ga/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "corrected_unlearning/ga/run_manifest.json",
+      "bytes": 2607,
+      "sha256": "3eca76119817c9f789af23872524f135696433e6dd1638a9bc3fb5768717d0aa"
+    },
+    {
+      "file": "corrected_unlearning/ga/train.log",
+      "bytes": 2657,
+      "sha256": "0c89ca89243e254a7158bc5338f17dd06bd4c9b13a373139e6b1da8ce9e38623"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "49b67b48b9a4f420e72f0fda0cc77aac68d162dc33812207f6fe79f3a160837a"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "a244b4c1366b8af9cdefadec31cc94f8566b7485041d93629bcadde3a0373641"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "corrected_unlearning/gd/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "corrected_unlearning/gd/run_manifest.json",
+      "bytes": 3198,
+      "sha256": "3a8ae4130cd2abb5b591ce8c908435827e0236209954fa1ddbcf0e213b8e3db3"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "9006579c2f5e36e8ede53c466ebcea894db0d5f90c53437c88a19a62afec36b0"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "d19ec95ab765a57b560649c411de9a4310829fed55ffe9d8642d3ed4371198a5"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "corrected_unlearning/npo/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "corrected_unlearning/npo/run_manifest.json",
+      "bytes": 3207,
+      "sha256": "6269c1dfc95e055a01c80b056c2102842a917fa23bcc04cd396d32fa2a2b7d4c"
+    },
+    {
+      "file": "corrected_unlearning/source_code_provenance.json",
+      "bytes": 2046,
+      "sha256": "9665dac7784beaed3bdf4e42144fc0c0ab7b7add9e3b1a4763c17d25b892288e"
+    },
+    {
+      "file": "evaluation_dataset/README.md",
+      "bytes": 1875,
+      "sha256": "217b662d5ac8bbf80a625429cba6a4c5b8a74e47d493758fc44747cf3343fb8c"
+    },
+    {
+      "file": "evaluation_dataset/labels/gold_labels.jsonl",
+      "bytes": 66460,
+      "sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4"
+    },
+    {
+      "file": "evaluation_dataset/manifest.json",
+      "bytes": 2461,
+      "sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4"
+    },
+    {
+      "file": "evaluation_dataset/prompts/en.jsonl",
+      "bytes": 63538,
+      "sha256": "30c93bfe6b043564e8c1a5aed164b1a51766c8788b7e4b4891cf0e20f9a68f70"
+    },
+    {
+      "file": "evaluation_dataset/translation_requests/de.jsonl",
+      "bytes": 183249,
+      "sha256": "7d6399972f2cb3d546c7234c106e01a99595cf61ad573a8c91652888c4cd3aa8"
+    },
+    {
+      "file": "evaluation_dataset/translation_requests/fr.jsonl",
+      "bytes": 183249,
+      "sha256": "f2f7abae706f6d5c6410c25b2795518e949fc3300fd2f8487d32ef1a54015c04"
+    },
+    {
+      "file": "evaluation_dataset/translation_requests/hi.jsonl",
+      "bytes": 183249,
+      "sha256": "d1a0de3cd18d78587e6992649dd715345d519bf37755091a15ad5a2b3874f611"
+    },
+    {
+      "file": "evaluation_dataset/translation_requests/th.jsonl",
+      "bytes": 183249,
+      "sha256": "ae230ca83a68cfa647cab24c9e9c556f38db3a9a62b66cdbe55a92a053080ed7"
+    },
+    {
+      "file": "evaluation_dataset/translations/ai_reviewed/de.jsonl",
+      "bytes": 40325,
+      "sha256": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a"
+    },
+    {
+      "file": "evaluation_dataset/translations/ai_reviewed/fr.jsonl",
+      "bytes": 40916,
+      "sha256": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42"
+    },
+    {
+      "file": "evaluation_dataset/translations/ai_reviewed/hi.jsonl",
+      "bytes": 54800,
+      "sha256": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32"
+    },
+    {
+      "file": "evaluation_dataset/translations/ai_reviewed/review_import_report.json",
+      "bytes": 1415,
+      "sha256": "8acb6ce80aa8b7f6822012158bbd57bad7b71f723f30dc0e4741e83ca7bc8265"
+    },
+    {
+      "file": "evaluation_dataset/translations/ai_reviewed/th.jsonl",
+      "bytes": 53178,
+      "sha256": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+    },
+    {
+      "file": "evaluation_dataset/translations/review_process_log.json",
+      "bytes": 1276,
+      "sha256": "4024872ebc4243b1ee92b82ce1a0ff202dd718469e7a5b4bcfccdcabeaae0515"
+    },
+    {
+      "file": "retain_only_baseline/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "retain_only_baseline/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "d266e5d16bd83435551f66323b3b0796089bb5755839d13b51d2bd572564b2dd"
+    },
+    {
+      "file": "retain_only_baseline/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "c83ef6d0ec69524fae3597be6a50b80a44a81b96c047f52dce9c6f9370fbe76c"
+    },
+    {
+      "file": "retain_only_baseline/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "retain_only_baseline/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+    },
+    {
+      "file": "retain_only_baseline/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "retain_only_baseline/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "retain_only_baseline/adapter/training_args.bin",
+      "bytes": 5905,
+      "sha256": "7f2487f114aa11affff2c97890d1edec0a455c1dcc29445cffc8d6886f90a419"
+    },
+    {
+      "file": "retain_only_baseline/run_manifest.json",
+      "bytes": 1044,
+      "sha256": "ba8193c69f5e19f3e4bf78cfeb3af189d942beabf970e1b608d1a04507ed5ef4"
+    },
+    {
+      "file": "scripts/evaluate_crosslingual_unlearning.py",
+      "bytes": 29165,
+      "sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70"
+    },
+    {
+      "file": "scripts/unlearn_lora.py",
+      "bytes": 22525,
+      "sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d"
+    },
+    {
+      "file": "sft_baseline/adapter/README.md",
+      "bytes": 5218,
+      "sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+    },
+    {
+      "file": "sft_baseline/adapter/adapter_config.json",
+      "bytes": 1165,
+      "sha256": "f312f552b0a62e893751f48b934317928694c228438403541a8a211b71fcdbdf"
+    },
+    {
+      "file": "sft_baseline/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "sha256": "e99ef07d4672cfe87b321d4e82a8079182fa049cc8bfc69419c0972de097b4d9"
+    },
+    {
+      "file": "sft_baseline/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+    },
+    {
+      "file": "sft_baseline/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+    },
+    {
+      "file": "sft_baseline/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    {
+      "file": "sft_baseline/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+    },
+    {
+      "file": "sft_baseline/adapter/training_args.bin",
+      "bytes": 5841,
+      "sha256": "3c52a6b9f700a2258f538ad9bd5673a093383b8ae5929ba0ccd62e07f71bb951"
+    },
+    {
+      "file": "sft_baseline/run_manifest.json",
+      "bytes": 1061,
+      "sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c"
+    },
+    {
+      "file": "sft_training/composition_corpus_disjoint.jsonl",
+      "bytes": 5086520,
+      "sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c"
+    },
+    {
+      "file": "sft_training/composition_disjoint_manifest.json",
+      "bytes": 4696,
+      "sha256": "7fdc456c866ac2cf0e456326dc6ebdebbfbf9bc8d110ab332ae17fb3cc984b68"
+    }
+  ]
+}

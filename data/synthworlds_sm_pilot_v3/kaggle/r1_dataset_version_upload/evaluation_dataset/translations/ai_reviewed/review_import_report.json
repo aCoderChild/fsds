@@ -1,0 +1,51 @@
+{
+  "review_mode": "AI_ONLY",
+  "human_review_performed": false,
+  "translation_counts": {
+    "fr": 258,
+    "de": 258,
+    "hi": 258,
+    "th": 258
+  },
+  "languages": {
+    "fr": {
+      "input_rows": 258,
+      "reviewed_rows": 258,
+      "source_name_strings_checked": 270,
+      "problems": [],
+      "problem_count": 0,
+      "review_status": "AI_ONLY_NOT_HUMAN_VALIDATED"
+    },
+    "de": {
+      "input_rows": 258,
+      "reviewed_rows": 258,
+      "source_name_strings_checked": 270,
+      "problems": [],
+      "problem_count": 0,
+      "review_status": "AI_ONLY_NOT_HUMAN_VALIDATED"
+    },
+    "hi": {
+      "input_rows": 258,
+      "reviewed_rows": 258,
+      "source_name_strings_checked": 270,
+      "problems": [],
+      "problem_count": 0,
+      "review_status": "AI_ONLY_NOT_HUMAN_VALIDATED"
+    },
+    "th": {
+      "input_rows": 258,
+      "reviewed_rows": 258,
+      "source_name_strings_checked": 270,
+      "problems": [],
+      "problem_count": 0,
+      "review_status": "AI_ONLY_NOT_HUMAN_VALIDATED"
+    }
+  },
+  "status": "AI_ONLY_REVIEWED_COMPLETE",
+  "output_sha256": {
+    "fr": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42",
+    "de": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a",
+    "hi": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32",
+    "th": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+  }
+}

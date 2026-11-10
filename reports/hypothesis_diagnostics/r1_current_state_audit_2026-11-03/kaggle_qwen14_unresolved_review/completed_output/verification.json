@@ -1,0 +1,79 @@
+{
+  "both_semantic_and_fluency_pass": 24,
+  "by_language_and_kind": {
+    "de": {
+      "atomic": {
+        "both_pass": 1,
+        "fluency_fail": 2,
+        "reviewed": 10,
+        "semantic_fail": 9
+      },
+      "composition": {
+        "both_pass": 1,
+        "fluency_fail": 6,
+        "reviewed": 16,
+        "semantic_fail": 15
+      }
+    },
+    "fr": {
+      "atomic": {
+        "both_pass": 2,
+        "fluency_fail": 0,
+        "reviewed": 6,
+        "semantic_fail": 4
+      },
+      "composition": {
+        "both_pass": 0,
+        "fluency_fail": 2,
+        "reviewed": 10,
+        "semantic_fail": 9
+      }
+    },
+    "hi": {
+      "atomic": {
+        "both_pass": 9,
+        "fluency_fail": 4,
+        "reviewed": 25,
+        "semantic_fail": 15
+      },
+      "composition": {
+        "both_pass": 10,
+        "fluency_fail": 2,
+        "reviewed": 26,
+        "semantic_fail": 16
+      }
+    },
+    "th": {
+      "atomic": {
+        "both_pass": 0,
+        "fluency_fail": 8,
+        "reviewed": 29,
+        "semantic_fail": 29
+      },
+      "composition": {
+        "both_pass": 1,
+        "fluency_fail": 9,
+        "reviewed": 25,
+        "semantic_fail": 23
+      }
+    }
+  },
+  "generator_revision": "facebook/nllb-200-distilled-1.3B@7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "input_sha256": "149a4ac5c768ad641765472dcb485000d819f8c318090ef2ea5ac7a2a3df0b00",
+  "kernel_log_sha256": "8750033c91ed1df1b8750f325d7294c630c0696b75ee8d9a6e9a2e52bf71c1dd",
+  "limitation": "Adaptive unresolved-row cohort; Qwen-family reviewer; diagnostic only, not a translation release or corpus approval.",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "ordered_progress_entries": 147,
+  "pass_rate": 0.16326530612244897,
+  "review_output_sha256": "acf8291f98613a65cb6f8e5d74310a020d92ff00832d563ac7522d02b1c92e91",
+  "review_script_sha256": "e8c89b8f96777b8db19ba2e7b7cab09465140f00bbad03997803fd8d5109d4f9",
+  "review_status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "rows": 147,
+  "runtime_warnings": [
+    "Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.",
+    "WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu."
+  ],
+  "selection_manifest_sha256": "06edbcb3950aba672e6ed1cb5a33c52a7093cb552282459993f12b288f6c72c7",
+  "status": "PASS_INTEGRITY_DIAGNOSTIC_ONLY"
+}

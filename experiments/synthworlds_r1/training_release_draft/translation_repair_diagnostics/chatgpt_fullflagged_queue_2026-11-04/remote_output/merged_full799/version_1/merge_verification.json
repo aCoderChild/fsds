@@ -1,0 +1,71 @@
+{
+  "answers_or_splits_sent": false,
+  "counts": {
+    "AI_ONLY_REPAIR_REVIEW_BLOCKED": 31,
+    "AI_ONLY_REPAIR_REVIEW_FLAGGED": 323,
+    "AI_ONLY_REPAIR_REVIEW_PASS": 445
+  },
+  "counts_by_language_kind": {
+    "de/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 4,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 32,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 72
+    },
+    "de/composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 25,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 46
+    },
+    "fr/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 2,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 24,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 91
+    },
+    "fr/composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 10,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 37
+    },
+    "hi/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 13,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 49,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 58
+    },
+    "hi/composition": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 6,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 35,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 39
+    },
+    "th/atomic": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 6,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 81,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 70
+    },
+    "th/composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 67,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 32
+    }
+  },
+  "exact_source_coverage": true,
+  "first_run_blocked_attempts_superseded_by_retry": 31,
+  "first_run_output_sha256": "f7147371c08c9aab319d9772d98bed22fb95442557ae5fd9abdbc6a870aa770e",
+  "first_run_verification_sha256": "6f2c413e8dd52321ba5f6d709b9bfc11db121b025fadb39ec30041b5c226f4e2",
+  "first_run_verified_decisions_retained": 702,
+  "first_run_verified_rows_sha256": "dbc2d620dbd0be81ee08d3c59f91b17b6de164fd862d488788d408c75d4f936c",
+  "human_translation_reviewed": false,
+  "limitations": [
+    "AI-only diagnostic findings do not certify fluent-human translation quality.",
+    "Diagnostic pass rows still require the complete frozen production re-screen and source-integrity proof.",
+    "The merge replaces 31 blocked attempts; it does not treat blocked or pending rows as passes."
+  ],
+  "merged_rows_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+  "release_approved": false,
+  "retry_output_sha256": "40db8398174bb772c3a4b81c9fe80638de1c9bb69d0f8d36fab2f6ff69226de8",
+  "retry_rows": 97,
+  "retry_verification_sha256": "6adf3545d9e821d2758f0c2fd0bcb966a10589bb5ac95b07631bfef6f593d775",
+  "retry_verified_rows_sha256": "751dd1f04b761309a545bfbd7f9d40a28fad1dbe097f7d63953a08e8e2849ee1",
+  "source_jsonl_sha256": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+  "source_private_map_sha256": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+  "source_rows": 799,
+  "status": "VERIFIED_799_ROW_AI_ONLY_DIAGNOSTIC_MERGE_NOT_RELEASE_APPROVAL",
+  "training_eligible": false,
+  "unique_merged_rows": 799
+}

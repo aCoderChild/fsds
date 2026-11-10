@@ -1,0 +1,16 @@
+{
+  "answers_or_splits_in_input": false,
+  "human_translation_reviewed": false,
+  "input_compact_array_sha256": "847aefe984e9403614c0db6ed5ca6b088e3e6a0fbf3bef0dc87b1e707109f60d",
+  "input_jsonl_sha256": "261e6cfa3f037088a14340735d22bd28a3ba45ff39f4cfff646e3f64c73f7e22",
+  "input_manifest_sha256": "e07f933f1ddb2d86aa329ab65c8ae678d0a94002b0ef2bd917b4226bce773708",
+  "kernel_id": "bunnoob2005/synthworlds-ai-only-translation-repair-review",
+  "mode": "pilot16",
+  "private_map_sha256": "8152cd4272598352814fc7130ad302331213dcd2d94cfba761b0c81d9bf05f0f",
+  "review_script_sha256": "d7658b22cb49880c3073c2fc315b5f6308a774c55d4b5fc77b32a4ecdade4a1d",
+  "review_script_uploaded_matches_generated_source": true,
+  "rows": 16,
+  "status": "PACKAGED_PRIVATE_KAGGLE_AI_REVIEW_NOT_APPROVAL",
+  "template_sha256": "51cf5f6d084b2c062369285cba6314e068b98bc071c91727a17e204742f506f6",
+  "training_approved": false
+}

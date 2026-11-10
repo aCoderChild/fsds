@@ -1,0 +1,212 @@
+{
+  "analysis_script_sha256": "4150611d2bf8ace1c2a9e4917d06c6f23014fc688107cd79cd90b98c4e988769",
+  "archive_index_sha256": "be5516bdaaa9f0f59f17100e525beb746c3b062f090850e7573f2a5c8d19bdc4",
+  "bootstrap_method": "Percentile cluster bootstrap; resample entity groups with replacement and keep all member cases together",
+  "bootstrap_replicates_per_contrast": 100000,
+  "estimand": "Target-language minus English multi-hop change on the same bilingual SFT-precompetent forget cases",
+  "familywise_adjustment": "Bonferroni over 12 method-by-language contrasts; nominal 95% simultaneous coverage",
+  "input_archive_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+  "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+  "limitations": [
+    "Post-hoc sensitivity analysis, not preregistered and not a replacement for the primary estimand.",
+    "Each contrast has only 5-7 independent entity groups; percentile cluster-bootstrap coverage is approximate and unstable at this cluster count.",
+    "All four language competence gates failed; these estimates cannot answer the hypothesis.",
+    "One seed, Llama 3.2 1B, and AI-only translations without fluent-human review."
+  ],
+  "pilot_scorer_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+  "results": [
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 4178128567,
+      "did_pp": 10.0,
+      "language": "fr",
+      "marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "method": "GA",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        100.0
+      ],
+      "bootstrap_seed": 797486891,
+      "did_pp": 22.22222222222222,
+      "language": "de",
+      "marginal_95ci_pp": [
+        0.0,
+        80.0
+      ],
+      "method": "GA",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -66.66666666666666,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 3373853523,
+      "did_pp": 0.0,
+      "language": "hi",
+      "marginal_95ci_pp": [
+        -33.33333333333333,
+        33.33333333333333
+      ],
+      "method": "GA",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "bootstrap_seed": 3527004444,
+      "did_pp": 9.090909090909092,
+      "language": "th",
+      "marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "method": "GA",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 3416781695,
+      "did_pp": 10.0,
+      "language": "fr",
+      "marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "method": "GD",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "bootstrap_seed": 3947669567,
+      "did_pp": 11.11111111111111,
+      "language": "de",
+      "marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "method": "GD",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 1305453287,
+      "did_pp": 11.11111111111111,
+      "language": "hi",
+      "marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "method": "GD",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -71.42857142857143,
+        100.0
+      ],
+      "bootstrap_seed": 3506909925,
+      "did_pp": 9.090909090909092,
+      "language": "th",
+      "marginal_95ci_pp": [
+        -36.36363636363637,
+        71.42857142857143
+      ],
+      "method": "GD",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 3905273914,
+      "did_pp": 10.0,
+      "language": "fr",
+      "marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "method": "NPO",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "bootstrap_seed": 1066681433,
+      "did_pp": 11.11111111111111,
+      "language": "de",
+      "marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "method": "NPO",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "bootstrap_seed": 2819135573,
+      "did_pp": 11.11111111111111,
+      "language": "hi",
+      "marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "method": "NPO",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6
+    },
+    {
+      "bonferroni_familywise_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "bootstrap_seed": 3847738078,
+      "did_pp": 9.090909090909092,
+      "language": "th",
+      "marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "method": "NPO",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7
+    }
+  ],
+  "status": "VERIFIED_POST_HOC_MULTIPLICITY_SENSITIVITY_EXPLORATORY_ONLY"
+}

@@ -1,0 +1,130 @@
+{
+  "candidate_chain_count": 50,
+  "candidate_rows_by_language": {
+    "de": 0,
+    "en": 100,
+    "fr": 0,
+    "hi": 0,
+    "th": 0
+  },
+  "candidate_sft_rows_en": 100,
+  "candidate_sha256": "9a3e688d59806d14bec558b2c8bb277f78f07069a97d47c4a7c9b69186b2a49f",
+  "chains_with_q1_all_support": 0,
+  "do_not_train": true,
+  "evaluation_assignments_sha256": "d6ab5aeead869c1072dece276cc403a32c46e24253e1ad33c35d054209059bea",
+  "evaluation_entity_qids": 331,
+  "evaluation_labels_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+  "exclusion_counts": {
+    "entity_or_answer_surface_overlap_with_eval": 1,
+    "entity_qid_overlap_with_eval": 16,
+    "final_answer_not_unique_across_bridges": 4
+  },
+  "human_translation_reviewed": false,
+  "languages_required": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "prompt_corrections": {
+    "0001-qa-sm": {
+      "composition_2hop": "In what year was the institution where Jorith Luque studied founded?",
+      "composition_support_q2": "In what year was The Artistic Exchange founded by Merith Watts?"
+    },
+    "0011-qa-sm": {
+      "composition_2hop": "Which language is listed as a component of Pyrathen, which is among Quindra Pandya's fields of work?",
+      "composition_support_q2": "Which language is listed as one of Pyrathen's components?"
+    },
+    "0032-qa-sm": {
+      "composition_2hop": "Who participated in the Battle of Zolara, the event distinct from Echoing Vale?"
+    },
+    "0041-qa-sm": {
+      "composition_2hop": "The language used to write \"Flames of Destiny\" is a dialect of which language?"
+    },
+    "0046-qa-sm": {
+      "composition_2hop": "Which literary work includes the capital city of Lumeria?",
+      "composition_support_q2": "Which literary work includes the city of Lighthaven?"
+    },
+    "0050-qa-sm": {
+      "composition_2hop": "To which country or other power is the person whose godparent is Calix Silverwood loyal?",
+      "composition_support_q2": "To which country or other power is Elian Calyssar loyal?"
+    },
+    "0076-qa-sm": {
+      "composition_2hop": "What does a creator featured in The Ephemeral Showcase own?"
+    },
+    "0087-qa-sm": {
+      "composition_2hop": "On what date was the place where Chyra Sampson lives formally incorporated as a municipality?",
+      "composition_support_q2": "On what date was Sapphire Bay formally incorporated as a municipality?"
+    },
+    "0092-qa-sm": {
+      "composition_2hop": "In what area of activity does the organization of which Menara Carrizales is a member operate?",
+      "composition_support_q2": "In what area of activity does the Nexus Learning Society operate?"
+    },
+    "0101-qa-sm": {
+      "composition_2hop": "Which literary work is an edition or translation of the literary work that describes Draal Minaya?",
+      "composition_support_q2": "Which literary work is the source of Celestial Rework, an edition or translation?"
+    },
+    "0104-qa-sm": {
+      "composition_2hop": "Who influenced the field of work in which Vail Thorne is active?"
+    },
+    "0109-qa-sm": {
+      "composition_2hop": "In which administrative region is the source that describes Therion Tostado located?"
+    },
+    "0112-qa-sm": {
+      "composition_2hop": "On what date did a fire occur at a structure listed among Delwyn Oleary's notable works?",
+      "composition_support_q2": "On what date did the fire at the Radiant Pavilion occur?"
+    },
+    "0122-qa-sm": {
+      "composition_2hop": "What did the place that shares a border with Zephyron replace?"
+    },
+    "0124-qa-sm": {
+      "composition_2hop": "Which administrative division has as its capital the town twinned with Uldarion?",
+      "composition_support_q2": "Which administrative division has Nethoria as its capital?"
+    },
+    "0125-qa-sm": {
+      "composition_2hop": "Which type of electrical plug is standard in the country that has diplomatic relations with the Caelum Archipelago?",
+      "composition_support_q2": "Which type of electrical plug is standard in Merithia?"
+    },
+    "0126-qa-sm": {
+      "composition_2hop": "In what year did Brenyth Joan's tenure as architect end at the palace associated with Avelyn Tostado's works?"
+    },
+    "0129-qa-sm": {
+      "composition_2hop": "In what year did one of Wryten Nate's siblings become a citizen of Lumeria?"
+    },
+    "0140-qa-sm": {
+      "composition_2hop": "In what year did Tarynth Braga's term as chairperson of the organization to which Nytheris Meister belongs end?"
+    },
+    "0146-qa-sm": {
+      "composition_2hop": "In what month and year did Braxton Goldenvale become the occupant of the palace listed among Delwyn Oleary's notable works?",
+      "composition_support_q2": "In what month and year did Braxton Goldenvale become the occupant of Opulent Haven Palace?"
+    },
+    "0175-qa-sm": {
+      "composition_2hop": "In what year did Adeline Everhart's tenure in the office held by Irvin Everhart end?"
+    },
+    "0183-qa-sm": {
+      "composition_2hop": "In what year was the holder of the Directorate of Scientific Archives and Research position recorded as active?",
+      "composition_support_q2": "In what year was Wyrlyn Lord recorded as active?"
+    },
+    "0194-qa-sm": {
+      "composition_2hop": "Who was a doctoral student of a person associated with Wyrden Hays?",
+      "composition_support_q2": "Who was a doctoral student of Aelynd Shakir?"
+    },
+    "0196-qa-sm": {
+      "composition_2hop": "What is the first name of a doctoral student of Tamsin Rivers?",
+      "composition_support_q2": "What is Zyvra Gerber's first name?"
+    },
+    "0197-qa-sm": {
+      "composition_2hop": "Which military branch did the godparent of Sylphina Marigold Everwyn belong to?"
+    }
+  },
+  "q1_policy": "All source-supported Q1 bridge values are audited to ensure they lead to the same final answer, but multi-answer Q1 list rows are omitted from SFT. The train_only extension uses only Q2 support and full composed two-hop questions.",
+  "rows_by_hop": {
+    "composition_2hop": 50,
+    "composition_support_q2": 50
+  },
+  "selection_policy": "Type-A source QA rows outside fixed evaluation IDs; exact first-hop source fact; exactly one second-hop source path; every source-supported Q1 bridge resolves to the same final answer; composition and Q2 rows have no chain entity/QID, answer, question, or selected chain-fact overlap with evaluation.",
+  "source_facts_sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+  "source_qa_sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+  "status": "DISJOINT_COMPOSITION_CANDIDATES_PENDING_TRANSLATION_REVIEW"
+}

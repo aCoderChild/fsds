@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/synthworlds-llama31-8b-access-probe-2026-11-04",
+  "title": "SynthWorlds Llama31 8B Access Probe 2026-11-04",
+  "code_file": "access_probe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": []
+}

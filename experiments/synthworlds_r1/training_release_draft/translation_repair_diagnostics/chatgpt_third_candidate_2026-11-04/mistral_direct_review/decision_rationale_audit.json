@@ -1,0 +1,71 @@
+{
+  "answers_or_splits_sent": false,
+  "by_language": {
+    "de": {
+      "mistral_pass": 19,
+      "qwen_blocked": 3,
+      "qwen_flag": 14,
+      "qwen_pass": 2
+    },
+    "fr": {
+      "mistral_flag": 6,
+      "mistral_pass": 15,
+      "qwen_blocked": 2,
+      "qwen_flag": 12,
+      "qwen_pass": 7
+    },
+    "hi": {
+      "mistral_pass": 62,
+      "qwen_blocked": 11,
+      "qwen_flag": 41,
+      "qwen_pass": 10
+    },
+    "th": {
+      "mistral_flag": 3,
+      "mistral_pass": 82,
+      "qwen_blocked": 2,
+      "qwen_flag": 73,
+      "qwen_pass": 10
+    }
+  },
+  "calibration_warning": "The existing Mistral hard-negative diagnostic passed 2/15 deliberately mismatched pairs.",
+  "comparison_sha256": "444f8cfb870356ffe02e85270780254126335278aee985f6c3074c4f3fb2c11b",
+  "human_translation_reviewed": false,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "interpretation": "Mistral's decision labels fail an internal consistency check and its negative-control performance is inadequate for overriding the stricter Qwen screen. Rationale phrase counts are diagnostic cues only; neither review is human-gold.",
+  "mistral_decision_counts": {
+    "blocked": 0,
+    "flag": 9,
+    "pass": 178
+  },
+  "mistral_fluency_false_with_affirmative_rationale": [
+    "R0059",
+    "R0073",
+    "R0123",
+    "R0150"
+  ],
+  "mistral_output_sha256": "6bf88c9090e07ffb49ede0fb44ff12d8158a23a397a4f2b913cdb8cb4de21748",
+  "mistral_semantic_false_with_affirmative_rationale": [
+    "R0008",
+    "R0059",
+    "R0073",
+    "R0123",
+    "R0150",
+    "R0677",
+    "R0727",
+    "R0753"
+  ],
+  "mistral_status": "MISTRAL_DIRECT_REVIEW_COMPLETE_DIAGNOSTIC_ONLY",
+  "qwen_decision_counts": {
+    "blocked": 18,
+    "flag": 140,
+    "pass": 29
+  },
+  "qwen_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "qwen_status": "AI_ONLY_REPAIR_REVIEW_HAS_BLOCKED_ROWS",
+  "release_approved": false,
+  "reviewer_disagreement_rows": 154,
+  "rows": 187,
+  "status": "VERIFIED_INTERNAL_CONTRADICTION_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

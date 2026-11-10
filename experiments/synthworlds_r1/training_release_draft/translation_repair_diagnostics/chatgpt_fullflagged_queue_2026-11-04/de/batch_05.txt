@@ -1,0 +1,35 @@
+Translate each English question into natural German. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"DE0129","question_en":"Who is the screenwriter of the work referenced by the work that expands the plot of ZXQENTAQXZ?"}
+{"row_id":"DE0130","question_en":"Who is ZXQENTAQXZ's mother?"}
+{"row_id":"DE0131","question_en":"Who is ZXQENTAQXZ different from?"}
+{"row_id":"DE0132","question_en":"Who does the teacher of ZXQENTAQXZ's father differ from?"}
+{"row_id":"DE0133","question_en":"Who is the rector of ZXQENTAQXZ?"}
+{"row_id":"DE0134","question_en":"Who was ZXQENTAQXZ's doctoral advisor?"}
+{"row_id":"DE0135","question_en":"Who was the doctoral advisor of the rector of ZXQENTAQXZ's employer?"}
+{"row_id":"DE0136","question_en":"Who is the unmarried partner of ZXQENTAQXZ?"}
+{"row_id":"DE0137","question_en":"What honorific prefix is used before the name of the unmarried partner of the founder of ZXQENTAQXZ?"}
+{"row_id":"DE0138","question_en":"Who is the unmarried partner of ZXQENTAQXZ?"}
+{"row_id":"DE0139","question_en":"Who is ZXQENTAQXZ interested in?"}
+{"row_id":"DE0140","question_en":"Which work is a part of ZXQENTAQXZ?"}
+{"row_id":"DE0141","question_en":"Who directed ZXQENTAQXZ?"}
+{"row_id":"DE0142","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"DE0143","question_en":"What is the given name of the director of the work that is part of ZXQENTAQXZ?"}
+{"row_id":"DE0144","question_en":"Where is the ZXQENTAQXZ located?"}
+{"row_id":"DE0145","question_en":"Who is the sibling of the person after whom the place that houses the ZXQENTAQXZ is named?"}
+{"row_id":"DE0146","question_en":"Who is the head of state of ZXQENTAQXZ?"}
+{"row_id":"DE0147","question_en":"Who is ZXQENTAQXZ's godparent?"}
+{"row_id":"DE0148","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"DE0149","question_en":"Who is the spouse of the godparent of the head of state of ZXQENTAQXZ?"}
+{"row_id":"DE0150","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"DE0151","question_en":"What country is ZXQENTAQXZ a citizen of?"}
+{"row_id":"DE0152","question_en":"Who is the head of state of ZXQENTAQXZ?"}
+{"row_id":"DE0153","question_en":"Who is the head of state of the country of which ZXQENTAQXZ's spouse is a citizen?"}
+{"row_id":"DE0154","question_en":"What is ZXQENTAQXZ's family name?"}
+{"row_id":"DE0155","question_en":"What is the family name of the entity that immediately follows the family to which ZXQENTAQXZ belongs?"}
+{"row_id":"DE0156","question_en":"Who is the main subject of ZXQENTAQXZ?"}
+{"row_id":"DE0157","question_en":"Which family does the mother of the main subject of the ZXQENTAQXZ belong to?"}
+{"row_id":"DE0158","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"DE0159","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"DE0160","question_en":"What is the given name of the unmarried partner of ZXQENTAQXZ's sibling?"}

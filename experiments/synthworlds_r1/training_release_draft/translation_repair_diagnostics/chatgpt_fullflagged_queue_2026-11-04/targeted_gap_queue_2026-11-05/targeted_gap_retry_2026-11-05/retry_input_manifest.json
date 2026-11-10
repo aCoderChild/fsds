@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED_RETRY_INPUT_PREPARED_DIAGNOSTIC_ONLY",
+  "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+  "source_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+  "prior_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+  "rows": 17,
+  "alias_backtranslation_rows": 15,
+  "judge_retry_rows": 2,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "answers_or_split_labels_included": false,
+  "retry_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+  "kernel_id": "bunnoob2005/sw-gap187-alias-retry-2026-11-05"
+}

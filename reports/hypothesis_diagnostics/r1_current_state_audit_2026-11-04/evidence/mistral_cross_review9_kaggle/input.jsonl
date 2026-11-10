@@ -1,0 +1,9 @@
+{"kind": "atomic", "language": "fr", "prompt_id": "0134-qa-sm:r1", "source": "What did ZXQENTAQXZ replace?", "translation": "Qu'est-ce que ZXQENTAQXZ a remplacé ?"}
+{"kind": "composition", "language": "fr", "prompt_id": "disjoint-b:0348-qa-sm:q2", "source": "Who is ZXQENTAQXZ's stepparent?", "translation": "Qui est le beau-père ou la belle-mère de ZXQENTAQXZ ?"}
+{"kind": "composition", "language": "de", "prompt_id": "disjoint-b:0203-qa-sm:q3", "source": "Who is ZXQENTAQXZ's stepparent?", "translation": "Wer ist der Stiefvater oder die Stiefmutter von ZXQENTAQXZ?"}
+{"kind": "composition", "language": "hi", "prompt_id": "disjoint-b:0267-qa-sm:multi", "source": "Who founded the organization that the rank above the ZXQENTAQXZ is part of?", "translation": "उस संगठन की स्थापना किसने की, जिसका हिस्सा ZXQENTAQXZ से ऊपर का पद है?"}
+{"kind": "composition", "language": "hi", "prompt_id": "disjoint-b:0300-qa-sm:q2", "source": "Who is ZXQENTAQXZ's godparent?", "translation": "ZXQENTAQXZ के धर्मपिता या धर्ममाता कौन हैं?"}
+{"kind": "atomic", "language": "th", "prompt_id": "0044-qa-sm:r2", "source": "On which physical feature is ZXQENTAQXZ located?", "translation": "ZXQENTAQXZ ตั้งอยู่บนลักษณะภูมิประเทศใด?"}
+{"kind": "atomic", "language": "th", "prompt_id": "0115-qa-sm:r2", "source": "Where is the ZXQENTAQXZ language indigenous to?", "translation": "ภาษา ZXQENTAQXZ เป็นภาษาพื้นเมืองของที่ใด?"}
+{"kind": "composition", "language": "th", "prompt_id": "disjoint-b:0382-qa-sm:multi", "source": "Who is the father of the creator of the noble title held by ZXQENTAQXZ?", "translation": "ใครคือบิดาของผู้สถาปนาบรรดาศักดิ์ที่ ZXQENTAQXZ ถือครอง?"}
+{"kind": "composition", "language": "th", "prompt_id": "disjoint-b:0291-qa-sm:q2", "source": "Who is the unmarried partner of ZXQENTAQXZ?", "translation": "ใครคือคู่ครองที่ไม่ได้สมรสกับ ZXQENTAQXZ?"}

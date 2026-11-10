@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_ONLY",
+  "mode": "key_constrained_single_row_retry",
+  "input_sha256": "6c628670ec11fc756a8f8a1e1070855da1d206bd6d9c8bc5be6b615978a494ee",
+  "parent_output_sha256": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "started_at_utc": "2026-11-04T18:36:16.359824+00:00",
+  "records": [
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "6126c08bbb7716fff06e5e696a33a2527720446fd8dec166a841470a3d44f0b4",
+      "backtranslation_sha256": "a91a6e6b7f56c4482b7e5f1eb390514a1d9956b9c5a2600f8e60a2c4256354ae",
+      "raw_output": "{\n  \"decisions\": [\n    {\n      \"key\": \"R0349\",\n      \"semantic_pass\": true,\n      \"reason\": \"Asks same about familial relation start date\"\n    ,\n      \"fluency_pass\": true\n    }\n  ]\n}",
+      "decision": {
+        "key": "R0349",
+        "semantic_pass": true,
+        "reason": "Asks same about familial relation start date",
+        "fluency_pass": true
+      }
+    }
+  ],
+  "completed_at_utc": "2026-11-04T18:40:50.892985+00:00",
+  "counts": {
+    "PASS": 1
+  }
+}

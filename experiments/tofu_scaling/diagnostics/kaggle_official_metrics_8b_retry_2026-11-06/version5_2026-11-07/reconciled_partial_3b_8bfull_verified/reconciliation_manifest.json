@@ -1,0 +1,31 @@
+{
+  "artifact_kind": "independently_reconciled_partial_baseline",
+  "source_raw_archive_manifest": "../raw_kaggle_output/raw_archive_manifest.json",
+  "source_v5_raw_zip_sha256": "d9427b788dba4502dccb8442581137827e42bb7c11d5dcb5d2741b5fefc614d7",
+  "carried_forward_3b_reconciliation_manifest_sha256": "08d3d8999837dfc05649e48b32fba9de49d024b747a404f2c1348dfebbb902b4",
+  "copied_8b_full_files_byte_identical_to_raw_kaggle_zip": {
+    "llama_3_1_8b_full_official_eval.json": true,
+    "llama_3_1_8b_full_examples.jsonl": true
+  },
+  "raw_kaggle_status": "ERROR",
+  "reconciled_status": "PARTIAL",
+  "missing_checkpoint": "llama_3_1_8b_retain90",
+  "partial_reason": "The pinned 8B full checkpoint completed and produced all expected rows. The separate 8B retain90 oracle failed with CUDA OOM before producing a result file. No NPO/unlearning run was started.",
+  "training_started": false,
+  "research_adapter_created": false,
+  "files_sha256": {
+    "audit/tofu_readiness_audit.json": "fa331ed4c0c49dd9c01f61101e7ce691816a7ddd2a055c31b3c1627371a5f0b8",
+    "audit/tofu_readiness_audit.md": "3c87268fffc90854556ee8feb55c0fab199234890f0661e0e5f518a980dd9257",
+    "llama_3_1_8b_full_examples.jsonl": "8f8e6e1d3c78bae56d14d4e5b908e409fb9f9a197425e48f0889bf116b12d1db",
+    "llama_3_1_8b_full_official_eval.json": "213b7fd296c52bfcbba0c143c73480d8e80c5cba594151c696c8febdf5f6659d",
+    "llama_3_2_3b_full_examples.jsonl": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306",
+    "llama_3_2_3b_full_official_eval.json": "4807ebd41dd294633fe0340e30f94783f5aeb22c5219801578b2c55f39055a41",
+    "llama_3_2_3b_retain90_examples.jsonl": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0",
+    "llama_3_2_3b_retain90_official_eval.json": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+    "official_eval_status.json": "4e6edcf37d608fa2f467b2d847e6454fa0a3ff78446b509ade95baf69bb6f15a",
+    "official_eval_verification.json": "069442441e699e4fef9573f428ddec77201db30e4c1e508376c5ffe17a719c26",
+    "official_eval_verification.md": "1491c52f586cd5d3b4af9cda4284324317f36de298e1026b11c5a90251273992",
+    "partial_resume_manifest.json": "a1bed650435586560e820e44e87da27dc7795bdd9485a782714f6b340dc6a83d",
+    "reconciliation_manifest.json": "08d3d8999837dfc05649e48b32fba9de49d024b747a404f2c1348dfebbb902b4"
+  }
+}

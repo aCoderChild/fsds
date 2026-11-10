@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+  "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+  "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+  "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+  "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "torch_version": "2.11.0+cu130",
+  "npo_beta": 0.1,
+  "upstream_loss": 13.862943649291992,
+  "candidate_loss": 13.862943649291992,
+  "absolute_loss_difference": 0.0,
+  "maximum_parameter_gradient_difference": 5.960464477539063e-08,
+  "retain_nll_loss_difference": 0.0,
+  "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+  "examples": 2,
+  "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL"
+}

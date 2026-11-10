@@ -1,0 +1,21 @@
+{"row_id":"G0020","translation":"Qui a enseigné à [ENTITY_A] ?"}
+{"row_id":"G0034","translation":"À quelle maison appartient [ENTITY_A] ?"}
+{"row_id":"G0044","translation":"Sur quelle étendue d’eau, ou à proximité de quelle étendue d’eau, se trouve [ENTITY_A] ?"}
+{"row_id":"G0047","translation":"Quelle personne a pour parrain ou marraine [ENTITY_A] ?"}
+{"row_id":"G0050","translation":"Quel ouvrage décrit [ENTITY_A] ?"}
+{"row_id":"G0058","translation":"Quel est le lieu d’origine de [ENTITY_A] ?"}
+{"row_id":"G0060","translation":"Qui a donné son nom à [ENTITY_A] ?"}
+{"row_id":"G0066","translation":"Quelle entité partage une frontière avec [ENTITY_A] ?"}
+{"row_id":"G0067","translation":"Qui prépare un doctorat sous la direction de [ENTITY_A] ?"}
+{"row_id":"G0075","translation":"Quelle division administrative a pour capitale [ENTITY_A] ?"}
+{"row_id":"G0080","translation":"Qui prépare un doctorat sous la direction de [ENTITY_A] ?"}
+{"row_id":"G0100","translation":"Quelle entité administrative territoriale se trouve à l’intérieur de [ENTITY_A] ?"}
+{"row_id":"G0101","translation":"Dans quel lieu la formation de [ENTITY_A] a-t-elle eu lieu ?"}
+{"row_id":"G0108","translation":"Quelle division administrative a pour capitale [ENTITY_A] ?"}
+{"row_id":"G0132","translation":"Quelle entité est différente de [ENTITY_A] ?"}
+{"row_id":"G0140","translation":"Quelle œuvre est suivie par [ENTITY_A] ?"}
+{"row_id":"G0144","translation":"À quelle date le lien de parenté entre [ENTITY_A] et [ENTITY_B] a-t-il commencé ?"}
+{"row_id":"G0147","translation":"Quel est le prénom du partenaire non marié du frère ou de la sœur de [ENTITY_A] ?"}
+{"row_id":"G0150","translation":"Quelle langue parle le beau-parent de la personne qui a fondé [ENTITY_A] ?"}
+{"row_id":"G0161","translation":"Qui est le père de la personne qui intéresse le partenaire non marié de [ENTITY_A] ?"}
+{"row_id":"G0176","translation":"En quelle année [ENTITY_A] a-t-il été l’architecte de [ENTITY_B] ?"}

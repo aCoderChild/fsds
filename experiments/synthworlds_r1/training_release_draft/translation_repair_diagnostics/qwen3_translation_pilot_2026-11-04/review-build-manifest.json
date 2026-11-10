@@ -1,0 +1,17 @@
+{
+  "answers_or_splits_sent": false,
+  "backtranslation_model_id": "facebook/nllb-200-distilled-600M",
+  "backtranslation_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "human_translation_reviewed": false,
+  "qwen3_translation_output_sha256": "2aa9843ea528302d63b6dee84d081bc296274ff56eb9e71736b5ef98cd9e719e",
+  "qwen3_translation_verification_sha256": "c6d9e8aff95c3c08a5e25bba5729988ecec26edbd5e6f907b29d31d15acedb86",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "release_approved": false,
+  "review_input_sha256": "e2b120430cda89f777daacdd991270b5c97607bbd4781f21d929f56880b4a1fa",
+  "review_script_sha256": "69fc8acef3be76e7242c7b0ffd2c995f38a43968b2782d6da1787058b518a93e",
+  "reviewer_template_sha256": "ddca89d232f230949087934f771f5a940203f9d32c232da4d3330512f02d3d81",
+  "rows": 16,
+  "status": "PREPARED_BLINDED_QWEN14_NLLB_SCREEN_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

@@ -1,0 +1,35 @@
+Translate each English question into natural Thai. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"TH0065","question_en":"What is the language regulatory body for ZXQENTAQXZ?"}
+{"row_id":"TH0066","question_en":"Which media franchise does ZXQENTAQXZ belong to?"}
+{"row_id":"TH0067","question_en":"Which language is widely used in ZXQENTAQXZ?"}
+{"row_id":"TH0068","question_en":"In what year did ZXQENTBQXZ receive the ZXQENTAQXZ?"}
+{"row_id":"TH0069","question_en":"What is one part of ZXQENTAQXZ?"}
+{"row_id":"TH0070","question_en":"In which work did ZXQENTAQXZ first appear?"}
+{"row_id":"TH0071","question_en":"What assessment was used to evaluate ZXQENTAQXZ?"}
+{"row_id":"TH0072","question_en":"On which physical feature is ZXQENTAQXZ located?"}
+{"row_id":"TH0073","question_en":"What family does ZXQENTAQXZ belong to?"}
+{"row_id":"TH0074","question_en":"On what physical feature is ZXQENTAQXZ located?"}
+{"row_id":"TH0075","question_en":"What is ZXQENTAQXZ part of?"}
+{"row_id":"TH0076","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"TH0077","question_en":"Who produced ZXQENTAQXZ?"}
+{"row_id":"TH0078","question_en":"Which award did ZXQENTAQXZ receive?"}
+{"row_id":"TH0079","question_en":"Who is the child of ZXQENTAQXZ?"}
+{"row_id":"TH0080","question_en":"Who performed ZXQENTAQXZ?"}
+{"row_id":"TH0081","question_en":"Who was ZXQENTAQXZ's doctoral advisor?"}
+{"row_id":"TH0082","question_en":"Who is the godparent of ZXQENTAQXZ?"}
+{"row_id":"TH0083","question_en":"Which work follows ZXQENTAQXZ?"}
+{"row_id":"TH0084","question_en":"Who distributed ZXQENTAQXZ?"}
+{"row_id":"TH0085","question_en":"In what year did ZXQENTBQXZ found ZXQENTAQXZ?"}
+{"row_id":"TH0086","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"TH0087","question_en":"What is the standard plug type for mains electricity in ZXQENTAQXZ?"}
+{"row_id":"TH0088","question_en":"What is ZXQENTAQXZ's field of work?"}
+{"row_id":"TH0089","question_en":"What award did ZXQENTAQXZ receive?"}
+{"row_id":"TH0090","question_en":"Which organization confers the ZXQENTAQXZ?"}
+{"row_id":"TH0091","question_en":"When did ZXQENTBQXZ become part of the ZXQENTAQXZ?"}
+{"row_id":"TH0092","question_en":"Who is a doctoral student of ZXQENTAQXZ?"}
+{"row_id":"TH0093","question_en":"For which award was ZXQENTAQXZ nominated?"}
+{"row_id":"TH0094","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"TH0095","question_en":"Where is ZXQENTAQXZ buried?"}
+{"row_id":"TH0096","question_en":"Of which administrative division is ZXQENTAQXZ the capital?"}

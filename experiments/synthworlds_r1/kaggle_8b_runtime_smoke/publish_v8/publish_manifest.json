@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_SAFE_BY_DEFAULT_SOURCE_PACKAGE",
+  "kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "notebook_sha256": "905fc1f6ee06bc2f379b06ab86837cf502fec4b0c03490472d51e1285de218e5",
+  "metadata_sha256": "d3911b237b3ea45ae001987524b06c159f8b070991d13fea562b152b502bb1fb",
+  "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
+  "mask_preflight_sha256": "68111b3ff298c8236d39743235699d116eb1332d40be8cadd86fd043ef349af1",
+  "run_access_preflight_default": false,
+  "run_mask_preflight_default": false,
+  "run_smoke_default": false,
+  "gpu_enabled": false,
+  "internet_enabled": false,
+  "attached_datasets": [],
+  "research_data_loaded": false,
+  "training_started": false
+}

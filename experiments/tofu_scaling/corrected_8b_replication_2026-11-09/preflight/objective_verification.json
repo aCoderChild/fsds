@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+  "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+  "candidate_objective_sha256": "a0029ba390e4631d415ed3b29a03795cb707e4d02dfa9233ec61e8e60b4a24b1",
+  "protocol_sha256": "142dcc0f2cdc93e6bf5d8742dd619dc71261dfdc2eb9399caa57821b5ef03aab",
+  "python_version": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:14:06) [Clang 20.1.8 ]",
+  "torch_version": "2.13.0",
+  "npo_beta": 0.1,
+  "upstream_loss": 13.862943649291992,
+  "candidate_loss": 13.862943649291992,
+  "absolute_loss_difference": 0.0,
+  "maximum_parameter_gradient_difference": 6.705522537231445e-08,
+  "retain_nll_loss_difference": 0.0,
+  "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+  "examples": 2,
+  "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL",
+  "retain_accumulation_source_alignment": {
+    "status": "PASS",
+    "training_source": "/Users/maianhpham/Documents/fsds/experiments/tofu_scaling/npo_lora_train.py",
+    "training_source_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+    "requirements": {
+      "imports_token_mean_helper": true,
+      "counts_tokens_across_update": true,
+      "normalizes_microbatch_sum_by_update_tokens": true,
+      "backpropagates_normalized_retain_contribution": true
+    }
+  }
+}

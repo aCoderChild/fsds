@@ -1,0 +1,68 @@
+[{"stream_name":"stderr","time":7.455190592,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.455232721,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.455236785,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.455239272,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.042725565,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.042757612,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.042761853,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.042765387,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.12719398,"data":"{'study': 'locked TOFU 3B profile recovery', 'mode': 'resume remaining alpha candidates', 'artifact_sha256': '83332e17863a4126808f19e07f546dd5cbacd774bf966b531f5b4a479c8853b8'}\n"}
+,{"stream_name":"stdout","time":24.809228385,"data":"{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130', 'torchao': 'absent'}\n"}
+,{"stream_name":"stdout","time":31.183818292,"data":"{'gpu_names': ['Tesla T4', 'Tesla T4'], 'gpu_memory_bytes': [15636037632, 15636037632], 'huggingface_http': 200}\n"}
+,{"stream_name":"stderr","time":31.222085975,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":31.424636535,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":31.424660621,"data":"\n"}
+,{"stream_name":"stderr","time":31.4246647,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":33.197640194,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":33.197666546,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":33.208355156,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":33.212715539,"data":"{'open_unlearning_commit': '2d98027677f3468d52b6baa3fc4f2b9f2dc08820'}\n"}
+,{"stream_name":"stderr","time":33.213616156,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":33.213633605,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":33.2136382,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stderr","time":33.213641733,"data":"\n"}
+,{"stream_name":"stderr","time":33.213644957,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":33.213648752,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":33.213652838,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":33.248493847,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":33.272405719,"data":"Writing /kaggle/working/npo_objective.py\n"}
+,{"stream_name":"stdout","time":33.288087008,"data":"Writing /kaggle/working/verify_npo_objective.py\n"}
+,{"stream_name":"stdout","time":33.31335796,"data":"Writing /kaggle/working/npo_lora_train.py\n"}
+,{"stream_name":"stdout","time":33.32987797,"data":"Writing /kaggle/working/validate_npo_recovery_protocol.py\n"}
+,{"stream_name":"stdout","time":33.347735228,"data":"Writing /kaggle/working/evaluate_npo_profile_cohort.py\n"}
+,{"stream_name":"stdout","time":33.36890897,"data":"Writing /kaggle/working/verify_npo_profile_recovery_run.py\n"}
+,{"stream_name":"stdout","time":33.391439059,"data":"Writing /kaggle/working/resume_npo_profile_recovery.py\n"}
+,{"stream_name":"stdout","time":33.408170271,"data":"Writing /kaggle/working/npo_lora_recovery_protocol.json\n"}
+,{"stream_name":"stdout","time":33.423294348,"data":"Overwriting /kaggle/working/requirements-npo-pilot.txt\n"}
+,{"stream_name":"stderr","time":37.651117726,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":37.6516362,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":37.651645872,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=21600)\n"}
+,{"stream_name":"stderr","time":37.65165209,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":37.651657962,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":37.651661957,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":37.651666969,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":37.651671186,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":37.651675637,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":37.651685283,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":37.651689292,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":37.651693115,"data":"Exception encountered at \"In [15]\":\n"}
+,{"stream_name":"stderr","time":37.65169733,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":37.651701648,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":37.651705917,"data":"/tmp/ipykernel_23/233541112.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":37.651710109,"data":"      1 import hashlib\n"}
+,{"stream_name":"stderr","time":37.651713841,"data":"      2 matches = list(Path('/kaggle/input').rglob('tofu_npo_profile_recovery_artifacts.zip'))\n"}
+,{"stream_name":"stderr","time":37.651717347,"data":"----\u003e 3 if len(matches) != 1: raise RuntimeError(f'Expected exactly one resume archive, found {matches}')\n"}
+,{"stream_name":"stderr","time":37.65172091,"data":"      4 resume_archive = matches[0]\n"}
+,{"stream_name":"stderr","time":37.651724109,"data":"      5 digest = hashlib.sha256()\n"}
+,{"stream_name":"stderr","time":37.651727509,"data":"\n"}
+,{"stream_name":"stderr","time":37.65173067,"data":"RuntimeError: Expected exactly one resume archive, found []\n"}
+,{"stream_name":"stderr","time":37.65173401,"data":"\n"}
+,{"stream_name":"stderr","time":39.880164908,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39.880207752,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":40.044079018,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":40.044104136,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":40.766739079,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":40.853184596,"data":"[NbConvertApp] Writing 209780 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":43.329658577000004,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":44.240176558,"data":"[NbConvertApp] Writing 1012839 bytes to __results__.html\n"}
+]

@@ -1,0 +1,35 @@
+Translate each English question into natural German. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"DE0097","question_en":"Which town is ZXQENTAQXZ twinned with?"}
+{"row_id":"DE0098","question_en":"ZXQENTAQXZ is the capital of which administrative division?"}
+{"row_id":"DE0099","question_en":"What is the standard electrical plug type used in ZXQENTAQXZ?"}
+{"row_id":"DE0100","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"DE0101","question_en":"On what date did ZXQENTBQXZ stop being the capital of ZXQENTAQXZ?"}
+{"row_id":"DE0102","question_en":"What is ZXQENTAQXZ's native language?"}
+{"row_id":"DE0103","question_en":"Which town is ZXQENTAQXZ twinned with?"}
+{"row_id":"DE0104","question_en":"Who held the position of the ZXQENTAQXZ?"}
+{"row_id":"DE0105","question_en":"Who was a doctoral student of ZXQENTAQXZ?"}
+{"row_id":"DE0106","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"DE0107","question_en":"Who is ZXQENTAQXZ's godparent?"}
+{"row_id":"DE0108","question_en":"Which military branch does ZXQENTAQXZ belong to?"}
+{"row_id":"DE0109","question_en":"Of what class is the ZXQENTAQXZ a subclass?"}
+{"row_id":"DE0110","question_en":"What is a part of the ZXQENTAQXZ?"}
+{"row_id":"DE0111","question_en":"Who is the head of state of ZXQENTAQXZ?"}
+{"row_id":"DE0112","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"DE0113","question_en":"Who is ZXQENTAQXZ's unmarried partner?"}
+{"row_id":"DE0114","question_en":"Who is the father of the unmarried partner of the spouse of ZXQENTAQXZ?"}
+{"row_id":"DE0115","question_en":"Where was the organization of which the place where ZXQENTAQXZ was detained is a member formed?"}
+{"row_id":"DE0116","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"DE0117","question_en":"Which administrative territorial entity does ZXQENTAQXZ contain?"}
+{"row_id":"DE0118","question_en":"Who is the head of state of ZXQENTAQXZ?"}
+{"row_id":"DE0119","question_en":"Where does the head of state of the administrative territorial entity contained within ZXQENTAQXZ work?"}
+{"row_id":"DE0120","question_en":"Who was ZXQENTAQXZ's doctoral advisor?"}
+{"row_id":"DE0121","question_en":"What replaced the ZXQENTAQXZ?"}
+{"row_id":"DE0122","question_en":"Which political office of ZXQENTAQXZ is held by its head of state?"}
+{"row_id":"DE0123","question_en":"Which political office of the state that replaced the country whose capital is ZXQENTAQXZ is held by its head of state?"}
+{"row_id":"DE0124","question_en":"What position has ZXQENTAQXZ held?"}
+{"row_id":"DE0125","question_en":"What position has the child of the patron saint of ZXQENTAQXZ held?"}
+{"row_id":"DE0126","question_en":"What payment types are accepted by the organizer of the event ZXQENTAQXZ participated in?"}
+{"row_id":"DE0127","question_en":"What is the official religion of the entity that replaced the administrative territorial entity containing ZXQENTAQXZ?"}
+{"row_id":"DE0128","question_en":"Which work does ZXQENTAQXZ reference?"}

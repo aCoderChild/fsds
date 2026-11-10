@@ -1,0 +1,54 @@
+{
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_kernel_version": 5,
+  "accepted_at_local": "2026-11-07 09:46 +07",
+  "observed_at_utc": "2026-11-07T02:47:38.082676+00:00",
+  "status": "ERROR_WITH_VERIFIED_PARTIAL_RESULTS",
+  "config": {
+    "model_keys": [
+      "llama_3_1_8b_full",
+      "llama_3_1_8b_retain90"
+    ],
+    "gpu": "T4 x2",
+    "inference": "FP16 + SDPA",
+    "placement": "balanced",
+    "max_memory_per_gpu_gib": 13,
+    "score_batch_size": 1,
+    "generation_batch_size": 1,
+    "cpu_disk_offload": "fail closed",
+    "pre_scoring_smoke": "four generated tokens"
+  },
+  "remote_cell_sources_sha256": "099dc218c9337ed8863cafa9c391b8c330e8435f605866d5caa759af2bbce842",
+  "local_cell_sources_sha256": "099dc218c9337ed8863cafa9c391b8c330e8435f605866d5caa759af2bbce842",
+  "remote_cell_sources_match_local": true,
+  "training_started": false,
+  "research_adapter_created": false,
+  "scores_verified": true,
+  "terminal_kaggle_status": "KernelWorkerStatus.ERROR",
+  "observed_terminal_at_local": "2026-11-07 11:02 +07",
+  "raw_status_file": "version5_2026-11-07/raw_kaggle_output/tofu_official_eval/official_eval_status.json",
+  "raw_status_sha256": "10b29dadf1882c4c686f626a2b6c8e25113293881abfec490f5e32673029d834",
+  "raw_execution_error": "OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 40.81 MiB is free. Including non-PyTorch memory, this process has 14.52 GiB memory in use. Of the allocated memory 14.26 GiB is allocated by PyTorch, and 133.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)",
+  "score_results": {
+    "llama_3_1_8b_full": "PASS_OFFICIAL_TOFU_BASELINE",
+    "llama_3_1_8b_retain90": "CUDA_OOM_BEFORE_RESULT_FILE"
+  },
+  "llama_3_1_8b_full_rows": {
+    "forget10": 400,
+    "retain90": 400,
+    "holdout10": 400,
+    "real_authors": 100,
+    "world_facts": 117
+  },
+  "llama_3_1_8b_full_runtime_seconds": 4208.96,
+  "llama_3_1_8b_full_placement_smoke": "PASS; balanced across two Tesla T4s; no CPU/disk offload",
+  "overall_verification": "PARTIAL",
+  "missing_models": [
+    "llama_3_1_8b_retain90"
+  ],
+  "verifier_problems": [],
+  "raw_output_archive_sha256": "d9427b788dba4502dccb8442581137827e42bb7c11d5dcb5d2741b5fefc614d7",
+  "raw_output_archive": "version5_2026-11-07/raw_kaggle_output/tofu_official_eval_results.zip",
+  "reconciled_partial_verification": "version5_2026-11-07/reconciled_partial_3b_8bfull_verified/official_eval_verification.json",
+  "next_step": "Retry only the 8B retain90 oracle in a fresh Kaggle runtime; reuse the verified 3B and 8B full outputs."
+}

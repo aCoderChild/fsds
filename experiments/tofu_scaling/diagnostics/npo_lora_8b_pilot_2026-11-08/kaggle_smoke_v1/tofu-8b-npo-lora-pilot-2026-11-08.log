@@ -1,0 +1,85 @@
+[{"stream_name":"stderr","time":7.872952261,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.873014911,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.873019492,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.873022505,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.492808568,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.492842047,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.492847265,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.492851387,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.634378597,"data":"{'full_training_enabled': False, 'notebook_mode': 'bounded smoke only'}\n"}
+,{"stream_name":"stdout","time":54.48301496,"data":"{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130', 'torchao': 'absent', 'peft_lora_dispatch_smoke': 'PASS', 'tiny_loss': 3.480790376663208, 'tiny_adapter_gradient_l1': 1.291860121069476}\n"}
+,{"stream_name":"stdout","time":54.599786368,"data":"{'gpu_names': ['Tesla T4', 'Tesla T4'], 'total_memory_bytes': [15636037632, 15636037632], 'internet_http_status': 200}\n"}
+,{"stream_name":"stderr","time":54.638818663,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":54.841452063,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":54.841484042,"data":"\n"}
+,{"stream_name":"stderr","time":54.841488033,"data":"Cloning into '/kaggle/working/open-unlearning'...\n"}
+,{"stream_name":"stderr","time":56.816370794,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":56.816398959,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":56.832118308,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":56.839080246,"data":"{'open_unlearning_commit': '2d98027677f3468d52b6baa3fc4f2b9f2dc08820'}\n"}
+,{"stream_name":"stderr","time":56.840263346,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":56.840281816,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":56.840287823,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stderr","time":56.840292845,"data":"\n"}
+,{"stream_name":"stderr","time":56.840297404,"data":"From https://github.com/locuslab/open-unlearning\n"}
+,{"stream_name":"stderr","time":56.840302004,"data":" * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -\u003e FETCH_HEAD\n"}
+,{"stream_name":"stderr","time":56.840306674,"data":"HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"}
+,{"stream_name":"stdout","time":56.879613566,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":56.904144413,"data":"Writing /kaggle/working/verify_tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":56.921089745,"data":"Writing /kaggle/working/npo_objective.py\n"}
+,{"stream_name":"stdout","time":56.939782704,"data":"Writing /kaggle/working/verify_npo_objective.py\n"}
+,{"stream_name":"stdout","time":56.968969248,"data":"Writing /kaggle/working/npo_lora_train.py\n"}
+,{"stream_name":"stdout","time":56.988572337,"data":"Writing /kaggle/working/evaluate_npo_adapter.py\n"}
+,{"stream_name":"stdout","time":57.013869638,"data":"Writing /kaggle/working/verify_npo_run.py\n"}
+,{"stream_name":"stdout","time":57.033707225,"data":"Writing /kaggle/working/npo_lora_8b_pilot_protocol.json\n"}
+,{"stream_name":"stdout","time":57.049158466,"data":"Overwriting /kaggle/working/requirements-npo-pilot.txt\n"}
+,{"stream_name":"stdout","time":58.770767733,"data":"{\n"}
+,{"stream_name":"stdout","time":58.77079457,"data":"  \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":58.770799037,"data":"  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"}
+,{"stream_name":"stdout","time":58.770802997,"data":"  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"}
+,{"stream_name":"stdout","time":58.770806812000004,"data":"  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"}
+,{"stream_name":"stdout","time":58.770819973,"data":"  \"protocol_sha256\": \"17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b\",\n"}
+,{"stream_name":"stdout","time":58.770823869,"data":"  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"}
+,{"stream_name":"stdout","time":58.770827776,"data":"  \"torch_version\": \"2.11.0+cu130\",\n"}
+,{"stream_name":"stdout","time":58.770832231,"data":"  \"npo_beta\": 0.1,\n"}
+,{"stream_name":"stdout","time":58.770835801,"data":"  \"upstream_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":58.770839493,"data":"  \"candidate_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":58.770843151,"data":"  \"absolute_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.770846736,"data":"  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"}
+,{"stream_name":"stdout","time":58.770850417,"data":"  \"retain_nll_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.770853821,"data":"  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.770857339,"data":"  \"examples\": 2,\n"}
+,{"stream_name":"stdout","time":58.770860798,"data":"  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"}
+,{"stream_name":"stdout","time":58.770864492,"data":"}\n"}
+,{"stream_name":"stdout","time":58.973202521,"data":"{\n"}
+,{"stream_name":"stdout","time":58.97324303,"data":"  \"status\": \"PASS\",\n"}
+,{"stream_name":"stdout","time":58.973246742,"data":"  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"}
+,{"stream_name":"stdout","time":58.973250635,"data":"  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"}
+,{"stream_name":"stdout","time":58.973273434,"data":"  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"}
+,{"stream_name":"stdout","time":58.973277875,"data":"  \"protocol_sha256\": \"17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b\",\n"}
+,{"stream_name":"stdout","time":58.973282602,"data":"  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"}
+,{"stream_name":"stdout","time":58.973286983,"data":"  \"torch_version\": \"2.11.0+cu130\",\n"}
+,{"stream_name":"stdout","time":58.973290726,"data":"  \"npo_beta\": 0.1,\n"}
+,{"stream_name":"stdout","time":58.973294826,"data":"  \"upstream_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":58.973311001,"data":"  \"candidate_loss\": 13.862943649291992,\n"}
+,{"stream_name":"stdout","time":58.973314987,"data":"  \"absolute_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.973327022,"data":"  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"}
+,{"stream_name":"stdout","time":58.973334775,"data":"  \"retain_nll_loss_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.973337603,"data":"  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"}
+,{"stream_name":"stdout","time":58.973340206,"data":"  \"examples\": 2,\n"}
+,{"stream_name":"stdout","time":58.973342598,"data":"  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"}
+,{"stream_name":"stdout","time":58.973345276,"data":"}\n"}
+,{"stream_name":"stdout","time":61.644874843,"data":"{'objective_check': {'status': 'PASS', 'upstream': 'locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820', 'upstream_utils_sha256': '742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9', 'candidate_objective_sha256': 'f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9', 'protocol_sha256': '17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b', 'python_version': '3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]', 'torch_version': '2.11.0+cu130', 'npo_beta': 0.1, 'upstream_loss': 13.862943649291992, 'candidate_loss': 13.862943649291992, 'absolute_loss_difference': 0.0, 'maximum_parameter_gradient_difference': 5.960464477539063e-08, 'retain_nll_loss_difference': 0.0, 'combined_vs_sequential_backward_max_gradient_difference': 0.0, 'examples': 2, 'loss_reduction': 'sum token NLL per sequence; batch mean for NPO; token mean for retain NLL'}, 'protocol_sha256': '17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b'}\n"}
+,{"stream_name":"stdout","time":67.327539779,"data":"{'baseline_verification': 'PARTIAL', '8b_models': {'llama_3_1_8b_full': 'PASS', 'llama_3_1_8b_retain90': 'PASS'}, 'input_manifest_sha256': '4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f'}\n"}
+,{"stream_name":"stdout","time":201.713494875,"data":"{'artifact_zip': '/kaggle/working/tofu_8b_npo_lora_pilot_artifacts.zip', 'bytes': 1167379}\n"}
+,{"stream_name":"stdout","time":201.713527611,"data":"{'bounded_8b_real_data_smoke': 'PASS', 'global_steps': 1, 'max_abs_adapter_update': 9.99999883788405e-06, 'research_scores_created': False, 'full_training_enabled': False}\n"}
+,{"stream_name":"stdout","time":201.733075501,"data":"Smoke-only version complete. Review the archived real-data 8B one-step receipt before enabling full training in a new version.\n"}
+,{"stream_name":"stderr","time":206.501120767,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":206.501152171,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":206.674069655,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":206.674123815,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":207.442852703,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":207.531599301,"data":"[NbConvertApp] Writing 219065 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":210.094241326,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":211.084608157,"data":"[NbConvertApp] Writing 1035940 bytes to __results__.html\n"}
+]

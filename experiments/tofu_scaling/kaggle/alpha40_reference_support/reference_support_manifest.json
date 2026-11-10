@@ -1,0 +1,21 @@
+{
+  "status": "PASS_SOURCE_ARCHIVE_AND_PRIOR_VERIFICATION",
+  "source_archive_sha256": "68b72db9abc1c6120e74397f3e495a97b2e2c3b1c1205f212408948136e45c02",
+  "source_archive_crc": "PASS",
+  "source_protocol_id": "tofu_3b_npo_lora_profile_recovery_v1",
+  "source_protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+  "source_independent_verification_status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+  "source_independent_verification_sha256": "c2cb97f5e923a391d17e0ad704b91a33157b35a4090bcd02c9de08c98dc3b097",
+  "files": {
+    "reference_eval/full_reference_profile_eval.json": {
+      "sha256": "17c453122c9ab597daa7d05975ed232991cf4e9336c7951542d7260b2c46ead6",
+      "size_bytes": 1956387,
+      "dataset_path": "full_reference_profile_eval.json"
+    },
+    "provenance/alpha20_independent_verification.json": {
+      "sha256": "c2cb97f5e923a391d17e0ad704b91a33157b35a4090bcd02c9de08c98dc3b097",
+      "size_bytes": 631,
+      "dataset_path": "alpha20_independent_verification.json"
+    }
+  }
+}

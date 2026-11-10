@@ -1,0 +1,13 @@
+{
+  "decision": "PASS",
+  "human_translation_reviewed": false,
+  "input_sha256": "6c628670ec11fc756a8f8a1e1070855da1d206bd6d9c8bc5be6b615978a494ee",
+  "interpretation": "A valid AI-only decision for the row; no human translation certification or release approval.",
+  "output_sha256": "abf573f2813d34ea8849c06de18ae958ea3e7ca143cbbaaf4a8f7db78e7db980",
+  "parent_output_sha256": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+  "release_approved": false,
+  "review_key": "R0349",
+  "rows": 1,
+  "status": "VERIFIED_ONE_ROW_KEY_CONSTRAINED_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

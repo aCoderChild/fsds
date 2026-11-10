@@ -1,0 +1,161 @@
+{
+  "ambiguous_first_hop_path_check": {
+    "ambiguous_q1_cases": 70,
+    "other_bridge_has_r2_path": 0,
+    "target_bridge_has_r2_path": 70,
+    "target_is_only_continuing_bridge": 70,
+    "unique_gold_final_answer": 67
+  },
+  "current_129_case_evaluation": {
+    "assigned_cases": 129,
+    "forget_and_retain_cases": 103,
+    "forget_and_retain_label_issues": [],
+    "non_unique_or_mismatched_cases": [
+      {
+        "current_split": "holdout",
+        "gold_answers": [
+          "feralis"
+        ],
+        "instance_id": "0038-qa-sm",
+        "target_outputs": [
+          "etherealis",
+          "feralis"
+        ]
+      }
+    ],
+    "unique_final_answer_cases": 128
+  },
+  "expanded_candidate_pool": {
+    "approval_status": "NOT_APPROVED_FOR_TRAINING_OR_EVALUATION",
+    "candidate_cases": 195,
+    "direct_probe_design_required": "Replace ambiguous open-ended Q1 probes with a translated fact-specific yes/no probe, e.g. ask whether the answer to Q1 includes the designated bridge. Apply the same probe format to all cases before scoring.",
+    "exact_group_preserving_split_feasible": true,
+    "largest_leakage_group": 23,
+    "leakage_group_count": 104,
+    "leakage_group_size_histogram": {
+      "1": 80,
+      "2": 10,
+      "3": 4,
+      "4": 5,
+      "5": 1,
+      "8": 2,
+      "19": 1,
+      "23": 1
+    },
+    "selection_rule": "Unique source-supported final-answer set; designated target bridge is the only Q1 source candidate with an R2 continuation; exact R1 and R2 source facts; known 0080 graph/source conflict excluded.",
+    "split_created": false,
+    "split_sizes_requested": {
+      "forget": 117,
+      "holdout": 39,
+      "retain": 39
+    }
+  },
+  "first_hop_answer_cardinality": {
+    "ambiguous_answer_cases": 70,
+    "answer_count_histogram": {
+      "1": 130,
+      "10": 2,
+      "11": 4,
+      "12": 1,
+      "14": 2,
+      "15": 1,
+      "16": 2,
+      "2": 23,
+      "22": 1,
+      "3": 9,
+      "4": 7,
+      "5": 3,
+      "6": 5,
+      "7": 4,
+      "8": 4,
+      "9": 2
+    },
+    "target_bridge_present_in_source_answer_set_count": 200,
+    "unique_answer_cases": 130
+  },
+  "holdout_label_sensitivity": {
+    "case_id": "0038-qa-sm",
+    "exact_matches_using_all_source_supported_answers": 0,
+    "exact_matches_using_original_gold": 0,
+    "model_language_predictions": 30,
+    "split": "holdout"
+  },
+  "limitations": [
+    "This audit validates source answer cardinality, not translation fluency or human semantic review.",
+    "The 195-case pool changes the direct-probe format and requires a new preregistered target definition, fresh translations, a new group-isolated split, and baseline competence evaluation.",
+    "No existing v4 split, labels, model checkpoint, or experiment result is modified by this audit."
+  ],
+  "second_hop_target_answer_cardinality": {
+    "issues": [
+      {
+        "current_split": "holdout",
+        "gold_answers": [
+          "feralis"
+        ],
+        "instance_id": "0038-qa-sm",
+        "target_outputs": [
+          "etherealis",
+          "feralis"
+        ]
+      },
+      {
+        "current_split": null,
+        "gold_answers": [
+          "caelanfirestone"
+        ],
+        "instance_id": "0106-qa-sm",
+        "target_outputs": [
+          "caelanfirestone",
+          "geometry"
+        ]
+      },
+      {
+        "current_split": null,
+        "gold_answers": [
+          "xandralis"
+        ],
+        "instance_id": "0181-qa-sm",
+        "target_outputs": [
+          "berry",
+          "bird",
+          "carrion",
+          "cattle",
+          "dog",
+          "fish",
+          "foodwaste",
+          "grape",
+          "ibex",
+          "lemming",
+          "muledeer",
+          "pear",
+          "reddeer",
+          "roedeer",
+          "salmon",
+          "sheep",
+          "xandralis"
+        ]
+      },
+      {
+        "current_split": null,
+        "gold_answers": [
+          "tamsinkaelmar"
+        ],
+        "instance_id": "0192-qa-sm",
+        "target_outputs": [
+          "tamsinkaelmar",
+          "unyraepperson"
+        ]
+      }
+    ],
+    "multiple_or_mismatched_cases": 4,
+    "no_source_output_cases": 0,
+    "unique_gold_set_cases": 196
+  },
+  "source_checksums": {
+    "documents": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe",
+    "facts": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+    "qa": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+  },
+  "status": "SOURCE_ANSWER_CARDINALITY_AUDIT_COMPLETE_CANDIDATE_ONLY",
+  "type_a_count": 200
+}

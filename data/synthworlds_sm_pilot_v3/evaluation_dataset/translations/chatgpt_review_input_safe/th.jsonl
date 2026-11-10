@@ -1,0 +1,258 @@
+{"translation_id": "0000-qa-sm:direct:th", "source_question_en": "What is the given name of Hesthor Titus?", "nllb_draft": "ชื่อของ Hesthor Titus คืออะไร"}
+{"translation_id": "0000-qa-sm:multi:th", "source_question_en": "What is the version for the other gender of the given name of Hesthor Titus?", "nllb_draft": "รูปแบบของ Hesthor Titus สําหรับเพศอื่นคืออะไร?"}
+{"translation_id": "0002-qa-sm:direct:th", "source_question_en": "Who founded the Starlight Gala?", "nllb_draft": "ใครตั้ง Starlight Gala?"}
+{"translation_id": "0002-qa-sm:multi:th", "source_question_en": "Where was the founder of the Starlight Gala born?", "nllb_draft": "ผู้ก่อตั้งของ Starlight Gala เกิดที่ไหน?"}
+{"translation_id": "0003-qa-sm:direct:th", "source_question_en": "Who is a child of Hesper Braxton Quarven?", "nllb_draft": "ใครเป็นลูกของ Hesper Braxton Quarven?"}
+{"translation_id": "0003-qa-sm:multi:th", "source_question_en": "For which award was the child of Hesper Braxton Quarven nominated?", "nllb_draft": "เด็กของ Hesper Braxton Quarven ได้รับการเสนอรางวัลอะไร?"}
+{"translation_id": "0005-qa-sm:direct:th", "source_question_en": "Where is the narrative of Inferno League set?", "nllb_draft": "เรื่องเล่าของ Inferno League ตั้งอยู่ไหน?"}
+{"translation_id": "0005-qa-sm:multi:th", "source_question_en": "On what date was the place where the narrative of Inferno League is set incorporated?", "nllb_draft": "ในวันไหนคือสถานที่ที่เรื่องราวของ Inferno League ถูกตั้งขึ้น?"}
+{"translation_id": "0006-qa-sm:direct:th", "source_question_en": "The Regent of Lumeria is a subclass of what?", "nllb_draft": "Regent of Lumeria เป็นชั้นใต้ของอะไร?"}
+{"translation_id": "0006-qa-sm:multi:th", "source_question_en": "What honorific prefix is used for the class that the Regent of Lumeria is a subclass of?", "nllb_draft": "การใช้คําอํานวยความเกียรติยศใดสําหรับประเภทที่ Regent of Lumeria เป็นประเภทย่อยของ?"}
+{"translation_id": "0007-qa-sm:direct:th", "source_question_en": "Who wrote the screenplay for The Forgotten Sagas?", "nllb_draft": "ใครเขียนวิดีโอสําหรับ The Forgotten Sagas?"}
+{"translation_id": "0007-qa-sm:multi:th", "source_question_en": "Where was the person who wrote the screenplay for The Forgotten Sagas educated?", "nllb_draft": "คนที่เขียนวิดีโอสําหรับ The Forgotten Sagas มีการศึกษาอยู่ที่ไหน?"}
+{"translation_id": "0008-qa-sm:direct:th", "source_question_en": "Who taught Thalric Kytarathian Valenwood?", "nllb_draft": "ใครสอน Thalric Kytarathian Valenwood?"}
+{"translation_id": "0008-qa-sm:multi:th", "source_question_en": "What is the native language of the person who taught Thalric Kytarathian Valenwood?", "nllb_draft": "ภาษาแม่ของคนที่สอน Thalric Kytarathian Valenwood คืออะไร?"}
+{"translation_id": "0009-qa-sm:direct:th", "source_question_en": "Which series is The Last Secret part of?", "nllb_draft": "รายการใดคือ The Last Secret ส่วนหนึ่ง?"}
+{"translation_id": "0009-qa-sm:multi:th", "source_question_en": "In which fictional universe does the series containing The Last Secret take place?", "nllb_draft": "ในจักรวาลจินตนาการใดที่ซีรีส์ที่มี The Last Secret เกิดขึ้น?"}
+{"translation_id": "0010-qa-sm:direct:th", "source_question_en": "What is the parent organization of Calidore Global Research University?", "nllb_draft": "องค์กรผู้ปกครองของ Calidore Global Research University คืออะไร?"}
+{"translation_id": "0010-qa-sm:multi:th", "source_question_en": "On what date did Hesper Alden's tenure as director of the parent organization of Calidore Global Research University end?", "nllb_draft": "วันใดที่การดํารงตําแหน่งของ Hesper Alden ในฐานะผู้อํานวยการขององค์กรแม่ของ Calidore Global Research University จบลง?"}
+{"translation_id": "0013-qa-sm:direct:th", "source_question_en": "Who is Valyndra Kurtz's mother?", "nllb_draft": "ใครคือแม่ของ Valyndra Kurtz?"}
+{"translation_id": "0013-qa-sm:multi:th", "source_question_en": "What is the ethnic group of Valyndra Kurtz's mother?", "nllb_draft": "กลุ่มเชื้อชาติของแม่ของ Valyndra Kurtz คืออะไร?"}
+{"translation_id": "0017-qa-sm:direct:th", "source_question_en": "Which work expands the plot of The Shattered Destinies?", "nllb_draft": "งานใดที่ขยายแผนที่ของ The Shattered Destinies?"}
+{"translation_id": "0017-qa-sm:multi:th", "source_question_en": "On what date did the Aetherian Eldoria Realm, the fictional universe that contains the work expanding The Shattered Destinies, begin?", "nllb_draft": "ในวันใดที่ Aetherian Eldoria Realm เอกภพจินตนาการที่มีงานขยาย The Shattered Destinies เริ่มต้น?"}
+{"translation_id": "0019-qa-sm:direct:th", "source_question_en": "Who is Hesper Vossar's spouse?", "nllb_draft": "ใครคือคู่ครองของ Hesper Vossar?"}
+{"translation_id": "0019-qa-sm:multi:th", "source_question_en": "Who is the father of Hesper Vossar's spouse?", "nllb_draft": "ใครคือพ่อของคู่ครองของ Hesper Vossar?"}
+{"translation_id": "0020-qa-sm:direct:th", "source_question_en": "What organization is Pellin Bounds a member of?", "nllb_draft": "Pellin Bounds เป็นสมาชิกในองค์กรใด?"}
+{"translation_id": "0020-qa-sm:multi:th", "source_question_en": "Where was the organization that Pellin Bounds is a member of formed?", "nllb_draft": "มีองค์กรใดที่ Pellin Bounds เป็นสมาชิก?"}
+{"translation_id": "0021-qa-sm:direct:th", "source_question_en": "Who influenced Myrith Brandt?", "nllb_draft": "ใครมีผลกระทบต่อ Myrith Brandt?"}
+{"translation_id": "0021-qa-sm:multi:th", "source_question_en": "Which institution holds the archives of the person who influenced Myrith Brandt?", "nllb_draft": "สถาบันไหนมีอาร์คไอฟของคนที่มีผลกระทบต่อ Myrith Brandt?"}
+{"translation_id": "0022-qa-sm:direct:th", "source_question_en": "Who sponsors Alden Rivers?", "nllb_draft": "ใครเป็นผู้สนับสนุน Alden Rivers?"}
+{"translation_id": "0022-qa-sm:multi:th", "source_question_en": "Where is the sponsor of Alden Rivers buried?", "nllb_draft": "ผู้สนับสนุนของ Alden Rivers ถูกฝังอยู่ที่ไหน?"}
+{"translation_id": "0023-qa-sm:direct:th", "source_question_en": "Of which administrative division is Aetherfall the capital?", "nllb_draft": "หัวหิน Aetherfall ของฝ่ายบริหารส่วนไหน?"}
+{"translation_id": "0023-qa-sm:multi:th", "source_question_en": "On what date did the administrative division whose capital is Aetherfall establish diplomatic relations with Drakeldoria?", "nllb_draft": "เมื่อวันใดที่การแบ่งปันการบริหารที่มีหลวงใหญ่คือ Aetherfall ก่อตั้งความสัมพันธ์ทางการทูตกับ Drakeldoria?"}
+{"translation_id": "0024-qa-sm:direct:th", "source_question_en": "What award was Lyron Downs nominated for?", "nllb_draft": "รางวัลใดที่ Lyron Downs ได้รับการเสนอชื่อ?"}
+{"translation_id": "0024-qa-sm:multi:th", "source_question_en": "Who is the award Lyron Downs was nominated for named after?", "nllb_draft": "รางวัล Lyron Downs ได้รับชื่อใคร?"}
+{"translation_id": "0027-qa-sm:direct:th", "source_question_en": "Who is the main subject of O'Rourke Insights Online?", "nllb_draft": "ใครคือหัวข้อหลักของ O'Rourke Insights Online?"}
+{"translation_id": "0027-qa-sm:multi:th", "source_question_en": "When was the main subject of O'Rourke Insights Online born?", "nllb_draft": "หัวข้อหลักของ O'Rourke Insights Online เกิดเมื่อไหร่?"}
+{"translation_id": "0030-qa-sm:direct:th", "source_question_en": "Where is The Displayed Narrative located?", "nllb_draft": "The Displayed Narrative อยู่ที่ไหน?"}
+{"translation_id": "0030-qa-sm:multi:th", "source_question_en": "Which organization partners with the institution where The Displayed Narrative is located?", "nllb_draft": "องค์กรไหนเป็นพันธมิตรกับสถาบันที่ The Displayed Narrative ตั้งอยู่?"}
+{"translation_id": "0031-qa-sm:direct:th", "source_question_en": "Who replaced Zandor Rolle?", "nllb_draft": "ใครแทน Zandor Rolle?"}
+{"translation_id": "0031-qa-sm:multi:th", "source_question_en": "On what date did the person who replaced Zandor Rolle die?", "nllb_draft": "คนที่เปลี่ยน Zandor Rolle เสียชีวิตเมื่อวันไหน?"}
+{"translation_id": "0033-qa-sm:direct:th", "source_question_en": "What language does Aelorn My write in?", "nllb_draft": "Aelorn My เขียนภาษาไหน?"}
+{"translation_id": "0033-qa-sm:multi:th", "source_question_en": "In what year did Therian's influence on the language Aelorn My writes in end?", "nllb_draft": "ในปีใดที่ Therian มีผลกระทบต่อภาษา Aelorn My เขียนในที่สุด?"}
+{"translation_id": "0034-qa-sm:direct:th", "source_question_en": "Where was Reflections of Humanity published?", "nllb_draft": "Reflections of Humanity ได้ถูกตีพิมพ์ที่ไหน?"}
+{"translation_id": "0034-qa-sm:multi:th", "source_question_en": "On what date did Goldenreach become the country where Reflections of Humanity was published?", "nllb_draft": "วันใดที่ Goldenreach ได้กลายเป็นประเทศที่ Reflections of Humanity ได้ถูกตีพิมพ์?"}
+{"translation_id": "0035-qa-sm:direct:th", "source_question_en": "What ethnic group does Yloria Francois belong to?", "nllb_draft": "Yloria Francois อยู่ในกลุ่มชนชาติไหน?"}
+{"translation_id": "0035-qa-sm:multi:th", "source_question_en": "What is the native language of the ethnic group Yloria Francois belongs to?", "nllb_draft": "ภาษาแม่ของกลุ่มชนเผ่า Yloria Francois เป็นของภาษาไหน?"}
+{"translation_id": "0036-qa-sm:direct:th", "source_question_en": "In what period is The Arcane Compendium set?", "nllb_draft": "The Arcane Compendium กําหนดในระยะเวลาใด?"}
+{"translation_id": "0036-qa-sm:multi:th", "source_question_en": "What narrative universe does the period in which The Arcane Compendium is set belong to?", "nllb_draft": "ระยะเวลาที่ The Arcane Compendium ตั้งอยู่ในจักรวาลเรื่องไหน?"}
+{"translation_id": "0037-qa-sm:direct:th", "source_question_en": "What is the official residence of Valtaris?", "nllb_draft": "ที่อยู่อาศัยทางการของ Valtaris คืออะไร?"}
+{"translation_id": "0037-qa-sm:multi:th", "source_question_en": "What is the heritage designation of the official residence of Valtaris?", "nllb_draft": "ชื่อที่อยู่อาศัยทางการของ Valtaris เป็นอะไร?"}
+{"translation_id": "0038-qa-sm:direct:th", "source_question_en": "Of which administrative division is Etherealis the capital?", "nllb_draft": "หัวหิน Etherealis ของฝ่ายบริหารส่วนไหน?"}
+{"translation_id": "0038-qa-sm:multi:th", "source_question_en": "Which administrative subdivision is contained within the administrative division whose capital is Etherealis?", "nllb_draft": "องค์การบริหารส่วนไหนอยู่ในองค์การบริหารส่วนใหญ่คือ Etherealis?"}
+{"translation_id": "0040-qa-sm:direct:th", "source_question_en": "Where was the Bibliophile Brotherhood formed?", "nllb_draft": "Bibliophile Brotherhood เกิดขึ้นที่ไหน?"}
+{"translation_id": "0040-qa-sm:multi:th", "source_question_en": "What organization is the place where the Bibliophile Brotherhood was formed a member of?", "nllb_draft": "องค์กรใดคือสถานที่ที่ Bibliophile Brotherhood เป็นสมาชิก"}
+{"translation_id": "0042-qa-sm:direct:th", "source_question_en": "What is Elemental Odyssey based on?", "nllb_draft": "Elemental Odyssey ขึ้นอยู่กับอะไร?"}
+{"translation_id": "0042-qa-sm:multi:th", "source_question_en": "What is the system that Elemental Odyssey is based on compatible with?", "nllb_draft": "ระบบที่ Elemental Odyssey ขึ้นอยู่กับอะไรที่เหมาะสมกับ?"}
+{"translation_id": "0045-qa-sm:direct:th", "source_question_en": "Who produced Twilight's Edge?", "nllb_draft": "ใครผลิต Twilight's Edge?"}
+{"translation_id": "0045-qa-sm:multi:th", "source_question_en": "In which conflict did the producer of Twilight's Edge participate?", "nllb_draft": "ผู้ผลิตของ Twilight's Edge เข้าร่วมขบวนการใด?"}
+{"translation_id": "0051-qa-sm:direct:th", "source_question_en": "Who was the screenwriter of The Lost Chronicle?", "nllb_draft": "ผู้เขียนวัสดิการของ The Lost Chronicle เป็นใคร?"}
+{"translation_id": "0051-qa-sm:multi:th", "source_question_en": "In what year was the screenwriter of The Lost Chronicle nominated for The Wordsmith's Triumph?", "nllb_draft": "ในปีใด ผู้เขียนภาพยนตร์ของ The Lost Chronicle ได้รับการเสนอชื่อให้กับ The Wordsmith's Triumph?"}
+{"translation_id": "0052-qa-sm:direct:th", "source_question_en": "Who is a significant person associated with Ustara Daily?", "nllb_draft": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับ Ustara Daily?"}
+{"translation_id": "0052-qa-sm:multi:th", "source_question_en": "In what year did the significant person associated with Ustara Daily finish their education at OpenLuna University?", "nllb_draft": "ปีใดที่บุคคลสําคัญที่เกี่ยวข้องกับ Ustara Daily จบการศึกษาที่ OpenLuna University?"}
+{"translation_id": "0053-qa-sm:direct:th", "source_question_en": "Which creative work did Vyndel Amparo contribute to?", "nllb_draft": "Vyndel Amparo ส่งส่วนร่วมในการสร้างสรรค์อะไร?"}
+{"translation_id": "0053-qa-sm:multi:th", "source_question_en": "In what year was the creative work that Vyndel Amparo contributed to published?", "nllb_draft": "งานสร้างสรรค์ที่ Vyndel Amparo ส่งส่วนร่วมถูกตีพิมพ์ในปีใด?"}
+{"translation_id": "0054-qa-sm:direct:th", "source_question_en": "What is the main subject of The Labyrinth of Dreams?", "nllb_draft": "หัวข้อหลักของ The Labyrinth of Dreams คืออะไร?"}
+{"translation_id": "0054-qa-sm:multi:th", "source_question_en": "In what year did the dynasty that is the main subject of The Labyrinth of Dreams end?", "nllb_draft": "ในปีใดรัชกาลที่เป็นหัวข้อหลักของ The Labyrinth of Dreams จบลง?"}
+{"translation_id": "0055-qa-sm:direct:th", "source_question_en": "Who performed Caspian Frost?", "nllb_draft": "ใครทํา Caspian Frost?"}
+{"translation_id": "0055-qa-sm:multi:th", "source_question_en": "In what language does the performer of Caspian Frost write?", "nllb_draft": "นักแสดงของ Caspian Frost เขียนภาษาไหน?"}
+{"translation_id": "0056-qa-sm:direct:th", "source_question_en": "Which noble title does Iridia Hawkins hold?", "nllb_draft": "Iridia Hawkins มีพระเกียรติอันใด?"}
+{"translation_id": "0056-qa-sm:multi:th", "source_question_en": "Who confers the noble title held by Iridia Hawkins?", "nllb_draft": "ใครมอบตําแหน่งที่ยิ่งใหญ่ของ Iridia Hawkins?"}
+{"translation_id": "0057-qa-sm:direct:th", "source_question_en": "Which institution holds Ulthara Bhat's archives?", "nllb_draft": "สถาบันไหนถืออาร์คไฮฟของ Ulthara Bhat?"}
+{"translation_id": "0057-qa-sm:multi:th", "source_question_en": "On what date did the institution that holds Ulthara Bhat's archives officially open?", "nllb_draft": "สถาบันที่เก็บอาร์คไฮฟของ Ulthara Bhat เปิดให้บริการอย่างเป็นทางการเมื่อวันไหน?"}
+{"translation_id": "0058-qa-sm:direct:th", "source_question_en": "In which work is Cyndal Sridhar described?", "nllb_draft": "ในงานใดที่ Cyndal Sridhar มีการอธิบาย?"}
+{"translation_id": "0058-qa-sm:multi:th", "source_question_en": "Who is the publisher of the work in which Cyndal Sridhar is described?", "nllb_draft": "ผู้ตีพิมพ์ของงานที่ Cyndal Sridhar มีการอธิบายคือใคร?"}
+{"translation_id": "0059-qa-sm:direct:th", "source_question_en": "Who taught Jorvachi Malakson?", "nllb_draft": "ใครสอน Jorvachi Malakson?"}
+{"translation_id": "0059-qa-sm:multi:th", "source_question_en": "Where was the person who taught Jorvachi Malakson educated?", "nllb_draft": "คนที่สอน Jorvachi Malakson มีการศึกษาอยู่ที่ไหน?"}
+{"translation_id": "0061-qa-sm:direct:th", "source_question_en": "Who is the editor of the Lormund-Nuvrak Encyclopedia?", "nllb_draft": "ผู้เขียนของ Lormund-Nuvrak Encyclopedia คือใคร?"}
+{"translation_id": "0061-qa-sm:multi:th", "source_question_en": "On what date did the editor of the Lormund-Nuvrak Encyclopedia die?", "nllb_draft": "วันไหนที่ผู้ประกอบการของ Lormund-Nuvrak Encyclopedia เสียชีวิต?"}
+{"translation_id": "0062-qa-sm:direct:th", "source_question_en": "Where does Waylon Mercer work?", "nllb_draft": "Waylon Mercer ใช้งานที่ไหน?"}
+{"translation_id": "0062-qa-sm:multi:th", "source_question_en": "On what physical feature is the place where Waylon Mercer works located?", "nllb_draft": "สถานที่ที่ Waylon Mercer ทํางานอยู่บนลักษณะทางกายภาพไหน?"}
+{"translation_id": "0065-qa-sm:direct:th", "source_question_en": "What is the official anthem of Irvin Oathen?", "nllb_draft": "เพลงราชการของ Irvin Oathen คืออะไร?"}
+{"translation_id": "0065-qa-sm:multi:th", "source_question_en": "Which country is the official anthem of Irvin Oathen from?", "nllb_draft": "สัญลักษณ์ทางการของ Irvin Oathen มาจากประเทศไหน?"}
+{"translation_id": "0066-qa-sm:direct:th", "source_question_en": "Which work expands the plot of Tides of Destiny?", "nllb_draft": "งานใดที่ขยายแผนที่ของ Tides of Destiny?"}
+{"translation_id": "0066-qa-sm:multi:th", "source_question_en": "On what date was the work that expands the plot of Tides of Destiny first performed?", "nllb_draft": "เมื่อวันใดที่งานที่ขยายแผนที่ของ Tides of Destiny ได้ทําขึ้นครั้งแรก?"}
+{"translation_id": "0070-qa-sm:direct:th", "source_question_en": "Which notable work is by Xandria Leos?", "nllb_draft": "ผลงานที่น่าสนใจของ Xandria Leos คืออะไร?"}
+{"translation_id": "0070-qa-sm:multi:th", "source_question_en": "When was the notable work by Xandria Leos first published?", "nllb_draft": "งานที่น่าสนใจของ Xandria Leos ถูกตีพิมพ์ครั้งแรกเมื่อไหร่?"}
+{"translation_id": "0071-qa-sm:direct:th", "source_question_en": "Which work is a part of Eldoria: The Awakening?", "nllb_draft": "งานไหนเป็นส่วนหนึ่งของ Eldoria: The Awakening?"}
+{"translation_id": "0071-qa-sm:multi:th", "source_question_en": "On what date was the work that is part of Eldoria: The Awakening first performed?", "nllb_draft": "งานที่เป็นส่วนหนึ่งของ Eldoria: The Awakening ถูกแสดงครั้งแรกเมื่อวันไหน?"}
+{"translation_id": "0072-qa-sm:direct:th", "source_question_en": "What is on the boundary of Mystic Deep?", "nllb_draft": "อะไรอยู่บนขอบของ Mystic Deep?"}
+{"translation_id": "0072-qa-sm:multi:th", "source_question_en": "What shares a border with the place on the boundary of Mystic Deep?", "nllb_draft": "อะไรที่แบ่งขันชายแดนกับสถานที่บนชายแดนของ Mystic Deep?"}
+{"translation_id": "0073-qa-sm:direct:th", "source_question_en": "Who was Yardley Riven Kest's doctoral advisor?", "nllb_draft": "ใครคือที่ปรึกษาปริญญาเอกของ Yardley Riven Kest?"}
+{"translation_id": "0073-qa-sm:multi:th", "source_question_en": "Who was the doctoral advisor of Yardley Riven Kest a student of?", "nllb_draft": "ผู้ปรึกษาปริญญาเอกของ Yardley Riven Kest เป็นนักศึกษาของใคร?"}
+{"translation_id": "0074-qa-sm:direct:th", "source_question_en": "What time zone is Solmira in?", "nllb_draft": "Solmira อยู่ในเขตเวลาไหน?"}
+{"translation_id": "0074-qa-sm:multi:th", "source_question_en": "Where is the time zone that Solmira is in located?", "nllb_draft": "เขตเวลาที่ Solmira อยู่อยู่ที่ไหน?"}
+{"translation_id": "0075-qa-sm:direct:th", "source_question_en": "Where was Bryndith Waite buried?", "nllb_draft": "มันถูกฝังไว้ที่ไหน (Bryndith Waite)?"}
+{"translation_id": "0075-qa-sm:multi:th", "source_question_en": "What is the place where Bryndith Waite was buried named after?", "nllb_draft": "สถานที่ที่ Bryndith Waite ถูกฝังชื่อมาจากไหน?"}
+{"translation_id": "0077-qa-sm:direct:th", "source_question_en": "Who organized The Artistic Voyage?", "nllb_draft": "ใครจัด The Artistic Voyage?"}
+{"translation_id": "0077-qa-sm:multi:th", "source_question_en": "In what year did the organization that organized The Artistic Voyage officially open?", "nllb_draft": "ในปีใดองค์กรที่จัด The Artistic Voyage เปิดให้บริการอย่างเป็นทางการ?"}
+{"translation_id": "0078-qa-sm:direct:th", "source_question_en": "What language does Pheris Keaton speak?", "nllb_draft": "Pheris Keaton พูดภาษาอะไร?"}
+{"translation_id": "0078-qa-sm:multi:th", "source_question_en": "In which work is the language spoken by Pheris Keaton described?", "nllb_draft": "ภาษาที่พูดโดย Pheris Keaton มีการอธิบายในงานใด?"}
+{"translation_id": "0079-qa-sm:direct:th", "source_question_en": "During which time period did Zelwyn Magalhaes occur?", "nllb_draft": "ช่วงเวลาใดที่ Zelwyn Magalhaes เกิดขึ้น"}
+{"translation_id": "0079-qa-sm:multi:th", "source_question_en": "What does the time period during which Zelwyn Magalhaes occurred differ from?", "nllb_draft": "ระยะเวลาที่ Zelwyn Magalhaes เกิดขึ้นแตกต่างจากอะไร?"}
+{"translation_id": "0081-qa-sm:direct:th", "source_question_en": "Which family does Faryn Gastelum belong to?", "nllb_draft": "ครอบครัวไหนที่ Faryn Gastelum เป็นส่วนหนึ่ง?"}
+{"translation_id": "0081-qa-sm:multi:th", "source_question_en": "Who is the chairperson of the family that Faryn Gastelum belongs to?", "nllb_draft": "ผู้ประธานของครอบครัวที่ Faryn Gastelum เป็นส่วนของใคร?"}
+{"translation_id": "0085-qa-sm:direct:th", "source_question_en": "Who is the screenwriter of Realm of the Ancients?", "nllb_draft": "ผู้เขียนวัสดิการของ Realm of the Ancients คือใคร?"}
+{"translation_id": "0085-qa-sm:multi:th", "source_question_en": "What language does the screenwriter of Realm of the Ancients speak?", "nllb_draft": "ผู้เขียนภาพยนตร์ของ Realm of the Ancients พูดภาษาไหน?"}
+{"translation_id": "0086-qa-sm:direct:th", "source_question_en": "What is the equivalent given name of the opposite gender for Sylphina?", "nllb_draft": "ชื่อที่เทียบเท่าของเพศตรงข้ามสําหรับ Sylphina คืออะไร?"}
+{"translation_id": "0086-qa-sm:multi:th", "source_question_en": "What writing system does the opposite-gender equivalent of the given name Sylphina use?", "nllb_draft": "ระบบเขียนแบบไหนที่เทียบเท่าเพศตรงข้ามของชื่อ Sylphina ใช้?"}
+{"translation_id": "0088-qa-sm:direct:th", "source_question_en": "Which country does Micaiah Ashford serve?", "nllb_draft": "ประเทศไหนที่ Micaiah Ashford ให้บริการ?"}
+{"translation_id": "0088-qa-sm:multi:th", "source_question_en": "What is the official language of the country Micaiah Ashford serves?", "nllb_draft": "ภาษาราชการของประเทศที่ Micaiah Ashford ใช้ คืออะไร?"}
+{"translation_id": "0089-qa-sm:direct:th", "source_question_en": "What is the capital of Thronnaris?", "nllb_draft": "กรุงเทพมหานครของ Thronnaris คืออะไร?"}
+{"translation_id": "0089-qa-sm:multi:th", "source_question_en": "Which administrative territorial entity contains the capital of Thronnaris?", "nllb_draft": "องค์กรบริหารส่วนภูมิภาคไหนมีหลักทรัพย์ของ Thronnaris?"}
+{"translation_id": "0090-qa-sm:direct:th", "source_question_en": "On or next to which body of water is Meridionis located?", "nllb_draft": "บนหรือข้างเคียงของน้ําใดที่ Meridionis ตั้งอยู่?"}
+{"translation_id": "0090-qa-sm:multi:th", "source_question_en": "Into which body of water does the river on or next to which Meridionis is located drain?", "nllb_draft": "แม่น้ําที่อยู่บนหรือข้างเคียง Meridionis จะหลุดเข้าไปในน้ําอะไร?"}
+{"translation_id": "0091-qa-sm:direct:th", "source_question_en": "Where does Crownthalas Jorvikson reside?", "nllb_draft": "Crownthalas Jorvikson อยู่ที่ไหน?"}
+{"translation_id": "0091-qa-sm:multi:th", "source_question_en": "What is the architectural style of the place where Crownthalas Jorvikson resides?", "nllb_draft": "สไตล์สถาปนิกของสถานที่ที่ Crownthalas Jorvikson อยู่คืออะไร?"}
+{"translation_id": "0094-qa-sm:direct:th", "source_question_en": "Where is Jalyndra Crain buried?", "nllb_draft": "Jalyndra Crain ถูกฝังอยู่ที่ไหน?"}
+{"translation_id": "0094-qa-sm:multi:th", "source_question_en": "Who founded the church where Jalyndra Crain is buried?", "nllb_draft": "ใครก่อตั้งโบสถ์ที่ Jalyndra Crain ถูกฝัง?"}
+{"translation_id": "0096-qa-sm:direct:th", "source_question_en": "In which administrative territorial entity is Chroma Art Cooperative located?", "nllb_draft": "จังหวัดใดที่ Chroma Art Cooperative ตั้งอยู่?"}
+{"translation_id": "0096-qa-sm:multi:th", "source_question_en": "Which airport is owned by the administrative territorial entity where Chroma Art Cooperative is located?", "nllb_draft": "สนามบินไหนเป็นขององค์กรบริหารพื้นที่ที่ Chroma Art Cooperative ตั้งอยู่?"}
+{"translation_id": "0098-qa-sm:direct:th", "source_question_en": "Where is the narrative of The Chronicles of Forgotten Whispers set?", "nllb_draft": "เรื่องราวของวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระวาระว"}
+{"translation_id": "0098-qa-sm:multi:th", "source_question_en": "Which narrative universe is the setting of The Chronicles of Forgotten Whispers from?", "nllb_draft": "เอกภพเรื่องไหนคือที่ตั้งของ The Chronicles of Forgotten Whispers?"}
+{"translation_id": "0099-qa-sm:direct:th", "source_question_en": "Who is the curator of Collection Conclave?", "nllb_draft": "ผู้รักษา Collection Conclave คือใคร?"}
+{"translation_id": "0099-qa-sm:multi:th", "source_question_en": "Where was the curator of Collection Conclave born?", "nllb_draft": "ผู้อํานวยการของ Collection Conclave เกิดที่ไหน?"}
+{"translation_id": "0100-qa-sm:direct:th", "source_question_en": "With which movement is Aelvin Gz associated?", "nllb_draft": "การเคลื่อนไหวที่ Aelvin Gz ผูกพันกับการเคลื่อนไหวไหน?"}
+{"translation_id": "0100-qa-sm:multi:th", "source_question_en": "Who founded the movement associated with Aelvin Gz?", "nllb_draft": "ใครก่อตั้งการเคลื่อนไหวที่เกี่ยวข้องกับ Aelvin Gz?"}
+{"translation_id": "0105-qa-sm:direct:th", "source_question_en": "What administrative territorial entity is contained within United Sovereignty?", "nllb_draft": "องค์กรบริหารส่วนภูมิภาคไหนอยู่ใน United Sovereignty?"}
+{"translation_id": "0105-qa-sm:multi:th", "source_question_en": "From which entity does the administrative territorial entity contained within United Sovereignty differ?", "nllb_draft": "จากองค์กรใดองค์กรบริหารส่วนท้องถิ่นที่อยู่ใน United Sovereignty ต่างกัน?"}
+{"translation_id": "0107-qa-sm:direct:th", "source_question_en": "Which institution holds the artist files on Thalorix Reliquary?", "nllb_draft": "สถาบันไหนเก็บไฟล์ศิลปินที่ Thalorix Reliquary?"}
+{"translation_id": "0107-qa-sm:multi:th", "source_question_en": "What is the parent organization of the institution that holds the artist files on Thalorix Reliquary?", "nllb_draft": "องค์กรแม่ของสถาบันที่เก็บไฟล์ศิลปินใน Thalorix Reliquary คืออะไร?"}
+{"translation_id": "0108-qa-sm:direct:th", "source_question_en": "Who directed The Shattered Legends: A Tale of Time?", "nllb_draft": "ใครเป็นคนกํากับ The Shattered Legends: A Tale of Time?"}
+{"translation_id": "0108-qa-sm:multi:th", "source_question_en": "What language does the director of The Shattered Legends: A Tale of Time speak?", "nllb_draft": "ผู้อํานวยการของ The Shattered Legends: A Tale of Time พูดภาษาอะไร?"}
+{"translation_id": "0110-qa-sm:direct:th", "source_question_en": "What is the female version of the name Kaelith?", "nllb_draft": "ชื่อ Kaelith ของผู้หญิงคืออะไร?"}
+{"translation_id": "0110-qa-sm:multi:th", "source_question_en": "In which document is the female version of the name Kaelith attested?", "nllb_draft": "ในเอกสารใดคือฉบับหญิงของชื่อ Kaelith ได้รับการรับรอง?"}
+{"translation_id": "0111-qa-sm:direct:th", "source_question_en": "Which administrative territorial entity is contained within Novemara?", "nllb_draft": "องค์กรบริหารส่วนภูมิภาคไหนอยู่ใน Novemara?"}
+{"translation_id": "0111-qa-sm:multi:th", "source_question_en": "What is the official language of the administrative territorial entity contained within Novemara?", "nllb_draft": "ภาษาทางการขององค์กรบริหารพื้นที่ที่อยู่ใน Novemara คืออะไร?"}
+{"translation_id": "0114-qa-sm:direct:th", "source_question_en": "What work follows The Shattered Echoes: Legends Untold?", "nllb_draft": "งานอะไรตามมา The Shattered Echoes: Legends Untold?"}
+{"translation_id": "0114-qa-sm:multi:th", "source_question_en": "Who was the director of photography for the work that follows The Shattered Echoes: Legends Untold?", "nllb_draft": "ใครคือผู้อํานวยการถ่ายภาพของงานที่ติดตาม The Shattered Echoes: Legends Untold?"}
+{"translation_id": "0115-qa-sm:direct:th", "source_question_en": "What is Kaldren Sythorix's native language?", "nllb_draft": "ภาษาแม่ของ Kaldren Sythorix คืออะไร?"}
+{"translation_id": "0115-qa-sm:multi:th", "source_question_en": "Where is Kaldren Sythorix's native language indigenous to?", "nllb_draft": "ภาษาพื้นเมืองของ Kaldren Sythorix อยู่ที่ไหน?"}
+{"translation_id": "0116-qa-sm:direct:th", "source_question_en": "Who was a student of Cole-Ren Draxford?", "nllb_draft": "ใครเป็นนักเรียนของ Cole-Ren Draxford?"}
+{"translation_id": "0116-qa-sm:multi:th", "source_question_en": "In what year did the period of activity of Cole-Ren Draxford's student begin?", "nllb_draft": "ปีใดที่ช่วงการทํางานของนักเรียนของ Cole-Ren Draxford เริ่มต้น?"}
+{"translation_id": "0117-qa-sm:direct:th", "source_question_en": "Who is Deleth Nene's father?", "nllb_draft": "ใครคือพ่อของ Deleth Nene?"}
+{"translation_id": "0117-qa-sm:multi:th", "source_question_en": "In what year did Rynel Mcdaniel become the spouse of Deleth Nene's father?", "nllb_draft": "ปีใดที่ Rynel Mcdaniel เป็นคู่ครองของพ่อของ Deleth Nene?"}
+{"translation_id": "0118-qa-sm:direct:th", "source_question_en": "Who is Myrindor Monica's child?", "nllb_draft": "ใครคือลูกของ Myrindor Monica?"}
+{"translation_id": "0118-qa-sm:multi:th", "source_question_en": "Where does Myrindor Monica's child work?", "nllb_draft": "เด็กของ Myrindor Monica ทํางานที่ไหน?"}
+{"translation_id": "0120-qa-sm:direct:th", "source_question_en": "Which country is Taryth Eugenio a citizen of?", "nllb_draft": "Taryth Eugenio เป็นประชาชนของประเทศไหน?"}
+{"translation_id": "0120-qa-sm:multi:th", "source_question_en": "What immediately follows the country of which Taryth Eugenio is a citizen in the series?", "nllb_draft": "เกิดอะไรขึ้นต่อเนื่องจากประเทศที่ Taryth Eugenio เป็นประชาชนในรายการ?"}
+{"translation_id": "0121-qa-sm:direct:th", "source_question_en": "Who was Ystara Michelle named after?", "nllb_draft": "Ystara Michelle มีชื่อจากใคร?"}
+{"translation_id": "0121-qa-sm:multi:th", "source_question_en": "Who is the father of the person Ystara Michelle was named after?", "nllb_draft": "ใครคือพ่อของบุคคลที่ Ystara Michelle ได้รับชื่อจากใคร?"}
+{"translation_id": "0123-qa-sm:direct:th", "source_question_en": "What is Aeloria Valencrest's given name?", "nllb_draft": "ชื่อของ Aeloria Valencrest คืออะไร?"}
+{"translation_id": "0123-qa-sm:multi:th", "source_question_en": "Which writing system is used to write the given name of Aeloria Valencrest?", "nllb_draft": "ระบบการเขียนที่ใช้ในการเขียนชื่อของ Aeloria Valencrest"}
+{"translation_id": "0127-qa-sm:direct:th", "source_question_en": "Which work does The Timeless Enigma follow in its series?", "nllb_draft": "The Timeless Enigma ทํางานอะไรในชุดของเขา?"}
+{"translation_id": "0127-qa-sm:multi:th", "source_question_en": "When was the work that The Timeless Enigma follows in its series first published?", "nllb_draft": "งานที่ The Timeless Enigma ตามมาในชุดของมันถูกตีพิมพ์ครั้งแรกเมื่อไหร่?"}
+{"translation_id": "0128-qa-sm:direct:th", "source_question_en": "Who is Halvyn Villagrana different from?", "nllb_draft": "มีใครต่างกันจาก Halvyn Villagrana?"}
+{"translation_id": "0128-qa-sm:multi:th", "source_question_en": "On what date did the person from whom Halvyn Villagrana differs die?", "nllb_draft": "คนที่ Halvyn Villagrana ต่างจากเขาตายเมื่อวันไหน?"}
+{"translation_id": "0130-qa-sm:direct:th", "source_question_en": "Where was Sylas Jorvikson born?", "nllb_draft": "ที่เกิด Sylas Jorvikson"}
+{"translation_id": "0130-qa-sm:multi:th", "source_question_en": "On what date did the place where Sylas Jorvikson was born stop being the capital of Keldoria?", "nllb_draft": "ในวันใดที่ที่เกิด Sylas Jorvikson หยุดเป็นเมืองหลวงของ Keldoria?"}
+{"translation_id": "0132-qa-sm:direct:th", "source_question_en": "To which country or power does Vail Terran owe allegiance?", "nllb_draft": "ประเทศหรืออํานาจใดที่ Vail Terran ต้องเชื่อถือ?"}
+{"translation_id": "0132-qa-sm:multi:th", "source_question_en": "In what year did Freyael Redmon's term as head of government of the country to which Vail Terran owes allegiance end?", "nllb_draft": "ในปีใดที่ Freyael Redmon ประจําตําแหน่งเป็นหัวหน้ารัฐบาลของประเทศที่ Vail Terran ต้องเชื่อถือสิ้นสุด?"}
+{"translation_id": "0133-qa-sm:direct:th", "source_question_en": "Where is the headquarters of the Spectrum Cultural Institute located?", "nllb_draft": "สํานักงานใหญ่ของ Spectrum Cultural Institute ตั้งอยู่ที่ไหน?"}
+{"translation_id": "0133-qa-sm:multi:th", "source_question_en": "Who is the location of the Spectrum Cultural Institute's headquarters named after?", "nllb_draft": "ที่ตั้งสํานักงานใหญ่ของ Spectrum Cultural Institute มีชื่อจากใคร?"}
+{"translation_id": "0134-qa-sm:direct:th", "source_question_en": "What did Eternal Reign replace?", "nllb_draft": "Eternal Reign แทนอะไร?"}
+{"translation_id": "0134-qa-sm:multi:th", "source_question_en": "On what date was the entity that Eternal Reign replaced dissolved, abolished, or demolished?", "nllb_draft": "วันใดที่องค์กรที่ Eternal Reign แทนถูกละลาย, ยกเลิกหรือถล่ม?"}
+{"translation_id": "0136-qa-sm:direct:th", "source_question_en": "What family is Rhyse Darkmoor a member of?", "nllb_draft": "Rhyse Darkmoor เป็นสมาชิกของครอบครัวอะไร?"}
+{"translation_id": "0136-qa-sm:multi:th", "source_question_en": "To which house does the family of which Rhyse Darkmoor is a member belong?", "nllb_draft": "บ้านไหนที่ครอบครัวของ Rhyse Darkmoor เป็นสมาชิก?"}
+{"translation_id": "0137-qa-sm:direct:th", "source_question_en": "In which document is Aeliana attested?", "nllb_draft": "ในเอกสารใดคือการรับรอง Aeliana?"}
+{"translation_id": "0137-qa-sm:multi:th", "source_question_en": "In what year did the document in which Aeliana is attested end?", "nllb_draft": "เอกสารที่ได้รับการรับรอง Aeliana สลายลงในปีใด?"}
+{"translation_id": "0138-qa-sm:direct:th", "source_question_en": "Which family does Elysia Bynum belong to?", "nllb_draft": "ครอบครัวไหนที่ Elysia Bynum เป็นส่วนหนึ่ง?"}
+{"translation_id": "0138-qa-sm:multi:th", "source_question_en": "What immediately follows the family to which Elysia Bynum belongs?", "nllb_draft": "อะไรคือสิ่งที่ตามมาทันทีในครอบครัวที่ Elysia Bynum เป็นส่วนหนึ่ง?"}
+{"translation_id": "0139-qa-sm:direct:th", "source_question_en": "Which political party is Renyth Hiller a member of?", "nllb_draft": "พรรคการเมืองใดคือ Renyth Hiller เป็นสมาชิก?"}
+{"translation_id": "0139-qa-sm:multi:th", "source_question_en": "On what date was the political party that Renyth Hiller is a member of dissolved?", "nllb_draft": "พรรคการเมืองที่ Renyth Hiller เป็นสมาชิกถูกละลายเมื่อวันใด?"}
+{"translation_id": "0141-qa-sm:direct:th", "source_question_en": "What series is The Arcane Dimensions: A New Era part of?", "nllb_draft": "The Arcane Dimensions: A New Era เป็นส่วนหนึ่งของเรียงไหน?"}
+{"translation_id": "0141-qa-sm:multi:th", "source_question_en": "Which work does the series containing The Arcane Dimensions: A New Era follow?", "nllb_draft": "รายการที่มี The Arcane Dimensions: A New Era ตามงานอะไร?"}
+{"translation_id": "0142-qa-sm:direct:th", "source_question_en": "Who is Thalorin Rl's employer?", "nllb_draft": "ผู้จ้างของ Thalorin Rl คือใคร?"}
+{"translation_id": "0142-qa-sm:multi:th", "source_question_en": "When did Thalorin Rl's employer begin mixed-sex education?", "nllb_draft": "ผู้จ้างของ Thalorin Rl เริ่มการศึกษาผสมเพศเมื่อไหร่?"}
+{"translation_id": "0143-qa-sm:direct:th", "source_question_en": "Which series is The Ethereal Whispers: Secrets of the Sky part of?", "nllb_draft": "รายการใดคือ The Ethereal Whispers: Secrets of the Sky ส่วนหนึ่ง?"}
+{"translation_id": "0143-qa-sm:multi:th", "source_question_en": "When did the narrative set in Orion's Fury of the series that The Ethereal Whispers: Secrets of the Sky is part of begin?", "nllb_draft": "เรื่องเล่าที่ตั้งอยู่ใน Orion's Fury ของซีรีส์ที่ The Ethereal Whispers: Secrets of the Sky เป็นส่วนหนึ่งเริ่มต้นเมื่อไหร่?"}
+{"translation_id": "0144-qa-sm:direct:th", "source_question_en": "With which organization does the Draxport Municipal Archive of Historical Records have a partnership?", "nllb_draft": "องค์กรใดที่ Draxport Municipal Archive of Historical Records มีพันธมิตรภาพ?"}
+{"translation_id": "0144-qa-sm:multi:th", "source_question_en": "In which city is the organization that partners with the Draxport Municipal Archive of Historical Records headquartered?", "nllb_draft": "องค์กรที่ร่วมมือกับ Draxport Municipal Archive of Historical Records มีสํานักงานใหญ่ในเมืองใด?"}
+{"translation_id": "0145-qa-sm:direct:th", "source_question_en": "What is Aelwen Prophete's given name?", "nllb_draft": "ชื่อของ Aelwen Prophete คืออะไร?"}
+{"translation_id": "0145-qa-sm:multi:th", "source_question_en": "In what language is the given name of Aelwen Prophete?", "nllb_draft": "ในภาษาไหนคือชื่อของ Aelwen Prophete?"}
+{"translation_id": "0147-qa-sm:direct:th", "source_question_en": "Which jurisdiction does the Duchy of Nephronia apply to?", "nllb_draft": "สาขาอํานาจใดที่ Duchy of Nephronia ใช้ได้?"}
+{"translation_id": "0147-qa-sm:multi:th", "source_question_en": "What continent is the jurisdiction of the Duchy of Nephronia part of?", "nllb_draft": "จังหวัดไหนที่ Duchy of Nephronia เป็นส่วนหนึ่งของเขตอํานาจ?"}
+{"translation_id": "0148-qa-sm:direct:th", "source_question_en": "What is Felynd Rosales's native language?", "nllb_draft": "ภาษาแม่ของ Felynd Rosales คืออะไร?"}
+{"translation_id": "0148-qa-sm:multi:th", "source_question_en": "Which work describes the native language of Felynd Rosales?", "nllb_draft": "ผลงานใดที่อธิบายภาษาแม่ของ Felynd Rosales?"}
+{"translation_id": "0150-qa-sm:direct:th", "source_question_en": "Who is Pytherin Rosenfeld's employer?", "nllb_draft": "ผู้จ้างของ Pytherin Rosenfeld คือใคร?"}
+{"translation_id": "0150-qa-sm:multi:th", "source_question_en": "What is the parent organization of Pytherin Rosenfeld's employer?", "nllb_draft": "องค์กรผู้เป็นเจ้าของของ Pytherin Rosenfeld คืออะไร?"}
+{"translation_id": "0151-qa-sm:direct:th", "source_question_en": "Who represents Ulyndra Garg?", "nllb_draft": "ใครแทน Ulyndra Garg?"}
+{"translation_id": "0151-qa-sm:multi:th", "source_question_en": "Who owns the gallery that represents Ulyndra Garg?", "nllb_draft": "ใครเป็นเจ้าของห้องแสดงภาพที่แสดง Ulyndra Garg?"}
+{"translation_id": "0152-qa-sm:direct:th", "source_question_en": "What honorific prefix is used for Alaric Thornewood?", "nllb_draft": "อนุทินเกียรติยศที่ใช้สําหรับ Alaric Thornewood คืออะไร?"}
+{"translation_id": "0152-qa-sm:multi:th", "source_question_en": "In what work is the honorific prefix used for Alaric Thornewood described?", "nllb_draft": "ในงานใดที่อักษรอักษรเกียรติยศที่ใช้สําหรับ Alaric Thornewood มีการอธิบาย?"}
+{"translation_id": "0153-qa-sm:direct:th", "source_question_en": "Which network originally broadcast The Path to Redemption?", "nllb_draft": "เครือข่ายไหนออกอากาศครั้งแรก The Path to Redemption?"}
+{"translation_id": "0153-qa-sm:multi:th", "source_question_en": "What language does the network that originally broadcast The Path to Redemption use?", "nllb_draft": "เครือข่ายที่ออกอากาศครั้งแรกใช้ภาษาไหน The Path to Redemption?"}
+{"translation_id": "0154-qa-sm:direct:th", "source_question_en": "What is a notable work of Merrick Thompson?", "nllb_draft": "ผลงานที่โดดเด่นของ Merrick Thompson คืออะไร?"}
+{"translation_id": "0154-qa-sm:multi:th", "source_question_en": "Which country is Merrick Thompson's notable work from?", "nllb_draft": "ผลงานที่โดดเด่นของ Merrick Thompson มาจากประเทศไหน?"}
+{"translation_id": "0155-qa-sm:direct:th", "source_question_en": "In which conflict did Braxton Ellwood participate?", "nllb_draft": "สงครามใดที่ Braxton Ellwood เข้าร่วม?"}
+{"translation_id": "0155-qa-sm:multi:th", "source_question_en": "What conflict followed the conflict in which Braxton Ellwood participated?", "nllb_draft": "การขัดแย้งที่ตามมาคือการขัดแย้งที่ Braxton Ellwood เข้าร่วม?"}
+{"translation_id": "0156-qa-sm:direct:th", "source_question_en": "Which organization confers the Dynamo Medal?", "nllb_draft": "องค์กรใดที่ให้บริการ Dynamo Medal?"}
+{"translation_id": "0156-qa-sm:multi:th", "source_question_en": "On what date was the organization that confers the Dynamo Medal founded?", "nllb_draft": "องค์กรที่ให้บริการ Dynamo Medal ถูกตั้งเมื่อวันไหน?"}
+{"translation_id": "0157-qa-sm:direct:th", "source_question_en": "Which institution holds artist files about Elyndor Landis?", "nllb_draft": "สถาบันไหนมีไฟล์ศิลปินเกี่ยวกับ Elyndor Landis?"}
+{"translation_id": "0157-qa-sm:multi:th", "source_question_en": "In what year was the institution that holds artist files about Elyndor Landis known to be active?", "nllb_draft": "ในปีใดที่สถาบันที่เก็บไฟล์ศิลปินเกี่ยวกับ Elyndor Landis มีความรู้ว่ามีกิจกรรม?"}
+{"translation_id": "0159-qa-sm:direct:th", "source_question_en": "Of which administrative division is Kestrelia the capital?", "nllb_draft": "หัวหิน Kestrelia ของฝ่ายบริหารส่วนไหน?"}
+{"translation_id": "0159-qa-sm:multi:th", "source_question_en": "What is the official language of the administrative division of which Kestrelia is the capital?", "nllb_draft": "ภาษาทางการของแผนกบริหารที่ Kestrelia เป็นหลวง คืออะไร?"}
+{"translation_id": "0160-qa-sm:direct:th", "source_question_en": "Who owns the Solstice Art Ensemble?", "nllb_draft": "ใครเป็นเจ้าของ Solstice Art Ensemble?"}
+{"translation_id": "0160-qa-sm:multi:th", "source_question_en": "What country is the owner of the Solstice Art Ensemble a citizen of?", "nllb_draft": "เจ้าของ Solstice Art Ensemble เป็นประชาชนของประเทศไหน?"}
+{"translation_id": "0161-qa-sm:direct:th", "source_question_en": "Who was the screenwriter for The Forgotten Legacy?", "nllb_draft": "ใครเป็นนักเขียนส guion ของ The Forgotten Legacy?"}
+{"translation_id": "0161-qa-sm:multi:th", "source_question_en": "Where did the screenwriter of The Forgotten Legacy work?", "nllb_draft": "ผู้เขียนวัสดิการของ The Forgotten Legacy ทํางานที่ไหน?"}
+{"translation_id": "0163-qa-sm:direct:th", "source_question_en": "Who owns Radiant Manor?", "nllb_draft": "ใครเป็นเจ้าของ Radiant Manor?"}
+{"translation_id": "0163-qa-sm:multi:th", "source_question_en": "On what date did the owner of Radiant Manor cease to hold the Valorian Dukedom?", "nllb_draft": "เมื่อวันไหนเจ้าของ Radiant Manor หยุดถือ Valorian Dukedom?"}
+{"translation_id": "0164-qa-sm:direct:th", "source_question_en": "Where was Zephyra Conklin born?", "nllb_draft": "ที่เกิด Zephyra Conklin"}
+{"translation_id": "0164-qa-sm:multi:th", "source_question_en": "In what year was the place where Zephyra Conklin was born first mentioned in writing?", "nllb_draft": "ในปีใดที่ที่เกิด Zephyra Conklin ได้ถูกกล่าวถึงในบทเขียนครั้งแรก?"}
+{"translation_id": "0165-qa-sm:direct:th", "source_question_en": "Which language does Pyraen Senior speak, write, or sign?", "nllb_draft": "ภาษาใดที่ Pyraen Senior พูด เขียนหรือทํานอง?"}
+{"translation_id": "0165-qa-sm:multi:th", "source_question_en": "What is the language regulatory body for the language Pyraen Senior speaks, writes, or signs?", "nllb_draft": "ภาษาสังกัดของภาษาสังกัดที่ Pyraen Senior พูด, เขียนหรือสัญลักษณ์คืออะไร?"}
+{"translation_id": "0167-qa-sm:direct:th", "source_question_en": "Which media franchise does Kieran Frostfire belong to?", "nllb_draft": "Kieran Frostfire เป็นสมาชิกสื่อไหน?"}
+{"translation_id": "0167-qa-sm:multi:th", "source_question_en": "On what date did the media franchise that Kieran Frostfire belongs to begin?", "nllb_draft": "วันไหนที่สื่อเครือข่ายที่ Kieran Frostfire เป็นส่วนของเริ่มต้น?"}
+{"translation_id": "0168-qa-sm:direct:th", "source_question_en": "Which language is widely used in Vyndel?", "nllb_draft": "ภาษาไหนถูกใช้ทั่วไปใน Vyndel?"}
+{"translation_id": "0168-qa-sm:multi:th", "source_question_en": "In which country is the language widely used in Vyndel spoken?", "nllb_draft": "ภาษาที่ใช้ทั่วไปใน Vyndel จะพูดในประเทศใด?"}
+{"translation_id": "0169-qa-sm:direct:th", "source_question_en": "Who is the editor of Version Vault?", "nllb_draft": "ผู้บรรณาธิการของ Version Vault คือใคร?"}
+{"translation_id": "0169-qa-sm:multi:th", "source_question_en": "In what year did the editor of Version Vault receive the Commonwealth Academic Excellence Award?", "nllb_draft": "ในปีใด ผู้ประกอบการของ Version Vault ได้รับ Commonwealth Academic Excellence Award?"}
+{"translation_id": "0170-qa-sm:direct:th", "source_question_en": "On which body of water is Falendropolis located?", "nllb_draft": "Falendropolis อยู่บนน้ําอันใด?"}
+{"translation_id": "0170-qa-sm:multi:th", "source_question_en": "What is one part of the body of water on which Falendropolis is located?", "nllb_draft": "ส่วนหนึ่งของร่างน้ําที่ Falendropolis ตั้งอยู่คืออะไร?"}
+{"translation_id": "0172-qa-sm:direct:th", "source_question_en": "In which work did Galactic Sentinel first appear?", "nllb_draft": "Galactic Sentinel เกิดขึ้นครั้งแรกในงานใด?"}
+{"translation_id": "0172-qa-sm:multi:th", "source_question_en": "What assessment was used to evaluate the work in which Galactic Sentinel first appeared?", "nllb_draft": "การประเมินงานที่ Galactic Sentinel ลงตัวครั้งแรกถูกนํามาประเมินด้วยการประเมินอย่างไร?"}
+{"translation_id": "0173-qa-sm:direct:th", "source_question_en": "On which physical feature is Thalara located?", "nllb_draft": "คุณสมบัติทางกายภาพใดที่ Thalara ตั้งอยู่?"}
+{"translation_id": "0173-qa-sm:multi:th", "source_question_en": "On which continent is the physical feature on which Thalara is located?", "nllb_draft": "ทวีปไหนคือลักษณะทางกายภาพที่ Thalara ตั้งอยู่?"}
+{"translation_id": "0176-qa-sm:direct:th", "source_question_en": "Who is the father of Myrith Howland?", "nllb_draft": "ใครคือพ่อของ Myrith Howland?"}
+{"translation_id": "0176-qa-sm:multi:th", "source_question_en": "What family does the father of Myrith Howland belong to?", "nllb_draft": "พ่อของ Myrith Howland อยู่ในครอบครัวไหน?"}
+{"translation_id": "0177-qa-sm:direct:th", "source_question_en": "On what physical feature is Maristad located?", "nllb_draft": "Maristad ตั้งอยู่บนลักษณะฟิสิกส์อะไร?"}
+{"translation_id": "0177-qa-sm:multi:th", "source_question_en": "What larger region is the physical feature that Maristad is located on part of?", "nllb_draft": "ภูมิภาคที่ใหญ่กว่าใดคือลักษณะทางกายภาพที่ Maristad ตั้งอยู่ส่วนหนึ่ง?"}
+{"translation_id": "0178-qa-sm:direct:th", "source_question_en": "Which military branch does Orion Vex belong to?", "nllb_draft": "สาขาทหารใดที่ Orion Vex เป็นส่วนของ?"}
+{"translation_id": "0178-qa-sm:multi:th", "source_question_en": "In which narrative universe does the military branch that Orion Vex belongs to appear?", "nllb_draft": "สาขาทหารที่ Orion Vex เป็นเจ้าของปรากฏอยู่ในจักรวาลเรื่องไหน?"}
+{"translation_id": "0180-qa-sm:direct:th", "source_question_en": "Which continent is Beltharis part of?", "nllb_draft": "ทวีปไหนคือ Beltharis ส่วนหนึ่ง?"}
+{"translation_id": "0180-qa-sm:multi:th", "source_question_en": "What shares a border with the continent Beltharis is part of?", "nllb_draft": "อะไรที่แบ่งขันชายแดนกับทวีป Beltharis เป็นส่วนหนึ่ง?"}
+{"translation_id": "0182-qa-sm:direct:th", "source_question_en": "Who produced The Celestial Interlude?", "nllb_draft": "ใครผลิต The Celestial Interlude?"}
+{"translation_id": "0182-qa-sm:multi:th", "source_question_en": "Which award did the producer of The Celestial Interlude receive?", "nllb_draft": "ผู้ผลิตของ The Celestial Interlude ได้รับรางวัลอะไร?"}
+{"translation_id": "0184-qa-sm:direct:th", "source_question_en": "Who is the spouse of Wryten Obeng?", "nllb_draft": "ใครคือคู่ครองของ Wryten Obeng?"}
+{"translation_id": "0184-qa-sm:multi:th", "source_question_en": "Who is the child of the spouse of Wryten Obeng?", "nllb_draft": "ลูกของคู่รักของ Wryten Obeng เป็นใคร?"}
+{"translation_id": "0185-qa-sm:direct:th", "source_question_en": "Who is the employer of Farlan Jaxon Rivers?", "nllb_draft": "ผู้จ้างของ Farlan Jaxon Rivers คือใคร?"}
+{"translation_id": "0185-qa-sm:multi:th", "source_question_en": "Who founded the employer of Farlan Jaxon Rivers?", "nllb_draft": "ใครตั้งเจ้าของงานของ Farlan Jaxon Rivers?"}
+{"translation_id": "0186-qa-sm:direct:th", "source_question_en": "Who performed Elysia Dreamweaver?", "nllb_draft": "ใครทํา Elysia Dreamweaver?"}
+{"translation_id": "0186-qa-sm:multi:th", "source_question_en": "Where was the performer of Elysia Dreamweaver educated?", "nllb_draft": "นักแสดงของ Elysia Dreamweaver ได้ศึกษาที่ไหน?"}
+{"translation_id": "0187-qa-sm:direct:th", "source_question_en": "Who was Kynara Roach's doctoral advisor?", "nllb_draft": "ใครคือที่ปรึกษาปริญญาเอกของ Kynara Roach?"}
+{"translation_id": "0187-qa-sm:multi:th", "source_question_en": "In what year was Lyren Hammoud a doctoral student of the person who was Kynara Roach's doctoral advisor?", "nllb_draft": "ปีใดที่ Lyren Hammoud เป็นนักศึกษาปริญญาเอกของคนที่เป็นที่ปรึกษาปริญญาเอกของ Kynara Roach?"}
+{"translation_id": "0188-qa-sm:direct:th", "source_question_en": "Who is the father of Ylindor Gamino?", "nllb_draft": "ใครคือพ่อของ Ylindor Gamino?"}
+{"translation_id": "0188-qa-sm:multi:th", "source_question_en": "Who taught the father of Ylindor Gamino?", "nllb_draft": "ใครสอนพ่อของ Ylindor Gamino?"}
+{"translation_id": "0189-qa-sm:direct:th", "source_question_en": "Who is the godparent of Aeloria Valehart?", "nllb_draft": "ใครคือพ่อแม่ของ Aeloria Valehart?"}
+{"translation_id": "0189-qa-sm:multi:th", "source_question_en": "What position did the godparent of Aeloria Valehart hold?", "nllb_draft": "พ่อเลี้ยงของ Aeloria Valehart มีตําแหน่งอะไร?"}
+{"translation_id": "0190-qa-sm:direct:th", "source_question_en": "Which work follows The Lost Chronicles of Aetheria?", "nllb_draft": "ผลงานที่ติดตาม The Lost Chronicles of Aetheria คืออะไร?"}
+{"translation_id": "0190-qa-sm:multi:th", "source_question_en": "Who distributed the work that follows The Lost Chronicles of Aetheria?", "nllb_draft": "ใครแพร่ผลงานที่ติดตาม The Lost Chronicles of Aetheria?"}
+{"translation_id": "0191-qa-sm:direct:th", "source_question_en": "Who is Qyler Tucker's spouse?", "nllb_draft": "ใครคือคู่ครองของ Qyler Tucker?"}
+{"translation_id": "0191-qa-sm:multi:th", "source_question_en": "Which family does Qyler Tucker's spouse belong to?", "nllb_draft": "คู่รักของ Qyler Tucker เป็นสมาชิกครอบครัวไหน?"}
+{"translation_id": "0193-qa-sm:direct:th", "source_question_en": "Who was Orilith Piedrahita a student of?", "nllb_draft": "ใครเป็นนักเรียนของ Orilith Piedrahita?"}
+{"translation_id": "0193-qa-sm:multi:th", "source_question_en": "Where did the person who taught Orilith Piedrahita work?", "nllb_draft": "คนที่สอน Orilith Piedrahita ทํางานที่ไหน?"}
+{"translation_id": "0198-qa-sm:direct:th", "source_question_en": "Who is the mother of Lydan Barakat?", "nllb_draft": "ใครคือแม่ของ Lydan Barakat?"}
+{"translation_id": "0198-qa-sm:multi:th", "source_question_en": "During which time period did the mother of Lydan Barakat occur?", "nllb_draft": "ช่วงเวลาใดที่แม่ของ Lydan Barakat เกิดขึ้น?"}
+{"translation_id": "0199-qa-sm:direct:th", "source_question_en": "Who was Norric Jorven's doctoral advisor?", "nllb_draft": "ใครคือที่ปรึกษาปริญญาเอกของ Norric Jorven?"}
+{"translation_id": "0199-qa-sm:multi:th", "source_question_en": "Where did Norric Jorven's doctoral advisor work?", "nllb_draft": "ผู้ปรึกษาปริญญาเอกของ Norric Jorven ทํางานที่ไหน?"}

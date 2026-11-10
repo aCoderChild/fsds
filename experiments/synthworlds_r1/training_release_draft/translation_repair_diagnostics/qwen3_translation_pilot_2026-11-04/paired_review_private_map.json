@@ -1,0 +1,194 @@
+[
+  {
+    "review_key": "P85BA522530",
+    "source_review_key": "R0347",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "1c4f80e48aff0582d6bd37c7a163941bba4de58010debdaf0360ec436899b2e8"
+  },
+  {
+    "review_key": "P42C79D3D36",
+    "source_review_key": "R0549",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "db3484d455c9ba5dd616690a528e18b78ad78ae3b8b37977f6d2d3c9235fbadb"
+  },
+  {
+    "review_key": "P22170E6E51",
+    "source_review_key": "R0123",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "dec025b03abc5c224f8865c41709a9263a5e6b2d88551346bd857e9b3c06305e"
+  },
+  {
+    "review_key": "P8DADAA1597",
+    "source_review_key": "R0123",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "a14b2a9c12c581f6131c056278442ba4809c8304befadcdff9e3466c7ec2f2ff"
+  },
+  {
+    "review_key": "P643392C3A2",
+    "source_review_key": "R0701",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "8a0684520b6b67bccce10937ceb5c301cb48585bd3bc86705547127a1100339f"
+  },
+  {
+    "review_key": "PB2B23CADD3",
+    "source_review_key": "R0701",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "9c1eab346d7d83381e82b2e78d2ff6a5d2fe273a50ef4e1bed01984a6e4e1fb8"
+  },
+  {
+    "review_key": "PEF304C762D",
+    "source_review_key": "R0179",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "5d54248be519a169cbf9827e15e8e0d3baf491fb4c01ac15cc4f09a75438c1af"
+  },
+  {
+    "review_key": "P5E1BB40B91",
+    "source_review_key": "R0345",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "0fb5f4e0aaee6619e84842f58a574909cd153f2297b55cec228daa25e42846ee"
+  },
+  {
+    "review_key": "P8EF83E88F3",
+    "source_review_key": "R0464",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "6b6ce1208a44b6555d135df0f89bdaf2be200bd94fd25f8742f99696773c0202"
+  },
+  {
+    "review_key": "PBB78CE9183",
+    "source_review_key": "R0011",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "5ea0cf873f0a418426d49160ddbd4eb11e6ed50399885ef31945b0177796f91f"
+  },
+  {
+    "review_key": "PCE400F9414",
+    "source_review_key": "R0282",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "69a3bc36023d613647935744f6bf9dbb1e4dfba8dcbd35c3d68953603aa4ccdc"
+  },
+  {
+    "review_key": "PAEEDF23209",
+    "source_review_key": "R0177",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "2618829b49bcde63fb8a1fcfd97dbe6f992110748ea8bbee561f625d430a04b4"
+  },
+  {
+    "review_key": "PD1E890DC78",
+    "source_review_key": "R0277",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "d7446b504c46a3ebc9266f8def5dcd3bec57da3d20cc1954194d2076cdbe9070"
+  },
+  {
+    "review_key": "P012B410986",
+    "source_review_key": "R0547",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "924cfb871673179e476511e285c519ac6cf0a95a8f2553050b4d2463f86ced7c"
+  },
+  {
+    "review_key": "P276AC476CE",
+    "source_review_key": "R0125",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "51554573763961b0a458d06e343c77b5fdc72273b84d4d09b78fd8cec93668e4"
+  },
+  {
+    "review_key": "P3B150C5B8E",
+    "source_review_key": "R0177",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "1bdb4a6bee839fa6c075a66c6570cfc4d88a89090314da35a9e6ae090c602475"
+  },
+  {
+    "review_key": "P4B7D1E131B",
+    "source_review_key": "R0008",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "a5ae7f693aa4be35401069db832222b8d848b3f01af0f15650128f0dfe82fb94"
+  },
+  {
+    "review_key": "P75075A2957",
+    "source_review_key": "R0282",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "7bfaff5fc9ccdbdec1ac6f59109114ae3cb6d88f2801ad0aec90222b71e818cc"
+  },
+  {
+    "review_key": "PBC897486F4",
+    "source_review_key": "R0464",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "74d0b8cab5aecaf807eae2db825a01e2dc672f3d4b550d325714069110de3e7f"
+  },
+  {
+    "review_key": "PE8EA07BEAE",
+    "source_review_key": "R0702",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "086408dac6152b60c5d421da6022519a950b1d928ca430ffba92287449898f31"
+  },
+  {
+    "review_key": "P17A7C5817E",
+    "source_review_key": "R0465",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "9b886fc9a7d5bbfe85d9070540b8ef74f62a1a3c9a9db0a381429fdaea02c669"
+  },
+  {
+    "review_key": "P9C46DD0049",
+    "source_review_key": "R0179",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "1f00d5cb0ce2d141244f4fcdf7e342668b971c749cc8fa6a16ddf5c9936d52aa"
+  },
+  {
+    "review_key": "P5C6A40F184",
+    "source_review_key": "R0347",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "1f49236a2738b017e7757f3058790e975b1767937b88b8eafb1c305454bfe678"
+  },
+  {
+    "review_key": "P51D03B0723",
+    "source_review_key": "R0465",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "9a2aa27e07a9a360603cd1f44bc6ce34a045cb9163d8aacd53d623bdd8d22fde"
+  },
+  {
+    "review_key": "P5D159C4886",
+    "source_review_key": "R0125",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "d5d804046385f19d4bc35718eaa86a15a732324af512f0df19427decb134fab1"
+  },
+  {
+    "review_key": "PBD7986949D",
+    "source_review_key": "R0547",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "a041bbbe5bc42ef19a61b10e0e667c00aba5d02189454093e408d3658a7b0a9c"
+  },
+  {
+    "review_key": "PF4CC6335A2",
+    "source_review_key": "R0549",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "8dc2483d991ee512d774926009a6cc1649949a241940371545249d6153661d86"
+  },
+  {
+    "review_key": "PF4EFD8AEB5",
+    "source_review_key": "R0345",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "5f9864310c91531fba6b64b1edd5f370d8ae88cf507956a3e019e4bba5a2eccb"
+  },
+  {
+    "review_key": "P0340B729BD",
+    "source_review_key": "R0011",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "de23caf7837b338398dbc9a2d403bad066bb52fa10bdf2401889026c48bd3fb3"
+  },
+  {
+    "review_key": "PE5EC24109F",
+    "source_review_key": "R0277",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "39b7cee2cd43c58a509b60550fb25313631f85b0915f4ffcc67e32601f3bb315"
+  },
+  {
+    "review_key": "PC02A31B0A9",
+    "source_review_key": "R0702",
+    "candidate_method": "qwen3_14b",
+    "candidate_sha256": "372e755a8178ffdfe6868595b183960ea80bb6374eb134f7f05ac138c20b2436"
+  },
+  {
+    "review_key": "PD9FCEEB948",
+    "source_review_key": "R0008",
+    "candidate_method": "assistant_ai_candidate",
+    "candidate_sha256": "634bd7b44f0f11d200d410eda72e4096570c506aaba938cf6ee54a271d03a404"
+  }
+]

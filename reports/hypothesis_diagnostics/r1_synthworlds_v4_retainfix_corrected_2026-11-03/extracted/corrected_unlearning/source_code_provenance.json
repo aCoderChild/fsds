@@ -1,0 +1,28 @@
+{
+  "status": "POST_RUN_PROVENANCE_RECONCILED",
+  "source_file_in_package": "scripts/unlearn_lora.py",
+  "source_sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d",
+  "source_runtime_path": "/kaggle/input/datasets/bunnoob2005/synthworlds-sm-r1-retrainfix-v4/scripts/unlearn_lora.py",
+  "sampler": "precomputed retain_schedule_indices(epochs * len(forget), len(retain)); selects retain[retain_schedule[steps]]",
+  "training_code_hash_recorded_inside_raw_run_manifests": false,
+  "source_binding_limit": "The raw Kaggle run manifests do not contain an unlearning-script hash. They record 26 distinct retain SFT IDs at 45 optimizer steps and round_robin_all_retain_rows. The included v4 source is the hash-verified implementation with that scheduler; the package makes the code/output association explicit but is not a cryptographic attestation that this exact file was loaded by the training process.",
+  "gd_npo_runs": {
+    "gd": {
+      "manifest_sha256": "3a8ae4130cd2abb5b591ce8c908435827e0236209954fa1ddbcf0e213b8e3db3",
+      "adapter_sha256": "a244b4c1366b8af9cdefadec31cc94f8566b7485041d93629bcadde3a0373641",
+      "adapter_config_sha256": "49b67b48b9a4f420e72f0fda0cc77aac68d162dc33812207f6fe79f3a160837a",
+      "distinct_retain_ids_recorded": 26
+    },
+    "npo": {
+      "manifest_sha256": "6269c1dfc95e055a01c80b056c2102842a917fa23bcc04cd396d32fa2a2b7d4c",
+      "adapter_sha256": "d19ec95ab765a57b560649c411de9a4310829fed55ffe9d8642d3ed4371198a5",
+      "adapter_config_sha256": "9006579c2f5e36e8ede53c466ebcea894db0d5f90c53437c88a19a62afec36b0",
+      "distinct_retain_ids_recorded": 26
+    }
+  },
+  "prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+  "corrected_gd_npo_predictions_sha256": "87aaa7010aede33e2e76ab39b19eb3f5ef212594f7fb5e96a978342fe39ca405",
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "api_secret_route": "Kaggle API-launched jobs do not receive notebook secrets; the run used the interactive Notebook Editor."
+}

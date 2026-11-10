@@ -1,0 +1,116 @@
+{
+  "status": "DIAGNOSTIC_BACKTRANSLATION_ONLY",
+  "input_sha256": "38ff32f0036ce23e2a2daf0fa3c3d12fcf692eb3454d2ee45a6336e2f6d000ee",
+  "model_id": "facebook/nllb-200-distilled-1.3B",
+  "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "backtranslation": "Whose godfather or godmother is he?",
+      "marker_integrity": false
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "backtranslation": "Who's the stepfather of [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "backtranslation": "Who is the editor or editor of [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "backtranslation": "Who was a doctoral student at [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "backtranslation": "In which work is [ENTITY_A] described?",
+      "marker_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "backtranslation": "What political office of the state that replaced the country with the capital [ENTITY_A] is held by its head of state?",
+      "marker_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "backtranslation": "Who's the boot half of [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "backtranslation": "What is the boundary of [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "backtranslation": "In which work is [ENTITY_A] described?",
+      "marker_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "backtranslation": "Who are the godparents of [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "backtranslation": "[ENTITY_A] Located on what geographic feature?",
+      "marker_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "backtranslation": "What is the suffix used as a prefix for [ENTITY_A]?",
+      "marker_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "backtranslation": "Who's the actor?",
+      "marker_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "backtranslation": "Who is the father of the creator of the entity's possessions?",
+      "marker_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "backtranslation": "Who is Entity A's father or mother?",
+      "marker_integrity": false
+    }
+  ]
+}

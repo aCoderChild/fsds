@@ -1,0 +1,36 @@
+{
+  "approval_claimed": false,
+  "batch_size": 8,
+  "device": "mps",
+  "generated_at_utc": "2026-11-02T05:17:19.268327+00:00",
+  "languages": {
+    "de": {
+      "batches": 9,
+      "records": 205,
+      "records_with_protected_text_repairs": 0,
+      "status": "PENDING_FLUENT_REVIEW"
+    },
+    "fr": {
+      "batches": 9,
+      "records": 205,
+      "records_with_protected_text_repairs": 0,
+      "status": "PENDING_FLUENT_REVIEW"
+    },
+    "hi": {
+      "batches": 9,
+      "records": 205,
+      "records_with_protected_text_repairs": 0,
+      "status": "PENDING_FLUENT_REVIEW"
+    },
+    "th": {
+      "batches": 9,
+      "records": 205,
+      "records_with_protected_text_repairs": 1,
+      "status": "PENDING_FLUENT_REVIEW"
+    }
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_license": "CC-BY-NC-4.0; research/non-commercial use only",
+  "request_manifest_sha256": "15fb2244cb83c713f0afd9b548c845789f90c79c98c344cd6666a17e14c149d0",
+  "status": "MACHINE_TRANSLATION_DRAFTS_PENDING_FLUENT_REVIEW"
+}

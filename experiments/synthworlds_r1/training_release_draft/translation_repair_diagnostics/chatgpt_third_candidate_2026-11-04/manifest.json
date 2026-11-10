@@ -1,0 +1,36 @@
+{
+  "answers_or_split_labels_in_queue": false,
+  "candidate_generation_model": "OpenAI ChatGPT conversation; exact served model/version not exposed",
+  "counts_by_language": {
+    "de": 19,
+    "fr": 21,
+    "hi": 62,
+    "th": 85
+  },
+  "counts_by_language_kind": {
+    "de/atomic": 7,
+    "de/composition": 12,
+    "fr/atomic": 15,
+    "fr/composition": 6,
+    "hi/atomic": 34,
+    "hi/composition": 28,
+    "th/atomic": 44,
+    "th/composition": 41
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+  "limitations": [
+    "Translations are candidates only; they require source-bound deterministic checks and independent AI review.",
+    "AI-only screening is not fluent-human certification.",
+    "The frozen 195-case split and all source files remain unchanged."
+  ],
+  "merged_review_receipt_sha256": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+  "merged_review_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+  "private_map_sha256": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+  "release_approved": false,
+  "request_sha256": "6d4090178783b14eff9317d6e09ae58f4c3c2e2907ee1faa6429ce92a4cf7fba",
+  "rows": 187,
+  "status": "MASKED_THIRD_CANDIDATE_QUEUE_READY_PENDING_TRANSLATION_AND_REVIEW",
+  "training_eligible": false,
+  "translategemma_candidate_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+}

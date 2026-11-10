@@ -1,0 +1,134 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading Llama 3.2 3B full with balanced; max_memory=12.5GiB per T4
+
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]
+Fetching 2 files:  50%|█████     | 1/2 [00:33<00:33, 33.89s/it]
+Fetching 2 files: 100%|██████████| 2/2 [00:33<00:00, 16.96s/it]
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:01<05:40,  1.35s/it]
+Loading weights:  26%|██▌       | 66/254 [00:01<00:03, 60.53it/s]
+Loading weights:  37%|███▋      | 93/254 [00:01<00:02, 66.68it/s]
+Loading weights:  44%|████▍     | 112/254 [00:02<00:02, 65.61it/s]
+Loading weights:  50%|████▉     | 126/254 [00:02<00:01, 72.10it/s]
+Loading weights:  55%|█████▍    | 139/254 [00:02<00:01, 71.69it/s]
+Loading weights:  59%|█████▉    | 150/254 [00:02<00:01, 71.04it/s]
+Loading weights:  65%|██████▍   | 165/254 [00:02<00:01, 71.40it/s]
+Loading weights:  69%|██████▉   | 175/254 [00:02<00:01, 68.73it/s]
+Loading weights:  74%|███████▎  | 187/254 [00:03<00:00, 77.23it/s]
+Loading weights:  78%|███████▊  | 197/254 [00:03<00:00, 71.33it/s]
+Loading weights:  81%|████████  | 206/254 [00:03<00:00, 71.45it/s]
+Loading weights:  84%|████████▍ | 214/254 [00:03<00:00, 66.04it/s]
+Loading weights:  87%|████████▋ | 222/254 [00:03<00:00, 67.37it/s]
+Loading weights:  93%|█████████▎| 237/254 [00:03<00:00, 73.51it/s]
+Loading weights:  97%|█████████▋| 246/254 [00:03<00:00, 74.58it/s]
+Loading weights: 100%|██████████| 254/254 [00:03<00:00, 64.27it/s]
+{'loaded_model': 'Llama 3.2 3B full', 'hf_device_map': {'model.embed_tokens': 0, 'lm_head': 0, 'model.layers.0': 0, 'model.layers.1': 0, 'model.layers.2': 0, 'model.layers.3': 0, 'model.layers.4': 0, 'model.layers.5': 0, 'model.layers.6': 0, 'model.layers.7': 0, 'model.layers.8': 0, 'model.layers.9': 0, 'model.layers.10': 0, 'model.layers.11': 0, 'model.layers.12': 0, 'model.layers.13': 0, 'model.layers.14': 0, 'model.layers.15': 1, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.norm': 1, 'model.rotary_emb': 1}, 'offloaded_devices': []}
+{'placement_smoke': {'status': 'PASS', 'new_tokens': 3, 'elapsed_seconds': 2.41, 'research_rows_used': 0}}
+Starting answer scoring: 4000 candidates
+Scored 100/4000 answer candidates
+Scored 200/4000 answer candidates
+Scored 300/4000 answer candidates
+Scored 400/4000 answer candidates
+Scored 500/4000 answer candidates
+Scored 600/4000 answer candidates
+Scored 700/4000 answer candidates
+Scored 800/4000 answer candidates
+Scored 900/4000 answer candidates
+Scored 1000/4000 answer candidates
+Scored 1100/4000 answer candidates
+Scored 1200/4000 answer candidates
+Scored 1300/4000 answer candidates
+Scored 1400/4000 answer candidates
+Scored 1500/4000 answer candidates
+Scored 1600/4000 answer candidates
+Scored 1700/4000 answer candidates
+Scored 1800/4000 answer candidates
+Scored 1900/4000 answer candidates
+Scored 2000/4000 answer candidates
+Scored 2100/4000 answer candidates
+Scored 2200/4000 answer candidates
+Scored 2300/4000 answer candidates
+Scored 2400/4000 answer candidates
+Scored 2500/4000 answer candidates
+Scored 2600/4000 answer candidates
+Scored 2700/4000 answer candidates
+Scored 2800/4000 answer candidates
+Scored 2900/4000 answer candidates
+Scored 3000/4000 answer candidates
+Scored 3100/4000 answer candidates
+Scored 3200/4000 answer candidates
+Scored 3300/4000 answer candidates
+Scored 3400/4000 answer candidates
+Scored 3500/4000 answer candidates
+Scored 3600/4000 answer candidates
+Scored 3700/4000 answer candidates
+Scored 3800/4000 answer candidates
+Scored 3900/4000 answer candidates
+Scored 4000/4000 answer candidates
+Starting greedy generation: 1600 prompts
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+Generated 25/1600 answers
+Generated 50/1600 answers
+Generated 75/1600 answers
+Generated 100/1600 answers
+Generated 125/1600 answers
+Generated 150/1600 answers
+Generated 175/1600 answers
+Generated 200/1600 answers
+Generated 225/1600 answers
+Generated 250/1600 answers
+Generated 275/1600 answers
+Generated 300/1600 answers
+Generated 325/1600 answers
+Generated 350/1600 answers
+Generated 375/1600 answers
+Generated 400/1600 answers
+Generated 425/1600 answers
+Generated 450/1600 answers
+Generated 475/1600 answers
+Generated 500/1600 answers
+Generated 525/1600 answers
+Generated 550/1600 answers
+Generated 575/1600 answers
+Generated 600/1600 answers
+Generated 625/1600 answers
+Generated 650/1600 answers
+Generated 675/1600 answers
+Generated 700/1600 answers
+Generated 725/1600 answers
+Generated 750/1600 answers
+Generated 775/1600 answers
+Generated 800/1600 answers
+Generated 825/1600 answers
+Generated 850/1600 answers
+Generated 875/1600 answers
+Generated 900/1600 answers
+Generated 925/1600 answers
+Generated 950/1600 answers
+Generated 975/1600 answers
+Generated 1000/1600 answers
+Generated 1025/1600 answers
+Generated 1050/1600 answers
+Generated 1075/1600 answers
+Generated 1100/1600 answers
+Generated 1125/1600 answers
+Generated 1150/1600 answers
+Generated 1175/1600 answers
+Generated 1200/1600 answers
+Generated 1225/1600 answers
+Generated 1250/1600 answers
+Generated 1275/1600 answers
+Generated 1300/1600 answers
+Generated 1325/1600 answers
+Generated 1350/1600 answers
+Generated 1375/1600 answers
+Generated 1400/1600 answers
+Generated 1425/1600 answers
+Generated 1450/1600 answers
+Generated 1475/1600 answers
+Generated 1500/1600 answers
+Generated 1525/1600 answers
+Generated 1550/1600 answers
+Generated 1575/1600 answers
+Generated 1600/1600 answers

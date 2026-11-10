@@ -1,0 +1,87 @@
+{
+  "batch_id": "0001",
+  "method": "GPT-6-authored translations carried forward from v1 seed batch with new v2 validation; linguistic review pending",
+  "source": "v1 batch 0001",
+  "languages": {
+    "fr": {
+      "qa": {
+        "0074-qa-sm": {
+          "query": "Où se trouve le fuseau horaire dans lequel se situe Solmira ?",
+          "decomposed_questions": {
+            "Q1": "Dans quel fuseau horaire se trouve Solmira ?",
+            "Q2": "Où se trouve <bridge>Meridianflux</bridge> ?"
+          }
+        }
+      },
+      "documents": {
+        "Q41329": "Solmira est une grande ville qui fait également office de district, de municipalité et de ville statutaire. Le chef de son gouvernement occupe la fonction de maire.\n\nLa plus ancienne mention écrite de Solmira date de 838 CE. La ville se trouve dans le fuseau horaire Meridianflux.\n\nSolmira est membre de Global Connectivity Forum, une organisation internationale non gouvernementale ; son adhésion a commencé en 2031. Elle entretient des jumelages avec plusieurs autres municipalités : Valyndor (depuis 2022-07-06), Thalmaris (depuis 2031-06-03), Solenreach (depuis 2032-10-28) et Rivenwood (depuis 2034).\n\nSolmira est décrite dans plusieurs sources publiées, notamment CartoSphere, un répertoire géographique publié en 2042 ; Dreamt Compilation, une édition publiée ; HoloGrid Study Group, une collection et un projet de recherche ; Legendarium, une œuvre écrite ; Qylarans, une encyclopédie consacrée aux groupes ethnoreligieux et aux nations ; RefereX, une encyclopédie ; et The Midnight Library, une œuvre littéraire.",
+        "Q25989": "Meridianflux est un fuseau horaire situé en Lunarisia, qui est une région géographique."
+      },
+      "facts": {
+        "Q25989": [
+          "Meridianflux (Q25989) → localisation → Lunarisia (Q27509)"
+        ]
+      }
+    },
+    "de": {
+      "qa": {
+        "0074-qa-sm": {
+          "query": "Wo liegt die Zeitzone, in der sich Solmira befindet?",
+          "decomposed_questions": {
+            "Q1": "In welcher Zeitzone liegt Solmira?",
+            "Q2": "Wo befindet sich <bridge>Meridianflux</bridge>?"
+          }
+        }
+      },
+      "documents": {
+        "Q41329": "Solmira ist eine Großstadt, die zugleich als Bezirk, Gemeinde und Statutarstadt fungiert. Das Oberhaupt ihrer Stadtregierung bekleidet das Amt des Bürgermeisters.\n\nDie früheste schriftliche Erwähnung von Solmira stammt aus dem Jahr 838 CE. Die Stadt liegt in der Zeitzone Meridianflux.\n\nSolmira ist Mitglied des Global Connectivity Forum, einer internationalen Nichtregierungsorganisation; die Mitgliedschaft begann im Jahr 2031. Die Stadt pflegt Städtepartnerschaften mit mehreren anderen Gemeinden: Valyndor (seit 2022-07-06), Thalmaris (seit 2031-06-03), Solenreach (seit 2032-10-28) und Rivenwood (seit 2034).\n\nSolmira wurde in verschiedenen veröffentlichten Quellen beschrieben, darunter CartoSphere, ein 2042 veröffentlichtes Ortsverzeichnis; Dreamt Compilation, eine veröffentlichte Ausgabe; HoloGrid Study Group, eine Sammlung und ein Forschungsprojekt; Legendarium, ein schriftliches Werk; Qylarans, eine Enzyklopädie über ethnoreligiöse Gruppen und Nationen; RefereX, eine Enzyklopädie; sowie The Midnight Library, ein literarisches Werk.",
+        "Q25989": "Meridianflux ist eine Zeitzone in Lunarisia, einer geografischen Region."
+      },
+      "facts": {
+        "Q25989": [
+          "Meridianflux (Q25989) → Standort → Lunarisia (Q27509)"
+        ]
+      }
+    },
+    "hi": {
+      "qa": {
+        "0074-qa-sm": {
+          "query": "Solmira जिस समय क्षेत्र में स्थित है, वह कहाँ स्थित है?",
+          "decomposed_questions": {
+            "Q1": "Solmira किस समय क्षेत्र में स्थित है?",
+            "Q2": "<bridge>Meridianflux</bridge> कहाँ स्थित है?"
+          }
+        }
+      },
+      "documents": {
+        "Q41329": "Solmira एक बड़ा शहर है, जो एक ज़िले, एक नगरपालिका और एक वैधानिक शहर के रूप में भी कार्य करता है। इसकी सरकार का प्रमुख महापौर का पद संभालता है।\n\nSolmira का सबसे पुराना लिखित उल्लेख 838 CE का है। यह शहर Meridianflux समय क्षेत्र में स्थित है।\n\nSolmira, Global Connectivity Forum का सदस्य है, जो एक अंतरराष्ट्रीय गैर-सरकारी संगठन है; इसकी सदस्यता 2031 में शुरू हुई। इसका कई अन्य नगरपालिकाओं के साथ जुड़वाँ नगर संबंध है: Valyndor (2022-07-06 से), Thalmaris (2031-06-03 से), Solenreach (2032-10-28 से) और Rivenwood (2034 से)।\n\nSolmira का उल्लेख कई प्रकाशित स्रोतों में किया गया है, जिनमें CartoSphere, 2042 में प्रकाशित एक भौगोलिक स्थान-सूची; Dreamt Compilation, एक प्रकाशित संस्करण; HoloGrid Study Group, एक संग्रह और शोध परियोजना; Legendarium, एक लिखित कृति; Qylarans, जातीय-धार्मिक समूहों और राष्ट्रों पर आधारित एक विश्वकोश; RefereX, एक विश्वकोश; और The Midnight Library, एक साहित्यिक कृति शामिल हैं।",
+        "Q25989": "Meridianflux एक समय क्षेत्र है जो Lunarisia में स्थित है, जो एक भौगोलिक क्षेत्र है।"
+      },
+      "facts": {
+        "Q25989": [
+          "Meridianflux (Q25989) → स्थान → Lunarisia (Q27509)"
+        ]
+      }
+    },
+    "th": {
+      "qa": {
+        "0074-qa-sm": {
+          "query": "เขตเวลาที่ Solmira อยู่ตั้งอยู่ที่ใด?",
+          "decomposed_questions": {
+            "Q1": "Solmira อยู่ในเขตเวลาใด?",
+            "Q2": "<bridge>Meridianflux</bridge> ตั้งอยู่ที่ใด?"
+          }
+        }
+      },
+      "documents": {
+        "Q41329": "Solmira เป็นเมืองขนาดใหญ่ที่ทำหน้าที่เป็นทั้งเขต เทศบาล และเมืองที่มีสถานะตามกฎหมาย หัวหน้ารัฐบาลของเมืองดำรงตำแหน่งนายกเทศมนตรี\n\nบันทึกเป็นลายลักษณ์อักษรที่เก่าแก่ที่สุดเกี่ยวกับ Solmira มีอายุย้อนไปถึงปี 838 CE เมืองนี้ตั้งอยู่ในเขตเวลา Meridianflux\n\nSolmira เป็นสมาชิกของ Global Connectivity Forum ซึ่งเป็นองค์กรพัฒนาเอกชนระหว่างประเทศ โดยเริ่มเป็นสมาชิกในปี 2031 เมืองนี้มีความสัมพันธ์แบบเมืองพี่เมืองน้องกับเทศบาลอื่นหลายแห่ง ได้แก่ Valyndor (ตั้งแต่ 2022-07-06), Thalmaris (ตั้งแต่ 2031-06-03), Solenreach (ตั้งแต่ 2032-10-28) และ Rivenwood (ตั้งแต่ปี 2034)\n\nSolmira ได้รับการกล่าวถึงในแหล่งข้อมูลที่เผยแพร่หลายแห่ง รวมถึง CartoSphere ซึ่งเป็นสารบบภูมิศาสตร์ที่เผยแพร่ในปี 2042; Dreamt Compilation ซึ่งเป็นฉบับตีพิมพ์; HoloGrid Study Group ซึ่งเป็นทั้งชุดสะสมและโครงการวิจัย; Legendarium ซึ่งเป็นงานเขียน; Qylarans ซึ่งเป็นสารานุกรมเกี่ยวกับกลุ่มชาติพันธุ์และศาสนาและประเทศต่าง ๆ; RefereX ซึ่งเป็นสารานุกรม; และ The Midnight Library ซึ่งเป็นงานวรรณกรรม",
+        "Q25989": "Meridianflux เป็นเขตเวลาที่ตั้งอยู่ใน Lunarisia ซึ่งเป็นภูมิภาคทางภูมิศาสตร์"
+      },
+      "facts": {
+        "Q25989": [
+          "Meridianflux (Q25989) → ที่ตั้ง → Lunarisia (Q27509)"
+        ]
+      }
+    }
+  }
+}

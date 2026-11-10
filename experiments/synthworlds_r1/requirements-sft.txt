@@ -1,0 +1,6 @@
+# Exact locked API line for reproducible Kaggle runs. Do not pin/replace Kaggle's
+# CUDA-enabled PyTorch build; these packages install the training stack only.
+transformers==5.22.1
+peft==0.21.2
+accelerate==1.15.0
+numpy>=1.24,<3

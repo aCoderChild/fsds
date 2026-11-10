@@ -1,0 +1,99 @@
+{
+  "by_language": {
+    "de": {
+      "documents": {
+        "completed": 2,
+        "pending": 6288
+      },
+      "facts": {
+        "completed": 1,
+        "pending": 6289
+      },
+      "pilot_fact_sft": {
+        "completed": 2,
+        "pending": 204
+      },
+      "qa": {
+        "completed": 1,
+        "pending": 1199
+      }
+    },
+    "fr": {
+      "documents": {
+        "completed": 2,
+        "pending": 6288
+      },
+      "facts": {
+        "completed": 1,
+        "pending": 6289
+      },
+      "pilot_fact_sft": {
+        "completed": 2,
+        "pending": 204
+      },
+      "qa": {
+        "completed": 1,
+        "pending": 1199
+      }
+    },
+    "hi": {
+      "documents": {
+        "completed": 2,
+        "pending": 6288
+      },
+      "facts": {
+        "completed": 1,
+        "pending": 6289
+      },
+      "pilot_fact_sft": {
+        "completed": 2,
+        "pending": 204
+      },
+      "qa": {
+        "completed": 1,
+        "pending": 1199
+      }
+    },
+    "th": {
+      "documents": {
+        "completed": 2,
+        "pending": 6288
+      },
+      "facts": {
+        "completed": 1,
+        "pending": 6289
+      },
+      "pilot_fact_sft": {
+        "completed": 2,
+        "pending": 204
+      },
+      "qa": {
+        "completed": 1,
+        "pending": 1199
+      }
+    }
+  },
+  "disallowed_training_data_sources": [
+    "full document passages",
+    "full per-QID facts rows",
+    "composed multi-hop QA question",
+    "evaluation gold_answers"
+  ],
+  "human_review_items": [
+    "Translations in batch 0001: verify idiomatic correctness of the four target languages, especially multilingual meaning of municipality/statutory city, time zone, and location relation.",
+    "Automatic structural checks do not prove semantic equivalence.",
+    "Missing translations for all pending IDs; no remaining IDs treated as translated.",
+    "Source relation PIDs exist in QA graph metadata only, not the facts text."
+  ],
+  "non_blocking_source_format_notes": [
+    "QA 0017-qa-sm has a bridge surface name missing a trailing period present in the graph node, but graph-QID/first-hop fact uniquely identifies the bridge.",
+    "QA 0098-qa-sm omits a trailing period from the Q1 surface name; source graph and first-hop fact uniquely identify the same entity.",
+    "Some graph nodes are literals with no QID; canonical entity QIDs remain null rather than invented."
+  ],
+  "semantic_review_recommended": true,
+  "stage1": "PASSED with unapproved assignments",
+  "stage2": "206 unique verified exact-fact SFT candidates; 104 QA; excluded 26 holdout QA",
+  "stage3": "PARTIAL: seed batch 0001 only; all other records pending",
+  "status": "CANDIDATE_READY_FOR_REVIEW_ONLY",
+  "validation_failures": []
+}

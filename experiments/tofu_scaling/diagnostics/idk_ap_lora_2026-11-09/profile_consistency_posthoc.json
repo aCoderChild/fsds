@@ -1,0 +1,370 @@
+{
+  "status": "PASS_POSTHOC_PROFILE_RECOMPUTATION",
+  "analysis": "Exploratory profile-level consistency audit; no GPU used; does not replace preregistered gates or support confirmation.",
+  "archive_sha256": "0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3",
+  "verification_sha256": "740f7d49ff504e44b3c15f36f0180359b2bb8998261d105000c98c983df603f3",
+  "profile_unit": "TOFU profile block; 20 questions per block",
+  "sign_test": "Two-sided exact binomial sign test over profile mean changes; descriptive and not multiplicity-adjusted.",
+  "metrics": {
+    "forget10.truth_ratio_score": {
+      "n_questions": 200,
+      "n_profiles": 10,
+      "pooled_delta_pp": 2.0267073773107644,
+      "profile_mean_delta_pp_min": 1.2497536175587716,
+      "profile_mean_delta_pp_max": 2.8519345305551806,
+      "profiles_positive": 10,
+      "profiles_negative": 0,
+      "profiles_tied": 0,
+      "profiles_in_preregistered_direction": 10,
+      "exact_two_sided_profile_sign_test_p": 0.001953125,
+      "leave_one_profile_out_pooled_delta_pp_min": 1.935015471394718,
+      "leave_one_profile_out_pooled_delta_pp_max": 2.1130355728387635,
+      "profile_deltas": {
+        "10": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.582195896047394
+        },
+        "11": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.8519345305551806
+        },
+        "12": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.502558658264981
+        },
+        "13": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.1279814239640897
+        },
+        "14": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.269065174009801
+        },
+        "15": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.896746759794666
+        },
+        "16": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.26182375412401
+        },
+        "17": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.325222138593326
+        },
+        "18": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.199791820195423
+        },
+        "19": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.2497536175587716
+        }
+      }
+    },
+    "forget10.answer_probability": {
+      "n_questions": 200,
+      "n_profiles": 10,
+      "pooled_delta_pp": -1.7818660035733354,
+      "profile_mean_delta_pp_min": -2.2655418698238727,
+      "profile_mean_delta_pp_max": -1.1159234373591924,
+      "profiles_positive": 0,
+      "profiles_negative": 10,
+      "profiles_tied": 0,
+      "profiles_in_preregistered_direction": 10,
+      "exact_two_sided_profile_sign_test_p": 0.001953125,
+      "leave_one_profile_out_pooled_delta_pp_min": -1.8558596220415735,
+      "leave_one_profile_out_pooled_delta_pp_max": -1.7281242406566093,
+      "profile_deltas": {
+        "10": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.156294621418848
+        },
+        "11": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.7519738865785173
+        },
+        "12": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.2362041436337123
+        },
+        "13": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.748229815242603
+        },
+        "14": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.2655418698238727
+        },
+        "15": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.231766609820321
+        },
+        "16": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.8132213166956328
+        },
+        "17": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.4497176701341523
+        },
+        "18": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.1159234373591924
+        },
+        "19": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.049786665026503
+        }
+      }
+    },
+    "retain90.answer_probability": {
+      "n_questions": 400,
+      "n_profiles": 20,
+      "pooled_delta_pp": -1.7396922753872084,
+      "profile_mean_delta_pp_min": -2.3763936222192665,
+      "profile_mean_delta_pp_max": -1.2673876514279858,
+      "profiles_positive": 0,
+      "profiles_negative": 20,
+      "profiles_tied": 0,
+      "profiles_in_preregistered_direction": null,
+      "exact_two_sided_profile_sign_test_p": 1.9073486328125e-06,
+      "leave_one_profile_out_pooled_delta_pp_min": -1.7645504134903258,
+      "leave_one_profile_out_pooled_delta_pp_max": -1.7061816781855212,
+      "profile_deltas": {
+        "80": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.3355816489224754
+        },
+        "81": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.2652915475158593
+        },
+        "82": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.9222520817615822
+        },
+        "83": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.0072117218235705
+        },
+        "84": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.3763936222192665
+        },
+        "85": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.7124316720140815
+        },
+        "86": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.003151653461446
+        },
+        "87": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.4049075246912595
+        },
+        "88": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.859415722465475
+        },
+        "89": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.5142535243601152
+        },
+        "90": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.2673876514279858
+        },
+        "91": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.8303580779302286
+        },
+        "92": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.3323736062648384
+        },
+        "93": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.6030476055093124
+        },
+        "94": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.3132375152244569
+        },
+        "95": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.958077110421171
+        },
+        "96": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.628277958191417
+        },
+        "97": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.7616698414419145
+        },
+        "98": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.669932534968322
+        },
+        "99": {
+          "n_questions": 20,
+          "mean_delta_pp": -2.028592887129395
+        }
+      }
+    },
+    "retain90.rougeL_recall": {
+      "n_questions": 400,
+      "n_profiles": 20,
+      "pooled_delta_pp": -3.0575802888885675,
+      "profile_mean_delta_pp_min": -10.574249923129916,
+      "profile_mean_delta_pp_max": 5.678571428571429,
+      "profiles_positive": 4,
+      "profiles_negative": 16,
+      "profiles_tied": 0,
+      "profiles_in_preregistered_direction": null,
+      "exact_two_sided_profile_sign_test_p": 0.01181793212890625,
+      "leave_one_profile_out_pooled_delta_pp_min": -3.5173777477022514,
+      "leave_one_profile_out_pooled_delta_pp_max": -2.6619660976127073,
+      "profile_deltas": {
+        "80": {
+          "n_questions": 20,
+          "mean_delta_pp": 5.678571428571429
+        },
+        "81": {
+          "n_questions": 20,
+          "mean_delta_pp": -5.641374024526199
+        },
+        "82": {
+          "n_questions": 20,
+          "mean_delta_pp": -6.8385448916408675
+        },
+        "83": {
+          "n_questions": 20,
+          "mean_delta_pp": -0.8447802197802199
+        },
+        "84": {
+          "n_questions": 20,
+          "mean_delta_pp": 3.742387013284846
+        },
+        "85": {
+          "n_questions": 20,
+          "mean_delta_pp": -0.5698529411764708
+        },
+        "86": {
+          "n_questions": 20,
+          "mean_delta_pp": -10.144908840729274
+        },
+        "87": {
+          "n_questions": 20,
+          "mean_delta_pp": -3.236317135549872
+        },
+        "88": {
+          "n_questions": 20,
+          "mean_delta_pp": -3.8851851851851844
+        },
+        "89": {
+          "n_questions": 20,
+          "mean_delta_pp": -0.926908457396262
+        },
+        "90": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.1904761904761907
+        },
+        "91": {
+          "n_questions": 20,
+          "mean_delta_pp": -0.2857142857142857
+        },
+        "92": {
+          "n_questions": 20,
+          "mean_delta_pp": 0.05931766646052383
+        },
+        "93": {
+          "n_questions": 20,
+          "mean_delta_pp": -3.958810068649885
+        },
+        "94": {
+          "n_questions": 20,
+          "mean_delta_pp": -1.7434210526315788
+        },
+        "95": {
+          "n_questions": 20,
+          "mean_delta_pp": -9.955164955164955
+        },
+        "96": {
+          "n_questions": 20,
+          "mean_delta_pp": -9.627063983488132
+        },
+        "97": {
+          "n_questions": 20,
+          "mean_delta_pp": -10.574249923129916
+        },
+        "98": {
+          "n_questions": 20,
+          "mean_delta_pp": -4.304347826086956
+        },
+        "99": {
+          "n_questions": 20,
+          "mean_delta_pp": 3.0952380952380953
+        }
+      }
+    },
+    "holdout10.answer_probability": {
+      "n_questions": 200,
+      "n_profiles": 10,
+      "pooled_delta_pp": 2.207284570718444,
+      "profile_mean_delta_pp_min": 1.684933038129697,
+      "profile_mean_delta_pp_max": 2.7962883950633866,
+      "profiles_positive": 10,
+      "profiles_negative": 0,
+      "profiles_tied": 0,
+      "profiles_in_preregistered_direction": null,
+      "exact_two_sided_profile_sign_test_p": 0.001953125,
+      "leave_one_profile_out_pooled_delta_pp_min": 2.141839701346784,
+      "leave_one_profile_out_pooled_delta_pp_max": 2.2653236298949717,
+      "profile_deltas": {
+        "10": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.5160094732733023
+        },
+        "11": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.3033302547485777
+        },
+        "12": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.3153200681480084
+        },
+        "13": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.0202609809847747
+        },
+        "14": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.135874534327936
+        },
+        "15": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.7962883950633866
+        },
+        "16": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.73481991867528
+        },
+        "17": {
+          "n_questions": 20,
+          "mean_delta_pp": 2.5677134533953794
+        },
+        "18": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.9982955904380995
+        },
+        "19": {
+          "n_questions": 20,
+          "mean_delta_pp": 1.684933038129697
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "answers_sent_to_reviewer": false,
+  "candidate_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+  "candidate_rows_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+  "decision_sha256": "a8366509f8ae12bba052e4b9c74e4b2e21e81128a4166b49f9fdc6c926d075d0",
+  "final_review_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+  "human_reviewed": false,
+  "model": "gemma3:4b",
+  "model_digest": "NAME                   ID              SIZE      MODIFIED           \ngemma3:4b              68ceab7e468a    3.4 GB    About a minute ago    \nqwen2.5:14b            7cdf5a0187d5    9.0 GB    7 hours ago           \ntranslategemma:4b      c49d986b0764    3.3 GB    11 hours ago          \nqwen2.5:7b-instruct    845dbda0ea48    4.7 GB    3 months ago          \n",
+  "ollama_version": "ollama version is 0.32.1",
+  "prompt_sha256": "a2cc08bbccf79c11b32a5d36bbebccd5060a562d5d30ddcf71dadb42b691af1b",
+  "sample_rule": "lowest SHA-256(language|kind|prompt_id), 8 Qwen7B-passed repair candidates per language/kind cell",
+  "sample_size": 64,
+  "selected_by_cell": {
+    "de": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "fr": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "hi": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "th": {
+      "atomic": 8,
+      "composition": 8
+    }
+  },
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

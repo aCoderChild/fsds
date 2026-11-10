@@ -1,0 +1,15 @@
+{
+  "kernel_id": "bunnoob2005/synthworlds-third-candidate-review-2026-11-04",
+  "version": 1,
+  "status_at_launch": "SUBMITTED",
+  "accelerator_requested": "NvidiaTeslaT4",
+  "timeout_seconds": 14400,
+  "review_script_sha256": "ddca89d232f230949087934f771f5a940203f9d32c232da4d3330512f02d3d81",
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "last_status": "RUNNING",
+  "last_status_checked_utc": "2026-11-04T07:24:00Z"
+}

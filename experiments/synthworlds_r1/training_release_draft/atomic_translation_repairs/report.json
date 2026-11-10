@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-11-03T04:46:35.512395+00:00",
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "blocked_inputs": 0,
+      "failures": [],
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remaining_blocked": 0,
+      "repaired": 0
+    },
+    "fr": {
+      "blocked_inputs": 0,
+      "failures": [],
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "remaining_blocked": 0,
+      "repaired": 0
+    },
+    "hi": {
+      "blocked_inputs": 1,
+      "failures": [],
+      "output_sha256": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "remaining_blocked": 0,
+      "repaired": 1
+    },
+    "th": {
+      "blocked_inputs": 1,
+      "failures": [],
+      "output_sha256": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "remaining_blocked": 0,
+      "repaired": 1
+    }
+  },
+  "model_id": "ollama:translategemma:4b",
+  "source_requests_sha256": "b3caefe291ef1303bdb74b22cfa4b0ecfc4f697a27cfe150a8de225ee32bac40",
+  "status": "TRANSLATEGEMMA_FALLBACKS_PENDING_QWEN_REVIEW"
+}

@@ -1,0 +1,224 @@
+[{"stream_name":"stderr","time":6.791692713,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.791739424,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":7.724117726,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.724147544,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.72415399,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.724158351,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.333875401,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.333904054,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.333909358,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.333915765,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":32.001345966,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.001386589,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.204231724,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.204264621,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":32.204270168,"data":"\n"}
+,{"stream_name":"stderr","time":32.20427421,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":32.204278069,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":32.230243924,"data":"{'transformers': '5.22.1', 'accelerate': '1.15.0', 'scipy': '1.17.1', 'rouge-score': '0.1.2'}\n"}
+,{"stream_name":"stdout","time":39.813959317,"data":"{'gpus': ['Tesla T4', 'Tesla T4'], 'memory_bytes': [15636037632, 15636037632]}\n"}
+,{"stream_name":"stdout","time":39.813993212,"data":"Internet is required for the pinned public TOFU files and Open-Unlearning checkpoints. No HF_TOKEN is needed.\n"}
+,{"stream_name":"stdout","time":39.836343202,"data":"Writing /kaggle/working/diagnose_tofu.py\n"}
+,{"stream_name":"stdout","time":39.864355607,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":39.882948234,"data":"Writing /kaggle/working/verify_tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":46.199612427,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json\r\n"}
+,{"stream_name":"stdout","time":46.199648252,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.md\r\n"}
+,{"stream_name":"stdout","time":46.199684798,"data":"Data structural checks: PASS\r\n"}
+,{"stream_name":"stdout","time":46.19968977,"data":"Checkpoint configs available: 4/4\r\n"}
+,{"stream_name":"stdout","time":46.199693757,"data":"Checkpoint files available: PASS\r\n"}
+,{"stream_name":"stdout","time":46.199697707,"data":"Model weights downloaded: 0; training started: no\r\n"}
+,{"stream_name":"stderr","time":66.523915976,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":66.726313521,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":66.726338424,"data":"\n"}
+,{"stream_name":"stderr","time":66.726342739,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":81.980912411,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":99.855517607,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:17\u003c00:17, 17.88s/it]\rFetching 2 files:  50%|█████     | 1/2 [00:17\u003c00:17, 17.88s/it]\n"}
+,{"stream_name":"stderr","time":117.494276863,"data":"\rFetching 2 files:  50%|█████     | 1/2 [00:17\u003c00:17, 17.88s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\n"}
+,{"stream_name":"stderr","time":117.701343797,"data":"\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\n"}
+,{"stream_name":"stderr","time":117.701371179,"data":"\n"}
+,{"stream_name":"stderr","time":117.701376144,"data":"\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.86s/it]\n"}
+,{"stream_name":"stderr","time":118.370390815,"data":"\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":119.456983039,"data":"\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  19%|█▉        | 48/254 [00:01\u003c00:03, 54.76it/s]\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  19%|█▉        | 48/254 [00:01\u003c00:03, 54.76it/s]\n"}
+,{"stream_name":"stderr","time":119.800505696,"data":"\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  19%|█▉        | 48/254 [00:01\u003c00:03, 54.76it/s]\rLoading weights:  29%|██▉       | 74/254 [00:01\u003c00:02, 70.96it/s]\rLoading weights:  29%|██▉       | 74/254 [00:01\u003c00:02, 70.96it/s]\n"}
+,{"stream_name":"stderr","time":120.089001728,"data":"\rLoading weights:  29%|██▉       | 74/254 [00:01\u003c00:02, 70.96it/s]\rLoading weights:  37%|███▋      | 93/254 [00:01\u003c00:02, 68.42it/s]\rLoading weights:  42%|████▏     | 107/254 [00:01\u003c00:01, 74.54it/s]\rLoading weights:  37%|███▋      | 93/254 [00:01\u003c00:02, 68.42it/s]\rLoading weights:  42%|████▏     | 107/254 [00:01\u003c00:01, 74.54it/s]\n"}
+,{"stream_name":"stderr","time":120.406891567,"data":"\rLoading weights:  37%|███▋      | 93/254 [00:01\u003c00:02, 68.42it/s]\rLoading weights:  42%|████▏     | 107/254 [00:01\u003c00:01, 74.54it/s]\rLoading weights:  47%|████▋     | 120/254 [00:02\u003c00:01, 73.90it/s]\rLoading weights:  52%|█████▏    | 131/254 [00:02\u003c00:01, 73.66it/s]\rLoading weights:  47%|████▋     | 120/254 [00:02\u003c00:01, 73.90it/s]\rLoading weights:  52%|█████▏    | 131/254 [00:02\u003c00:01, 73.66it/s]\n"}
+,{"stream_name":"stderr","time":120.755329036,"data":"\rLoading weights:  47%|████▋     | 120/254 [00:02\u003c00:01, 73.90it/s]\rLoading weights:  52%|█████▏    | 131/254 [00:02\u003c00:01, 73.66it/s]\rLoading weights:  58%|█████▊    | 147/254 [00:02\u003c00:01, 75.96it/s]\rLoading weights:  62%|██████▏   | 157/254 [00:02\u003c00:01, 78.79it/s]\rLoading weights:  58%|█████▊    | 147/254 [00:02\u003c00:01, 75.96it/s]\rLoading weights:  62%|██████▏   | 157/254 [00:02\u003c00:01, 78.79it/s]\n"}
+,{"stream_name":"stderr","time":120.982992773,"data":"\rLoading weights:  58%|█████▊    | 147/254 [00:02\u003c00:01, 75.96it/s]\rLoading weights:  62%|██████▏   | 157/254 [00:02\u003c00:01, 78.79it/s]\rLoading weights:  66%|██████▌   | 167/254 [00:02\u003c00:01, 80.38it/s]\rLoading weights:  69%|██████▉   | 176/254 [00:02\u003c00:00, 79.34it/s]\rLoading weights:  66%|██████▌   | 167/254 [00:02\u003c00:01, 80.38it/s]\rLoading weights:  69%|██████▉   | 176/254 [00:02\u003c00:00, 79.34it/s]\n"}
+,{"stream_name":"stderr","time":121.224234336,"data":"\rLoading weights:  66%|██████▌   | 167/254 [00:02\u003c00:01, 80.38it/s]\rLoading weights:  69%|██████▉   | 176/254 [00:02\u003c00:00, 79.34it/s]\rLoading weights:  73%|███████▎  | 185/254 [00:02\u003c00:00, 77.98it/s]\rLoading weights:  76%|███████▋  | 194/254 [00:02\u003c00:00, 79.98it/s]\rLoading weights:  73%|███████▎  | 185/254 [00:02\u003c00:00, 77.98it/s]\rLoading weights:  76%|███████▋  | 194/254 [00:02\u003c00:00, 79.98it/s]\n"}
+,{"stream_name":"stderr","time":121.544928377,"data":"\rLoading weights:  73%|███████▎  | 185/254 [00:02\u003c00:00, 77.98it/s]\rLoading weights:  76%|███████▋  | 194/254 [00:02\u003c00:00, 79.98it/s]\rLoading weights:  83%|████████▎ | 210/254 [00:03\u003c00:00, 77.79it/s]\rLoading weights:  90%|████████▉ | 228/254 [00:03\u003c00:00, 90.05it/s]\rLoading weights:  83%|████████▎ | 210/254 [00:03\u003c00:00, 77.79it/s]\rLoading weights:  90%|████████▉ | 228/254 [00:03\u003c00:00, 90.05it/s]\n"}
+,{"stream_name":"stderr","time":121.750558174,"data":"\rLoading weights:  83%|████████▎ | 210/254 [00:03\u003c00:00, 77.79it/s]\rLoading weights:  90%|████████▉ | 228/254 [00:03\u003c00:00, 90.05it/s]\rLoading weights:  94%|█████████▎| 238/254 [00:03\u003c00:00, 85.53it/s]\rLoading weights:  97%|█████████▋| 247/254 [00:03\u003c00:00, 83.86it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 70.79it/s]\n"}
+,{"stream_name":"stderr","time":121.827162142,"data":"\rLoading weights:  94%|█████████▎| 238/254 [00:03\u003c00:00, 85.53it/s]\rLoading weights:  97%|█████████▋| 247/254 [00:03\u003c00:00, 83.86it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 70.79it/s]\n"}
+,{"stream_name":"stderr","time":121.827188046,"data":"\n"}
+,{"stream_name":"stderr","time":121.827191635,"data":"\rLoading weights:  94%|█████████▎| 238/254 [00:03\u003c00:00, 85.53it/s]\rLoading weights:  97%|█████████▋| 247/254 [00:03\u003c00:00, 83.86it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 70.79it/s]\n"}
+,{"stream_name":"stderr","time":372.218280828,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stderr","time":372.426220193,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stderr","time":372.426244224,"data":"\n"}
+,{"stream_name":"stderr","time":372.426249265,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stdout","time":1627.773878165,"data":"llama_3_2_3b_full: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stdout","time":1627.980502578,"data":"llama_3_2_3b_full: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stderr","time":1635.184805352,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1670.775126521,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:35\u003c00:35, 35.78s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.90s/it]\n"}
+,{"stream_name":"stderr","time":1670.986529301,"data":"\rFetching 2 files:  50%|█████     | 1/2 [00:35\u003c00:35, 35.78s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.90s/it]\n"}
+,{"stream_name":"stderr","time":1670.986561807,"data":"\n"}
+,{"stream_name":"stderr","time":1670.98656747,"data":"\rFetching 2 files:  50%|█████     | 1/2 [00:35\u003c00:35, 35.78s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:35\u003c00:00, 17.90s/it]\n"}
+,{"stream_name":"stderr","time":1671.220326835,"data":"\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1672.313501471,"data":"\rLoading weights:   0%|          | 0/254 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  23%|██▎       | 58/254 [00:01\u003c00:02, 66.32it/s]\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  23%|██▎       | 58/254 [00:01\u003c00:02, 66.32it/s]\n"}
+,{"stream_name":"stderr","time":1672.763190221,"data":"\rLoading weights:   0%|          | 1/254 [00:01\u003c04:35,  1.09s/it]\rLoading weights:  23%|██▎       | 58/254 [00:01\u003c00:02, 66.32it/s]\rLoading weights:  35%|███▌      | 89/254 [00:01\u003c00:02, 74.78it/s]\rLoading weights:  35%|███▌      | 89/254 [00:01\u003c00:02, 74.78it/s]\n"}
+,{"stream_name":"stderr","time":1672.989036277,"data":"\rLoading weights:  35%|███▌      | 89/254 [00:01\u003c00:02, 74.78it/s]\rLoading weights:  43%|████▎     | 110/254 [00:01\u003c00:01, 79.30it/s]\rLoading weights:  50%|█████     | 127/254 [00:01\u003c00:01, 83.55it/s]\rLoading weights:  43%|████▎     | 110/254 [00:01\u003c00:01, 79.30it/s]\rLoading weights:  50%|█████     | 127/254 [00:01\u003c00:01, 83.55it/s]\n"}
+,{"stream_name":"stderr","time":1673.395544776,"data":"\rLoading weights:  43%|████▎     | 110/254 [00:01\u003c00:01, 79.30it/s]\rLoading weights:  50%|█████     | 127/254 [00:01\u003c00:01, 83.55it/s]\rLoading weights:  56%|█████▌    | 141/254 [00:02\u003c00:01, 76.48it/s]\rLoading weights:  60%|██████    | 153/254 [00:02\u003c00:01, 81.70it/s]\rLoading weights:  56%|█████▌    | 141/254 [00:02\u003c00:01, 76.48it/s]\rLoading weights:  60%|██████    | 153/254 [00:02\u003c00:01, 81.70it/s]\n"}
+,{"stream_name":"stderr","time":1673.687899556,"data":"\rLoading weights:  56%|█████▌    | 141/254 [00:02\u003c00:01, 76.48it/s]\rLoading weights:  60%|██████    | 153/254 [00:02\u003c00:01, 81.70it/s]\rLoading weights:  65%|██████▍   | 165/254 [00:02\u003c00:01, 77.49it/s]\rLoading weights:  69%|██████▉   | 175/254 [00:02\u003c00:01, 76.57it/s]\rLoading weights:  65%|██████▍   | 165/254 [00:02\u003c00:01, 77.49it/s]\rLoading weights:  69%|██████▉   | 175/254 [00:02\u003c00:01, 76.57it/s]\n"}
+,{"stream_name":"stderr","time":1673.953206088,"data":"\rLoading weights:  65%|██████▍   | 165/254 [00:02\u003c00:01, 77.49it/s]\rLoading weights:  69%|██████▉   | 175/254 [00:02\u003c00:01, 76.57it/s]\rLoading weights:  72%|███████▏  | 184/254 [00:02\u003c00:00, 75.36it/s]\rLoading weights:  79%|███████▉  | 201/254 [00:02\u003c00:00, 86.22it/s]\rLoading weights:  72%|███████▏  | 184/254 [00:02\u003c00:00, 75.36it/s]\rLoading weights:  79%|███████▉  | 201/254 [00:02\u003c00:00, 86.22it/s]\n"}
+,{"stream_name":"stderr","time":1674.22753051,"data":"\rLoading weights:  72%|███████▏  | 184/254 [00:02\u003c00:00, 75.36it/s]\rLoading weights:  79%|███████▉  | 201/254 [00:02\u003c00:00, 86.22it/s]\rLoading weights:  83%|████████▎ | 211/254 [00:03\u003c00:00, 84.91it/s]\rLoading weights:  87%|████████▋ | 220/254 [00:03\u003c00:00, 82.58it/s]\rLoading weights:  83%|████████▎ | 211/254 [00:03\u003c00:00, 84.91it/s]\rLoading weights:  87%|████████▋ | 220/254 [00:03\u003c00:00, 82.58it/s]\n"}
+,{"stream_name":"stderr","time":1674.467635584,"data":"\rLoading weights:  83%|████████▎ | 211/254 [00:03\u003c00:00, 84.91it/s]\rLoading weights:  87%|████████▋ | 220/254 [00:03\u003c00:00, 82.58it/s]\rLoading weights:  91%|█████████ | 230/254 [00:03\u003c00:00, 76.23it/s]\rLoading weights:  97%|█████████▋| 246/254 [00:03\u003c00:00, 86.46it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 73.62it/s]\n"}
+,{"stream_name":"stderr","time":1674.499912472,"data":"\rLoading weights:  91%|█████████ | 230/254 [00:03\u003c00:00, 76.23it/s]\rLoading weights:  97%|█████████▋| 246/254 [00:03\u003c00:00, 86.46it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 73.62it/s]\n"}
+,{"stream_name":"stderr","time":1674.499940854,"data":"\n"}
+,{"stream_name":"stderr","time":1674.499945063,"data":"\rLoading weights:  91%|█████████ | 230/254 [00:03\u003c00:00, 76.23it/s]\rLoading weights:  97%|█████████▋| 246/254 [00:03\u003c00:00, 86.46it/s]\rLoading weights: 100%|██████████| 254/254 [00:03\u003c00:00, 73.62it/s]\n"}
+,{"stream_name":"stdout","time":1783.565864693,"data":"llama_3_2_3b_retain90: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stdout","time":1783.771928972,"data":"llama_3_2_3b_retain90: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stderr","time":1792.732230662,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":1811.139300333,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:18\u003c00:55, 18.40s/it]\rFetching 4 files:  25%|██▌       | 1/4 [00:18\u003c00:55, 18.40s/it]\n"}
+,{"stream_name":"stderr","time":1870.177756565,"data":"\rFetching 4 files:  25%|██▌       | 1/4 [00:18\u003c00:55, 18.40s/it]\rFetching 4 files:  50%|█████     | 2/4 [01:17\u003c01:24, 42.42s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:17\u003c00:00, 19.41s/it]\n"}
+,{"stream_name":"stderr","time":1870.377892197,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:17\u003c01:24, 42.42s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:17\u003c00:00, 19.41s/it]\n"}
+,{"stream_name":"stderr","time":1870.377921511,"data":"\n"}
+,{"stream_name":"stderr","time":1870.377927561,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:17\u003c01:24, 42.42s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:17\u003c00:00, 19.41s/it]\n"}
+,{"stream_name":"stderr","time":1870.756133196,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1870.7576069,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 814, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1870.75762495,"data":"    main()\n"}
+,{"stream_name":"stderr","time":1870.757631579,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":1870.757638897,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 782, in main\n"}
+,{"stream_name":"stderr","time":1870.757642157,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":1870.757645153,"data":"        key,\n"}
+,{"stream_name":"stderr","time":1870.757647963,"data":"    ...\u003c4 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.757651542,"data":"        args.generation_batch_size,\n"}
+,{"stream_name":"stderr","time":1870.757667855,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.75767312,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 635, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":1870.757678465,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.757683551,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":1870.757688796,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.757693144,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":1870.757697464,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.75770159,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.757706078,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.75771206,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.757719525,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":1870.757722613,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.757725486,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.75772821,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.757740713,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.757743303,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":1870.757745586,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.757747861,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":1870.75775075,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.75776523,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.757768791,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.757772123,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4435, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":1870.757775163,"data":"    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)\n"}
+,{"stream_name":"stderr","time":1870.757777998,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.757781581,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 5148, in caching_allocator_warmup\n"}
+,{"stream_name":"stderr","time":1870.757785784,"data":"    _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)\n"}
+,{"stream_name":"stderr","time":1870.75779149,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.46 GiB. GPU 0 has a total capacity of 14.56 GiB of which 7.31 GiB is free. Including non-PyTorch memory, this process has 7.25 GiB memory in use. Of the allocated memory 7.10 GiB is allocated by PyTorch, and 18.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":1870.958740988,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1870.958774042,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 814, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1870.958779666,"data":"    main()\n"}
+,{"stream_name":"stderr","time":1870.958782959,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":1870.958786211,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 782, in main\n"}
+,{"stream_name":"stderr","time":1870.958789822,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":1870.958793124,"data":"        key,\n"}
+,{"stream_name":"stderr","time":1870.958796364,"data":"    ...\u003c4 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.958801206,"data":"        args.generation_batch_size,\n"}
+,{"stream_name":"stderr","time":1870.958808434,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958811474,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 635, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":1870.958813981,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.958816366,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":1870.958818637,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.958820916,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":1870.958823251,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958837073,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.958839761,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.958841957,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.958844184,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":1870.958846573,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958848874,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958850968,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.958853143,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.958855609,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":1870.958858366,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.95886086,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":1870.9588632,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958865407,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958867535,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.958869633,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4435, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":1870.958872121,"data":"    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)\n"}
+,{"stream_name":"stderr","time":1870.958874376,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958876657,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 5148, in caching_allocator_warmup\n"}
+,{"stream_name":"stderr","time":1870.958879032,"data":"    _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)\n"}
+,{"stream_name":"stderr","time":1870.958883009,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.46 GiB. GPU 0 has a total capacity of 14.56 GiB of which 7.31 GiB is free. Including non-PyTorch memory, this process has 7.25 GiB memory in use. Of the allocated memory 7.10 GiB is allocated by PyTorch, and 18.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":1870.958886472,"data":"\n"}
+,{"stream_name":"stderr","time":1870.958888598,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1870.958890834,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 814, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1870.958893326,"data":"    main()\n"}
+,{"stream_name":"stderr","time":1870.958895455,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":1870.958897587,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 782, in main\n"}
+,{"stream_name":"stderr","time":1870.958899855,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":1870.95890207,"data":"        key,\n"}
+,{"stream_name":"stderr","time":1870.958906559,"data":"    ...\u003c4 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.9589089,"data":"        args.generation_batch_size,\n"}
+,{"stream_name":"stderr","time":1870.958911118,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958913241,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 635, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":1870.958915546,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.958917779,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":1870.958920017,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":1870.958922207,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":1870.958924465,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958926621,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.958928947,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":1870.958931164,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.958933336,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":1870.95893566,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958937917,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958940051,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.958942165,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":1870.958944517,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":1870.958946752,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":1870.958948999,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":1870.95895121,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958953454,"data":"    )\n"}
+,{"stream_name":"stderr","time":1870.958955557,"data":"    ^\n"}
+,{"stream_name":"stderr","time":1870.958957691,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4435, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":1870.958960013,"data":"    caching_allocator_warmup(model, expanded_device_map, load_config.hf_quantizer)\n"}
+,{"stream_name":"stderr","time":1870.95896231,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1870.958964575,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 5148, in caching_allocator_warmup\n"}
+,{"stream_name":"stderr","time":1870.958967195,"data":"    _ = torch.empty(int(byte_count // 2), dtype=torch.float16, device=device, requires_grad=False)\n"}
+,{"stream_name":"stderr","time":1870.958969644,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.46 GiB. GPU 0 has a total capacity of 14.56 GiB of which 7.31 GiB is free. Including non-PyTorch memory, this process has 7.25 GiB memory in use. Of the allocated memory 7.10 GiB is allocated by PyTorch, and 18.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":1876.18779977,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1876.18860844,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":1876.188626305,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":1876.188632359,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1876.188636716,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":1876.188640799,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":1876.18864488,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1876.188648599,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":1876.188652622,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":1876.189564165,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":1876.189578348,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":1876.189582523,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":1876.189586417,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":1876.189590311,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":1876.189594132,"data":"/tmp/ipykernel_23/3654074629.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":1876.189598405,"data":"      3 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":1876.18960283,"data":"      4 if run.returncode:\n"}
+,{"stream_name":"stderr","time":1876.189606686,"data":"----\u003e 5     raise RuntimeError(f'Official-metric evaluator failed with status {run.returncode}; download the partial receipt zip for debugging.')\n"}
+,{"stream_name":"stderr","time":1876.189610854,"data":"      6 verify = subprocess.run([sys.executable, '/kaggle/working/verify_tofu_official_eval.py', '/kaggle/working/tofu_official_eval', '--audit', '/kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json'])\n"}
+,{"stream_name":"stderr","time":1876.189614969,"data":"      7 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq -FS tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":1876.1896192,"data":"\n"}
+,{"stream_name":"stderr","time":1876.189622665,"data":"RuntimeError: Official-metric evaluator failed with status 1; download the partial receipt zip for debugging.\n"}
+,{"stream_name":"stderr","time":1876.189626824,"data":"\n"}
+,{"stream_name":"stderr","time":1879.130275198,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1879.130302318,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1879.327041495,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1879.327073813,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1880.107852654,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1880.198652005,"data":"[NbConvertApp] Writing 114769 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1882.793674108,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1883.543276209,"data":"[NbConvertApp] Writing 657942 bytes to __results__.html\n"}
+]

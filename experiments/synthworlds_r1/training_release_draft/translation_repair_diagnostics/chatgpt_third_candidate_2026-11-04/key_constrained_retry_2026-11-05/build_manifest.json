@@ -1,0 +1,11 @@
+{
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "input_sha256": "6c628670ec11fc756a8f8a1e1070855da1d206bd6d9c8bc5be6b615978a494ee",
+  "parent_output_sha256": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+  "release_approved": false,
+  "review_key": "R0349",
+  "script_sha256": "e4b16e2cd15ea22072446236d2d028be0b7e9681078f976cc4d7af0d3c85d996",
+  "status": "PREPARED_ONE_ROW_SCHEMA_CONSTRAINED_RETRY_NOT_APPROVAL",
+  "training_eligible": false
+}

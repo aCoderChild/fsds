@@ -1,0 +1,40 @@
+{
+  "status": "AI_ONLY_REVIEW_IMPORTED_AND_STRUCTURALLY_VALIDATED",
+  "review_mode": "AI_ONLY",
+  "human_review_performed": false,
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "REJECTED_AND_STOPPED",
+      "reason": "Input included protected_entity_names beyond names appearing in the source question; this could disclose target answers to the translator/reviewer.",
+      "output_imported": false
+    },
+    {
+      "attempt": 2,
+      "status": "COMPLETED_AND_IMPORTED",
+      "input_fields": [
+        "translation_id",
+        "source_question_en",
+        "nllb_draft"
+      ],
+      "gold_labels_attached": false,
+      "instruction": "Use source question and draft only; do not infer or add answers.",
+      "output_rows_by_language": {
+        "fr": 258,
+        "de": 258,
+        "hi": 258,
+        "th": 258
+      },
+      "import_validation": "PASS",
+      "validation_scope": [
+        "JSONL and exact schema",
+        "ID completeness uniqueness order",
+        "AI_REVIEWED status",
+        "protected entity names present in the source prompt",
+        "placeholder absence"
+      ],
+      "review_classification": "AI-only; not human-validated or linguistically certified"
+    }
+  ],
+  "import_report": "ai_reviewed/review_import_report.json"
+}

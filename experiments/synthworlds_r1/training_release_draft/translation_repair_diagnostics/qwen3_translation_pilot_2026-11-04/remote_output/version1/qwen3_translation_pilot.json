@@ -1,0 +1,181 @@
+{
+  "status": "AI_ONLY_TRANSLATION_PILOT_BLOCKED",
+  "mode": "qwen3_14b_translation_pilot_16",
+  "input_sha256": "c9e41c15d3f60cb77d62dcfdef75fc3a1ae5d72ccd10c7bbc8e06d907f3cf1fc",
+  "model_id": "Qwen/Qwen3-14B",
+  "model_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "started_at_utc": "2026-11-04T13:26:51.863099+00:00",
+  "completed_at_utc": "2026-11-04T13:33:26.003459+00:00",
+  "translated_rows": 12,
+  "blocked_rows": 4,
+  "records": [
+    {
+      "review_key": "R0008",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "4ae5254e8ca1200daaff12908602eaa9b28899f5c0cc4e9f941302b91cd3ffe2",
+      "translation": "Qui est un étudiant en doctorat de [ENTITY_A] ?",
+      "translation_sha256": "a5ae7f693aa4be35401069db832222b8d848b3f01af0f15650128f0dfe82fb94",
+      "raw_output": "{\"key\": \"R0008\", \"translation\": \"Qui est un étudiant en doctorat de [ENTITY_A] ?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0011",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation": "Quelle date [ENTITY_A] est devenu un parent de [ENTITY_B] ?",
+      "translation_sha256": "9b8192ab539bcaba11f0ed3ca3ebc114a2c3dca21eb161d5ac6ece453ef0e51b",
+      "raw_output": "{\"key\": \"R0011\", \"translation\": \"Quelle date [ENTITY_A] est devenu un parent de [ENTITY_B] ?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0123",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "1e50886eb0e4836f83d3efe0227657fec28d2e97bdd1671a298d761d8d9de1e9",
+      "translation": "Où a été formé le [ENTITY_A] ?",
+      "translation_sha256": "dec025b03abc5c224f8865c41709a9263a5e6b2d88551346bd857e9b3c06305e",
+      "raw_output": "{\"key\": \"R0123\", \"translation\": \"Où a été formé le [ENTITY_A] ?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0125",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7",
+      "translation": "Quelle entité territoriale administrative [ENTITY_A] contient-elle ?",
+      "translation_sha256": "d5d804046385f19d4bc35718eaa86a15a732324af512f0df19427decb134fab1",
+      "raw_output": "{\"key\": \"R0125\", \"translation\": \"Quelle entité territoriale administrative [ENTITY_A] contient-elle ?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0177",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "7f2ce4f575ddda68a078f93ed354fe2b291f750859bb80dbc1f7399b92544ff8",
+      "translation": "Was ersetzt [ENTITY_A]?",
+      "translation_sha256": "2618829b49bcde63fb8a1fcfd97dbe6f992110748ea8bbee561f625d430a04b4",
+      "raw_output": "{\"key\": \"R0177\", \"translation\": \"Was ersetzt [ENTITY_A]?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation": "An welchem Datum wurde [ENTITY_A] zum Land, in dem [ENTITY_B] ist?",
+      "translation_sha256": "5d54248be519a169cbf9827e15e8e0d3baf491fb4c01ac15cc4f09a75438c1af",
+      "raw_output": "{\"key\": \"R0179\", \"translation\": \"An welchem Datum wurde [ENTITY_A] zum Land, in dem [ENTITY_B] ist?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0277",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "8ad08b0666a0d52931d8efa1f89c3eed0663a159772c55f960e5e693bf605cca",
+      "translation": "Wer ist der Vater des unverheirateten Partners des Ehegatten von [ENTITY_A]?",
+      "translation_sha256": "d7446b504c46a3ebc9266f8def5dcd3bec57da3d20cc1954194d2076cdbe9070",
+      "raw_output": "{\"key\": \"R0277\", \"translation\": \"Wer ist der Vater des unverheirateten Partners des Ehegatten von [ENTITY_A]?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0282",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7",
+      "translation": "Welche verwaltende territoriale Einheit enthält [ENTITY_A]?",
+      "translation_sha256": "69a3bc36023d613647935744f6bf9dbb1e4dfba8dcbd35c3d68953603aa4ccdc",
+      "raw_output": "{\"key\": \"R0282\", \"translation\": \"Welche verwaltende territoriale Einheit enthält [ENTITY_A]?\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0345",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation": null,
+      "translation_sha256": null,
+      "raw_output": null,
+      "error": "JSONDecodeError: Unterminated string starting at: line 1 column 33 (char 32)"
+    },
+    {
+      "review_key": "R0347",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72",
+      "translation": null,
+      "translation_sha256": null,
+      "raw_output": null,
+      "error": "JSONDecodeError: Unterminated string starting at: line 1 column 33 (char 32)"
+    },
+    {
+      "review_key": "R0464",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "translation": null,
+      "translation_sha256": null,
+      "raw_output": null,
+      "error": "JSONDecodeError: Unterminated string starting at: line 1 column 33 (char 32)"
+    },
+    {
+      "review_key": "R0465",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c",
+      "translation": null,
+      "translation_sha256": null,
+      "raw_output": null,
+      "error": "JSONDecodeError: Unterminated string starting at: line 1 column 33 (char 32)"
+    },
+    {
+      "review_key": "R0547",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "024d137c445804ec546790cfc51bdbd094cd03ff0bde49342a438cfc33f60430",
+      "translation": "บริษัท [ENTITY_A] ได้จดทะเบียนเมื่อวันที่ [NUMBER] ใช่ไหม",
+      "translation_sha256": "07010e9d0ea7db1736f6fdbd01db0672ae51e60be80d773590aab59c39f06504",
+      "raw_output": "{\"key\": \"R0547\", \"translation\": \"บริษัท [ENTITY_A] ได้จดทะเบียนเมื่อวันที่ [NUMBER] ใช่ไหม\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0549",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+      "translation": "วันที่ [ENTITY_A] ยุติการดำรงตำแหน่งผู้อำนวยการของ [ENTITY_B] คือเมื่อใด",
+      "translation_sha256": "d4bfeea2be63a272859e298f87206d48663893339c14efdd0250315539d21523",
+      "raw_output": "{\"key\": \"R0549\", \"translation\": \"วันที่ [ENTITY_A] ยุติการดำรงตำแหน่งผู้อำนวยการของ [ENTITY_B] คือเมื่อใด\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0701",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "translation": "สิ่งใดคือส่วนหนึ่งของระดับที่สูงกว่าขั้นตอนต่อไปซึ่ง [ENTITY_A] เป็นsubclass ของชั้น",
+      "translation_sha256": "ef43285d66fa10f536a44f8264041510397e78d43222facbc001e7dfca921ce5",
+      "raw_output": "{\"key\": \"R0701\", \"translation\": \"สิ่งใดคือส่วนหนึ่งของระดับที่สูงกว่าขั้นตอนต่อไปซึ่ง [ENTITY_A] เป็นsubclass ของชั้น\"}",
+      "error": null
+    },
+    {
+      "review_key": "R0702",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "translation": "คลาสใดที่ [ENTITY_A] เป็นซับคลาสของ",
+      "translation_sha256": "ed0fc442da3c63ec88fc10dbfa2bf4841883126682782d9210a8c12828a2ebfa",
+      "raw_output": "{\"key\": \"R0702\", \"translation\": \"คลาสใดที่ [ENTITY_A] เป็นซับคลาสของ\"}",
+      "error": null
+    }
+  ]
+}

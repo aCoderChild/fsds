@@ -1,0 +1,32 @@
+{
+  "answers_or_splits_sent": false,
+  "candidate_sha256": "18d869f4c7757dae66b6f3426e3ca2c20ac3c2fe7597699de2680bf7f604822f",
+  "counts_by_language_kind": {
+    "de/atomic": 7,
+    "de/composition": 12,
+    "fr/atomic": 15,
+    "fr/composition": 6,
+    "hi/atomic": 34,
+    "hi/composition": 28,
+    "th/atomic": 44,
+    "th/composition": 41
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "limitations": [
+    "This is an AI-only semantic, fluency, and back-translation screen; it cannot certify human fluency.",
+    "All outputs remain quarantined diagnostic candidates; no output automatically changes the frozen corpus.",
+    "The exact serving/version of the ChatGPT used to draft candidate translations was not exposed."
+  ],
+  "model_ids_and_revisions": {
+    "backtranslation": "facebook/nllb-200-distilled-600M@f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+    "judge": "Qwen/Qwen2.5-14B-Instruct@cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "prepared_review_script_sha256": "ddca89d232f230949087934f771f5a940203f9d32c232da4d3330512f02d3d81",
+  "release_approved": false,
+  "rows": 187,
+  "source_queue_sha256": "6d4090178783b14eff9317d6e09ae58f4c3c2e2907ee1faa6429ce92a4cf7fba",
+  "status": "PREPARED_FOR_MASKED_INDEPENDENT_AI_ONLY_REVIEW",
+  "template_sha256": "4e30ed92f6e53de59b48e15e017adf8119f9ae62d2850935ff9ca1928a4d3993",
+  "training_eligible": false
+}

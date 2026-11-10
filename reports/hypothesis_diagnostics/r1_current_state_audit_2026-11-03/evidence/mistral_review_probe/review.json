@@ -1,0 +1,178 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "input_sha256": "38ff32f0036ce23e2a2daf0fa3c3d12fcf692eb3454d2ee45a6336e2f6d000ee",
+  "generator_revision": "not recorded",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning of the question, maintains the question type (interrogative), and is natural in French. The question asks about the godparent of a specific entity, and the French translation correctly uses the appropriate gender-neutral pronoun 'il' for the entity, followed by 'ou' to indicate a choice between 'parrain' (godfather) and 'marraine' (godmother). The question structure is also correctly replicated in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning of the question, maintains the question type (interrogative), and is natural in French. The question asks about the godparent of a specific entity, and the French translation correctly uses the appropriate gender-neutral pronoun 'il' for the entity, followed by 'ou' to indicate a choice between 'parrain' (godfather) and 'marraine' (godmother). The question structure is also correctly replicated in French."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning of the original question, maintains the relationship direction (parent-child), and is natural in French. The question type (who) is also correctly translated.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning of the original question, maintains the relationship direction (parent-child), and is natural in French. The question type (who) is also correctly translated."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation correctly preserves the question type (interrogative), the relationship direction (from entity to editor), and the exact meaning of the original question. The use of 'oder die Herausgeberin' ensures that the translation is natural in German, as it accounts for the possibility of a female editor.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation correctly preserves the question type (interrogative), the relationship direction (from entity to editor), and the exact meaning of the original question. The use of 'oder die Herausgeberin' ensures that the translation is natural in German, as it accounts for the possibility of a female editor."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning and question type by using the correct German terms for 'doctoral student' (Doktorand or Doktorandin) and maintains the relationship direction. The question is also natural in the target language.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning and question type by using the correct German terms for 'doctoral student' (Doktorand or Doktorandin) and maintains the relationship direction. The question is also natural in the target language."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relationship direction (from Entity A to Work), and question type (informational question). The sentence structure and word choice are natural in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relationship direction (from Entity A to Work), and question type (informational question). The sentence structure and word choice are natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relationship direction, and question type. It is also natural in German, using appropriate terminology and grammatical structure.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relationship direction, and question type. It is also natural in German, using appropriate terminology and grammatical structure."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning of the question, maintains the relationship direction (parent-child), and is natural in German. The term 'Stiefelternteil' is commonly used in German to refer to a stepparent.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning of the question, maintains the relationship direction (parent-child), and is natural in German. The term 'Stiefelternteil' is commonly used in German to refer to a stepparent."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning and question type by asking about what is on the boundary of the entity. The question structure and direction are also maintained. The sentence is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning and question type by asking about what is on the boundary of the entity. The question structure and direction are also maintained. The sentence is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relationship direction (subject-object), and question type (interrogative). The sentence structure and word choice are natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relationship direction (subject-object), and question type (interrogative). The sentence structure and word choice are natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning by using 'धर्म-माता या धर्म-पिता' which is equivalent to 'godparent' in Hindi. The question type remains the same as the original English question.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning by using 'धर्म-माता या धर्म-पिता' which is equivalent to 'godparent' in Hindi. The question type remains the same as the original English question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning and question type, and it is natural in Thai. The question in Thai is grammatically correct and follows the structure of the original English question.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning and question type, and it is natural in Thai. The question in Thai is grammatically correct and follows the structure of the original English question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relationship direction, and question type. It is natural in Thai as it asks for the honorific prefix used for a given entity in a question format.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relationship direction, and question type. It is natural in Thai as it asks for the honorific prefix used for a given entity in a question format."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning and question type, and it is natural in Thai. The question asks who performed the action related to the entity, and the Thai translation does the same.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning and question type, and it is natural in Thai. The question asks who performed the action related to the entity, and the Thai translation does the same."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relationship direction (from the creator of the noble title to their father), and question type (who). The sentence structure and word choice are natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relationship direction (from the creator of the noble title to their father), and question type (who). The sentence structure and word choice are natural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning of the question, maintains the question type (interrogative), and is natural in Thai. The Thai question uses the correct terms for 'godparent' (pho thoon hau or ma thoon hau) and correctly inverts the word order to form a question.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning of the question, maintains the question type (interrogative), and is natural in Thai. The Thai question uses the correct terms for 'godparent' (pho thoon hau or ma thoon hau) and correctly inverts the word order to form a question."
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "APPROVED_PILOT_SPLIT",
+  "reviewer_name": "OpenAI Codex (delegated AI technical review)",
+  "reviewer_type": "AI",
+  "review_date": "2026-11-02",
+  "delegation_basis": "User instruction to complete the pending SFT readiness tasks.",
+  "scope": "Technical approval for the 129-case feasibility pilot split only; not approval of the full dataset or a statistically powered main-study split.",
+  "basis": {
+    "split_counts": {"forget": 77, "retain": 26, "holdout": 26},
+    "indivisible_groups": 101,
+    "cross_split_entity_overlaps": 0,
+    "cross_split_chain_fact_overlaps": 0,
+    "cross_split_exact_answer_overlaps": 0,
+    "source_hashes_verified": true
+  },
+  "limitations": [
+    "70 ambiguous Type-A cases and 1,000 other graph types are excluded.",
+    "One graph/source R2 conflict is quarantined.",
+    "The 129-case partition is a feasibility pilot, not a powered final dataset."
+  ]
+}

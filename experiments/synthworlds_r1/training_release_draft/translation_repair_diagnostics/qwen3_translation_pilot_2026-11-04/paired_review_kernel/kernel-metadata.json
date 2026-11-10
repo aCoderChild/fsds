@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/swsm-qwen3-pilot-paired-review-2026-11-04",
+  "title": "SWSM Qwen3 Pilot Paired Review 2026-11-04",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

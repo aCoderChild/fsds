@@ -1,0 +1,29 @@
+{
+  "answers_sent_to_translator": false,
+  "candidates_sha256": "504d254fb91a94c25ca830f868b5a578f0344bba115bc5bfc22d6c3c1485e4c9",
+  "deterministic_passes": 32,
+  "generation": {
+    "batch_size": 4,
+    "device": "mps",
+    "do_sample": false,
+    "dtype": "float32",
+    "num_beams": 2
+  },
+  "generator_script_sha256": "b22ab358d4d0ff3bf150dda7aeb14920d9dc69180f6fc30b020e6fbf5af6ca89",
+  "human_translation_reviewed": false,
+  "limits": [
+    "Fixed matched sample only; candidates are unreviewed and not approved.",
+    "No human translation review was performed."
+  ],
+  "model_id": "facebook/nllb-200-distilled-1.3B",
+  "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "nllb_helper_sha256": "0fdb808349080969b98b4cad3aea9685537f448ff2650d6fb8b1bbddefbbf017",
+  "rows": 32,
+  "selection_verifier_sha256": "98bd822dadf41a397f1a92a36340d08ac516314688d45237ccb65348ae1a815f",
+  "source_calibration_decisions_sha256": "5c844f52a83a0fc19f9c1fc28fe415ebcafe6e1bb11a943a7094f96b2cf43908",
+  "source_calibration_report_sha256": "1c9d0e63cca3e4950453b4a2f3f40467fd1214d73c4e177a72e201e1b5b32325",
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW",
+  "torch_version": "2.13.0",
+  "transformers_version": "4.57.6",
+  "translation_successes": 32
+}

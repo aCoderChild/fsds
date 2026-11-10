@@ -1,0 +1,578 @@
+[{"stream_name":"stderr","time":8.847409667,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.847459896,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.847464855,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.847467783,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.508234423,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.508272432,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.508278137,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.508282656,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":36.285855594,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":36.285897342,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.489674547,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":36.489717988,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":36.48973089,"data":"\n"}
+,{"stream_name":"stderr","time":36.489734018,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":36.489737083,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":36.629992871,"data":"{'transformers': '5.22.1', 'accelerate': '1.15.0', 'scipy': '1.17.1', 'rouge-score': '0.1.2'}\n"}
+,{"stream_name":"stdout","time":44.133861167,"data":"{'gpus': ['Tesla T4', 'Tesla T4'], 'memory_bytes': [15636037632, 15636037632]}\n"}
+,{"stream_name":"stdout","time":44.174510494,"data":"Writing /kaggle/working/diagnose_tofu.py\n"}
+,{"stream_name":"stdout","time":44.227628487,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":44.268495098,"data":"Writing /kaggle/working/verify_tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":46.581548974,"data":"{'restore_source': 'private Kaggle dataset input', 'verified_files': ['audit/tofu_readiness_audit.json', 'audit/tofu_readiness_audit.md', 'llama_3_2_3b_full_examples.jsonl', 'llama_3_2_3b_full_official_eval.json', 'llama_3_2_3b_retain90_examples.jsonl', 'llama_3_2_3b_retain90_official_eval.json', 'official_eval_status.json']}\n"}
+,{"stream_name":"stdout","time":52.482280436,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json\r\n"}
+,{"stream_name":"stdout","time":52.482321872,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.md\r\n"}
+,{"stream_name":"stdout","time":52.482327711,"data":"Data structural checks: PASS\r\n"}
+,{"stream_name":"stdout","time":52.482332762,"data":"Checkpoint configs available: 4/4\r\n"}
+,{"stream_name":"stdout","time":52.482337512,"data":"Checkpoint files available: PASS\r\n"}
+,{"stream_name":"stdout","time":52.482365668,"data":"Model weights downloaded: 0; training started: no\r\n"}
+,{"stream_name":"stderr","time":75.566479861,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":75.769256122,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":75.769296348,"data":"\n"}
+,{"stream_name":"stderr","time":75.76930243,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":91.142722356,"data":"Loading Llama 3.1 8B full with balanced; max_memory=13GiB per T4\n"}
+,{"stream_name":"stdout","time":91.35604244,"data":"Loading Llama 3.1 8B full with balanced; max_memory=13GiB per T4\n"}
+,{"stream_name":"stderr","time":92.146674375,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":136.80999203,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:44\u003c02:13, 44.58s/it]\rFetching 4 files:  25%|██▌       | 1/4 [00:44\u003c02:13, 44.58s/it]\n"}
+,{"stream_name":"stderr","time":170.479399019,"data":"\rFetching 4 files:  25%|██▌       | 1/4 [00:44\u003c02:13, 44.58s/it]\rFetching 4 files:  50%|█████     | 2/4 [01:18\u003c01:16, 38.33s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:18\u003c00:00, 19.63s/it]\n"}
+,{"stream_name":"stderr","time":170.698768956,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:18\u003c01:16, 38.33s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:18\u003c00:00, 19.63s/it]\n"}
+,{"stream_name":"stderr","time":170.698817383,"data":"\n"}
+,{"stream_name":"stderr","time":170.698823277,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:18\u003c01:16, 38.33s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:18\u003c00:00, 19.63s/it]\n"}
+,{"stream_name":"stderr","time":171.111000256,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":180.091457163,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/291 [00:08\u003c43:24,  8.98s/it]\rLoading weights:   0%|          | 1/291 [00:08\u003c43:24,  8.98s/it]\n"}
+,{"stream_name":"stderr","time":180.454687032,"data":"\rLoading weights:   0%|          | 1/291 [00:08\u003c43:24,  8.98s/it]\rLoading weights:   1%|          | 2/291 [00:09\u003c18:50,  3.91s/it]\rLoading weights:   1%|          | 2/291 [00:09\u003c18:50,  3.91s/it]\n"}
+,{"stream_name":"stderr","time":181.779759602,"data":"\rLoading weights:   1%|          | 2/291 [00:09\u003c18:50,  3.91s/it]\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:11, 17.08it/s]\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:11, 17.08it/s]\n"}
+,{"stream_name":"stderr","time":182.238531652,"data":"\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:11, 17.08it/s]\rLoading weights:  37%|███▋      | 107/291 [00:11\u003c00:11, 16.26it/s]\rLoading weights:  37%|███▋      | 107/291 [00:11\u003c00:11, 16.26it/s]\n"}
+,{"stream_name":"stderr","time":183.591726525,"data":"\rLoading weights:  37%|███▋      | 107/291 [00:11\u003c00:11, 16.26it/s]\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:14, 12.57it/s]\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:14, 12.57it/s]\n"}
+,{"stream_name":"stderr","time":184.055223953,"data":"\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:14, 12.57it/s]\rLoading weights:  39%|███▉      | 114/291 [00:12\u003c00:15, 11.53it/s]\rLoading weights:  39%|███▉      | 114/291 [00:12\u003c00:15, 11.53it/s]\n"}
+,{"stream_name":"stderr","time":185.459047778,"data":"\rLoading weights:  39%|███▉      | 114/291 [00:12\u003c00:15, 11.53it/s]\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:18,  9.23it/s]\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:18,  9.23it/s]\n"}
+,{"stream_name":"stderr","time":186.579575834,"data":"\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:18,  9.23it/s]\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:18,  8.90it/s]\rLoading weights:  48%|████▊     | 139/291 [00:15\u003c00:13, 11.37it/s]\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:18,  8.90it/s]\rLoading weights:  48%|████▊     | 139/291 [00:15\u003c00:13, 11.37it/s]\n"}
+,{"stream_name":"stderr","time":187.042025159,"data":"\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:18,  8.90it/s]\rLoading weights:  48%|████▊     | 139/291 [00:15\u003c00:13, 11.37it/s]\rLoading weights:  49%|████▉     | 142/291 [00:15\u003c00:13, 11.34it/s]\rLoading weights:  52%|█████▏    | 150/291 [00:16\u003c00:09, 15.28it/s]\rLoading weights:  49%|████▉     | 142/291 [00:15\u003c00:13, 11.34it/s]\rLoading weights:  52%|█████▏    | 150/291 [00:16\u003c00:09, 15.28it/s]\n"}
+,{"stream_name":"stderr","time":187.457878284,"data":"\rLoading weights:  49%|████▉     | 142/291 [00:15\u003c00:13, 11.34it/s]\rLoading weights:  52%|█████▏    | 150/291 [00:16\u003c00:09, 15.28it/s]\rLoading weights:  54%|█████▍    | 157/291 [00:16\u003c00:07, 16.79it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:16\u003c00:05, 21.84it/s]\rLoading weights:  54%|█████▍    | 157/291 [00:16\u003c00:07, 16.79it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:16\u003c00:05, 21.84it/s]\n"}
+,{"stream_name":"stderr","time":187.773145229,"data":"\rLoading weights:  54%|█████▍    | 157/291 [00:16\u003c00:07, 16.79it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:16\u003c00:05, 21.84it/s]\rLoading weights:  58%|█████▊    | 170/291 [00:16\u003c00:05, 22.57it/s]\rLoading weights:  60%|██████    | 175/291 [00:16\u003c00:04, 24.10it/s]\rLoading weights:  58%|█████▊    | 170/291 [00:16\u003c00:05, 22.57it/s]\rLoading weights:  60%|██████    | 175/291 [00:16\u003c00:04, 24.10it/s]\n"}
+,{"stream_name":"stderr","time":189.620105811,"data":"\rLoading weights:  58%|█████▊    | 170/291 [00:16\u003c00:05, 22.57it/s]\rLoading weights:  60%|██████    | 175/291 [00:16\u003c00:04, 24.10it/s]\rLoading weights:  63%|██████▎   | 184/291 [00:18\u003c00:10, 10.30it/s]\rLoading weights:  63%|██████▎   | 184/291 [00:18\u003c00:10, 10.30it/s]\n"}
+,{"stream_name":"stderr","time":189.890829037,"data":"\rLoading weights:  63%|██████▎   | 184/291 [00:18\u003c00:10, 10.30it/s]\rLoading weights:  66%|██████▋   | 193/291 [00:18\u003c00:07, 13.61it/s]\rLoading weights:  66%|██████▋   | 193/291 [00:18\u003c00:07, 13.61it/s]\n"}
+,{"stream_name":"stderr","time":191.462269386,"data":"\rLoading weights:  66%|██████▋   | 193/291 [00:18\u003c00:07, 13.61it/s]\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:13,  7.24it/s]\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:13,  7.24it/s]\n"}
+,{"stream_name":"stderr","time":191.970341652,"data":"\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:13,  7.24it/s]\rLoading weights:  69%|██████▉   | 202/291 [00:20\u003c00:10,  8.16it/s]\rLoading weights:  69%|██████▉   | 202/291 [00:20\u003c00:10,  8.16it/s]\n"}
+,{"stream_name":"stderr","time":192.245205484,"data":"\rLoading weights:  69%|██████▉   | 202/291 [00:20\u003c00:10,  8.16it/s]\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.04it/s]\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.04it/s]\n"}
+,{"stream_name":"stderr","time":192.491206089,"data":"\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.04it/s]\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.25it/s]\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.25it/s]\n"}
+,{"stream_name":"stderr","time":194.042872039,"data":"\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.25it/s]\rLoading weights:  73%|███████▎  | 211/291 [00:22\u003c00:15,  5.08it/s]\rLoading weights:  73%|███████▎  | 211/291 [00:22\u003c00:15,  5.08it/s]\n"}
+,{"stream_name":"stderr","time":195.585063965,"data":"\rLoading weights:  73%|███████▎  | 211/291 [00:22\u003c00:15,  5.08it/s]\rLoading weights:  76%|███████▌  | 220/291 [00:24\u003c00:13,  5.42it/s]\rLoading weights:  76%|███████▌  | 220/291 [00:24\u003c00:13,  5.42it/s]\n"}
+,{"stream_name":"stderr","time":195.965293583,"data":"\rLoading weights:  76%|███████▌  | 220/291 [00:24\u003c00:13,  5.42it/s]\rLoading weights:  76%|███████▌  | 221/291 [00:24\u003c00:13,  5.04it/s]\rLoading weights:  76%|███████▌  | 221/291 [00:24\u003c00:13,  5.04it/s]\n"}
+,{"stream_name":"stderr","time":197.329926865,"data":"\rLoading weights:  76%|███████▌  | 221/291 [00:24\u003c00:13,  5.04it/s]\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:11,  5.38it/s]\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:11,  5.38it/s]\n"}
+,{"stream_name":"stderr","time":197.778627001,"data":"\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:11,  5.38it/s]\rLoading weights:  79%|███████▉  | 231/291 [00:26\u003c00:11,  5.23it/s]\rLoading weights:  79%|███████▉  | 231/291 [00:26\u003c00:11,  5.23it/s]\n"}
+,{"stream_name":"stderr","time":199.151886984,"data":"\rLoading weights:  79%|███████▉  | 231/291 [00:26\u003c00:11,  5.23it/s]\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.17it/s]\rLoading weights:  82%|████████▏ | 240/291 [00:28\u003c00:08,  5.78it/s]\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.17it/s]\rLoading weights:  82%|████████▏ | 240/291 [00:28\u003c00:08,  5.78it/s]\n"}
+,{"stream_name":"stderr","time":200.875138914,"data":"\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.17it/s]\rLoading weights:  82%|████████▏ | 240/291 [00:28\u003c00:08,  5.78it/s]\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:08,  5.09it/s]\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:08,  5.09it/s]\n"}
+,{"stream_name":"stderr","time":201.108039463,"data":"\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:08,  5.09it/s]\rLoading weights:  85%|████████▌ | 248/291 [00:29\u003c00:08,  4.99it/s]\rLoading weights:  85%|████████▌ | 248/291 [00:29\u003c00:08,  4.99it/s]\n"}
+,{"stream_name":"stderr","time":202.267681524,"data":"\rLoading weights:  85%|████████▌ | 248/291 [00:29\u003c00:08,  4.99it/s]\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.76it/s]\rLoading weights:  89%|████████▊ | 258/291 [00:31\u003c00:05,  6.16it/s]\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.76it/s]\rLoading weights:  89%|████████▊ | 258/291 [00:31\u003c00:05,  6.16it/s]\n"}
+,{"stream_name":"stderr","time":202.864292625,"data":"\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.76it/s]\rLoading weights:  89%|████████▊ | 258/291 [00:31\u003c00:05,  6.16it/s]\rLoading weights:  91%|█████████ | 265/291 [00:31\u003c00:03,  8.43it/s]\rLoading weights:  91%|█████████ | 265/291 [00:31\u003c00:03,  8.43it/s]\n"}
+,{"stream_name":"stderr","time":203.419195049,"data":"\rLoading weights:  91%|█████████ | 265/291 [00:31\u003c00:03,  8.43it/s]\rLoading weights:  94%|█████████▍| 274/291 [00:32\u003c00:01, 10.60it/s]\rLoading weights:  94%|█████████▍| 274/291 [00:32\u003c00:01, 10.60it/s]\n"}
+,{"stream_name":"stderr","time":203.695620137,"data":"\rLoading weights:  94%|█████████▍| 274/291 [00:32\u003c00:01, 10.60it/s]\rLoading weights:  97%|█████████▋| 283/291 [00:32\u003c00:00, 13.91it/s]\rLoading weights:  98%|█████████▊| 285/291 [00:32\u003c00:00, 13.78it/s]\rLoading weights: 100%|██████████| 291/291 [00:32\u003c00:00,  8.87it/s]\n"}
+,{"stream_name":"stderr","time":203.742743189,"data":"\rLoading weights:  97%|█████████▋| 283/291 [00:32\u003c00:00, 13.91it/s]\rLoading weights:  98%|█████████▊| 285/291 [00:32\u003c00:00, 13.78it/s]\rLoading weights: 100%|██████████| 291/291 [00:32\u003c00:00,  8.87it/s]\n"}
+,{"stream_name":"stderr","time":203.742813745,"data":"\n"}
+,{"stream_name":"stderr","time":203.742821712,"data":"\rLoading weights:  97%|█████████▋| 283/291 [00:32\u003c00:00, 13.91it/s]\rLoading weights:  98%|█████████▊| 285/291 [00:32\u003c00:00, 13.78it/s]\rLoading weights: 100%|██████████| 291/291 [00:32\u003c00:00,  8.87it/s]\n"}
+,{"stream_name":"stdout","time":204.196917625,"data":"{'loaded_model': 'Llama 3.1 8B full', 'hf_device_map': {'model.embed_tokens': 0, 'model.layers.0': 0, 'model.layers.1': 0, 'model.layers.2': 0, 'model.layers.3': 0, 'model.layers.4': 0, 'model.layers.5': 0, 'model.layers.6': 0, 'model.layers.7': 0, 'model.layers.8': 0, 'model.layers.9': 0, 'model.layers.10': 0, 'model.layers.11': 0, 'model.layers.12': 0, 'model.layers.13': 0, 'model.layers.14': 0, 'model.layers.15': 0, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.layers.28': 1, 'model.layers.29': 1, 'model.layers.30': 1, 'model.layers.31': 1, 'model.norm': 1, 'model.rotary_emb': 1, 'lm_head': 1}, 'offloaded_devices': []}\n"}
+,{"stream_name":"stdout","time":204.399844727,"data":"{'loaded_model': 'Llama 3.1 8B full', 'hf_device_map': {'model.embed_tokens': 0, 'model.layers.0': 0, 'model.layers.1': 0, 'model.layers.2': 0, 'model.layers.3': 0, 'model.layers.4': 0, 'model.layers.5': 0, 'model.layers.6': 0, 'model.layers.7': 0, 'model.layers.8': 0, 'model.layers.9': 0, 'model.layers.10': 0, 'model.layers.11': 0, 'model.layers.12': 0, 'model.layers.13': 0, 'model.layers.14': 0, 'model.layers.15': 0, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.layers.28': 1, 'model.layers.29': 1, 'model.layers.30': 1, 'model.layers.31': 1, 'model.norm': 1, 'model.rotary_emb': 1, 'lm_head': 1}, 'offloaded_devices': []}\n"}
+,{"stream_name":"stdout","time":206.709425208,"data":"{'placement_smoke': {'status': 'PASS', 'new_tokens': 3, 'elapsed_seconds': 2.5, 'research_rows_used': 0}}\n"}
+,{"stream_name":"stdout","time":206.709471639,"data":"Starting answer scoring: 6868 candidates\n"}
+,{"stream_name":"stdout","time":206.911866078,"data":"{'placement_smoke': {'status': 'PASS', 'new_tokens': 3, 'elapsed_seconds': 2.5, 'research_rows_used': 0}}\n"}
+,{"stream_name":"stdout","time":206.911903415,"data":"Starting answer scoring: 6868 candidates\n"}
+,{"stream_name":"stdout","time":217.135271202,"data":"Scored 100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":217.338211326,"data":"Scored 100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":227.466564314,"data":"Scored 200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":227.668918111,"data":"Scored 200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":238.096745381,"data":"Scored 300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":238.311409914,"data":"Scored 300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":248.511122271,"data":"Scored 400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":248.7136239,"data":"Scored 400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":259.021663955,"data":"Scored 500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":259.224535817,"data":"Scored 500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":269.600239352,"data":"Scored 600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":269.814800357,"data":"Scored 600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":283.2565216,"data":"Scored 700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":283.45894675,"data":"Scored 700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":293.983876239,"data":"Scored 800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":294.186428858,"data":"Scored 800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":304.340012162,"data":"Scored 900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":304.554603967,"data":"Scored 900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":315.219751873,"data":"Scored 1000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":315.422401186,"data":"Scored 1000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":325.809531035,"data":"Scored 1100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":326.011942166,"data":"Scored 1100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":336.755457232,"data":"Scored 1200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":336.977487268,"data":"Scored 1200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":347.479976862,"data":"Scored 1300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":347.68256382,"data":"Scored 1300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":359.059194851,"data":"Scored 1400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":359.261575618,"data":"Scored 1400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":369.756730868,"data":"Scored 1500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":369.970452427,"data":"Scored 1500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":380.463974166,"data":"Scored 1600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":380.666402753,"data":"Scored 1600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":391.023797695,"data":"Scored 1700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":391.226041153,"data":"Scored 1700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":401.532628459,"data":"Scored 1800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":401.748016286,"data":"Scored 1800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":412.323171771,"data":"Scored 1900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":412.52569863,"data":"Scored 1900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":423.408216699,"data":"Scored 2000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":423.611181129,"data":"Scored 2000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":434.714193808,"data":"Scored 2100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":434.933802211,"data":"Scored 2100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":446.037990185,"data":"Scored 2200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":446.240803257,"data":"Scored 2200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":457.063479964,"data":"Scored 2300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":457.266087199,"data":"Scored 2300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":468.051575129,"data":"Scored 2400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":468.267749751,"data":"Scored 2400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":479.594575006,"data":"Scored 2500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":479.797184276,"data":"Scored 2500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":491.036604752,"data":"Scored 2600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":491.239036289,"data":"Scored 2600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":502.994700587,"data":"Scored 2700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":503.214979355,"data":"Scored 2700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":514.477064891,"data":"Scored 2800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":514.679777119,"data":"Scored 2800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":525.691251748,"data":"Scored 2900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":525.894143991,"data":"Scored 2900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":536.486666116,"data":"Scored 3000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":536.706772919,"data":"Scored 3000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":547.35690799,"data":"Scored 3100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":547.559794387,"data":"Scored 3100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":557.706361713,"data":"Scored 3200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":557.909426202,"data":"Scored 3200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":568.366485603,"data":"Scored 3300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":568.587371526,"data":"Scored 3300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":579.03855184,"data":"Scored 3400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":579.241107847,"data":"Scored 3400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":589.863953231,"data":"Scored 3500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":590.066363616,"data":"Scored 3500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":600.545563445,"data":"Scored 3600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":600.764335733,"data":"Scored 3600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":611.349081324,"data":"Scored 3700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":611.551498069,"data":"Scored 3700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":622.187893224,"data":"Scored 3800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":622.390547029,"data":"Scored 3800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":632.942224863,"data":"Scored 3900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":633.157640535,"data":"Scored 3900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":644.091426133,"data":"Scored 4000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":644.294180658,"data":"Scored 4000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":655.160979404,"data":"Scored 4100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":655.363823376,"data":"Scored 4100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":666.488460776,"data":"Scored 4200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":666.708818888,"data":"Scored 4200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":677.165049883,"data":"Scored 4300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":677.367465818,"data":"Scored 4300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":688.492806153,"data":"Scored 4400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":688.695564054,"data":"Scored 4400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":699.470624641,"data":"Scored 4500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":699.69336475,"data":"Scored 4500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":710.936540969,"data":"Scored 4600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":711.138728553,"data":"Scored 4600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":721.684933409,"data":"Scored 4700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":721.887438588,"data":"Scored 4700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":732.375839387,"data":"Scored 4800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":732.592289098,"data":"Scored 4800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":743.297381484,"data":"Scored 4900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":743.499676146,"data":"Scored 4900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":754.147717947,"data":"Scored 5000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":754.350136426,"data":"Scored 5000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":766.087403284,"data":"Scored 5100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":766.303502642,"data":"Scored 5100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":778.219054532,"data":"Scored 5200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":778.421649018,"data":"Scored 5200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":789.418166327,"data":"Scored 5300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":789.620801853,"data":"Scored 5300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":800.44825542,"data":"Scored 5400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":800.672372308,"data":"Scored 5400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":811.502965819,"data":"Scored 5500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":811.705449834,"data":"Scored 5500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":822.6951414,"data":"Scored 5600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":822.897807194,"data":"Scored 5600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":834.436650818,"data":"Scored 5700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":834.652677646,"data":"Scored 5700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":845.805096335,"data":"Scored 5800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":846.00757693,"data":"Scored 5800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":857.456616133,"data":"Scored 5900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":857.659263475,"data":"Scored 5900/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":868.915345817,"data":"Scored 6000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":869.136870734,"data":"Scored 6000/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":878.565377267,"data":"Scored 6100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":878.768144507,"data":"Scored 6100/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":888.293354393,"data":"Scored 6200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":888.495763014,"data":"Scored 6200/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":898.020775529,"data":"Scored 6300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":898.223562066,"data":"Scored 6300/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":907.753404576,"data":"Scored 6400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":907.97038312,"data":"Scored 6400/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":917.332647298,"data":"Scored 6500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":917.535189247,"data":"Scored 6500/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":926.913133972,"data":"Scored 6600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":927.115907166,"data":"Scored 6600/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":936.552693537,"data":"Scored 6700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":936.755638591,"data":"Scored 6700/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":946.172479726,"data":"Scored 6800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":946.394065281,"data":"Scored 6800/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":952.746605108,"data":"Scored 6868/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":952.751547392,"data":"Starting greedy generation: 1417 prompts\n"}
+,{"stream_name":"stdout","time":952.949019776,"data":"Scored 6868/6868 answer candidates\n"}
+,{"stream_name":"stdout","time":952.949054299,"data":"Starting greedy generation: 1417 prompts\n"}
+,{"stream_name":"stderr","time":953.766420162,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stderr","time":953.969273881,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stderr","time":953.969314327,"data":"\n"}
+,{"stream_name":"stderr","time":953.969346518,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stdout","time":1008.643208803,"data":"Generated 25/1417 answers\n"}
+,{"stream_name":"stdout","time":1008.8606377,"data":"Generated 25/1417 answers\n"}
+,{"stream_name":"stdout","time":1074.998536169,"data":"Generated 50/1417 answers\n"}
+,{"stream_name":"stdout","time":1075.220906568,"data":"Generated 50/1417 answers\n"}
+,{"stream_name":"stdout","time":1148.73417543,"data":"Generated 75/1417 answers\n"}
+,{"stream_name":"stdout","time":1148.951379946,"data":"Generated 75/1417 answers\n"}
+,{"stream_name":"stdout","time":1239.288259993,"data":"Generated 100/1417 answers\n"}
+,{"stream_name":"stdout","time":1239.506339803,"data":"Generated 100/1417 answers\n"}
+,{"stream_name":"stdout","time":1305.135316417,"data":"Generated 125/1417 answers\n"}
+,{"stream_name":"stdout","time":1305.352928609,"data":"Generated 125/1417 answers\n"}
+,{"stream_name":"stdout","time":1366.140546303,"data":"Generated 150/1417 answers\n"}
+,{"stream_name":"stdout","time":1366.358708036,"data":"Generated 150/1417 answers\n"}
+,{"stream_name":"stdout","time":1420.088855523,"data":"Generated 175/1417 answers\n"}
+,{"stream_name":"stdout","time":1420.312136484,"data":"Generated 175/1417 answers\n"}
+,{"stream_name":"stdout","time":1481.343347483,"data":"Generated 200/1417 answers\n"}
+,{"stream_name":"stdout","time":1481.561191555,"data":"Generated 200/1417 answers\n"}
+,{"stream_name":"stdout","time":1532.397516314,"data":"Generated 225/1417 answers\n"}
+,{"stream_name":"stdout","time":1532.615384275,"data":"Generated 225/1417 answers\n"}
+,{"stream_name":"stdout","time":1582.477299637,"data":"Generated 250/1417 answers\n"}
+,{"stream_name":"stdout","time":1582.702084789,"data":"Generated 250/1417 answers\n"}
+,{"stream_name":"stdout","time":1636.41796203,"data":"Generated 275/1417 answers\n"}
+,{"stream_name":"stdout","time":1636.636229268,"data":"Generated 275/1417 answers\n"}
+,{"stream_name":"stdout","time":1707.470848363,"data":"Generated 300/1417 answers\n"}
+,{"stream_name":"stdout","time":1707.693191239,"data":"Generated 300/1417 answers\n"}
+,{"stream_name":"stdout","time":1780.417132047,"data":"Generated 325/1417 answers\n"}
+,{"stream_name":"stdout","time":1780.634201227,"data":"Generated 325/1417 answers\n"}
+,{"stream_name":"stdout","time":1845.371932379,"data":"Generated 350/1417 answers\n"}
+,{"stream_name":"stdout","time":1845.589117878,"data":"Generated 350/1417 answers\n"}
+,{"stream_name":"stdout","time":1911.115093826,"data":"Generated 375/1417 answers\n"}
+,{"stream_name":"stdout","time":1911.331260064,"data":"Generated 375/1417 answers\n"}
+,{"stream_name":"stdout","time":1982.897969012,"data":"Generated 400/1417 answers\n"}
+,{"stream_name":"stdout","time":1983.116216311,"data":"Generated 400/1417 answers\n"}
+,{"stream_name":"stdout","time":2043.34074982,"data":"Generated 425/1417 answers\n"}
+,{"stream_name":"stdout","time":2043.558639727,"data":"Generated 425/1417 answers\n"}
+,{"stream_name":"stdout","time":2089.451211024,"data":"Generated 450/1417 answers\n"}
+,{"stream_name":"stdout","time":2089.668656225,"data":"Generated 450/1417 answers\n"}
+,{"stream_name":"stdout","time":2139.963604109,"data":"Generated 475/1417 answers\n"}
+,{"stream_name":"stdout","time":2140.18665567,"data":"Generated 475/1417 answers\n"}
+,{"stream_name":"stdout","time":2193.417849331,"data":"Generated 500/1417 answers\n"}
+,{"stream_name":"stdout","time":2193.634258644,"data":"Generated 500/1417 answers\n"}
+,{"stream_name":"stdout","time":2243.089497268,"data":"Generated 525/1417 answers\n"}
+,{"stream_name":"stdout","time":2243.311998114,"data":"Generated 525/1417 answers\n"}
+,{"stream_name":"stdout","time":2298.680053895,"data":"Generated 550/1417 answers\n"}
+,{"stream_name":"stdout","time":2298.905670871,"data":"Generated 550/1417 answers\n"}
+,{"stream_name":"stdout","time":2357.579935072,"data":"Generated 575/1417 answers\n"}
+,{"stream_name":"stdout","time":2357.796952022,"data":"Generated 575/1417 answers\n"}
+,{"stream_name":"stdout","time":2429.820641024,"data":"Generated 600/1417 answers\n"}
+,{"stream_name":"stdout","time":2430.043713301,"data":"Generated 600/1417 answers\n"}
+,{"stream_name":"stdout","time":2477.231033847,"data":"Generated 625/1417 answers\n"}
+,{"stream_name":"stdout","time":2477.44900029,"data":"Generated 625/1417 answers\n"}
+,{"stream_name":"stdout","time":2542.409840515,"data":"Generated 650/1417 answers\n"}
+,{"stream_name":"stdout","time":2542.638578817,"data":"Generated 650/1417 answers\n"}
+,{"stream_name":"stdout","time":2598.851960045,"data":"Generated 675/1417 answers\n"}
+,{"stream_name":"stdout","time":2599.070737039,"data":"Generated 675/1417 answers\n"}
+,{"stream_name":"stdout","time":2660.677462991,"data":"Generated 700/1417 answers\n"}
+,{"stream_name":"stdout","time":2660.89560003,"data":"Generated 700/1417 answers\n"}
+,{"stream_name":"stdout","time":2728.715705777,"data":"Generated 725/1417 answers\n"}
+,{"stream_name":"stdout","time":2728.934048882,"data":"Generated 725/1417 answers\n"}
+,{"stream_name":"stdout","time":2812.398905504,"data":"Generated 750/1417 answers\n"}
+,{"stream_name":"stdout","time":2812.621256172,"data":"Generated 750/1417 answers\n"}
+,{"stream_name":"stdout","time":2879.060673308,"data":"Generated 775/1417 answers\n"}
+,{"stream_name":"stdout","time":2879.288642577,"data":"Generated 775/1417 answers\n"}
+,{"stream_name":"stdout","time":2939.54865059,"data":"Generated 800/1417 answers\n"}
+,{"stream_name":"stdout","time":2939.771452239,"data":"Generated 800/1417 answers\n"}
+,{"stream_name":"stdout","time":2992.641560247,"data":"Generated 825/1417 answers\n"}
+,{"stream_name":"stdout","time":2992.858832271,"data":"Generated 825/1417 answers\n"}
+,{"stream_name":"stdout","time":3066.863981904,"data":"Generated 850/1417 answers\n"}
+,{"stream_name":"stdout","time":3067.082555839,"data":"Generated 850/1417 answers\n"}
+,{"stream_name":"stdout","time":3131.282334409,"data":"Generated 875/1417 answers\n"}
+,{"stream_name":"stdout","time":3131.499966195,"data":"Generated 875/1417 answers\n"}
+,{"stream_name":"stdout","time":3203.007539502,"data":"Generated 900/1417 answers\n"}
+,{"stream_name":"stdout","time":3203.233837753,"data":"Generated 900/1417 answers\n"}
+,{"stream_name":"stdout","time":3267.698181891,"data":"Generated 925/1417 answers\n"}
+,{"stream_name":"stdout","time":3267.92026828,"data":"Generated 925/1417 answers\n"}
+,{"stream_name":"stdout","time":3329.337762408,"data":"Generated 950/1417 answers\n"}
+,{"stream_name":"stdout","time":3329.561195041,"data":"Generated 950/1417 answers\n"}
+,{"stream_name":"stdout","time":3394.913763975,"data":"Generated 975/1417 answers\n"}
+,{"stream_name":"stdout","time":3395.133738696,"data":"Generated 975/1417 answers\n"}
+,{"stream_name":"stdout","time":3458.845138684,"data":"Generated 1000/1417 answers\n"}
+,{"stream_name":"stdout","time":3459.062747745,"data":"Generated 1000/1417 answers\n"}
+,{"stream_name":"stdout","time":3511.439996115,"data":"Generated 1025/1417 answers\n"}
+,{"stream_name":"stdout","time":3511.658556473,"data":"Generated 1025/1417 answers\n"}
+,{"stream_name":"stdout","time":3579.042145192,"data":"Generated 1050/1417 answers\n"}
+,{"stream_name":"stdout","time":3579.264995961,"data":"Generated 1050/1417 answers\n"}
+,{"stream_name":"stdout","time":3650.237034003,"data":"Generated 1075/1417 answers\n"}
+,{"stream_name":"stdout","time":3650.462588377,"data":"Generated 1075/1417 answers\n"}
+,{"stream_name":"stdout","time":3714.488498181,"data":"Generated 1100/1417 answers\n"}
+,{"stream_name":"stdout","time":3714.712905849,"data":"Generated 1100/1417 answers\n"}
+,{"stream_name":"stdout","time":3783.599246677,"data":"Generated 1125/1417 answers\n"}
+,{"stream_name":"stdout","time":3783.816596385,"data":"Generated 1125/1417 answers\n"}
+,{"stream_name":"stdout","time":3850.012537225,"data":"Generated 1150/1417 answers\n"}
+,{"stream_name":"stdout","time":3850.23501618,"data":"Generated 1150/1417 answers\n"}
+,{"stream_name":"stdout","time":3906.688677053,"data":"Generated 1175/1417 answers\n"}
+,{"stream_name":"stdout","time":3906.906078915,"data":"Generated 1175/1417 answers\n"}
+,{"stream_name":"stdout","time":3973.043269847,"data":"Generated 1200/1417 answers\n"}
+,{"stream_name":"stdout","time":3973.260192352,"data":"Generated 1200/1417 answers\n"}
+,{"stream_name":"stdout","time":4005.583077737,"data":"Generated 1225/1417 answers\n"}
+,{"stream_name":"stdout","time":4005.809358122,"data":"Generated 1225/1417 answers\n"}
+,{"stream_name":"stdout","time":4044.295941092,"data":"Generated 1250/1417 answers\n"}
+,{"stream_name":"stdout","time":4044.514191509,"data":"Generated 1250/1417 answers\n"}
+,{"stream_name":"stdout","time":4077.467053224,"data":"Generated 1275/1417 answers\n"}
+,{"stream_name":"stdout","time":4077.685413793,"data":"Generated 1275/1417 answers\n"}
+,{"stream_name":"stdout","time":4113.445089055,"data":"Generated 1300/1417 answers\n"}
+,{"stream_name":"stdout","time":4113.663684325,"data":"Generated 1300/1417 answers\n"}
+,{"stream_name":"stdout","time":4148.468022523,"data":"Generated 1325/1417 answers\n"}
+,{"stream_name":"stdout","time":4148.686889949,"data":"Generated 1325/1417 answers\n"}
+,{"stream_name":"stdout","time":4183.514726288,"data":"Generated 1350/1417 answers\n"}
+,{"stream_name":"stdout","time":4183.732766505,"data":"Generated 1350/1417 answers\n"}
+,{"stream_name":"stdout","time":4219.297071636,"data":"Generated 1375/1417 answers\n"}
+,{"stream_name":"stdout","time":4219.523071388,"data":"Generated 1375/1417 answers\n"}
+,{"stream_name":"stdout","time":4255.17664351,"data":"Generated 1400/1417 answers\n"}
+,{"stream_name":"stdout","time":4255.395045989,"data":"Generated 1400/1417 answers\n"}
+,{"stream_name":"stdout","time":4280.938582914,"data":"Generated 1417/1417 answers\n"}
+,{"stream_name":"stdout","time":4281.140887538,"data":"Generated 1417/1417 answers\n"}
+,{"stream_name":"stdout","time":4285.043166245,"data":"llama_3_1_8b_full: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stdout","time":4285.246532735,"data":"llama_3_1_8b_full: PASS_OFFICIAL_TOFU_BASELINE\n"}
+,{"stream_name":"stdout","time":4290.87183381,"data":"Loading Llama 3.1 8B retain90 oracle with balanced; max_memory=13GiB per T4\n"}
+,{"stream_name":"stdout","time":4291.097055842,"data":"Loading Llama 3.1 8B retain90 oracle with balanced; max_memory=13GiB per T4\n"}
+,{"stream_name":"stderr","time":4291.681639156,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":4327.681140843,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:35\u003c01:47, 35.97s/it]\rFetching 4 files:  25%|██▌       | 1/4 [00:35\u003c01:47, 35.97s/it]\n"}
+,{"stream_name":"stderr","time":4372.986992404,"data":"\rFetching 4 files:  25%|██▌       | 1/4 [00:35\u003c01:47, 35.97s/it]\rFetching 4 files:  50%|█████     | 2/4 [01:21\u003c01:23, 41.60s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:21\u003c00:00, 20.38s/it]\n"}
+,{"stream_name":"stderr","time":4373.206914247,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rFetching 4 files:  50%|█████     | 2/4 [01:21\u003c01:23, 41.60s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:21\u003c00:00, 20.38s/it]\n"}
+,{"stream_name":"stderr","time":4373.206947046,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":4373.206953114,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:21\u003c01:23, 41.60s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:21\u003c00:00, 20.38s/it]\n"}
+,{"stream_name":"stderr","time":4382.252273589,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/291 [00:08\u003c42:55,  8.88s/it]\rLoading weights:   0%|          | 1/291 [00:08\u003c42:55,  8.88s/it]\n"}
+,{"stream_name":"stderr","time":4382.8066916,"data":"\rLoading weights:   0%|          | 1/291 [00:08\u003c42:55,  8.88s/it]\rLoading weights:   1%|          | 2/291 [00:09\u003c19:10,  3.98s/it]\rLoading weights:   1%|          | 2/291 [00:09\u003c19:10,  3.98s/it]\n"}
+,{"stream_name":"stderr","time":4383.705310241,"data":"\rLoading weights:   1%|          | 2/291 [00:09\u003c19:10,  3.98s/it]\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:10, 18.12it/s]\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:10, 18.12it/s]\n"}
+,{"stream_name":"stderr","time":4384.023909989,"data":"\rLoading weights:  35%|███▌      | 103/291 [00:10\u003c00:10, 18.12it/s]\rLoading weights:  37%|███▋      | 109/291 [00:10\u003c00:10, 18.18it/s]\rLoading weights:  37%|███▋      | 109/291 [00:10\u003c00:10, 18.18it/s]\n"}
+,{"stream_name":"stderr","time":4385.600603165,"data":"\rLoading weights:  37%|███▋      | 109/291 [00:10\u003c00:10, 18.18it/s]\rLoading weights:  39%|███▉      | 113/291 [00:12\u003c00:13, 12.77it/s]\rLoading weights:  40%|███▉      | 116/291 [00:12\u003c00:13, 13.28it/s]\rLoading weights:  39%|███▉      | 113/291 [00:12\u003c00:13, 12.77it/s]\rLoading weights:  40%|███▉      | 116/291 [00:12\u003c00:13, 13.28it/s]\n"}
+,{"stream_name":"stderr","time":4387.094934562,"data":"\rLoading weights:  39%|███▉      | 113/291 [00:12\u003c00:13, 12.77it/s]\rLoading weights:  40%|███▉      | 116/291 [00:12\u003c00:13, 13.28it/s]\rLoading weights:  42%|████▏     | 121/291 [00:13\u003c00:17,  9.64it/s]\rLoading weights:  42%|████▏     | 121/291 [00:13\u003c00:17,  9.64it/s]\n"}
+,{"stream_name":"stderr","time":4387.31531599,"data":"\rLoading weights:  42%|████▏     | 121/291 [00:13\u003c00:17,  9.64it/s]\rLoading weights:  42%|████▏     | 123/291 [00:13\u003c00:17,  9.61it/s]\rLoading weights:  42%|████▏     | 123/291 [00:13\u003c00:17,  9.61it/s]\n"}
+,{"stream_name":"stderr","time":4387.562304188,"data":"\rLoading weights:  42%|████▏     | 123/291 [00:13\u003c00:17,  9.61it/s]\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:15, 10.70it/s]\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:17,  9.03it/s]\n"}
+,{"stream_name":"stderr","time":4387.601033834,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4387.604902744,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 930, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4387.604932963,"data":"    main()\n"}
+,{"stream_name":"stderr","time":4387.604937009,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.604940623,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 885, in main\n"}
+,{"stream_name":"stderr","time":4387.604944351,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":4387.604948764,"data":"        key,\n"}
+,{"stream_name":"stderr","time":4387.604953234,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.604957891,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":4387.604962679,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.604967097,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 662, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":4387.604970587,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.604974429,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":4387.604977791,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.604981306,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":4387.604984878,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.604988274,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.604991869,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.60499511,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.604998319,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":4387.605002114,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.605005402,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.605008517,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.605011664,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.605015173,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":4387.605018454,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.605021771,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":4387.60502498,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.60502835,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.605031809,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.605035827,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4498, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":4387.605041125,"data":"    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(\n"}
+,{"stream_name":"stderr","time":4387.605045941,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.605050557,"data":"        model=model,\n"}
+,{"stream_name":"stderr","time":4387.605053863,"data":"        ^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.605056988,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.605060213,"data":"        disk_offload_index=disk_offload_index,\n"}
+,{"stream_name":"stderr","time":4387.605074659,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.605078043,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.605081161,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.605088889,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1791, in convert_and_load_state_dict_in_model\n"}
+,{"stream_name":"stderr","time":4387.605092438,"data":"    realized_value = mapping.convert(\n"}
+,{"stream_name":"stderr","time":4387.605095911,"data":"        first_param_name,\n"}
+,{"stream_name":"stderr","time":4387.605099257,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.605102564,"data":"        loading_info=loading_info,\n"}
+,{"stream_name":"stderr","time":4387.605105742,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.60511008,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1055, in convert\n"}
+,{"stream_name":"stderr","time":4387.605113973,"data":"    collected_tensors = self.materialize_tensors()\n"}
+,{"stream_name":"stderr","time":4387.605118245,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1017, in materialize_tensors\n"}
+,{"stream_name":"stderr","time":4387.60512332,"data":"    tensors = [future.result() for future in tensors if future.result() is not None]\n"}
+,{"stream_name":"stderr","time":4387.60512726,"data":"                                                        ~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.605132093,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":4387.605135651,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":4387.605138869,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.60514215,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":4387.60514566,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":4387.605148886,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
+,{"stream_name":"stderr","time":4387.605152188,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":4387.60515556,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1309, in _job\n"}
+,{"stream_name":"stderr","time":4387.605159015,"data":"    return _materialize_copy(tensor, device, dtype)\n"}
+,{"stream_name":"stderr","time":4387.605162283,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1287, in _materialize_copy\n"}
+,{"stream_name":"stderr","time":4387.605165691,"data":"    tensor = tensor.to(device=device, dtype=dtype)\n"}
+,{"stream_name":"stderr","time":4387.605170508,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 40.81 MiB is free. Including non-PyTorch memory, this process has 14.52 GiB memory in use. Of the allocated memory 14.26 GiB is allocated by PyTorch, and 133.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":4387.765532079,"data":"\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:15, 10.70it/s]\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:17,  9.03it/s]\n"}
+,{"stream_name":"stderr","time":4387.76560595,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4387.765611195,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 930, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4387.765614533,"data":"    main()\n"}
+,{"stream_name":"stderr","time":4387.765617227,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.765619878,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 885, in main\n"}
+,{"stream_name":"stderr","time":4387.765622707,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":4387.765625367,"data":"        key,\n"}
+,{"stream_name":"stderr","time":4387.765627982,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.765630807,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":4387.765634096,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.765650177,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 662, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":4387.765655503,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.765660048,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":4387.765664806,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.765669372,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":4387.765674094,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.765677956,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.765682245,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.765686161,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.765690005,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":4387.765694207,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.765698195,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.765702002,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.765705765,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.765709897,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":4387.765713861,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.765717881,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":4387.765726271,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.76572937,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.765731924,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.765735109,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4498, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":4387.765750722,"data":"    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(\n"}
+,{"stream_name":"stderr","time":4387.765755526,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.765760409,"data":"        model=model,\n"}
+,{"stream_name":"stderr","time":4387.765770489,"data":"        ^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.765774648,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.765778726,"data":"        disk_offload_index=disk_offload_index,\n"}
+,{"stream_name":"stderr","time":4387.765798937,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.765804831,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.76580977,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.765816583,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1791, in convert_and_load_state_dict_in_model\n"}
+,{"stream_name":"stderr","time":4387.76582361,"data":"    realized_value = mapping.convert(\n"}
+,{"stream_name":"stderr","time":4387.76582754,"data":"        first_param_name,\n"}
+,{"stream_name":"stderr","time":4387.76583145,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.765835365,"data":"        loading_info=loading_info,\n"}
+,{"stream_name":"stderr","time":4387.765839252,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.765843062,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1055, in convert\n"}
+,{"stream_name":"stderr","time":4387.765847299,"data":"    collected_tensors = self.materialize_tensors()\n"}
+,{"stream_name":"stderr","time":4387.765851227,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1017, in materialize_tensors\n"}
+,{"stream_name":"stderr","time":4387.765855496,"data":"    tensors = [future.result() for future in tensors if future.result() is not None]\n"}
+,{"stream_name":"stderr","time":4387.765859665,"data":"                                                        ~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.765863993,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":4387.765872702,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":4387.765887867,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.765892269,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":4387.765897307,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":4387.765901316,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
+,{"stream_name":"stderr","time":4387.765906662,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":4387.765911142,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1309, in _job\n"}
+,{"stream_name":"stderr","time":4387.765915429,"data":"    return _materialize_copy(tensor, device, dtype)\n"}
+,{"stream_name":"stderr","time":4387.765919447,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1287, in _materialize_copy\n"}
+,{"stream_name":"stderr","time":4387.765923736,"data":"    tensor = tensor.to(device=device, dtype=dtype)\n"}
+,{"stream_name":"stderr","time":4387.765927919,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 40.81 MiB is free. Including non-PyTorch memory, this process has 14.52 GiB memory in use. Of the allocated memory 14.26 GiB is allocated by PyTorch, and 133.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":4387.765938859,"data":"\n"}
+,{"stream_name":"stderr","time":4387.76594283,"data":"\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:15, 10.70it/s]\rLoading weights:  45%|████▍     | 130/291 [00:14\u003c00:17,  9.03it/s]\n"}
+,{"stream_name":"stderr","time":4387.765947781,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4387.765952139,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 930, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4387.765956464,"data":"    main()\n"}
+,{"stream_name":"stderr","time":4387.765960284,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.765964256,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 885, in main\n"}
+,{"stream_name":"stderr","time":4387.765972828,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":4387.765987041,"data":"        key,\n"}
+,{"stream_name":"stderr","time":4387.765991828,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.765996323,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":4387.766001106,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.766005708,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 662, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":4387.766010113,"data":"    model = AutoModelForCausalLM.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.766014048,"data":"        spec[\"repo_id\"],\n"}
+,{"stream_name":"stderr","time":4387.766018038,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.766021958,"data":"        attn_implementation=\"sdpa\",\n"}
+,{"stream_name":"stderr","time":4387.766025991,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.766029773,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 406, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.766034098,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":4387.766037938,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.766041804,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":4387.766045927,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.766050097,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.766053873,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.766057631,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4353, in from_pretrained\n"}
+,{"stream_name":"stderr","time":4387.766062046,"data":"    loading_info, disk_offload_index = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":4387.766070645,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.766085028,"data":"        model, state_dict, checkpoint_files, load_config\n"}
+,{"stream_name":"stderr","time":4387.766089931,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.766094449,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.766099224,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.766103776,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4498, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":4387.766108257,"data":"    loading_info, disk_offload_index = convert_and_load_state_dict_in_model(\n"}
+,{"stream_name":"stderr","time":4387.766116471,"data":"                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":4387.766120623,"data":"        model=model,\n"}
+,{"stream_name":"stderr","time":4387.766124491,"data":"        ^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.766128326,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.766132238,"data":"        disk_offload_index=disk_offload_index,\n"}
+,{"stream_name":"stderr","time":4387.766136068,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4387.766140172,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.766144167,"data":"    ^\n"}
+,{"stream_name":"stderr","time":4387.766148017,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1791, in convert_and_load_state_dict_in_model\n"}
+,{"stream_name":"stderr","time":4387.766152377,"data":"    realized_value = mapping.convert(\n"}
+,{"stream_name":"stderr","time":4387.766156237,"data":"        first_param_name,\n"}
+,{"stream_name":"stderr","time":4387.766160266,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":4387.766168175,"data":"        loading_info=loading_info,\n"}
+,{"stream_name":"stderr","time":4387.766182645,"data":"    )\n"}
+,{"stream_name":"stderr","time":4387.76618738,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1055, in convert\n"}
+,{"stream_name":"stderr","time":4387.766193348,"data":"    collected_tensors = self.materialize_tensors()\n"}
+,{"stream_name":"stderr","time":4387.766198126,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1017, in materialize_tensors\n"}
+,{"stream_name":"stderr","time":4387.766203063,"data":"    tensors = [future.result() for future in tensors if future.result() is not None]\n"}
+,{"stream_name":"stderr","time":4387.766207143,"data":"                                                        ~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.766211186,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":4387.766215296,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":4387.766219184,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":4387.76622311,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":4387.766227268,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":4387.766231068,"data":"  File \"/usr/lib/python3.13/concurrent/futures/thread.py\", line 59, in run\n"}
+,{"stream_name":"stderr","time":4387.766235169,"data":"    result = self.fn(*self.args, **self.kwargs)\n"}
+,{"stream_name":"stderr","time":4387.766239146,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1309, in _job\n"}
+,{"stream_name":"stderr","time":4387.766243447,"data":"    return _materialize_copy(tensor, device, dtype)\n"}
+,{"stream_name":"stderr","time":4387.766247329,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/core_model_loading.py\", line 1287, in _materialize_copy\n"}
+,{"stream_name":"stderr","time":4387.766251571,"data":"    tensor = tensor.to(device=device, dtype=dtype)\n"}
+,{"stream_name":"stderr","time":4387.766255596,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 112.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 40.81 MiB is free. Including non-PyTorch memory, this process has 14.52 GiB memory in use. Of the allocated memory 14.26 GiB is allocated by PyTorch, and 133.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"}
+,{"stream_name":"stderr","time":4395.347584374,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":4395.348938661,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":4395.348957898,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":4395.348964054,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4395.348969395,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":4395.348974317,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":4395.348978849,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":4395.348983205,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":4395.348988245,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":4395.348992747,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":4395.348997165,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4395.349002068,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":4395.349006563,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":4395.349010595,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":4395.349014821,"data":"/tmp/ipykernel_23/2373948568.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":4395.349020084,"data":"      2 run = subprocess.run([sys.executable, '/kaggle/working/tofu_official_eval.py', '--output-dir', '/kaggle/working/tofu_official_eval', '--models', 'llama_3_1_8b_full,llama_3_1_8b_retain90', '--score-batch-size', '1', '--generation-batch-size', '1', '--max-memory-per-gpu-gib', '13', '--resume-existing'])\n"}
+,{"stream_name":"stderr","time":4395.349025786,"data":"      3 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq -FS tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":4395.349030487,"data":"----\u003e 4 if run.returncode: raise RuntimeError(f'8B retry failed with status {run.returncode}; partial receipt was archived.')\n"}
+,{"stream_name":"stderr","time":4395.349039704,"data":"      5 verify = subprocess.run([sys.executable, '/kaggle/working/verify_tofu_official_eval.py', '/kaggle/working/tofu_official_eval', '--audit', '/kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json'])\n"}
+,{"stream_name":"stderr","time":4395.349045443,"data":"      6 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq -FS tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":4395.349050048,"data":"\n"}
+,{"stream_name":"stderr","time":4395.349066103,"data":"RuntimeError: 8B retry failed with status 1; partial receipt was archived.\n"}
+,{"stream_name":"stderr","time":4395.349070378,"data":"\n"}
+,{"stream_name":"stderr","time":4398.422664616,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4398.422696961,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4398.669706379,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4398.669734985,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4399.542823145,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":4399.672003024,"data":"[NbConvertApp] Writing 889329 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":4402.77470178,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4403.648589049,"data":"[NbConvertApp] Writing 1468948 bytes to __results__.html\n"}
+]

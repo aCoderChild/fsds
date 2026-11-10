@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_DIAGNOSTIC_ALIGNMENT_ONLY_NOT_TRANSLATION_APPROVAL",
+  "rows": 9,
+  "unique_ids": 9,
+  "input_sha256": "56794242bf15f01619252bf5e118ed17ee927fb5865acd95d63b10ac27755c3a",
+  "source_qwen_review_sha256": "20acac21b7eb8c72f812199fb5f16aec77d5cd2b99974a50422339707c6ba01c",
+  "mistral_output_sha256": "0ef0262cfa7006cbf96b4f62ec7320dffa1cfd486ff4edd80fb0a565d5d3ac53",
+  "mistral_log_sha256": "3b72ad87f49ea160d918278db8ee635a0677d0dbf6aa5afaae72e1388860b3d1",
+  "review_script_sha256": "daaa58f956d32b0928dc85de2988646d15e04ffc74b49ace0ff04e2908cd3267",
+  "pulled_remote_script_sha256": "daaa58f956d32b0928dc85de2988646d15e04ffc74b49ace0ff04e2908cd3267",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "schema_errors": 0,
+  "answer_or_label_fields_included": false,
+  "qwen_flagged_rows_passed_by_mistral": 9,
+  "qwen_flagged_rows_total": 9,
+  "interpretation": "Exact input/output provenance and schema verified. Mistral's judgments are diagnostic and do not establish translation correctness or authorize corpus release."
+}

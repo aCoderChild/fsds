@@ -1,0 +1,659 @@
+{
+  "protocol_id": "tofu_3b_npo_lora_profile_alpha40_followup_v1",
+  "protocol_sha256": "b308c93da3934a020cd0ca1c22c89c74133e2cb97d90656f4ff02ccb155da8a7",
+  "kaggle_kernel": "bunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up",
+  "events": [
+    {
+      "at_utc": "2026-11-08T10:18:09.640606+00:00",
+      "status": "ERROR",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.ERROR\""
+    },
+    {
+      "at_utc": "2026-11-08T10:20:12.004323+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:20:43.883047+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:21:16.060731+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:21:47.002913+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:22:17.972759+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:22:48.979802+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:23:20.000051+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:23:50.952254+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:24:21.978393+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:24:53.006166+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:25:24.662270+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:25:56.238677+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:26:27.365082+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:26:58.993491+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:27:30.654996+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:28:01.638070+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:28:32.572762+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:29:04.857964+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:29:35.862256+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:30:07.489175+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:30:39.225634+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:31:10.240826+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:31:42.468605+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:32:13.498907+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:32:45.797111+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:33:18.125783+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:33:49.739775+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:34:21.392285+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:34:53.379838+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:35:25.139165+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:35:56.147232+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:36:27.240187+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:36:58.337680+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:37:29.342792+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:38:00.949232+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:38:31.908642+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:39:02.861635+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:39:34.455579+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:40:05.650638+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:40:37.305688+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:41:08.865772+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:41:40.507081+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:42:12.060230+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:42:44.201526+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:43:15.923314+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:43:46.908086+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:44:18.541074+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:44:50.160498+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:45:21.102384+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:45:53.111572+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:46:24.026532+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:46:54.994774+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:47:25.944974+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:47:57.623576+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:48:28.797225+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:48:59.804720+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:49:31.491189+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:50:02.439793+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:50:33.982721+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:51:05.594135+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:51:36.806756+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:52:08.462189+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:52:39.459295+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:53:11.038169+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:53:43.354434+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:54:14.283400+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:54:45.913380+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:55:18.072987+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:55:49.077921+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:56:20.621426+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:56:52.905784+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:57:24.067866+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:57:55.641856+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:58:26.588021+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:58:58.179840+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T10:59:29.342252+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:00:00.985239+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:00:31.937374+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:01:02.925435+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:01:34.026493+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:02:05.617048+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:02:36.602983+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:03:08.329129+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:03:40.603198+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:04:11.724834+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:04:42.775608+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:05:14.385180+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:05:46.008228+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:06:17.635517+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:06:48.709685+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:07:19.750425+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:07:51.385304+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:08:22.374572+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:08:53.991733+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:09:24.950902+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:09:55.998241+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:10:27.050125+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:10:58.027512+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:11:28.977235+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:11:59.991107+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:12:31.875759+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:13:02.989726+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:13:34.546212+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:14:05.536392+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:14:37.183995+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:15:08.881576+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:15:39.902738+00:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "at_utc": "2026-11-08T11:16:12.137447+00:00",
+      "status": "COMPLETE",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.COMPLETE\""
+    },
+    {
+      "at_utc": "2026-11-08T11:18:42.141034+00:00",
+      "status": "COMPLETE",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.COMPLETE\""
+    },
+    {
+      "at_utc": "2026-11-08T11:18:58.129844+00:00",
+      "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+      "detail": "downloaded artifact independently verified locally"
+    },
+    {
+      "at_utc": "2026-11-08T11:27:34.215326+00:00",
+      "status": "COMPLETE",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up has status \"KernelWorkerStatus.COMPLETE\""
+    }
+  ],
+  "last_status": "COMPLETE",
+  "updated_at_utc": "2026-11-08T11:27:34.215326+00:00",
+  "downloaded_result": {
+    "archive_path": "/Users/maianhpham/Documents/fsds/experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/kaggle_output/tofu_npo_alpha40_followup_artifacts.zip",
+    "archive_bytes": 93511185,
+    "archive_sha256": "a5857e7d7d68074abd564023d5575ca8baddad1072eab81a1cc1886326f3c1ec",
+    "archive_crc": "PASS",
+    "verification": {
+      "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+      "problems": [],
+      "run_status": "NO_DEV_CANDIDATE_PASSES",
+      "selected_alpha_retain": null,
+      "verified_development_attempts": [
+        {
+          "alpha_retain": 40.0,
+          "gate_status": "FAIL_DIAGNOSTIC_GATES"
+        }
+      ],
+      "artifact_zip": {
+        "crc": "PASS",
+        "bad_file": null
+      },
+      "training_started": true,
+      "protocol_sha256": "b308c93da3934a020cd0ca1c22c89c74133e2cb97d90656f4ff02ccb155da8a7"
+    }
+  },
+  "recorded_result": {
+    "recorded_at_utc": "2026-11-08T11:26:46.797023+00:00",
+    "outcome": "NO_DEV_CANDIDATE_PASSES",
+    "dev_candidate_status": "FAIL_DIAGNOSTIC_GATES",
+    "gate_passes": "3/5",
+    "final_training_started": false,
+    "results_markdown": "experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/alpha40_stage_results.md",
+    "results_json": "experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/alpha40_stage_results.json",
+    "verifier_status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+    "next_step": "Obtain independent human review of the blinded 60-pair packet, or explicitly accept AI-only exploratory evidence; then preregister a new design before any further GPU run. Alpha40 protocol is stopped.",
+    "semantic_review_pack_status": "AI_ONLY_INITIAL_REVIEW_COMPLETE_HUMAN_REVIEW_RECOMMENDED",
+    "semantic_review_pairs": 60,
+    "semantic_review_case_control": "40 answer-string-loss cases + 20 changed-output controls, 20 profile blocks",
+    "review_sheet": "experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/retain_pairwise_review_blinded.csv",
+    "review_instructions": "experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/retain_pairwise_review_instructions.md",
+    "review_key_private": "experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/retain_pairwise_review_key_PRIVATE.csv"
+  },
+  "training_dynamics_audit": {
+    "status": "PASS_LOCAL_RECOMPUTATION",
+    "script": "alpha40_training_dynamics_audit.py",
+    "result": "alpha40_training_dynamics_audit.json",
+    "source_archive_sha256": "a5857e7d7d68074abd564023d5575ca8baddad1072eab81a1cc1886326f3c1ec",
+    "trace_rows": 1000,
+    "optimizer_steps": 250,
+    "preclip_norm_above_cap_steps": "250/250",
+    "clip_cap": 1.0,
+    "median_preclip_norm": 52.6264533996582,
+    "max_preclip_norm": 173.88046264648438,
+    "training_source_matches_local_at_original_audit_time": true,
+    "source_comparison_note": "Historical comparison from the original audit; the shared trainer changed after this run. Current archived-source versus receipt integrity and aggregation-scope findings are in post_run_implementation_fidelity_audit."
+  },
+  "codex_ai_semantic_review": {
+    "status": "COMPLETE_AI_ONLY_SINGLE_REVIEWER",
+    "annotations": "retain_pairwise_review_codex_ai_2026-11-08.csv",
+    "summary": "retain_pairwise_review_codex_ai_summary.json",
+    "pairs": 60,
+    "answer_string_lost_40": {
+      "baseline_preferred": 22,
+      "alpha40_preferred": 0,
+      "tie": 18
+    },
+    "changed_output_controls_20": {
+      "baseline_preferred": 5,
+      "alpha40_preferred": 2,
+      "tie": 13
+    },
+    "human_review": "not performed; independent review recommended before any new GPU protocol",
+    "prevalence_estimation": "not valid; selected case-control sample"
+  },
+  "post_run_implementation_fidelity_audit": {
+    "checked_at_utc": "2026-11-09",
+    "status": "RETAIN_AGGREGATION_SCOPE_UNVERIFIED",
+    "archive_crc": "PASS",
+    "archived_trainer_sha256": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+    "receipt_trainer_sha256": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+    "current_local_trainer_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+    "current_local_source_matches_archived": false,
+    "protocol_aggregation_scope_explicit": false,
+    "fixture_examples": 2,
+    "accumulation_steps": 4,
+    "pooled_update_token_mean_verified": false,
+    "note": "Current shared trainer changed after this run. The archived source matches its receipt, but the protocol and objective fixture do not establish pooled retain-token-mean equivalence across the optimizer update.",
+    "corrected_current_trainer_fixture_status": "PASS_CURRENT_IMPLEMENTATION_FIXTURES_ONLY",
+    "corrected_current_trainer_fixture_artifact": "corrected_trainer_validation_postrun_2026-11-09.json",
+    "corrected_fixture_is_retroactive": false
+  }
+}

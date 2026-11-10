@@ -1,0 +1,94 @@
+{
+  "archive_sha256": "a5857e7d7d68074abd564023d5575ca8baddad1072eab81a1cc1886326f3c1ec",
+  "rows": 400,
+  "profile_blocks": 20,
+  "mean_generation_length": {
+    "whitespace_words": {
+      "baseline": 24.0975,
+      "alpha40": 24.275
+    },
+    "characters": {
+      "baseline": 158.7625,
+      "alpha40": 159.74
+    }
+  },
+  "normalized_source_answer_substring_transition_counts": {
+    "both_present": 227,
+    "baseline_only": 80,
+    "alpha40_only": 11,
+    "neither": 82,
+    "baseline_present_total": 307,
+    "alpha40_present_total": 238,
+    "warning": "Strict lexical proxy only; not a semantic or factual-accuracy score."
+  },
+  "rougeL_change_for_exact_substring_lost_rows_pp": -32.486489715485106,
+  "rougeL_change_for_all_other_rows_pp": -0.19193747254609342,
+  "rougeL_row_deltas": {
+    "lower": 106,
+    "equal": 266,
+    "higher": 28
+  },
+  "rougeL_profile_block_deltas_pp": {
+    "lower_blocks": 19,
+    "equal_blocks": 0,
+    "higher_blocks": 1,
+    "min": -13.822668024821258,
+    "median": -5.9147251719694784,
+    "max": 0.24860168426344892
+  },
+  "explicit_date_conflict_screen": {
+    "alpha40_conflicts_vs_reference": 3,
+    "baseline_conflicts_vs_reference": 2,
+    "new_conflicts_after_adapter": 1,
+    "preexisting_conflicts_persisting_after_adapter": 2,
+    "conflicts_resolved_after_adapter": 0,
+    "method": "Flag rows where source answer and a generation both contain explicit dates, but no full normalized date string matches.",
+    "cases": [
+      {
+        "source_row_index": 1220,
+        "profile_block": 61,
+        "source_answer_dates": [
+          "20th january 1989"
+        ],
+        "baseline_generation_dates": [
+          "20th january 1989"
+        ],
+        "generated_dates": [
+          "16th march 1989"
+        ],
+        "already_conflicted_at_baseline": false
+      },
+      {
+        "source_row_index": 1344,
+        "profile_block": 67,
+        "source_answer_dates": [
+          "4th february 1934"
+        ],
+        "baseline_generation_dates": [
+          "23rd april 1934"
+        ],
+        "generated_dates": [
+          "17th april 1934"
+        ],
+        "already_conflicted_at_baseline": true
+      },
+      {
+        "source_row_index": 1461,
+        "profile_block": 73,
+        "source_answer_dates": [
+          "december 19 1996"
+        ],
+        "baseline_generation_dates": [
+          "july 30 1996"
+        ],
+        "generated_dates": [
+          "july 30 1996"
+        ],
+        "already_conflicted_at_baseline": true
+      }
+    ],
+    "warning": "A deterministic screen, not a complete semantic evaluation."
+  },
+  "generation_text_identical_rows": 239,
+  "interpretation_limit": "Descriptive matched outputs from one development run. Do not treat row-level counts as independent inferential observations; the registered inferential unit is the profile block."
+}

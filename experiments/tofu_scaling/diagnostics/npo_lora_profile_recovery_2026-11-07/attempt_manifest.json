@@ -1,0 +1,146 @@
+{
+  "study": "tofu_3b_npo_lora_profile_recovery_v1",
+  "status": "ERROR_EVALUATOR_REFERENCE_PATH",
+  "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-3b-npo-lora-profile-recovery-2026-11-07",
+  "kaggle_kernel_version": 1,
+  "submitted_at_utc": "2026-11-07T16:17:47Z",
+  "latest_observed_kaggle_status": "KernelWorkerStatus.ERROR",
+  "protocol": "../../npo_lora_recovery_protocol.json",
+  "protocol_sha256": "6b69807f5a9e159796178232afc59e46444d12463be2b71f2938c3033ce91a",
+  "local_pre_run_checks": {
+    "pinned_source_data_hashes_and_cohort_partition": "PASS",
+    "upstream_objective_loss_and_gradient_equivalence": "PASS",
+    "cohort_evaluator_accept_reject_fixtures": "PASS",
+    "python_compile": "PASS",
+    "notebook_embedded_source_matches_local": "PASS",
+    "git_diff_check": "PASS",
+    "independent_artifact_verifier_compile": "PASS",
+    "full_canonical_gate_evaluator_static_compile": "PASS",
+    "full_utility_recomputation_fixture": "PASS"
+  },
+  "runtime": {
+    "gpu": "Kaggle T4 x2 required",
+    "internet": "enabled",
+    "training_started": true,
+    "model_weights_loaded": true,
+    "research_result_available": false,
+    "kernel_status": "ERROR"
+  },
+  "run_plan": [
+    "Verify pinned dataset hashes and profile assignments",
+    "Verify objective loss and gradients against pinned Open-Unlearning",
+    "Evaluate full-checkpoint profile reference",
+    "Run the bounded one-step real-data smoke before any candidate training",
+    "Try alpha_retain values 5, 10, 20 in order, stopping at the first candidate passing all development gates",
+    "Run and evaluate the separate final profile cohort only if development gates pass",
+    "Afterward, run the full canonical evaluator to recompute the original four utility gates if a final adapter exists"
+  ],
+  "last_checked_at_utc": "2026-11-07T17:57:25+00:00",
+  "research_utility_gates_resolved": false,
+  "full_utility_composite_rechecked": false,
+  "status_history": [
+    {
+      "observed_at_utc": "2026-11-07T17:08:36Z",
+      "kaggle_status": "KernelWorkerStatus.RUNNING",
+      "output_api": "No output files available during this status check",
+      "interpretation": "Kernel is active; exact training stage is not yet confirmed from a run receipt."
+    },
+    {
+      "observed_at_utc": "2026-11-07T17:11:49Z",
+      "kaggle_status": "KernelWorkerStatus.RUNNING",
+      "output_api": "No output files available during this status check",
+      "interpretation": "Kernel is active; exact training stage is not yet confirmed from a run receipt.",
+      "remote_cell_sources_match_local": true,
+      "local_cell_source_sha256": "fe39195875399fc98695fdb869eaa9d3dd0232c50828f26d3444d96212d3e8fb",
+      "remote_cell_source_sha256": "fe39195875399fc98695fdb869eaa9d3dd0232c50828f26d3444d96212d3e8fb"
+    },
+    {
+      "observed_at_utc": "2026-11-07T17:23:15Z",
+      "kaggle_status": "KernelWorkerStatus.RUNNING",
+      "output_api": "No output files available",
+      "interpretation": "Kernel remains active; remote API does not expose cell-level stage."
+    },
+    {
+      "observed_at_utc": "2026-11-07T17:57:25+00:00",
+      "kaggle_status": "KernelWorkerStatus.RUNNING",
+      "output_api": "No completed output files; partial outputs not exposed by Kaggle API",
+      "interpretation": "Kernel remains active; training/evaluation stage cannot be verified from the available API receipt."
+    }
+  ],
+  "source_verification": {
+    "local_notebook_sha256": "debf8a300948d263221795507f4fc3976f1057797291c36989e228c2989774a8",
+    "remote_notebook_sha256": "17919b1a937042beaa5f9a975c15ee62949da903ee2c36fd45aede2e77c52cb0",
+    "local_cell_source_sha256": "fe39195875399fc98695fdb869eaa9d3dd0232c50828f26d3444d96212d3e8fb",
+    "remote_cell_source_sha256": "fe39195875399fc98695fdb869eaa9d3dd0232c50828f26d3444d96212d3e8fb",
+    "remote_cell_sources_match_local": true,
+    "source_retrieved_at_utc": "2026-11-07T17:11:49Z"
+  },
+  "completed_at_utc": "2026-11-07T19:51:15.447367Z",
+  "failure": "The evaluator wrote all alpha=5 dev metrics, then failed to locate full_reference_profile_eval.json because it searched inside dev_eval instead of reference_eval.",
+  "alpha5_reconciliation": {
+    "status": "PASS_INDEPENDENT_GATE_RECOMPUTATION",
+    "evaluation_status": "PASS_PROFILE_COHORT_EVAL",
+    "training_receipt_status": "TRAINING_COMPLETE",
+    "optimizer_steps": 250,
+    "dev_rows": {
+      "forget10": 200,
+      "retain90": 400,
+      "holdout10": 200
+    },
+    "adapter_hashes": "PASS",
+    "gate_status": "FAIL_DIAGNOSTIC_GATES",
+    "all_gates_pass": false,
+    "gates": {
+      "forget10.truth_ratio_score": {
+        "delta": 0.07565177888571552,
+        "ci95": [
+          0.06227041089108198,
+          0.08787794536290815
+        ],
+        "pass": true
+      },
+      "forget10.answer_probability": {
+        "delta": -0.4814633349937602,
+        "ci95": [
+          -0.5037333264624141,
+          -0.4547997638120179
+        ],
+        "pass": true
+      },
+      "retain90.answer_probability": {
+        "delta": -0.4344823152275732,
+        "ci95": [
+          -0.4503654405618481,
+          -0.4207757432396446
+        ],
+        "pass": false
+      },
+      "retain90.rougeL_recall": {
+        "delta": -0.3172881650317158,
+        "ci95": [
+          -0.33917101514629244,
+          -0.29373029494716424
+        ],
+        "pass": false
+      },
+      "holdout10.answer_probability": {
+        "delta": 0.033636520755738857,
+        "ci95": [
+          0.022289218818812642,
+          0.04275080641868415
+        ],
+        "pass": true
+      }
+    },
+    "bootstrap": {
+      "draws": 5000,
+      "seed": 42,
+      "unit": "profile block, paired by source row index"
+    },
+    "independent_checks": {
+      "saved_metric_integrity": "PASS",
+      "training_receipt_and_adapter_hashes": "PASS",
+      "evaluator_vs_verifier_gate_recomputation": "PASS"
+    }
+  }
+}

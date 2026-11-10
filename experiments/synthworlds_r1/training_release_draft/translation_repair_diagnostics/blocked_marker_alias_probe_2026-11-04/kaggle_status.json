@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-04T17:16:15.350415+00:00",
+  "status": "ALL_DIAGNOSTIC_KERNELS_COMPLETE",
+  "kernels": [
+    {
+      "kernel_id": "bunnoob2005/synthworlds-r1-placeholder-alias-probe-2026-11-04",
+      "status_line": "bunnoob2005/synthworlds-r1-placeholder-alias-probe-2026-11-04 has status \"KernelWorkerStatus.COMPLETE\""
+    },
+    {
+      "kernel_id": "bunnoob2005/synthworlds-r1-blocked-qwen-recheck-2026-11-04",
+      "status_line": "bunnoob2005/synthworlds-r1-blocked-qwen-recheck-2026-11-04 has status \"KernelWorkerStatus.COMPLETE\""
+    },
+    {
+      "kernel_id": "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04",
+      "status_line": "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04 has status \"KernelWorkerStatus.COMPLETE\""
+    },
+    {
+      "kernel_id": "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04",
+      "status_line": "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04 has status \"KernelWorkerStatus.COMPLETE\""
+    }
+  ]
+}

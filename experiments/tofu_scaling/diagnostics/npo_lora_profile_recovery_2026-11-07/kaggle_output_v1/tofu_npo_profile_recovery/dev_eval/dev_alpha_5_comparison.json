@@ -1,0 +1,83 @@
+{
+  "status": "FAIL_DIAGNOSTIC_GATES",
+  "interpretation": "One-seed exploratory profile-cohort follow-up; not confirmatory and not a standard full-split TOFU run.",
+  "utility_and_forgetting_gates": {
+    "forget10.truth_ratio_score": {
+      "delta": 0.07565177888571552,
+      "ci95": [
+        0.06227041089108198,
+        0.08787794536290815
+      ],
+      "rule": "lower_gt_zero",
+      "threshold": 0.0,
+      "pass": true,
+      "n_questions": 200,
+      "n_profile_blocks": 10
+    },
+    "forget10.answer_probability": {
+      "delta": -0.4814633349937602,
+      "ci95": [
+        -0.5037333264624141,
+        -0.4547997638120179
+      ],
+      "rule": "upper_lt_zero",
+      "threshold": 0.0,
+      "pass": true,
+      "n_questions": 200,
+      "n_profile_blocks": 10
+    },
+    "retain90.answer_probability": {
+      "delta": -0.4344823152275732,
+      "ci95": [
+        -0.4503654405618481,
+        -0.4207757432396446
+      ],
+      "rule": "lower_gt_minus_margin",
+      "threshold": -0.05,
+      "pass": false,
+      "n_questions": 400,
+      "n_profile_blocks": 20
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.3172881650317158,
+      "ci95": [
+        -0.33917101514629244,
+        -0.29373029494716424
+      ],
+      "rule": "lower_gt_minus_margin",
+      "threshold": -0.05,
+      "pass": false,
+      "n_questions": 400,
+      "n_profile_blocks": 20
+    },
+    "holdout10.answer_probability": {
+      "delta": 0.033636520755738857,
+      "ci95": [
+        0.022289218818812642,
+        0.04275080641868415
+      ],
+      "rule": "lower_gt_minus_margin",
+      "threshold": -0.05,
+      "pass": true,
+      "n_questions": 200,
+      "n_profile_blocks": 10
+    }
+  },
+  "all_gates_pass": false,
+  "noninferiority_margin": 0.05,
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 42,
+    "unit": "profile block, paired by source row index"
+  },
+  "protocol_id": "tofu_3b_npo_lora_profile_recovery_v1",
+  "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+  "model_revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+  "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+  "cohort": "dev",
+  "alpha_retain": 5.0,
+  "training_receipt_sha256": "4e39668a551cb4018544f9f8ef24d537e701db5fb73bbc51853df08402970761",
+  "evaluation_receipt": "dev_alpha_5_profile_eval.json",
+  "reconciled_from_saved_evaluations": true,
+  "failed_attempt_receipt_sha256": "79b4006eb19c77b45ba319f6892f4f0668810be98f89b34d4e17bf1f7bbac7f0"
+}

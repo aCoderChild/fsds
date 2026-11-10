@@ -1,0 +1,36 @@
+{
+  "alias_retry_output_sha256": "49ef405a582c6af101a3293bdede84f88a1509f73256c9754e4b34412b468590",
+  "answers_or_splits_sent": false,
+  "counts": {
+    "BLOCKED": 1,
+    "FLAG": 9,
+    "PASS": 5
+  },
+  "counts_by_language": {
+    "de": {
+      "FLAG": 2,
+      "PASS": 1
+    },
+    "fr": {
+      "FLAG": 1,
+      "PASS": 1
+    },
+    "hi": {
+      "BLOCKED": 1,
+      "FLAG": 5,
+      "PASS": 2
+    },
+    "th": {
+      "FLAG": 1,
+      "PASS": 1
+    }
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "ae9e971f55064f1d059cbd6cd4d61d2763c5eb78a123b1280eeaf08b2ffdeeda",
+  "interpretation": "Qwen judgments are AI-only. Exact placeholder preservation establishes integrity only, not translation quality.",
+  "output_sha256": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+  "release_approved": false,
+  "rows": 15,
+  "status": "VERIFIED_15_ROW_QWEN_RETRY_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

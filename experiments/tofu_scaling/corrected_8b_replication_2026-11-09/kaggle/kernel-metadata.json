@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43",
+  "title": "TOFU 8B NPO-LoRA Corrected Diagnostic (Seed 43)",
+  "code_file": "tofu_8b_npo_lora_corrected_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "GPU T4 x2",
+  "dataset_sources": [
+    "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08"
+  ]
+}

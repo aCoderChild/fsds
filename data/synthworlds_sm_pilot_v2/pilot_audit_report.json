@@ -1,0 +1,154 @@
+{
+  "by_language": {
+    "de": {
+      "documents": {
+        "completed_count": 2,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6288
+      },
+      "facts": {
+        "completed_count": 1,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6289
+      },
+      "qa": {
+        "completed_count": 1,
+        "expected_count": 1200,
+        "partial_count": 4,
+        "pending_count": 1199
+      },
+      "sft": {
+        "completed_count": 10,
+        "expected_count": 206,
+        "partial_count": 0,
+        "pending_count": 196
+      }
+    },
+    "fr": {
+      "documents": {
+        "completed_count": 2,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6288
+      },
+      "facts": {
+        "completed_count": 1,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6289
+      },
+      "qa": {
+        "completed_count": 1,
+        "expected_count": 1200,
+        "partial_count": 4,
+        "pending_count": 1199
+      },
+      "sft": {
+        "completed_count": 10,
+        "expected_count": 206,
+        "partial_count": 0,
+        "pending_count": 196
+      }
+    },
+    "hi": {
+      "documents": {
+        "completed_count": 2,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6288
+      },
+      "facts": {
+        "completed_count": 1,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6289
+      },
+      "qa": {
+        "completed_count": 1,
+        "expected_count": 1200,
+        "partial_count": 4,
+        "pending_count": 1199
+      },
+      "sft": {
+        "completed_count": 10,
+        "expected_count": 206,
+        "partial_count": 0,
+        "pending_count": 196
+      }
+    },
+    "th": {
+      "documents": {
+        "completed_count": 2,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6288
+      },
+      "facts": {
+        "completed_count": 1,
+        "expected_count": 6290,
+        "partial_count": 0,
+        "pending_count": 6289
+      },
+      "qa": {
+        "completed_count": 1,
+        "expected_count": 1200,
+        "partial_count": 4,
+        "pending_count": 1199
+      },
+      "sft": {
+        "completed_count": 10,
+        "expected_count": 206,
+        "partial_count": 0,
+        "pending_count": 196
+      }
+    }
+  },
+  "cross_split_exact_chain_fact_collisions": 0,
+  "eligible_type_a": 130,
+  "en_sft_records": 206,
+  "entity_disjoint": false,
+  "entity_overlap_pairs": {
+    "all_pairs": 41,
+    "cross_split_pairs": 9
+  },
+  "excluded_other_graph_types": 1000,
+  "excluded_type_a": 70,
+  "human_review_status": "pending",
+  "known_pending_gold_doc_mappings": [],
+  "model_training_started": false,
+  "sft_quarantined_cases": [
+    {
+      "graph_relation_str": "[participant → Irvin Oathen → end time]",
+      "proposed_split_unchanged": "forget",
+      "q2": "In what year did Irvin Oathen cease to be a participant in the <bridge>Tempest of Nations</bridge>?",
+      "reason": "R2_GRAPH_RELATION_VS_SOURCE_FACT_INCONSISTENT",
+      "source_qa_id": "0080-qa-sm",
+      "verified_source_r2_fact": "Tempest of Nations (Q33143) → participant → Irvin Thorne (Q131981) → end time → 1799 (year)"
+    }
+  ],
+  "source_counts": {
+    "documents": 6290,
+    "facts": 6290,
+    "qa": 1200
+  },
+  "source_validation": "PASS",
+  "split_counts": {
+    "forget": 78,
+    "holdout": 26,
+    "retain": 26
+  },
+  "split_validation": "PASS_PROPOSAL_ONLY",
+  "status": "PARTIAL_FOR_REVIEW_NOT_APPROVED",
+  "translation_model_method": "GPT-6 authored limited translation batches, carried forward seed batch 0001 from v1 plus new QA batch 0002. No external MT API. Python structural validation only.",
+  "translation_review_issues": [
+    "All machine-generated translations need human linguistic review.",
+    "Only full gold-doc translations are counted as completed QA; partial QA question-only translations are retained as partial.",
+    "Source facts provide no independently checkable relation PIDs, only graph metadata.",
+    "Graph r2 qualifier in a proposed eligible case references an entity different from the selected source fact; the SFT QA case was quarantined.",
+    "No passage-level documents or whole fact rows are used as SFT."
+  ],
+  "translation_validation_failure_count": 0,
+  "unique_en_sft_fact_ids": 204
+}

@@ -1,0 +1,213 @@
+{
+  "generated_at_utc": "2026-11-06T02:22:37.391335+00:00",
+  "open_unlearning_revision": "2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+  "data_audit": {
+    "dataset_id": "locuslab/TOFU",
+    "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "files": {
+      "full.json": {
+        "url": "https://huggingface.co/datasets/locuslab/TOFU/resolve/324592d84ae4f482ac7249b9285c2ecdb53e3a68/full.json",
+        "sha256": "667baef2f26f781f1328701d8ea54bf25123ff22fb2d98574c96cd991cb54086",
+        "bytes": 1077844,
+        "rows": 4000,
+        "expected_rows": 4000,
+        "required_fields": [
+          "question",
+          "answer"
+        ],
+        "missing_or_empty_required_fields": 0,
+        "duplicates": {
+          "exact_duplicate_qa_rows": 0,
+          "repeated_question_rows": 1,
+          "repeated_question_strings": 1,
+          "conflicting_answer_questions": 1,
+          "repeated_questions": [
+            {
+              "question": "What is the full name of the author?",
+              "count": 2,
+              "answers": [
+                "The full name of the author is Aurelio Beltrán.",
+                "The full name of the author is Isabel Martínez."
+              ]
+            }
+          ]
+        }
+      },
+      "forget10.json": {
+        "url": "https://huggingface.co/datasets/locuslab/TOFU/resolve/324592d84ae4f482ac7249b9285c2ecdb53e3a68/forget10.json",
+        "sha256": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+        "bytes": 114856,
+        "rows": 400,
+        "expected_rows": 400,
+        "required_fields": [
+          "question",
+          "answer"
+        ],
+        "missing_or_empty_required_fields": 0,
+        "duplicates": {
+          "exact_duplicate_qa_rows": 0,
+          "repeated_question_rows": 0,
+          "repeated_question_strings": 0,
+          "conflicting_answer_questions": 0,
+          "repeated_questions": []
+        }
+      },
+      "retain90.json": {
+        "url": "https://huggingface.co/datasets/locuslab/TOFU/resolve/324592d84ae4f482ac7249b9285c2ecdb53e3a68/retain90.json",
+        "sha256": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+        "bytes": 962987,
+        "rows": 3600,
+        "expected_rows": 3600,
+        "required_fields": [
+          "question",
+          "answer"
+        ],
+        "missing_or_empty_required_fields": 0,
+        "duplicates": {
+          "exact_duplicate_qa_rows": 0,
+          "repeated_question_rows": 1,
+          "repeated_question_strings": 1,
+          "conflicting_answer_questions": 1,
+          "repeated_questions": [
+            {
+              "question": "What is the full name of the author?",
+              "count": 2,
+              "answers": [
+                "The full name of the author is Aurelio Beltrán.",
+                "The full name of the author is Isabel Martínez."
+              ]
+            }
+          ]
+        }
+      },
+      "holdout10.json": {
+        "url": "https://huggingface.co/datasets/locuslab/TOFU/resolve/324592d84ae4f482ac7249b9285c2ecdb53e3a68/holdout10.json",
+        "sha256": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd",
+        "bytes": 131049,
+        "rows": 400,
+        "expected_rows": 400,
+        "required_fields": [
+          "question",
+          "answer"
+        ],
+        "missing_or_empty_required_fields": 0,
+        "duplicates": {
+          "exact_duplicate_qa_rows": 0,
+          "repeated_question_rows": 0,
+          "repeated_question_strings": 0,
+          "conflicting_answer_questions": 0,
+          "repeated_questions": []
+        }
+      },
+      "forget10_perturbed.json": {
+        "url": "https://huggingface.co/datasets/locuslab/TOFU/resolve/324592d84ae4f482ac7249b9285c2ecdb53e3a68/forget10_perturbed.json",
+        "sha256": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+        "bytes": 674694,
+        "rows": 400,
+        "expected_rows": 400,
+        "required_fields": [
+          "question",
+          "answer"
+        ],
+        "missing_or_empty_required_fields": 0,
+        "duplicates": {
+          "exact_duplicate_qa_rows": 0,
+          "repeated_question_rows": 0,
+          "repeated_question_strings": 0,
+          "conflicting_answer_questions": 0,
+          "repeated_questions": []
+        }
+      }
+    },
+    "split_intersections": {
+      "forget10__retain90": {
+        "exact_qa_pairs": 0,
+        "question_strings": 0
+      },
+      "forget10__holdout10": {
+        "exact_qa_pairs": 0,
+        "question_strings": 0
+      },
+      "retain90__holdout10": {
+        "exact_qa_pairs": 0,
+        "question_strings": 0
+      }
+    },
+    "checks": {
+      "expected_record_counts": true,
+      "required_schema_and_nonempty_text": true,
+      "forget_retain_holdout_pairwise_disjoint_by_question_and_answer": true,
+      "full_equals_forget10_plus_retain90_as_multiset": true,
+      "forget10_perturbed_row_order_and_source_qa_alignment": true,
+      "perturbation_fields_valid_and_five_wrong_answers_each": true,
+      "structural_checks_pass": true
+    },
+    "profile_grouping": {
+      "published_question_answer_pairs_per_profile": 20,
+      "inferred_profile_counts_from_split_sizes": {
+        "forget10": 20,
+        "retain90": 180,
+        "holdout10": 20
+      },
+      "author_id_column_present": false,
+      "limitation": "The release has question/answer text but no author_id field; author isolation is the benchmark's documented construction, not independently proven from a structured ID column here."
+    }
+  },
+  "checkpoints": {
+    "llama_3_2_3b_full": {
+      "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+      "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+      "config_http_access": "PASS",
+      "config_sha256": "7a1c53f2ca4e667a5a69cc98b5b72f4bc207f145e1bac2b773ae0f9d74f7d4c3",
+      "model_type": "llama",
+      "hidden_size": 3072,
+      "num_hidden_layers": 28,
+      "weight_file_count": 2,
+      "weight_bytes_from_hub_metadata": 6425529048,
+      "weights_downloaded": false
+    },
+    "llama_3_2_3b_retain90": {
+      "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_retain90",
+      "revision": "2c35819e9a731d096df9abd6efbcc361870c5333",
+      "config_http_access": "PASS",
+      "config_sha256": "7a1c53f2ca4e667a5a69cc98b5b72f4bc207f145e1bac2b773ae0f9d74f7d4c3",
+      "model_type": "llama",
+      "hidden_size": 3072,
+      "num_hidden_layers": 28,
+      "weight_file_count": 2,
+      "weight_bytes_from_hub_metadata": 6425529048,
+      "weights_downloaded": false
+    },
+    "llama_3_1_8b_full": {
+      "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full",
+      "revision": "1a5c5b1a557f8c99bdadecd5168ebd03f640b00e",
+      "config_http_access": "PASS",
+      "config_sha256": "87d8f7ecae956f8c35a1c4aeeeb2f3aca847f7da18963063a5c9c8334852c1bb",
+      "model_type": "llama",
+      "hidden_size": 4096,
+      "num_hidden_layers": 32,
+      "weight_file_count": 4,
+      "weight_bytes_from_hub_metadata": 16060556376,
+      "weights_downloaded": false
+    },
+    "llama_3_1_8b_retain90": {
+      "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_retain90",
+      "revision": "f02956a9f25a18f38ad7808fbefb2f957347273e",
+      "config_http_access": "PASS",
+      "config_sha256": "87d8f7ecae956f8c35a1c4aeeeb2f3aca847f7da18963063a5c9c8334852c1bb",
+      "model_type": "llama",
+      "hidden_size": 4096,
+      "num_hidden_layers": 32,
+      "weight_file_count": 4,
+      "weight_bytes_from_hub_metadata": 16060556376,
+      "weights_downloaded": false
+    }
+  },
+  "local_runtime": {
+    "platform": "macOS-15.8.3-arm64-arm-64bit-Mach-O",
+    "torch_version": "2.13.0",
+    "cuda_available": false,
+    "cuda_device_count": 0,
+    "mps_available": true
+  }
+}

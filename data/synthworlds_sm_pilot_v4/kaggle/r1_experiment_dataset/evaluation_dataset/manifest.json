@@ -1,0 +1,75 @@
+{
+  "status": "AI_ONLY_REVIEWED_EVAL_SET_READY",
+  "source_assignments": 129,
+  "source_sha256": {
+    "assignments": "d6ab5aeead869c1072dece276cc403a32c46e24253e1ad33c35d054209059bea",
+    "target_candidates": "4034839b4ae8ad22d352fc4e0ba14e8d20ba655a4388b5e4e11c98b03a7cffe3",
+    "qa": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+  },
+  "evaluation_languages": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "split_counts": {
+    "forget": 77,
+    "retain": 26,
+    "holdout": 26
+  },
+  "question_prompts_en": 258,
+  "gold_label_rows": 129,
+  "translation_requests_by_language": {
+    "fr": 258,
+    "de": 258,
+    "hi": 258,
+    "th": 258
+  },
+  "translation_status": "AI_TRANSLATED_COMPLETE",
+  "ai_review_status": "AI_ONLY_REVIEWED_COMPLETE",
+  "human_review_status": "NOT_PERFORMED",
+  "label_separation": "Gold labels are separate; translation requests contain no gold answers or supporting passages.",
+  "exact_answer_shortcut_screen": {
+    "final_answer_in_multihop_question": 0,
+    "intermediate_answer_in_multihop_question": 0
+  },
+  "translation_drafts": {
+    "model": "facebook/nllb-200-distilled-600M",
+    "rows_by_language": {
+      "fr": 258,
+      "de": 258,
+      "hi": 258,
+      "th": 258
+    },
+    "automatic_flagged_rows_by_language": {
+      "fr": 66,
+      "de": 5,
+      "hi": 1,
+      "th": 1
+    },
+    "status": "AI_ONLY_REVIEWED_COMPLETE",
+    "evaluation_ready": true
+  },
+  "ai_semantic_review_status": "AI_ONLY_REVIEWED_COMPLETE",
+  "evaluation_ready": true,
+  "ai_review": {
+    "method": "ChatGPT AI-only semantic review of English source and machine draft",
+    "human_review_performed": false,
+    "status": "AI_ONLY_NOT_HUMAN_VALIDATED",
+    "counts": {
+      "fr": 258,
+      "de": 258,
+      "hi": 258,
+      "th": 258
+    },
+    "files": {
+      "fr": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42",
+      "de": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a",
+      "hi": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32",
+      "th": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+    }
+  },
+  "inference_unit": "entity_fact_group_id from leakage-isolated split assignment",
+  "primary_cross_language_contrast": "post-unlearning minus SFT multi-hop accuracy in target language minus the same paired change in English; restricted to bilingual SFT-precompetent cases; cluster bootstrap by entity group"
+}

@@ -1,0 +1,101 @@
+{
+  "ai_reviewed_rows": 1324,
+  "atomic_rows_by_language": {
+    "de": 205,
+    "en": 205,
+    "fr": 205,
+    "hi": 205,
+    "th": 205
+  },
+  "base_composition_corpus_sha256": "973f5f7e4816118b0e7dc9f66f82dad21f41f5bc0aade8074cd47d155cdbc013",
+  "composition_label_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+  "composition_policy": {
+    "examples_per_language": 26,
+    "human_translation_reviewed": false,
+    "primary_generalization_split": "forget",
+    "retain_prompt_eval_overlap": true,
+    "source_split": "retain",
+    "total_examples": 130,
+    "uses_forget_or_holdout_labels": false
+  },
+  "composition_prompt_sha256": {
+    "de": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a",
+    "en": "30c93bfe6b043564e8c1a5aed164b1a51766c8788b7e4b4891cf0e20f9a68f70",
+    "fr": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42",
+    "hi": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32",
+    "th": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+  },
+  "composition_rows_by_language": {
+    "de": 26,
+    "en": 26,
+    "fr": 26,
+    "hi": 26,
+    "th": 26
+  },
+  "composition_source_ids_sha256": "68de14bb700c4d4e0d6991f186afa9c85bc89604e2a871a5c59c1f76a6685749",
+  "corpus_sha256": "12ff7668442753a57f319e505ea1cf22f1e2610d5243b939617626ff97c7a7e9",
+  "disjoint_train_only_extension": {
+    "ai_review_report_sha256": "29687b9041f25977256aab1e0b1bb7ff6855ec4a69760d053f422e3dda54be78",
+    "backtranslation_file_sha256": {
+      "de": "26b2139d86e181183e37d25d4b9019e03e4ff814f4396d5fa4a52322ad090de0",
+      "fr": "cab4f6045eeb2ec25668af799723ceb548501c7121d4a2950dd338e2cb4e1291",
+      "hi": "4b16912a0a9b8ad76df92711f85ac7f84498dc6fd2f82d1a960f148019eb11fb",
+      "th": "70072f010bbea7c631164a2eb32adb1c9e008f5af653719e0862bd5c00a589d8"
+    },
+    "candidate_manifest_sha256": "18bde85def0c9e1472acf38b33792355214cccec097f12f738de85424ba565df",
+    "candidate_source_english_sha256": "9a3e688d59806d14bec558b2c8bb277f78f07069a97d47c4a7c9b69186b2a49f",
+    "chains": 50,
+    "evaluation_disjoint_selection_policy": "Type-A source QA rows outside fixed evaluation IDs; exact first-hop source fact; exactly one second-hop source path; every source-supported Q1 bridge resolves to the same final answer; composition and Q2 rows have no chain entity/QID, answer, question, or selected chain-fact overlap with evaluation.",
+    "human_reviewed": false,
+    "rows_per_language": 100,
+    "split": "train_only",
+    "translation_file_sha256": {
+      "de": "38bdcad08820e6b71f15e5b7d45595f57b552dd57411b41da01fe3a299b45a13",
+      "fr": "07fca19078f686b653b544e554a8e113a21da2eb50229a127d78ab78d9207623",
+      "hi": "9c09d1db8c9c691ea08b552f98975c981882f6c2b86086263d42c598a2dd3217",
+      "th": "63fde7552a72f5f5ba1e104f6f6d836298a548d3063165f6d4efb5dca89e7846"
+    }
+  },
+  "do_not_train": false,
+  "evaluation_manifest_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4",
+  "forget_composition_rows": 0,
+  "holdout_rows": 0,
+  "human_translation_reviewed": false,
+  "languages": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "retain_composition_rows": 130,
+  "rows_by_language": {
+    "de": 331,
+    "en": 331,
+    "fr": 331,
+    "hi": 331,
+    "th": 331
+  },
+  "rows_by_split": {
+    "forget": 765,
+    "retain": 390,
+    "train_only": 500
+  },
+  "source_corpus_sha256": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f",
+  "source_manifest_sha256": "b61d7fea47084ec0c536074deb595e73d8f5a20a3198590f8cb87d2b3bf7c94d",
+  "split_approval": {
+    "record_sha256": "315590b41146e09ba0327ae3ce6e5f3c4467e5c3f10edfc0534a594219cd16d9",
+    "review_date": "2026-11-02",
+    "reviewer_name": "OpenAI Codex (delegated AI technical review)",
+    "reviewer_type": "AI",
+    "status": "APPROVED_PILOT_SPLIT"
+  },
+  "status": "AI_ONLY_REVIEWED_FIVE_LANGUAGE_COMPOSITION_SFT_CORPUS",
+  "total_rows": 1655,
+  "training_variant": "atomic_five_language_sft_plus_retained_and_disjoint_train_only_composition",
+  "translation_review_authorization": "AI_ONLY_REVIEW_AUTHORIZED",
+  "translation_review_mode": "AI_ONLY",
+  "translation_review_policy_sha256": "c712b04cc4f92f14cbb77095d0620ff9a7aef94c966115c7c4aa401484ea9ef5",
+  "translation_review_report_sha256": "89e9ef6fa51e4c06ad17fe9aef098de5c53b4e2672568b1bf7622183551a7f2a",
+  "unique_sft_ids_per_language": 331
+}

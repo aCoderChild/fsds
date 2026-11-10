@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/tofu-llama-3b-8b-baseline-diagnostic-2026-11-06",
+  "title": "TOFU Llama 3B 8B Baseline Diagnostic 2026-11-06",
+  "code_file": "tofu_baseline_diagnostic.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

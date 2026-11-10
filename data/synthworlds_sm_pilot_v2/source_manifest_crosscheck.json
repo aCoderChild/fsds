@@ -1,0 +1,32 @@
+{
+  "validation": "PASS",
+  "checked_against": [
+    "synthworlds_sm_reaudit/candidate_split_manifest.json",
+    "synthworlds_sm_pilot_v1/progress_manifest.json"
+  ],
+  "source_checksums": {
+    "documents": {
+      "sha256": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe",
+      "rows": 6290,
+      "bytes": 6461576
+    },
+    "facts": {
+      "sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+      "rows": 6290,
+      "bytes": 13742781
+    },
+    "qa": {
+      "sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+      "rows": 1200,
+      "bytes": 8948814
+    }
+  },
+  "audit_manifest_sha256": {
+    "reaudit_candidate": "e502b690bbe5452c785e24364971523c2544a93ba2eace64a44846d2d27aa0c1",
+    "pilot_v1_progress": "bee62c1072291058090b6c24dc712d7170ac09d6be8bea8139c60852db5f4544"
+  },
+  "notes": [
+    "Both attached source-checksum manifests match all three original data files exactly.",
+    "This record is independent of the v2 output and does not modify prior files."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "stage_id": "muse_news_target_baseline_v1",
+  "updated_at_utc": "2026-11-09T13:00:12+00:00",
+  "protocol_sha256": "17739214264ce8c7c3bcf5063d64f7d66c03fd29f84e994800db79d02da8b5aa",
+  "kaggle": {
+    "kernel": "bunnoob2005/muse-news-target-baseline-2026-11-09",
+    "url": "https://www.kaggle.com/code/bunnoob2005/muse-news-target-baseline-2026-11-09",
+    "version": 3,
+    "status": "ERROR_ACCESS_PREFLIGHT",
+    "private": true,
+    "gpu_enabled": false,
+    "internet_enabled": false,
+    "local_remote_cell_sources_match": true,
+    "stdout_markers": [
+      "ACCESS_PREFLIGHT_SKIPPED",
+      "STAGING_ONLY: runner skipped."
+    ],
+    "output_log": "kaggle/staging_v2.log",
+    "output_log_sha256": "cc591c3662537330758bca0f64701cc37523eda866ce78220253db6ed0085cec",
+    "latest_attempt": {
+      "version": 3,
+      "status": "ERROR_ACCESS_PREFLIGHT",
+      "checked_at_utc": "2026-11-09T07:07:33.602744+00:00",
+      "gpu_enabled": false,
+      "internet_enabled": true,
+      "run_access_preflight": true,
+      "run_baseline": false,
+      "failure_point": "Kaggle UserSecretsClient.get_secret(\"HF_TOKEN\")",
+      "error_category": "Kaggle secret retrieval request returned HTTP 400; secret presence/attachment vs Kaggle backend failure cannot be distinguished from this response",
+      "huggingface_access_check_reached": false,
+      "tokenizer_files_downloaded": false,
+      "model_weights_downloaded": false,
+      "dataset_evaluation_started": false,
+      "metrics_created": false,
+      "runtime_seconds_before_failure": 13.76,
+      "output_log": "kaggle/access_preflight_v3.log",
+      "output_log_sha256": "e4d1873537463d8276bf359a6169b0132b00a77c24a6379743b8055dc0b6ed76"
+    }
+  },
+  "evaluation": {
+    "status": "NOT_STARTED",
+    "weights_loaded": false,
+    "tokenizer_access_checked": false,
+    "results_available": false,
+    "reason": "The 2026-11-09 interactive no-GPU preflight retrieved HF_TOKEN successfully but received Hugging Face HTTP 403 for the first pinned tokenizer file from meta-llama/Llama-2-7b-hf. No tokenizer file, model weights, evaluation data, or metrics were produced."
+  },
+  "next_action": {
+    "do_not_train_until": "model-term/provenance and source-alignment scope review is complete",
+    "inference_only_baseline": "Obtain Hugging Face access for the exact meta-llama/Llama-2-7b-hf repository using the same account as HF_TOKEN, then rerun the no-GPU hash-checked preflight. Proceed to baseline only after it passes.",
+    "tokenizer_substitution": "PROHIBITED_BY_LOCKED_PROTOCOL"
+  },
+  "local_fixture_access_preflight": {
+    "status": "PASS",
+    "four_tokenizer_file_hashes_checked": true,
+    "secret_value_absent_from_output_and_receipt": true,
+    "model_weights_downloaded": false,
+    "gpu_used": false
+  },
+  "published_reference_results": {
+    "path": "published_reference_results.md",
+    "source": "https://arxiv.org/abs/2407.06460",
+    "status": "TRANSCRIBED_AND_SCHEMA_CHECKED_NOT_A_LOCAL_RUN",
+    "C1_C2_C4_intervals": "95% percentile bootstrap; 9999 resamples"
+  },
+  "official_release_review": "experiments/tofu_scaling/diagnostics/muse_news_readiness_2026-11-09/official_release_review.md",
+  "current_access_recheck": {
+    "checked_at_utc": "2026-11-09T13:00:12+00:00",
+    "kaggle_notebook": "bunnoob2005/muse-news-target-baseline-2026-11-09",
+    "kaggle_run_id": "367204507",
+    "secret_retrieval": "PASSED",
+    "huggingface_response": "HTTP 403 GatedRepoError for the first pinned Llama 2 tokenizer file",
+    "local_hf_token_available": false,
+    "weights_or_evaluation_started": false,
+    "manual_action_required": "Request/accept access to meta-llama/Llama-2-7b-hf on Hugging Face for the account that issued HF_TOKEN; then rerun only the access preflight."
+  },
+  "ui_inspection_2026_11_09T0848Z": {
+    "checked_at_utc": "2026-11-09T08:48:48+00:00",
+    "kaggle_notebook": "bunnoob2005/muse-news-target-baseline-2026-11-09",
+    "hf_token_secret_label_visible": true,
+    "hf_token_enabled_for_this_notebook": false,
+    "gpu_session": "off",
+    "baseline_run_flag": false,
+    "latest_kernel_status": "KernelWorkerStatus.ERROR",
+    "no_new_evaluation_started": true,
+    "note": "The UI shows the existing HF_TOKEN secret checkbox unchecked for this exact notebook. Enabling it requires action-time confirmation because it grants notebook code access to the Hugging Face credential."
+  },
+  "latest_ui_preflight_attempt": {
+    "checked_at_utc": "2026-11-09T13:00:12+00:00",
+    "attempt_type": "interactive_draft_cell_run",
+    "kaggle_notebook": "bunnoob2005/muse-news-target-baseline-2026-11-09",
+    "kaggle_run_id": "367204507",
+    "kaggle_url": "https://www.kaggle.com/code/bunnoob2005/muse-news-target-baseline-2026-11-09/edit/run/367204507",
+    "run_access_preflight": true,
+    "run_baseline": false,
+    "hf_token_secret_enabled": true,
+    "secret_retrieval": "PASSED; the cell proceeded to Hugging Face without exposing the token",
+    "accelerator": "None",
+    "internet_enabled": true,
+    "status": "ERROR_HUGGINGFACE_GATED_REPO_403",
+    "failure_point": "Downloading the first pinned tokenizer file from meta-llama/Llama-2-7b-hf",
+    "error": "GatedRepoError HTTP 403 for special_tokens_map.json at revision 01c7f73d771dfac7d292323805ebc428287df4f9",
+    "tokenizer_files_downloaded": false,
+    "model_weights_downloaded": false,
+    "gpu_used": false,
+    "evaluation_data_read": false,
+    "baseline_started": false,
+    "metrics_created": false,
+    "session_stopped_after_failure": true,
+    "interpretation": "The Kaggle secret is retrievable, but the Hugging Face account/token lacks access to this exact gated Llama 2 repository, or the access grant is not yet reflected in the token."
+  }
+}

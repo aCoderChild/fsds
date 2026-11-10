@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "title": "SynthWorlds Llama31 8B Runtime Smoke 2026-11-04",
+  "code_file": "llama31_8b_runtime_smoke.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": []
+}

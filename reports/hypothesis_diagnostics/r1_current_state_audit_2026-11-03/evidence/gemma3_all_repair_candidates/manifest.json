@@ -1,0 +1,35 @@
+{
+  "answers_sent_to_reviewer": false,
+  "candidate_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+  "candidate_rows_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+  "decision_sha256": "81fe882781bd31697d2b92fcf078a27ee044c06aa62087e0b703bc4e003779a4",
+  "final_review_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+  "human_reviewed": false,
+  "model": "gemma3:4b",
+  "model_digest": "68ceab7e468a31c988b44d5a4984a0e21f58c4f7158c6ce29c1804babac38df7",
+  "ollama_version": "ollama version is 0.32.1",
+  "prompt_sha256": "a2cc08bbccf79c11b32a5d36bbebccd5060a562d5d30ddcf71dadb42b691af1b",
+  "sample_mode": "all_candidates",
+  "sample_rule": "all nonempty, deterministic-pass repair candidates across every target-language/kind cell, regardless of Qwen7B result",
+  "sample_size": 948,
+  "selected_by_cell": {
+    "de": {
+      "atomic": 166,
+      "composition": 77
+    },
+    "fr": {
+      "atomic": 131,
+      "composition": 64
+    },
+    "hi": {
+      "atomic": 127,
+      "composition": 100
+    },
+    "th": {
+      "atomic": 185,
+      "composition": 98
+    }
+  },
+  "skipped_rows": {},
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

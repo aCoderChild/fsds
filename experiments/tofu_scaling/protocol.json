@@ -1,0 +1,393 @@
+{
+  "protocol_id": "tofu_full_checkpoint_baseline_diagnostic_v1",
+  "status": "OFFICIAL_METRIC_BASELINE_COMPLETE_AND_VERIFIED; NPO_NOT_STARTED",
+  "research_question_candidate": "Do published full TOFU checkpoints for Llama 3.2 3B and Llama 3.1 8B show materially different pre-unlearning answer-likelihood profiles on forget, retain, and holdout data?",
+  "interpretation_limit": "The model pair differs in both parameter count and generation/training history; results are a checkpoint comparison, not a causal parameter-scaling effect.",
+  "dataset": {
+    "repo": "locuslab/TOFU",
+    "revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "forget_split": "forget10",
+    "retain_split": "retain90",
+    "holdout_split": "holdout10",
+    "profile_qa_count": 20,
+    "retain_profile_sample_size": 20,
+    "retain_profile_sample_seed": 42,
+    "retain_sample_rule": "Include the two contiguous 20-QA profile blocks that contain both occurrences of the known conflicting question, then sample 18 other profile blocks without replacement from the remaining blocks using seed 42; use the same fixed blocks for both models."
+  },
+  "models": {
+    "llama_3_2_3b": {
+      "architecture_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "full_checkpoint": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+      "full_revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+      "retain90_oracle_checkpoint": "open-unlearning/tofu_Llama-3.2-3B-Instruct_retain90",
+      "retain90_oracle_revision": "2c35819e9a731d096df9abd6efbcc361870c5333"
+    },
+    "llama_3_1_8b": {
+      "architecture_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "full_checkpoint": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full",
+      "full_revision": "1a5c5b1a557f8c99bdadecd5168ebd03f640b00e",
+      "retain90_oracle_checkpoint": "open-unlearning/tofu_Llama-3.1-8B-Instruct_retain90",
+      "retain90_oracle_revision": "f02956a9f25a18f38ad7808fbefb2f957347273e"
+    }
+  },
+  "baseline_diagnostic": {
+    "training": false,
+    "quantization": "none; FP16 inference",
+    "official_metric": "Per-example mean probability of the gold answer: exp(-mean assistant-token cross-entropy), matching Open-Unlearning's probability metric.",
+    "prompt": {
+      "system": "You are a helpful assistant.",
+      "date_string": "10 Apr 2025",
+      "chat_template": true,
+      "max_length_config_value": 512,
+      "truncate": false,
+      "note": "The pinned Open-Unlearning chat-template branch does not truncate to max_length; actual tokenized lengths are recorded by the runner."
+    },
+    "uncertainty": "Percentile 95% cluster-bootstrap interval over 20-QA profile blocks, 5,000 resamples, seed 42.",
+    "retention_collision_sensitivity": "After preserving the official split for primary comparability, recompute retain statistics after excluding both instances of the identical question with conflicting answers."
+  },
+  "baseline_result": {
+    "status": "EXPLORATORY_LIKELIHOOD_ONLY_INDEPENDENTLY_VERIFIED",
+    "report": "diagnostics/kaggle_baseline_2026-11-06/tofu_baseline_results/baseline_diagnostic_report.md",
+    "verification": "diagnostics/kaggle_baseline_2026-11-06/tofu_baseline_results/baseline_diagnostic_verification.md",
+    "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-llama-3b-8b-baseline-diagnostic-2026-11-06",
+    "training_started": false,
+    "research_adapter_created": false
+  },
+  "official_metric_baseline": {
+    "status": "COMPLETE_3B_AND_8B_FULL_AND_ORACLE_VERIFIED; NPO_NOT_STARTED",
+    "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-official-metrics-baseline-3b-8b-2026-11-06",
+    "retry_kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+    "first_run_failure": "Historical: the first full run verified both 3B checkpoints, then CUDA OOM occurred during 8B loading. Version 3 loaded the 8B checkpoint but detected CPU offload under a 10 GiB-per-T4 cap and stopped before generation or evaluation.",
+    "retry_strategy": "Version 6 ran only the missing 8B retain90 oracle in a fresh Kaggle runtime. It restored the independently verified 3B full/oracle and 8B full outputs from a private checksum-verified resume dataset, then used balanced T4x2 placement with a 13 GiB per-GPU cap, fail-closed CPU/disk offload check, and generation smoke.",
+    "notebook": "kaggle/official_metrics/tofu_official_metrics_baseline.ipynb",
+    "scope": {
+      "forget10_questions": 400,
+      "canonical_retain_questions": 400,
+      "holdout10_questions": 400,
+      "real_author_utility_questions": 100,
+      "world_fact_utility_questions": 117,
+      "retain_oracle_checkpoints": 2
+    },
+    "metrics": [
+      "answer probability",
+      "greedy-generation ROUGE-L recall",
+      "Truth Ratio",
+      "normalized option probability",
+      "nine-component model-utility harmonic mean",
+      "forget-quality KS test against matching retain90 oracle"
+    ],
+    "inference_runtime": "Kaggle T4 x2, FP16 + SDPA; upstream configs use BF16 + FlashAttention 2",
+    "training_started": false,
+    "independent_verifier": "verify_tofu_official_eval.py",
+    "retry_kaggle_status_observed": "KernelWorkerStatus.COMPLETE (version 6; 2026-11-07 04:27:54 UTC)",
+    "retry_kernel_status_current": "KernelWorkerStatus.COMPLETE (version 6; completed 2026-11-07 04:27:54 UTC)",
+    "retry_result_status_raw": "Version 6 completed successfully; the isolated 8B retain90 oracle was written and passed Kaggle and local independent verification.",
+    "retry_result_status_note": "All four pinned checkpoints pass the independent verifier with no missing outputs or issues. Raw version-6 output ZIP CRC and SHA-256 are recorded. No training or research adapter was created.",
+    "remote_retry_notebook_code_status": "Version 6 was pulled back from Kaggle; all cell sources match the local generated notebook. It restores only checksum-verified files and requests only llama_3_1_8b_retain90.",
+    "verified_result_directory": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/reconciled_complete_3b_8b_verified/tofu_official_eval",
+    "partial_report": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/official_metric_partial_report.md",
+    "retry_receipt": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/attempt_manifest.json",
+    "partial_verification": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/reconciled_partial_3b_verified/official_eval_verification.json",
+    "eight_b_outcome": "Version 6 completed the isolated Llama 3.1 8B retain90 oracle evaluation in a fresh Kaggle runtime. It scored all 400 ordered forget10 rows in 423.93 seconds, passed the GPU-only T4x2 placement and generation smoke, and recorded the pinned checkpoint and evaluation data hashes. Kaggle and the independent local verifier both pass all four full/oracle checkpoints. For 8B, full and retain90-oracle forget-set Truth Ratio distributions are distinguishable (KS D=0.3900, p=1.5853e-27), consistent with the intended pre-unlearning baseline separation. This does not evaluate an unlearning method.",
+    "verified_three_b_outcome": {
+      "llama_3_2_3b_full": "PASS",
+      "llama_3_2_3b_retain90": "PASS",
+      "ks_statistic": 0.37750000000000006,
+      "ks_p_value": 8.999307866955786e-26,
+      "ks_recomputed_from_preserved_rows_in_separate_reconciled_copy": true,
+      "status": "PASS",
+      "local_independent_verifier": "PASS"
+    },
+    "next_step": "Review the completed baseline report, then preregister the NPO objective, resource-bounded adaptation, retain/holdout utility criteria, stopping rules, and seeds. Run only a bounded real-data smoke first; start multi-seed NPO if objective-equivalence and all output/utility gates pass.",
+    "research_adapter_created": false,
+    "updated_retry_notebook": "kaggle/official_metrics_retry/tofu_official_metrics_retry_8b.ipynb",
+    "updated_retry_code_status": "LOCAL_NOTEBOOK_BUILD_AND_RESTORE_PREFLIGHT_PASS; KAGGLE_VERSION_6_COMPLETE; REMOTE_CELL_SOURCES_MATCH; ALL_FOUR_MODELS_INDEPENDENTLY_VERIFIED",
+    "kaggle_push_outcome": "Kaggle accepted the private, oracle-only version 6 at 2026-11-07 11:15 +07; remote cell sources match local.",
+    "previous_kaggle_push_outcome": "2026-11-07 01:28 +07: push rejected at the 45-hour weekly GPU quota limit.",
+    "kaggle_push_outcome_last_attempt": "2026-11-07 11:15 +07: version 6 pushed; private resume dataset ready; terminal status COMPLETE at 11:27:54 +07.",
+    "retry_kernel_version": 6,
+    "version3_run_receipt": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version3_2026-11-07/attempt_manifest.json",
+    "version4_run_receipt": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version4_2026-11-07/attempt_manifest.json",
+    "retry_strategy_version6": "Fresh kernel execution evaluates only llama_3_1_8b_retain90, avoiding a second 8B model load in the same process. Kaggle backend machine_shape NvidiaTeslaT4 denotes GPU T4 x2.",
+    "retry_v5_attempt_receipt": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version5_2026-11-07/attempt_manifest.json",
+    "retry_v5_raw_archive": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version5_2026-11-07/raw_kaggle_output/tofu_official_eval_results.zip",
+    "retry_v5_verification": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version5_2026-11-07/reconciled_partial_3b_8bfull_verified/official_eval_verification.md",
+    "retry_v6_attempt_manifest": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/attempt_manifest.json",
+    "retry_v6_resume_dataset": "https://www.kaggle.com/datasets/bunnoob2005/tofu-3b-8bfull-resume-2026-11-07",
+    "retry_v6_remote_source_snapshot": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/remote_pulled_notebook.ipynb",
+    "retry_v6_pushed_at": "2026-11-07 11:15 +07",
+    "verified_eight_b_full_outcome": {
+      "status": "PASS_INDEPENDENT_ROW_AND_METRIC_VERIFICATION",
+      "checkpoint": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full@1a5c5b1a557f8c99bdadecd5168ebd03f640b00e",
+      "rows": {
+        "forget10": 400,
+        "retain90": 400,
+        "holdout10": 400,
+        "real_authors": 100,
+        "world_facts": 117
+      },
+      "runtime_seconds": 4208.96,
+      "device_map": "balanced over two Tesla T4; no CPU/disk offload; four-token smoke PASS",
+      "forget10_mean_answer_probability": 0.9912107371930028,
+      "forget10_answer_probability_profile_bootstrap_95pct_ci": [
+        0.9892480867574496,
+        0.9929124027678559
+      ],
+      "forget10_mean_rougeL_recall": 0.9888230077513359,
+      "forget10_rougeL_profile_bootstrap_95pct_ci": [
+        0.9818215184998467,
+        0.9949332981832981
+      ],
+      "retain90_mean_answer_probability": 0.9909814517467894,
+      "retain90_answer_probability_profile_bootstrap_95pct_ci": [
+        0.989227731206057,
+        0.9924628245647886
+      ],
+      "holdout10_mean_answer_probability": 0.12264667913364333,
+      "holdout10_answer_probability_profile_bootstrap_95pct_ci": [
+        0.10653386621705087,
+        0.139410947935484
+      ],
+      "training_started": false,
+      "research_adapter_created": false
+    },
+    "full_report": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/official_metric_baseline_report.md",
+    "historical_partial_report_v5": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/official_metric_partial_report.md",
+    "historical_partial_verification_v5": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version5_2026-11-07/reconciled_partial_3b_8bfull_verified/official_eval_verification.json",
+    "retry_v6_verification": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/reconciled_complete_3b_8b_verified/tofu_official_eval/official_eval_verification.json",
+    "retry_v6_raw_archive": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/raw_kaggle_output/tofu_official_eval_results.zip",
+    "retry_v6_raw_archive_sha256": "b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5",
+    "retry_v6_zip_crc": "PASS",
+    "retry_v6_runtime_seconds": 423.93,
+    "retry_v6_kaggle_terminal_status": "KernelWorkerStatus.COMPLETE",
+    "retry_v6_kaggle_verification": "PASS",
+    "retry_v6_local_independent_verification": "PASS",
+    "retry_v6_models_passed": [
+      "llama_3_2_3b_full",
+      "llama_3_2_3b_retain90",
+      "llama_3_1_8b_full",
+      "llama_3_1_8b_retain90"
+    ],
+    "retry_v6_result_status": "COMPLETE_VERIFIED",
+    "retry_v6_notebook": "kaggle/official_metrics_retry/tofu_official_metrics_retry_8b.ipynb",
+    "verified_eight_b_retain90_oracle_outcome": {
+      "status": "PASS_INDEPENDENT_ROW_AND_METRIC_VERIFICATION",
+      "checkpoint": "open-unlearning/tofu_Llama-3.1-8B-Instruct_retain90@f02956a9f25a18f38ad7808fbefb2f957347273e",
+      "rows": {
+        "forget10": 400,
+        "profile_blocks": 20
+      },
+      "runtime_seconds": 423.93,
+      "device_map": "balanced over two Tesla T4; no CPU/disk offload; three-token placement smoke PASS",
+      "forget10_mean_answer_probability": 0.10446533164825642,
+      "forget10_answer_probability_profile_bootstrap_95pct_ci": [
+        0.08514305782138085,
+        0.1256571914626666
+      ],
+      "forget10_mean_truth_ratio": 0.9175083885189906,
+      "forget10_truth_ratio_profile_bootstrap_95pct_ci": [
+        0.8526109546059015,
+        0.9843565028920712
+      ],
+      "matching_full_vs_oracle_ks_statistic": 0.39,
+      "matching_full_vs_oracle_ks_p_value": 1.585318521208402e-27,
+      "training_started": false,
+      "research_adapter_created": false
+    },
+    "four_checkpoint_baseline_outcome": {
+      "status": "PASS",
+      "kaggle_terminal_status": "KernelWorkerStatus.COMPLETE",
+      "local_independent_verifier": "PASS",
+      "models_passed": 4,
+      "problems": 0,
+      "raw_output_zip_sha256": "b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5",
+      "zip_crc": "PASS"
+    },
+    "paired_cluster_bootstrap_script": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/reconciled_complete_3b_8b_verified/analyze_paired_oracle_cluster_differences.py",
+    "paired_cluster_bootstrap_result": "diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/version6_2026-11-07/reconciled_complete_3b_8b_verified/tofu_official_eval/paired_oracle_cluster_differences.json",
+    "paired_cluster_bootstrap_summary": {
+      "llama_3_2_3b": {
+        "answer_probability": {
+          "full_minus_oracle_mean": 0.8197329744667243,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.7955778706406436,
+            0.8407711739163307
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio": {
+          "full_minus_oracle_mean": -0.3556997788369082,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.41188821289633076,
+            -0.3007354085698807
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      },
+      "llama_3_1_8b": {
+        "answer_probability": {
+          "full_minus_oracle_mean": 0.8867454055447463,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.8652876777347384,
+            0.9058010869751174
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio": {
+          "full_minus_oracle_mean": -0.397116794657581,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.4677728365776888,
+            -0.3302151267456669
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      }
+    },
+    "row_level_ks_caveat": "The recorded scipy two-sample KS p-values treat QA rows as independent and are not profile-cluster adjusted. Interpret them descriptively; primary uncertainty for full-minus-oracle score differences is reported by the matched profile-block bootstrap."
+  },
+  "unlearning_stage": {
+    "status": "NPO_LORA_REAL_DATA_SMOKE_PASS; VERSION_5_RUNNING_SMOKE_THEN_FULL_500_STEP_PILOT",
+    "candidate_method": "NPO + retain NLL with LoRA adapters (resource-bounded adaptation)",
+    "candidate_forget_split": "forget10",
+    "candidate_retain_split": "retain90",
+    "pilot_seeds": [
+      42
+    ],
+    "confirmatory_multiseed_run": "NOT_AUTHORIZED_BY_THIS_PILOT_PROTOCOL",
+    "protocol": "npo_lora_pilot_protocol.json",
+    "gate": "Four-checkpoint baseline is independently verified. Before one exploratory 3B pilot: pass pinned-objective value/gradient equivalence, verify 3B full/oracle artifacts, pass one-step real-data T4x2 smoke with a nonzero adapter update, and refuse CPU/disk offload. After training, independently validate the adapter and all per-example outputs; report primary and utility gates without tuning."
+  },
+  "npo_lora_pilot_execution": {
+    "protocol": "npo_lora_pilot_protocol.json",
+    "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+    "objective_equivalence": {
+      "status": "PASS",
+      "receipt": "diagnostics/npo_lora_pilot/objective_equivalence_cpu_retry.json",
+      "upstream_loss_difference": 0.0,
+      "maximum_gradient_difference": 6.705522537231445e-08,
+      "sequential_backward_gradient_difference": 0.0
+    },
+    "baseline_prerequisite_verification": "PASS for Llama 3.2 3B full and retain90 oracle",
+    "notebook": "kaggle/npo_lora_pilot/tofu_3b_npo_lora_pilot.ipynb",
+    "notebook_sha256": "15b54ed04c203a1bbb44776d9e989cfebc9994bfb15343fb456d227fba6e90b6",
+    "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-3b-npo-lora-pilot-2026-11-07",
+    "kaggle_kernel_version": 5,
+    "kaggle_terminal_status": "KernelWorkerStatus.RUNNING (version 5)",
+    "notebook_mode": "full pilot enabled; it will first repeat the required one-step smoke",
+    "bounded_smoke_started": true,
+    "full_pilot_training_started": false,
+    "research_adapter_created": false,
+    "local_preflight_receipt": "diagnostics/npo_lora_pilot/local_preflight_record.json",
+    "attempt_history": [
+      {
+        "version": 1,
+        "terminal_status": "KernelWorkerStatus.ERROR",
+        "failure_stage": "pre-weight trainer gate",
+        "failure": "trainer expected PREREGISTERED_BEFORE_RUN while locked protocol declares PREREGISTERED_BEFORE_GPU_RUN",
+        "model_weights_loaded": false,
+        "optimizer_steps": 0,
+        "research_result_created": false,
+        "artifact_zip_sha256": "9fb73e6d4b78cbe5e59e93761d424f315d113509a890ebfcd7cb0dbf133c7b36"
+      },
+      {
+        "version": 2,
+        "terminal_status": "KernelWorkerStatus.RUNNING",
+        "notebook_mode": "one-step real-data smoke; full pilot disabled",
+        "started_at_local": "2026-11-07",
+        "research_adapter_created": false
+      },
+      {
+        "version": 2,
+        "terminal_status": "KernelWorkerStatus.ERROR",
+        "failure_stage": "trainer hyperparameter gate",
+        "failure": "trainer precision string omitted SDPA required by preregistered protocol",
+        "model_weights_loaded": false,
+        "optimizer_steps": 0,
+        "research_result_created": false,
+        "artifact_zip_sha256": "eb414ccb53f5d16ca829ec09827c31d713fb978499b5540262a49f9070d02ebb"
+      },
+      {
+        "version": 3,
+        "terminal_status": "SUBMISSION_PENDING",
+        "notebook_mode": "one-step real-data smoke; full pilot disabled",
+        "model_weights_loaded": false,
+        "optimizer_steps": 0,
+        "research_adapter_created": false
+      },
+      {
+        "version": 3,
+        "terminal_status": "KernelWorkerStatus.ERROR",
+        "failure_stage": "PEFT LoRA layer injection after base load",
+        "failure": "Kaggle preinstalled torchao 0.10.0 is incompatible with PEFT 0.21.2; model loaded on both T4 GPUs with no offload, but optimizer was never stepped",
+        "model_weights_loaded": true,
+        "optimizer_steps": 0,
+        "research_result_created": false,
+        "artifact_zip_sha256": "11b52c8ff3d0f06d8eaca1b0b78641209477266e17d368dce9026e59944add02",
+        "archive_crc": "PASS"
+      },
+      {
+        "version": 4,
+        "terminal_status": "SUBMISSION_PENDING",
+        "notebook_mode": "one-step real-data smoke; full pilot disabled",
+        "change": "remove unused torchao before model load and run tiny Llama+PEFT forward/backward dispatch preflight",
+        "model_weights_loaded": false,
+        "optimizer_steps": 0,
+        "research_adapter_created": false
+      },
+      {
+        "version": 4,
+        "terminal_status": "KernelWorkerStatus.COMPLETE",
+        "smoke_status": "PASS_BOUNDED_SMOKE_ONLY",
+        "model_weights_loaded": true,
+        "gpu_names": [
+          "Tesla T4",
+          "Tesla T4"
+        ],
+        "optimizer_steps": 1,
+        "finite_update_steps": 1,
+        "max_abs_lora_update": 9.999995199905243e-06,
+        "cpu_or_disk_offload": false,
+        "truncated_examples": 0,
+        "research_result_created": false,
+        "artifact_zip_sha256": "4e003d71728d1fbbdf829e9e867b841c1563cd63e038bd349da8d99e491e1ff2",
+        "archive_crc": "PASS"
+      },
+      {
+        "version": 5,
+        "terminal_status": "SUBMISSION_PENDING",
+        "notebook_mode": "full one-seed 500-step pilot; repeats bounded smoke first",
+        "full_training_enabled": true
+      }
+    ],
+    "retry_changes": [
+      "trainer gate now matches the preregistered protocol status",
+      "SciPy pinned to 1.16.3 to satisfy Kaggle preinstalled ydata-profiling scipy<1.17 constraint",
+      "objective equivalence re-run against exact pinned upstream commit and passed"
+    ],
+    "smoke_verifier": "verify_npo_smoke.py",
+    "smoke_status": "PASS_BOUNDED_SMOKE_ONLY",
+    "smoke_artifact_zip_sha256": "4e003d71728d1fbbdf829e9e867b841c1563cd63e038bd349da8d99e491e1ff2",
+    "smoke_optimizer_steps": 1,
+    "smoke_max_abs_lora_update": 9.999995199905243e-06,
+    "smoke_runtime_seconds": 44.03,
+    "smoke_no_truncation": true,
+    "smoke_no_offload": true,
+    "full_training_enabled": true
+  },
+  "upstream_code": {
+    "repo": "https://github.com/locuslab/open-unlearning",
+    "revision": "2d98027677f3468d52b6baa3fc4f2b9f2dc08820"
+  }
+}

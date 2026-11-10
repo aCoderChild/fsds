@@ -1,0 +1,404 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE_NOT_TRANSLATION_APPROVAL",
+  "rows": [
+    {
+      "review_key": "R0011",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "9dcb5567f8b6570f98e145ccfe7487a74282cf1e1840abda673c63f53b2a1404",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "When did Alice become a member of Bob's family?",
+      "restored_backtranslation_en": "When did [ENTITY_A] become a member of [ENTITY_B]'s family?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0036",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "translation_sha256": "a592939c7be497961645ef92032599c77dfcdcd9e41a7c855039bccd93bb18c7",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What year was Alice Bob's architect?",
+      "restored_backtranslation_en": "What year was [ENTITY_A] [ENTITY_B]'s architect?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1f00d5cb0ce2d141244f4fcdf7e342668b971c749cc8fa6a16ddf5c9936d52aa",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "When did Alice become the country where Bob is?",
+      "restored_backtranslation_en": "When did [ENTITY_A] become the country where [ENTITY_B] is?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0206",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "What's Alice different about?",
+      "restored_backtranslation_en": "What's [ENTITY_A] different about?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "What entity is Alice different from?",
+      "restored_backtranslation_en": "What entity is [ENTITY_A] different from?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0238",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "fd22e8a64b2938bc0e417d4c6b53108ecef9e7f3a47f1b8aa375375b178683c7",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "When did Alice stop being Bob's capital?",
+      "restored_backtranslation_en": "When did [ENTITY_A] stop being [ENTITY_B]'s capital?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0344",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "8f7658e2ed48d94e7a834a9ea7399f457423375b7c1a6719958a2cbc0d053dc9",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What year did Alice found Bob?",
+      "restored_backtranslation_en": "What year did [ENTITY_A] found [ENTITY_B]?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "69afe55df5a0bff2481d9e5c54824914a09accbdcd06881806d3d14daf6305ab",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "On what date did Alice become Bob's relative?",
+      "restored_backtranslation_en": "On what date did [ENTITY_A] become [ENTITY_B]'s relative?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0360",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "3190112894410f1d1ca4ef9fa793222895430ebef4b53b11a616d08b850ed372",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "On what date did Alice create the country where Bob is located?",
+      "restored_backtranslation_en": "On what date did [ENTITY_A] create the country where [ENTITY_B] is located?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0371",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "96c1274bf75adfb041915685cff06affddd6643c4a84c1f5f482889d6868a305",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What year was Alice nominated for Bob?",
+      "restored_backtranslation_en": "What year was [ENTITY_A] nominated for [ENTITY_B]?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0379",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "6b6eeabb7355462271d553a785e025af6b3ba6af5ae5875f3e70c642b4a6a7e9",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What date did Alice, Bob, not go to?",
+      "restored_backtranslation_en": "What date did [ENTITY_A], [ENTITY_B], not go to?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0407",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "translation_sha256": "933010858eb9ab6b0dd2a2a9f2ff778c2f095e94aa451bd57cb1cb4b6b346ed4",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "In what year did Alice become Bob's wife?",
+      "restored_backtranslation_en": "In what year did [ENTITY_A] become [ENTITY_B]'s wife?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0417",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "f1af8b33def803a9739d40a1e92498284441b6a8fa7c74f9fb6c983caaca0857",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What date was Alice, Bob's capital not?",
+      "restored_backtranslation_en": "What date was [ENTITY_A], [ENTITY_B]'s capital not?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0418",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f783ddbe190ca2905193c706e22d73d7c386cf62ce3b0ecb67c967047fd73d9d",
+      "translation_sha256": "9fa858c9b2897fc69ff47e5755d6d10247b12b57f2b906a9d6754fe83966b645",
+      "alias_counts": {
+        "Bob": 1,
+        "Alice": 1
+      },
+      "backtranslation_raw": "In what year did Alice's term as Bob's governor end?",
+      "restored_backtranslation_en": "In what year did [ENTITY_A]'s term as [ENTITY_B]'s governor end?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0436",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "4b8dd31ddfa534a16140865bbd448e7b800be9ee240247c69df671641170ee8f",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "When did Alice become part of Bob?",
+      "restored_backtranslation_en": "When did [ENTITY_A] become part of [ENTITY_B]?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0442",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9cc48c5a4408c6c17e0ba5d32e5e62ceffa9be76c1ce9e62a0fb10b98a49dc8b",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What year did Alice receive Bob?",
+      "restored_backtranslation_en": "What year did [ENTITY_A] receive [ENTITY_B]?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0449",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+      "translation_sha256": "ac281a05083c309308301328465f18ad60a119df332865eb72be7b427b700edd",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "In what year did Alice cease to serve as a board member of Bob?",
+      "restored_backtranslation_en": "In what year did [ENTITY_A] cease to serve as a board member of [ENTITY_B]?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0455",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "a9142483623686861fdac42a3f06b7b348fd6afa253a05e21875a3731a4bb2c4",
+      "translation_sha256": "ba74f0b6d43a06f8cca88e48a033eeded85d7861b332f7c584aea16b68234500",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "What year was Alice Bob's doctoral student?",
+      "restored_backtranslation_en": "What year was [ENTITY_A] [ENTITY_B]'s doctoral student?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0481",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "translation_sha256": "3a7b29f23efff8ccbb613e80111ec2a404c29cf06bd30b979397e696ffa8a807",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "What political position does the head of state of the country where Alice is the capital have?",
+      "restored_backtranslation_en": "What political position does the head of state of the country where [ENTITY_A] is the capital have?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0489",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "translation_sha256": "7b6ee2131e5fd8937a825b344d961f728fc4f937daad45e40136c253914578c8",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "What payment methods does the organizer of the event in which Alice participated accept?",
+      "restored_backtranslation_en": "What payment methods does the organizer of the event in which [ENTITY_A] participated accept?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0493",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "translation_sha256": "51891aae90ea9ebaef538478b539255739ebcb908f9e7a324b4db247519e81f3",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "Which institution has files of documents relating to the person named after the city in which Alice's headquarters is located?",
+      "restored_backtranslation_en": "Which institution has files of documents relating to the person named after the city in which [ENTITY_A]'s headquarters is located?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0521",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "translation_sha256": "0e4b32fa7b1384265a4a13e1d8e811f3b76917f958b45ad0c44da3fabc526bd8",
+      "alias_counts": {
+        "Alice": 1
+      },
+      "backtranslation_raw": "Where is the headquarters of the unit located on the border of the place where Alice is native?",
+      "restored_backtranslation_en": "Where is the headquarters of the unit located on the border of the place where [ENTITY_A] is native?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0544",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "35180d601cc659e40b900900f5e09f71686bd9ff0c73881f55e01f1a7201c0de",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice founded Bob in what year?",
+      "restored_backtranslation_en": "[ENTITY_A] founded [ENTITY_B] in what year?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0553",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "ca8727e8211fbf79152d55e795e5b5e444bdb479a31882eba82d77e58fa93c6c",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice became part of Bob when.",
+      "restored_backtranslation_en": "[ENTITY_A] became part of [ENTITY_B] when.",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0571",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1048b64a6f70b0aa5120fe6e93db2b5ece12a35e259b3db22777c27cf3469d48",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice became the country where Bob was located on what date?",
+      "restored_backtranslation_en": "[ENTITY_A] became the country where [ENTITY_B] was located on what date?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0587",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "b18cc2bc41902461d345ed9b1fc5bdc281a98a29b05ff012ee3a00ae14335bb0",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice got nominated for the Bob Bowl in what year?",
+      "restored_backtranslation_en": "[ENTITY_A] got nominated for the [ENTITY_B] Bowl in what year?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0602",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "333beefbad26f6dc809172cfa44eab3ea3b317a988335b8930ed26511fa0bcd1",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice ends up being the country where Bob is located on what date?",
+      "restored_backtranslation_en": "[ENTITY_A] ends up being the country where [ENTITY_B] is located on what date?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    },
+    {
+      "review_key": "R0677",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9d33f1aa686a910ef8c21c2d9daeccfdf6217e2e55d445c1bef9f9338f809b61",
+      "alias_counts": {
+        "Alice": 1,
+        "Bob": 1
+      },
+      "backtranslation_raw": "Alice got Bob in what year?",
+      "restored_backtranslation_en": "[ENTITY_A] got [ENTITY_B] in what year?",
+      "status": "PASS_ALIAS_COUNT_ONLY"
+    }
+  ],
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "input_sha256": "2093e8eab1bbd56e8f939a96034bf50745f409072c359d12a8520ad2d2d9c961",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "gpu": "Tesla T4",
+  "started_at_utc": "2026-11-04T16:15:22.016370+00:00",
+  "translation_quality_reviewed": false,
+  "answers_or_splits_sent": false,
+  "counts": {
+    "PASS_ALIAS_COUNT_ONLY": 28
+  },
+  "completed_at_utc": "2026-11-04T16:16:04.323353+00:00"
+}

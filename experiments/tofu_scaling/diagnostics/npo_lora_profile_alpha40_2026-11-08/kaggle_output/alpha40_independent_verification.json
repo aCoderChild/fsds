@@ -1,0 +1,18 @@
+{
+  "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+  "problems": [],
+  "run_status": "NO_DEV_CANDIDATE_PASSES",
+  "selected_alpha_retain": null,
+  "verified_development_attempts": [
+    {
+      "alpha_retain": 40.0,
+      "gate_status": "FAIL_DIAGNOSTIC_GATES"
+    }
+  ],
+  "artifact_zip": {
+    "crc": "PASS",
+    "bad_file": null
+  },
+  "training_started": true,
+  "protocol_sha256": "b308c93da3934a020cd0ca1c22c89c74133e2cb97d90656f4ff02ccb155da8a7"
+}

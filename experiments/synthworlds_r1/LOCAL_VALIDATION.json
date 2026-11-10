@@ -1,0 +1,40 @@
+{
+  "approval_status": "NOT_APPROVED_FOR_TRAINING_OR_EVALUATION",
+  "artifact_hashes": {
+    "assignments.draft.jsonl": "bcf5870f73166159a6c4f291d9babd65d7de3514f75b61d777312086d267f23d",
+    "candidate_cases.draft.jsonl": "7afa39bf55581ef95fb320b197d1353d4f6c4b1e13d93bb39e5dfe9bdc259700",
+    "labels/gold_labels.draft.jsonl": "56cafa01b756a19459e4ad233c66cbba3d0af20074a0d8b22802eadbd3f8d4f6",
+    "leakage_groups.draft.jsonl": "4d34d0abc9969ac6d935a2bb0abf8a4b70a428eac3a9ad490967bc6edae61bbe",
+    "translation_requests/en.draft.jsonl": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2"
+  },
+  "candidate_cases": 195,
+  "cross_split_leakage_checks": {
+    "facts": "PASS",
+    "groups": "PASS",
+    "qids": "PASS",
+    "surfaces": "PASS"
+  },
+  "do_not_evaluate": true,
+  "do_not_train": true,
+  "groups_by_split": {
+    "forget": 61,
+    "holdout": 20,
+    "retain": 21
+  },
+  "leakage_groups": 102,
+  "negative_control_checks": "PASS: source-derived controls are outside all Q1 answer sets, candidate entities, old train-only composition entities, and controls in other splits",
+  "negative_control_source_counts": {
+    "same_relation_other_subject": 185,
+    "same_subject_other_relation": 10
+  },
+  "source_cases_rechecked": 195,
+  "source_fact_checks": "PASS: unique target R1/R2 facts and exact final-answer support for every case",
+  "split_counts": {
+    "forget": 117,
+    "holdout": 39,
+    "retain": 39
+  },
+  "status": "PASS_DRAFT_SOURCE_AND_SPLIT_VALIDATION",
+  "training_or_model_run_started": false,
+  "translation_requests_contain_gold_labels": false
+}

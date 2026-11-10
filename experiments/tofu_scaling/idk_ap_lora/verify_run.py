@@ -206,6 +206,8 @@ def verify_training(cohort_dir: Path, protocol: dict, protocol_hash: str, source
         problems.append(f"{cohort_dir.name}: incomplete/mismatched training receipt")
     if receipt.get("cohort") != cohort_dir.name or receipt.get("optimizer_steps") != int(training["expected_optimizer_steps"]):
         problems.append(f"{cohort_dir.name}: cohort/optimizer step mismatch")
+    if receipt.get("gpus") != ["Tesla T4", "Tesla T4"]:
+        problems.append(f"{cohort_dir.name}: training receipt does not identify exactly two Tesla T4 GPUs")
     if receipt.get("training_script_sha256") != source_provenance["source_snapshot_sha256"].get("train.py"):
         problems.append(f"{cohort_dir.name}: training source hash mismatch")
     if receipt.get("runtime", {}).get("cpu_or_disk_offload") is not False:
@@ -318,6 +320,23 @@ def main() -> None:
             problems.append(f"{cohort}: comparison protocol/cohort mismatch")
         problems += verify_comparison(reference, candidate, comparison, protocol, cohort)
 
+    gpu_names_by_cohort = {}
+    for cohort in ("dev", "final"):
+        training_receipt_path = root / cohort / "training" / "training_receipt.json"
+        if training_receipt_path.is_file():
+            gpu_names_by_cohort[cohort] = read_json(training_receipt_path).get("gpus", [])
+    if receipt.get("receipt_schema_version", 1) >= 2:
+        if receipt.get("gpu_names_by_cohort") != gpu_names_by_cohort:
+            problems.append("Run receipt GPU aggregation does not match cohort training receipts")
+        expected_gpu_names = ["Tesla T4", "Tesla T4"] if gpu_names_by_cohort else []
+        if receipt.get("kaggle_gpu_names") != expected_gpu_names:
+            problems.append("Run receipt top-level GPU names do not match the cohort training receipts")
+        hardware_provenance_status = "PASS_RUN_AND_COHORT_RECEIPTS_MATCH"
+    else:
+        # Older completed runs did not aggregate hardware details into the
+        # run-level receipt. Reconcile from the immutable cohort receipts.
+        hardware_provenance_status = "RECONCILED_FROM_COHORT_TRAINING_RECEIPTS"
+
     expected_run_status = "DEV_GATES_FAILED_STOP"
     dev_comparison_path = root / "dev" / "evaluation" / "dev_idk_ap_comparison.json"
     if dev_comparison_path.is_file():
@@ -351,6 +370,10 @@ def main() -> None:
         "protocol_sha256": protocol_hash,
         "run_status": receipt.get("status"),
         "cohorts_verified": [cohort for cohort in ("dev", "final") if (root / cohort).is_dir()],
+        "hardware_provenance": {
+            "status": hardware_provenance_status,
+            "gpu_names_by_cohort": gpu_names_by_cohort,
+        },
         "artifact_archive": archive_summary,
         "problems": problems,
     }

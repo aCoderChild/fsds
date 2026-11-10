@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/tofu-3b-npo-profile-recovery-resume",
+  "title": "TOFU 3B NPO Profile Recovery Resume",
+  "code_file": "tofu_3b_npo_profile_recovery_resume.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "GPU T4 x2",
+  "dataset_sources": [
+    "bunnoob2005/tofu-3b-recovery-v2-2026-11-08"
+  ]
+}

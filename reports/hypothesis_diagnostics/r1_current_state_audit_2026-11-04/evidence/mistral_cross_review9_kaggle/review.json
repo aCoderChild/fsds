@@ -1,0 +1,130 @@
+{
+  "status": "DIAGNOSTIC_CROSS_REVIEW_COMPLETE",
+  "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "input_sha256": "56794242bf15f01619252bf5e118ed17ee927fb5865acd95d63b10ac27755c3a",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0134-qa-sm:r1",
+      "source": "What did ZXQENTAQXZ replace?",
+      "translation": "Qu'est-ce que ZXQENTAQXZ a remplacé ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the source question in French, maintaining the question type (interrogative), tense (past is implied but not explicitly stated), and the relation direction (from ZXQENTAQXZ to the replaced item). The naturalness in French is also satisfactory.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the source question in French, maintaining the question type (interrogative), tense (past is implied but not explicitly stated), and the relation direction (from ZXQENTAQXZ to the replaced item). The naturalness in French is also satisfactory."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "source": "Who is ZXQENTAQXZ's stepparent?",
+      "translation": "Qui est le beau-père ou la belle-mère de ZXQENTAQXZ ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation correctly maintains the question type (interrogative), the relation direction (stepparent), and the scope (referring to a specific person). The French sentence uses the correct gender-neutral form 'ZXQENTAQXZ' and correctly asks for either the stepfather or stepmother. The sentence is also natural in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation correctly maintains the question type (interrogative), the relation direction (stepparent), and the scope (referring to a specific person). The French sentence uses the correct gender-neutral form 'ZXQENTAQXZ' and correctly asks for either the stepfather or stepmother. The sentence is also natural in French."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "source": "Who is ZXQENTAQXZ's stepparent?",
+      "translation": "Wer ist der Stiefvater oder die Stiefmutter von ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation correctly maintains the question structure, uses the appropriate German words for stepparent (Stiefvater or Stiefmutter), and correctly infers the question type (interrogative). The tense is also correct as it is a present tense question.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation correctly maintains the question structure, uses the appropriate German words for stepparent (Stiefvater or Stiefmutter), and correctly infers the question type (interrogative). The tense is also correct as it is a present tense question."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "source": "Who founded the organization that the rank above the ZXQENTAQXZ is part of?",
+      "translation": "उस संगठन की स्थापना किसने की, जिसका हिस्सा ZXQENTAQXZ से ऊपर का पद है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning and structure of the original question in Hindi. The use of 'उस' (that) correctly refers to the organization mentioned in the question, and 'जिसका हिस्सा' (whose part) correctly refers to the organization that the ZXQENTAQXZ is part of. The question type remains the same in both languages: a question asking for the identity of the founder of an organization.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning and structure of the original question in Hindi. The use of 'उस' (that) correctly refers to the organization mentioned in the question, and 'जिसका हिस्सा' (whose part) correctly refers to the organization that the ZXQENTAQXZ is part of. The question type remains the same in both languages: a question asking for the identity of the founder of an organization."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "source": "Who is ZXQENTAQXZ's godparent?",
+      "translation": "ZXQENTAQXZ के धर्मपिता या धर्ममाता कौन हैं?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation correctly maintains the question structure and meaning, and uses appropriate terms for 'godparent' in Hindi (dharmapitā or dharmamātā).\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation correctly maintains the question structure and meaning, and uses appropriate terms for 'godparent' in Hindi (dharmapitā or dharmamātā)."
+      }
+    },
+    {
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0044-qa-sm:r2",
+      "source": "On which physical feature is ZXQENTAQXZ located?",
+      "translation": "ZXQENTAQXZ ตั้งอยู่บนลักษณะภูมิประเทศใด?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the source question and is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the source question and is natural in Thai."
+      }
+    },
+    {
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0115-qa-sm:r2",
+      "source": "Where is the ZXQENTAQXZ language indigenous to?",
+      "translation": "ภาษา ZXQENTAQXZ เป็นภาษาพื้นเมืองของที่ใด?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the source question and is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the source question and is natural in Thai."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "source": "Who is the father of the creator of the noble title held by ZXQENTAQXZ?",
+      "translation": "ใครคือบิดาของผู้สถาปนาบรรดาศักดิ์ที่ ZXQENTAQXZ ถือครอง?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning and structure of the original question in Thai. The use of ผู้สถาปนาบรรดาศักดิ์ (creator of the noble title) and ถือครอง (held by) are appropriate. The question type is also correctly translated as a question in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning and structure of the original question in Thai. The use of ผู้สถาปนาบรรดาศักดิ์ (creator of the noble title) and ถือครอง (held by) are appropriate. The question type is also correctly translated as a question in Thai."
+      }
+    },
+    {
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "source": "Who is the unmarried partner of ZXQENTAQXZ?",
+      "translation": "ใครคือคู่ครองที่ไม่ได้สมรสกับ ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the source question in Thai, maintaining the question type, relation direction, scope, polarity, and tense.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the source question in Thai, maintaining the question type, relation direction, scope, polarity, and tense."
+      }
+    }
+  ],
+  "schema_errors": 0
+}

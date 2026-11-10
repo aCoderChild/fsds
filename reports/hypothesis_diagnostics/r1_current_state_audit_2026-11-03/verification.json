@@ -1,0 +1,1058 @@
+{
+  "audit_date": "2026-11-03",
+  "claim": "score derivation and fail-closed gates are verified; the v5.1 model experiment has not run",
+  "current_v5_1": {
+    "approved_corpus_exists": false,
+    "approved_manifest_exists": false,
+    "assembler_exit_code_expected_nonzero": 1,
+    "assembler_stderr": "Traceback (most recent call last):\n  File \"/Users/maianhpham/Documents/fsds/experiments/synthworlds_r1/training_release_draft/scripts/assemble_training_release.py\", line 512, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/maianhpham/Documents/fsds/experiments/synthworlds_r1/training_release_draft/scripts/assemble_training_release.py\", line 428, in main\n    corpus, counts = build_corpus(translations)\n                     ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/Users/maianhpham/Documents/fsds/experiments/synthworlds_r1/training_release_draft/scripts/assemble_training_release.py\", line 268, in build_corpus\n    raise ValueError(f\"Translation screen excluded required atomic cases: {dict(eligible_atomic_counts)}; expected {EXPECTED_ATOMIC_CASES_BY_SPLIT}\")\nValueError: Translation screen excluded required atomic cases: {'forget': 5, 'retain': 3}; expected {'forget': 117, 'retain': 39}\n",
+    "assembler_stdout": "",
+    "composition_chain_gate_probe": {
+      "blocked": true,
+      "message": "Translation screen excluded or altered training-only composition chains: 0/44 eligible, expected 44"
+    },
+    "disabled_run_switches": [
+      "RUN_SFT",
+      "RUN_BASELINE_EVALUATION",
+      "RUN_UNLEARNING",
+      "RUN_POST_EVALUATION"
+    ],
+    "eligible_atomic_cases_by_split_from_assembler": "{'forget': 5, 'retain': 3}",
+    "fixture_suite_exit_code": 0,
+    "fixture_suite_summary": "processed 1/1 flagged candidates; latest fr/atomic\n{\n  \"status\": \"DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW\",\n  \"processed\": 1,\n  \"deterministic_passes\": 1,\n  \"qwen_passes\": 1,\n  \"errors\": 0,\n  \"report\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-repair-run-fcato1vy/diagnostic/report.json\"\n}\n{\n  \"status\": \"DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW\",\n  \"processed\": 1\n}\n{\"status\": \"SCORED_COMPLETE\", \"models\": [\"pretrained\", \"retain_seed_42\", \"retain_seed_43\", \"retain_seed_44\", \"sft_seed_42\", \"sft_seed_43\", \"sft_seed_44\"], \"prediction_rows\": 8400, \"summary\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-v51-fixture-94jmp9ja/baseline_scored/summary.csv\"}\n{\n  \"baseline_gate_status\": \"PASS\",\n  \"english_precompetent_cases\": 43,\n  \"bilingual_counts_by_language\": {\n    \"fr\": {\n      \"bilingual_precompetent_cases\": 43,\n      \"entity_groups\": 24\n    },\n    \"de\": {\n      \"bilingual_precompetent_cases\": 43,\n      \"entity_groups\": 24\n    },\n    \"hi\": {\n      \"bilingual_precompetent_cases\": 43,\n      \"entity_groups\": 24\n    },\n    \"th\": {\n      \"bilingual_precompetent_cases\": 43,\n      \"entity_groups\": 24\n    }\n  },\n  \"target_ids_manifest\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-v51-fixture-94jmp9ja/targets.json\"\n}\n{\"status\": \"SCORED_COMPLETE\", \"models\": [\"ga_seed_42\", \"ga_seed_43\", \"ga_seed_44\", \"gd_seed_42\", \"gd_seed_43\", \"gd_seed_44\", \"npo_seed_42\", \"npo_seed_43\", \"npo_seed_44\", \"pretrained\", \"retain_seed_42\", \"retain_seed_43\", \"retain_seed_44\", \"sft_seed_42\", \"sft_seed_43\", \"sft_seed_44\"], \"prediction_rows\": 19200, \"summary\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-v51-fixture-94jmp9ja/post_scored/summary.csv\"}\n{\"status\": \"PAIRED_EFFECTS_COMPLETE\", \"rows\": 486, \"multi_seed_summary_rows\": 162, \"intermediate_final_outcome_rows\": 15, \"output_dir\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-v51-fixture-94jmp9ja/effects\"}\ntest_assistant_only_mask_and_retain_schedule (__main__.PipelineFixtureTests.test_assistant_only_mask_and_retain_schedule) ... ok\ntest_evaluation_release_matches_screened_sources (__main__.PipelineFixtureTests.test_evaluation_release_matches_screened_sources) ... ok\ntest_feedback_repair_selector_is_stable_stratified_and_blind (__main__.PipelineFixtureTests.test_feedback_repair_selector_is_stable_stratified_and_blind) ... ok\ntest_full_flagged_repair_selector_is_complete_stable_and_answer_blind (__main__.PipelineFixtureTests.test_full_flagged_repair_selector_is_complete_stable_and_answer_blind) ... ok\ntest_invalid_output_guards (__main__.PipelineFixtureTests.test_invalid_output_guards) ... ok\ntest_kaggle_stage_snapshot_restore_and_checksum_guard (__main__.PipelineFixtureTests.test_kaggle_stage_snapshot_restore_and_checksum_guard) ... ok\ntest_notebook_rejects_sft_resume_from_different_training_script (__main__.PipelineFixtureTests.test_notebook_rejects_sft_resume_from_different_training_script) ... ok\ntest_qwen14_downgrade_is_excluded_without_invalidating_the_review_file (__main__.PipelineFixtureTests.test_qwen14_downgrade_is_excluded_without_invalidating_the_review_file) ... ok\ntest_repair_resume_uses_hash_bound_ordered_checkpoint (__main__.PipelineFixtureTests.test_repair_resume_uses_hash_bound_ordered_checkpoint) ... ok\ntest_repair_runner_completes_and_revalidates_before_resume (__main__.PipelineFixtureTests.test_repair_runner_completes_and_revalidates_before_resume) ... ok\ntest_scoring_three_seed_gate_paired_effects_and_tamper_guard (__main__.PipelineFixtureTests.test_scoring_three_seed_gate_paired_effects_and_tamper_guard) ... ok\ntest_unlearning_rejects_noop_or_invalid_training_parameters (__main__.PipelineFixtureTests.test_unlearning_rejects_noop_or_invalid_training_parameters) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 2.969s\n\nOK\n",
+    "local_notebook_cells": 13,
+    "local_notebook_code_cells": 9,
+    "local_notebook_code_cells_compile": true,
+    "local_notebook_executed_cells": 0,
+    "local_notebook_outputs": 0,
+    "py_compile_exit_code": 0,
+    "release_assembler_sha256": "47927438bac532794352337ea3b2c3257cb31eb0d07d42c955846f8d93d62f26",
+    "sft_preflight": {
+      "errors": [
+        "Approved SFT corpus and manifest are required"
+      ],
+      "hf_token_present": false,
+      "human_translation_reviewed": false,
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "model_revision": null,
+      "note": "Preflight never downloads weights or starts training. The pilot uses user-authorized AI-only translation review; no human fluency review was performed.",
+      "status": "BLOCKED",
+      "train_flag": false,
+      "training_packages": {
+        "accelerate": false,
+        "numpy": true,
+        "peft": false,
+        "torch": true,
+        "transformers": true
+      },
+      "training_packages_ready": false,
+      "training_started": false,
+      "translation_review_mode": null
+    },
+    "sft_preflight_exit_code": 2,
+    "sft_training_script_sha256": "ec41258801024841d52147d86c2e3a440a41f8a3677f1c77ee759583fb5914c7",
+    "three_seed_notebook_sha256": "6ccb23529189bf98bab9f62284cdaaf686539654bef661f241faf5c59bf92976",
+    "training_translation_do_not_train": true,
+    "training_translation_human_reviewed": false,
+    "training_translation_review_mode": null,
+    "training_translation_review_status": "AI_ONLY_14B_ALL_CANDIDATE_SECOND_PASS_COMPLETE",
+    "training_translation_rows_by_language": {
+      "de": {
+        "flagged": 179,
+        "passes": 309,
+        "questions_reviewed": 488
+      },
+      "fr": {
+        "flagged": 164,
+        "passes": 324,
+        "questions_reviewed": 488
+      },
+      "hi": {
+        "flagged": 200,
+        "passes": 288,
+        "questions_reviewed": 488
+      },
+      "th": {
+        "flagged": 256,
+        "passes": 232,
+        "questions_reviewed": 488
+      }
+    }
+  },
+  "historical_composition_baseline": {
+    "artifact_index_all_match": true,
+    "artifact_index_entries": [
+      {
+        "exists": true,
+        "file": "adapters/composition_retain_only/adapter_config.json",
+        "matches": true,
+        "observed_bytes": 1165,
+        "observed_sha256": "8c6b7c1ce8039010b8fca6dc9c37ab754095a1e5abe2756d3a7f3445e6ea49da",
+        "recorded_bytes": 1165,
+        "recorded_sha256": "8c6b7c1ce8039010b8fca6dc9c37ab754095a1e5abe2756d3a7f3445e6ea49da",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "adapters/composition_retain_only/adapter_model.safetensors",
+        "matches": true,
+        "observed_bytes": 45118424,
+        "observed_sha256": "70393f3dcfcf3dabdbd5f181f5f6e548b47e1707d3b8afdc1ba281e735b55a10",
+        "recorded_bytes": 45118424,
+        "recorded_sha256": "70393f3dcfcf3dabdbd5f181f5f6e548b47e1707d3b8afdc1ba281e735b55a10",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "adapters/composition_sft/adapter_config.json",
+        "matches": true,
+        "observed_bytes": 1165,
+        "observed_sha256": "d52f216b0967a1a98cbe640f06607c30f40f73f7cf1279e35578e763b74fcf38",
+        "recorded_bytes": 1165,
+        "recorded_sha256": "d52f216b0967a1a98cbe640f06607c30f40f73f7cf1279e35578e763b74fcf38",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "adapters/composition_sft/adapter_model.safetensors",
+        "matches": true,
+        "observed_bytes": 45118424,
+        "observed_sha256": "71ecf567d636b7d516ab909954c7c2d42506d6afb2d2cc37a9997644e159e9a0",
+        "recorded_bytes": 45118424,
+        "recorded_sha256": "71ecf567d636b7d516ab909954c7c2d42506d6afb2d2cc37a9997644e159e9a0",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "case_metrics.jsonl",
+        "matches": true,
+        "observed_bytes": 756337,
+        "observed_sha256": "3047beaffdc6f2f78424bcd35c896351a826e56f59ea184a1ee97a9ac57eb880",
+        "recorded_bytes": 756337,
+        "recorded_sha256": "3047beaffdc6f2f78424bcd35c896351a826e56f59ea184a1ee97a9ac57eb880",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "composition_retain_only_run_manifest.json",
+        "matches": true,
+        "observed_bytes": 970,
+        "observed_sha256": "1755952b193f5dc1438f2f5e543e7043c0beb5aca8f1d708dfa979066c4f9dc9",
+        "recorded_bytes": 970,
+        "recorded_sha256": "1755952b193f5dc1438f2f5e543e7043c0beb5aca8f1d708dfa979066c4f9dc9",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "composition_sft_run_manifest.json",
+        "matches": true,
+        "observed_bytes": 993,
+        "observed_sha256": "934fd88cebd81eadc6d9531fa04c6a7506aaa07c771293bbea277c09300ebd31",
+        "recorded_bytes": 993,
+        "recorded_sha256": "934fd88cebd81eadc6d9531fa04c6a7506aaa07c771293bbea277c09300ebd31",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "cross_language_contrasts.json",
+        "matches": true,
+        "observed_bytes": 3,
+        "observed_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "recorded_bytes": 3,
+        "recorded_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "diagnostic_report.md",
+        "matches": true,
+        "observed_bytes": 5663,
+        "observed_sha256": "327b8fd6cb11f575a476d595ee785dab5dd23d1b836fd2a66ca1451361287711",
+        "recorded_bytes": 5663,
+        "recorded_sha256": "327b8fd6cb11f575a476d595ee785dab5dd23d1b836fd2a66ca1451361287711",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "predictions.jsonl",
+        "matches": true,
+        "observed_bytes": 712949,
+        "observed_sha256": "b20f473b74e92e0fc70a1d4156c9de1dd6d6615724bbc6d021a6acb5c115f383",
+        "recorded_bytes": 712949,
+        "recorded_sha256": "b20f473b74e92e0fc70a1d4156c9de1dd6d6615724bbc6d021a6acb5c115f383",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "scored_predictions.jsonl",
+        "matches": true,
+        "observed_bytes": 1141866,
+        "observed_sha256": "ca6adf25ecfdc0673a9aaf7cc53e14697152fba607b87f6bd542a5ab5ecdbc02",
+        "recorded_bytes": 1141866,
+        "recorded_sha256": "ca6adf25ecfdc0673a9aaf7cc53e14697152fba607b87f6bd542a5ab5ecdbc02",
+        "size_matches": true
+      },
+      {
+        "exists": true,
+        "file": "summary.json",
+        "matches": true,
+        "observed_bytes": 29239,
+        "observed_sha256": "2d6b9e7cf06d58d99f3a039d482380628e86cc296318a7d8714f73242fd3175f",
+        "recorded_bytes": 29239,
+        "recorded_sha256": "2d6b9e7cf06d58d99f3a039d482380628e86cc296318a7d8714f73242fd3175f",
+        "size_matches": true
+      }
+    ],
+    "bilingual_precompetence_by_language": {
+      "de": {
+        "bilingual_precompetent_cases": 2,
+        "entity_groups": 2
+      },
+      "fr": {
+        "bilingual_precompetent_cases": 2,
+        "entity_groups": 1
+      },
+      "hi": {
+        "bilingual_precompetent_cases": 4,
+        "entity_groups": 2
+      },
+      "th": {
+        "bilingual_precompetent_cases": 3,
+        "entity_groups": 2
+      }
+    },
+    "case_metric_rows": 1935,
+    "derived_outputs": [
+      {
+        "file": "summary.json",
+        "matches": true,
+        "reproduced_sha256": "2d6b9e7cf06d58d99f3a039d482380628e86cc296318a7d8714f73242fd3175f",
+        "saved_sha256": "2d6b9e7cf06d58d99f3a039d482380628e86cc296318a7d8714f73242fd3175f"
+      },
+      {
+        "file": "cross_language_contrasts.json",
+        "matches": true,
+        "reproduced_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "saved_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "file": "diagnostic_report.md",
+        "matches": true,
+        "reproduced_sha256": "327b8fd6cb11f575a476d595ee785dab5dd23d1b836fd2a66ca1451361287711",
+        "saved_sha256": "327b8fd6cb11f575a476d595ee785dab5dd23d1b836fd2a66ca1451361287711"
+      },
+      {
+        "file": "scored_predictions.jsonl",
+        "matches": true,
+        "reproduced_sha256": "ca6adf25ecfdc0673a9aaf7cc53e14697152fba607b87f6bd542a5ab5ecdbc02",
+        "saved_sha256": "ca6adf25ecfdc0673a9aaf7cc53e14697152fba607b87f6bd542a5ab5ecdbc02"
+      },
+      {
+        "file": "case_metrics.jsonl",
+        "matches": true,
+        "reproduced_sha256": "3047beaffdc6f2f78424bcd35c896351a826e56f59ea184a1ee97a9ac57eb880",
+        "saved_sha256": "3047beaffdc6f2f78424bcd35c896351a826e56f59ea184a1ee97a9ac57eb880"
+      }
+    ],
+    "gate_threshold": {
+      "cases_per_language_min": 15,
+      "entity_groups_per_language_min": 8
+    },
+    "generation_failures": 0,
+    "output_invalid_flags": 0,
+    "prediction_rows": 3870,
+    "prediction_rows_by_model": {
+      "pretrained": 1290,
+      "retain_only": 1290,
+      "sft": 1290
+    },
+    "score_only_reproduction_exit_code": 0,
+    "score_only_reproduction_status": "PASS",
+    "score_only_reproduction_stderr": "",
+    "score_only_reproduction_stdout": "{\n  \"status\": \"EVALUATION_COMPLETE\",\n  \"checkpoints\": [\n    \"pretrained=unused\",\n    \"sft=unused\",\n    \"retain_only=unused\"\n  ],\n  \"predictions\": \"/Users/maianhpham/Documents/fsds/reports/synthworlds_r1_composition_baseline_2026-11-02/predictions.jsonl\",\n  \"report\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-baseline-audit-cpze6xsp/diagnostic_report.md\",\n  \"translation_review_mode\": \"AI_ONLY\",\n  \"human_translation_reviewed\": false\n}\n",
+    "scored_prediction_rows": 3870,
+    "sft_forget_accuracy": {
+      "de": {
+        "direct": 0.7142857142857143,
+        "multi_hop": 0.18181818181818182
+      },
+      "en": {
+        "direct": 0.7922077922077922,
+        "multi_hop": 0.12987012987012986
+      },
+      "fr": {
+        "direct": 0.7402597402597403,
+        "multi_hop": 0.07792207792207792
+      },
+      "hi": {
+        "direct": 0.6753246753246753,
+        "multi_hop": 0.15584415584415584
+      },
+      "th": {
+        "direct": 0.7402597402597403,
+        "multi_hop": 0.15584415584415584
+      }
+    },
+    "training_corpus_matches_both_manifests": true,
+    "training_corpus_sha256": "973f5f7e4816118b0e7dc9f66f82dad21f41f5bc0aade8074cd47d155cdbc013",
+    "training_manifest_matches_both_run_manifests": true,
+    "training_manifest_sha256": "7654119b9a38b1885a957ccf37b548202892143aedf85c3cce47817d40592092",
+    "unlearning_contrasts": 0
+  },
+  "historical_corrected_v4_exploratory": {
+    "archive_verification": {
+      "bundle_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+      "bundle_sha256_matches_saved_verification": true,
+      "crc_bad_member": null,
+      "embedded_index_all_match": true,
+      "embedded_index_entries": 77,
+      "indexed_files": [
+        {
+          "file": "README.md",
+          "matches": true,
+          "observed_bytes": 811,
+          "observed_sha256": "3d039db807427918be1c694e8e18da8751d6b6346ef6a4201de709a40d2f07aa",
+          "recorded_bytes": 811,
+          "recorded_sha256": "3d039db807427918be1c694e8e18da8751d6b6346ef6a4201de709a40d2f07aa"
+        },
+        {
+          "file": "baseline_diagnostics/precompetent_english_forget_targets.json",
+          "matches": true,
+          "observed_bytes": 1550,
+          "observed_sha256": "2f2598d8b5e41fa01e3d201d95485987166448679abfa127ca754aeac45d5866",
+          "recorded_bytes": 1550,
+          "recorded_sha256": "2f2598d8b5e41fa01e3d201d95485987166448679abfa127ca754aeac45d5866"
+        },
+        {
+          "file": "corrected_evaluation/case_metrics.jsonl",
+          "matches": true,
+          "observed_bytes": 1500436,
+          "observed_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+          "recorded_bytes": 1500436,
+          "recorded_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9"
+        },
+        {
+          "file": "corrected_evaluation/corrected_gd_npo_predictions.jsonl",
+          "matches": true,
+          "observed_bytes": 406246,
+          "observed_sha256": "87aaa7010aede33e2e76ab39b19eb3f5ef212594f7fb5e96a978342fe39ca405",
+          "recorded_bytes": 406246,
+          "recorded_sha256": "87aaa7010aede33e2e76ab39b19eb3f5ef212594f7fb5e96a978342fe39ca405"
+        },
+        {
+          "file": "corrected_evaluation/cross_language_contrasts.csv",
+          "matches": true,
+          "observed_bytes": 2864,
+          "observed_sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+          "recorded_bytes": 2864,
+          "recorded_sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7"
+        },
+        {
+          "file": "corrected_evaluation/cross_language_contrasts.json",
+          "matches": true,
+          "observed_bytes": 12977,
+          "observed_sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+          "recorded_bytes": 12977,
+          "recorded_sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9"
+        },
+        {
+          "file": "corrected_evaluation/diagnostic_report.md",
+          "matches": true,
+          "observed_bytes": 11632,
+          "observed_sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+          "recorded_bytes": 11632,
+          "recorded_sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de"
+        },
+        {
+          "file": "corrected_evaluation/generation.log",
+          "matches": true,
+          "observed_bytes": 18134,
+          "observed_sha256": "24ab089f3c1ba5f37c99d40fbeec3534466aa5eff8063c7178d4fc2ab0276fae",
+          "recorded_bytes": 18134,
+          "recorded_sha256": "24ab089f3c1ba5f37c99d40fbeec3534466aa5eff8063c7178d4fc2ab0276fae"
+        },
+        {
+          "file": "corrected_evaluation/partial_predictions/GD.jsonl",
+          "matches": true,
+          "observed_bytes": 202577,
+          "observed_sha256": "fbf4103c04455831cee62f17920c005e0a2a3e4133a648e3fb6affa9b97b9b18",
+          "recorded_bytes": 202577,
+          "recorded_sha256": "fbf4103c04455831cee62f17920c005e0a2a3e4133a648e3fb6affa9b97b9b18"
+        },
+        {
+          "file": "corrected_evaluation/partial_predictions/NPO.jsonl",
+          "matches": true,
+          "observed_bytes": 203669,
+          "observed_sha256": "c5ddd6df42675c0dec05db3fb5e823c397e703cb92bdb2bde801a9d9493c5b25",
+          "recorded_bytes": 203669,
+          "recorded_sha256": "c5ddd6df42675c0dec05db3fb5e823c397e703cb92bdb2bde801a9d9493c5b25"
+        },
+        {
+          "file": "corrected_evaluation/predictions.jsonl",
+          "matches": true,
+          "observed_bytes": 1323357,
+          "observed_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+          "recorded_bytes": 1323357,
+          "recorded_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe"
+        },
+        {
+          "file": "corrected_evaluation/scored_predictions.jsonl",
+          "matches": true,
+          "observed_bytes": 2179918,
+          "observed_sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+          "recorded_bytes": 2179918,
+          "recorded_sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b"
+        },
+        {
+          "file": "corrected_evaluation/summary.csv",
+          "matches": true,
+          "observed_bytes": 11239,
+          "observed_sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+          "recorded_bytes": 11239,
+          "recorded_sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f"
+        },
+        {
+          "file": "corrected_evaluation/summary.json",
+          "matches": true,
+          "observed_bytes": 59760,
+          "observed_sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958",
+          "recorded_bytes": 59760,
+          "recorded_sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+        },
+        {
+          "file": "corrected_evaluation/verification.json",
+          "matches": true,
+          "observed_bytes": 1344,
+          "observed_sha256": "f4926263d2168a33ed835b266185a829939a8b178d3a69ef6c522e2a611b6e6a",
+          "recorded_bytes": 1344,
+          "recorded_sha256": "f4926263d2168a33ed835b266185a829939a8b178d3a69ef6c522e2a611b6e6a"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/README.md",
+          "matches": true,
+          "observed_bytes": 5218,
+          "observed_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271",
+          "recorded_bytes": 5218,
+          "recorded_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/adapter_config.json",
+          "matches": true,
+          "observed_bytes": 1165,
+          "observed_sha256": "6fbf946a93907b471fe9e9589007b230401b1dc52c6de73bd20df46ccf1e6b9f",
+          "recorded_bytes": 1165,
+          "recorded_sha256": "6fbf946a93907b471fe9e9589007b230401b1dc52c6de73bd20df46ccf1e6b9f"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/adapter_model.safetensors",
+          "matches": true,
+          "observed_bytes": 45118424,
+          "observed_sha256": "6cbf30f76737cadda36a6f3f0c1cd30526c7a36a51a706b8f35c5c8b93c061c3",
+          "recorded_bytes": 45118424,
+          "recorded_sha256": "6cbf30f76737cadda36a6f3f0c1cd30526c7a36a51a706b8f35c5c8b93c061c3"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/chat_template.jinja",
+          "matches": true,
+          "observed_bytes": 3827,
+          "observed_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+          "recorded_bytes": 3827,
+          "recorded_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/special_tokens_map.json",
+          "matches": true,
+          "observed_bytes": 439,
+          "observed_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1",
+          "recorded_bytes": 439,
+          "recorded_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/tokenizer.json",
+          "matches": true,
+          "observed_bytes": 17209920,
+          "observed_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "recorded_bytes": 17209920,
+          "recorded_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "file": "corrected_unlearning/ga/adapter/tokenizer_config.json",
+          "matches": true,
+          "observed_bytes": 50554,
+          "observed_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+          "recorded_bytes": 50554,
+          "recorded_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+        },
+        {
+          "file": "corrected_unlearning/ga/run_manifest.json",
+          "matches": true,
+          "observed_bytes": 2607,
+          "observed_sha256": "3eca76119817c9f789af23872524f135696433e6dd1638a9bc3fb5768717d0aa",
+          "recorded_bytes": 2607,
+          "recorded_sha256": "3eca76119817c9f789af23872524f135696433e6dd1638a9bc3fb5768717d0aa"
+        },
+        {
+          "file": "corrected_unlearning/ga/train.log",
+          "matches": true,
+          "observed_bytes": 2657,
+          "observed_sha256": "0c89ca89243e254a7158bc5338f17dd06bd4c9b13a373139e6b1da8ce9e38623",
+          "recorded_bytes": 2657,
+          "recorded_sha256": "0c89ca89243e254a7158bc5338f17dd06bd4c9b13a373139e6b1da8ce9e38623"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/README.md",
+          "matches": true,
+          "observed_bytes": 5218,
+          "observed_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271",
+          "recorded_bytes": 5218,
+          "recorded_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/adapter_config.json",
+          "matches": true,
+          "observed_bytes": 1165,
+          "observed_sha256": "49b67b48b9a4f420e72f0fda0cc77aac68d162dc33812207f6fe79f3a160837a",
+          "recorded_bytes": 1165,
+          "recorded_sha256": "49b67b48b9a4f420e72f0fda0cc77aac68d162dc33812207f6fe79f3a160837a"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/adapter_model.safetensors",
+          "matches": true,
+          "observed_bytes": 45118424,
+          "observed_sha256": "a244b4c1366b8af9cdefadec31cc94f8566b7485041d93629bcadde3a0373641",
+          "recorded_bytes": 45118424,
+          "recorded_sha256": "a244b4c1366b8af9cdefadec31cc94f8566b7485041d93629bcadde3a0373641"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/chat_template.jinja",
+          "matches": true,
+          "observed_bytes": 3827,
+          "observed_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+          "recorded_bytes": 3827,
+          "recorded_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/special_tokens_map.json",
+          "matches": true,
+          "observed_bytes": 439,
+          "observed_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1",
+          "recorded_bytes": 439,
+          "recorded_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/tokenizer.json",
+          "matches": true,
+          "observed_bytes": 17209920,
+          "observed_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "recorded_bytes": 17209920,
+          "recorded_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "file": "corrected_unlearning/gd/adapter/tokenizer_config.json",
+          "matches": true,
+          "observed_bytes": 50554,
+          "observed_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+          "recorded_bytes": 50554,
+          "recorded_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+        },
+        {
+          "file": "corrected_unlearning/gd/run_manifest.json",
+          "matches": true,
+          "observed_bytes": 3198,
+          "observed_sha256": "3a8ae4130cd2abb5b591ce8c908435827e0236209954fa1ddbcf0e213b8e3db3",
+          "recorded_bytes": 3198,
+          "recorded_sha256": "3a8ae4130cd2abb5b591ce8c908435827e0236209954fa1ddbcf0e213b8e3db3"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/README.md",
+          "matches": true,
+          "observed_bytes": 5218,
+          "observed_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271",
+          "recorded_bytes": 5218,
+          "recorded_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/adapter_config.json",
+          "matches": true,
+          "observed_bytes": 1165,
+          "observed_sha256": "9006579c2f5e36e8ede53c466ebcea894db0d5f90c53437c88a19a62afec36b0",
+          "recorded_bytes": 1165,
+          "recorded_sha256": "9006579c2f5e36e8ede53c466ebcea894db0d5f90c53437c88a19a62afec36b0"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/adapter_model.safetensors",
+          "matches": true,
+          "observed_bytes": 45118424,
+          "observed_sha256": "d19ec95ab765a57b560649c411de9a4310829fed55ffe9d8642d3ed4371198a5",
+          "recorded_bytes": 45118424,
+          "recorded_sha256": "d19ec95ab765a57b560649c411de9a4310829fed55ffe9d8642d3ed4371198a5"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/chat_template.jinja",
+          "matches": true,
+          "observed_bytes": 3827,
+          "observed_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+          "recorded_bytes": 3827,
+          "recorded_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/special_tokens_map.json",
+          "matches": true,
+          "observed_bytes": 439,
+          "observed_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1",
+          "recorded_bytes": 439,
+          "recorded_sha256": "208d307467cabecb563e033fdb478b7c11a1bc6eca9a9c761bf6a303ccfce4c1"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/tokenizer.json",
+          "matches": true,
+          "observed_bytes": 17209920,
+          "observed_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "recorded_bytes": 17209920,
+          "recorded_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "file": "corrected_unlearning/npo/adapter/tokenizer_config.json",
+          "matches": true,
+          "observed_bytes": 50554,
+          "observed_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+          "recorded_bytes": 50554,
+          "recorded_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+        },
+        {
+          "file": "corrected_unlearning/npo/run_manifest.json",
+          "matches": true,
+          "observed_bytes": 3207,
+          "observed_sha256": "6269c1dfc95e055a01c80b056c2102842a917fa23bcc04cd396d32fa2a2b7d4c",
+          "recorded_bytes": 3207,
+          "recorded_sha256": "6269c1dfc95e055a01c80b056c2102842a917fa23bcc04cd396d32fa2a2b7d4c"
+        },
+        {
+          "file": "corrected_unlearning/source_code_provenance.json",
+          "matches": true,
+          "observed_bytes": 2046,
+          "observed_sha256": "9665dac7784beaed3bdf4e42144fc0c0ab7b7add9e3b1a4763c17d25b892288e",
+          "recorded_bytes": 2046,
+          "recorded_sha256": "9665dac7784beaed3bdf4e42144fc0c0ab7b7add9e3b1a4763c17d25b892288e"
+        },
+        {
+          "file": "evaluation_dataset/README.md",
+          "matches": true,
+          "observed_bytes": 1875,
+          "observed_sha256": "217b662d5ac8bbf80a625429cba6a4c5b8a74e47d493758fc44747cf3343fb8c",
+          "recorded_bytes": 1875,
+          "recorded_sha256": "217b662d5ac8bbf80a625429cba6a4c5b8a74e47d493758fc44747cf3343fb8c"
+        },
+        {
+          "file": "evaluation_dataset/labels/gold_labels.jsonl",
+          "matches": true,
+          "observed_bytes": 66460,
+          "observed_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+          "recorded_bytes": 66460,
+          "recorded_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4"
+        },
+        {
+          "file": "evaluation_dataset/manifest.json",
+          "matches": true,
+          "observed_bytes": 2461,
+          "observed_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4",
+          "recorded_bytes": 2461,
+          "recorded_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4"
+        },
+        {
+          "file": "evaluation_dataset/prompts/en.jsonl",
+          "matches": true,
+          "observed_bytes": 63538,
+          "observed_sha256": "30c93bfe6b043564e8c1a5aed164b1a51766c8788b7e4b4891cf0e20f9a68f70",
+          "recorded_bytes": 63538,
+          "recorded_sha256": "30c93bfe6b043564e8c1a5aed164b1a51766c8788b7e4b4891cf0e20f9a68f70"
+        },
+        {
+          "file": "evaluation_dataset/translation_requests/de.jsonl",
+          "matches": true,
+          "observed_bytes": 183249,
+          "observed_sha256": "7d6399972f2cb3d546c7234c106e01a99595cf61ad573a8c91652888c4cd3aa8",
+          "recorded_bytes": 183249,
+          "recorded_sha256": "7d6399972f2cb3d546c7234c106e01a99595cf61ad573a8c91652888c4cd3aa8"
+        },
+        {
+          "file": "evaluation_dataset/translation_requests/fr.jsonl",
+          "matches": true,
+          "observed_bytes": 183249,
+          "observed_sha256": "f2f7abae706f6d5c6410c25b2795518e949fc3300fd2f8487d32ef1a54015c04",
+          "recorded_bytes": 183249,
+          "recorded_sha256": "f2f7abae706f6d5c6410c25b2795518e949fc3300fd2f8487d32ef1a54015c04"
+        },
+        {
+          "file": "evaluation_dataset/translation_requests/hi.jsonl",
+          "matches": true,
+          "observed_bytes": 183249,
+          "observed_sha256": "d1a0de3cd18d78587e6992649dd715345d519bf37755091a15ad5a2b3874f611",
+          "recorded_bytes": 183249,
+          "recorded_sha256": "d1a0de3cd18d78587e6992649dd715345d519bf37755091a15ad5a2b3874f611"
+        },
+        {
+          "file": "evaluation_dataset/translation_requests/th.jsonl",
+          "matches": true,
+          "observed_bytes": 183249,
+          "observed_sha256": "ae230ca83a68cfa647cab24c9e9c556f38db3a9a62b66cdbe55a92a053080ed7",
+          "recorded_bytes": 183249,
+          "recorded_sha256": "ae230ca83a68cfa647cab24c9e9c556f38db3a9a62b66cdbe55a92a053080ed7"
+        },
+        {
+          "file": "evaluation_dataset/translations/ai_reviewed/de.jsonl",
+          "matches": true,
+          "observed_bytes": 40325,
+          "observed_sha256": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a",
+          "recorded_bytes": 40325,
+          "recorded_sha256": "2249c77a5688901e6fc0b5714500ce61d11cfee8f6ad45622839abdb638c768a"
+        },
+        {
+          "file": "evaluation_dataset/translations/ai_reviewed/fr.jsonl",
+          "matches": true,
+          "observed_bytes": 40916,
+          "observed_sha256": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42",
+          "recorded_bytes": 40916,
+          "recorded_sha256": "54f450db4e268ae5b12cdf2775605a64da630bbcddd2469d8e1d374ac3f65d42"
+        },
+        {
+          "file": "evaluation_dataset/translations/ai_reviewed/hi.jsonl",
+          "matches": true,
+          "observed_bytes": 54800,
+          "observed_sha256": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32",
+          "recorded_bytes": 54800,
+          "recorded_sha256": "3f91abe5663ff4b4a87594441f7cb1228e3e61a4e4da196b2493cf831b165f32"
+        },
+        {
+          "file": "evaluation_dataset/translations/ai_reviewed/review_import_report.json",
+          "matches": true,
+          "observed_bytes": 1415,
+          "observed_sha256": "8acb6ce80aa8b7f6822012158bbd57bad7b71f723f30dc0e4741e83ca7bc8265",
+          "recorded_bytes": 1415,
+          "recorded_sha256": "8acb6ce80aa8b7f6822012158bbd57bad7b71f723f30dc0e4741e83ca7bc8265"
+        },
+        {
+          "file": "evaluation_dataset/translations/ai_reviewed/th.jsonl",
+          "matches": true,
+          "observed_bytes": 53178,
+          "observed_sha256": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb",
+          "recorded_bytes": 53178,
+          "recorded_sha256": "60c8463a0750616ad7f515b6b9ac5e086e2b788269935e8d2a640ef4ad805bbb"
+        },
+        {
+          "file": "evaluation_dataset/translations/review_process_log.json",
+          "matches": true,
+          "observed_bytes": 1276,
+          "observed_sha256": "4024872ebc4243b1ee92b82ce1a0ff202dd718469e7a5b4bcfccdcabeaae0515",
+          "recorded_bytes": 1276,
+          "recorded_sha256": "4024872ebc4243b1ee92b82ce1a0ff202dd718469e7a5b4bcfccdcabeaae0515"
+        },
+        {
+          "file": "retain_only_baseline/adapter/README.md",
+          "matches": true,
+          "observed_bytes": 5218,
+          "observed_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271",
+          "recorded_bytes": 5218,
+          "recorded_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+        },
+        {
+          "file": "retain_only_baseline/adapter/adapter_config.json",
+          "matches": true,
+          "observed_bytes": 1165,
+          "observed_sha256": "d266e5d16bd83435551f66323b3b0796089bb5755839d13b51d2bd572564b2dd",
+          "recorded_bytes": 1165,
+          "recorded_sha256": "d266e5d16bd83435551f66323b3b0796089bb5755839d13b51d2bd572564b2dd"
+        },
+        {
+          "file": "retain_only_baseline/adapter/adapter_model.safetensors",
+          "matches": true,
+          "observed_bytes": 45118424,
+          "observed_sha256": "c83ef6d0ec69524fae3597be6a50b80a44a81b96c047f52dce9c6f9370fbe76c",
+          "recorded_bytes": 45118424,
+          "recorded_sha256": "c83ef6d0ec69524fae3597be6a50b80a44a81b96c047f52dce9c6f9370fbe76c"
+        },
+        {
+          "file": "retain_only_baseline/adapter/chat_template.jinja",
+          "matches": true,
+          "observed_bytes": 3827,
+          "observed_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+          "recorded_bytes": 3827,
+          "recorded_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+        },
+        {
+          "file": "retain_only_baseline/adapter/special_tokens_map.json",
+          "matches": true,
+          "observed_bytes": 325,
+          "observed_sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8",
+          "recorded_bytes": 325,
+          "recorded_sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+        },
+        {
+          "file": "retain_only_baseline/adapter/tokenizer.json",
+          "matches": true,
+          "observed_bytes": 17209920,
+          "observed_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "recorded_bytes": 17209920,
+          "recorded_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "file": "retain_only_baseline/adapter/tokenizer_config.json",
+          "matches": true,
+          "observed_bytes": 50554,
+          "observed_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+          "recorded_bytes": 50554,
+          "recorded_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+        },
+        {
+          "file": "retain_only_baseline/adapter/training_args.bin",
+          "matches": true,
+          "observed_bytes": 5905,
+          "observed_sha256": "7f2487f114aa11affff2c97890d1edec0a455c1dcc29445cffc8d6886f90a419",
+          "recorded_bytes": 5905,
+          "recorded_sha256": "7f2487f114aa11affff2c97890d1edec0a455c1dcc29445cffc8d6886f90a419"
+        },
+        {
+          "file": "retain_only_baseline/run_manifest.json",
+          "matches": true,
+          "observed_bytes": 1044,
+          "observed_sha256": "ba8193c69f5e19f3e4bf78cfeb3af189d942beabf970e1b608d1a04507ed5ef4",
+          "recorded_bytes": 1044,
+          "recorded_sha256": "ba8193c69f5e19f3e4bf78cfeb3af189d942beabf970e1b608d1a04507ed5ef4"
+        },
+        {
+          "file": "scripts/evaluate_crosslingual_unlearning.py",
+          "matches": true,
+          "observed_bytes": 29165,
+          "observed_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+          "recorded_bytes": 29165,
+          "recorded_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70"
+        },
+        {
+          "file": "scripts/unlearn_lora.py",
+          "matches": true,
+          "observed_bytes": 22525,
+          "observed_sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d",
+          "recorded_bytes": 22525,
+          "recorded_sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d"
+        },
+        {
+          "file": "sft_baseline/adapter/README.md",
+          "matches": true,
+          "observed_bytes": 5218,
+          "observed_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271",
+          "recorded_bytes": 5218,
+          "recorded_sha256": "0b5335b5da1d88294c9cef01da8869e6d79f8324dc147e5fc22f54c4987ec271"
+        },
+        {
+          "file": "sft_baseline/adapter/adapter_config.json",
+          "matches": true,
+          "observed_bytes": 1165,
+          "observed_sha256": "f312f552b0a62e893751f48b934317928694c228438403541a8a211b71fcdbdf",
+          "recorded_bytes": 1165,
+          "recorded_sha256": "f312f552b0a62e893751f48b934317928694c228438403541a8a211b71fcdbdf"
+        },
+        {
+          "file": "sft_baseline/adapter/adapter_model.safetensors",
+          "matches": true,
+          "observed_bytes": 45118424,
+          "observed_sha256": "e99ef07d4672cfe87b321d4e82a8079182fa049cc8bfc69419c0972de097b4d9",
+          "recorded_bytes": 45118424,
+          "recorded_sha256": "e99ef07d4672cfe87b321d4e82a8079182fa049cc8bfc69419c0972de097b4d9"
+        },
+        {
+          "file": "sft_baseline/adapter/chat_template.jinja",
+          "matches": true,
+          "observed_bytes": 3827,
+          "observed_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+          "recorded_bytes": 3827,
+          "recorded_sha256": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4"
+        },
+        {
+          "file": "sft_baseline/adapter/special_tokens_map.json",
+          "matches": true,
+          "observed_bytes": 325,
+          "observed_sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8",
+          "recorded_bytes": 325,
+          "recorded_sha256": "1b1835caa5b4d70acaa210fa222b0036f1882f9525c4660fd4810fb3e1e40ff8"
+        },
+        {
+          "file": "sft_baseline/adapter/tokenizer.json",
+          "matches": true,
+          "observed_bytes": 17209920,
+          "observed_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+          "recorded_bytes": 17209920,
+          "recorded_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+        },
+        {
+          "file": "sft_baseline/adapter/tokenizer_config.json",
+          "matches": true,
+          "observed_bytes": 50554,
+          "observed_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403",
+          "recorded_bytes": 50554,
+          "recorded_sha256": "a6c116761af9f371c68fd4a2da6e3cf6b3a4b41148f38eca4047aecfccdb6403"
+        },
+        {
+          "file": "sft_baseline/adapter/training_args.bin",
+          "matches": true,
+          "observed_bytes": 5841,
+          "observed_sha256": "3c52a6b9f700a2258f538ad9bd5673a093383b8ae5929ba0ccd62e07f71bb951",
+          "recorded_bytes": 5841,
+          "recorded_sha256": "3c52a6b9f700a2258f538ad9bd5673a093383b8ae5929ba0ccd62e07f71bb951"
+        },
+        {
+          "file": "sft_baseline/run_manifest.json",
+          "matches": true,
+          "observed_bytes": 1061,
+          "observed_sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c",
+          "recorded_bytes": 1061,
+          "recorded_sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c"
+        },
+        {
+          "file": "sft_training/composition_corpus_disjoint.jsonl",
+          "matches": true,
+          "observed_bytes": 5086520,
+          "observed_sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c",
+          "recorded_bytes": 5086520,
+          "recorded_sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c"
+        },
+        {
+          "file": "sft_training/composition_disjoint_manifest.json",
+          "matches": true,
+          "observed_bytes": 4696,
+          "observed_sha256": "7fdc456c866ac2cf0e456326dc6ebdebbfbf9bc8d110ab332ae17fb3cc984b68",
+          "recorded_bytes": 4696,
+          "recorded_sha256": "7fdc456c866ac2cf0e456326dc6ebdebbfbf9bc8d110ab332ae17fb3cc984b68"
+        }
+      ],
+      "unique_paths": true,
+      "zip_crc": "PASS",
+      "zip_entries": 78
+    },
+    "derived_outputs": [
+      {
+        "file": "scored_predictions.jsonl",
+        "matches": true,
+        "reproduced_sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+        "saved_sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b"
+      },
+      {
+        "file": "case_metrics.jsonl",
+        "matches": true,
+        "reproduced_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+        "saved_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9"
+      },
+      {
+        "file": "summary.json",
+        "matches": true,
+        "reproduced_sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958",
+        "saved_sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+      },
+      {
+        "file": "summary.csv",
+        "matches": true,
+        "reproduced_sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+        "saved_sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f"
+      },
+      {
+        "file": "cross_language_contrasts.json",
+        "matches": true,
+        "reproduced_sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+        "saved_sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9"
+      },
+      {
+        "file": "cross_language_contrasts.csv",
+        "matches": true,
+        "reproduced_sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+        "saved_sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7"
+      },
+      {
+        "file": "diagnostic_report.md",
+        "matches": true,
+        "reproduced_sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+        "saved_sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de"
+      }
+    ],
+    "score_only_reproduction_exit_code": 0,
+    "score_only_reproduction_status": "PASS",
+    "score_only_reproduction_stderr": "",
+    "score_only_reproduction_stdout": "{\n  \"status\": \"EVALUATION_COMPLETE\",\n  \"checkpoints\": [\n    \"pretrained=unused\",\n    \"sft=unused\",\n    \"retain_only=unused\",\n    \"GA=unused\",\n    \"GD=unused\",\n    \"NPO=unused\"\n  ],\n  \"predictions\": \"/Users/maianhpham/Documents/fsds/reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/predictions.jsonl\",\n  \"report\": \"/var/folders/77/k7qn4vjs3qz8bjm31jpn92wr0000gn/T/r1-corrected-v4-audit-2spwjw8d/diagnostic_report.md\",\n  \"translation_review_mode\": \"AI_ONLY\",\n  \"human_translation_reviewed\": false\n}\n"
+  },
+  "kaggle_kernel_metadata_snapshot": {
+    "dataset_sources": [
+      "bunnoob2005/synthworlds-sm-r1-retrainfix-v4",
+      "bunnoob2005/synthworlds-sm-sft-pilot-v3"
+    ],
+    "log_checks": {
+      "composition_stage_disabled": true,
+      "hf_token_present_false": true,
+      "post_evaluation_disabled": true,
+      "secret_lookup_failed": true,
+      "training_complete_record_absent": true,
+      "training_started_false": true,
+      "unlearning_complete_record_absent": true
+    },
+    "log_sha256": "03ddd345f4a48da7982a347a34fc4770ea3042722f3b78c115dcff081dfcf310",
+    "metadata_sha256": "82db48ae996f2f9af0296bd14f73a88e01995789ac9e805934fcfa2397cf4c18",
+    "notebook_sha256": "3c98b2773c56f63e83d55f1d9b009ac5c417f13d4a003aa0805fbe85c18cf85d",
+    "status_command_exit_code": 0,
+    "status_command_output": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/experiments has status \"KernelWorkerStatus.COMPLETE\"\n",
+    "submitted_code_file": "experiments.ipynb"
+  },
+  "kaggle_kernel_version_12_preflight": {
+    "checks": {
+      "combined_gate_blocked": true,
+      "gpu_available": true,
+      "hf_token_missing": true,
+      "log_sha_matches_saved_summary": true,
+      "no_training_stages_started": true,
+      "notebook_sha_matches_saved_summary": true,
+      "preflight_only": true,
+      "status_complete": true,
+      "training_package_preflight_ready": true
+    },
+    "combined_training_gate": "BLOCKED",
+    "configured_dataset_sources_in_saved_metadata": [
+      "bunnoob2005/synthworlds-sm-r1-retrainfix-v4",
+      "bunnoob2005/synthworlds-sm-sft-pilot-v3"
+    ],
+    "evaluation_started": false,
+    "gpu": "Tesla T4",
+    "kernel": "bunnoob2005/experiments",
+    "kernel_version": 12,
+    "retain_only_started": false,
+    "runtime_dataset_sources": [
+      "bunnoob2005/synthworlds-sm-sft-pilot-v3"
+    ],
+    "runtime_project_root": "/kaggle/input/datasets/bunnoob2005/synthworlds-sm-sft-pilot-v3",
+    "runtime_vs_configured_source_lists_differ": true,
+    "sft_started": false,
+    "status": "COMPLETE",
+    "training_package_preflight": {
+      "errors": [],
+      "hf_token_present": false,
+      "human_translation_reviewed": false,
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "note": "Preflight never downloads weights or starts training. The approved corpus uses user-authorized AI-only translation review; no human fluency review was performed.",
+      "status": "READY_TO_TRAIN",
+      "train_flag": false,
+      "training_packages": {
+        "accelerate": true,
+        "numpy": true,
+        "peft": true,
+        "torch": true,
+        "transformers": true
+      },
+      "training_packages_ready": true,
+      "training_started": false,
+      "translation_review_mode": "AI_ONLY"
+    },
+    "unlearning_started": false
+  },
+  "legacy_v4_upload_snapshot_verification": {
+    "exit_code": 1,
+    "expected_failure_artifact": "kaggle/kernel_update/experiments.ipynb",
+    "status": "KNOWN_STALE_HASH",
+    "stderr": "Traceback (most recent call last):\n  File \"/Users/maianhpham/Documents/fsds/data/synthworlds_sm_pilot_v4/scripts/verify_v3.py\", line 302, in <module>\n    print(json.dumps(verify(), indent=2))\n                     ~~~~~~^^\n  File \"/Users/maianhpham/Documents/fsds/data/synthworlds_sm_pilot_v4/scripts/verify_v3.py\", line 272, in verify\n    assert sha(path) == meta[\"sha256\"], rel\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: kaggle/kernel_update/experiments.ipynb\n",
+    "stdout": ""
+  }
+}

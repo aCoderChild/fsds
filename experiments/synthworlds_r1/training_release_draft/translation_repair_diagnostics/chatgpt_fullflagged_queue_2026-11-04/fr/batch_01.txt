@@ -1,0 +1,35 @@
+Translate each English question into natural French. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"FR0001","question_en":"For which award was ZXQENTAQXZ nominated?"}
+{"row_id":"FR0002","question_en":"What is the parent organization of ZXQENTAQXZ?"}
+{"row_id":"FR0003","question_en":"What award was ZXQENTAQXZ nominated for?"}
+{"row_id":"FR0004","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"FR0005","question_en":"Who is the main subject of ZXQENTAQXZ?"}
+{"row_id":"FR0006","question_en":"Who produced ZXQENTAQXZ?"}
+{"row_id":"FR0007","question_en":"Who was the screenwriter of ZXQENTAQXZ?"}
+{"row_id":"FR0008","question_en":"Which creative work did ZXQENTAQXZ contribute to?"}
+{"row_id":"FR0009","question_en":"Who performed ZXQENTAQXZ?"}
+{"row_id":"FR0010","question_en":"In what language does ZXQENTAQXZ write?"}
+{"row_id":"FR0011","question_en":"Where was ZXQENTAQXZ educated?"}
+{"row_id":"FR0012","question_en":"Who is the editor of the ZXQENTAQXZ?"}
+{"row_id":"FR0013","question_en":"On what physical feature is ZXQENTAQXZ located?"}
+{"row_id":"FR0014","question_en":"Which country is ZXQENTAQXZ from?"}
+{"row_id":"FR0015","question_en":"On what date was ZXQENTAQXZ first performed?"}
+{"row_id":"FR0016","question_en":"Which notable work is by ZXQENTAQXZ?"}
+{"row_id":"FR0017","question_en":"On what date was ZXQENTAQXZ first published?"}
+{"row_id":"FR0018","question_en":"Who is the chairperson of ZXQENTAQXZ?"}
+{"row_id":"FR0019","question_en":"Who is the screenwriter of ZXQENTAQXZ?"}
+{"row_id":"FR0020","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"FR0021","question_en":"On or next to which body of water is ZXQENTAQXZ located?"}
+{"row_id":"FR0022","question_en":"What administrative territorial entity is contained within ZXQENTAQXZ?"}
+{"row_id":"FR0023","question_en":"Which entity is ZXQENTAQXZ different from?"}
+{"row_id":"FR0024","question_en":"Who directed ZXQENTAQXZ?"}
+{"row_id":"FR0025","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"FR0026","question_en":"Where is the ZXQENTAQXZ language indigenous to?"}
+{"row_id":"FR0027","question_en":"Which country is ZXQENTAQXZ a citizen of?"}
+{"row_id":"FR0028","question_en":"Who was ZXQENTAQXZ named after?"}
+{"row_id":"FR0029","question_en":"Which work does ZXQENTAQXZ follow in its series?"}
+{"row_id":"FR0030","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"FR0031","question_en":"What did ZXQENTAQXZ replace?"}
+{"row_id":"FR0032","question_en":"Of which house is the ZXQENTAQXZ a part?"}

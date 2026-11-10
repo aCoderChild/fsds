@@ -1,0 +1,129 @@
+{
+  "answers_sent_to_reviewer": false,
+  "answers_sent_to_translator": false,
+  "completed_at_utc": "2026-11-03T11:01:50.059916+00:00",
+  "created_at_utc": "2026-11-03T10:58:12.966236+00:00",
+  "decisions_checkpoint_sha256": "477f15879e10555c46a6cfbf43ea86d840d49c05a2e808113231efa35f92c9c4",
+  "decisions_sha256": "477f15879e10555c46a6cfbf43ea86d840d49c05a2e808113231efa35f92c9c4",
+  "deterministic_passes": 64,
+  "errors": 0,
+  "human_translation_reviewed": false,
+  "limits": [
+    "The reviewer critique is AI-generated and may be wrong; the English source is authoritative.",
+    "This sample is diagnostic and does not approve candidate translations or training data.",
+    "Qwen2.5 7B review is AI-only and does not certify fluent-human quality.",
+    "No source translation or release manifest is changed."
+  ],
+  "per_cell_limit": 8,
+  "per_language_kind": {
+    "de": {
+      "atomic": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 8
+      },
+      "composition": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 8
+      }
+    },
+    "fr": {
+      "atomic": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 4,
+        "selected": 8
+      },
+      "composition": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 8
+      }
+    },
+    "hi": {
+      "atomic": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 8
+      },
+      "composition": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 1,
+        "selected": 8
+      }
+    },
+    "th": {
+      "atomic": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 8
+      },
+      "composition": {
+        "deterministic_failed": 0,
+        "deterministic_pass": 8,
+        "errors": 0,
+        "qwen_pass": 1,
+        "selected": 8
+      }
+    }
+  },
+  "processed_rows": 64,
+  "qwen_passes": 16,
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "script_sha256": "0b7bd444ae8c572afcee3c374e111f204d2ce6a64eeebf0da9a3253e9e9ff618",
+  "selected_by_cell": {
+    "de": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "fr": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "hi": {
+      "atomic": 8,
+      "composition": 8
+    },
+    "th": {
+      "atomic": 8,
+      "composition": 8
+    }
+  },
+  "selected_by_language": {
+    "de": 16,
+    "fr": 16,
+    "hi": 16,
+    "th": 16
+  },
+  "selected_rows": 64,
+  "selection_rule": "stable SHA-256 order; equal per-cell sample from prior Qwen-flagged rows",
+  "source": {
+    "parent_candidates_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+    "parent_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+    "source_review_report_sha256": "b5cdfcf944366f64b3e6110d412e78b2c2b3b53380400e020f98df96e45b41d6",
+    "source_review_sha256_by_language": {
+      "de": "e3850e8d4b5600985a20a7f5517b571cb832f20db0057f776bdcd7c67c78af9f",
+      "fr": "871bdf0f91de439e2e67d1e95d10e2e4db895d6b0a8e061a19a7deab29e7b469",
+      "hi": "0cc789e1a46c99e3ef03e8827694e055c7d45820a44dd3cfce11da2e0063cfbb",
+      "th": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb"
+    }
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW",
+  "translation_successes": 64,
+  "translator_model": "ollama:translategemma:4b",
+  "updated_at_utc": "2026-11-03T11:01:50.059402+00:00"
+}

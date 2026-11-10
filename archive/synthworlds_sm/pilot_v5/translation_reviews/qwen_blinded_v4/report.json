@@ -1,0 +1,79 @@
+{
+  "ai_review_flagged_total": 753,
+  "ai_review_pass_total": 1587,
+  "batch_size": 3,
+  "completed_at_utc": "2026-11-03T02:23:58.654872+00:00",
+  "deduplication_scope": "exact masked source/translation payload, across each complete language file and resumed runs",
+  "duplicate_pair_decision_conflicts": 0,
+  "human_reviewed_total": 0,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "cross_model_review_rows": 565,
+      "flagged_rows": 154,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 431,
+      "review_sha256": "40d4a771431e75aed08b4fd2e34c0b9aaa64a4dbe4697702b291b95e58d8a74a",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 20,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "aa7ef7a2c5df0c72aad921b63fda1ef9f75571a3c77ec84d498779ba2874a1b6",
+      "unresolved_rows": 0
+    },
+    "fr": {
+      "cross_model_review_rows": 571,
+      "flagged_rows": 177,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 408,
+      "review_sha256": "b4d6cf495c7a439482a746be4565979b59248702f63f55088eaadb0b0936c2e0",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 14,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "b312e0b70fc973e699d438c295ef9fce2e43cfa66ec81826b7f19ec48e6c75d4",
+      "unresolved_rows": 0
+    },
+    "hi": {
+      "cross_model_review_rows": 548,
+      "flagged_rows": 210,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 375,
+      "review_sha256": "878ca647fef86a867182507b3f4c012b1aaf057c70806395eda58061e66d24be",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 37,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "5f373692ba505016e25b4a4219b85f9689de73e622c55cecbd46547a89b0ee32",
+      "unresolved_rows": 0
+    },
+    "th": {
+      "cross_model_review_rows": 558,
+      "flagged_rows": 212,
+      "input_rows": 585,
+      "model_call_failures": [],
+      "pass_rows": 373,
+      "review_sha256": "9f153d524c3a7fd89da0c6f965263ecc9151d24100a5160a1e2da01e14a75656",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 27,
+      "status": "AI_ONLY_REVIEW_COMPLETE",
+      "translation_sha256": "206f9e2e023ca08d9afaa336cd075855efe9e47e68a9018f057856c8f6e64779",
+      "unresolved_rows": 0
+    }
+  },
+  "limitations": [
+    "AI-only review is not certification by a fluent human reviewer.",
+    "Automated model judgments can miss semantic or pragmatic translation errors.",
+    "Entity names and direct-positive versus negative-control labels are masked from the reviewer to reduce factual-answer bias.",
+    "Qwen fallback translations were screened by the same Qwen model; those rows are consistency checks, not independent-model verification.",
+    "The evaluation prompts and translated text are synthetic and source-derived."
+  ],
+  "review_mode": "AI_ONLY_BLINDED_TRANSLATION_SCREEN_ENTITY_NAMES_AND_DIRECT_LABELS_MASKED_GLOBAL_DEDUPLICATED",
+  "review_protocol_id": "blind_entity_probe_neutral_global_deduplicated_v4",
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "source_requests_sha256": "cb46e839bef29b836d882fb489372b80d8ce18517a711fe1bd94999c4754500c",
+  "status": "AI_ONLY_REVIEW_REQUIRES_REPAIRS_OR_HUMAN_REVIEW",
+  "translation_model": "facebook/nllb-200-distilled-600M",
+  "unique_masked_pair_payloads_reviewed": 1661,
+  "unresolved_total": 0
+}

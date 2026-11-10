@@ -1,0 +1,1440 @@
+{
+  "batch_size": 16,
+  "device": "mps",
+  "generated_at_utc": "2026-11-03T00:52:27.879106+00:00",
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "draft_sha256": "08b1c8d4ea81cd377b2678fb3e8485da22cf2329ce1459d625a0f3ace1be09fe",
+      "failed_rows": 0,
+      "failures": [],
+      "rows": 585,
+      "status": "PENDING_INDEPENDENT_AI_REVIEW"
+    },
+    "fr": {
+      "draft_sha256": "f23d93c207ebcc08cdcb2447803360e632b7067c093ef8aedcb0c31200d19bfd",
+      "failed_rows": 10,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0068-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0068-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0079-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0142-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0142-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0150-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0150-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0165-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0172-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    },
+    "hi": {
+      "draft_sha256": "1cbe9607f5f9343a3348833b4a1c92f67f53d53a5f6f424d938fc896406e647e",
+      "failed_rows": 330,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0002-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0002-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0005-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0005-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0006-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0006-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0008-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0008-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0009-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0009-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0010-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0010-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0011-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0011-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0012-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0012-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0013-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0013-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0014-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0014-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0015-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0015-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0016-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0016-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0018-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0018-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0020-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0020-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0021-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0021-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0022-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0022-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0023-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0024-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0024-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0025-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0025-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0026-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0026-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0027-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0027-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0029-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0029-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0030-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0030-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0031-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0031-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0032-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0032-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0033-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0033-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0034-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0034-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0036-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0036-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0036-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0037-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0039-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0039-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0040-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0040-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0041-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0042-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0042-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0043-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0043-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0044-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0045-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0045-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0046-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0047-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0047-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0048-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0048-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0049-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0049-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0050-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0050-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0051-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0052-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0053-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0053-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0054-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0054-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0055-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0055-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0056-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0056-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0057-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0057-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0058-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0058-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0059-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0059-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0061-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0061-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0062-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0062-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0063-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0063-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0064-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0064-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0065-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0067-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0067-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0068-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0068-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0069-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0070-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0070-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0071-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0071-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0072-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0072-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0073-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0073-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0074-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0074-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0075-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0075-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0077-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0077-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0078-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0078-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0079-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0079-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0081-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0081-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0082-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0082-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0083-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0083-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0084-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0084-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0086-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0086-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0087-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0087-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0088-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0088-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0089-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0090-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0090-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0091-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0091-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0092-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0092-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0093-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0093-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0094-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0094-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0095-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0095-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0097-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0097-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0098-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0098-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0099-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0099-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0100-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0100-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0101-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0103-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0103-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0104-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0104-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0107-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0107-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0108-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0108-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0109-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0109-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0112-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0112-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0113-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0113-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0115-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0115-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0116-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0116-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0117-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0117-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0118-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0118-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0119-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0119-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0120-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0120-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0121-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0121-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0122-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0122-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0124-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0124-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0125-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0125-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0126-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0126-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0127-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0127-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0128-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0128-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0129-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0129-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0130-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0130-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0132-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0133-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0133-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0134-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0134-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0136-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0136-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0137-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0137-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0138-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0138-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0139-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0140-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0140-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0141-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0141-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0142-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0142-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0143-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0143-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0146-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0146-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0147-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0147-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0148-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0148-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0149-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0149-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0150-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0150-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0151-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0151-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0152-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0152-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0153-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0153-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0154-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0154-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0155-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0155-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0156-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0156-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0159-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0159-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0160-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0160-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0161-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0161-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0162-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0162-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0163-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0163-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0164-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0164-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0165-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0165-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0166-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0166-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0167-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0167-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0168-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0168-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0169-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0169-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0170-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0170-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0171-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0171-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0172-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0173-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0173-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0175-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0175-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0176-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0176-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0177-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0177-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0177-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0178-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0178-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0179-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0180-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0180-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0182-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0182-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0183-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0184-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0184-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0186-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0186-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0187-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0187-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 2}, 'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0189-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0190-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0190-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0191-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0191-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0193-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0193-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0195-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0195-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0196-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0196-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0197-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0197-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0198-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0198-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0199-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0199-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    },
+    "th": {
+      "draft_sha256": "cd5c1eed801a3e8dd264bf42c9a65b98e0266fffeb0e1f2e9cdc20629f11f1f8",
+      "failed_rows": 9,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0023-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0041-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0050-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTDQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0094-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTDQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0100-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTDQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0100-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0159-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQFMTYESQXZ': {'expected': 1, 'found': 0}, 'ZXQFMTNOQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0165-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    }
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_license": "CC-BY-NC-4.0; noncommercial research use only",
+  "rows_per_language": 585,
+  "source_sha256": "cb46e839bef29b836d882fb489372b80d8ce18517a711fe1bd94999c4754500c",
+  "status": "NLLB_DRAFTS_INCOMPLETE"
+}

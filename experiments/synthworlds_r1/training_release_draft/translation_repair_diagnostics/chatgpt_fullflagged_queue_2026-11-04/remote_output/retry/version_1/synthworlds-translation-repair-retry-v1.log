@@ -1,0 +1,225 @@
+[{"stream_name":"stderr","time":18.985409731,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.985453535,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.985459651,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.985463767,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.985467814,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":56.737531501,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":56.737597438,"data":"I0000 00:00:1793761622.420469       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":90.119045104,"data":"Backtranslated 1/97\n"}
+,{"stream_name":"stdout","time":90.775823488,"data":"Backtranslated 2/97\n"}
+,{"stream_name":"stdout","time":91.515035379,"data":"Backtranslated 3/97\n"}
+,{"stream_name":"stdout","time":92.100933711,"data":"Backtranslated 4/97\n"}
+,{"stream_name":"stdout","time":92.700971807,"data":"Backtranslated 5/97\n"}
+,{"stream_name":"stdout","time":93.418160036,"data":"Backtranslated 6/97\n"}
+,{"stream_name":"stdout","time":94.041655122,"data":"Backtranslated 7/97\n"}
+,{"stream_name":"stdout","time":94.702465329,"data":"Backtranslated 8/97\n"}
+,{"stream_name":"stdout","time":95.431006984,"data":"Backtranslated 9/97\n"}
+,{"stream_name":"stdout","time":96.085813675,"data":"Backtranslated 10/97\n"}
+,{"stream_name":"stdout","time":96.811468506,"data":"Backtranslated 11/97\n"}
+,{"stream_name":"stdout","time":97.551074974,"data":"Backtranslated 12/97\n"}
+,{"stream_name":"stdout","time":98.262812673,"data":"Backtranslated 13/97\n"}
+,{"stream_name":"stdout","time":99.101015484,"data":"Backtranslated 14/97\n"}
+,{"stream_name":"stdout","time":99.101302834,"data":"Reused verified backtranslation 15/97\n"}
+,{"stream_name":"stdout","time":99.725849763,"data":"Backtranslated 16/97\n"}
+,{"stream_name":"stdout","time":100.108115218,"data":"Backtranslated 17/97\n"}
+,{"stream_name":"stdout","time":100.854403013,"data":"Backtranslated 18/97\n"}
+,{"stream_name":"stdout","time":101.317936614,"data":"Backtranslated 19/97\n"}
+,{"stream_name":"stdout","time":101.830968671,"data":"Backtranslated 20/97\n"}
+,{"stream_name":"stdout","time":102.460245997,"data":"Backtranslated 21/97\n"}
+,{"stream_name":"stdout","time":103.170920997,"data":"Backtranslated 22/97\n"}
+,{"stream_name":"stdout","time":103.171300942,"data":"Reused verified backtranslation 23/97\n"}
+,{"stream_name":"stdout","time":103.841399856,"data":"Backtranslated 24/97\n"}
+,{"stream_name":"stdout","time":103.841838039,"data":"Reused verified backtranslation 25/97\n"}
+,{"stream_name":"stdout","time":104.464889631,"data":"Backtranslated 26/97\n"}
+,{"stream_name":"stdout","time":105.004454542,"data":"Backtranslated 27/97\n"}
+,{"stream_name":"stdout","time":105.648378708,"data":"Backtranslated 28/97\n"}
+,{"stream_name":"stdout","time":106.2613279,"data":"Backtranslated 29/97\n"}
+,{"stream_name":"stdout","time":106.936463424,"data":"Backtranslated 30/97\n"}
+,{"stream_name":"stdout","time":107.542379202,"data":"Backtranslated 31/97\n"}
+,{"stream_name":"stdout","time":107.542753079,"data":"Reused verified backtranslation 32/97\n"}
+,{"stream_name":"stdout","time":107.543219708,"data":"Reused verified backtranslation 33/97\n"}
+,{"stream_name":"stdout","time":107.543807153,"data":"Reused verified backtranslation 34/97\n"}
+,{"stream_name":"stdout","time":107.544302978,"data":"Reused verified backtranslation 35/97\n"}
+,{"stream_name":"stdout","time":107.544844711,"data":"Reused verified backtranslation 36/97\n"}
+,{"stream_name":"stdout","time":107.545328115,"data":"Reused verified backtranslation 37/97\n"}
+,{"stream_name":"stdout","time":107.545897588,"data":"Reused verified backtranslation 38/97\n"}
+,{"stream_name":"stdout","time":107.546383497,"data":"Reused verified backtranslation 39/97\n"}
+,{"stream_name":"stdout","time":107.547005137,"data":"Reused verified backtranslation 40/97\n"}
+,{"stream_name":"stdout","time":107.547492314,"data":"Reused verified backtranslation 41/97\n"}
+,{"stream_name":"stdout","time":107.548030799,"data":"Reused verified backtranslation 42/97\n"}
+,{"stream_name":"stdout","time":107.548519519,"data":"Reused verified backtranslation 43/97\n"}
+,{"stream_name":"stdout","time":107.549050555,"data":"Reused verified backtranslation 44/97\n"}
+,{"stream_name":"stdout","time":107.549555628,"data":"Reused verified backtranslation 45/97\n"}
+,{"stream_name":"stdout","time":107.550069798,"data":"Reused verified backtranslation 46/97\n"}
+,{"stream_name":"stdout","time":107.550593858,"data":"Reused verified backtranslation 47/97\n"}
+,{"stream_name":"stdout","time":107.551114426,"data":"Reused verified backtranslation 48/97\n"}
+,{"stream_name":"stdout","time":107.551615251,"data":"Reused verified backtranslation 49/97\n"}
+,{"stream_name":"stdout","time":107.552122155,"data":"Reused verified backtranslation 50/97\n"}
+,{"stream_name":"stdout","time":107.552721447,"data":"Reused verified backtranslation 51/97\n"}
+,{"stream_name":"stdout","time":107.553275693,"data":"Reused verified backtranslation 52/97\n"}
+,{"stream_name":"stdout","time":107.553871197,"data":"Reused verified backtranslation 53/97\n"}
+,{"stream_name":"stdout","time":107.554379231,"data":"Reused verified backtranslation 54/97\n"}
+,{"stream_name":"stdout","time":107.555012369,"data":"Reused verified backtranslation 55/97\n"}
+,{"stream_name":"stdout","time":107.555585698,"data":"Reused verified backtranslation 56/97\n"}
+,{"stream_name":"stdout","time":107.556141165,"data":"Reused verified backtranslation 57/97\n"}
+,{"stream_name":"stdout","time":107.55674142,"data":"Reused verified backtranslation 58/97\n"}
+,{"stream_name":"stdout","time":107.557319557,"data":"Reused verified backtranslation 59/97\n"}
+,{"stream_name":"stdout","time":107.5580039,"data":"Reused verified backtranslation 60/97\n"}
+,{"stream_name":"stdout","time":107.558600544,"data":"Reused verified backtranslation 61/97\n"}
+,{"stream_name":"stdout","time":107.559197105,"data":"Reused verified backtranslation 62/97\n"}
+,{"stream_name":"stdout","time":107.559840943,"data":"Reused verified backtranslation 63/97\n"}
+,{"stream_name":"stdout","time":107.56046799,"data":"Reused verified backtranslation 64/97\n"}
+,{"stream_name":"stdout","time":107.561124263,"data":"Reused verified backtranslation 65/97\n"}
+,{"stream_name":"stdout","time":107.561754994,"data":"Reused verified backtranslation 66/97\n"}
+,{"stream_name":"stdout","time":107.56237612,"data":"Reused verified backtranslation 67/97\n"}
+,{"stream_name":"stdout","time":107.563065495,"data":"Reused verified backtranslation 68/97\n"}
+,{"stream_name":"stdout","time":107.563719843,"data":"Reused verified backtranslation 69/97\n"}
+,{"stream_name":"stdout","time":107.564336195,"data":"Reused verified backtranslation 70/97\n"}
+,{"stream_name":"stdout","time":107.56501873,"data":"Reused verified backtranslation 71/97\n"}
+,{"stream_name":"stdout","time":107.565691767,"data":"Reused verified backtranslation 72/97\n"}
+,{"stream_name":"stdout","time":107.566302154,"data":"Reused verified backtranslation 73/97\n"}
+,{"stream_name":"stdout","time":107.566986077,"data":"Reused verified backtranslation 74/97\n"}
+,{"stream_name":"stdout","time":107.567686191,"data":"Reused verified backtranslation 75/97\n"}
+,{"stream_name":"stdout","time":107.568320965,"data":"Reused verified backtranslation 76/97\n"}
+,{"stream_name":"stdout","time":107.569006527,"data":"Reused verified backtranslation 77/97\n"}
+,{"stream_name":"stdout","time":107.569740736,"data":"Reused verified backtranslation 78/97\n"}
+,{"stream_name":"stdout","time":107.570376142,"data":"Reused verified backtranslation 79/97\n"}
+,{"stream_name":"stdout","time":107.571113719,"data":"Reused verified backtranslation 80/97\n"}
+,{"stream_name":"stdout","time":107.571813335,"data":"Reused verified backtranslation 81/97\n"}
+,{"stream_name":"stdout","time":107.572508523,"data":"Reused verified backtranslation 82/97\n"}
+,{"stream_name":"stdout","time":107.573267589,"data":"Reused verified backtranslation 83/97\n"}
+,{"stream_name":"stdout","time":107.573963189,"data":"Reused verified backtranslation 84/97\n"}
+,{"stream_name":"stdout","time":107.574702682,"data":"Reused verified backtranslation 85/97\n"}
+,{"stream_name":"stdout","time":107.575379455,"data":"Reused verified backtranslation 86/97\n"}
+,{"stream_name":"stdout","time":107.576160685,"data":"Reused verified backtranslation 87/97\n"}
+,{"stream_name":"stdout","time":107.576934902,"data":"Reused verified backtranslation 88/97\n"}
+,{"stream_name":"stdout","time":107.57760814,"data":"Reused verified backtranslation 89/97\n"}
+,{"stream_name":"stdout","time":107.578309377,"data":"Reused verified backtranslation 90/97\n"}
+,{"stream_name":"stdout","time":107.579098632,"data":"Reused verified backtranslation 91/97\n"}
+,{"stream_name":"stdout","time":107.579894471,"data":"Reused verified backtranslation 92/97\n"}
+,{"stream_name":"stdout","time":107.58063351,"data":"Reused verified backtranslation 93/97\n"}
+,{"stream_name":"stdout","time":107.581395097,"data":"Reused verified backtranslation 94/97\n"}
+,{"stream_name":"stdout","time":107.582235934,"data":"Reused verified backtranslation 95/97\n"}
+,{"stream_name":"stdout","time":107.583188162,"data":"Reused verified backtranslation 96/97\n"}
+,{"stream_name":"stdout","time":107.583907881,"data":"Reused verified backtranslation 97/97\n"}
+,{"stream_name":"stderr","time":237.425419842,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:53\u003c13:12, 113.19s/it]\rFetching 8 files:  25%|██▌       | 2/8 [01:53\u003c04:40, 46.75s/it] \rFetching 8 files:  50%|█████     | 4/8 [02:08\u003c01:28, 22.10s/it]\rFetching 8 files:  75%|███████▌  | 6/8 [02:08\u003c00:23, 11.70s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:08\u003c00:00, 16.06s/it]\n"}
+,{"stream_name":"stderr","time":240.786723321,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":347.320280215,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:11\u003c01:18, 11.25s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:22\u003c01:07, 11.29s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:37\u003c01:04, 12.83s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:52\u003c00:54, 13.66s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:07\u003c00:42, 14.24s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:23\u003c00:29, 14.84s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:38\u003c00:15, 15.06s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:46\u003c00:00, 12.54s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:46\u003c00:00, 13.26s/it]\n"}
+,{"stream_name":"stdout","time":353.02884602,"data":"Reviewed 1/97\n"}
+,{"stream_name":"stdout","time":353.02959254,"data":"Reviewed 2/97\n"}
+,{"stream_name":"stdout","time":353.030255012,"data":"Reviewed 3/97\n"}
+,{"stream_name":"stdout","time":353.030962088,"data":"Reviewed 4/97\n"}
+,{"stream_name":"stdout","time":353.03161718,"data":"Reviewed 5/97\n"}
+,{"stream_name":"stdout","time":353.032238856,"data":"Reviewed 6/97\n"}
+,{"stream_name":"stdout","time":353.033032545,"data":"Reviewed 7/97\n"}
+,{"stream_name":"stdout","time":353.0337648,"data":"Reviewed 8/97\n"}
+,{"stream_name":"stdout","time":353.034431879,"data":"Reviewed 9/97\n"}
+,{"stream_name":"stdout","time":353.035124059,"data":"Reviewed 10/97\n"}
+,{"stream_name":"stdout","time":353.035845334,"data":"Reviewed 11/97\n"}
+,{"stream_name":"stdout","time":353.036457525,"data":"Reviewed 12/97\n"}
+,{"stream_name":"stdout","time":353.037092547,"data":"Reviewed 13/97\n"}
+,{"stream_name":"stdout","time":353.037746283,"data":"Reviewed 14/97\n"}
+,{"stream_name":"stderr","time":353.060606289,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":353.060629852,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":353.060633797,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":353.060637357,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":353.060639864,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":353.060642981,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":371.345354881,"data":"Reviewed 15/97\n"}
+,{"stream_name":"stdout","time":371.346240942,"data":"Reviewed 16/97\n"}
+,{"stream_name":"stdout","time":371.347107344,"data":"Reviewed 17/97\n"}
+,{"stream_name":"stdout","time":371.347988898,"data":"Reviewed 18/97\n"}
+,{"stream_name":"stdout","time":371.348775489,"data":"Reviewed 19/97\n"}
+,{"stream_name":"stdout","time":371.349544184,"data":"Reviewed 20/97\n"}
+,{"stream_name":"stdout","time":371.350365473,"data":"Reviewed 21/97\n"}
+,{"stream_name":"stdout","time":371.351201204,"data":"Reviewed 22/97\n"}
+,{"stream_name":"stdout","time":389.2679217,"data":"Reviewed 23/97\n"}
+,{"stream_name":"stdout","time":389.268682396,"data":"Reviewed 24/97\n"}
+,{"stream_name":"stdout","time":416.681906195,"data":"Reviewed 25/97\n"}
+,{"stream_name":"stdout","time":416.682711582,"data":"Reviewed 26/97\n"}
+,{"stream_name":"stdout","time":416.68341288,"data":"Reviewed 27/97\n"}
+,{"stream_name":"stdout","time":416.684118272,"data":"Reviewed 28/97\n"}
+,{"stream_name":"stdout","time":416.684797746,"data":"Reviewed 29/97\n"}
+,{"stream_name":"stdout","time":416.685518562,"data":"Reviewed 30/97\n"}
+,{"stream_name":"stdout","time":416.686284512,"data":"Reviewed 31/97\n"}
+,{"stream_name":"stdout","time":428.199165188,"data":"Reviewed 32/97\n"}
+,{"stream_name":"stdout","time":438.771409711,"data":"Reviewed 33/97\n"}
+,{"stream_name":"stdout","time":448.381232799,"data":"Reviewed 34/97\n"}
+,{"stream_name":"stdout","time":457.123827259,"data":"Reviewed 35/97\n"}
+,{"stream_name":"stdout","time":467.560960878,"data":"Reviewed 36/97\n"}
+,{"stream_name":"stdout","time":478.736308737,"data":"Reviewed 37/97\n"}
+,{"stream_name":"stdout","time":487.210966736,"data":"Reviewed 38/97\n"}
+,{"stream_name":"stdout","time":496.335778655,"data":"Reviewed 39/97\n"}
+,{"stream_name":"stdout","time":507.356809373,"data":"Reviewed 40/97\n"}
+,{"stream_name":"stdout","time":519.728698937,"data":"Reviewed 41/97\n"}
+,{"stream_name":"stdout","time":527.914662648,"data":"Reviewed 42/97\n"}
+,{"stream_name":"stdout","time":536.5269557,"data":"Reviewed 43/97\n"}
+,{"stream_name":"stdout","time":546.261915001,"data":"Reviewed 44/97\n"}
+,{"stream_name":"stdout","time":555.263377675,"data":"Reviewed 45/97\n"}
+,{"stream_name":"stdout","time":564.18277913,"data":"Reviewed 46/97\n"}
+,{"stream_name":"stdout","time":573.286386767,"data":"Reviewed 47/97\n"}
+,{"stream_name":"stdout","time":581.60796095,"data":"Reviewed 48/97\n"}
+,{"stream_name":"stdout","time":589.752919945,"data":"Reviewed 49/97\n"}
+,{"stream_name":"stdout","time":597.103195026,"data":"Reviewed 50/97\n"}
+,{"stream_name":"stdout","time":606.676732246,"data":"Reviewed 51/97\n"}
+,{"stream_name":"stdout","time":617.990976539,"data":"Reviewed 52/97\n"}
+,{"stream_name":"stdout","time":627.462337406,"data":"Reviewed 53/97\n"}
+,{"stream_name":"stdout","time":635.476634683,"data":"Reviewed 54/97\n"}
+,{"stream_name":"stdout","time":643.221349645,"data":"Reviewed 55/97\n"}
+,{"stream_name":"stdout","time":651.223316355,"data":"Reviewed 56/97\n"}
+,{"stream_name":"stdout","time":661.43337521,"data":"Reviewed 57/97\n"}
+,{"stream_name":"stdout","time":669.318487258,"data":"Reviewed 58/97\n"}
+,{"stream_name":"stdout","time":677.28600839,"data":"Reviewed 59/97\n"}
+,{"stream_name":"stdout","time":684.514154463,"data":"Reviewed 60/97\n"}
+,{"stream_name":"stdout","time":692.235644051,"data":"Reviewed 61/97\n"}
+,{"stream_name":"stdout","time":701.025915277,"data":"Reviewed 62/97\n"}
+,{"stream_name":"stdout","time":709.057351882,"data":"Reviewed 63/97\n"}
+,{"stream_name":"stdout","time":716.22862914,"data":"Reviewed 64/97\n"}
+,{"stream_name":"stdout","time":725.082617763,"data":"Reviewed 65/97\n"}
+,{"stream_name":"stdout","time":731.693149836,"data":"Reviewed 66/97\n"}
+,{"stream_name":"stdout","time":741.830024207,"data":"Reviewed 67/97\n"}
+,{"stream_name":"stdout","time":751.195610212,"data":"Reviewed 68/97\n"}
+,{"stream_name":"stdout","time":759.042433826,"data":"Reviewed 69/97\n"}
+,{"stream_name":"stdout","time":766.898138111,"data":"Reviewed 70/97\n"}
+,{"stream_name":"stdout","time":774.990668599,"data":"Reviewed 71/97\n"}
+,{"stream_name":"stdout","time":782.97759566,"data":"Reviewed 72/97\n"}
+,{"stream_name":"stdout","time":791.080038317,"data":"Reviewed 73/97\n"}
+,{"stream_name":"stdout","time":799.357427659,"data":"Reviewed 74/97\n"}
+,{"stream_name":"stdout","time":807.47429978,"data":"Reviewed 75/97\n"}
+,{"stream_name":"stdout","time":814.713016656,"data":"Reviewed 76/97\n"}
+,{"stream_name":"stdout","time":822.713812648,"data":"Reviewed 77/97\n"}
+,{"stream_name":"stdout","time":832.845734243,"data":"Reviewed 78/97\n"}
+,{"stream_name":"stdout","time":842.081511656,"data":"Reviewed 79/97\n"}
+,{"stream_name":"stdout","time":849.150330175,"data":"Reviewed 80/97\n"}
+,{"stream_name":"stdout","time":857.169600595,"data":"Reviewed 81/97\n"}
+,{"stream_name":"stdout","time":866.445750352,"data":"Reviewed 82/97\n"}
+,{"stream_name":"stdout","time":875.078250171,"data":"Reviewed 83/97\n"}
+,{"stream_name":"stdout","time":885.424618133,"data":"Reviewed 84/97\n"}
+,{"stream_name":"stdout","time":893.290637363,"data":"Reviewed 85/97\n"}
+,{"stream_name":"stdout","time":900.131003011,"data":"Reviewed 86/97\n"}
+,{"stream_name":"stdout","time":908.84570592,"data":"Reviewed 87/97\n"}
+,{"stream_name":"stdout","time":918.741875097,"data":"Reviewed 88/97\n"}
+,{"stream_name":"stdout","time":927.195544646,"data":"Reviewed 89/97\n"}
+,{"stream_name":"stdout","time":942.583926935,"data":"Reviewed 90/97\n"}
+,{"stream_name":"stdout","time":949.964632081,"data":"Reviewed 91/97\n"}
+,{"stream_name":"stdout","time":957.96346684,"data":"Reviewed 92/97\n"}
+,{"stream_name":"stdout","time":965.694324768,"data":"Reviewed 93/97\n"}
+,{"stream_name":"stdout","time":973.689098995,"data":"Reviewed 94/97\n"}
+,{"stream_name":"stdout","time":983.125525052,"data":"Reviewed 95/97\n"}
+,{"stream_name":"stdout","time":993.665125658,"data":"Reviewed 96/97\n"}
+,{"stream_name":"stdout","time":1002.658393624,"data":"Reviewed 97/97\n"}
+,{"stream_name":"stdout","time":1002.659790732,"data":"{\n"}
+,{"stream_name":"stdout","time":1002.659823575,"data":"  \"status\": \"AI_ONLY_REPAIR_REVIEW_HAS_BLOCKED_ROWS\",\n"}
+,{"stream_name":"stdout","time":1002.659829978,"data":"  \"input_rows\": 97,\n"}
+,{"stream_name":"stdout","time":1002.659835097,"data":"  \"reviewed_rows\": 66,\n"}
+,{"stream_name":"stdout","time":1002.659840034,"data":"  \"blocked_rows\": 31,\n"}
+,{"stream_name":"stdout","time":1002.659844901,"data":"  \"gpu\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":1002.659850839,"data":"  \"quantization\": \"4-bit NF4\"\n"}
+,{"stream_name":"stdout","time":1002.659856384,"data":"}\n"}
+,{"stream_name":"stderr","time":1012.181181,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1012.181210715,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1012.466106121,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1012.466151165,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1013.423637305,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1014.219762342,"data":"[NbConvertApp] Writing 370825 bytes to __results__.html\n"}
+]

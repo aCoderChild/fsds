@@ -1,0 +1,1278 @@
+{
+  "status": "AI_ONLY_REPAIR_REVIEW_HAS_BLOCKED_ROWS",
+  "mode": "tg_qwen7_complement_v1",
+  "input_sha256": "53c3c0abc151fe1a0b5f7b2b089bf3c5fbbed1e8db068da6149f18e518fe437d",
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "records": [
+    {
+      "review_key": "T0001",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8eeacd89ddc2f6e97909380a895c91cf473d422f4aa59c41eb4b50f3c55bbc04",
+      "translation_sha256": "f0389e757531b290e5734449c1abe00d37b38d35b269bae2d4bdf37ac04d2aa6",
+      "backtranslation_en": "What is the standard type of socket used for electricity supply in [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0001",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question accurately conveys the original meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0001\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question accurately conveys the original meaning and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "b85b131a75fe20bca432517235a0b9138dc436a32095596a89fb20d9fd27c9c6"
+    },
+    {
+      "review_key": "T0002",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "ed18c45c7f78613b40f53c69b2da9831543d07598932a554e99ef2cab362d033",
+      "translation_sha256": "3893d46be72f0cb14f8e115b6aff616062c9340080f33df4d4d98e30c32df22a",
+      "backtranslation_en": "Which organisation gives the [ENTITY_A] Prize?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0002",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the meaning of the source question, asking about the organization that awards the [ENTITY_A], with natural French grammar."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0002\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the meaning of the source question, asking about the organization that awards the [ENTITY_A], with natural French grammar.\"}]}",
+      "backtranslation_sha256": "d2aac713244bff2b745eb7844e8fd8971bed73f8e4a70c1ecf00f16de5f10db9"
+    },
+    {
+      "review_key": "T0003",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "translation_sha256": "49d44282e0c6bf3ec081869d8874d11cb425e57aab60b573dcd6398015e72a82",
+      "backtranslation_en": "Who is [ENTITY_A]'s father-in-law?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0003",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates 'father-in-law' instead of 'stepparent', changing the specific relationship."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0003\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates 'father-in-law' instead of 'stepparent', changing the specific relationship.\"}]}\n\n",
+      "backtranslation_sha256": "8c4f788738253d22de44576081d33549f9fa912746a993bd665dfdb52f785379"
+    },
+    {
+      "review_key": "T0004",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "58f207dc8261bd767fa2421e4590e97c52ebec4ed58214c588d3aaaac72a3733",
+      "translation_sha256": "da098d194dbcc57deed3e4604ad1aacfae7ccdc9f95171dfad6192a515d58513",
+      "backtranslation_en": "Who is the artist featured in the exhibition \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0004",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the source question's meaning, asking about the creator/artist associated with [ENTITY_A], and is grammatically correct in French."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0004\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the source question's meaning, asking about the creator/artist associated with [ENTITY_A], and is grammatically correct in French.\"}]}",
+      "backtranslation_sha256": "681dac985c2efb2d6915f9406a04932f630a59f95fd65c91a7704972bd156750"
+    },
+    {
+      "review_key": "T0005",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b",
+      "translation_sha256": "03c8984a6f49c705da8e7cd81f7751197d2f149fe1613dfd1ed1b914612ec39a",
+      "backtranslation_en": "What is the male given name for [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0005",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translated question specifies 'masculine' instead of asking for the equivalent name of the opposite gender, which could refer to either gender depending on the input."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0005\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question specifies 'masculine' instead of asking for the equivalent name of the opposite gender, which could refer to either gender depending on the input.\"}]}\n\n",
+      "backtranslation_sha256": "42a5734d308cc3a828cceab1a8a01f045b680dede38950205ca854e4d12e3ddd"
+    },
+    {
+      "review_key": "T0006",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "3070d4e0bbd8f363f80a380f78844a7eedf53d21136f4be931f2d2437188ccbd",
+      "translation_sha256": "5a4501fafa538d1fb18eaaceb057a10220bd328847f9be3612767bc784585b21",
+      "backtranslation_en": "Which continent does [ENTITY_A] belong to?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0006",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which continent [ENTITY_A] belongs to. The back-translation supports this interpretation, and the French sentence is grammatically correct and natural."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0006\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which continent [ENTITY_A] belongs to. The back-translation supports this interpretation, and the French sentence is grammatically correct and natural.\"}]}",
+      "backtranslation_sha256": "808cc8ac2db2f31ec6d50d4d5f4fcc76286a9c71883ace2a3b46567d7c752622"
+    },
+    {
+      "review_key": "T0007",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "0ab75f901d2935231175ee03a8850ba8a2225bbd97ae9266716ab87cc9df9c07",
+      "translation_sha256": "83f662ac20da3fe83d91d44e8aeb1c210a28848214d9247b36ce7b5fdb98887b",
+      "backtranslation_en": "What was [ENTITY_A] nominated for?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0007",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The French question accurately conveys the same meaning as the English source question, asking about what [ENTITY_A] was nominated for, and it is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0007\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The French question accurately conveys the same meaning as the English source question, asking about what [ENTITY_A] was nominated for, and it is grammatically correct.\"}]}",
+      "backtranslation_sha256": "0ab75f901d2935231175ee03a8850ba8a2225bbd97ae9266716ab87cc9df9c07"
+    },
+    {
+      "review_key": "T0008",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "3070d4e0bbd8f363f80a380f78844a7eedf53d21136f4be931f2d2437188ccbd",
+      "translation_sha256": "fd1f0b5ff55f574a41860dbad9c68dbb395f49600b7db3a5213df9865212efcc",
+      "backtranslation_en": "What continent does [ENTITY_A] belong to?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0008",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which continent [ENTITY_A] belongs to. The back-translation supports this interpretation, and the French sentence is grammatically correct and natural."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0008\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which continent [ENTITY_A] belongs to. The back-translation supports this interpretation, and the French sentence is grammatically correct and natural.\"}]}",
+      "backtranslation_sha256": "fe8e7405ad597a2fdda50d12d4bc92f814920163664611a5eec16d420e62805c"
+    },
+    {
+      "review_key": "T0009",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "fdc5831ad2417b555ef7dd9a37bcf808d0eada949b72406b766641ed8bf5a740",
+      "translation_sha256": "e5190f222cdcac4112deec3baeedef7e71357341a85de68cf0d773ab2236e54f",
+      "backtranslation_en": "Who was the PhD student at [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0009",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly uses 'at' instead of 'of', changing the meaning to imply location rather than mentorship."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0009\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly uses 'at' instead of 'of', changing the meaning to imply location rather than mentorship.\"}]}\n\n",
+      "backtranslation_sha256": "0df56bd49e7f2f955ffa34154dd6ef804f33ae2a68b4a38b7cf2f2efe93ee231"
+    },
+    {
+      "review_key": "T0010",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "translation_sha256": "ffebcbbfa10ad4e40dea2f32a2d7c1c90b742cb0326d5e4165f83d95ae7343d1",
+      "backtranslation_en": "Who is the stepfather of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0010",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation specifies 'stepfather', but the original English question asks for any stepparent without specifying gender."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0010\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation specifies 'stepfather', but the original English question asks for any stepparent without specifying gender.\"}]}\n\n",
+      "backtranslation_sha256": "263a94b496df77debce7b2f18a9dbd60df9d721872219493f55b8e783dcf8d40"
+    },
+    {
+      "review_key": "T0011",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "d00cde8fd3a1bf8d9d9c09b7c6f103a0e71e9acca66359502bb3accf30cb51f0",
+      "translation_sha256": "48743e1984742b66353219150fc6f316a7e67bd1a27e79cb150a619598363e8b",
+      "backtranslation_en": "Who represents the user's creator in [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0011",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation refers to 'the user's creator' instead of 'the creator of the participant', changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0011\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation refers to 'the user's creator' instead of 'the creator of the participant', changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "45d9351388e9d1750f73ef07301b6253cbc253cb7310f59c0d7dff9258efce90"
+    },
+    {
+      "review_key": "T0012",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "80d37d7c608cfa9e65dd8f1c4a4bfab462e3ce40ede8a519db7eb070d00ea3ab",
+      "translation_sha256": "f48ca46ad6575150654f01d34cd0fa19c4a65ede472b3c4a4e13fc21140ddb77",
+      "backtranslation_en": "Who is the wife of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0012",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation specifies 'wife' instead of asking about both spouses."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0012\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation specifies 'wife' instead of asking about both spouses.\"}]}",
+      "backtranslation_sha256": "4aefaba4d0659c8da3859b3cf203900aa357ea2ecd6c61618f8ba03e9d82f59a"
+    },
+    {
+      "review_key": "T0013",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "translation_sha256": "bf1efcd23898677ef372b49a5d9de011e7a8e24e0e54c1e79f3b9705afb2f72b",
+      "backtranslation_en": "Who is the adoptive parent of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0013",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translated question refers to an adoptive parent rather than a stepparent, which is a material meaning change."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0013\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question refers to an adoptive parent rather than a stepparent, which is a material meaning change.\"}]}\n\n",
+      "backtranslation_sha256": "431dc60893d17683f3b917f34edfd36c5c7942885df8bed03742cd31a8669b0b"
+    },
+    {
+      "review_key": "T0014",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "ff808165b3012ed4241f6279945603aa20ab3006e7eba1611000061c0c945ee3",
+      "backtranslation_en": "Which region borders [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0014",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which region borders [ENTITY_A], and it is grammatically correct in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0014\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which region borders [ENTITY_A], and it is grammatically correct in German.\"}]}",
+      "backtranslation_sha256": "bd9a02e269ea891b2d633c70c70f45e2f9114a65888a11d7a1d2a32f2047ed2d"
+    },
+    {
+      "review_key": "T0015",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "042d3404397c7e1b9dd7da9c0cd0005ad3a2037f1d7f7cffc9133efaaacfbbb4",
+      "translation_sha256": "f809c98bbf72f1cccf7d04df166674da8f5685200b771d597a9c4c019fe4dc4d",
+      "backtranslation_en": "What military organisation is [ENTITY_A] a member of?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0015",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates that the translated question asks about membership in a military organization rather than which specific military branch [ENTITY_A] belongs to."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0015\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates that the translated question asks about membership in a military organization rather than which specific military branch [ENTITY_A] belongs to.\"}]}\n\n",
+      "backtranslation_sha256": "be00b9d184b2d10095fa53f2f7340b682da9397e61dd3cdc3dedcb84e34ad31f"
+    },
+    {
+      "review_key": "T0016",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f395e1300af01e0684032d62760896e8a5fca6c49a241e696be1b1ae9e2982ac",
+      "translation_sha256": "e21466a2c99c3a311099ccfcd6f90ddb1021a4c25d4ee29d46607d428118c360",
+      "backtranslation_en": "Who is the name of the \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0016",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly asks 'Who is the name of', which does not match the original question asking 'Who is ... named after'."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0016\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly asks 'Who is the name of', which does not match the original question asking 'Who is ... named after'.\"}]}",
+      "backtranslation_sha256": "4a3cccefbe0d9c3e7fe699606562c23c64112d327d8e71f3a227b81d99a33341"
+    },
+    {
+      "review_key": "T0017",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "597280214b0a42e2ef8e970edff373408b6cf67d4f7e5eabd88ea9914073ebed",
+      "translation_sha256": "2db3f0fde0a24c32bece34471863f793894dd7024ad7947941b05a16896a2db2",
+      "backtranslation_en": "Where is the original home of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0017",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the core meaning, asking about the original home/indigenous location of [ENTITY_A], and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0017\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the core meaning, asking about the original home/indigenous location of [ENTITY_A], and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "6baad54b81e1670778f1743aef19a8942d70d60a2351fc2031772fae0b6ef822"
+    },
+    {
+      "review_key": "T0018",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51",
+      "translation_sha256": "8d7110fba88882c0c88576c4562840854f46e9b9b46281e00a556828ecf11310",
+      "backtranslation_en": "In which work does [ENTITY_A] appear?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0018",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The German translation accurately conveys the same meaning as the English source question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0018\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The German translation accurately conveys the same meaning as the English source question.\"}]}",
+      "backtranslation_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51"
+    },
+    {
+      "review_key": "T0019",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef",
+      "translation_sha256": "dae0332472d7e062b2073225c7ffdc5fd7452e1d871cdd6ac38b4c88daa19292",
+      "backtranslation_en": "Who played the role of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0019",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the original meaning, asking who acted the part of [ENTITY_A], which is semantically equivalent to 'Who performed [ENTITY_A]?'. The translation is also fluent in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0019\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the original meaning, asking who acted the part of [ENTITY_A], which is semantically equivalent to 'Who performed [ENTITY_A]?'. The translation is also fluent in German.\"}]}\n\n",
+      "backtranslation_sha256": "98182f88ae91a312555278791892c6222ba8bde3bfed703b234ce9e517f9aa7f"
+    },
+    {
+      "review_key": "T0020",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337",
+      "translation_sha256": "7aef46303a7340150bd2e8cd463916c7618ba51d1f70b4db62bc2efd404fb717",
+      "backtranslation_en": "Which works are part of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0020",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests a plural 'works' instead of singular 'work', changing the scope."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0020\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests a plural 'works' instead of singular 'work', changing the scope.\"}]}\n\n",
+      "backtranslation_sha256": "2104b7cefe5f832fa3c5def6a88620c9a7af6ae8180ed4282eed5dcd48c03ca3"
+    },
+    {
+      "review_key": "T0021",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "7d923676e617fa250496af36b6b38adcdb4c656270a1a04c78319d723e9ed7fe",
+      "translation_sha256": "c9e0cae9f1818541224c475c9fb2ac0c44dca141e7a885bc1296056b2fbff73e",
+      "backtranslation_en": "When was the play \"[ENTITY_A]\" first performed?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0021",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question accurately conveys the original meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0021\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question accurately conveys the original meaning and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "405ec3aa1ece3addd3e20fc1c21eb2fb3fb8195ea7b261df000d59951d03d596"
+    },
+    {
+      "review_key": "T0022",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "2f1443e3e3f7a3152b1b95c77f71f71cf8c2cd8132f244ea02fedaef0967a636",
+      "backtranslation_en": "Which countries border with [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0022",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which countries share a border with the given entity. The back-translation supports this interpretation."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0022\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which countries share a border with the given entity. The back-translation supports this interpretation.\"}]}",
+      "backtranslation_sha256": "5d62e0dbfff45de1924ef0c4fe473a8e0fb8bbbe0cc00141b11371a717b92696"
+    },
+    {
+      "review_key": "T0023",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "27ef794018ccee87228dcd025f09708c1bd3e672f9f4a772ca0ba6be235162a2",
+      "translation_sha256": "728b82b2814006782b891ccc34ece09807332919e0bfd0c9583761927ff3ef8e",
+      "backtranslation_en": "Who was the doctoral father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0023",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Doktorvater' implies a male advisor, which is not specified in the original question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0023\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'Doktorvater' implies a male advisor, which is not specified in the original question.\"}]}\n\n",
+      "backtranslation_sha256": "648f6ed3a464c56d49c62e4e6594c059dfb3d2bbac1b68837bb993c75be6affd"
+    },
+    {
+      "review_key": "T0024",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "e95ba162654f9d1dc6e76cfca976aeb093b3599f414c742dd1c577f399b79693",
+      "translation_sha256": "c8d2d17ec034ad61b16708162013bf0207fb75f3f6ecc49e01346b641a3897ab",
+      "backtranslation_en": "Who was [ENTITY_A] a student of?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0024",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the original meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0024\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the original meaning and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "e95ba162654f9d1dc6e76cfca976aeb093b3599f414c742dd1c577f399b79693"
+    },
+    {
+      "review_key": "T0025",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "e3ef62dd9e10fe6f7335a1a235160bcd824c2aecb01479077b5fd99421087ddb",
+      "translation_sha256": "2f82ffdabcf3b309ee16f8b55b06e40f7e96a4599017ea3d2e8f17128799aa3c",
+      "backtranslation_en": "What is the most important place associated with [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0025",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation specifies 'most important' place, which adds a superlative that was not in the original question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0025\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation specifies 'most important' place, which adds a superlative that was not in the original question.\"}]}\n\n",
+      "backtranslation_sha256": "0a160ae74bb586f13d55541531a3cf4f421fb29470d3098af6f53cb095d95c04"
+    },
+    {
+      "review_key": "T0026",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b",
+      "translation_sha256": "48cc3d74df9e5913b8c9b5385d310744d2f2ef47c3b44e11f0cb43f5c1a250f1",
+      "backtranslation_en": "What is the appropriate first name for [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0026",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation omits the 'opposite gender' aspect."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0026\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation omits the 'opposite gender' aspect.\"}]}\n\n",
+      "backtranslation_sha256": "9bf99d8f33535dccef1c8af55b4fb25992951cb33cbaf337b6036e21cca6988f"
+    },
+    {
+      "review_key": "T0027",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "51400afd8ea15cf17bc95fa339c45411f6250e6fc0594d39c45ac346c8c499c6",
+      "translation_sha256": "5b3c9d95da183d48a3b10f28a59729edba2b851cedbc7674088ad22e1d6974e4",
+      "backtranslation_en": "What is [ENTITY_A] on or near the surface of the water?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0027",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests 'surface of the water' instead of 'body of water', changing the scope of the question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0027\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests 'surface of the water' instead of 'body of water', changing the scope of the question.\"}]}\n\n",
+      "backtranslation_sha256": "9e146b1b21f8c86e14341335118fbab95e29be5889fd6fbbeb6c5a56ef5d14c9"
+    },
+    {
+      "review_key": "T0028",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f2d483118d912263347243c2e709e6e36152c5248cf35a1cb3a888efd8ba4dfe",
+      "translation_sha256": "703647590fd3a87a9ca125bcb3a7718e39c492c7c77b4d55411cc375b4338e81",
+      "backtranslation_en": "What series does \"[ENTITY_A]\" continue with?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0028",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests that the question asks what series continues with [ENTITY_A], rather than what series [ENTITY_A] follows."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0028\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests that the question asks what series continues with [ENTITY_A], rather than what series [ENTITY_A] follows.\"}]}\n\n",
+      "backtranslation_sha256": "c968cc58b7f5db8ff0e998db324defaf5a7240a84deee4a150ff8be217fa48f0"
+    },
+    {
+      "review_key": "T0029",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "dc5bdf1a630a3a985377edded5769558e2c66987aae1b278e7835bcab2ebb1d8",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 1}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "T0030",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f395e1300af01e0684032d62760896e8a5fca6c49a241e696be1b1ae9e2982ac",
+      "translation_sha256": "cf50752daec358b52e8cabd54a50a61d53d2f648ec18f4b10bf2bbc81119b800",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1}, found={'ZXQENTITYAQXZ': 0}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "T0031",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "05532ba200789f04e686c9e61256d67ac99e5ada03de38526c34a7c8ec55524b",
+      "translation_sha256": "2f255b56923b2f690a6a736b24519b728170160e423821250f80f45e3be3a042",
+      "backtranslation_en": "In which document is [ENTITY_A] mentioned/documented?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0031",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The German question correctly conveys the same meaning as the English source, asking about the document where [ENTITY_A] is attested, using natural phrasing."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0031\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The German question correctly conveys the same meaning as the English source, asking about the document where [ENTITY_A] is attested, using natural phrasing.\"}]}",
+      "backtranslation_sha256": "80eb52c2351df136c7f634a53ac5622f871728b0eb44130538d6fb82eac5101e"
+    },
+    {
+      "review_key": "T0032",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "81d02f1abb6f525afb674f28eb5c97aabb23af667682e5076d17eb432e6d5039",
+      "translation_sha256": "0b66f7af1dcf11f58df1d875d0348f71f99823fd98a6b7170bb8470984aef9fb",
+      "backtranslation_en": "What is the physical characteristic of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0032",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation asks about a characteristic of [ENTITY_A], not where [ENTITY_A] is located."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0032\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation asks about a characteristic of [ENTITY_A], not where [ENTITY_A] is located.\"}] }",
+      "backtranslation_sha256": "e6498bfb7a8f80a71751cfbb40b7ae047b2063f10d43a632abf88cc438bf6f4f"
+    },
+    {
+      "review_key": "T0033",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "ff808165b3012ed4241f6279945603aa20ab3006e7eba1611000061c0c945ee3",
+      "backtranslation_en": "Which region borders [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0033",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which region borders [ENTITY_A], and it is grammatically correct in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0033\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which region borders [ENTITY_A], and it is grammatically correct in German.\"}]}",
+      "backtranslation_sha256": "bd9a02e269ea891b2d633c70c70f45e2f9114a65888a11d7a1d2a32f2047ed2d"
+    },
+    {
+      "review_key": "T0034",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "translation_sha256": "b8291ce68ad50dc8b8f8cfa3a8554aa3790cd328d44ae62e1d70cc456128c33a",
+      "backtranslation_en": "Who is the father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0034",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation indicates 'father' instead of 'godparent', changing the material meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0034\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation indicates 'father' instead of 'godparent', changing the material meaning.\"}]}",
+      "backtranslation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5"
+    },
+    {
+      "review_key": "T0035",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "translation_sha256": "b8291ce68ad50dc8b8f8cfa3a8554aa3790cd328d44ae62e1d70cc456128c33a",
+      "backtranslation_en": "Who is the father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0035",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation indicates 'father' instead of 'godparent', changing the material meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0035\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation indicates 'father' instead of 'godparent', changing the material meaning.\"}]}",
+      "backtranslation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5"
+    },
+    {
+      "review_key": "T0036",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "042d3404397c7e1b9dd7da9c0cd0005ad3a2037f1d7f7cffc9133efaaacfbbb4",
+      "translation_sha256": "f809c98bbf72f1cccf7d04df166674da8f5685200b771d597a9c4c019fe4dc4d",
+      "backtranslation_en": "What military organisation is [ENTITY_A] a member of?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0036",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates that 'organisation' is used instead of 'branch', which can imply a broader category than just military branches."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0036\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates that 'organisation' is used instead of 'branch', which can imply a broader category than just military branches.\"}]}\n\n",
+      "backtranslation_sha256": "be00b9d184b2d10095fa53f2f7340b682da9397e61dd3cdc3dedcb84e34ad31f"
+    },
+    {
+      "review_key": "T0037",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "27ef794018ccee87228dcd025f09708c1bd3e672f9f4a772ca0ba6be235162a2",
+      "translation_sha256": "728b82b2814006782b891ccc34ece09807332919e0bfd0c9583761927ff3ef8e",
+      "backtranslation_en": "Who was the doctoral father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0037",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Doktorvater' implies a male advisor, which is not specified in the original question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0037\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'Doktorvater' implies a male advisor, which is not specified in the original question.\"}]}\n\n",
+      "backtranslation_sha256": "648f6ed3a464c56d49c62e4e6594c059dfb3d2bbac1b68837bb993c75be6affd"
+    },
+    {
+      "review_key": "T0038",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "49c84ffee5de25f774da7847f0fdbe4c2c47901d926d7225a10c2cc25a12825f",
+      "translation_sha256": "b291c1cb9ced6badb1389a0266cfa88483abafa2b49ca0f5758e4243a11afd46",
+      "backtranslation_en": "What political position does the head of state hold in [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0038",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation reverses the relationship between the head of state and the political office, asking what position the head of state holds instead of which office is held by the head of state."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0038\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation reverses the relationship between the head of state and the political office, asking what position the head of state holds instead of which office is held by the head of state.\"}]}\n\n",
+      "backtranslation_sha256": "45e5471c2c590ee1b33bf80f253947426bbc5df286c32dad3e3cfd2091d66d22"
+    },
+    {
+      "review_key": "T0039",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "13b23b5f77210d0dc38ac38b33908774a09bc0f9eb41ce7e98b31d5d998c4b8c",
+      "translation_sha256": "ddeca832bd8a20ae2a28bc8cc077adc33c56da2e1502f54d8edea5e83180d430",
+      "backtranslation_en": "Who is different from [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0039",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation 'Who is different from [ENTITY_A]?' reverses the comparison direction, asking who differs from [ENTITY_A] instead of whom [ENTITY_A] is different from."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0039\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation 'Who is different from [ENTITY_A]?' reverses the comparison direction, asking who differs from [ENTITY_A] instead of whom [ENTITY_A] is different from.\"}]}\n\n",
+      "backtranslation_sha256": "72689e27f3b1e739c1589582d65ea39c08fb4ba128c08ca013a1e1a5b29ad354"
+    },
+    {
+      "review_key": "T0040",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "27ef794018ccee87228dcd025f09708c1bd3e672f9f4a772ca0ba6be235162a2",
+      "translation_sha256": "728b82b2814006782b891ccc34ece09807332919e0bfd0c9583761927ff3ef8e",
+      "backtranslation_en": "Who was the doctoral father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0040",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Doktorvater' implies a male advisor, which is not specified in the original question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0040\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'Doktorvater' implies a male advisor, which is not specified in the original question.\"}]}\n\n",
+      "backtranslation_sha256": "648f6ed3a464c56d49c62e4e6594c059dfb3d2bbac1b68837bb993c75be6affd"
+    },
+    {
+      "review_key": "T0041",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337",
+      "translation_sha256": "bcd0be1244fb5ebf2d89b097fbed8837e7d5d28c9e3b0e95be09a7989d98378e",
+      "backtranslation_en": "Which work is included in the book \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0041",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the core meaning, asking about a work that is part of [ENTITY_A], with 'gehorcht zum Buch' accurately conveying inclusion within the book."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0041\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the core meaning, asking about a work that is part of [ENTITY_A], with 'gehorcht zum Buch' accurately conveying inclusion within the book.\"}]}\n\n",
+      "backtranslation_sha256": "430a6e114c3885b719228ee4fea670e15ec048c5ba43cc0af983b66e409f6c6b"
+    },
+    {
+      "review_key": "T0042",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a",
+      "translation_sha256": "4cbac129e99f478616f66e3024afa9c660ad31b404367dad7f68743bf7073866",
+      "backtranslation_en": "Who is the spouse of the baptismal witness of the head of state of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0042",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Taufzeuge' (baptismal witness) does not match 'godparent', which is 'Patenonkel/Pate' in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0042\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'Taufzeuge' (baptismal witness) does not match 'godparent', which is 'Patenonkel/Pate' in German.\"}]}\n\n",
+      "backtranslation_sha256": "edf3477cadeeadc09f6ee54c5cdc1dafb2a269a3467ec577f3c16fb774490d98"
+    },
+    {
+      "review_key": "T0043",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "translation_sha256": "b8291ce68ad50dc8b8f8cfa3a8554aa3790cd328d44ae62e1d70cc456128c33a",
+      "backtranslation_en": "Who is the father of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0043",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation indicates 'father' instead of 'godparent', changing the material meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0043\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation indicates 'father' instead of 'godparent', changing the material meaning.\"}]}",
+      "backtranslation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5"
+    },
+    {
+      "review_key": "T0044",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "597280214b0a42e2ef8e970edff373408b6cf67d4f7e5eabd88ea9914073ebed",
+      "translation_sha256": "09267730cb8a9a770f182e8f0fb3ae913df24344e5f8fe0d98fa95dbd629b27b",
+      "backtranslation_en": "Where is the species [ENTITY_A] native?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0044",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about the native habitat of [ENTITY_A], and it is grammatically correct in German."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0044\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about the native habitat of [ENTITY_A], and it is grammatically correct in German.\"}]}",
+      "backtranslation_sha256": "cc21e886d2b462148bd5aca99ad9837e5988efc1d017a85a03a34f69c20a22a4"
+    },
+    {
+      "review_key": "T0045",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "2f1443e3e3f7a3152b1b95c77f71f71cf8c2cd8132f244ea02fedaef0967a636",
+      "backtranslation_en": "Which countries border with [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0045",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the same meaning as the source question, asking about which countries share a border with the given entity. The back-translation supports this interpretation."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0045\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the same meaning as the source question, asking about which countries share a border with the given entity. The back-translation supports this interpretation.\"}]}",
+      "backtranslation_sha256": "5d62e0dbfff45de1924ef0c4fe473a8e0fb8bbbe0cc00141b11371a717b92696"
+    },
+    {
+      "review_key": "T0046",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "6aed5de90052c357ace73ec14e8c9ccc004efa808de5ae55e0079ae355f2a43e",
+      "translation_sha256": "b22f212eddc842cafe0b3f008bbf80566f6317afca6c99e31d6930c617d3ed4e",
+      "backtranslation_en": "Which institution owns the collection of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0046",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translated question uses 'besitzt' (owns) instead of 'hält' (holds), changing the semantic relationship from possession to custody."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0046\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question uses 'besitzt' (owns) instead of 'hält' (holds), changing the semantic relationship from possession to custody.\"}]}\n\n",
+      "backtranslation_sha256": "29c66578559ce2688ce28b98f653e91a36d48bac4d269956639de04930cffad9"
+    },
+    {
+      "review_key": "T0047",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "257a2d2363e8ba0b70fda29da9db40e148e230217e96c63e5ca6d70139ce17d9",
+      "translation_sha256": "75c22418674d09fef49765028f6c33c32a397b1256ff235b446768c236cd4b49",
+      "backtranslation_en": "Where did the father of the baptismal father of [ENTITY_A] die?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0047",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translated question incorrectly refers to the 'godparent' as the 'baptismal father', which are not necessarily the same."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0047\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question incorrectly refers to the 'godparent' as the 'baptismal father', which are not necessarily the same.\"}]}\n\n",
+      "backtranslation_sha256": "8a53c13c58aa1c89162a543391e83e10444236c9faed6fc168b85e4334b2ec2c"
+    },
+    {
+      "review_key": "T0048",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ed18c45c7f78613b40f53c69b2da9831543d07598932a554e99ef2cab362d033",
+      "translation_sha256": "8b960d118f06833b00669d5111ac04901aa957b818b8f496f14e4877dde32fa6",
+      "backtranslation_en": "Which organization is the [ENTITY_A] award winner?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0048",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates that the question asks about the recipient of the award rather than the organization that confers it."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0048\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates that the question asks about the recipient of the award rather than the organization that confers it.\"}]}\n\n",
+      "backtranslation_sha256": "74003e14a35255e3d14670675a539de4520e656a4b9f957a6ebb2b975b342cf6"
+    },
+    {
+      "review_key": "T0049",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "8bc2b57f20524eb68815c0d667df9841b18f9502d06c2e43e64276b9a4e596bf",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 1}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "T0050",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "017819a9d70da45b03bcd5b54b29a46aa17111169c9cf9f20a3b3c6a6a419174",
+      "translation_sha256": "0105015b23e93c2a2361e1afb83c4a36fc6d684c90fd08308aa0916cccff2bec",
+      "backtranslation_en": "What language is [ENTITY_A] written in?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0050",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly suggests the language writes [ENTITY_A], reversing the subject and object."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0050\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly suggests the language writes [ENTITY_A], reversing the subject and object.\"}]}\n\n",
+      "backtranslation_sha256": "89d8c12031d9774fe17ba314462b84b319715cc5f339bf67b9f81a90310e76e4"
+    },
+    {
+      "review_key": "T0051",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51",
+      "translation_sha256": "0ef4e87488df70f26280f5ca2a2ed52fbcd161fee889034fb144fb6347eb48cb",
+      "backtranslation_en": "\"[ENTITY_A]\" appears in what work?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0051",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the original meaning and is grammatically correct."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0051\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the original meaning and is grammatically correct.\"}]}",
+      "backtranslation_sha256": "e3c5f1023e71806d0a106d74ed52083ddf1b07b3af7ab8679cbf9e2c4d953bca"
+    },
+    {
+      "review_key": "T0052",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "85a68fc49a6ab3000c1cbdadd268070b67e17a47538df49b794754e05dfe6504",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 2}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "T0053",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "0d0af3b317d573a7e66828a72992c3eb57ad77814be1358634022f3185fff14c",
+      "translation_sha256": "b425e53e2e1a49df704392d2aacfe08914e85f65db66613b3c4cdd61a5ce7712",
+      "backtranslation_en": "Which institution is the archivist of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0053",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly uses 'archivist' instead of 'archives', changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0053\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly uses 'archivist' instead of 'archives', changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "ada5e30ac914abbbed225582c7e37b2dd10fe58041b78be2a0276844ccd7a05a"
+    },
+    {
+      "review_key": "T0054",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e09fc94c39719ebea2d95a38fca71ca4e8b01a16478e057c5bcc70b9bcf5a804",
+      "translation_sha256": "29848e9d1fa6f3dd50cadb261f10bde5e7a441f89f47bf8d70709fcc45cdb6e1",
+      "backtranslation_en": "What piece expands the content of \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0054",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the core meaning, asking about which work expands the content/narrative of [ENTITY_A], with natural Thai grammar."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0054\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the core meaning, asking about which work expands the content/narrative of [ENTITY_A], with natural Thai grammar.\"}]}\n\n",
+      "backtranslation_sha256": "53cd6c4516cf6984e3d4b1ad844e445d225ab7b9b777040c581b39d519de7c30"
+    },
+    {
+      "review_key": "T0055",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "1d2869138fb0f04d8ce70262239879eb1f12f879ab815bb935f1ff53a337df19",
+      "backtranslation_en": "",
+      "backtranslation_error": "ValueError: backtranslation changed opaque placeholders: expected={'ZXQENTITYAQXZ': 1, 'ZXQENTITYBQXZ': 1}, found={'ZXQENTITYAQXZ': 0, 'ZXQENTITYBQXZ': 1}",
+      "decision": {
+        "error": "backtranslation_failed; semantic decision withheld"
+      },
+      "raw_output": null
+    },
+    {
+      "review_key": "T0056",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337",
+      "translation_sha256": "91bd6a643eaa2a29fcd681654adb90554079f8d1f959da60f0ea7a2f90e5be68",
+      "backtranslation_en": "What work is part of \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0056",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the meaning and is fluent in Thai."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0056\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the meaning and is fluent in Thai.\"}]}",
+      "backtranslation_sha256": "cbc9b5104f591af337edf4cb39b2586c35d8ab00e369baefbb2f76b35f9e6465"
+    },
+    {
+      "review_key": "T0057",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "translation_sha256": "3b65769cd4637f2a02ca6d7f82e885a4d1b34c0a404101f655c75dff4e85a4cd",
+      "backtranslation_en": "Which of these countries is next to [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0057",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly captures the essence of sharing a border, despite using 'next to' in the back-translation."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0057\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly captures the essence of sharing a border, despite using 'next to' in the back-translation.\"}]}",
+      "backtranslation_sha256": "ded6ffa391ef498ceca6bf61ef039551ddfdba976cec895ae301eece8a3f962a"
+    },
+    {
+      "review_key": "T0058",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e3ef62dd9e10fe6f7335a1a235160bcd824c2aecb01479077b5fd99421087ddb",
+      "translation_sha256": "2dc280ca498f377a3658944b7311ebfbb06443483e3dfe1a57c1d6b871ebb1a4",
+      "backtranslation_en": "What is the significance of the [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0058",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation asks about the significance of [ENTITY_A], not the significant place associated with it."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0058\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation asks about the significance of [ENTITY_A], not the significant place associated with it.\"}] }",
+      "backtranslation_sha256": "920fe368272199a8b0482b7a17e236396cd8d2b82870c898b85c4f04b7383ab4"
+    },
+    {
+      "review_key": "T0059",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "91e7aa78f5863f50745726151bba39c0c6181019bf6af56588b3f8120cc37322",
+      "translation_sha256": "632a06fae157c57bdc37d77b0cbab64dbe7227f882dfe7c84071280430a4d799",
+      "backtranslation_en": "What's the next piece after \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0059",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly captures the meaning of the source question, asking about the work that comes after [ENTITY_A], and it is grammatically correct in Thai."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0059\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly captures the meaning of the source question, asking about the work that comes after [ENTITY_A], and it is grammatically correct in Thai.\"}]}",
+      "backtranslation_sha256": "fbffa3e846c644974a76a5fa7af758d5722d63dc0fb9964a0b77fd6bf8ae9135"
+    },
+    {
+      "review_key": "T0060",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "34128adddc89e875ae106e69623480646b71ed4e27a04ae17ef3e044cbb994fe",
+      "translation_sha256": "c760aa77215ef113b999906f7b80931bfaafb2d55837e3dd3cb1419a3ce8771b",
+      "backtranslation_en": "Who is the director of the film for \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0060",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly identifies the role as 'director of the film' instead of 'director of photography.'"
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0060\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly identifies the role as 'director of the film' instead of 'director of photography.'\"}]}",
+      "backtranslation_sha256": "bae260fc49fe7be88854eaf6e12bf54bf429c1079c8defbcbe9f8c4226ee1dfd"
+    },
+    {
+      "review_key": "T0061",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "8b409d8894d3627faf8ad2879a5864821d6c4687fbf13c68bc7fcdf6e59465fe",
+      "translation_sha256": "0bc00d3c76fa7ead64351c4e215c83f8c833388819b2c86148e7106ca9c06b21",
+      "backtranslation_en": "What kind of children does [ENTITY_A] have?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0061",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation asks about the kind of children rather than who the specific child is."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0061\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation asks about the kind of children rather than who the specific child is.\"}]}",
+      "backtranslation_sha256": "91b71602240f1883241f6166dd7ac990ff4f0e89a63b05f23a0246997ecc498a"
+    },
+    {
+      "review_key": "T0062",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ed18c45c7f78613b40f53c69b2da9831543d07598932a554e99ef2cab362d033",
+      "translation_sha256": "48c85adc79bcd5aa5b0bca98d77035c50e93ec1f70ddc4166c4d678783e934d7",
+      "backtranslation_en": "Which organization is awarding the \"[ENTITY_A]\" Award?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0062",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the meaning of the source question, asking about which organization awards the [ENTITY_A], with natural Thai grammar."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0062\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the meaning of the source question, asking about which organization awards the [ENTITY_A], with natural Thai grammar.\"}]}\n\n",
+      "backtranslation_sha256": "a92e4a098a753d160445d0d94b71d8089b78257acff9fc2798c608ea4dcd53e4"
+    },
+    {
+      "review_key": "T0063",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "22ac0301da05ad607bb34c8f48d4b35eae8006f9c871b80d9ed8be044c556055",
+      "translation_sha256": "41f0a47d68a7f8510ce1f28edd36f44309cfad1142cb33d1847750cae3294b0a",
+      "backtranslation_en": "What was the first work in which \"[ENTITY_A]\" appeared?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0063",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question correctly conveys the original meaning, asking about the first appearance of [ENTITY_A] in a work, and is grammatically correct in Thai."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0063\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question correctly conveys the original meaning, asking about the first appearance of [ENTITY_A] in a work, and is grammatically correct in Thai.\"}]}\n\n",
+      "backtranslation_sha256": "b9e0b3ac1f58080f527eecef43b6b87e89e6eb0426580bf3138b7c73f1294601"
+    },
+    {
+      "review_key": "T0064",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ac62d3170b4d87cda34e709c3fb17445966a480a6e897da5b4dd074f90ad9a86",
+      "translation_sha256": "3dc989df923d165f7a5456fd21269fde69bf78f6a8b6d6f5bf20913df1ac1850",
+      "backtranslation_en": "Who is the [ENTITY_A] broadcaster?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0064",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests 'broadcast' instead of 'distribute', changing the meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0064\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests 'broadcast' instead of 'distribute', changing the meaning.\"}]}\n\n",
+      "backtranslation_sha256": "3afba70ceb8b064d2f3430fa4468b37a8d7749095419238a3c795d137b619f0e"
+    },
+    {
+      "review_key": "T0065",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "translation_sha256": "a4a3db3159b60c31a9c1e12bad8977752c80ac96a06e5148b6f4435eb6224b8e",
+      "backtranslation_en": "Who is the foster parent of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0065",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'stepparent' refers to a parent through marriage, not specifically a foster parent."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0065\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'stepparent' refers to a parent through marriage, not specifically a foster parent.\"}]}\n\n",
+      "backtranslation_sha256": "0eb96b415f6295c25b3190de8ad86c1bc6995d098d0d1424ba038cb5d126c675"
+    },
+    {
+      "review_key": "T0066",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "99f86bfe9fd343bc4eca16fcb96e0098af8109bbb289174f834a4f635b38f5dd",
+      "translation_sha256": "93fd590ec745a3b3f5be8dcd0017871b4e984388536b4cf838e059f579b3d9c2",
+      "backtranslation_en": "What happened immediately after \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0066",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the temporal sequence and the query structure, maintaining the immediate succession implied by 'immediately followed'."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0066\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the temporal sequence and the query structure, maintaining the immediate succession implied by 'immediately followed'.\"}]}\n\n",
+      "backtranslation_sha256": "86e293a1403a5803c725f8c0dc63cb962ad165effe6d45974d90ed4bca503434"
+    },
+    {
+      "review_key": "T0067",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "e09fc94c39719ebea2d95a38fca71ca4e8b01a16478e057c5bcc70b9bcf5a804",
+      "translation_sha256": "29848e9d1fa6f3dd50cadb261f10bde5e7a441f89f47bf8d70709fcc45cdb6e1",
+      "backtranslation_en": "What piece expands the content of \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0067",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translated question preserves the core meaning, asking about which work expands the content/narrative of [ENTITY_A], with natural Thai grammar."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0067\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"The translated question preserves the core meaning, asking about which work expands the content/narrative of [ENTITY_A], with natural Thai grammar.\"}]}\n\n",
+      "backtranslation_sha256": "53cd6c4516cf6984e3d4b1ad844e445d225ab7b9b777040c581b39d519de7c30"
+    },
+    {
+      "review_key": "T0068",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d83deaea5247a98a012d7f448273c817590bb4925cc302ebc6391f0f05b98daa",
+      "translation_sha256": "67be381d92647031afe31c1666b64eb81dafb9710a9a0fc5095bbead2c49f3eb",
+      "backtranslation_en": "What is \"[ENTITY_A]\" referring to?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0068",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation suggests the question asks what [ENTITY_A] refers to, rather than what it references."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0068\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation suggests the question asks what [ENTITY_A] refers to, rather than what it references.\"}]}\n\n",
+      "backtranslation_sha256": "ad4dbe65500e46710f6aba63e8744954c908ce3ced9c7bd7dd5fbcfce7eb7c26"
+    },
+    {
+      "review_key": "T0069",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "translation_sha256": "0d1609819379ed8fddbae4c43248083d07d19826373f465b02620b44e5b19bef",
+      "backtranslation_en": "What institution holds records about individuals in the city where the [ENTITY_A] headquarters is located is named after?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0069",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation mixes up the referent of 'named after', implying the city is named after individuals rather than a specific person."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0069\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation mixes up the referent of 'named after', implying the city is named after individuals rather than a specific person.\"}]}\n\n",
+      "backtranslation_sha256": "e6830eebaefb1860eb49943b3624058b2a0be6b8afee4cdd166a2529c3c9da34"
+    },
+    {
+      "review_key": "T0070",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "27ef794018ccee87228dcd025f09708c1bd3e672f9f4a772ca0ba6be235162a2",
+      "translation_sha256": "e2504a51f4d7da0d4ea2e45c21b1d776e18c1bc92918988951a18409bfc5f501",
+      "backtranslation_en": "Who is the adjunct professor of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0070",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation indicates a material meaning change; the question asks about an adjunct professor rather than a doctoral advisor."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0070\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation indicates a material meaning change; the question asks about an adjunct professor rather than a doctoral advisor.\"}]}\n\n",
+      "backtranslation_sha256": "3dddd31fa35dc9d0e4f7a3aead91e9e9af983c085eca872228e24944da90575c"
+    },
+    {
+      "review_key": "T0071",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ebf318b0f3984fbe028bff6ef7f21e820045f92a4cd2a181e3e6dee3922c81f4",
+      "translation_sha256": "10a9e34dde932c0a35a03bb22e924b48273b3e5dc045dbb3ca86d6562370cc1c",
+      "backtranslation_en": "What is the nickname used before the name of the founder's unmarried spouse \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0071",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation incorrectly uses 'nickname' instead of 'honorific prefix', and refers to an unmarried 'spouse' rather than an unmarried partner."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0071\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation incorrectly uses 'nickname' instead of 'honorific prefix', and refers to an unmarried 'spouse' rather than an unmarried partner.\"}]}\n\n",
+      "backtranslation_sha256": "27da602c8fc0479fa12294e54a2028e3f3b70882aff2e0edcdfa8ba05b1b760d"
+    },
+    {
+      "review_key": "T0072",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "48c11df995ec12d6facf7e0f5f14d28e76eadebcd31303c945091a40e7b69e78",
+      "translation_sha256": "fd967a264a58f1fea3087e41d23e82eeaf9e9d1cc40f152b68adb9f9684f1d44",
+      "backtranslation_en": "What is the nickname used before the name \"[ENTITY_A]\"?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0072",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation uses 'nickname' instead of 'honorific prefix', changing the material meaning."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0072\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation uses 'nickname' instead of 'honorific prefix', changing the material meaning.\"}]}\n\n",
+      "backtranslation_sha256": "8dff306fdde7e7501e8b1515796494c3c309f54a51d2a47ddf78448ad79395fc"
+    },
+    {
+      "review_key": "T0073",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "0a6712958c6a24498edf9985f7ee51b2cd3ad024035ef65967251c97a06cfc37",
+      "translation_sha256": "b762322dcee848a743a562c6dff3b88591913c4c5b59a8f94271f0490b873d27",
+      "backtranslation_en": "Who are the children of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0073",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates 'children' (plural) instead of 'child' (singular), changing the scope of the question."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0073\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates 'children' (plural) instead of 'child' (singular), changing the scope of the question.\"}]}\n\n",
+      "backtranslation_sha256": "3e9596a5c3915bfca57d75c96abb6fa65adad15f61f698e85a3cfc187738e2a0"
+    },
+    {
+      "review_key": "T0074",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "93972418f8699615dafdee20c991a9a420ce5ca6014e4cefed8c0789852f62d3",
+      "translation_sha256": "3965c266378bd19dad22786da40385c133eb8153efd9bc1739772c1ad6389b6a",
+      "backtranslation_en": "Who's participating in the [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0074",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The back-translation indicates 'participating' (present tense) instead of 'participated' (past tense)."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0074\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The back-translation indicates 'participating' (present tense) instead of 'participated' (past tense).\"}]}",
+      "backtranslation_sha256": "2d956fd905027bed4011edc635bdcb9c44efc60a5305b13749250857d0137d6b"
+    },
+    {
+      "review_key": "T0075",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "86f9357fc6dced2252c978aca250a9df76a0db45e39c7f1f5a39d5b6dddab5c2",
+      "translation_sha256": "7e27d29a856f3f485ed82d1fbdd7f3456b1c4fad7ca7939248dc13864eebfb3a",
+      "backtranslation_en": "Who is the governor of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "T0075",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match source question; it asks about a governor instead of who commissioned [ENTITY_A]."
+      },
+      "raw_output": "{\"decisions\": [{\"key\": \"T0075\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match source question; it asks about a governor instead of who commissioned [ENTITY_A].\"}]}",
+      "backtranslation_sha256": "cf83a2e453c59d45e762b9d15be50258498ec56d0222cb45caf42a263d35d44c"
+    }
+  ],
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "started_at_utc": "2026-11-04T04:14:43.062667+00:00",
+  "completed_at_utc": "2026-11-04T04:30:13.793870+00:00",
+  "reviewed_rows": 70,
+  "blocked_rows": 5
+}

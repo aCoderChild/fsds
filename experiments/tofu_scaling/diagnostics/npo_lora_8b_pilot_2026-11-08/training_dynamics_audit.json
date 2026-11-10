@@ -1,0 +1,72 @@
+{
+  "audit_id": "tofu_8b_npo_pilot_training_dynamics_2026-11-09",
+  "trace": "kaggle_v2/extracted_archive/tofu_8b_npo_run_20261108T205627Z/npo_train/loss_trace.jsonl",
+  "trace_sha256": "faf8cdb1bdccdcfb54a1f792923f1bd8137bf60ca57677ecd3861743276dc700",
+  "record_count": 4000,
+  "expected_optimizer_steps": 500,
+  "observed_optimizer_steps": 500,
+  "microbatch_records_per_optimizer_step": 8,
+  "all_steps_have_expected_record_count": true,
+  "all_logged_values_finite": true,
+  "selected_step_means": {
+    "1": {
+      "forget_npo_loss": 13.862943649291992,
+      "retain_token_nll": 0.0033687177201500162,
+      "combined_loss": 13.866312367012142,
+      "gradient_norm": 4.261885166168213,
+      "learning_rate": 2.0000000000000002e-07
+    },
+    "10": {
+      "forget_npo_loss": 13.862643003463745,
+      "retain_token_nll": 0.005096242704894394,
+      "combined_loss": 13.86773924616864,
+      "gradient_norm": 5.599130153656006,
+      "learning_rate": 2.0000000000000003e-06
+    },
+    "50": {
+      "forget_npo_loss": 13.787973403930664,
+      "retain_token_nll": 0.011845456625451334,
+      "combined_loss": 13.799818860556115,
+      "gradient_norm": 3.153425455093384,
+      "learning_rate": 1e-05
+    },
+    "100": {
+      "forget_npo_loss": 10.867921829223633,
+      "retain_token_nll": 0.08310543186962605,
+      "combined_loss": 10.951027261093259,
+      "gradient_norm": 21.043569564819336,
+      "learning_rate": 8.888888888888888e-06
+    },
+    "250": {
+      "forget_npo_loss": 0.43142159655690193,
+      "retain_token_nll": 1.1757354587316513,
+      "combined_loss": 1.6071570552885532,
+      "gradient_norm": 2.999399185180664,
+      "learning_rate": 5.555555555555557e-06
+    },
+    "500": {
+      "forget_npo_loss": 0.25206241221167147,
+      "retain_token_nll": 1.013501338660717,
+      "combined_loss": 1.2655637508723885,
+      "gradient_norm": 2.9357051849365234,
+      "learning_rate": 0.0
+    }
+  },
+  "first_25_step_microbatch_means": {
+    "forget_npo_loss": 13.8617982006073,
+    "retain_token_nll": 0.006842691953788744,
+    "combined_loss": 13.86864089256109,
+    "gradient_norm": 4.394941534996033,
+    "learning_rate": 2.6000000000000005e-06
+  },
+  "last_25_step_microbatch_means": {
+    "forget_npo_loss": 0.2899006814823952,
+    "retain_token_nll": 1.0002335639297961,
+    "combined_loss": 1.2901342454121913,
+    "gradient_norm": 3.5905105304718017,
+    "learning_rate": 2.666666666666667e-07
+  },
+  "interpretation": "The trace is descriptive optimization telemetry. It records each microbatch within an optimizer update; it does not contain intermediate evaluation scores, so it cannot identify an acceptable early-stop step.",
+  "status": "PASS_TRACE_STRUCTURE_AND_FINITE_VALUES",
+  "errors": []
+}

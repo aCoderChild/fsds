@@ -1,0 +1,235 @@
+{
+  "candidate_pool": {
+    "candidate_60_20_20_group_preserving_split_feasible": true,
+    "candidate_60_20_20_sizes": {
+      "forget": 117,
+      "holdout": 39,
+      "retain": 39
+    },
+    "candidate_count": 195,
+    "candidate_internal_group_count": 104,
+    "candidate_internal_largest_group": 23
+  },
+  "conclusion": "Do not evaluate the 195-case expansion with the current v4 SFT checkpoint. Fifty candidate questions are present as train_only Type-A examples. Additional Type-B entity and answer-surface overlaps need a training-corpus rebuild and a fresh baseline. The exact 117/39/39 split feasibility applies only within the candidate pool; it does not certify separation from SFT data.",
+  "current_sft_run_manifest_sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c",
+  "current_sft_train_only": {
+    "answer_surface_overlap_is_semantic_proof": false,
+    "candidate_groups_touched_by_current_train_only_overlap_signals": 28,
+    "candidate_qas_with_type_b_answer_surface_overlap": 29,
+    "candidate_rows_removed_if_touched_groups_are_excluded": 101,
+    "candidate_rows_with_type_b_train_only_entity_qid_overlap": 23,
+    "english_type_b_train_only_output_rows_with_answer_surface_overlap": 58,
+    "groups_remaining_after_conservative_group_exclusion": 76,
+    "remaining_group_preserving_split_feasible": true,
+    "remaining_split_sizes": {
+      "forget": 56,
+      "holdout": 19,
+      "retain": 19
+    },
+    "rows_remaining_after_conservative_group_exclusion": 94,
+    "source_qa_ids_by_graph_type": {
+      "A": 50,
+      "B": 85
+    },
+    "type_a_candidate_ids_directly_trained_as_train_only": [
+      "0001-qa-sm",
+      "0004-qa-sm",
+      "0011-qa-sm",
+      "0012-qa-sm",
+      "0014-qa-sm",
+      "0018-qa-sm",
+      "0026-qa-sm",
+      "0028-qa-sm",
+      "0029-qa-sm",
+      "0032-qa-sm",
+      "0039-qa-sm",
+      "0041-qa-sm",
+      "0043-qa-sm",
+      "0046-qa-sm",
+      "0047-qa-sm",
+      "0049-qa-sm",
+      "0050-qa-sm",
+      "0067-qa-sm",
+      "0068-qa-sm",
+      "0076-qa-sm",
+      "0082-qa-sm",
+      "0083-qa-sm",
+      "0087-qa-sm",
+      "0092-qa-sm",
+      "0093-qa-sm",
+      "0095-qa-sm",
+      "0097-qa-sm",
+      "0101-qa-sm",
+      "0104-qa-sm",
+      "0109-qa-sm",
+      "0112-qa-sm",
+      "0113-qa-sm",
+      "0122-qa-sm",
+      "0124-qa-sm",
+      "0125-qa-sm",
+      "0126-qa-sm",
+      "0129-qa-sm",
+      "0135-qa-sm",
+      "0140-qa-sm",
+      "0146-qa-sm",
+      "0149-qa-sm",
+      "0162-qa-sm",
+      "0166-qa-sm",
+      "0175-qa-sm",
+      "0179-qa-sm",
+      "0183-qa-sm",
+      "0194-qa-sm",
+      "0195-qa-sm",
+      "0196-qa-sm",
+      "0197-qa-sm"
+    ],
+    "type_a_train_only_ids_that_are_in_candidate_pool": 50,
+    "type_b_train_only_qas_with_candidate_entity_qid_overlap": 27,
+    "type_b_train_only_qas_with_exact_candidate_answer_surface_overlap": 31,
+    "unique_source_qa_ids": 135
+  },
+  "limitations": [
+    "QID overlap is an entity-level warning and does not alone prove exposure of the exact target relation.",
+    "Exact answer-surface overlap may be a shared answer entity and is a conservative screen, not semantic adjudication.",
+    "The audit does not approve a split, translated prompts, or any training/evaluation use."
+  ],
+  "replacement_train_only_source_pool_screen": {
+    "candidate_rows_touched_by_screened_source_rows_by_graph_type": {
+      "A": 6,
+      "B": 128,
+      "C": 113,
+      "D": 132,
+      "E": 115,
+      "F": 135
+    },
+    "counts_by_graph_type": {
+      "A": {
+        "both": 1,
+        "qid_overlap_only": 1,
+        "rows_screen_disjoint": 1,
+        "rows_total": 5,
+        "screen_disjoint": 1,
+        "surface_overlap_only": 2
+      },
+      "B": {
+        "both": 115,
+        "qid_overlap_only": 8,
+        "rows_screen_disjoint": 62,
+        "rows_total": 200,
+        "screen_disjoint": 62,
+        "surface_overlap_only": 15
+      },
+      "C": {
+        "both": 123,
+        "qid_overlap_only": 2,
+        "rows_screen_disjoint": 59,
+        "rows_total": 200,
+        "screen_disjoint": 59,
+        "surface_overlap_only": 16
+      },
+      "D": {
+        "both": 123,
+        "qid_overlap_only": 4,
+        "rows_screen_disjoint": 60,
+        "rows_total": 200,
+        "screen_disjoint": 60,
+        "surface_overlap_only": 13
+      },
+      "E": {
+        "both": 151,
+        "qid_overlap_only": 3,
+        "rows_screen_disjoint": 36,
+        "rows_total": 200,
+        "screen_disjoint": 36,
+        "surface_overlap_only": 10
+      },
+      "F": {
+        "both": 143,
+        "qid_overlap_only": 2,
+        "rows_screen_disjoint": 44,
+        "rows_total": 200,
+        "screen_disjoint": 44,
+        "surface_overlap_only": 11
+      }
+    },
+    "limitations": [
+      "Exact QID and surface disjointness does not verify source fact paths, prompt correctness, document-passage non-disclosure, or translation quality.",
+      "Counts are QA rows, not independent groups or approved SFT examples.",
+      "A new candidate split must be frozen before building and auditing any replacement training corpus."
+    ],
+    "screen_disjoint_rows_total": 262,
+    "selection_screen": "Rows outside the 195 candidate IDs with no exact candidate graph/entity QID overlap and no exact normalized graph-node, Q1-answer, or final-answer surface overlap.",
+    "status": "SCREEN_ONLY_NOT_APPROVED_FOR_TRAINING"
+  },
+  "sft_corpus_sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c",
+  "source_hashes": {
+    "documents": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe",
+    "facts": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+    "qa": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+  },
+  "status": "CURRENT_SFT_OVERLAP_AUDIT_COMPLETE_CANDIDATE_ONLY",
+  "verified_type_b_rebuild_pool": {
+    "all_language_rows": 880,
+    "complete_reviewed_five_language_coverage": true,
+    "excluded_current_type_b_train_only_ids": {
+      "candidate_entity_or_answer_surface_overlap": 14,
+      "candidate_entity_qid_overlap": 27
+    },
+    "human_translation_reviewed": false,
+    "limitations": [
+      "These source-disjoint chains may provide composition practice for a rebuilt SFT corpus; they are not an approved corpus by themselves.",
+      "Candidate selection still needs review with the finalized new split and passage-leakage policy.",
+      "Translation checks are AI-only and do not establish human fluency."
+    ],
+    "source_qa_ids": [
+      "0202-qa-sm",
+      "0203-qa-sm",
+      "0207-qa-sm",
+      "0209-qa-sm",
+      "0214-qa-sm",
+      "0218-qa-sm",
+      "0219-qa-sm",
+      "0230-qa-sm",
+      "0238-qa-sm",
+      "0241-qa-sm",
+      "0242-qa-sm",
+      "0244-qa-sm",
+      "0246-qa-sm",
+      "0251-qa-sm",
+      "0267-qa-sm",
+      "0269-qa-sm",
+      "0270-qa-sm",
+      "0277-qa-sm",
+      "0280-qa-sm",
+      "0284-qa-sm",
+      "0291-qa-sm",
+      "0292-qa-sm",
+      "0295-qa-sm",
+      "0296-qa-sm",
+      "0300-qa-sm",
+      "0301-qa-sm",
+      "0305-qa-sm",
+      "0306-qa-sm",
+      "0307-qa-sm",
+      "0321-qa-sm",
+      "0323-qa-sm",
+      "0330-qa-sm",
+      "0333-qa-sm",
+      "0335-qa-sm",
+      "0345-qa-sm",
+      "0347-qa-sm",
+      "0348-qa-sm",
+      "0355-qa-sm",
+      "0363-qa-sm",
+      "0373-qa-sm",
+      "0382-qa-sm",
+      "0383-qa-sm",
+      "0394-qa-sm",
+      "0398-qa-sm"
+    ],
+    "status": "CANDIDATE_ONLY_NOT_APPROVED",
+    "train_rows_per_language": 176,
+    "translation_review_mode": "AI_ONLY",
+    "verified_source_chains": 44
+  }
+}

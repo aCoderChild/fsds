@@ -1,0 +1,2 @@
+# Install on top of requirements-sft.txt only for the Llama 3.1 8B QLoRA profile.
+bitsandbytes==0.50.2

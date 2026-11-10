@@ -1,0 +1,151 @@
+[{"stream_name":"stderr","time":7.031236922,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.03127978,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.031286347,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.031315369,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.601044118,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.601070887,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.601075425,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.601079588,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":29.227670258,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":29.227698802,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.430523449,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":29.430557364,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":29.430562513,"data":"\n"}
+,{"stream_name":"stderr","time":29.430566461,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":29.43057092,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.17.1 which is incompatible.\n"}
+,{"stream_name":"stdout","time":29.446845698,"data":"{'transformers': '5.22.1', 'accelerate': '1.15.0', 'scipy': '1.17.1', 'rouge-score': '0.1.2'}\n"}
+,{"stream_name":"stdout","time":35.417003302,"data":"{'gpus': ['Tesla T4', 'Tesla T4'], 'memory_bytes': [15636037632, 15636037632]}\n"}
+,{"stream_name":"stdout","time":35.453780512,"data":"Writing /kaggle/working/diagnose_tofu.py\n"}
+,{"stream_name":"stdout","time":35.498314202,"data":"Writing /kaggle/working/tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":35.531976382,"data":"Writing /kaggle/working/verify_tofu_official_eval.py\n"}
+,{"stream_name":"stdout","time":37.599346445,"data":"{'restore_source': 'private Kaggle dataset input', 'verified_files': ['audit/tofu_readiness_audit.json', 'audit/tofu_readiness_audit.md', 'llama_3_2_3b_full_examples.jsonl', 'llama_3_2_3b_full_official_eval.json', 'llama_3_2_3b_retain90_examples.jsonl', 'llama_3_2_3b_retain90_official_eval.json', 'official_eval_status.json']}\n"}
+,{"stream_name":"stdout","time":45.095563853,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json\r\n"}
+,{"stream_name":"stdout","time":45.095630684,"data":"Wrote /kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.md\r\n"}
+,{"stream_name":"stdout","time":45.095637549,"data":"Data structural checks: PASS\r\n"}
+,{"stream_name":"stdout","time":45.095642546,"data":"Checkpoint configs available: 4/4\r\n"}
+,{"stream_name":"stdout","time":45.095647636,"data":"Checkpoint files available: PASS\r\n"}
+,{"stream_name":"stdout","time":45.095664315,"data":"Model weights downloaded: 0; training started: no\r\n"}
+,{"stream_name":"stderr","time":63.983396984,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":64.185578915,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":64.185611525,"data":"\n"}
+,{"stream_name":"stderr","time":64.18561599,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":80.063061332,"data":"Loading Llama 3.1 8B full with balanced_low_0; max_memory=13GiB per T4\n"}
+,{"stream_name":"stdout","time":80.274355799,"data":"Loading Llama 3.1 8B full with balanced_low_0; max_memory=13GiB per T4\n"}
+,{"stream_name":"stderr","time":81.967681825,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":103.180239372,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:21\u003c01:03, 21.20s/it]\rFetching 4 files:  25%|██▌       | 1/4 [00:21\u003c01:03, 21.20s/it]\n"}
+,{"stream_name":"stderr","time":158.506218639,"data":"\rFetching 4 files:  25%|██▌       | 1/4 [00:21\u003c01:03, 21.20s/it]\rFetching 4 files:  50%|█████     | 2/4 [01:16\u003c01:22, 41.40s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:16\u003c00:00, 19.19s/it]\n"}
+,{"stream_name":"stderr","time":158.723982745,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:16\u003c01:22, 41.40s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:16\u003c00:00, 19.19s/it]\n"}
+,{"stream_name":"stderr","time":158.724013775,"data":"\n"}
+,{"stream_name":"stderr","time":158.724044787,"data":"\rFetching 4 files:  50%|█████     | 2/4 [01:16\u003c01:22, 41.40s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:16\u003c00:00, 19.19s/it]\n"}
+,{"stream_name":"stderr","time":159.063696874,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":168.76506921,"data":"\rLoading weights:   0%|          | 0/291 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/291 [00:09\u003c46:53,  9.70s/it]\rLoading weights:   0%|          | 1/291 [00:09\u003c46:53,  9.70s/it]\n"}
+,{"stream_name":"stderr","time":169.437774451,"data":"\rLoading weights:   0%|          | 1/291 [00:09\u003c46:53,  9.70s/it]\rLoading weights:   1%|          | 2/291 [00:10\u003c21:08,  4.39s/it]\rLoading weights:   1%|          | 2/291 [00:10\u003c21:08,  4.39s/it]\n"}
+,{"stream_name":"stderr","time":170.503382717,"data":"\rLoading weights:   1%|          | 2/291 [00:10\u003c21:08,  4.39s/it]\rLoading weights:  36%|███▌      | 105/291 [00:11\u003c00:11, 16.56it/s]\rLoading weights:  36%|███▌      | 105/291 [00:11\u003c00:11, 16.56it/s]\n"}
+,{"stream_name":"stderr","time":171.369470675,"data":"\rLoading weights:  36%|███▌      | 105/291 [00:11\u003c00:11, 16.56it/s]\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:11, 15.17it/s]\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:11, 15.17it/s]\n"}
+,{"stream_name":"stderr","time":171.622487316,"data":"\rLoading weights:  38%|███▊      | 112/291 [00:12\u003c00:11, 15.17it/s]\rLoading weights:  41%|████      | 118/291 [00:12\u003c00:11, 15.72it/s]\rLoading weights:  41%|████      | 118/291 [00:12\u003c00:11, 15.72it/s]\n"}
+,{"stream_name":"stderr","time":173.300311581,"data":"\rLoading weights:  41%|████      | 118/291 [00:12\u003c00:11, 15.72it/s]\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:16, 10.45it/s]\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:16, 10.45it/s]\n"}
+,{"stream_name":"stderr","time":174.767194664,"data":"\rLoading weights:  42%|████▏     | 121/291 [00:14\u003c00:16, 10.45it/s]\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:17,  9.07it/s]\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:17,  9.07it/s]\n"}
+,{"stream_name":"stderr","time":175.080952599,"data":"\rLoading weights:  45%|████▍     | 130/291 [00:15\u003c00:17,  9.07it/s]\rLoading weights:  45%|████▌     | 132/291 [00:16\u003c00:18,  8.83it/s]\rLoading weights:  45%|████▌     | 132/291 [00:16\u003c00:18,  8.83it/s]\n"}
+,{"stream_name":"stderr","time":175.369771574,"data":"\rLoading weights:  45%|████▌     | 132/291 [00:16\u003c00:18,  8.83it/s]\rLoading weights:  48%|████▊     | 139/291 [00:16\u003c00:14, 10.47it/s]\rLoading weights:  48%|████▊     | 139/291 [00:16\u003c00:14, 10.47it/s]\n"}
+,{"stream_name":"stderr","time":175.709651792,"data":"\rLoading weights:  48%|████▊     | 139/291 [00:16\u003c00:14, 10.47it/s]\rLoading weights:  51%|█████     | 148/291 [00:16\u003c00:11, 12.85it/s]\rLoading weights:  51%|█████     | 148/291 [00:16\u003c00:11, 12.85it/s]\n"}
+,{"stream_name":"stderr","time":176.163157365,"data":"\rLoading weights:  51%|█████     | 148/291 [00:16\u003c00:11, 12.85it/s]\rLoading weights:  54%|█████▍    | 157/291 [00:17\u003c00:09, 14.43it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:17\u003c00:06, 19.23it/s]\rLoading weights:  54%|█████▍    | 157/291 [00:17\u003c00:09, 14.43it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:17\u003c00:06, 19.23it/s]\n"}
+,{"stream_name":"stderr","time":176.544660903,"data":"\rLoading weights:  54%|█████▍    | 157/291 [00:17\u003c00:09, 14.43it/s]\rLoading weights:  57%|█████▋    | 166/291 [00:17\u003c00:06, 19.23it/s]\rLoading weights:  60%|██████    | 175/291 [00:17\u003c00:05, 21.99it/s]\rLoading weights:  60%|██████    | 175/291 [00:17\u003c00:05, 21.99it/s]\n"}
+,{"stream_name":"stderr","time":178.197052912,"data":"\rLoading weights:  60%|██████    | 175/291 [00:17\u003c00:05, 21.99it/s]\rLoading weights:  63%|██████▎   | 184/291 [00:19\u003c00:09, 11.46it/s]\rLoading weights:  63%|██████▎   | 184/291 [00:19\u003c00:09, 11.46it/s]\n"}
+,{"stream_name":"stderr","time":178.526234081,"data":"\rLoading weights:  63%|██████▎   | 184/291 [00:19\u003c00:09, 11.46it/s]\rLoading weights:  66%|██████▋   | 193/291 [00:19\u003c00:07, 13.89it/s]\rLoading weights:  66%|██████▋   | 193/291 [00:19\u003c00:07, 13.89it/s]\n"}
+,{"stream_name":"stderr","time":180.009196884,"data":"\rLoading weights:  66%|██████▋   | 193/291 [00:19\u003c00:07, 13.89it/s]\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:11,  8.00it/s]\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:11,  8.00it/s]\n"}
+,{"stream_name":"stderr","time":180.536577928,"data":"\rLoading weights:  67%|██████▋   | 196/291 [00:20\u003c00:11,  8.00it/s]\rLoading weights:  69%|██████▉   | 202/291 [00:21\u003c00:10,  8.68it/s]\rLoading weights:  69%|██████▉   | 202/291 [00:21\u003c00:10,  8.68it/s]\n"}
+,{"stream_name":"stderr","time":180.87081785,"data":"\rLoading weights:  69%|██████▉   | 202/291 [00:21\u003c00:10,  8.68it/s]\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.27it/s]\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.93it/s]\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.27it/s]\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.93it/s]\n"}
+,{"stream_name":"stderr","time":182.591447053,"data":"\rLoading weights:  70%|███████   | 204/291 [00:21\u003c00:10,  8.27it/s]\rLoading weights:  71%|███████▏  | 208/291 [00:21\u003c00:08,  9.93it/s]\rLoading weights:  73%|███████▎  | 211/291 [00:23\u003c00:15,  5.32it/s]\rLoading weights:  73%|███████▎  | 213/291 [00:23\u003c00:13,  5.91it/s]\rLoading weights:  73%|███████▎  | 211/291 [00:23\u003c00:15,  5.32it/s]\rLoading weights:  73%|███████▎  | 213/291 [00:23\u003c00:13,  5.91it/s]\n"}
+,{"stream_name":"stderr","time":184.201841306,"data":"\rLoading weights:  73%|███████▎  | 211/291 [00:23\u003c00:15,  5.32it/s]\rLoading weights:  73%|███████▎  | 213/291 [00:23\u003c00:13,  5.91it/s]\rLoading weights:  76%|███████▌  | 220/291 [00:25\u003c00:13,  5.35it/s]\rLoading weights:  76%|███████▌  | 220/291 [00:25\u003c00:13,  5.35it/s]\n"}
+,{"stream_name":"stderr","time":184.590625846,"data":"\rLoading weights:  76%|███████▌  | 220/291 [00:25\u003c00:13,  5.35it/s]\rLoading weights:  76%|███████▋  | 222/291 [00:25\u003c00:12,  5.31it/s]\rLoading weights:  76%|███████▋  | 222/291 [00:25\u003c00:12,  5.31it/s]\n"}
+,{"stream_name":"stderr","time":186.020381832,"data":"\rLoading weights:  76%|███████▋  | 222/291 [00:25\u003c00:12,  5.31it/s]\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:12,  5.12it/s]\rLoading weights:  79%|███████▉  | 231/291 [00:27\u003c00:10,  5.71it/s]\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:12,  5.12it/s]\rLoading weights:  79%|███████▉  | 231/291 [00:27\u003c00:10,  5.71it/s]\n"}
+,{"stream_name":"stderr","time":187.757976617,"data":"\rLoading weights:  79%|███████▊  | 229/291 [00:26\u003c00:12,  5.12it/s]\rLoading weights:  79%|███████▉  | 231/291 [00:27\u003c00:10,  5.71it/s]\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.03it/s]\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.03it/s]\n"}
+,{"stream_name":"stderr","time":188.902556555,"data":"\rLoading weights:  82%|████████▏ | 238/291 [00:28\u003c00:10,  5.03it/s]\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:07,  6.00it/s]\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:07,  6.00it/s]\n"}
+,{"stream_name":"stderr","time":189.58145571,"data":"\rLoading weights:  85%|████████▍ | 247/291 [00:29\u003c00:07,  6.00it/s]\rLoading weights:  85%|████████▌ | 248/291 [00:30\u003c00:08,  4.97it/s]\rLoading weights:  85%|████████▌ | 248/291 [00:30\u003c00:08,  4.97it/s]\n"}
+,{"stream_name":"stderr","time":190.758874259,"data":"\rLoading weights:  85%|████████▌ | 248/291 [00:30\u003c00:08,  4.97it/s]\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.62it/s]\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.62it/s]\n"}
+,{"stream_name":"stderr","time":191.428143552,"data":"\rLoading weights:  88%|████████▊ | 256/291 [00:31\u003c00:06,  5.62it/s]\rLoading weights:  89%|████████▊ | 258/291 [00:32\u003c00:06,  5.03it/s]\rLoading weights:  89%|████████▊ | 258/291 [00:32\u003c00:06,  5.03it/s]\n"}
+,{"stream_name":"stderr","time":192.593398283,"data":"\rLoading weights:  89%|████████▊ | 258/291 [00:32\u003c00:06,  5.03it/s]\rLoading weights:  91%|█████████ | 265/291 [00:33\u003c00:04,  5.38it/s]\rLoading weights:  91%|█████████ | 265/291 [00:33\u003c00:04,  5.38it/s]\n"}
+,{"stream_name":"stderr","time":194.422481593,"data":"\rLoading weights:  91%|█████████ | 265/291 [00:33\u003c00:04,  5.38it/s]\rLoading weights:  94%|█████████▍| 274/291 [00:35\u003c00:03,  5.18it/s]\rLoading weights:  94%|█████████▍| 274/291 [00:35\u003c00:03,  5.18it/s]\n"}
+,{"stream_name":"stderr","time":195.154818569,"data":"\rLoading weights:  94%|█████████▍| 274/291 [00:35\u003c00:03,  5.18it/s]\rLoading weights:  97%|█████████▋| 283/291 [00:36\u003c00:01,  6.62it/s]\rLoading weights:  97%|█████████▋| 283/291 [00:36\u003c00:01,  6.62it/s]\n"}
+,{"stream_name":"stderr","time":195.412449754,"data":"\rLoading weights:  97%|█████████▋| 283/291 [00:36\u003c00:01,  6.62it/s]\rLoading weights:  98%|█████████▊| 284/291 [00:36\u003c00:01,  5.95it/s]\rLoading weights: 100%|██████████| 291/291 [00:36\u003c00:00,  7.96it/s]\n"}
+,{"stream_name":"stderr","time":195.606038423,"data":"\rLoading weights:  98%|█████████▊| 284/291 [00:36\u003c00:01,  5.95it/s]\rLoading weights: 100%|██████████| 291/291 [00:36\u003c00:00,  7.96it/s]\n"}
+,{"stream_name":"stderr","time":195.606061732,"data":"\n"}
+,{"stream_name":"stderr","time":195.606064945,"data":"\rLoading weights:  98%|█████████▊| 284/291 [00:36\u003c00:01,  5.95it/s]\rLoading weights: 100%|██████████| 291/291 [00:36\u003c00:00,  7.96it/s]\n"}
+,{"stream_name":"stderr","time":196.120020325,"data":"Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stdout","time":196.159354727,"data":"{'loaded_model': 'Llama 3.1 8B full', 'hf_device_map': {'model.embed_tokens': 0, 'model.layers.0': 1, 'model.layers.1': 1, 'model.layers.2': 1, 'model.layers.3': 1, 'model.layers.4': 1, 'model.layers.5': 1, 'model.layers.6': 1, 'model.layers.7': 1, 'model.layers.8': 1, 'model.layers.9': 1, 'model.layers.10': 1, 'model.layers.11': 1, 'model.layers.12': 1, 'model.layers.13': 1, 'model.layers.14': 1, 'model.layers.15': 1, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.layers.28': 1, 'model.layers.29': 1, 'model.layers.30': 1, 'model.layers.31': 'cpu', 'model.norm': 'cpu', 'model.rotary_emb': 'cpu', 'lm_head': 'cpu'}, 'offloaded_devices': ['cpu']}\n"}
+,{"stream_name":"stderr","time":196.323409232,"data":"Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stderr","time":196.323450552,"data":"\n"}
+,{"stream_name":"stderr","time":196.323454514,"data":"Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stdout","time":196.362863596,"data":"{'loaded_model': 'Llama 3.1 8B full', 'hf_device_map': {'model.embed_tokens': 0, 'model.layers.0': 1, 'model.layers.1': 1, 'model.layers.2': 1, 'model.layers.3': 1, 'model.layers.4': 1, 'model.layers.5': 1, 'model.layers.6': 1, 'model.layers.7': 1, 'model.layers.8': 1, 'model.layers.9': 1, 'model.layers.10': 1, 'model.layers.11': 1, 'model.layers.12': 1, 'model.layers.13': 1, 'model.layers.14': 1, 'model.layers.15': 1, 'model.layers.16': 1, 'model.layers.17': 1, 'model.layers.18': 1, 'model.layers.19': 1, 'model.layers.20': 1, 'model.layers.21': 1, 'model.layers.22': 1, 'model.layers.23': 1, 'model.layers.24': 1, 'model.layers.25': 1, 'model.layers.26': 1, 'model.layers.27': 1, 'model.layers.28': 1, 'model.layers.29': 1, 'model.layers.30': 1, 'model.layers.31': 'cpu', 'model.norm': 'cpu', 'model.rotary_emb': 'cpu', 'lm_head': 'cpu'}, 'offloaded_devices': ['cpu']}\n"}
+,{"stream_name":"stderr","time":196.632907267,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":196.633738492,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 927, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":196.633779097,"data":"    main()\n"}
+,{"stream_name":"stderr","time":196.633784644,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":196.633788877,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 882, in main\n"}
+,{"stream_name":"stderr","time":196.633792995,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":196.633796953,"data":"        key,\n"}
+,{"stream_name":"stderr","time":196.633800749,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":196.633804401,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":196.633807811,"data":"    )\n"}
+,{"stream_name":"stderr","time":196.633811189,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 676, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":196.633814902,"data":"    raise RuntimeError(f\"8B placement used CPU/disk offload {offloaded_devices}; refusing a slow, unbounded evaluation\")\n"}
+,{"stream_name":"stderr","time":196.633818792,"data":"RuntimeError: 8B placement used CPU/disk offload ['cpu']; refusing a slow, unbounded evaluation\n"}
+,{"stream_name":"stderr","time":196.835664563,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":196.835698736,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 927, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":196.835702703,"data":"    main()\n"}
+,{"stream_name":"stderr","time":196.835705018,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":196.835707228,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 882, in main\n"}
+,{"stream_name":"stderr","time":196.835709665,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":196.835711888,"data":"        key,\n"}
+,{"stream_name":"stderr","time":196.835714061,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":196.835716328,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":196.835718851,"data":"    )\n"}
+,{"stream_name":"stderr","time":196.835733989,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 676, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":196.83573806,"data":"    raise RuntimeError(f\"8B placement used CPU/disk offload {offloaded_devices}; refusing a slow, unbounded evaluation\")\n"}
+,{"stream_name":"stderr","time":196.835820314,"data":"RuntimeError: 8B placement used CPU/disk offload ['cpu']; refusing a slow, unbounded evaluation\n"}
+,{"stream_name":"stderr","time":196.835824593,"data":"\n"}
+,{"stream_name":"stderr","time":196.835829402,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":196.835832816,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 927, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":196.835836914,"data":"    main()\n"}
+,{"stream_name":"stderr","time":196.835840795,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":196.835844452,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 882, in main\n"}
+,{"stream_name":"stderr","time":196.8358489,"data":"    result = evaluate_checkpoint(\n"}
+,{"stream_name":"stderr","time":196.835852788,"data":"        key,\n"}
+,{"stream_name":"stderr","time":196.835871286,"data":"    ...\u003c5 lines\u003e...\n"}
+,{"stream_name":"stderr","time":196.835874685,"data":"        args.max_memory_per_gpu_gib,\n"}
+,{"stream_name":"stderr","time":196.83587793,"data":"    )\n"}
+,{"stream_name":"stderr","time":196.835881003,"data":"  File \"/kaggle/working/tofu_official_eval.py\", line 676, in evaluate_checkpoint\n"}
+,{"stream_name":"stderr","time":196.835884466,"data":"    raise RuntimeError(f\"8B placement used CPU/disk offload {offloaded_devices}; refusing a slow, unbounded evaluation\")\n"}
+,{"stream_name":"stderr","time":196.835887998,"data":"RuntimeError: 8B placement used CPU/disk offload ['cpu']; refusing a slow, unbounded evaluation\n"}
+,{"stream_name":"stderr","time":201.634397204,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":201.635264954,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":201.635307976,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":201.635315935,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":201.63532017,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":201.635323879,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":201.635327055,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":201.635330282,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":201.63533368,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":201.635336929,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":201.635340117,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":201.635343235,"data":"Exception encountered at \"In [7]\":\n"}
+,{"stream_name":"stderr","time":201.635346302,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":201.635349964,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":201.635353455,"data":"/tmp/ipykernel_23/2373948568.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":201.635356858,"data":"      2 run = subprocess.run([sys.executable, '/kaggle/working/tofu_official_eval.py', '--output-dir', '/kaggle/working/tofu_official_eval', '--models', 'llama_3_1_8b_full,llama_3_1_8b_retain90', '--score-batch-size', '1', '--generation-batch-size', '1', '--max-memory-per-gpu-gib', '13', '--resume-existing'])\n"}
+,{"stream_name":"stderr","time":201.635361022,"data":"      3 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq -FS tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":201.635364752,"data":"----\u003e 4 if run.returncode: raise RuntimeError(f'8B retry failed with status {run.returncode}; partial receipt was archived.')\n"}
+,{"stream_name":"stderr","time":201.635368156,"data":"      5 verify = subprocess.run([sys.executable, '/kaggle/working/verify_tofu_official_eval.py', '/kaggle/working/tofu_official_eval', '--audit', '/kaggle/working/tofu_official_eval/audit/tofu_readiness_audit.json'])\n"}
+,{"stream_name":"stderr","time":201.635383425,"data":"      6 subprocess.run(['bash', '-lc', 'cd /kaggle/working \u0026\u0026 zip -rq -FS tofu_official_eval_results.zip tofu_official_eval'], check=True)\n"}
+,{"stream_name":"stderr","time":201.635387483,"data":"\n"}
+,{"stream_name":"stderr","time":201.635390497,"data":"RuntimeError: 8B retry failed with status 1; partial receipt was archived.\n"}
+,{"stream_name":"stderr","time":201.635393584,"data":"\n"}
+,{"stream_name":"stderr","time":203.952229357,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":203.952256994,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":204.1066453,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":204.106671159,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":204.868660328,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":204.979387319,"data":"[NbConvertApp] Writing 879050 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":207.476672267,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":208.27295254,"data":"[NbConvertApp] Writing 1460405 bytes to __results__.html\n"}
+]

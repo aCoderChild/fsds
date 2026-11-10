@@ -1,0 +1,34 @@
+{
+  "purpose": "Resume input for the inference-only TOFU official-metric baseline. These 3B outputs completed in the first Kaggle run and passed local independent metric verification before upload.",
+  "source_kaggle_kernel": "bunnoob2005/tofu-official-metrics-baseline-3b-8b-2026-11-06",
+  "files": {
+    "official_eval_status.json": {
+      "source_file": "official_eval_status.json",
+      "sha256": "d83a629c3b7a051932719b5ec349e1572097a74abc5e95f94aeccd56fd5b15c3"
+    },
+    "audit/tofu_readiness_audit.json": {
+      "source_file": "tofu_readiness_audit.json",
+      "sha256": "ce5ced69b681d2b3d342e9553dd648e920c69a5eef0599c5654f0f334b48b6f4"
+    },
+    "audit/tofu_readiness_audit.md": {
+      "source_file": "tofu_readiness_audit.md",
+      "sha256": "af8aba2b2360846118319fb80d79a451cfad2adc0d5ea61508d739d1a010aeda"
+    },
+    "llama_3_2_3b_full_official_eval.json": {
+      "source_file": "llama_3_2_3b_full_official_eval.json",
+      "sha256": "4afad1a63d0f20a6f3563c5a58c9c46f40c14bb0fe4903901b6901e02bf685cd"
+    },
+    "llama_3_2_3b_full_examples.jsonl": {
+      "source_file": "llama_3_2_3b_full_examples.jsonl",
+      "sha256": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306"
+    },
+    "llama_3_2_3b_retain90_official_eval.json": {
+      "source_file": "llama_3_2_3b_retain90_official_eval.json",
+      "sha256": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68"
+    },
+    "llama_3_2_3b_retain90_examples.jsonl": {
+      "source_file": "llama_3_2_3b_retain90_examples.jsonl",
+      "sha256": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0"
+    }
+  }
+}

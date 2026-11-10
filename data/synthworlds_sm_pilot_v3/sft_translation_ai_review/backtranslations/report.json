@@ -1,0 +1,32 @@
+{
+  "approval_claimed": false,
+  "device": "mps",
+  "languages": {
+    "de": {
+      "audit_sha256": "e5708448d0e93fba947a60a2077ee3f4012eeab65e5d6fb1f8b5f2c82d1726c3",
+      "fields_backtranslated": 410,
+      "records": 205,
+      "source_sha256": "100ab3e859e79bce9d5cf0f7e443548fb79dcbc33989a4104a12cef913ccdeab"
+    },
+    "fr": {
+      "audit_sha256": "775ac4b36e90b8517a76f034a6070d63afb45d7c407d0ce96229034cf36339a9",
+      "fields_backtranslated": 410,
+      "records": 205,
+      "source_sha256": "698bfb0f21812781d22fae32c19d74506079aa76462d241af0e7ab3281a3fb99"
+    },
+    "hi": {
+      "audit_sha256": "cb762a57762525a28e6c1a473ae373f118ff6d229a206b0ffdbd666d74206829",
+      "fields_backtranslated": 410,
+      "records": 205,
+      "source_sha256": "8e709eac442d30f862207ad05360aebea24aaacc53ff3ece265e997217ae1a00"
+    },
+    "th": {
+      "audit_sha256": "5cb70eab54c2fe82991a6c8e8ac7258d0499f735d3064b5c15652b9545a0fe82",
+      "fields_backtranslated": 410,
+      "records": 205,
+      "source_sha256": "7026760fd39502743747b5ce26bb901a3d16a78000914e125b6e6141d1f51871"
+    }
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "status": "AI_BACKTRANSLATION_AUDIT_ONLY_NOT_HUMAN_APPROVAL"
+}

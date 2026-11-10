@@ -1,0 +1,5 @@
+{"row_id": "G0144", "source_english": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?", "target_language": "French"}
+{"row_id": "G0147", "source_english": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?", "target_language": "French"}
+{"row_id": "G0150", "source_english": "What language does the stepparent of the founder of [ENTITY_A] speak?", "target_language": "French"}
+{"row_id": "G0161", "source_english": "Who is the father of the person whom the unmarried partner of [ENTITY_A] is interested in?", "target_language": "French"}
+{"row_id": "G0176", "source_english": "In what year was [ENTITY_A] the architect of [ENTITY_B]?", "target_language": "French"}

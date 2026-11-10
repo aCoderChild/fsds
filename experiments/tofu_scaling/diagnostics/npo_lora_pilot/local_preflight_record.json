@@ -1,0 +1,89 @@
+{
+  "status": "SMOKE_V4_INDEPENDENTLY_VERIFIED; FULL_TRAINING_VERSION_5_RUNNING",
+  "baseline_prerequisite": {
+    "overall_status": "PASS",
+    "required_models": {
+      "llama_3_2_3b_full": "PASS",
+      "llama_3_2_3b_retain90": "PASS"
+    },
+    "verifier_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0",
+    "raw_kaggle_archive_sha256": "b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5",
+    "raw_kaggle_archive_crc": "PASS"
+  },
+  "objective_equivalence": {
+    "status": "PASS",
+    "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+    "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+    "python_version": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "torch_version": "2.13.0",
+    "npo_beta": 0.1,
+    "upstream_loss": 13.862943649291992,
+    "candidate_loss": 13.862943649291992,
+    "absolute_loss_difference": 0.0,
+    "maximum_parameter_gradient_difference": 6.705522537231445e-08,
+    "retain_nll_loss_difference": 0.0,
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+    "examples": 2,
+    "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL"
+  },
+  "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+  "notebook_sha256": "54f2efc4c1dbd53dc87582e12d1f31986c95a1a9f2897262b98cca1500bc4dee",
+  "notebook_mode": "smoke only; full training disabled",
+  "notebook_kernel_id": "bunnoob2005/tofu-3b-npo-lora-pilot-2026-11-07",
+  "training_started": false,
+  "research_adapter_created": false,
+  "kaggle_v1": {
+    "status": "ERROR",
+    "model_weights_loaded": false,
+    "optimizer_steps": 0,
+    "reason": "trainer preregistration status constant did not match locked protocol"
+  },
+  "retry_changes": [
+    "trainer gate aligned to preregistration status",
+    "SciPy 1.16.3 pinned to satisfy installed Kaggle ydata-profiling constraint",
+    "pinned upstream objective value and gradients rechecked",
+    "trainer precision/runtime string now exactly matches protocol SDPA description; all local hyperparameter equality checks pass",
+    "remove unused torchao before base-model load; notebook first runs a tiny Llama PEFT forward/backward smoke; trainer refuses torchao before weight download"
+  ],
+  "kaggle_v2": {
+    "status": "ERROR",
+    "model_weights_loaded": false,
+    "optimizer_steps": 0,
+    "reason": "trainer precision string omitted protocol-required SDPA"
+  },
+  "kaggle_v3": {
+    "status": "ERROR",
+    "model_weights_loaded": true,
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "cpu_or_disk_offload": false,
+    "optimizer_steps": 0,
+    "research_result_created": false,
+    "error": "Kaggle torchao 0.10.0 incompatible with PEFT 0.21.2",
+    "artifact_zip_sha256": "11b52c8ff3d0f06d8eaca1b0b78641209477266e17d368dce9026e59944add02"
+  },
+  "kaggle_v4": {
+    "status": "PASS_BOUNDED_SMOKE_ONLY",
+    "artifact_zip_sha256": "4e003d71728d1fbbdf829e9e867b841c1563cd63e038bd349da8d99e491e1ff2",
+    "archive_crc": "PASS",
+    "optimizer_steps": 1,
+    "finite_update_steps": 1,
+    "max_abs_lora_update": 9.999995199905243e-06,
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "cpu_or_disk_offload": false,
+    "truncated_examples": 0,
+    "research_result_created": false
+  },
+  "kaggle_v5": {
+    "status": "RUNNING",
+    "mode": "full 500-step pilot after repeated one-step smoke",
+    "full_training_enabled": true
+  }
+}

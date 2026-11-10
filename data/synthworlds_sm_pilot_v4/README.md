@@ -1,0 +1,140 @@
+# SynthWorlds-SM R1 feasibility pilot (v4)
+
+**Current status (2026-11-03):** the five-language composition SFT, retain-only reference, and baseline evaluation completed. GA ran for 45 optimizer steps; corrected GD and NPO reruns also completed for 45 steps in Kaggle's interactive Notebook Editor. The 3,355-row corpus SHA-256 is `2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c`. The current result archive is `reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/r1_composition_retainfix_verified_results_20261103_v3.zip`; `LOCAL_VERIFICATION.json` records a passing ZIP CRC and all 77 indexed file hashes.
+
+**Interpretation status: exploratory only; the research question is not answered.** The unlearning runs used 15 English forget targets and no holdout rows. Corrected GD/NPO used all 26 English retain rows over 45 steps; GA has no retain regularizer. The bilingual-competence gate failed: FR 10 cases/6 entity groups, DE 9/5, HI 9/6, and TH 11/7, against a threshold of 15 cases and 8 groups in every language. This is a single-seed Llama 3.2 1B feasibility pilot, not a powered main study. Translations were AI-only reviewed, not human-validated.
+
+### Latest result summary
+
+SFT accuracy on the forget split before unlearning:
+
+| Language | Direct accuracy | Multi-hop accuracy |
+|---|---:|---:|
+| English | 94.8% | 20.8% |
+| French | 90.9% | 18.2% |
+| German | 87.0% | 19.5% |
+| Hindi | 87.0% | 18.2% |
+| Thai | 94.8% | 19.5% |
+
+Primary contrast: target-language multi-hop change minus English multi-hop change, after unlearning relative to SFT. Values are percentage points with exploratory 95% entity-group bootstrap intervals. Positive estimates indicate less degradation in the target language than in English.
+
+| Language (eligible cases/groups) | GA | GD | NPO |
+|---|---:|---:|---:|
+| French (10/6) | +10.0 [0.0, 50.0] | +10.0 [0.0, 50.0] | +10.0 [0.0, 50.0] |
+| German (9/5) | +22.2 [0.0, 80.0] | +11.1 [−33.3, 80.0] | +11.1 [−33.3, 80.0] |
+| Hindi (9/6) | 0.0 [−33.3, 33.3] | +11.1 [0.0, 50.0] | +11.1 [0.0, 50.0] |
+| Thai (11/7) | +9.1 [−28.6, 57.1] | +9.1 [−42.9, 71.4] | +9.1 [−27.3, 57.1] |
+
+All intervals include or touch zero. Retained-set multi-hop accuracy also fell by 7.7–23.1 percentage points, indicating collateral degradation. The pilot therefore provides no conclusive evidence that English-only unlearning changes non-English downstream multi-hop accuracy.
+
+The corrected bundle contains 7,740 unique predictions (1,290 per checkpoint), zero generation failures, and zero deterministic output-invalid flags. The raw GD/NPO Kaggle manifests do not record the unlearning-script hash; the included corrected source and output association were reconciled after the run, not cryptographically attested. Full metrics and this provenance limitation are documented in `reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/`.
+
+The separate source-cardinality audit identifies 195 candidate Type-A cases in 104 internal leakage groups, for which a 117/39/39 group-preserving split is mathematically feasible. It is **not approved data**. A follow-up overlap audit found that 50 candidates were already used as `train_only` Type-A SFT examples; the Type-B train-only rows also have entity-QID and answer-surface overlaps with candidates. Therefore the current checkpoint cannot be reused for the expanded cohort. It needs a new split, a rebuilt and re-audited SFT corpus, a direct-probe design, fresh translations, and a new competence-gate evaluation. See `reports/hypothesis_diagnostics/r1_answer_cardinality_audit_2026-11-03/answer_cardinality_audit.md` and `reports/hypothesis_diagnostics/r1_candidate_sft_overlap_audit_2026-11-03/training_overlap_audit.md`.
+
+Do not launch secret-dependent runs through Kaggle API/CLI: Kaggle notebook Secrets are available in the interactive Notebook Editor, but API-launched kernels do not receive `HF_TOKEN`.
+
+The earlier 1,655-row run (SHA-256 `12ff7668442753a57f319e505ea1cf22f1e2610d5243b939617626ff97c7a7e9`) remains historical and is described below. Original source files and earlier audit/run artifacts are preserved.
+
+## Historical 1,655-row run (not the current v4 corpus)
+
+The disjoint corpus was assembled, packaged, attached to Kaggle, and trained. Full composition SFT used 1,655 rows (331 per language; 765 forget, 390 retain, 500 train-only), three epochs, and seed 42. The retain-only reference used 890 rows (retain plus train-only). Baseline evaluation covered 129 cases in five languages and two probes across pretrained, SFT, and retain-only checkpoints. Its 3,870 predictions had zero generation failures and zero invalid-output flags. On the forget split, SFT direct / multi-hop exact accuracy was EN 88.3% / 10.4%, FR 84.4% / 9.1%, DE 77.9% / 18.2%, HI 83.1% / 14.3%, and TH 83.1% / 15.6%.
+
+Only eight English forget cases were correct on both SFT probes. Paired precompetent cases / entity groups were FR 2/2, DE 4/3, HI 4/3, and TH 3/3. All are below the pilot floor of 15 cases and 8 groups per language, so unlearning and post-evaluation did not run. This is a valid stop condition, not an implementation failure. The exact forget multi-hop prompts were excluded from SFT, but their atomic support facts were trained; interpret this as composition generalization over trained facts. Retain composition prompts overlap SFT by design; holdout facts were excluded from training and had zero accuracy. Neither retain nor holdout should be misread as an unbiased test of forgetting.
+
+The complete, hash-indexed run bundle and a short report are in `reports/synthworlds_r1_composition_disjoint_2026-11-02/`. The bundle includes both LoRA adapters, run manifests, corpus, predictions, scores, and diagnostics.
+
+## What changed from v2
+
+This version groups the strict Type-A cases by shared graph/document entity QIDs, exact chain facts, and exact final answers before assigning splits. The old proposal had 9 pairs crossing split boundaries under this overlap audit. All 9 are now within a single split. The resulting 129 cases form 101 indivisible groups and can be assigned as 77 forget, 26 retain, and 26 holdout examples.
+
+The Type-A case `0080-qa-sm` is excluded from this split because the graph's second-hop relation names Irvin Oathen while the verified source fact names Irvin Thorne. The 70 ambiguous Type-A cases and 1,000 other graph types remain excluded under the existing target-selection audit.
+
+## Files
+
+- `assignments.jsonl`: the proposed split and fact provenance for each of 129 cases.
+- `entity_fact_groups.jsonl`: indivisible components used by the assignment.
+- `overlap_pairs.jsonl`: every shared entity, chain fact, or exact answer pair, including its old labels.
+- `excluded_r2_conflict.jsonl`: the one source/graph conflict excluded from this experimental subset.
+- `sft_natural_en_candidate.jsonl`: English natural-language hop examples from forget/retain only. Holdout is absent. These are not approved training data.
+- `sft_stage_readiness.json`: five-language SFT preflight generated by `scripts/prepare_sft_stage.py`. It separates structural checks, AI-only review, corpus creation, and Kaggle runtime checks without starting training.
+- `balanced_translation_pilot_selection.jsonl`: one low-cost example per split for translation workflow review. This small selection tests the data process; it is not a representative or powered evaluation sample.
+- `translation_pilot/{fr,de,hi,th}/review_queue.jsonl`: side-by-side source and draft text with blank reviewer fields for semantic equivalence, language quality, entity/bridge preservation, and numbers/dates/qualifiers.
+- `passage_leakage_audit/`: conservative source-subject-QID and cross-split subject/object co-mention screening for all 249 gold passages in the 129-case split. Of the 6 passages in the translation pilot, 1 has a detected possible cross-split disclosure. All full passages and whole fact rows remain excluded from training; a clean screen is not a safety certification.
+- `audit_report.json`, `source_manifest.json`, `output_manifest.json`, `sha256sums.txt`: audit, provenance, and file integrity metadata.
+- `scripts/build_v3.py`: rebuilds this proposal from the unchanged source and Stage 1 audit inputs.
+- `scripts/verify_v3.py`: read-only verification of the built bundle.
+- `sft_translation_requests/`: deterministic batches for translating/reviewing every SFT question and answer in FR/DE/HI/TH. The requests include English answers as references and keep source answers out of translated output until a reviewed translation is supplied.
+- `SFT_TRANSLATION_PROMPT.md`: copy-paste instructions for translating one JSONL batch while preserving IDs and protected metadata; it explicitly leaves approval pending.
+- `sft_translation_machine_drafts/`: NLLB-200 distilled 600M translations for all 205 SFT items per target language, with provenance and protected-text repair flags.
+- `sft_translation_candidates/{fr,de,hi,th}.jsonl`: AI-reviewed candidates; `human_review_status` remains `NOT_PERFORMED`. The original `translation_pilot/` remains a separate three-case process pilot.
+- `sft_translation_ai_review/`: full-set back-translations, documented corrections, and an AI-only review report. Back-translation is not an independent human or model validation.
+- `translation_review_policy.json`: records the user's explicit authorization for AI-only translation review and its limitations.
+- `split_approval.json`: delegated AI technical approval scoped to the feasibility split.
+- `SFT_TRANSLATION_REVIEW_GUIDE.md`: row-level review checklist and the exact approval fields required before corpus assembly.
+- `scripts/draft_sft_translations_nllb.py`: reproducible local draft generator; fictional entities and numeric strings are protected, and omissions are flagged and restored as parenthetical draft text.
+- `requirements-translation.txt`: dependencies for reproducing NLLB drafts. The model card identifies CC-BY-NC-4.0; use only for noncommercial research and review its terms.
+- `scripts/backtranslate_sft_review.py`: back-translates all candidate questions and answers; it makes no approval claim.
+- `scripts/apply_ai_translation_repairs.py` and `scripts/approve_ai_reviewed_translations.py`: apply documented repairs and record the explicitly authorized AI-only review; they never claim human review.
+- `scripts/build_sft_corpus.py`: assembles training rows only when all four languages have complete AI-reviewed coverage, the review policy and split approval are present, checksums match, and no holdout rows are used.
+- `scripts/import_sft_translations.py`: checks complete translated batches for all four target languages, then imports them atomically as drafts pending human review. It never imports approval claims from the translation output.
+- `scripts/train_sft_lora.py`: assistant-answer-only LoRA runner. Running without arguments performs preflight only. Training requires a valid corpus manifest/checksum, five-language coverage, all dependencies, an HF token, and explicit `--train`.
+- `sft_training/composition_corpus.jsonl` and `composition_manifest.json`: the earlier retained-chain composition variant. It contains no forget or holdout composition examples. Retain prompts overlap retain evaluation by design; the forget split tests held-out multi-hop composition prompts over atomic facts included in SFT, not unseen-fact generalization.
+- `scripts/build_composition_sft.py`: builds that variant from retained English prompts, AI-reviewed translated prompts, and the separately stored retained labels; rejects non-retain labels and final-answer-in-question shortcuts.
+- `requirements-sft.txt`: training-runner dependencies; install them into the intended Python environment with `python -m pip install -r data/synthworlds_sm_pilot_v3/requirements-sft.txt` after reviewing the environment.
+- `kaggle/sft_lora_pilot.ipynb`: Kaggle notebook for dependency setup, GPU and gated-model checks, corpus preflight, and an opt-in 1B LoRA run.
+- The notebook includes the conditional composition-SFT follow-up. Its stages remain disabled by default and run only in the Kaggle Notebook Editor where `UserSecretsClient` can read `HF_TOKEN`.
+- `scripts/test_sft_pipeline.py`: synthetic fixture checks for corpus approval/provenance, holdout exclusion, manifest validation, and answer-only loss masking. It does not download model weights.
+
+## Translation policy for the pilot
+
+Translate the complete QA question, both decomposed questions, and each canonical supporting passage for the three selected cases into French, German, Hindi, and Thai. Preserve source entity names, QIDs, dates, qualifiers, and answers. For the separate 205-item SFT set, the user explicitly authorized AI-only translation review; this is a feasibility-pilot exception to the human-review workflow. It does not establish human fluency or semantic accuracy. The exported evaluation prompts are question-only; answer labels are in separate files and full passages are segregated as audit-only. Holdout material is evaluation-only and must not enter SFT or unlearning data.
+
+Do not translate whole fact-record rows for training: a row can contain unrelated facts that expose other examples. The pilot carries only the exact two verified chain facts per QA as provenance metadata. The passage audit finds a possible cross-split disclosure in 1 of the 6 pilot passages and in 25 of the 249 passages referenced by the full 129-case split. It approves zero passages or whole fact rows for model training; clean heuristic screens remain uncertified.
+
+## Rebuild and verify
+
+From the repository root:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/build_v3.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/audit_passage_leakage.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/assemble_translation_pilot.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/build_v3.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/prepare_sft_stage.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/build_v3.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/verify_v3.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/prepare_sft_translation_requests.py
+python -m pip install -r data/synthworlds_sm_pilot_v3/requirements-translation.txt
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/draft_sft_translations_nllb.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/import_sft_translations.py --input-dir data/synthworlds_sm_pilot_v3/sft_translation_machine_drafts
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/apply_ai_translation_repairs.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/backtranslate_sft_review.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/approve_ai_reviewed_translations.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/prepare_sft_stage.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/build_sft_corpus.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/train_sft_lora.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/build_v3.py
+PYTHONDONTWRITEBYTECODE=1 python data/synthworlds_sm_pilot_v3/scripts/verify_v3.py
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s data/synthworlds_sm_pilot_v3/scripts -p 'test_sft_pipeline.py'
+```
+
+The build checks source hashes and all group constraints before writing. Bytecode files are excluded from manifests.
+
+`sft_stage_readiness.json` separates structural checks from approval records and Kaggle runtime checks. The split has zero detected cross-split entity, chain-fact, and exact-answer overlaps. The pilot split received a delegated AI technical approval recorded in `split_approval.json`; it covers only the 129-case feasibility pilot and does not claim researcher sign-off, statistical power, or approval of the full dataset. Local package/token checks are diagnostic only for Kaggle use: the notebook installs its declared packages and checks GPU, secret, and gated-model access in the Kaggle runtime. R1 makes multi-hop composition training conditional on the post-SFT baseline; it is a follow-up decision, not a prerequisite for the initial factual-acquisition SFT.
+
+`split_approval.json` records the delegated technical approval and its limited scope. It is attributed to an AI technical reviewer, not to the researcher.
+
+Machine-translation drafts were generated for all 205 examples per target language. An AI-only review was explicitly authorized by the user. The review back-translated all 820 questions and 820 answers with NLLB-200, checked protected names/numbers and scripts, inspected low-overlap cases, and applied 22 question repairs. The Thai protected-name repair is included among those fixes. The output is labeled `APPROVED_BY_AI_REVIEW`; it is **not human-reviewed**, and the back-translation uses the same model family as the draft translator. Treat it as a feasibility-pilot corpus with translation uncertainty, not human-validated data. Review artifacts are in `sft_translation_ai_review/`, with methods and limitations in `translation_review_policy.json` and `review_report.json`. The corpus builder verifies complete coverage, provenance, protected strings, AI review metadata, split approval, checksum, and holdout exclusion. NLLB-200 is under CC-BY-NC-4.0, so use only under its noncommercial terms. The trainer's default invocation is a read-only preflight; `--train` is required to start the run.
+
+## Kaggle handoff and secret limitation
+
+The private Kaggle Dataset `bunnoob2005/synthworlds-sm-sft-pilot-v3` is attached to the private notebook `bunnoob2005/experiments`. The earlier API-triggered job passed package, GPU, corpus, and translation preflights but could not retrieve `HF_TOKEN`. This is expected: [Kaggle CLI documentation](https://github.com/Kaggle/kaggle-cli/blob/main/docs/kernels.md#using-secrets-in-kernels) says secrets are configured on Kaggle.com and are not supported through the CLI. Notebook code cannot repair that missing credential injection.
+
+The pilot was subsequently run successfully from the Kaggle Notebook Editor session with the `HF_TOKEN` secret attached and gated-model access verified. The later disjoint-extension bundle is `reports/synthworlds_r1_composition_disjoint_2026-11-02/r1_composition_disjoint_reproducibility_bundle.zip`; an earlier 1,155-row run remains historical. The completed disjoint run is a feasibility pilot; do not repeat it just to resolve the earlier API-job message. Kaggle's CLI/API secret limitation still applies to batch-launched kernels, while interactive editor runs can read the attached secret.
+
+For any intentional rerun, open `bunnoob2005/experiments` in the Kaggle Notebook Editor, confirm **Add-ons → Secrets → HF_TOKEN** is checked, then run the preflight cells in that editor session. Never paste the token into notebook code or chat. If the token is retrieved but model access fails, request/accept access to the gated Llama repository for the Hugging Face account that issued the token. Do not use `kaggle kernels push` for a secret-dependent run.
+
+The notebook keeps all run switches `False` by default. Its Kaggle setup exposes one T4 GPU to avoid multi-GPU gradient-reduction OOM, removes Kaggle's incompatible optional `torchao` package, and runs a fresh-process PEFT LoRA smoke test before training. SFT uses FP16, per-device batch 1, and gradient accumulation 32. The full evaluator requires pretrained, full-SFT, retain-only, GA, GD, and NPO checkpoints; outputs include `diagnostic_report.md`, `summary.csv`, `cross_language_contrasts.csv`, and run manifests under `/kaggle/working/r1_diagnostics`.
+
+The primary contrast is the target-language change in multi-hop accuracy after English-only unlearning minus the corresponding English change, relative to the full-SFT checkpoint. Negative values indicate an additional loss in that target language. These are exploratory one-seed pilot diagnostics, not confirmatory results; translation review is AI-only.
+5. Before the main study, obtain fluent-speaker review, reassess target semantics and passage leakage, and determine a powered sample/split. R1's composition training remains conditional on post-SFT multi-hop baseline results.

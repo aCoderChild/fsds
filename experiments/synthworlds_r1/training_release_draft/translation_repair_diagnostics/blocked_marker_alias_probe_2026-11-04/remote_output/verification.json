@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_ALIAS_MARKER_SURVIVAL_DIAGNOSTIC_ONLY",
+  "release_approved": false,
+  "training_eligible": false,
+  "rows": 28,
+  "counts": {
+    "PASS_ALIAS_COUNT_ONLY": 28
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "input_sha256": "2093e8eab1bbd56e8f939a96034bf50745f409072c359d12a8520ad2d2d9c961",
+  "submitted_script_sha256": "1e20265ac8b96a20bf86dbd94551f16a0ded34dca0616d289e9eab6ca4c7f71c",
+  "pulled_script_sha256": "1e20265ac8b96a20bf86dbd94551f16a0ded34dca0616d289e9eab6ca4c7f71c",
+  "output_sha256": "9739fab6b583cb730c2401da846282f4f3eb94c8001cfc4a1ba275054204ca3d",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "interpretation": "Alias-count preservation only; no translation semantics or fluency decisions were made."
+}

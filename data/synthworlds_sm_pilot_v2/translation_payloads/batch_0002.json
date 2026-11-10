@@ -1,0 +1,142 @@
+{
+  "batch_id": "0002",
+  "method": "GPT-6-authored conservative QA question translations for natural-language SFT pilot; canonical documents not yet translated; linguistic review pending",
+  "languages": {
+    "fr": {
+      "qa": {
+        "0000-qa-sm": {
+          "query": "Quelle est la version du prénom de Hesthor Titus pour l’autre genre ?",
+          "decomposed_questions": {
+            "Q1": "Quel est le prénom de Hesthor Titus ?",
+            "Q2": "Quelle est la version du prénom <bridge>Vespera</bridge> pour l’autre genre ?"
+          }
+        },
+        "0007-qa-sm": {
+          "query": "Où la personne qui a écrit le scénario de The Forgotten Sagas a-t-elle étudié ?",
+          "decomposed_questions": {
+            "Q1": "Qui a écrit le scénario de The Forgotten Sagas ?",
+            "Q2": "Où <bridge>Ilyren Tiburcio</bridge> a-t-il étudié ?"
+          }
+        },
+        "0019-qa-sm": {
+          "query": "Qui est le père du conjoint de Hesper Vossar ?",
+          "decomposed_questions": {
+            "Q1": "Qui est le conjoint de Hesper Vossar ?",
+            "Q2": "Qui est le père de <bridge>Elysian Varyndor</bridge> ?"
+          }
+        },
+        "0020-qa-sm": {
+          "query": "Où a été fondée l’organisation dont Pellin Bounds est membre ?",
+          "decomposed_questions": {
+            "Q1": "De quelle organisation Pellin Bounds est-il membre ?",
+            "Q2": "Où a été fondée <bridge>Bibliophile Brotherhood</bridge> ?"
+          }
+        }
+      },
+      "documents": {},
+      "facts": {}
+    },
+    "de": {
+      "qa": {
+        "0000-qa-sm": {
+          "query": "Wie lautet die Form des Vornamens von Hesthor Titus für das andere Geschlecht?",
+          "decomposed_questions": {
+            "Q1": "Wie lautet der Vorname von Hesthor Titus?",
+            "Q2": "Wie lautet die Form des Vornamens <bridge>Vespera</bridge> für das andere Geschlecht?"
+          }
+        },
+        "0007-qa-sm": {
+          "query": "Wo wurde die Person ausgebildet, die das Drehbuch zu The Forgotten Sagas geschrieben hat?",
+          "decomposed_questions": {
+            "Q1": "Wer schrieb das Drehbuch zu The Forgotten Sagas?",
+            "Q2": "Wo hat <bridge>Ilyren Tiburcio</bridge> studiert?"
+          }
+        },
+        "0019-qa-sm": {
+          "query": "Wer ist der Vater des Ehepartners von Hesper Vossar?",
+          "decomposed_questions": {
+            "Q1": "Wer ist der Ehepartner von Hesper Vossar?",
+            "Q2": "Wer ist der Vater von <bridge>Elysian Varyndor</bridge>?"
+          }
+        },
+        "0020-qa-sm": {
+          "query": "Wo wurde die Organisation gegründet, der Pellin Bounds angehört?",
+          "decomposed_questions": {
+            "Q1": "Welcher Organisation gehört Pellin Bounds an?",
+            "Q2": "Wo wurde <bridge>Bibliophile Brotherhood</bridge> gegründet?"
+          }
+        }
+      },
+      "documents": {},
+      "facts": {}
+    },
+    "hi": {
+      "qa": {
+        "0000-qa-sm": {
+          "query": "Hesthor Titus के दिए गए नाम का दूसरे लिंग के लिए रूप क्या है?",
+          "decomposed_questions": {
+            "Q1": "Hesthor Titus का दिया गया नाम क्या है?",
+            "Q2": "<bridge>Vespera</bridge> नाम का दूसरे लिंग के लिए रूप क्या है?"
+          }
+        },
+        "0007-qa-sm": {
+          "query": "The Forgotten Sagas की पटकथा लिखने वाले व्यक्ति ने कहाँ शिक्षा प्राप्त की?",
+          "decomposed_questions": {
+            "Q1": "The Forgotten Sagas की पटकथा किसने लिखी?",
+            "Q2": "<bridge>Ilyren Tiburcio</bridge> ने कहाँ शिक्षा प्राप्त की?"
+          }
+        },
+        "0019-qa-sm": {
+          "query": "Hesper Vossar के जीवनसाथी के पिता कौन हैं?",
+          "decomposed_questions": {
+            "Q1": "Hesper Vossar के जीवनसाथी कौन हैं?",
+            "Q2": "<bridge>Elysian Varyndor</bridge> के पिता कौन हैं?"
+          }
+        },
+        "0020-qa-sm": {
+          "query": "Pellin Bounds जिस संगठन का सदस्य है, उसकी स्थापना कहाँ हुई थी?",
+          "decomposed_questions": {
+            "Q1": "Pellin Bounds किस संगठन का सदस्य है?",
+            "Q2": "<bridge>Bibliophile Brotherhood</bridge> की स्थापना कहाँ हुई थी?"
+          }
+        }
+      },
+      "documents": {},
+      "facts": {}
+    },
+    "th": {
+      "qa": {
+        "0000-qa-sm": {
+          "query": "ชื่อตัวของ Hesthor Titus ในรูปแบบสำหรับอีกเพศหนึ่งคืออะไร?",
+          "decomposed_questions": {
+            "Q1": "Hesthor Titus มีชื่อตัวว่าอะไร?",
+            "Q2": "ชื่อ <bridge>Vespera</bridge> ในรูปแบบสำหรับอีกเพศหนึ่งคืออะไร?"
+          }
+        },
+        "0007-qa-sm": {
+          "query": "ผู้เขียนบทภาพยนตร์เรื่อง The Forgotten Sagas ศึกษาที่ไหน?",
+          "decomposed_questions": {
+            "Q1": "ใครเป็นผู้เขียนบทภาพยนตร์เรื่อง The Forgotten Sagas?",
+            "Q2": "<bridge>Ilyren Tiburcio</bridge> ศึกษาที่ไหน?"
+          }
+        },
+        "0019-qa-sm": {
+          "query": "บิดาของคู่สมรสของ Hesper Vossar คือใคร?",
+          "decomposed_questions": {
+            "Q1": "คู่สมรสของ Hesper Vossar คือใคร?",
+            "Q2": "บิดาของ <bridge>Elysian Varyndor</bridge> คือใคร?"
+          }
+        },
+        "0020-qa-sm": {
+          "query": "องค์กรที่ Pellin Bounds เป็นสมาชิกก่อตั้งขึ้นที่ใด?",
+          "decomposed_questions": {
+            "Q1": "Pellin Bounds เป็นสมาชิกขององค์กรใด?",
+            "Q2": "<bridge>Bibliophile Brotherhood</bridge> ก่อตั้งขึ้นที่ใด?"
+          }
+        }
+      },
+      "documents": {},
+      "facts": {}
+    }
+  }
+}

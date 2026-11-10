@@ -1,0 +1,56 @@
+{
+  "status": "VERIFIED_AI_ONLY_NLLB_SEGMENTED_RETRY_QUARANTINED",
+  "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+  "output_sha256": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
+  "submitted_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+  "pulled_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+  "previous_candidate_output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+  "rows": 125,
+  "counts": {
+    "candidate_rows": 124,
+    "reviewed": 124,
+    "semantic_pass": 0,
+    "fluency_pass": 101,
+    "joint_pass": 0,
+    "blocked": 1
+  },
+  "counts_by_language": {
+    "fr": {},
+    "de": {
+      "candidate_rows": 2,
+      "reviewed": 2,
+      "semantic_pass": 0,
+      "fluency_pass": 2,
+      "joint_pass": 0
+    },
+    "hi": {
+      "candidate_rows": 51,
+      "reviewed": 51,
+      "semantic_pass": 0,
+      "fluency_pass": 40,
+      "joint_pass": 0,
+      "blocked": 1
+    },
+    "th": {
+      "candidate_rows": 71,
+      "reviewed": 71,
+      "semantic_pass": 0,
+      "fluency_pass": 59,
+      "joint_pass": 0
+    }
+  },
+  "error_counts": {
+    "candidate_error": 1
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "human_translation_reviewed": false,
+  "answers_or_split_labels_included": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "interpretation": "AI-only marker-preserving candidate retry; outputs are quarantined and cannot approve a translation."
+}

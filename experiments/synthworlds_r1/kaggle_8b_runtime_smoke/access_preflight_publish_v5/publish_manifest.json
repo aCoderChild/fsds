@@ -1,0 +1,13 @@
+{
+  "status": "PREFLIGHT_ONLY_PUBLISH_READY",
+  "kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "source_notebook_sha256": "6cfc121c6dbf6de5a693bf00ad4445d79507f70e985ac431e1eb067b1c9d2f17",
+  "published_notebook_sha256": "b1c1f2c529cfaa2bf357d1dd8d119dbe3a9ec7395ca5e25bb6c551189f545c23",
+  "published_metadata_sha256": "a8db65a3189df3c8d23d444caa8db3676ce18f260e0d57f42e416298e9a3e28f",
+  "run_access_preflight": true,
+  "run_runtime_smoke": false,
+  "gpu_enabled": false,
+  "internet_enabled": true,
+  "datasets_attached": false,
+  "expected_scope": "retrieve Kaggle HF_TOKEN and fetch only pinned model config.json"
+}

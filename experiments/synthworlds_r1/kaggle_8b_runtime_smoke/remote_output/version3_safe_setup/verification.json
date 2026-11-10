@@ -1,0 +1,16 @@
+{
+  "cell_source_match": true,
+  "gpu_runtime_smoke": false,
+  "kaggle_kernel_status": "COMPLETE",
+  "kaggle_pulled_notebook_sha256": "3f95641fbf54523d38b1bc4d7f66731deb2d36de7ccfb4e08524c17fc7f70ecc",
+  "kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "kernel_log_sha256": "71df02e674608803afb40729be836f81d30a8bf71c680bbe51ae0396e1441cba",
+  "kernel_version": 4,
+  "local_notebook_sha256": "6cfc121c6dbf6de5a693bf00ad4445d79507f70e985ac431e1eb067b1c9d2f17",
+  "missing_cell_id_warning": false,
+  "research_data_loaded": false,
+  "safe_branch_confirmed": true,
+  "status": "VERIFIED_KAGGLE_VERSION_4_SAFE_SETUP_ONLY",
+  "training_started": false,
+  "weights_downloaded": false
+}

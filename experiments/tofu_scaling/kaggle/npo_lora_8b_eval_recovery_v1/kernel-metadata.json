@@ -1,0 +1,13 @@
+{
+  "id": "bunnoob2005/tofu-8b-npo-eval-recovery-2026-11-09",
+  "title": "TOFU Llama 3.1 8B NPO LoRA Evaluation Recovery",
+  "code_file": "tofu_8b_npo_eval_recovery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

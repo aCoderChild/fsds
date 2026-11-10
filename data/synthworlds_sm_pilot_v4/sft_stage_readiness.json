@@ -1,0 +1,79 @@
+{
+  "available_environment": {
+    "checkpoint_weight_files_found": 0,
+    "hardware": {
+      "cuda_available": false,
+      "mps_available": true,
+      "python": "3.13.13",
+      "torch_version": "2.13.0"
+    },
+    "hf_token_present": false,
+    "local_model_checkpoint_found": false,
+    "note": "Kaggle runtime, secret, GPU, and model access must be checked in the notebook; local values do not determine Kaggle readiness.",
+    "training_packages": {
+      "accelerate": false,
+      "peft": false,
+      "torch": true,
+      "transformers": true
+    }
+  },
+  "blockers": [],
+  "conditional_follow_up": "The completed atomic-SFT pilot triggered R1's composition follow-up: forget-split multi-hop accuracy was 11.7–18.2% with only 3–12 precompetent cases per language. scripts/build_composition_sft.py creates a variant adding 26 retained-chain multi-hop examples per language, with zero forget/holdout composition rows; evaluate only forget split as unseen-chain generalization.",
+  "english_source_qa_cases": 103,
+  "gates": {
+    "ai_only_review_authorized": true,
+    "ai_translation_review_complete": true,
+    "approved_corpus_built": true,
+    "complete_five_language_sft_coverage": true,
+    "kaggle_notebook_present": true,
+    "native_translation_review_complete": false,
+    "split_proposal_approved": true,
+    "split_structure_verified": true,
+    "translation_review_complete_for_selected_mode": true
+  },
+  "non_english_rows_missing_per_language": {
+    "de": 0,
+    "fr": 0,
+    "hi": 0,
+    "th": 0
+  },
+  "note": "Translation review is AI-only; no fluent human reviewed the corpus. The SFT data is ready only for the explicitly authorized feasibility pilot, subject to Kaggle runtime checks; it is not human-validated multilingual data.",
+  "report_model": "Llama 3.2 1B-Instruct",
+  "sft_candidate_rows_by_language": {
+    "de": 205,
+    "en": 205,
+    "fr": 205,
+    "hi": 205,
+    "th": 205
+  },
+  "sft_pipeline": {
+    "composition_builder": "scripts/build_composition_sft.py",
+    "corpus_builder": "scripts/build_sft_corpus.py",
+    "kaggle_notebook": "kaggle/sft_lora_pilot.ipynb",
+    "loss_mask": "assistant answer tokens only",
+    "recipe": "LoRA fine-tuning; 3 epochs; per-device batch size 1; gradient accumulation 32; learning rate 2e-4; single visible Kaggle T4",
+    "runner_default": "preflight only; --train is required",
+    "training_runner": "scripts/train_sft_lora.py",
+    "translation_batch_script": "scripts/prepare_sft_translation_requests.py"
+  },
+  "sft_source_hop_records_before_dedup": 206,
+  "sft_unique_english_messages": 205,
+  "source_integrity_status": "PASS",
+  "status": "SFT_DATA_READY_KAGGLE_RUNTIME_CHECK_REQUIRED",
+  "training_languages": [
+    "en",
+    "fr",
+    "de",
+    "hi",
+    "th"
+  ],
+  "training_started": false,
+  "translation_review_disclosure": "AI-only review was explicitly authorized; no fluent human reviewed these translations. This is not human-validated multilingual data.",
+  "translation_reviews_pending_by_language": {
+    "de": 0,
+    "en": 0,
+    "fr": 0,
+    "hi": 0,
+    "th": 0
+  }
+}

@@ -1,0 +1,49 @@
+method,source_fact,language,direct_correct,prediction
+gd,MQuAKE-CF:1479,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-CF:1479,de,1,Kingdom of Romania
+gd,MQuAKE-T:797,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:797,de,0,Kingdom of Korea
+gd,MQuAKE-CF:994,en,1,Kyra Sedgwick
+gd,MQuAKE-CF:994,de,1,Kyra Sedgwick
+gd,MQuAKE-CF:6463,en,1,midfielder
+gd,MQuAKE-CF:6463,de,1,midfielder
+gd,MQuAKE-T:1186,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:1186,de,1,Kingdom of Bulgaria
+gd,MQuAKE-T:1399,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:1399,de,1,Kingdom of Mongolia
+gd,MQuAKE-CF:5362,en,1,Lady Gaga
+gd,MQuAKE-CF:5362,de,1,Lady Gaga
+gd,MQuAKE-T:119,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:119,de,0,Kingdom of Scotland
+gd,MQuAKE-T:210,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:210,de,1,Kingdom of the United Kingdom
+gd,MQuAKE-CF:6909,en,1,association football
+gd,MQuAKE-CF:6909,de,1,association football
+gd,MQuAKE-CF:221,en,1,Toyota Motor Corporation
+gd,MQuAKE-CF:221,de,1,Toyota Motor Corporation
+gd,MQuAKE-CF:639,en,0,Kingdom of Norway
+gd,MQuAKE-CF:639,de,0,Kingdom of Norway
+gd,MQuAKE-CF:1145,en,0,Kingdom of Greece
+gd,MQuAKE-CF:1145,de,1,United States of America
+gd,MQuAKE-CF:6779,en,1,Catholic Church
+gd,MQuAKE-CF:6779,de,1,Catholic Church
+gd,MQuAKE-CF:4983,en,1,association football
+gd,MQuAKE-CF:4983,de,1,association football
+gd,MQuAKE-T:1640,en,1,Bridget Jones's Diary
+gd,MQuAKE-T:1640,de,1,Bridget Jones's Diary
+gd,MQuAKE-T:1161,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-T:1161,de,1,Kingdom of the Czech Republic
+gd,MQuAKE-CF:6035,en,1,jazz
+gd,MQuAKE-CF:6035,de,1,jazz
+gd,MQuAKE-CF:1271,en,1,Daniel Defoe
+gd,MQuAKE-CF:1271,de,1,Daniel Defoe
+gd,MQuAKE-CF:1540,en,0,Ryan Seacrest
+gd,MQuAKE-CF:1540,de,1,Simon Simon Fuller
+gd,MQuAKE-CF:3665,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-CF:3665,de,1,Kingdom of the United States of America
+gd,MQuAKE-CF:7506,en,1,Catelyn Stark
+gd,MQuAKE-CF:7506,de,1,Catelyn Stark
+gd,MQuAKE-CF:4475,en,0,King King King King King King King King King King King King King King King King King King King King King King King King King King King King King King
+gd,MQuAKE-CF:4475,de,1,Kingdom of the United States of America
+gd,MQuAKE-CF:4592,en,1,Sebastian Piñera
+gd,MQuAKE-CF:4592,de,1,Sebastian Piñera

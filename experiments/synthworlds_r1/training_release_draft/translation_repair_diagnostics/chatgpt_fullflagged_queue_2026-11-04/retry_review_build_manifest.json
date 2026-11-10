@@ -1,0 +1,19 @@
+{
+  "status": "MASKED_RETRY_INPUT_READY_NOT_APPROVED",
+  "mode": "retry_full799_unresolved_v1",
+  "rows": 97,
+  "retries_by_reason": {
+    "regenerate_backtranslation": 28,
+    "reuse_existing_backtranslation": 69
+  },
+  "review_input_sha256": "0db7cf44ebbbbc3c35a82a502c9851359068a1555bdc67ba1f0538ee391d38d2",
+  "review_script_sha256": "307ba70f42c3db85ae1002f96e848e54e45925b168e94270b6b3213a5d085d01",
+  "source_input_sha256": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+  "partial_output_sha256": "f7147371c08c9aab319d9772d98bed22fb95442557ae5fd9abdbc6a870aa770e",
+  "partial_verification_sha256": "6f2c413e8dd52321ba5f6d709b9bfc11db121b025fadb39ec30041b5c226f4e2",
+  "reused_backtranslations_are_source_bound": true,
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "review_input_json_sha256": "07a0f5df55ce6ee7cda11754a30a632d1162dd57494133e7bf4c0ac04432be53"
+}

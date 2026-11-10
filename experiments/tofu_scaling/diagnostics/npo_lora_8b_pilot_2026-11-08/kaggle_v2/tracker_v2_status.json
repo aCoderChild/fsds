@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "kernel": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08",
+  "checked_at_utc": "2026-11-09T05:07:20.843161+00:00",
+  "artifact_downloaded": false,
+  "artifact_path": null,
+  "artifact_sha256": null,
+  "artifact_bytes": null,
+  "artifact_crc": "NOT_CHECKED",
+  "artifact_identity": null,
+  "stale_or_invalid_archives_rejected": 4
+}

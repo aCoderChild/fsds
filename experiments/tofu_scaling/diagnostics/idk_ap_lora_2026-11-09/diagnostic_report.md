@@ -12,8 +12,8 @@ Kernel v1 stopped at a byte-level input hash check before loading weights or tra
 - Model: Llama 3.2 3B full checkpoint, pinned revision `24f31ca19f6966dcb6f6b29abc511cce71222d4a`; TOFU dataset revision `324592d84ae4f482ac7249b9285c2ecdb53e3a68`.
 - Method: fixed IDK+AP objective, LoRA, one seed (42), five epochs and 125 optimizer steps per cohort. The loss and gradient matched the pinned upstream objective exactly in the fixture check. This is resource-adapted LoRA, not a reproduction of the paper's full-parameter run.
 - Dev and final evaluations each cover 200 forget, 400 retain and 200 holdout questions. Confidence intervals use 5,000 paired bootstrap draws over inferred 20-question profile blocks.
-- The output archive is 186,305,204 bytes, SHA-256 `0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3`; ZIP CRC passed. The independent verifier returned `PASS_ARTIFACT_AND_RESULT_RECOMPUTATION`, verified both cohorts and found no artifact or recomputation problems.
-- Kaggle logs and cohort receipts identify two Tesla T4 GPUs and CUDA 0/1 placement without CPU/disk offload. The top-level run receipt's GPU-name field is empty; repair this instrumentation before the next run.
+- The output archive is 186,305,204 bytes, SHA-256 `0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3`; ZIP CRC passed. The independent verifier returned `PASS_ARTIFACT_AND_RESULT_RECOMPUTATION`, verified both cohorts and found no artifact or recomputation problems. A fresh local rerun on 2026-11-09 also returned `PASS_ARTIFACT_AND_RESULT_RECOMPUTATION`; see `kaggle_run2/LOCAL_VERIFICATION_RECHECK.json`.
+- Kaggle logs and cohort receipts identify two Tesla T4 GPUs and CUDA 0/1 placement without CPU/disk offload. The original run-level GPU-name field is empty, but both immutable cohort receipts specify T4 x2; a fresh verifier reconciled these sources. The runner and verifier now require the cohort receipts to agree and aggregate GPU names into the run-level receipt on future runs.
 
 ## Results
 
@@ -34,6 +34,10 @@ Differences are candidate minus full checkpoint, in percentage points. A positiv
 
 The final retain ROUGE-L point estimate is a 3.06-point drop. Its lower confidence bound, -5.110 points, misses the locked -5-point margin by 0.110 point. Do not widen the margin or tune against this final cohort after observing the result.
 
+### Post-hoc profile consistency checks
+
+A no-GPU audit paired candidate and full-checkpoint rows by source ID and recomputed all five final point estimates from the archived outputs. The two forgetting metrics moved in the intended direction in all 10 forget profiles; retain answer probability declined in all 20 retain profiles; retain ROUGE-L declined in 16/20. The unadjusted two-sided profile sign-test p-values were 0.00195 for each forget metric, 1.91e-6 for retain answer probability, and 0.0118 for retain ROUGE-L. Omitting any one profile left the ROUGE-L point estimate between -3.52 and -2.66 points. These post-hoc checks are descriptive, are not multiplicity-adjusted, and do not change the preregistered interval or failed gate. Reproduce them with `audit_profile_consistency.py`; output is `profile_consistency_posthoc.json`.
+
 A simple string matcher found an IDK phrase in 0/200 final forget generations. This is not a semantic refusal classifier, but the run provides no positive marker-based evidence that the model learned to explicitly answer “I don't know.”
 
 ## Interpretation and limits
@@ -46,12 +50,15 @@ The run has a small, reproducible forgetting signal on the locked metrics, but i
 2. Do not spend more GPU time on the current standard TOFU split for confirmation: this protocol assigns all 20 forget blocks and all 20 holdout blocks, and assigns all 180 retain blocks to optimizer training or utility evaluation except two conflicting-question blocks that are excluded. The final blocks also appeared in an earlier NPO pilot.
 3. Choose a genuinely new benchmark/cohort with non-overlapping questions and entities; audit overlap against prior project artifacts before training. Define the claim, primary metric, utility margins, seed count and stopping rule in a new hashed protocol.
 4. If no untouched data is available, report this as an exploratory failed-gate diagnostic. A development-only method study may investigate retention, but it must not be presented as confirmation or reuse the final cohort for selection.
-5. Fix the missing top-level GPU receipt field and retain the archive plus verifier output as the compact provenance record. The extracted duplicate archive was removed to save local disk space.
+5. Preserve the immutable archive, corrected receipt aggregation code, and current verifier output together as the provenance record. No new run should reuse the inspected TOFU profiles.
 
 ## Artifacts
 
 - Kaggle notebook: `https://www.kaggle.com/code/bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09`
 - Result archive: private Kaggle output; local copy at kaggle_run2/tofu_3b_idk_ap_lora_diagnostic.zip (186 MB, kept out of Git). Its hash is recorded above and in the committed manifest.
 - Independent verification: `kaggle_run2/LOCAL_VERIFICATION.json`
+- Current independent verification: `kaggle_run2/LOCAL_VERIFICATION_RECHECK_CURRENT.json`
+- Post-hoc profile consistency audit: `audit_profile_consistency.py` and `profile_consistency_posthoc.json`
+- Run manifest: `attempt_manifest.json`
 - Kaggle log: `kaggle_run2/tofu-3b-idk-ap-lora-diagnostic-2026-11-09.log`
 - Vietnamese mentor report: `docs/report/R3.tex`

@@ -1,0 +1,18 @@
+{
+  "status": "CONSERVATIVE_PASSAGE_SCREEN_COMPLETE_NO_DOCUMENTS_APPROVED_FOR_TRAINING",
+  "method": "Source-subject-QID and subject/object co-mention screen against all other-split target and second-hop facts.",
+  "screen_scope": "All canonical gold passages referenced by the 129 v3 QA assignments.",
+  "pilot_documents": 6,
+  "pilot_documents_with_other_split_risk": 1,
+  "pilot_documents_without_detected_risk_but_still_uncertified": 5,
+  "all_split_gold_documents": 249,
+  "all_split_documents_with_detected_other_split_risk": 25,
+  "whole_fact_row_qid_exposures": 0,
+  "approved_training_documents": 0,
+  "limitations": [
+    "This conservative string/QID screen identifies possible leakage; it does not adjudicate claim meaning.",
+    "A clean screen does not certify safety because aliases, paraphrases, and indirect disclosure can be missed.",
+    "All full documents and full fact rows remain withheld from training; only verified single-hop examples are SFT candidates.",
+    "Evaluation documents may be supplied only if the experiment is explicitly a grounded/context-provided QA condition."
+  ]
+}

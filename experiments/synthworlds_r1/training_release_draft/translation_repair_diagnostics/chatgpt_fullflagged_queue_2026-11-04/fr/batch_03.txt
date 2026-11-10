@@ -1,0 +1,35 @@
+Translate each English question into natural French. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"FR0065","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"FR0066","question_en":"On what date did ZXQENTBQXZ become a relative of ZXQENTAQXZ?"}
+{"row_id":"FR0067","question_en":"Of which administrative division is ZXQENTAQXZ the capital?"}
+{"row_id":"FR0068","question_en":"Which work describes ZXQENTAQXZ?"}
+{"row_id":"FR0069","question_en":"In what year did ZXQENTAQXZ start their master's degree?"}
+{"row_id":"FR0070","question_en":"What does ZXQENTAQXZ replace?"}
+{"row_id":"FR0071","question_en":"What is ZXQENTAQXZ different from?"}
+{"row_id":"FR0072","question_en":"Who participated in the ZXQENTAQXZ?"}
+{"row_id":"FR0073","question_en":"Where is ZXQENTAQXZ indigenous?"}
+{"row_id":"FR0074","question_en":"What language is ZXQENTAQXZ a dialect of?"}
+{"row_id":"FR0075","question_en":"After whom is the ZXQENTAQXZ named?"}
+{"row_id":"FR0076","question_en":"Where is ZXQENTAQXZ indigenous to?"}
+{"row_id":"FR0077","question_en":"In which work does ZXQENTAQXZ appear?"}
+{"row_id":"FR0078","question_en":"What jurisdiction does the title ZXQENTAQXZ apply to?"}
+{"row_id":"FR0079","question_en":"Who is ZXQENTAQXZ the godparent of?"}
+{"row_id":"FR0080","question_en":"In what year did the ZXQENTAQXZ end?"}
+{"row_id":"FR0081","question_en":"Which institution holds the artist files for ZXQENTAQXZ?"}
+{"row_id":"FR0082","question_en":"In what year was ZXQENTBQXZ the architect of ZXQENTAQXZ?"}
+{"row_id":"FR0083","question_en":"Who confers the ZXQENTAQXZ?"}
+{"row_id":"FR0084","question_en":"What is the opposite of ZXQENTAQXZ?"}
+{"row_id":"FR0085","question_en":"What country is ZXQENTAQXZ originally from?"}
+{"row_id":"FR0086","question_en":"Which work is a part of ZXQENTAQXZ?"}
+{"row_id":"FR0087","question_en":"On what date was ZXQENTAQXZ first performed?"}
+{"row_id":"FR0088","question_en":"Who is the exhibited creator of ZXQENTAQXZ?"}
+{"row_id":"FR0089","question_en":"What does ZXQENTAQXZ own?"}
+{"row_id":"FR0090","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"FR0091","question_en":"In which work is ZXQENTAQXZ described?"}
+{"row_id":"FR0092","question_en":"What is the ZXQENTAQXZ different from?"}
+{"row_id":"FR0093","question_en":"What is the equivalent given name of the opposite gender for ZXQENTAQXZ?"}
+{"row_id":"FR0094","question_en":"On what date was ZXQENTAQXZ incorporated?"}
+{"row_id":"FR0095","question_en":"Which country does ZXQENTAQXZ serve?"}
+{"row_id":"FR0096","question_en":"Who does ZXQENTAQXZ work for?"}

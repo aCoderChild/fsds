@@ -1,0 +1,32 @@
+{
+  "status": "NLLB_DRAFTS_PENDING_AI_SEMANTIC_REVIEW_HUMAN_REVIEW_NOT_PERFORMED",
+  "translation_model": "facebook/nllb-200-distilled-600M",
+  "device": "mps",
+  "languages": {
+    "fr": {
+      "rows": 258,
+      "rows_with_protected_text_repairs": 66,
+      "identical_to_english": 0,
+      "status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "de": {
+      "rows": 258,
+      "rows_with_protected_text_repairs": 5,
+      "identical_to_english": 0,
+      "status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "hi": {
+      "rows": 258,
+      "rows_with_protected_text_repairs": 1,
+      "identical_to_english": 0,
+      "status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "th": {
+      "rows": 258,
+      "rows_with_protected_text_repairs": 1,
+      "identical_to_english": 0,
+      "status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    }
+  },
+  "approval_claimed": false
+}

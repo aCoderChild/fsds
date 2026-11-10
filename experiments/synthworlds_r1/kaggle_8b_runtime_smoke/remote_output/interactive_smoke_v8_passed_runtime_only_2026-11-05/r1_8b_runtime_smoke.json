@@ -1,0 +1,47 @@
+{
+  "status": "PASS_RUNTIME_ONLY",
+  "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "scope": "SYNTHETIC_RUNTIME_SMOKE_ONLY",
+  "research_data_loaded": false,
+  "weights_load_attempted": true,
+  "model_weights_loaded": true,
+  "training_started": true,
+  "optimizer_steps_requested": 1,
+  "package_versions": {
+    "transformers": "5.22.1",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0",
+    "bitsandbytes": "0.50.2"
+  },
+  "gpus": [
+    {
+      "name": "Tesla T4",
+      "memory_gib": 14.56
+    },
+    {
+      "name": "Tesla T4",
+      "memory_gib": 14.56
+    }
+  ],
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "config_sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+  "config_model_type": "llama",
+  "loss_mask_method": "single_render_fast_tokenizer_offsets",
+  "assistant_supervised_tokens": 2,
+  "model_load_seconds": 15.29,
+  "model_loaded_4bit": true,
+  "trainer_global_step": 1,
+  "npo_optimizer_steps_requested": 1,
+  "npo_optimizer_steps_completed": 1,
+  "npo_beta": 0.1,
+  "npo_loss": 13.86294174194336,
+  "reference_model_loaded_4bit": true,
+  "npo_reference_cuda_device": 1,
+  "trainer_train_loss": 0.02475927211344242,
+  "cuda_peak_memory_gib_by_gpu": [
+    10.47,
+    5.61
+  ],
+  "interpretation": "Exact pinned stack loaded two NF4 copies across two GPUs, completed one synthetic LoRA Trainer step and one synthetic NPO update; this is not an experiment result."
+}

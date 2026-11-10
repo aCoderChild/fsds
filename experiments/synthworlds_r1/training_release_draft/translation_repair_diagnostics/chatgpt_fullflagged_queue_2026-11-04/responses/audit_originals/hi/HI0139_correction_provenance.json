@@ -1,0 +1,17 @@
+{
+  "row_id": "HI0139",
+  "language": "hi",
+  "created_at_utc": "2026-11-03T22:52:51+00:00",
+  "request": "One-row ChatGPT UI correction requested to preserve meaning and include ZXQENTAQXZ exactly once; JSON-only response requested.",
+  "returned_text": "ZXQENTAQXZ का कौन-सा राजनीतिक पद उसके राष्ट्राध्यक्ष के पास है?",
+  "translation_service": "ChatGPT UI; exact backend model/version not exposed",
+  "original_translation": "ZXQENTAQXZ के राष्ट्राध्यक्ष के पास ZXQENTAQXZ का कौन-सा राजनीतिक पद है?",
+  "original_batch_backup": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/responses/audit_originals/hi/batch_05.before_HI0139_marker_fix.jsonl",
+  "original_batch_sha256": "6b1233f59c753679eda3bfce9483151437f7703ab46cc7a3e4aa6cc64b6f4404",
+  "updated_batch_sha256": "60f9228d6914f3a262066b974f7f49e6cf27d980055561493b72595a04515753",
+  "source_request_sha256": "475214682f88fe1ec5d5468b83052fe59f908b5385e63d0896366391e0354c4a",
+  "masked_marker_occurrences": 1,
+  "human_translation_reviewed": false,
+  "semantic_quality_established": false,
+  "status": "QUARANTINED_DIAGNOSTIC_CORRECTION_ONLY_NOT_APPROVED_FOR_TRAINING"
+}

@@ -1,0 +1,36 @@
+{
+  "audit_date": "2026-11-03",
+  "cleanup": "Removed redundant expanded copies only; retained ZIP recovery sources. Each ZIP had a clean CRC and all member SHA-256 values matched the corresponding expanded files before deletion.",
+  "removed_expansions": [
+    {
+      "zip": "reports/hypothesis_diagnostics/r1_synthworlds_v4_exploratory_2026-11-03/r1_composition_v4_3355_exploratory_reproducibility_bundle.zip",
+      "zip_sha256": "e348c104e1c8a07960c737d349121635bbc93d70ef0f4c677d04081fead75843",
+      "zip_bytes": 225845659,
+      "crc_check": "PASS",
+      "files": 82,
+      "uncompressed_bytes": 326009834,
+      "removed_expansion": "reports/hypothesis_diagnostics/r1_synthworlds_v4_exploratory_2026-11-03/extracted",
+      "expanded_member_sha256_comparison_before_removal": "PASS"
+    },
+    {
+      "zip": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_exploratory_2026-11-03/r1_composition_retainfix_corrected_results_20261103.zip",
+      "zip_sha256": "0e53642ee6ea692611257b325d9d2bb42015223bed1715bf0f483dcca7c05684",
+      "zip_bytes": 225655502,
+      "crc_check": "PASS",
+      "files": 78,
+      "uncompressed_bytes": 324127669,
+      "removed_expansion": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_exploratory_2026-11-03/extracted",
+      "expanded_member_sha256_comparison_before_removal": "PASS"
+    },
+    {
+      "zip": "archive/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03_v2/r1_composition_retainfix_corrected_results_20261103_v2.zip",
+      "zip_sha256": "4757aef0841894a89597c8312cd2d94b515e898ca2045eea8f92a0af3fd8eb89",
+      "zip_bytes": 225656503,
+      "crc_check": "PASS",
+      "files": 78,
+      "uncompressed_bytes": 324128107,
+      "removed_expansion": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted_v2_superseded",
+      "expanded_member_sha256_comparison_before_removal": "PASS"
+    }
+  ]
+}

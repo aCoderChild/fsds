@@ -1,0 +1,178 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "input_sha256": "38ff32f0036ce23e2a2daf0fa3c3d12fcf692eb3454d2ee45a6336e2f6d000ee",
+  "generator_revision": "not recorded",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original question type. The English question asks about a godparent relationship where [ENTITY_A] is the godchild, but the French translation suggests [ENTITY_A] is the godparent.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original question type. The English question asks about a godparent relationship where [ENTITY_A] is the godchild, but the French translation suggests [ENTITY_A] is the godparent."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the correct relationship direction. The English question asks about [ENTITY_A]'s stepparent, but the French translation asks who the stepparent is, which could refer to either parent figure. The correct translation should specify that [ENTITY_A] is the child.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the correct relationship direction. The English question asks about [ENTITY_A]'s stepparent, but the French translation asks who the stepparent is, which could refer to either parent figure. The correct translation should specify that [ENTITY_A] is the child."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the original meaning, maintains the correct question type, and is natural in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the original meaning, maintains the correct question type, and is natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, maintains the relationship direction, and is natural in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, maintains the relationship direction, and is natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relationship direction, and question type from English to German. It is also natural and fluent in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relationship direction, and question type from English to German. It is also natural and fluent in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relationship direction, and question type from the original English question. It is also natural and fluent in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relationship direction, and question type from the original English question. It is also natural and fluent in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The term 'Stiefelternteil' is not correct or natural in German. The correct term for 'stepparent' is 'Schritteltern'. Additionally, the word order is unnatural.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The term 'Stiefelternteil' is not correct or natural in German. The correct term for 'stepparent' is 'Schritteltern'. Additionally, the word order is unnatural."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately reflects the original question's meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately reflects the original question's meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning of the original question. The original question asks about a godparent, which is typically an individual, not a parent figure. The translation suggests a parent figure (dharma-mata or dharma-pita), which changes the meaning.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning of the original question. The original question asks about a godparent, which is typically an individual, not a parent figure. The translation suggests a parent figure (dharma-mata or dharma-pita), which changes the meaning."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately reflect the original question. The original question asks about a physical feature where [ENTITY_A] is located, but the translation asks about the location of [ENTITY_A] on a geographical feature. This changes the relationship direction.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately reflect the original question. The original question asks about a physical feature where [ENTITY_A] is located, but the translation asks about the location of [ENTITY_A] on a geographical feature. This changes the relationship direction."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original meaning, maintains the correct question type, and is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original meaning, maintains the correct question type, and is natural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the original question, maintains the correct question type, and is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the original question, maintains the correct question type, and is natural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relationship direction, and question type from the original English question. It is also natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relationship direction, and question type from the original English question. It is also natural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning. The original question asks about a godparent, which can be either a godfather or a godmother. However, the translation specifically asks about a 'patron saint' (พ่อทูนหัวหรือแม่ทูนหัว), which is not the same as a godparent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning. The original question asks about a godparent, which can be either a godfather or a godmother. However, the translation specifically asks about a 'patron saint' (พ่อทูนหัวหรือแม่ทูนหัว), which is not the same as a godparent."
+      }
+    }
+  ]
+}

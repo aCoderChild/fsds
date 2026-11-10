@@ -1,0 +1,5 @@
+{"row_id": "G0180", "source_english": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?", "target_language": "Thai"}
+{"row_id": "G0183", "source_english": "What is the religion of the child of [ENTITY_A]'s unmarried partner?", "target_language": "Thai"}
+{"row_id": "G0184", "source_english": "Which institution holds documentation files about the founder of the company owned by [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0185", "source_english": "Who is the director of the crew that the [ENTITY_A] crew member belongs to?", "target_language": "Thai"}
+{"row_id": "G0186", "source_english": "Which media franchise does [ENTITY_A] belong to?", "target_language": "Thai"}

@@ -1,0 +1,14 @@
+{"row_id": "G0139", "source_english": "What is the family name of the entity that immediately follows the family to which [ENTITY_A] belongs?", "target_language": "Hindi"}
+{"row_id": "G0142", "source_english": "On what date did [ENTITY_A] stop being the capital of [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0146", "source_english": "What is [ENTITY_A] compatible with?", "target_language": "Hindi"}
+{"row_id": "G0149", "source_english": "Who confers the [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0153", "source_english": "Who does [ENTITY_A] represent?", "target_language": "Hindi"}
+{"row_id": "G0154", "source_english": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?", "target_language": "Hindi"}
+{"row_id": "G0155", "source_english": "In which work does [ENTITY_A] appear?", "target_language": "Hindi"}
+{"row_id": "G0162", "source_english": "Which noble title does [ENTITY_A] hold?", "target_language": "Hindi"}
+{"row_id": "G0163", "source_english": "Who is [ENTITY_A]'s stepparent?", "target_language": "Hindi"}
+{"row_id": "G0170", "source_english": "What is [ENTITY_A]'s field of work?", "target_language": "Hindi"}
+{"row_id": "G0171", "source_english": "What did [ENTITY_A] replace?", "target_language": "Hindi"}
+{"row_id": "G0175", "source_english": "Who was a doctoral student of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0178", "source_english": "Which work does [ENTITY_A] follow in its series?", "target_language": "Hindi"}
+{"row_id": "G0181", "source_english": "Who is [ENTITY_A] different from?", "target_language": "Hindi"}

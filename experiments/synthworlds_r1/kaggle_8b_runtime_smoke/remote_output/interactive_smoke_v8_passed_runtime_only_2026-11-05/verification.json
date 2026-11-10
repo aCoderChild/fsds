@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
+  "trainer_global_step": 1,
+  "npo_optimizer_steps_completed": 1,
+  "trainer_train_loss": 0.02475927211344242,
+  "loss_mask_method": "single_render_fast_tokenizer_offsets",
+  "assistant_supervised_tokens": 2,
+  "research_data_loaded": false,
+  "warning": "Runtime compatibility check only; not SFT, unlearning, or a hypothesis result."
+}

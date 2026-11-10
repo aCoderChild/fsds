@@ -1,0 +1,35 @@
+[{"stream_name":"stderr","time":10.437360786,"data":"  error: subprocess-exited-with-error\n"}
+,{"stream_name":"stderr","time":10.437405865,"data":"  \n"}
+,{"stream_name":"stderr","time":10.437409929,"data":"  × Building wheel for sentencepiece (pyproject.toml) did not run successfully.\n"}
+,{"stream_name":"stderr","time":10.437413035,"data":"  │ exit code: 1\n"}
+,{"stream_name":"stderr","time":10.437415281,"data":"  ╰─\u003e No available output.\n"}
+,{"stream_name":"stderr","time":10.437417936,"data":"  \n"}
+,{"stream_name":"stderr","time":10.4374201,"data":"  note: This error originates from a subprocess, and is likely not a problem with pip.\n"}
+,{"stream_name":"stderr","time":10.438122684,"data":"  ERROR: Failed building wheel for sentencepiece\n"}
+,{"stream_name":"stderr","time":10.439494027,"data":"error: failed-wheel-build-for-install\n"}
+,{"stream_name":"stderr","time":10.439505642,"data":"\n"}
+,{"stream_name":"stderr","time":10.439509284,"data":"× Failed to build installable wheels for some pyproject.toml based projects\n"}
+,{"stream_name":"stderr","time":10.439513034,"data":"╰─\u003e sentencepiece\n"}
+,{"stream_name":"stderr","time":10.545587793,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":10.546701314,"data":"  File \"/kaggle/src/script.py\", line 13, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":10.546722176,"data":"    subprocess.run([\n"}
+,{"stream_name":"stderr","time":10.546726378,"data":"    ~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":10.546730447,"data":"        sys.executable, \"-m\", \"pip\", \"install\", \"-q\",\n"}
+,{"stream_name":"stderr","time":10.546734572,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10.546738373,"data":"        \"transformers==4.51.3\", \"accelerate==1.15.0\", \"sentencepiece==0.2.0\",\n"}
+,{"stream_name":"stderr","time":10.546742513,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10.546746343,"data":"        \"lm-format-enforcer==0.11.1\", \"bitsandbytes==0.50.2\",\n"}
+,{"stream_name":"stderr","time":10.546750182,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10.546753717,"data":"    ], check=True)\n"}
+,{"stream_name":"stderr","time":10.546757478,"data":"    ^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10.54676123,"data":"  File \"/usr/lib/python3.13/subprocess.py\", line 578, in run\n"}
+,{"stream_name":"stderr","time":10.546765527,"data":"    raise CalledProcessError(retcode, process.args,\n"}
+,{"stream_name":"stderr","time":10.546769104,"data":"                             output=stdout, stderr=stderr)\n"}
+,{"stream_name":"stderr","time":10.54677315,"data":"subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '-q', 'transformers==4.51.3', 'accelerate==1.15.0', 'sentencepiece==0.2.0', 'lm-format-enforcer==0.11.1', 'bitsandbytes==0.50.2']' returned non-zero exit status 1.\n"}
+,{"stream_name":"stderr","time":12.807191238,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12.807221144,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13.170238264,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13.170266589,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14.152635685,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":15.224516974,"data":"[NbConvertApp] Writing 331467 bytes to __results__.html\n"}
+]

@@ -1,0 +1,547 @@
+[
+  {
+    "stream_name": "stderr",
+    "time": 11.382450766,
+    "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 11.382488895,
+    "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 11.382493074,
+    "data": "0.00s - to python to disable frozen modules.\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 11.382511502,
+    "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 12.119534288,
+    "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 12.119591794,
+    "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 12.119597446,
+    "data": "0.00s - to python to disable frozen modules.\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 12.119601884,
+    "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 13.551313604,
+    "data": "{'full_training_enabled': True, 'notebook_mode': 'full pilot'}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 76.63600104,
+    "data": "{'packages': {'transformers': '5.22.1', 'accelerate': '1.15.0', 'peft': '0.21.2', 'scipy': '1.16.3', 'rouge-score': '0.1.2'}, 'torch': '2.11.0+cu130', 'torchao': 'absent', 'peft_lora_dispatch_smoke': 'PASS', 'tiny_loss': 3.4148242473602295, 'tiny_adapter_gradient_l1': 1.7488155725877732}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 76.803830523,
+    "data": "{'gpu_names': ['Tesla T4', 'Tesla T4'], 'total_memory_bytes': [15636037632, 15636037632], 'internet_http_status': 200}\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 76.854240927,
+    "data": "Cloning into '/kaggle/working/open-unlearning'...\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 77.057751042,
+    "data": "Cloning into '/kaggle/working/open-unlearning'...\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 77.057793015,
+    "data": "\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 77.057801865,
+    "data": "Cloning into '/kaggle/working/open-unlearning'...\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.612394185,
+    "data": "From https://github.com/locuslab/open-unlearning\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.612421867,
+    "data": " * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -> FETCH_HEAD\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.629835175,
+    "data": "HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.638433992,
+    "data": "{'open_unlearning_commit': '2d98027677f3468d52b6baa3fc4f2b9f2dc08820'}\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.63942765,
+    "data": "From https://github.com/locuslab/open-unlearning\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.639444845,
+    "data": " * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -> FETCH_HEAD\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.63945014,
+    "data": "HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.639454537,
+    "data": "\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.639458763,
+    "data": "From https://github.com/locuslab/open-unlearning\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.639462963,
+    "data": " * branch            2d98027677f3468d52b6baa3fc4f2b9f2dc08820 -> FETCH_HEAD\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 78.639467315,
+    "data": "HEAD is now at 2d98027 Add Unlearning Depth Score (UDS) metric (#208)\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.674177682,
+    "data": "Writing /kaggle/working/tofu_official_eval.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.697630722,
+    "data": "Writing /kaggle/working/verify_tofu_official_eval.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.7126619,
+    "data": "Writing /kaggle/working/npo_objective.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.729952278,
+    "data": "Writing /kaggle/working/verify_npo_objective.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.752701588,
+    "data": "Writing /kaggle/working/npo_lora_train.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.771114873,
+    "data": "Writing /kaggle/working/evaluate_npo_adapter.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.793181664,
+    "data": "Writing /kaggle/working/verify_npo_run.py\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.811644783,
+    "data": "Writing /kaggle/working/npo_lora_pilot_protocol.json\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 78.826963727,
+    "data": "Overwriting /kaggle/working/requirements-npo-pilot.txt\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557163177,
+    "data": "{\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557191054,
+    "data": "  \"status\": \"PASS\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557195809,
+    "data": "  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557199763,
+    "data": "  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557203697,
+    "data": "  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557207516,
+    "data": "  \"protocol_sha256\": \"eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557211139,
+    "data": "  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557214709,
+    "data": "  \"torch_version\": \"2.11.0+cu130\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557218219,
+    "data": "  \"npo_beta\": 0.1,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.55723464,
+    "data": "  \"upstream_loss\": 13.862943649291992,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557238404,
+    "data": "  \"candidate_loss\": 13.862943649291992,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557242096,
+    "data": "  \"absolute_loss_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557245655,
+    "data": "  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557249291,
+    "data": "  \"retain_nll_loss_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557253275,
+    "data": "  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557256875,
+    "data": "  \"examples\": 2,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557260399,
+    "data": "  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.557264166,
+    "data": "}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759579916,
+    "data": "{\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759606364,
+    "data": "  \"status\": \"PASS\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759609804,
+    "data": "  \"upstream\": \"locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759612784,
+    "data": "  \"upstream_utils_sha256\": \"742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759615745,
+    "data": "  \"candidate_objective_sha256\": \"f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759618288,
+    "data": "  \"protocol_sha256\": \"eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759620809,
+    "data": "  \"python_version\": \"3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.75962327,
+    "data": "  \"torch_version\": \"2.11.0+cu130\",\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759625772,
+    "data": "  \"npo_beta\": 0.1,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759628141,
+    "data": "  \"upstream_loss\": 13.862943649291992,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759640904,
+    "data": "  \"candidate_loss\": 13.862943649291992,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759643478,
+    "data": "  \"absolute_loss_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759645974,
+    "data": "  \"maximum_parameter_gradient_difference\": 5.960464477539063e-08,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.75964845,
+    "data": "  \"retain_nll_loss_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759650822,
+    "data": "  \"combined_vs_sequential_backward_max_gradient_difference\": 0.0,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759653268,
+    "data": "  \"examples\": 2,\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759655689,
+    "data": "  \"loss_reduction\": \"sum token NLL per sequence; batch mean for NPO; token mean for retain NLL\"\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 80.759658241,
+    "data": "}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 86.170811455,
+    "data": "{'objective_check': {'status': 'PASS', 'upstream': 'locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820', 'upstream_utils_sha256': '742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9', 'candidate_objective_sha256': 'f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9', 'protocol_sha256': 'eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69', 'python_version': '3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]', 'torch_version': '2.11.0+cu130', 'npo_beta': 0.1, 'upstream_loss': 13.862943649291992, 'candidate_loss': 13.862943649291992, 'absolute_loss_difference': 0.0, 'maximum_parameter_gradient_difference': 5.960464477539063e-08, 'retain_nll_loss_difference': 0.0, 'combined_vs_sequential_backward_max_gradient_difference': 0.0, 'examples': 2, 'loss_reduction': 'sum token NLL per sequence; batch mean for NPO; token mean for retain NLL'}}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 95.537603967,
+    "data": "{'run_root': '/kaggle/working/tofu_npo_run_20261107T061958Z', 'restored_baseline_files': ['official_eval_status.json', 'audit/tofu_readiness_audit.json', 'audit/tofu_readiness_audit.md', 'llama_3_2_3b_full_official_eval.json', 'llama_3_2_3b_full_examples.jsonl', 'llama_3_2_3b_retain90_official_eval.json', 'llama_3_2_3b_retain90_examples.jsonl', 'llama_3_1_8b_full_official_eval.json', 'llama_3_1_8b_full_examples.jsonl'], 'baseline_verification': 'PARTIAL', 'required_3b_baselines': 'PASS'}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 161.096594258,
+    "data": "{'artifact_zip': '/kaggle/working/tofu_npo_lora_pilot_artifacts.zip', 'bytes': 1971897}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 161.096629113,
+    "data": "{'bounded_smoke': 'PASS', 'global_steps': 1, 'max_abs_adapter_update': 9.999995199905243e-06, 'research_scores_created': False, 'full_training_enabled': True}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 1778.184057151,
+    "data": "{'artifact_zip': '/kaggle/working/tofu_npo_lora_pilot_artifacts.zip', 'bytes': 94785435}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 22377.205305561,
+    "data": "{'artifact_zip': '/kaggle/working/tofu_npo_lora_pilot_artifacts.zip', 'bytes': 96335350}\n"
+  },
+  {
+    "stream_name": "stdout",
+    "time": 22383.895772035,
+    "data": "{'artifact_zip': '/kaggle/working/tofu_npo_lora_pilot_artifacts.zip', 'bytes': 96339167}\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.603793892,
+    "data": "Traceback (most recent call last):\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604594078,
+    "data": "  File \"<string>\", line 1, in <module>\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604606802,
+    "data": "    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604613952,
+    "data": "                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604637894,
+    "data": "  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604641332,
+    "data": "    raise_for_execution_errors(nb, output_path)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604644232,
+    "data": "    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604661136,
+    "data": "  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604665897,
+    "data": "    raise error\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604669952,
+    "data": "papermill.exceptions.PapermillExecutionError: \n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604673882,
+    "data": "---------------------------------------------------------------------------\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604677927,
+    "data": "Exception encountered at \"In [17]\":\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604681627,
+    "data": "---------------------------------------------------------------------------\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604703759,
+    "data": "RuntimeError                              Traceback (most recent call last)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604708032,
+    "data": "/tmp/ipykernel_23/933933038.py in <cell line: 0>()\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.60471186,
+    "data": "     17     (RUN_ROOT / 'npo_verification.stdout.log').write_text(verification.stdout + verification.stderr)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604715601,
+    "data": "     18     archive_run()\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604719103,
+    "data": "---> 19     if verification.returncode: raise RuntimeError('Independent NPO artifact verification failed; see archived npo_verification.json. ' + verification.stderr[-5000:])\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604723218,
+    "data": "     20     print('NPO-LoRA pilot finished. Inspect npo_verification.md and npo_comparison.json; artifact verification and research diagnostic gates are reported separately.')\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604727689,
+    "data": "     21 else:\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604731211,
+    "data": "\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604734636,
+    "data": "RuntimeError: Independent NPO artifact verification failed; see archived npo_verification.json. \n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22386.604743374,
+    "data": "\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22389.335557333,
+    "data": "/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22389.33559259,
+    "data": "  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22389.592274465,
+    "data": "/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22389.592315032,
+    "data": "  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22390.451757103,
+    "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22390.550024488,
+    "data": "[NbConvertApp] Writing 199796 bytes to __notebook__.ipynb\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22393.228199397,
+    "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"
+  },
+  {
+    "stream_name": "stderr",
+    "time": 22394.216059468,
+    "data": "[NbConvertApp] Writing 966534 bytes to __results__.html\n"
+  }
+]

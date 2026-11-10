@@ -1,0 +1,42 @@
+{
+  "overall_status": "PASS",
+  "scope": "Independent ROUGE-L recomputation from saved generations and independent recomputation of nine utility components/harmonic mean.",
+  "baseline_file": "/Users/maianhpham/Documents/fsds/experiments/tofu_scaling/diagnostics/npo_lora_8b_pilot_2026-11-08/kaggle_v2/extracted_archive/tofu_8b_npo_run_20261108T205627Z/baseline_inputs/llama_3_1_8b_full_official_eval.json",
+  "baseline_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+  "candidate_file": "/Users/maianhpham/Documents/fsds/experiments/tofu_scaling/diagnostics/npo_lora_8b_pilot_2026-11-08/kaggle_v2/extracted_archive/tofu_8b_npo_run_20261108T205627Z/tofu_official_eval/llama_3_1_8b_npo_lora_seed42_official_eval.json",
+  "candidate_sha256": "765dc971aa38e19d669180b58b3937d4eb36296a169a6e1f77ef31eaa527a424",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "metrics": {
+    "baseline": {
+      "rouge_rows_recomputed": 1417,
+      "model_utility_components": {
+        "retain_probability": 0.9909814517467894,
+        "retain_rougeL_recall": 0.9953821522571522,
+        "retain_truth_ratio_score": 0.53042940582295,
+        "real_authors_normalized_option_probability": 0.4078885737987939,
+        "real_authors_rougeL_recall": 0.9490000000000001,
+        "real_authors_truth_ratio_score": 0.5124006709968674,
+        "world_facts_normalized_option_probability": 0.48031904934331243,
+        "world_facts_rougeL_recall": 0.9116809116809117,
+        "world_facts_truth_ratio_score": 0.6275568134422225
+      },
+      "model_utility_harmonic_mean_recomputed": 0.6370193562502499
+    },
+    "candidate": {
+      "rouge_rows_recomputed": 1417,
+      "model_utility_components": {
+        "retain_probability": 0.38593532056771546,
+        "retain_rougeL_recall": 0.6553753157322734,
+        "retain_truth_ratio_score": 0.5255962086039646,
+        "real_authors_normalized_option_probability": 0.44146895029327454,
+        "real_authors_rougeL_recall": 0.9618333333333333,
+        "real_authors_truth_ratio_score": 0.5664674079706683,
+        "world_facts_normalized_option_probability": 0.37138317188913533,
+        "world_facts_rougeL_recall": 0.9188034188034188,
+        "world_facts_truth_ratio_score": 0.5120992231979556
+      },
+      "model_utility_harmonic_mean_recomputed": 0.5349665911632361
+    }
+  },
+  "problems": []
+}

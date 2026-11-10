@@ -1,0 +1,306 @@
+{
+  "audit": "Extended candidate-coverage diagnostic including hash-bound matched direct-31 screen",
+  "candidate_row_coverage_by_language": {
+    "de": {
+      "atomic": 280,
+      "composition": 151
+    },
+    "fr": {
+      "atomic": 288,
+      "composition": 166
+    },
+    "hi": {
+      "atomic": 263,
+      "composition": 140
+    },
+    "th": {
+      "atomic": 231,
+      "composition": 109
+    }
+  },
+  "composition_training_chains": {
+    "chain_gap_histogram_missing_rows_out_of_16": {
+      "0": 1,
+      "1": 11,
+      "2": 5,
+      "3": 12,
+      "4": 4,
+      "5": 4,
+      "6": 5,
+      "7": 1,
+      "8": 1
+    },
+    "chains_with_exactly_one_unpassed_translation_row": {
+      "0218-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0218-qa-sm:q1"
+        }
+      ],
+      "0241-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0241-qa-sm:multi"
+        }
+      ],
+      "0246-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0246-qa-sm:multi"
+        }
+      ],
+      "0251-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0251-qa-sm:q2"
+        }
+      ],
+      "0270-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0270-qa-sm:multi"
+        }
+      ],
+      "0277-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0277-qa-sm:multi"
+        }
+      ],
+      "0301-qa-sm": [
+        {
+          "language": "hi",
+          "prompt_id": "disjoint-b:0301-qa-sm:multi"
+        }
+      ],
+      "0306-qa-sm": [
+        {
+          "language": "de",
+          "prompt_id": "disjoint-b:0306-qa-sm:q1"
+        }
+      ],
+      "0307-qa-sm": [
+        {
+          "language": "hi",
+          "prompt_id": "disjoint-b:0307-qa-sm:multi"
+        }
+      ],
+      "0335-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0335-qa-sm:multi"
+        }
+      ],
+      "0355-qa-sm": [
+        {
+          "language": "th",
+          "prompt_id": "disjoint-b:0355-qa-sm:q1"
+        }
+      ]
+    },
+    "complete_candidate_union_chains": 1,
+    "complete_chain_ids": [
+      "0383-qa-sm"
+    ],
+    "required": 44,
+    "unpassed_translation_rows_across_chains": 138
+  },
+  "created_at_utc": "2026-11-05T08:39:55+00:00",
+  "exact_all_four_language_complete_atomic_cases": {
+    "case_ids": {
+      "forget": [
+        "0003-qa-sm",
+        "0008-qa-sm",
+        "0013-qa-sm",
+        "0014-qa-sm",
+        "0022-qa-sm",
+        "0027-qa-sm",
+        "0034-qa-sm",
+        "0035-qa-sm",
+        "0052-qa-sm",
+        "0054-qa-sm",
+        "0063-qa-sm",
+        "0068-qa-sm",
+        "0069-qa-sm",
+        "0074-qa-sm",
+        "0077-qa-sm",
+        "0082-qa-sm",
+        "0085-qa-sm",
+        "0087-qa-sm",
+        "0094-qa-sm",
+        "0095-qa-sm",
+        "0096-qa-sm",
+        "0102-qa-sm",
+        "0108-qa-sm",
+        "0116-qa-sm",
+        "0117-qa-sm",
+        "0120-qa-sm",
+        "0130-qa-sm",
+        "0131-qa-sm",
+        "0142-qa-sm",
+        "0153-qa-sm",
+        "0161-qa-sm",
+        "0162-qa-sm",
+        "0166-qa-sm",
+        "0168-qa-sm",
+        "0169-qa-sm",
+        "0170-qa-sm"
+      ],
+      "retain": [
+        "0001-qa-sm",
+        "0051-qa-sm",
+        "0059-qa-sm",
+        "0061-qa-sm",
+        "0078-qa-sm",
+        "0079-qa-sm",
+        "0093-qa-sm",
+        "0138-qa-sm",
+        "0139-qa-sm",
+        "0140-qa-sm",
+        "0150-qa-sm",
+        "0151-qa-sm",
+        "0160-qa-sm",
+        "0179-qa-sm",
+        "0185-qa-sm"
+      ]
+    },
+    "diagnostic_candidate_union": {
+      "forget": 36,
+      "retain": 15
+    },
+    "diagnostic_union_leakage_groups": {
+      "forget": 18,
+      "retain": 12
+    },
+    "note": "Case-count comparison is descriptive only; it does not establish pre-unlearning competence, power, or release eligibility.",
+    "required_full_release": {
+      "forget": 117,
+      "retain": 39
+    }
+  },
+  "interpretation": "Adding the matched direct-31 AI screen increases the quarantined candidate union and may justify prioritizing near-complete composition rows for further review. However, this direct screen disagreed with its round-trip screen on 18/31 overall labels (including 18 former flags now passes), had no human-gold controls, and the earlier independent calibration accepted one known error. These statuses cannot establish translation correctness. The frozen full-release thresholds remain unmet, and no training corpus or experiment is authorized by this audit.",
+  "optimistic_relation_aware_template_reuse_ceiling": {
+    "forget_case_ids": [
+      "0003-qa-sm",
+      "0005-qa-sm",
+      "0008-qa-sm",
+      "0013-qa-sm",
+      "0014-qa-sm",
+      "0022-qa-sm",
+      "0027-qa-sm",
+      "0034-qa-sm",
+      "0035-qa-sm",
+      "0052-qa-sm",
+      "0054-qa-sm",
+      "0063-qa-sm",
+      "0068-qa-sm",
+      "0069-qa-sm",
+      "0074-qa-sm",
+      "0077-qa-sm",
+      "0082-qa-sm",
+      "0085-qa-sm",
+      "0087-qa-sm",
+      "0089-qa-sm",
+      "0094-qa-sm",
+      "0095-qa-sm",
+      "0096-qa-sm",
+      "0102-qa-sm",
+      "0108-qa-sm",
+      "0116-qa-sm",
+      "0117-qa-sm",
+      "0120-qa-sm",
+      "0130-qa-sm",
+      "0131-qa-sm",
+      "0142-qa-sm",
+      "0153-qa-sm",
+      "0161-qa-sm",
+      "0162-qa-sm",
+      "0164-qa-sm",
+      "0166-qa-sm",
+      "0168-qa-sm",
+      "0169-qa-sm",
+      "0170-qa-sm",
+      "0187-qa-sm"
+    ],
+    "forget_cases": 40,
+    "method_caveat": "A passing translation is assumed reusable for all same-template prompts without independent rendering review; this is an upper-bound diagnostic, never training data.",
+    "retain_case_ids": [
+      "0001-qa-sm",
+      "0051-qa-sm",
+      "0057-qa-sm",
+      "0059-qa-sm",
+      "0061-qa-sm",
+      "0078-qa-sm",
+      "0079-qa-sm",
+      "0093-qa-sm",
+      "0109-qa-sm",
+      "0138-qa-sm",
+      "0139-qa-sm",
+      "0140-qa-sm",
+      "0150-qa-sm",
+      "0151-qa-sm",
+      "0160-qa-sm",
+      "0179-qa-sm",
+      "0185-qa-sm"
+    ],
+    "retain_cases": 17
+  },
+  "scope": {
+    "all_candidate_passes_quarantined": true,
+    "canonical_reviews_modified": false,
+    "canonical_source_modified": false,
+    "corpus_written": false,
+    "human_translation_reviewed": false,
+    "release_approved": false,
+    "release_gate": "unchanged: 117 forget, 39 retain, and all 44 training-only composition chains",
+    "training_eligible": false,
+    "training_started": false
+  },
+  "verification": {
+    "base_review_pass_rows": 1153,
+    "base_review_rows": 1952,
+    "direct_review_human_gold_controls": 0,
+    "direct_review_model": "Qwen/Qwen2.5-14B-Instruct@cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "direct_review_pass_flag_agreement_with_roundtrip": 13,
+    "direct_review_pass_rows": 30,
+    "direct_review_rows": 31,
+    "direct_review_verifier_status": "VERIFIED_MATCHED_DIRECT_REVIEW_DIAGNOSTIC_ONLY",
+    "repair_review_hash_source_binding_failures": 0,
+    "repair_review_pass_rows": 445,
+    "repair_review_rows": 799,
+    "source_hashes": {
+      "data/synthworlds_sm/qa-sm-facts.jsonl": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+      "data/synthworlds_sm/qa-sm.jsonl": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+      "experiments/synthworlds_r1/leakage_groups.draft.jsonl": "4d34d0abc9969ac6d935a2bb0abf8a4b70a428eac3a9ad490967bc6edae61bbe",
+      "experiments/synthworlds_r1/training_release_draft/atomic_reuse.jsonl": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/de.jsonl": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/fr.jsonl": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/hi.jsonl": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/th.jsonl": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/de.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/fr.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/hi.jsonl": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/th.jsonl": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "experiments/synthworlds_r1/training_release_draft/composition_reuse.jsonl": "4a71ff1689ca092acbf2901ae6f5020e767a206a942705f52d73337abf8a2382",
+      "experiments/synthworlds_r1/training_release_draft/composition_translation_review_queue.jsonl": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/kaggle_kernel/direct_review.py": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/manifest.json": "b188c0cb01ca404f24f6c6fff580fa53f00fe1ada511aeea1c8b2125ffb21d91",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_output/direct_recheck.json": "db424d1c0e2762c2069ac4c097b68aa31ade30fce6e54570938b3ff855b6a236",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_output/verification.json": "35d428d694a99da30d56eb1013414b80830f764c97f5386e80ebceba2c082132",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_source/synthworlds-r1-direct-same31-review-2026-11-04.py": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/review_input.json": "832ccee7a4ccb03485b8d2e49ce88e33375a8a9974c25c65fe6f49d86a5a2e37",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/final_diagnostic_overlay_2026-11-04/rechecked_blocked_31_rows.jsonl": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/final_diagnostic_overlay_2026-11-04/verification.json": "597af291930335142ec15325df97becf9f43311f5d2ef8a3442c8245afcd39fb",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/parsed_repair_candidates.jsonl": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/private_row_map.jsonl": "7648962af276064d0447da4c8d1b5a39cde433677a9e2c6f1242eee4bb45552c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merge_verification.json": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merged_full799_diagnostic_reviews.jsonl": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/de.jsonl": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/fr.jsonl": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/hi.jsonl": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/report.json": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/th.jsonl": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+    },
+    "unique_candidate_pass_rows_after_union": 1628
+  }
+}

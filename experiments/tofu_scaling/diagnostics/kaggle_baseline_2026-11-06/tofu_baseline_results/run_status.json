@@ -1,0 +1,113 @@
+{
+  "started_at_utc": "2026-11-06T02:20:18.497885+00:00",
+  "selected_models": [
+    "llama_3_2_3b",
+    "llama_3_1_8b"
+  ],
+  "model_results": {
+    "llama_3_2_3b": {
+      "status": "PASS_BASELINE_DIAGNOSTIC",
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9449236080050468,
+          "mean_answer_token_loss": 0.058314887843225735,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9356117694079875,
+            0.952715627104044
+          ]
+        },
+        "retain90": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9453763219714165,
+          "mean_answer_token_loss": 0.057717513853276614,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9377377897500991,
+            0.9519381193816662
+          ]
+        },
+        "holdout10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.14612979638623075,
+          "mean_answer_token_loss": 2.168371323570609,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.12802058637142183,
+            0.16461981828324496
+          ]
+        },
+        "retain90_ambiguous_questions_excluded": {
+          "n_questions": 398,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9457050916837089,
+          "profile_equal_weight_mean_answer_probability": 0.9457680643153819,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9380236391723156,
+            0.9524074885719701
+          ],
+          "excluded_row_indices": [
+            100,
+            440
+          ]
+        }
+      },
+      "result_file": "llama_3_2_3b_baseline.json",
+      "scores_file": "llama_3_2_3b_scores.jsonl"
+    },
+    "llama_3_1_8b": {
+      "status": "PASS_BASELINE_DIAGNOSTIC",
+      "summary": {
+        "forget10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9912211625277996,
+          "mean_answer_token_loss": 0.009034580113693664,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9892659048736097,
+            0.9929179157316685
+          ]
+        },
+        "retain90": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9904313533008099,
+          "mean_answer_token_loss": 0.009859115497420134,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9889179392158984,
+            0.9918306316435338
+          ]
+        },
+        "holdout10": {
+          "n_questions": 400,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.12264357521431521,
+          "mean_answer_token_loss": 2.3686172857903873,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.10654507254250348,
+            0.13941935340408235
+          ]
+        },
+        "retain90_ambiguous_questions_excluded": {
+          "n_questions": 398,
+          "n_profile_blocks": 20,
+          "mean_answer_probability": 0.9909345579506764,
+          "profile_equal_weight_mean_answer_probability": 0.9909456335478707,
+          "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+            0.9894238413948762,
+            0.9923192700822103
+          ],
+          "excluded_row_indices": [
+            100,
+            440
+          ]
+        }
+      },
+      "result_file": "llama_3_1_8b_baseline.json",
+      "scores_file": "llama_3_1_8b_scores.jsonl"
+    }
+  },
+  "training_started": false,
+  "completed_at_utc": "2026-11-06T02:25:45.064849+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "TRAINING_COMPLETE",
+  "training_started": true,
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "device": "cuda",
+  "seed": 42,
+  "rows": 390,
+  "rows_by_language": {
+    "en": 78,
+    "fr": 78,
+    "de": 78,
+    "hi": 78,
+    "th": 78
+  },
+  "rows_by_split": {
+    "retain": 390
+  },
+  "included_splits": [
+    "retain"
+  ],
+  "training_variant": "composition_retain_only",
+  "corpus_variant": "atomic_five_language_sft_plus_retained_chain_composition",
+  "corpus_sha256": "973f5f7e4816118b0e7dc9f66f82dad21f41f5bc0aade8074cd47d155cdbc013",
+  "corpus_manifest_sha256": "7654119b9a38b1885a957ccf37b548202892143aedf85c3cce47817d40592092",
+  "epochs": 3,
+  "per_device_train_batch_size": 1,
+  "gradient_accumulation_steps": 32,
+  "learning_rate": 0.0002,
+  "loss_mask": "assistant answer tokens only",
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "adapter_dir": "/kaggle/working/r1_composition_retain_only/adapter"
+}

@@ -1,0 +1,254 @@
+{
+  "created_at_utc": "2026-11-03T04:10:20.743879+00:00",
+  "human_translation_reviewed": false,
+  "input_translation_and_review_sha256": {
+    "de": {
+      "review": "e29fa34df4438a083ddc85057b9ec363318cf043a5953e6a9e79f4515753d9a8",
+      "translation": "ff59f2a592d471701654f7aa2663dd3b8fe4d99f94cf5c05a01d278153cdec7a"
+    },
+    "fr": {
+      "review": "8e8b48d206261f08745b384d50474449198cf225842df0f3c3170bf011863b1e",
+      "translation": "654471c53fc488871a963d7548390b1369dc521a964d363b7765aba6ba9e113d"
+    },
+    "hi": {
+      "review": "263546f836526885a9430bc989fb9bebc4cf04ef44e28122487ce37b67d42225",
+      "translation": "4dab240257dfe884e317912e894b064d97c18ed07ea218ad3fb1fc626f4761eb"
+    },
+    "th": {
+      "review": "098e67c003e326eb8fa89e4879af2f754c049143afe3dc7591d1a8071f6ec48f",
+      "translation": "35bec196a99e215d7b3c74fcdfc0a05de2aad9d0ddd83fd546a13162d87d929b"
+    }
+  },
+  "languages": {
+    "de": {
+      "flagged_or_failed_selected": 128,
+      "output_sha256": "7e0fd87b232cf2324bfe71830ab7285022610690b21b451d09bc08b4a3f610aa",
+      "repair_errors": [],
+      "repaired_rows": 128,
+      "translation_failures_after_repair": 0
+    },
+    "fr": {
+      "flagged_or_failed_selected": 139,
+      "output_sha256": "ef3f0b81333213c9b614c043b92e36d33d3225ca0e9d6d985a3f5a70e3fc64da",
+      "repair_errors": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0001-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0003-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0007-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0008-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0019-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0033-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0050-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0050-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0058-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0059-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0062-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0063-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0085-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0085-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0101-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0109-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0109-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0128-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0129-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0129-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0130-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0130-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0157-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0157-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0164-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0164-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0165-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0168-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0168-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0185-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0189-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0189-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0191-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0196-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0196-qa-sm:direct_negative_control"
+        }
+      ],
+      "repaired_rows": 96,
+      "translation_failures_after_repair": 43
+    },
+    "hi": {
+      "flagged_or_failed_selected": 171,
+      "output_sha256": "7274e41c75ebfa3c52568c43aaec15eb6322da52ceba56300e3f9eabe51b78a0",
+      "repair_errors": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0033-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0132-qa-sm:multi_hop"
+        }
+      ],
+      "repaired_rows": 169,
+      "translation_failures_after_repair": 2
+    },
+    "th": {
+      "flagged_or_failed_selected": 181,
+      "output_sha256": "7ac76bc1b6f79ff2d8b3203d9062583ae09144f19bbff85f0abdbb3d994a1111",
+      "repair_errors": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0010-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0120-qa-sm:multi_hop"
+        }
+      ],
+      "repaired_rows": 179,
+      "translation_failures_after_repair": 2
+    }
+  },
+  "max_per_language": null,
+  "model": "ollama:translategemma:4b",
+  "repair_scope": "ALL_AI_FLAGGED_AND_TRANSLATION_FAILED_ROWS",
+  "selected_prompt_ids_sha256_by_language": {
+    "de": "b7517c4b6a584e5d8c1914d7107a8d9f90d86ca60303b27e0bceaa2c6ca1a036",
+    "fr": "468a5894dba97555a70c1eb9a2d909ef04b03ffa7d61c23a8a30d34e979fc45e",
+    "hi": "8c7c420548736926ff340d80e522b95155001850990918aec5a73b702a6348c0",
+    "th": "d5baae4ed2e72f523407e28bb54599d4bc952bbc10f6212661e515dc13f2eb9b"
+  },
+  "source_requests_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "status": "TRANSLATEGEMMA_REPAIR_DRAFT_PENDING_QWEN_REVIEW"
+}

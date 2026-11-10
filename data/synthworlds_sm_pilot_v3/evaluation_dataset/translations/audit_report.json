@@ -1,0 +1,175 @@
+{
+  "status": "AUTOMATIC_CONSISTENCY_AUDIT_ONLY_TRANSLATIONS_REMAIN_UNAPPROVED",
+  "review_method": "NLLB placeholder preservation, completeness, exact-copy and format checks; no semantic or fluent-human certification",
+  "languages": {
+    "fr": {
+      "requests": 258,
+      "drafts": 258,
+      "flagged_records": 66,
+      "automatic_flag_counts": {
+        "protected_entity_repair_or_loss": 66,
+        "placeholder_leak": 48
+      },
+      "examples": {
+        "protected_entity_repair_or_loss": [
+          {
+            "translation_id": "0002-qa-sm:direct:fr",
+            "source": "Who founded the Starlight Gala?",
+            "translation": "Qui a fondé l'entité  (Starlight Gala)?"
+          },
+          {
+            "translation_id": "0002-qa-sm:multi:fr",
+            "source": "Where was the founder of the Starlight Gala born?",
+            "translation": "Où est né le fondateur de l'ENTITY (Starlight Gala)?"
+          },
+          {
+            "translation_id": "0006-qa-sm:direct:fr",
+            "source": "The Regent of Lumeria is a subclass of what?",
+            "translation": "L'ENTITY_A est une sous-classe de quoi  (Regent of Lumeria)?"
+          },
+          {
+            "translation_id": "0008-qa-sm:direct:fr",
+            "source": "Who taught Thalric Kytarathian Valenwood?",
+            "translation": "Qui a enseigné l'entité  (Thalric Kytarathian Valenwood)?"
+          },
+          {
+            "translation_id": "0010-qa-sm:multi:fr",
+            "source": "On what date did Hesper Alden's tenure as director of the parent organization of Calidore Global Research University end?",
+            "translation": "À quelle date le mandat de directeur de l'organisation mère d'ENTITY_A a-t-il pris fin  (Calidore Global Research University; Hesper Alden)?"
+          }
+        ],
+        "placeholder_leak": [
+          {
+            "translation_id": "0006-qa-sm:direct:fr",
+            "source": "The Regent of Lumeria is a subclass of what?",
+            "translation": "L'ENTITY_A est une sous-classe de quoi  (Regent of Lumeria)?"
+          },
+          {
+            "translation_id": "0010-qa-sm:multi:fr",
+            "source": "On what date did Hesper Alden's tenure as director of the parent organization of Calidore Global Research University end?",
+            "translation": "À quelle date le mandat de directeur de l'organisation mère d'ENTITY_A a-t-il pris fin  (Calidore Global Research University; Hesper Alden)?"
+          },
+          {
+            "translation_id": "0013-qa-sm:direct:fr",
+            "source": "Who is Valyndra Kurtz's mother?",
+            "translation": "Qui est la mère d'ENTITY_B (Valyndra Kurtz)?"
+          },
+          {
+            "translation_id": "0020-qa-sm:direct:fr",
+            "source": "What organization is Pellin Bounds a member of?",
+            "translation": "À quelle organisation appartient l'ENTITY_B  (Pellin Bounds)?"
+          },
+          {
+            "translation_id": "0022-qa-sm:multi:fr",
+            "source": "Where is the sponsor of Alden Rivers buried?",
+            "translation": "Où est enterré le commanditaire d'ENTITY_B (Alden Rivers)?"
+          }
+        ]
+      },
+      "status": "PENDING_SEMANTIC_AI_REVIEW"
+    },
+    "de": {
+      "requests": 258,
+      "drafts": 258,
+      "flagged_records": 5,
+      "automatic_flag_counts": {
+        "placeholder_leak": 5,
+        "protected_entity_repair_or_loss": 5
+      },
+      "examples": {
+        "placeholder_leak": [
+          {
+            "translation_id": "0007-qa-sm:direct:de",
+            "source": "Who wrote the screenplay for The Forgotten Sagas?",
+            "translation": "Wer hat das Drehbuch für \"ENTITY_B\" geschrieben (The Forgotten Sagas)?"
+          },
+          {
+            "translation_id": "0045-qa-sm:direct:de",
+            "source": "Who produced Twilight's Edge?",
+            "translation": "Wer hat \"ENTITY_A\" produziert (Twilight's Edge)?"
+          },
+          {
+            "translation_id": "0077-qa-sm:direct:de",
+            "source": "Who organized The Artistic Voyage?",
+            "translation": "Wer hat \"ENTITY_A\" organisiert (The Artistic Voyage)?"
+          },
+          {
+            "translation_id": "0108-qa-sm:direct:de",
+            "source": "Who directed The Shattered Legends: A Tale of Time?",
+            "translation": "Wer hat \"ENTITY_A\" geleitet (The Shattered Legends: A Tale of Time)?"
+          },
+          {
+            "translation_id": "0182-qa-sm:direct:de",
+            "source": "Who produced The Celestial Interlude?",
+            "translation": "Wer hat \"ENTITY_A\" produziert (The Celestial Interlude)?"
+          }
+        ],
+        "protected_entity_repair_or_loss": [
+          {
+            "translation_id": "0007-qa-sm:direct:de",
+            "source": "Who wrote the screenplay for The Forgotten Sagas?",
+            "translation": "Wer hat das Drehbuch für \"ENTITY_B\" geschrieben (The Forgotten Sagas)?"
+          },
+          {
+            "translation_id": "0045-qa-sm:direct:de",
+            "source": "Who produced Twilight's Edge?",
+            "translation": "Wer hat \"ENTITY_A\" produziert (Twilight's Edge)?"
+          },
+          {
+            "translation_id": "0077-qa-sm:direct:de",
+            "source": "Who organized The Artistic Voyage?",
+            "translation": "Wer hat \"ENTITY_A\" organisiert (The Artistic Voyage)?"
+          },
+          {
+            "translation_id": "0108-qa-sm:direct:de",
+            "source": "Who directed The Shattered Legends: A Tale of Time?",
+            "translation": "Wer hat \"ENTITY_A\" geleitet (The Shattered Legends: A Tale of Time)?"
+          },
+          {
+            "translation_id": "0182-qa-sm:direct:de",
+            "source": "Who produced The Celestial Interlude?",
+            "translation": "Wer hat \"ENTITY_A\" produziert (The Celestial Interlude)?"
+          }
+        ]
+      },
+      "status": "PENDING_SEMANTIC_AI_REVIEW"
+    },
+    "hi": {
+      "requests": 258,
+      "drafts": 258,
+      "flagged_records": 1,
+      "automatic_flag_counts": {
+        "protected_entity_repair_or_loss": 1
+      },
+      "examples": {
+        "protected_entity_repair_or_loss": [
+          {
+            "translation_id": "0117-qa-sm:multi:hi",
+            "source": "In what year did Rynel Mcdaniel become the spouse of Deleth Nene's father?",
+            "translation": "Deleth Nene के पिता का पति  किस वर्ष में हुआ था (Rynel Mcdaniel)?"
+          }
+        ]
+      },
+      "status": "PENDING_SEMANTIC_AI_REVIEW"
+    },
+    "th": {
+      "requests": 258,
+      "drafts": 258,
+      "flagged_records": 1,
+      "automatic_flag_counts": {
+        "protected_entity_repair_or_loss": 1
+      },
+      "examples": {
+        "protected_entity_repair_or_loss": [
+          {
+            "translation_id": "0075-qa-sm:direct:th",
+            "source": "Where was Bryndith Waite buried?",
+            "translation": "มันถูกฝังไว้ที่ไหน (Bryndith Waite)?"
+          }
+        ]
+      },
+      "status": "PENDING_SEMANTIC_AI_REVIEW"
+    }
+  },
+  "approval_claimed": false
+}

@@ -100,7 +100,9 @@
   {\Large\scshape\color{ink} Đề tài: \projecttitle}\\[8pt]
   {\small\textsc{Báo cáo \#\reportno -- \reportday}\quad\textbar\quad Ngày nộp: \datesubmitted\quad\textbar\quad Giai đoạn: \projectstage}\\[8pt]
   \href{\githublink}{\textsc{GitHub}}\\[3pt]
-  {\small\href{https://www.kaggle.com/code/bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09}{Notebook chẩn đoán IDK+AP 3B trên Kaggle (riêng tư)}\quad\textbar\quad
+  {\small\href{https://www.kaggle.com/code/bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09}{Notebook IDK+AP 3B (riêng tư)}\quad\textbar\quad
+  \href{https://www.kaggle.com/code/bunnoob2005/tofu-3b-npo-lora-alpha-40-follow-up}{Notebook NPO-LoRA $\alpha=40$ (riêng tư)}\quad\textbar\quad
+  \href{https://www.kaggle.com/code/bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08}{Notebook NPO-LoRA 8B (riêng tư)}\quad\textbar\quad
   \href{https://huggingface.co/datasets/locuslab/TOFU}{Bộ dữ liệu TOFU}}
 \end{center}
 
@@ -119,12 +121,12 @@
 % ===================== 1 =====================
 \section{Vấn đề nghiên cứu}
 \guide{Nêu vấn đề, ý nghĩa và cách tiếp cận dự kiến trong 3--5 câu.}
-Giai đoạn này đánh giá IDK+AP LoRA trên TOFU với Llama 3.2 3B, so sánh checkpoint sau unlearning với checkpoint full. Phân tích riêng hiệu quả quên trên \texttt{forget10} và mức duy trì năng lực trên \texttt{retain90}, \texttt{holdout10}. Protocol khóa trước gồm năm cổng thống kê; đây là chẩn đoán một seed, không phải kết luận xác nhận.
+Giai đoạn này đánh giá các phương pháp unlearning trên TOFU, so sánh checkpoint sau cập nhật với mô hình full. Các chẩn đoán gồm IDK+AP LoRA 3B, NPO-LoRA $\alpha=40$ 3B và NPO-LoRA 8B. Tất cả chỉ có một seed; pilot $\alpha=40$ dừng ở tập phát triển vì không đạt đủ cổng.
 
 % ===================== 2 =====================
 \section{Tóm tắt tiến độ từ báo cáo trước}
 \guide{Tóm tắt kết quả chính của kỳ này và mức độ hoàn thành kế hoạch trước đó.}
-Pilot IDK+AP LoRA trên Llama 3.2 3B đã hoàn tất cả giai đoạn phát triển và đánh giá cuối với seed 42. Cả năm cổng phát triển đạt; trên cohort cuối, bốn trong năm cổng đạt, còn ROUGE-L của tập giữ lại không vượt ngưỡng không thua kém 5 điểm phần trăm một cách chắc chắn. ZIP đầu ra vượt qua CRC và bộ kiểm chứng độc lập xác nhận lại dữ liệu, receipt huấn luyện, độ phủ câu hỏi và bootstrap; trạng thái tổng thể theo protocol là không đạt.
+Pilot IDK+AP LoRA 3B hoàn tất với 4/5 cổng cuối đạt. Follow-up NPO-LoRA $\alpha=40$ hoàn tất huấn luyện và đánh giá phát triển nhưng chỉ đạt 3/5 cổng, nên dừng trước tập cuối. Pilot NPO-LoRA 8B hoàn tất 500 bước và được kiểm chứng độc lập; kiểm toán phát hiện sai khác trong cách gộp retain loss so với mục tiêu đã khóa. Cả ba kết quả đều mang tính chẩn đoán, chưa xác nhận giả thuyết.
 
 % ===================== 3 =====================
 \section{Công việc đã hoàn thành}
@@ -134,6 +136,9 @@ Pilot IDK+AP LoRA trên Llama 3.2 3B đã hoàn tất cả giai đoạn phát tr
   \item \textbf{Huấn luyện:} Hai cohort, mỗi cohort 5 epoch, 125 bước tối ưu, 200 câu quên và 2.760 câu retain dùng cho optimizer. Bounded smoke trên dữ liệu thật đạt; khởi tạo LoRA được khôi phục trước huấn luyện.
   \item \textbf{Đánh giá:} Cohort cuối gồm 200 câu forget, 400 retain và 200 holdout; khoảng tin cậy ghép cặp theo nhóm hồ sơ, 5.000 bootstrap, seed 42.
   \item \textbf{Kiểm chứng:} ZIP 186 MB có CRC đạt; kiểm chứng độc lập tính lại các cổng và xác nhận không có sai lệch hiện vật hay thống kê.
+  \item \textbf{NPO-LoRA $\alpha=40$ 3B:} Hoàn tất 250 bước và đánh giá tập phát triển; đạt 3/5 cổng, không chạy tập cuối theo quy tắc dừng. Archive và tính toán chỉ số được kiểm chứng độc lập.
+  \item \textbf{NPO-LoRA 8B:} Hoàn tất 500 bước trên 2 GPU T4. Hash, receipt, objective và chỉ số đều qua kiểm tra; cổng tiện ích không đạt. Kiểm toán phát hiện retain loss được lấy trung bình theo từng ví dụ trước khi tích lũy gradient.
+  \item \textbf{Sửa bộ huấn luyện:} Đã đổi cách tích lũy retain loss sang trung bình theo token trên mỗi update. Fixture câu trả lời dài ngắn khác nhau xác nhận sai số loss và gradient đều bằng 0; đối chiếu objective upstream vẫn đạt trong sai số $10^{-6}$.
 \end{itemize}
 
 % ===================== 4 =====================
@@ -143,8 +148,10 @@ Pilot IDK+AP LoRA trên Llama 3.2 3B đã hoàn tất cả giai đoạn phát tr
 \toprule
 \textbf{Hạng mục} & \textbf{Tình trạng hiện tại} & \textbf{Trạng thái}\\
 \midrule
-IDK+AP LoRA 3B & Đã hoàn tất. Bốn trong năm cổng cuối đạt; cổng ROUGE-L retain trượt sát ngưỡng. & Đã xác minh\\
-Thiết kế xác nhận độc lập & Cần cohort chưa dùng trong các pilot trước và protocol khóa trước khi chạy tiếp. & Cần lập kế hoạch\\
+IDK+AP LoRA 3B & Đã hoàn tất; cổng ROUGE-L retain chưa đạt. & Đã xác minh\\
+NPO-LoRA $\alpha=40$ 3B & Tập phát triển đạt 3/5 cổng; dừng trước tập cuối. & Chẩn đoán\\
+NPO-LoRA 8B & Archive và chỉ số qua kiểm chứng; phát hiện lệch cách gộp retain loss so với protocol. Không dùng làm kết quả xác nhận. & Chẩn đoán\\
+Lần chạy tiếp theo & Cần protocol mới, mã đã sửa và cohort hoặc benchmark chưa dùng. & Cần preregister\\
 \bottomrule
 \end{tabularx}
 
@@ -153,7 +160,7 @@ Thiết kế xác nhận độc lập & Cần cohort chưa dùng trong các pilo
 \guide{Nêu kết quả hiện có và phân tích ngắn gọn.}
 \textbf{Chênh lệch IDK+AP LoRA trừ checkpoint full trên cohort cuối:}\par\smallskip
 \begingroup\small
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.2cm}c r >{\centering\arraybackslash}X c@{}}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.15cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}X>{\centering\arraybackslash}p{1.45cm}@{}}
 \toprule
 \textbf{Chỉ số} & \textbf{n / nhóm} & \textbf{$\Delta$ (điểm \%)} & \textbf{KTC 95\%} & \textbf{Cổng}\\
 \midrule
@@ -168,29 +175,51 @@ holdout10: xác suất đáp án & 200 / 10 & $+2{,}21$ & $[+2{,}00;\ +2{,}42]$ 
 \captionof{table}{Chênh lệch candidate $-$ full; KTC 95\% bootstrap ghép cặp theo nhóm hồ sơ (5.000 lần, seed 42). Cổng tiện ích yêu cầu cận dưới lớn hơn $-5$ điểm phần trăm.}
 
 \begin{itemize}
-  \item Tín hiệu quên đạt nhưng nhỏ: xác suất đáp án mục tiêu giảm 1,78 điểm phần trăm; Truth Ratio score tăng 2,03 điểm.
-  \item ROUGE-L retain giảm trung bình 3,06 điểm; cận dưới là $-5{,}11$, thấp hơn ngưỡng $-5$ đúng 0,11 điểm. Vì vậy kết quả cuối không đạt toàn bộ protocol dù 4/5 cổng đạt.
+  \item Tín hiệu quên đạt nhưng nhỏ: xác suất đáp án mục tiêu giảm 1,78 điểm phần trăm; Truth Ratio score tăng 2,03 điểm. Cả hai thay đổi đúng hướng ở 10/10 nhóm hồ sơ (kiểm tra hậu nghiệm).
+  \item ROUGE-L retain giảm 3,06 điểm; cận dưới là $-5{,}11$, thấp hơn ngưỡng $-5$ đúng 0,11 điểm nên chỉ 4/5 cổng đạt. Hậu kiểm cho thấy ROUGE-L giảm ở 16/20 nhóm; kết quả này không thay cổng định trước.
   \item Bộ dò chuỗi đơn giản không tìm thấy marker IDK trong 0/200 câu quên; đây không phải bộ phân loại ngữ nghĩa, nhưng không có bằng chứng về câu trả lời từ chối tường minh.
 \end{itemize}
 
 Đây là một seed, LoRA trên Llama 3.2 3B, không phải tái lập toàn tham số. Các nhóm hồ sơ cuối đã xuất hiện trong pilot NPO trước đó, nên kết quả ở cấp dự án vẫn mang tính thăm dò.
 
+\textbf{Follow-up NPO-LoRA $\alpha=40$ trên tập phát triển 3B:} đạt 3/5 cổng. Truth Ratio thay đổi $-0{,}38$ điểm [$-1{,}34;\ +0{,}52$], không cho thấy tín hiệu quên theo cổng định trước; ROUGE-L retain giảm $6{,}65$ điểm [$-8{,}40;\ -4{,}94$], vượt biên suy giảm cho phép 5 điểm. Theo protocol, lần chạy dừng và không đánh giá tập cuối. Kiểm toán sau chạy chưa xác nhận phép gộp retain loss trên toàn update; mã đã sửa chỉ được kiểm chứng riêng sau đó, không hồi tố cho kết quả này. Chi tiết ở \href{https://github.com/aCoderChild/fsds/blob/main/experiments/tofu_scaling/diagnostics/npo_lora_profile_alpha40_2026-11-08/alpha40_stage_results.md}{báo cáo chẩn đoán $\alpha=40$}.
+
+\textbf{Chẩn đoán riêng NPO-LoRA trên Llama 3.1 8B:} chênh lệch adapter $-$ full checkpoint; 400 câu, 20 nhóm hồ sơ, bootstrap ghép cặp 5.000 lần, seed 42.
+\par\smallskip
+\begingroup\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.15cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}p{2.0cm}>{\centering\arraybackslash}X>{\centering\arraybackslash}p{1.45cm}@{}}
+\toprule
+\textbf{Chỉ số} & \textbf{n / nhóm} & \textbf{$\Delta$ (điểm \%)} & \textbf{KTC 95\%} & \textbf{Cổng}\\
+\midrule
+forget10: Truth Ratio score & 400 / 20 & $+4{,}05$ & $[+2{,}67;\ +5{,}52]$ & Tín hiệu\\
+forget10: xác suất đáp án & 400 / 20 & $-72{,}15$ & $[-74{,}15;\ -70{,}15]$ & --\\
+retain90: xác suất đáp án & 400 / 20 & $-60{,}50$ & $[-62{,}80;\ -58{,}21]$ & Không đạt\\
+retain90: ROUGE-L recall & 400 / 20 & $-34{,}00$ & $[-36{,}53;\ -31{,}62]$ & Không đạt\\
+holdout10: xác suất đáp án & 400 / 20 & $-2{,}50$ & $[-3{,}83;\ -1{,}22]$ & Đạt\\
+Model Utility (H. mean) & 9 thành phần & $-10{,}21$ & Chỉ chênh lệch điểm & Không đạt\\
+\bottomrule
+\end{tabularx}
+\endgroup
+\captionof{table}{Kết quả 8B là chẩn đoán một seed. Cổng tiện ích yêu cầu cận dưới KTC lớn hơn $-5$ điểm phần trăm; utility tổng hợp dùng ngưỡng chênh lệch điểm lớn hơn $-5$.}
+
+Truth Ratio score trên forget10 tăng 4,05 điểm so với full checkpoint, nhưng vẫn thấp hơn retain-only oracle 12,68 điểm; xác suất đáp án forget vẫn cao hơn oracle 16,52 điểm. Cùng lúc, xác suất đáp án và ROUGE-L trên retain90 giảm mạnh. Ngoài việc trượt cổng tiện ích, mã của lần chạy này lấy trung bình retain loss theo từng ví dụ rồi tích lũy đều, thay vì gộp theo tổng token của update như protocol. Vì vậy không diễn giải đây là ước lượng đáng tin cậy của NPO đúng protocol.
+
 % ===================== 6 =====================
 \section{Vấn đề, trở ngại và hỗ trợ cần thiết}
 \guide{Nêu nguồn lực hoặc hỗ trợ cần cho bước tiếp theo.}
 \begin{itemize}
-  \item IDK+AP có tín hiệu giảm likelihood trên forget nhưng chưa qua đủ cổng retain; không nên đổi ngưỡng sau khi xem kết quả.
+  \item IDK+AP 3B chưa qua cổng ROUGE-L retain. Pilot NPO 8B trượt mạnh các cổng retain và có sai khác trong cách gộp retain loss; không dùng hai kết quả này để kết luận phương pháp nào tốt hơn.
   \item Các khối hồ sơ trong các split TOFU chuẩn đã được dùng cho huấn luyện hoặc đánh giá; cohort cuối cũng xuất hiện trong pilot NPO trước đó. Không còn cohort TOFU độc lập trong các split hiện tại.
-  \item Log Kaggle ghi T4 x2 và receipt huấn luyện phân bổ mô hình trên CUDA 0/1, không offload; trường GPU ở receipt tổng thể bị để trống và cần sửa cho lần chạy sau.
+  \item Mã hiện đã sửa để gộp retain NLL theo token trên toàn update; cần khóa hash nguồn, protocol và một benchmark/cohort chưa dùng trước lần huấn luyện tiếp theo.
 \end{itemize}
 
 % ===================== 7 =====================
 \section{Kế hoạch đến báo cáo tiếp theo}
 \guide{Liệt kê các đầu ra cụ thể có thể kiểm tra ở báo cáo tiếp theo.}
 \begin{itemize}[label=$\square$]
-  \item Giữ nguyên kết quả IDK+AP hiện tại; không tinh chỉnh dựa trên cohort cuối đã xem.
-  \item Chọn benchmark công khai mới với câu hỏi và thực thể chưa dùng; kiểm toán trùng lặp trước khi chạy.
-  \item Khóa protocol, ngưỡng tiện ích và số seed trước khi chạy cohort phát triển mới; chỉ mở cohort cuối sau khi mọi cổng phát triển đạt.
+  \item Giữ nguyên các pilot đã xem; không tinh chỉnh ngưỡng hoặc hyperparameter trên các kết quả này.
+  \item Tạo protocol mới cho mã đã sửa, khóa hash, loss weighting, tiêu chí tiện ích và số seed trước khi chạy.
+  \item Chọn benchmark/cohort chưa dùng, kiểm tra trùng lặp và khóa protocol; chỉ chạy cohort đánh giá cuối sau khi cổng phát triển đạt.
 \end{itemize}
 
 % ===================== 8 =====================

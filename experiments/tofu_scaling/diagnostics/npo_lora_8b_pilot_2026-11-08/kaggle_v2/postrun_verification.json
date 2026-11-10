@@ -1,0 +1,81 @@
+{
+  "kaggle_status": "COMPLETE",
+  "tracker_receipt_source": "prior accepted receipt in /Users/maianhpham/Documents/fsds/experiments/tofu_scaling/diagnostics/npo_lora_8b_pilot_2026-11-08/live_status.jsonl",
+  "tracker_checked_at_utc": "2026-11-09T05:05:46.636500+00:00",
+  "artifact_sha256": "91fad5f8df28b6e8f26dbaab93cc24797c3b36bbfcf2620e5cd5efdec9e61c9c",
+  "artifact_crc": "PASS",
+  "run_root": "/Users/maianhpham/Documents/fsds/experiments/tofu_scaling/diagnostics/npo_lora_8b_pilot_2026-11-08/kaggle_v2/extracted_archive/tofu_8b_npo_run_20261108T205627Z",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "training_receipt_status": "TRAINING_COMPLETE",
+  "training_global_steps": 500,
+  "training_protocol_alignment": {
+    "status": "FAIL_PROTOCOL_ALIGNMENT",
+    "training_script_sha256": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+    "training_script_hash_matches_receipt": true,
+    "protocol_expected_retain_reduction": "token mean over all scored retain tokens in one optimizer update",
+    "observed_retain_reduction": "PER_MICROBATCH_TOKEN_MEAN_EQUAL_WEIGHTED_ACROSS_ACCUMULATION",
+    "retain_weighting_matches_protocol": false,
+    "actual_batching": {
+      "forget_examples_per_microbatch": 1,
+      "retain_examples_per_microbatch": 1,
+      "gradient_accumulation_steps": 8
+    },
+    "receipt_batching_description": "2 forget + 2 retain examples per microbatch; effective paired batch 8",
+    "receipt_batching_description_matches_schedule": false
+  },
+  "training_verifier": "PASS",
+  "independent_metric_verifier": "PASS",
+  "objective_cross_runtime": "PASS",
+  "research_diagnostic_gate_status": "FAIL_DIAGNOSTIC_GATES",
+  "primary_result": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_delta_b_minus_a": 0.04049759203190909,
+    "profile_cluster_bootstrap_95pct_ci": [
+      0.026707521440950673,
+      0.055234789376596156
+    ],
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "utility_gates": {
+    "retain90.answer_probability": {
+      "delta": -0.605046131179074,
+      "ci95": [
+        -0.6279713559470926,
+        -0.5820702265454125
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.34000683652487884,
+      "ci95": [
+        -0.3653256831392628,
+        -0.31615362282979403
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "holdout10.answer_probability": {
+      "delta": -0.025027502191833372,
+      "ci95": [
+        -0.03827969515533735,
+        -0.012232167673479582
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": true
+    },
+    "model_utility.harmonic_mean": {
+      "baseline": 0.6370193562502499,
+      "npo": 0.5349665911632361,
+      "delta": -0.10205276508701377,
+      "noninferiority_margin": -0.05,
+      "pass": false,
+      "interval": null,
+      "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+    }
+  },
+  "artifact_integrity_status": "PASS",
+  "overall_status": "PASS_ARTIFACT_INTEGRITY_ONLY_PROTOCOL_DEVIATION"
+}

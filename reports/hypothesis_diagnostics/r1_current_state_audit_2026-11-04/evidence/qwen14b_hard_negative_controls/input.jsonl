@@ -1,0 +1,16 @@
+{"control_id": "HN001", "kind": "atomic", "language": "fr", "source": "Who is the father of [ENTITY_A]?", "translation": "Qui est la mère de [ENTITY_A] ?"}
+{"control_id": "HN002", "kind": "atomic", "language": "fr", "source": "On what date did [ENTITY_A] officially close?", "translation": "À quelle date [ENTITY_A] a-t-il officiellement ouvert ses portes ?"}
+{"control_id": "HN003", "kind": "composition", "language": "fr", "source": "Who is the mother of [ENTITY_A]?", "translation": "Qui est le père de [ENTITY_A] ?"}
+{"control_id": "HN004", "kind": "composition", "language": "fr", "source": "Who is the sibling of the person for whom the place where [ENTITY_A] worked was named?", "translation": "Qui est le conjoint de la personne pour qui le lieu où [ENTITY_A] travaillait a été nommé?"}
+{"control_id": "HN005", "kind": "atomic", "language": "de", "source": "Who is [ENTITY_A]'s mother?", "translation": "Wer ist [ENTITY_A]s Vater?"}
+{"control_id": "HN006", "kind": "atomic", "language": "de", "source": "In what year did [ENTITY_A] officially close?", "translation": "In welchem Jahr wurde [ENTITY_A] offiziell eröffnet?"}
+{"control_id": "HN007", "kind": "composition", "language": "de", "source": "Who is the significant person linked to the father of the person to whom the [ENTITY_A] is dedicated?", "translation": "Wer ist die bedeutende Person, die mit der Mutter der Person verbunden ist, der das [ENTITY_A] gewidmet ist?"}
+{"control_id": "HN008", "kind": "composition", "language": "de", "source": "Who is the editor of [ENTITY_A]?", "translation": "Wer ist der Direktor von [ENTITY_A]?"}
+{"control_id": "HN009", "kind": "atomic", "language": "hi", "source": "Who is [ENTITY_A]'s father?", "translation": "[ENTITY_A] की माँ कौन है?"}
+{"control_id": "HN010", "kind": "atomic", "language": "hi", "source": "On what date did [ENTITY_A] officially close?", "translation": "[ENTITY_A] को आधिकारिक तौर पर किस तारीख को खोला गया था?"}
+{"control_id": "HN011", "kind": "composition", "language": "hi", "source": "Which family does the father of the main subject of the [ENTITY_A] belong to?", "translation": "[ENTITY_A] के मुख्य विषय की माँ किस परिवार से संबंधित है?"}
+{"control_id": "HN012", "kind": "composition", "language": "hi", "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?", "translation": "[ENTITY_A] चालक दल के सदस्य का चालक दल का निदेशक कौन है?"}
+{"control_id": "HN013", "kind": "atomic", "language": "th", "source": "Who is the father of [ENTITY_A]?", "translation": "ใครคือแม่ของ [ENTITY_A]?"}
+{"control_id": "HN014", "kind": "atomic", "language": "th", "source": "In what year did [ENTITY_A] officially open?", "translation": "ในปีใดที่ [ENTITY_A] ได้ปิดงานอย่างเป็นทางการ?"}
+{"control_id": "HN015", "kind": "composition", "language": "th", "source": "Who is the father of [ENTITY_A]?", "translation": "ใครคือแม่ของ [ENTITY_A]?"}
+{"control_id": "HN016", "kind": "composition", "language": "th", "source": "Who is [ENTITY_A]'s sibling?", "translation": "ใครคือคู่ครองของ [ENTITY_A]?"}

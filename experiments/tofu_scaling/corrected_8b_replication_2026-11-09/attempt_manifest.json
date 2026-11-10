@@ -1,0 +1,548 @@
+{
+  "protocol_id": "tofu_8b_npo_lora_corrected_replication_v2",
+  "protocol_sha256": "142dcc0f2cdc93e6bf5d8742dd619dc71261dfdc2eb9399caa57821b5ef03aab",
+  "notebook_sha256": "9fc6fb752485d3c1492cf55e6a3dda953b5a2f4e95f9d1b17e572b7fff245f80",
+  "kernel_id": "bunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43",
+  "kaggle_version": 1,
+  "kaggle_url": "https://www.kaggle.com/code/bunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43",
+  "launched_at_local": "2026-11-09T16:32:33+0700",
+  "status": "RUNNING",
+  "training_started": false,
+  "result_available": false,
+  "confirmatory": false,
+  "note": "Kaggle resolved the pushed kernel to the title-derived slug; status polling uses this canonical ID.",
+  "events": [
+    {
+      "checked_at_local": "2026-11-09T16:34:42+07:00",
+      "status": "QUEUED",
+      "training_started": false
+    },
+    {
+      "checked_at_local": "2026-11-09T16:40:51+07:00",
+      "status": "QUEUED",
+      "training_started": false
+    },
+    {
+      "checked_at_local": "2026-11-09T16:46:21+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:47:09+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:47:55+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:48:41+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:49:27+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:50:13+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:50:59+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:51:46+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:52:33+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:53:19+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:54:05+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:54:52+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:55:39+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:56:25+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:57:11+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:57:58+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:58:44+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T16:59:31+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:00:17+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:01:03+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:01:50+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:02:36+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:03:22+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:04:08+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:04:54+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:05:40+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:06:27+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:07:13+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:07:59+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:08:45+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:09:31+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:10:17+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:11:03+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:11:49+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:12:36+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:13:22+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:14:10+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:14:56+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:15:42+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:16:28+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:17:15+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:18:01+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:18:46+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:19:33+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:20:20+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:21:06+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:21:51+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:22:37+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:23:24+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:24:10+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:24:56+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:25:43+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:26:29+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:27:16+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:28:02+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:28:48+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:29:34+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:30:20+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:31:07+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:31:53+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:32:39+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:33:26+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:34:13+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:34:59+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:35:45+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:36:31+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:37:17+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:38:04+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:38:50+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:39:37+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:40:23+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:41:10+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:41:56+07:00",
+      "status": "QUEUED",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.QUEUED\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:42:42+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:43:29+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:44:15+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:45:01+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:45:47+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:46:33+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:47:20+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:48:06+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:48:53+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:49:40+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:50:26+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:51:13+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:51:59+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:52:45+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:53:31+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:54:17+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:55:04+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:55:50+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:56:36+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:57:22+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:58:08+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:58:55+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T17:59:41+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:00:27+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:01:13+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:01:59+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:02:45+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:03:32+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:04:18+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:05:05+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    },
+    {
+      "checked_at_local": "2026-11-09T18:05:51+07:00",
+      "status": "RUNNING",
+      "detail": "Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})\nbunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43 has status \"KernelWorkerStatus.RUNNING\""
+    }
+  ],
+  "last_checked_local": "2026-11-09T18:05:51+07:00",
+  "kaggle_kernel_running": true
+}

@@ -1,0 +1,67 @@
+{
+  "status": "VERIFIED_AI_ONLY_POSITIVE_PROTOCOL_FAILURE",
+  "release_status": "NOT_A_RELEASE_GATE_OR_TRANSLATION_APPROVAL",
+  "rows": 16,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "0179d6f1cdcf9d98e238181726b21ec92681abebee216adc0261eed0fbb6ca85",
+  "review_script_sha256": "db54d547e9c1b2a36c639f869d607514116770ae346a95224bf62b0ef30bf4d3",
+  "submitted_script_sha256": "db54d547e9c1b2a36c639f869d607514116770ae346a95224bf62b0ef30bf4d3",
+  "submitted_script_matches_local": true,
+  "output_sha256": "994e115bf46e3813038527714417d4fe3c5f92e6ecf8d5a57fd33daacf08b3d1",
+  "run_log_sha256": "51505ab89ab18f2354e53ebc2b195a83968ed7e73023b6a2cc6c9dcec7dd1b66",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "counts": {
+    "duplicate_reason_key": 12,
+    "semantic_true_field": 16,
+    "fluency_true_field": 16,
+    "missing_reason": 4
+  },
+  "results_by_language_and_kind": {
+    "de/atomic": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 2
+    },
+    "de/composition": {
+      "semantic_true_field": 2,
+      "missing_reason": 1,
+      "duplicate_reason_key": 1
+    },
+    "fr/atomic": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 1,
+      "missing_reason": 1
+    },
+    "fr/composition": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 2
+    },
+    "hi/atomic": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 1,
+      "missing_reason": 1
+    },
+    "hi/composition": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 1,
+      "missing_reason": 1
+    },
+    "th/atomic": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 2
+    },
+    "th/composition": {
+      "semantic_true_field": 2,
+      "duplicate_reason_key": 2
+    }
+  },
+  "interpretation": "All 16 raw outputs contain true semantic and fluency boolean fields, but none is a schema-valid decision: 12 repeat the JSON key 'reason' and 4 omit it. Treat the booleans as diagnostic text only; strict review accepts 0/16 outputs.",
+  "limitations": [
+    "All base translations and back-translations were reviewed by AI only, not fluent human reviewers.",
+    "Pairs were selected for passing prior AI review; the set is a small consistency diagnostic, not an unbiased estimate of false-rejection rate.",
+    "This does not establish real-corpus precision, recall, or fluency accuracy."
+  ]
+}

@@ -1,0 +1,149 @@
+[{"stream_name":"stderr","time":19.907537683,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.907575019,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.907579739,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.907582545,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.907585261,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":28.441121819,"data":"bitsandbytes library load error: Configured CUDA binary not found at /usr/local/lib/python3.13/dist-packages/bitsandbytes/libbitsandbytes_cuda130.so\n"}
+,{"stream_name":"stderr","time":28.441160485,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":28.44116461,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/cextension.py\", line 290, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":28.441168379,"data":"    lib = get_native_library()\n"}
+,{"stream_name":"stderr","time":28.441171114,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/cextension.py\", line 270, in get_native_library\n"}
+,{"stream_name":"stderr","time":28.441173948,"data":"    raise RuntimeError(f\"Configured CUDA binary not found at {cuda_binary_path}\")\n"}
+,{"stream_name":"stderr","time":28.441176741,"data":"RuntimeError: Configured CUDA binary not found at /usr/local/lib/python3.13/dist-packages/bitsandbytes/libbitsandbytes_cuda130.so\n"}
+,{"stream_name":"stderr","time":58.832498831,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":58.832528616,"data":"I0000 00:00:1793721825.297364       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":131.217469315,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [01:08\u003c03:25, 68.51s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:08\u003c00:00, 17.13s/it]\n"}
+,{"stream_name":"stderr","time":136.296426712,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":138.374481554,"data":"\rLoading checkpoint shards:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:   0%|          | 0/4 [00:01\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":138.396754715,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":138.399530568,"data":"  File \"/kaggle/src/script.py\", line 13, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":138.39954517,"data":"    model = AutoModelForCausalLM.from_pretrained(model_id, revision=revision, quantization_config=BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.float16), device_map=\"auto\")\n"}
+,{"stream_name":"stderr","time":138.399554075,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/auto/auto_factory.py\", line 571, in from_pretrained\n"}
+,{"stream_name":"stderr","time":138.399560732,"data":"    return model_class.from_pretrained(\n"}
+,{"stream_name":"stderr","time":138.399565802,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.399597624,"data":"        pretrained_model_name_or_path, *model_args, config=config, **hub_kwargs, **kwargs\n"}
+,{"stream_name":"stderr","time":138.399602764,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399606641,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399610215,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399613964,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 279, in _wrapper\n"}
+,{"stream_name":"stderr","time":138.399641644,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.399645228,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4399, in from_pretrained\n"}
+,{"stream_name":"stderr","time":138.399648675,"data":"    ) = cls._load_pretrained_model(\n"}
+,{"stream_name":"stderr","time":138.399672415,"data":"        ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.399676848,"data":"        model,\n"}
+,{"stream_name":"stderr","time":138.399680798,"data":"        ^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399684956,"data":"    ...\u003c13 lines\u003e...\n"}
+,{"stream_name":"stderr","time":138.399689764,"data":"        weights_only=weights_only,\n"}
+,{"stream_name":"stderr","time":138.399694208,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399698553,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399702371,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399706096,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 4833, in _load_pretrained_model\n"}
+,{"stream_name":"stderr","time":138.399710475,"data":"    disk_offload_index, cpu_offload_index = _load_state_dict_into_meta_model(\n"}
+,{"stream_name":"stderr","time":138.399714538,"data":"                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.399720837,"data":"        model_to_load,\n"}
+,{"stream_name":"stderr","time":138.399728624,"data":"        ^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399731244,"data":"    ...\u003c13 lines\u003e...\n"}
+,{"stream_name":"stderr","time":138.399733899,"data":"        device_mesh=device_mesh,\n"}
+,{"stream_name":"stderr","time":138.399736594,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399739154,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399741995,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399744479,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py\", line 124, in decorate_context\n"}
+,{"stream_name":"stderr","time":138.399747358,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.399749879,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py\", line 827, in _load_state_dict_into_meta_model\n"}
+,{"stream_name":"stderr","time":138.39975267,"data":"    hf_quantizer.create_quantized_param(\n"}
+,{"stream_name":"stderr","time":138.399756462,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.399773701,"data":"        model, param, param_name, param_device, state_dict, unexpected_keys\n"}
+,{"stream_name":"stderr","time":138.399778497,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399783184,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399787878,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399794155,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/quantizers/quantizer_bnb_4bit.py\", line 243, in create_quantized_param\n"}
+,{"stream_name":"stderr","time":138.399811238,"data":"    new_value = bnb.nn.Params4bit(new_value, requires_grad=False, **kwargs).to(target_device)\n"}
+,{"stream_name":"stderr","time":138.399815529,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/nn/modules.py\", line 336, in to\n"}
+,{"stream_name":"stderr","time":138.399819655,"data":"    return self._quantize(device)\n"}
+,{"stream_name":"stderr","time":138.399823351,"data":"           ~~~~~~~~~~~~~~^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.39982741,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/nn/modules.py\", line 295, in _quantize\n"}
+,{"stream_name":"stderr","time":138.399831602,"data":"    w_4bit, quant_state = bnb.functional.quantize_4bit(\n"}
+,{"stream_name":"stderr","time":138.399835613,"data":"                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.39984153,"data":"        w,\n"}
+,{"stream_name":"stderr","time":138.399849002,"data":"        ^^\n"}
+,{"stream_name":"stderr","time":138.399851628,"data":"    ...\u003c3 lines\u003e...\n"}
+,{"stream_name":"stderr","time":138.399854267,"data":"        quant_storage=self.quant_storage,\n"}
+,{"stream_name":"stderr","time":138.399857576,"data":"        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399874047,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399878239,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399882655,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/functional.py\", line 1008, in quantize_4bit\n"}
+,{"stream_name":"stderr","time":138.399887276,"data":"    _out, _absmax = torch.ops.bitsandbytes.quantize_4bit.default(\n"}
+,{"stream_name":"stderr","time":138.399892001,"data":"                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n"}
+,{"stream_name":"stderr","time":138.399896422,"data":"        A,\n"}
+,{"stream_name":"stderr","time":138.399900202,"data":"        ^^\n"}
+,{"stream_name":"stderr","time":138.399903864,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":138.399907715,"data":"        quant_storage,\n"}
+,{"stream_name":"stderr","time":138.399911528,"data":"        ^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399915359,"data":"    )\n"}
+,{"stream_name":"stderr","time":138.399918963,"data":"    ^\n"}
+,{"stream_name":"stderr","time":138.399922693,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_ops.py\", line 865, in __call__\n"}
+,{"stream_name":"stderr","time":138.399926828,"data":"    return self._op(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.399930624,"data":"           ~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399934413,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_compile.py\", line 54, in inner\n"}
+,{"stream_name":"stderr","time":138.399938444,"data":"    return disable_fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.399945546,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_dynamo/eval_frame.py\", line 1263, in _fn\n"}
+,{"stream_name":"stderr","time":138.399952118,"data":"    return fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.39996005,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/library.py\", line 751, in func_no_dynamo\n"}
+,{"stream_name":"stderr","time":138.399976762,"data":"    return func(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":138.399981401,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/backends/cuda/ops.py\", line 326, in _\n"}
+,{"stream_name":"stderr","time":138.399991209,"data":"    lib.cquantize_blockwise_fp16_fp4(*args)\n"}
+,{"stream_name":"stderr","time":138.399996266,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^\n"}
+,{"stream_name":"stderr","time":138.399999627,"data":"  File \"/usr/local/lib/python3.13/dist-packages/bitsandbytes/cextension.py\", line 251, in throw_on_call\n"}
+,{"stream_name":"stderr","time":138.400004203,"data":"    raise RuntimeError(f\"{self.formatted_error}Native code method attempted to call: lib.{name}()\")\n"}
+,{"stream_name":"stderr","time":138.400008992,"data":"RuntimeError: \n"}
+,{"stream_name":"stderr","time":138.400013307,"data":"🚨 CUDA VERSION MISMATCH 🚨\n"}
+,{"stream_name":"stderr","time":138.400039914,"data":"Requested CUDA version:          13.0\n"}
+,{"stream_name":"stderr","time":138.400043805,"data":"Detected PyTorch CUDA version:   13.0\n"}
+,{"stream_name":"stderr","time":138.400047419,"data":"Available pre-compiled versions: \n"}
+,{"stream_name":"stderr","time":138.400051215,"data":"  - 11.8\n"}
+,{"stream_name":"stderr","time":138.400054871,"data":"  - 12.0\n"}
+,{"stream_name":"stderr","time":138.400058506,"data":"  - 12.1\n"}
+,{"stream_name":"stderr","time":138.400062444,"data":"  - 12.2\n"}
+,{"stream_name":"stderr","time":138.400070456,"data":"  - 12.3\n"}
+,{"stream_name":"stderr","time":138.40007453,"data":"  - 12.4\n"}
+,{"stream_name":"stderr","time":138.400078617,"data":"  - 12.5\n"}
+,{"stream_name":"stderr","time":138.400082776,"data":"  - 12.6\n"}
+,{"stream_name":"stderr","time":138.40008667,"data":"  - 12.8\n"}
+,{"stream_name":"stderr","time":138.400091036,"data":"  - 12.9\n"}
+,{"stream_name":"stderr","time":138.400094997,"data":"\n"}
+,{"stream_name":"stderr","time":138.400098888,"data":"This means:\n"}
+,{"stream_name":"stderr","time":138.400103487,"data":"The version you're trying to use is NOT distributed with this package\n"}
+,{"stream_name":"stderr","time":138.400107484,"data":"\n"}
+,{"stream_name":"stderr","time":138.40011211,"data":"Attempted to use bitsandbytes native library functionality but it's not available.\n"}
+,{"stream_name":"stderr","time":138.400116349,"data":"\n"}
+,{"stream_name":"stderr","time":138.400120734,"data":"This typically happens when:\n"}
+,{"stream_name":"stderr","time":138.40012487,"data":"1. bitsandbytes doesn't ship with a pre-compiled binary for your CUDA version\n"}
+,{"stream_name":"stderr","time":138.400129077,"data":"2. The library wasn't compiled properly during installation from source\n"}
+,{"stream_name":"stderr","time":138.400133251,"data":"\n"}
+,{"stream_name":"stderr","time":138.400137588,"data":"To make bitsandbytes work, the compiled library version MUST exactly match the linked CUDA version.\n"}
+,{"stream_name":"stderr","time":138.400141935,"data":"If your CUDA version doesn't have a pre-compiled binary, you MUST compile from source.\n"}
+,{"stream_name":"stderr","time":138.400146702,"data":"\n"}
+,{"stream_name":"stderr","time":138.400150845,"data":"You have two options:\n"}
+,{"stream_name":"stderr","time":138.400163346,"data":"1. COMPILE FROM SOURCE (required if no binary exists):\n"}
+,{"stream_name":"stderr","time":138.400167231,"data":"   https://huggingface.co/docs/bitsandbytes/main/en/installation#cuda-compile\n"}
+,{"stream_name":"stderr","time":138.400171291,"data":"2. Use BNB_CUDA_VERSION to specify a DIFFERENT CUDA version from the detected one, which is installed on your machine and matching an available pre-compiled version listed above\n"}
+,{"stream_name":"stderr","time":138.400175709,"data":"\n"}
+,{"stream_name":"stderr","time":138.400179444,"data":"Original error: Configured CUDA binary not found at /usr/local/lib/python3.13/dist-packages/bitsandbytes/libbitsandbytes_cuda130.so\n"}
+,{"stream_name":"stderr","time":138.400189719,"data":"\n"}
+,{"stream_name":"stderr","time":138.400193552,"data":"🔍 Run this command for detailed diagnostics:\n"}
+,{"stream_name":"stderr","time":138.40019758,"data":"python -m bitsandbytes\n"}
+,{"stream_name":"stderr","time":138.40020132,"data":"\n"}
+,{"stream_name":"stderr","time":138.400205196,"data":"If you've tried everything and still have issues:\n"}
+,{"stream_name":"stderr","time":138.400211063,"data":"1. Include ALL version info (operating system, bitsandbytes, pytorch, cuda, python)\n"}
+,{"stream_name":"stderr","time":138.400219895,"data":"2. Describe what you've tried in detail\n"}
+,{"stream_name":"stderr","time":138.4002227,"data":"3. Open an issue with this information:\n"}
+,{"stream_name":"stderr","time":138.400225395,"data":"   https://github.com/bitsandbytes-foundation/bitsandbytes/issues\n"}
+,{"stream_name":"stderr","time":138.40022807,"data":"\n"}
+,{"stream_name":"stderr","time":138.400230538,"data":"Native code method attempted to call: lib.cquantize_blockwise_fp16_fp4()\n"}
+,{"stream_name":"stderr","time":146.098734514,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":146.098769845,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":146.416975716,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":146.417002878,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":147.27535797,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":148.069555901,"data":"[NbConvertApp] Writing 291266 bytes to __results__.html\n"}
+]

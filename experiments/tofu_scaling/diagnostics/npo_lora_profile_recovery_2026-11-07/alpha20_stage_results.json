@@ -1,0 +1,304 @@
+{
+  "study_type": "One-seed exploratory TOFU profile-cohort follow-up; not confirmatory and not standard full-split TOFU evaluation.",
+  "kaggle_kernel": "https://www.kaggle.com/code/bunnoob2005/tofu-3b-npo-profile-recovery-resume",
+  "kernel_version": 3,
+  "kernel_status": "bunnoob2005/tofu-3b-npo-profile-recovery-resume has status \"KernelWorkerStatus.COMPLETE\"",
+  "run_status": "NO_DEV_CANDIDATE_PASSES",
+  "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+  "model_revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+  "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+  "seed": 42,
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "candidate_alpha_retain": {
+    "5": {
+      "status": "FAIL_DIAGNOSTIC_GATES",
+      "all_gates_pass": false,
+      "training_steps": 250,
+      "runtime_seconds": 936.41,
+      "metrics": {
+        "forget10.truth_ratio_score": {
+          "delta": 0.07565177888571552,
+          "ci95": [
+            0.06227041089108198,
+            0.08787794536290815
+          ],
+          "rule": "lower_gt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "forget10.answer_probability": {
+          "delta": -0.4814633349937602,
+          "ci95": [
+            -0.5037333264624141,
+            -0.4547997638120179
+          ],
+          "rule": "upper_lt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "retain90.answer_probability": {
+          "delta": -0.4344823152275732,
+          "ci95": [
+            -0.4503654405618481,
+            -0.4207757432396446
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": false,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "retain90.rougeL_recall": {
+          "delta": -0.3172881650317158,
+          "ci95": [
+            -0.33917101514629244,
+            -0.29373029494716424
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": false,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "holdout10.answer_probability": {
+          "delta": 0.033636520755738857,
+          "ci95": [
+            0.022289218818812642,
+            0.04275080641868415
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        }
+      }
+    },
+    "10": {
+      "status": "FAIL_DIAGNOSTIC_GATES",
+      "all_gates_pass": false,
+      "training_steps": 250,
+      "runtime_seconds": 847.69,
+      "metrics": {
+        "forget10.truth_ratio_score": {
+          "delta": 0.052205094762340476,
+          "ci95": [
+            0.03840348757174254,
+            0.06526519961695688
+          ],
+          "rule": "lower_gt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "forget10.answer_probability": {
+          "delta": -0.32449924944313546,
+          "ci95": [
+            -0.35043717170232336,
+            -0.2964395614098969
+          ],
+          "rule": "upper_lt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "retain90.answer_probability": {
+          "delta": -0.2459670176887377,
+          "ci95": [
+            -0.2602022112959373,
+            -0.23295512821555905
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": false,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "retain90.rougeL_recall": {
+          "delta": -0.2557284911925114,
+          "ci95": [
+            -0.28365838459455484,
+            -0.22663155558254572
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": false,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "holdout10.answer_probability": {
+          "delta": 0.05363397470382881,
+          "ci95": [
+            0.04836224908535213,
+            0.05821746264510194
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        }
+      }
+    },
+    "20": {
+      "status": "FAIL_DIAGNOSTIC_GATES",
+      "all_gates_pass": false,
+      "training_steps": 250,
+      "runtime_seconds": 893.39,
+      "metrics": {
+        "forget10.truth_ratio_score": {
+          "delta": 0.008000690777331466,
+          "ci95": [
+            0.002636712105872357,
+            0.01345997090100702
+          ],
+          "rule": "lower_gt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "forget10.answer_probability": {
+          "delta": -0.15281888304111355,
+          "ci95": [
+            -0.17663143509180962,
+            -0.131225808640464
+          ],
+          "rule": "upper_lt_zero",
+          "threshold": 0.0,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        },
+        "retain90.answer_probability": {
+          "delta": -0.03138908139471122,
+          "ci95": [
+            -0.035243718516098886,
+            -0.02753841205713703
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": true,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "retain90.rougeL_recall": {
+          "delta": -0.07080061099243601,
+          "ci95": [
+            -0.09616365560380727,
+            -0.04647346463532345
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": false,
+          "n_questions": 400,
+          "n_profile_blocks": 20
+        },
+        "holdout10.answer_probability": {
+          "delta": 0.005739219565496395,
+          "ci95": [
+            0.004257289637079429,
+            0.007078890416455379
+          ],
+          "rule": "lower_gt_minus_margin",
+          "threshold": -0.05,
+          "pass": true,
+          "n_questions": 200,
+          "n_profile_blocks": 10
+        }
+      }
+    }
+  },
+  "development_evaluation_rows_per_candidate": {
+    "forget10": 200,
+    "retain90": 400,
+    "holdout10": 200
+  },
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 42,
+    "unit": "profile block, paired by source row index"
+  },
+  "dataset_input_truncation": false,
+  "cpu_or_disk_offload": false,
+  "selected_alpha_retain": null,
+  "final_training_started": false,
+  "independent_verification": {
+    "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+    "problems": [],
+    "run_status": "NO_DEV_CANDIDATE_PASSES",
+    "selected_alpha_retain": null,
+    "verified_development_attempts": [
+      {
+        "alpha_retain": 5.0,
+        "gate_status": "FAIL_DIAGNOSTIC_GATES"
+      },
+      {
+        "alpha_retain": 10.0,
+        "gate_status": "FAIL_DIAGNOSTIC_GATES"
+      },
+      {
+        "alpha_retain": 20.0,
+        "gate_status": "FAIL_DIAGNOSTIC_GATES"
+      }
+    ],
+    "artifact_zip": {
+      "crc": "PASS",
+      "bad_file": null
+    },
+    "training_started": true,
+    "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a"
+  },
+  "artifact_archive": {
+    "path": "experiments/tofu_scaling/diagnostics/npo_lora_profile_recovery_2026-11-07/kaggle_output_v3/tofu_npo_profile_recovery_artifacts_resumed_v3.zip",
+    "bytes": 280226756,
+    "sha256": "68b72db9abc1c6120e74397f3e495a97b2e2c3b1c1205f212408948136e45c02",
+    "crc": "PASS",
+    "members": 61
+  },
+  "analysis": "Alpha=20 passes four of five gates, but the retain-set ROUGE-L non-inferiority gate fails. The preregistered rule therefore rejects all candidates and correctly stops before final-cohort training.",
+  "recorded_at_utc": "2026-11-08T06:43:11.301440+00:00",
+  "posthoc_descriptive_retain_generation_analysis": {
+    "label": "post-hoc descriptive only; not part of preregistered gate",
+    "retain90_n": 400,
+    "generation_text_changed_vs_full_checkpoint": 160,
+    "rougeL_delta_counts": {
+      "lower": 101,
+      "unchanged": 277,
+      "higher": 22
+    },
+    "profile_blocks_with_negative_mean_rougeL_delta": 19,
+    "profile_block_count": 20,
+    "block_mean_rougeL_delta_pp": {
+      "60": -2.762,
+      "61": -4.6,
+      "62": -13.118,
+      "63": -3.908,
+      "64": -0.65,
+      "65": -4.278,
+      "66": -5.703,
+      "67": -6.272,
+      "68": -20.281,
+      "69": -15.798,
+      "70": -7.899,
+      "71": -4.939,
+      "72": -2.257,
+      "73": -5.559,
+      "74": -12.768,
+      "75": -8.497,
+      "76": -6.895,
+      "77": -16.644,
+      "78": -0.772,
+      "79": 2.001
+    }
+  }
+}

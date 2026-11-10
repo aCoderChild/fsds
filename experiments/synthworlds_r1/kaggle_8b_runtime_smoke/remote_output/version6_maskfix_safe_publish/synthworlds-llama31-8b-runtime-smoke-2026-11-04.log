@@ -1,0 +1,18 @@
+[{"stream_name":"stderr","time":6.223721383,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.223775394,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.223780593,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.223784584,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.782609873,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.782649673,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.782654953,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.782658983,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":7.782995917,"data":"Safe setup only. Enable Internet, select HF_TOKEN under Add-ons → Secrets, set RUN_ACCESS_PREFLIGHT=True, and run this cell. After a pass, enable GPU and run the smoke separately.\n"}
+,{"stream_name":"stderr","time":10.225615548,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10.225654008,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10.384639702,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10.384669022,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":11.065398137,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":11.127966965,"data":"[NbConvertApp] Writing 29661 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13.548151247,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13.980998221,"data":"[NbConvertApp] Writing 331022 bytes to __results__.html\n"}
+]

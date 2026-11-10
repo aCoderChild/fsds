@@ -1,0 +1,68 @@
+{
+  "cross_split_exact_chain_fact_collisions": 0,
+  "cross_split_exact_target_fact_collisions": 0,
+  "cross_split_same_gold_answer_collisions": 0,
+  "eligible_type_a": 130,
+  "entity_disjoint": false,
+  "entity_overlap_pairs": {
+    "all_pairs": 41,
+    "cross_split_pairs": 9
+  },
+  "excluded_sft_unusable": [],
+  "fact_group_count": 112,
+  "group_size_histogram": {
+    "1": 98,
+    "2": 12,
+    "4": 2
+  },
+  "holdout_chain_fact_count_excluded": 52,
+  "notes": [
+    "Source facts lack independent relation PIDs; relation IDs come from graph metadata.",
+    "Single-hop Q1/Q2 natural-language semantics are structurally checked, not independently human-certified.",
+    "r2 answers may equal final multi-hop answer entities; this is intrinsic to the required support fact.",
+    "No whole facts rows, full documents, composed multi-hop queries, or gold_answers fields in SFT.",
+    "Split remains proposed; SFT records remain candidates and are not approved."
+  ],
+  "other_graph_types_excluded": 1000,
+  "proposed_split_counts": {
+    "forget": 78,
+    "holdout": 26,
+    "retain": 26
+  },
+  "sft_en_qa_hop_records": 206,
+  "sft_quarantined_cases": [
+    {
+      "graph_relation_str": "[participant → Irvin Oathen → end time]",
+      "proposed_split_unchanged": "forget",
+      "q2": "In what year did Irvin Oathen cease to be a participant in the <bridge>Tempest of Nations</bridge>?",
+      "reason": "R2_GRAPH_RELATION_VS_SOURCE_FACT_INCONSISTENT",
+      "source_qa_id": "0080-qa-sm",
+      "verified_source_r2_fact": "Tempest of Nations (Q33143) → participant → Irvin Thorne (Q131981) → end time → 1799 (year)"
+    }
+  ],
+  "shared_entity_qid_basis": "graph nodes, gold_qids, entity_rename_map keys, and qualified relation subject QIDs",
+  "source_checksums": {
+    "documents": {
+      "bytes": 6461576,
+      "filename": "qa-sm-docs.jsonl",
+      "rows": 6290,
+      "sha256": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe"
+    },
+    "facts": {
+      "bytes": 13742781,
+      "filename": "qa-sm-facts.jsonl",
+      "rows": 6290,
+      "sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e"
+    },
+    "qa": {
+      "bytes": 8948814,
+      "filename": "qa-sm.jsonl",
+      "rows": 1200,
+      "sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+    }
+  },
+  "source_integrity": "PASSED",
+  "status": "VERIFIED_PROPOSAL_NOT_APPROVED",
+  "type_a_excluded": 70,
+  "unique_sft_fact_ids": 204
+}

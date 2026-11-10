@@ -1,0 +1,11 @@
+{
+  "title": "SynthWorlds-SM SFT Feasibility Pilot v3",
+  "id": "bunnoob2005/synthworlds-sm-sft-pilot-v3",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-4.0"
+    }
+  ],
+  "description": "Private research feasibility-pilot package with user-authorized AI-only translations. No fluent human review; not human-validated multilingual data. Updated runner uses one T4 GPU and FP16 LoRA to fit Kaggle hardware.",
+  "isPrivate": true
+}

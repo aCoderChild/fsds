@@ -1,0 +1,62 @@
+{
+  "answers_sent_to_reviewer": false,
+  "created_at_utc": "2026-11-03T15:06:54.259314+00:00",
+  "decisions_checkpoint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "human_translation_reviewed": false,
+  "limits": [
+    "This run creates repair candidates only; it does not modify source translations or release manifests.",
+    "Qwen2.5 7B review is AI-only and does not certify fluent-human translation quality.",
+    "A passing repair candidate is not automatically eligible for training; the frozen release review must be rerun."
+  ],
+  "per_language_kind": {
+    "de": {
+      "atomic": {},
+      "composition": {}
+    },
+    "fr": {
+      "atomic": {},
+      "composition": {}
+    },
+    "hi": {
+      "atomic": {},
+      "composition": {}
+    },
+    "th": {
+      "atomic": {},
+      "composition": {}
+    }
+  },
+  "processed_rows": 0,
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "script_sha256": "9fb59acc78fca9c1314d92cd9f3c95fcd931afb8df27a32f2d05cf803dc46313",
+  "selected_by_language": {
+    "de": 8,
+    "fr": 8,
+    "hi": 8,
+    "th": 8
+  },
+  "selected_rows": 32,
+  "selection_rule": "first 4 first-stage flagged rows per language/kind in stable hash order",
+  "source": {
+    "helper_scripts_sha256": {
+      "scripts/draft_eval_translations_nllb.py": "2d62a0f6dca9c859a404ac28f2faed222973f6c6cf5c27c87e112956992ebd7c",
+      "scripts/repair_flagged_eval_translations_translategemma.py": "2419eaa909157eb505d3722134f53564ef36606145025e281a16e0e73ce7884e",
+      "training_release_draft/scripts/review_training_translations_qwen.py": "2b324e8e015ec5f6b3e5638677b88a5aeea01fb24002fb79342680595fcdfedf"
+    },
+    "limit_per_cell": 4,
+    "model_digests": {
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "review_report_sha256": "b5cdfcf944366f64b3e6110d412e78b2c2b3b53380400e020f98df96e45b41d6",
+    "review_sha256_by_language": {
+      "de": "e3850e8d4b5600985a20a7f5517b571cb832f20db0057f776bdcd7c67c78af9f",
+      "fr": "871bdf0f91de439e2e67d1e95d10e2e4db895d6b0a8e061a19a7deab29e7b469",
+      "hi": "0cc789e1a46c99e3ef03e8827694e055c7d45820a44dd3cfce11da2e0063cfbb",
+      "th": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb"
+    }
+  },
+  "status": "IN_PROGRESS_DIAGNOSTIC_ONLY",
+  "translator_model": "ollama:translategemma:4b",
+  "updated_at_utc": "2026-11-03T15:06:54.259453+00:00"
+}

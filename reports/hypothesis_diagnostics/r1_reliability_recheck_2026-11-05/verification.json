@@ -1,451 +1,20 @@
 {
-  "available_hypothesis_result": {
-    "baseline_competence_gate": "FAIL_IN_ALL_FOUR_TARGET_LANGUAGES",
-    "derived_outputs_byte_identical": 7,
-    "independent_rescore": "PASS_INDEPENDENT_SCORE_REPRODUCTION_EXPLORATORY_ONLY",
-    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
-    "prediction_rows": 7740,
-    "seeds": [
-      42
-    ],
-    "status": "EXPLORATORY_ONLY"
-  },
-  "fixture_suite": {
-    "scope": "synthetic software fixtures; no model weights or GPU",
-    "status": "PASS",
-    "tests_failed": 0,
-    "tests_passed": 35
-  },
-  "kaggle_8b_runtime_smoke": {
-    "interactive_editor_session": "OFF",
-    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
-    "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
-    "npo_optimizer_steps_completed": 1,
-    "receipt_path": "experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/r1_8b_runtime_smoke.json",
-    "research_data_loaded": false,
-    "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
-    "scope_note": "Only the open runtime-smoke notebook was inspected; other Kaggle kernels were not checked.",
-    "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
-    "trainer_global_step": 1
-  },
-  "latest_recheck": {
-    "kaggle_kernel_status": {
-      "checked_count": 21,
-      "checked_kernels": [
-        {
-          "ref": "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-gap187-alias-retry-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-gap187-candidate-review-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-third-key-retry-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-third-qwen-retry-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/sw-third-marker-retry-2026-11-05",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-r1-blocked-qwen-recheck-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-r1-placeholder-alias-probe-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/swsm-qwen3-pilot-paired-review-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/qwen3-pilot-qwen14-review-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-mistral-cross-review-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-third-candidate-review-2026-11-04",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-r1-tg-complement-review-v1",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/synthworlds-translation-repair-retry-v1",
-          "status": "KernelWorkerStatus.COMPLETE"
-        },
-        {
-          "ref": "bunnoob2005/experiments",
-          "status": "KernelWorkerStatus.COMPLETE"
-        }
-      ],
-      "complete_count": 21,
-      "running_count": 0,
-      "source": "kaggle kernels list --mine (20 returned) plus direct status query for bunnoob2005/experiments",
-      "status_checked_at_utc": "2026-11-05T07:09:35+00:00",
-      "status_scope": "20 most recently listed kernels plus experiments; not every historical account kernel"
-    },
-    "observed_at_utc": "2026-11-05T07:09:35+00:00",
-    "offline_fixture_suite": {
-      "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
-      "scope": "synthetic fixtures; no model weights or research training",
-      "status": "PASS",
-      "tests_failed": 0,
-      "tests_passed": 35
-    },
-    "prepared_notebook": {
-      "command": "python -B experiments/synthworlds_r1/kaggle_8b_runtime_smoke/verify_prepared_notebook.py",
-      "gpu_enabled_at_publish": false,
-      "internet_enabled_at_publish": false,
-      "research_data_attached": false,
-      "run_flags_safe": true,
-      "status": "VERIFIED_PREPARED_NOTEBOOK_SAFE_TO_PUBLISH"
-    },
-    "prepared_source_integrity": {
-      "canonical_sft_ids": 488,
-      "command": "python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only",
-      "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
-    },
-    "runtime_smoke_receipt": {
-      "command": "python -B experiments/synthworlds_r1/kaggle_8b_runtime_smoke/verify_receipt.py experiments/synthworlds_r1/kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/r1_8b_runtime_smoke.json",
+  "bounded_verification": {
+    "8b_runtime_smoke": {
+      "assistant_supervised_tokens": 2,
+      "loss_mask_method": "single_render_fast_tokenizer_offsets",
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
       "npo_optimizer_steps_completed": 1,
       "research_data_loaded": false,
+      "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
       "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
-      "trainer_global_step": 1
+      "trainer_global_step": 1,
+      "trainer_train_loss": 0.02475927211344242,
+      "warning": "Runtime compatibility check only; not SFT, unlearning, or a hypothesis result."
     },
-    "training_release_gate": {
-      "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
-      "corpus_exists": false,
-      "eligible_composition_chains": "0/44",
-      "eligible_forget_cases": "5/117",
-      "eligible_retain_cases": "3/39",
-      "manifest_exists": false,
-      "status": "BLOCKED_AS_DESIGNED"
-    }
-  },
-  "limitations": [
-    "AI-only translation review; no fluent-human audit",
-    "one-seed 1B pilot is not confirmatory",
-    "pilot raw unlearning manifests omitted the unlearning-script hash",
-    "Kaggle editor check applies to the open runtime-smoke notebook, not every account kernel"
-  ],
-  "main_study_status": "NO_APPROVED_CORPUS_OR_LOCAL_TRAINING_RUN; ALTERNATIVE_AI_TRANSLATION_CANDIDATES_FAILED_RELEASE_REVIEW",
-  "nllb_candidate_screen": {
-    "accelerator": [
-      "Tesla T4",
-      "Tesla T4"
-    ],
-    "answers_or_split_labels_included": false,
-    "candidate_error_detail": {
-      "alias_multiset_mismatch": 123,
-      "backtranslation_alias_failure_rows": 1,
-      "no_protected_marker_rows": 1,
-      "one_marker_rows": 117,
-      "two_marker_rows": 6
-    },
-    "completed_at_utc": "2026-11-05T06:03:25.737896+00:00",
-    "counts": {
-      "blocked": 125,
-      "candidate_rows": 24,
-      "fluency_pass": 22,
-      "joint_pass": 3,
-      "reviewed": 23,
-      "semantic_pass": 4
-    },
-    "counts_by_language": {
-      "de": {
-        "blocked": 2,
-        "candidate_rows": 10,
-        "fluency_pass": 8,
-        "joint_pass": 3,
-        "reviewed": 9,
-        "semantic_pass": 4
-      },
-      "fr": {
-        "candidate_rows": 12,
-        "fluency_pass": 12,
-        "joint_pass": 0,
-        "reviewed": 12,
-        "semantic_pass": 0
-      },
-      "hi": {
-        "blocked": 52
-      },
-      "th": {
-        "blocked": 71,
-        "candidate_rows": 2,
-        "fluency_pass": 2,
-        "joint_pass": 0,
-        "reviewed": 2,
-        "semantic_pass": 0
-      }
-    },
-    "elapsed_seconds": 490.338,
-    "human_translation_reviewed": false,
-    "input_rows": 148,
-    "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
-    "interpretation": "Three German candidates passed both AI checks; this raised only the optimistic retain ceiling by one case. The 125 technical blocks are being retried with marker-preserving segmentation.",
-    "kernel_id": "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
-    "kernel_status": "COMPLETE",
-    "kernel_url": "https://www.kaggle.com/code/bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05",
-    "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
-    "output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
-    "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
-    "release_approved": false,
-    "script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
-    "started_at_utc": "2026-11-05T05:55:15.400369+00:00",
-    "status": "VERIFIED_AI_ONLY_NLLB_CANDIDATES_QUARANTINED",
-    "technical_error_counts": {
-      "backtranslation_error": 1,
-      "candidate_error": 124
-    },
-    "training_eligible": false
-  },
-  "nllb_segmented_retry": {
-    "accelerator": [
-      "Tesla T4",
-      "Tesla T4"
-    ],
-    "answers_or_split_labels_included": false,
-    "completed_at_utc": "2026-11-05T06:39:52.628402+00:00",
-    "counts": {
-      "blocked": 1,
-      "candidate_rows": 124,
-      "fluency_pass": 101,
-      "joint_pass": 0,
-      "reviewed": 124,
-      "semantic_pass": 0
-    },
-    "counts_by_language": {
-      "de": {
-        "candidate_rows": 2,
-        "fluency_pass": 2,
-        "joint_pass": 0,
-        "reviewed": 2,
-        "semantic_pass": 0
-      },
-      "fr": {},
-      "hi": {
-        "blocked": 1,
-        "candidate_rows": 51,
-        "fluency_pass": 40,
-        "joint_pass": 0,
-        "reviewed": 51,
-        "semantic_pass": 0
-      },
-      "th": {
-        "candidate_rows": 71,
-        "fluency_pass": 59,
-        "joint_pass": 0,
-        "reviewed": 71,
-        "semantic_pass": 0
-      }
-    },
-    "elapsed_seconds": 1158.193,
-    "human_translation_reviewed": false,
-    "input_rows": 125,
-    "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
-    "interpretation": "Marker preservation succeeded, but all 124 generated candidates failed the semantic decision; this translation method is not usable.",
-    "kernel_id": "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
-    "kernel_status": "COMPLETE",
-    "kernel_url": "https://www.kaggle.com/code/bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
-    "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
-    "output_sha256": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
-    "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
-    "release_approved": false,
-    "script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
-    "started_at_utc": "2026-11-05T06:20:34.434940+00:00",
-    "status": "VERIFIED_AI_ONLY_NLLB_SEGMENTED_RETRY_QUARANTINED",
-    "technical_error_counts": {
-      "candidate_error": 1
-    },
-    "training_eligible": false
-  },
-  "notebook_safe_default_verification": "PASS",
-  "observed_at_utc": "2026-11-05T07:09:35+00:00",
-  "offline_fixture_suite_latest": {
-    "scope": "synthetic software fixtures; not model evidence",
-    "status": "PASS",
-    "tests_failed": 0,
-    "tests_passed": 35
-  },
-  "post_retry_candidate_audit": {
-    "artifact_path": "reports/hypothesis_diagnostics/r1_reliability_recheck_2026-11-05/targeted_candidate_ceiling_after_retry.json",
-    "artifact_sha256": "bd49375e2f3ca76bc8e793e9309e92fdc613d30e9b82e4e6c19e07c83df48358",
-    "audit_script_sha256": "bb64c7807b8c07e9533c3d0ca57b6e797cdbfb9b6a13a650e632d4740e63d55f",
-    "post_retry_coverage": {
-      "composition_chains": "7/44",
-      "forget_cases": "69/117",
-      "retain_cases": "20/39"
-    },
-    "release_approved": false,
-    "status": "VERIFIED_OPTIMISTIC_CANDIDATE_CEILING_ONLY_NOT_RELEASE_APPROVAL",
-    "training_eligible": false
-  },
-  "post_retry_optimistic_candidate_ceiling": {
-    "authoritative_release_gate": {
-      "composition_chains": "0/44",
-      "forget_cases": "5/117",
-      "retain_cases": "3/39",
-      "status": "BLOCKED_AS_DESIGNED"
-    },
-    "composition_chains": "7/44",
-    "forget_cases": "69/117",
-    "retain_cases": "20/39",
-    "status": "OPTIMISTIC_PLANNING_CEILING_ONLY_NOT_RELEASE_APPROVAL"
-  },
-  "project_stage": "TRAINING_DATA_RELEASE",
-  "sft_release_recheck": {
-    "assembler_return_code": 1,
-    "corpus_written": false,
-    "expected_gate_error": "Translation screen excluded required atomic cases: {'forget': 5, 'retain': 3}; expected {'forget': 117, 'retain': 39}",
-    "manifest_written": false,
-    "status": "BLOCKED_AS_DESIGNED"
-  },
-  "source_prepared_input_verification": "PASS",
-  "targeted_gap_retry": {
-    "accelerator": [
-      "Tesla T4",
-      "Tesla T4"
-    ],
-    "alias_backtranslation_rows": 15,
-    "answers_or_split_labels_included": false,
-    "blocked_rows": 0,
-    "by_language": {
-      "de": {
-        "fluency_pass": 3,
-        "joint_pass": 1,
-        "reviewed": 3,
-        "semantic_pass": 1
-      },
-      "fr": {
-        "fluency_pass": 2,
-        "joint_pass": 0,
-        "reviewed": 2,
-        "semantic_pass": 0
-      },
-      "hi": {
-        "fluency_pass": 9,
-        "joint_pass": 2,
-        "reviewed": 10,
-        "semantic_pass": 3
-      },
-      "th": {
-        "fluency_pass": 1,
-        "joint_pass": 0,
-        "reviewed": 2,
-        "semantic_pass": 1
-      }
-    },
-    "completed_at_utc": "2026-11-05T05:38:14.030964Z",
-    "counts": {
-      "fluency_pass": 15,
-      "joint_pass": 3,
-      "semantic_pass": 5
-    },
-    "elapsed_seconds": 415.013431,
-    "human_translation_reviewed": false,
-    "input_rows": 17,
-    "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
-    "judge_retry_rows": 2,
-    "kernel_id": "bunnoob2005/sw-gap187-alias-retry-2026-11-05",
-    "kernel_status": "COMPLETE",
-    "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
-    "output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
-    "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
-    "release_approved": false,
-    "reviewed_rows": 17,
-    "runtime_warnings": [
-      "Kaggle pip resolver reported unrelated preinstalled gradio/diffusers dependency conflicts.",
-      "An Abseil cudart-stub warning appeared; PyTorch CUDA preflight passed and the run reported two Tesla T4 devices.",
-      "Generation config temperature/top-p/top-k were ignored because deterministic decoding used do_sample=false."
-    ],
-    "script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
-    "started_at_utc": "2026-11-05T05:31:19.017533Z",
-    "status": "VERIFIED_AI_ONLY_RETRY_DIAGNOSTIC_QUARANTINED",
-    "training_eligible": false
-  },
-  "targeted_gap_retry_verifier_fixture": {
-    "positive_synthetic_output": "ACCEPTED_AS_QUARANTINED_DIAGNOSTIC",
-    "scope_note": "Synthetic fixture only; not translation-quality evidence.",
-    "tampered_source_hash": "REJECTED"
-  },
-  "training_release_gate": {
-    "eligible_composition_chains": "0/44",
-    "eligible_forget_cases": "5/117",
-    "eligible_retain_cases": "3/39",
-    "review_records": 1952,
-    "sft_corpus_exists": false,
-    "sft_manifest_exists": false,
-    "status": "BLOCKED_AS_DESIGNED"
-  },
-  "translation_candidate_ceiling_recheck": {
-    "audit": {
-      "augmented_optimistic_coverage": {
-        "atomic_cases_total": {
-          "forget": 117,
-          "retain": 39
-        },
-        "composition_chains_total": 44,
-        "optimistic_complete_atomic_cases": {
-          "forget": {
-            "complete": 69,
-            "required": 117
-          },
-          "retain": {
-            "complete": 19,
-            "required": 39
-          }
-        },
-        "optimistic_complete_composition_chains": {
-          "complete": 7,
-          "required": 44
-        }
-      },
-      "augmented_union_rows_by_language": {
-        "de": 476,
-        "fr": 476,
-        "hi": 434,
-        "th": 415
-      },
+    "all_candidate_lanes_ceiling": {
+      "audit_script_sha256": "5b74cc8108b2b115a0c005cf2be452e2f07608956777fcc8a2d1f54c0397eff6",
       "authoritative_release_gate": {
         "eligible_composition_chains": 0,
         "eligible_forget_cases": 5,
@@ -455,203 +24,7 @@
         "required_retain_cases": 39,
         "status": "BLOCKED_AS_DESIGNED"
       },
-      "base_optimistic_coverage": {
-        "atomic_cases_total": {
-          "forget": 117,
-          "retain": 39
-        },
-        "composition_chains_total": 44,
-        "optimistic_complete_atomic_cases": {
-          "forget": {
-            "complete": 60,
-            "required": 117
-          },
-          "retain": {
-            "complete": 19,
-            "required": 39
-          }
-        },
-        "optimistic_complete_composition_chains": {
-          "complete": 6,
-          "required": 44
-        }
-      },
-      "base_union_rows_by_language": {
-        "de": 469,
-        "fr": 467,
-        "hi": 426,
-        "th": 403
-      },
-      "chatgpt_fullflagged_pass_rows_by_language": {
-        "de": 118,
-        "fr": 128,
-        "hi": 97,
-        "th": 102
-      },
-      "human_translation_reviewed": false,
-      "interpretation": "Candidate union is an optimistic planning ceiling. Targeted AI passes are not production approvals; every replacement must pass the complete frozen source-bound screen before training.",
-      "nllb_candidate_counts": {
-        "blocked": 125,
-        "candidate_rows": 24,
-        "fluency_pass": 22,
-        "joint_pass": 3,
-        "reviewed": 23,
-        "semantic_pass": 4
-      },
-      "nllb_candidate_counts_by_language": {
-        "de": {
-          "blocked": 2,
-          "candidate_rows": 10,
-          "fluency_pass": 8,
-          "joint_pass": 3,
-          "reviewed": 9,
-          "semantic_pass": 4
-        },
-        "fr": {
-          "candidate_rows": 12,
-          "fluency_pass": 12,
-          "joint_pass": 0,
-          "reviewed": 12,
-          "semantic_pass": 0
-        },
-        "hi": {
-          "blocked": 52
-        },
-        "th": {
-          "blocked": 71,
-          "candidate_rows": 2,
-          "fluency_pass": 2,
-          "joint_pass": 0,
-          "reviewed": 2,
-          "semantic_pass": 0
-        }
-      },
-      "nllb_candidate_error_counts": {
-        "backtranslation_error": 1,
-        "candidate_error": 124
-      },
-      "nllb_candidate_new_joint_pass_rows_by_language": {
-        "de": 3
-      },
-      "post_nllb_optimistic_coverage": {
-        "atomic_cases_total": {
-          "forget": 117,
-          "retain": 39
-        },
-        "composition_chains_total": 44,
-        "optimistic_complete_atomic_cases": {
-          "forget": {
-            "complete": 69,
-            "required": 117
-          },
-          "retain": {
-            "complete": 21,
-            "required": 39
-          }
-        },
-        "optimistic_complete_composition_chains": {
-          "complete": 7,
-          "required": 44
-        }
-      },
-      "post_nllb_union_rows_by_language": {
-        "de": 480,
-        "fr": 476,
-        "hi": 436,
-        "th": 415
-      },
-      "post_retry_optimistic_coverage": {
-        "atomic_cases_total": {
-          "forget": 117,
-          "retain": 39
-        },
-        "composition_chains_total": 44,
-        "optimistic_complete_atomic_cases": {
-          "forget": {
-            "complete": 69,
-            "required": 117
-          },
-          "retain": {
-            "complete": 20,
-            "required": 39
-          }
-        },
-        "optimistic_complete_composition_chains": {
-          "complete": 7,
-          "required": 44
-        }
-      },
-      "post_retry_union_rows_by_language": {
-        "de": 477,
-        "fr": 476,
-        "hi": 436,
-        "th": 415
-      },
-      "post_segmented_retry_optimistic_coverage": {
-        "atomic_cases_total": {
-          "forget": 117,
-          "retain": 39
-        },
-        "composition_chains_total": 44,
-        "optimistic_complete_atomic_cases": {
-          "forget": {
-            "complete": 69,
-            "required": 117
-          },
-          "retain": {
-            "complete": 21,
-            "required": 39
-          }
-        },
-        "optimistic_complete_composition_chains": {
-          "complete": 7,
-          "required": 44
-        }
-      },
-      "post_segmented_retry_union_rows_by_language": {
-        "de": 480,
-        "fr": 476,
-        "hi": 436,
-        "th": 415
-      },
-      "release_approved": false,
-      "segmented_retry_counts": {
-        "blocked": 1,
-        "candidate_rows": 124,
-        "fluency_pass": 101,
-        "joint_pass": 0,
-        "reviewed": 124,
-        "semantic_pass": 0
-      },
-      "segmented_retry_counts_by_language": {
-        "de": {
-          "candidate_rows": 2,
-          "fluency_pass": 2,
-          "joint_pass": 0,
-          "reviewed": 2,
-          "semantic_pass": 0
-        },
-        "fr": {},
-        "hi": {
-          "blocked": 1,
-          "candidate_rows": 51,
-          "fluency_pass": 40,
-          "joint_pass": 0,
-          "reviewed": 51,
-          "semantic_pass": 0
-        },
-        "th": {
-          "candidate_rows": 71,
-          "fluency_pass": 59,
-          "joint_pass": 0,
-          "reviewed": 71,
-          "semantic_pass": 0
-        }
-      },
-      "segmented_retry_error_counts": {
-        "candidate_error": 1
-      },
-      "segmented_retry_new_joint_pass_rows_by_language": {},
+      "result_json_sha256": "2991076c8ff952c83a1ced7bbe47a075ab7a94dba404cb9bd128f5ec9aed3142",
       "source_hashes": {
         "assembler": "851614ae2c73457f640acff423db8e25ed6cda95fdf5f04143637eafab128a14",
         "audit_script": "5b74cc8108b2b115a0c005cf2be452e2f07608956777fcc8a2d1f54c0397eff6",
@@ -681,67 +54,1262 @@
         "targeted_review_receipt": "8ee2d82e74cd853256668638241e34cb4440b48ef8cf71d6bfb0a9ea2fd93b5c",
         "translategemma_candidates": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
       },
-      "status": "VERIFIED_OPTIMISTIC_CANDIDATE_CEILING_ONLY_NOT_RELEASE_APPROVAL",
-      "targeted_new_joint_pass_rows_by_language": {
-        "de": 7,
-        "fr": 9,
-        "hi": 8,
-        "th": 12
+      "status": "VERIFIED_OPTIMISTIC_CANDIDATE_CEILING_ONLY_NOT_RELEASE_APPROVAL"
+    },
+    "exact_cluster_bootstrap_sensitivity": {
+      "all_exact_familywise_intervals_include_zero": true,
+      "analysis_script_sha256": "5043477802bbbc0637a70358d9e54d55d9b0e2e1ad7f390b7097483103378dea",
+      "contrasts": 12,
+      "max_familywise_endpoint_difference_from_100k_mc_pp": 0.0,
+      "max_marginal_endpoint_difference_from_100k_mc_pp": 0.0,
+      "result_json_sha256": "e5b6d6e1ec1f9dc7803103376224910e9dced094550fee58377acbbb4a5d1122",
+      "result_markdown_sha256": "539bfecaec9afe12117b0827d1e7423d67ca1e297b01b4cb139d3a22e869db00",
+      "status": "VERIFIED_EXACT_POST_HOC_CLUSTER_BOOTSTRAP_SENSITIVITY_EXPLORATORY_ONLY"
+    },
+    "exact_cluster_sign_sensitivity": {
+      "all_adjusted_p_values_at_least_0_05": true,
+      "alpha_per_cell": 0.004166666666666667,
+      "analysis_script_sha256": "fc2b5068efff223005c26a91f2ca31e4bdf1f6555d931f4fc31cc81fdc522b62",
+      "minimum_non_tied_groups_for_any_sign_test_to_reach_alpha": 9,
+      "primary_cells": 12,
+      "result_json_sha256": "810f9b42d5cfb823f3e562e3bdede07ebd68f739046dc881cc1d0f8251f4ead3",
+      "result_markdown_sha256": "79d69d01bd8c7d45cd9128da9ebcd0f04bc020b4ff01428e674b0d2e9f220ef8",
+      "secondary_cells": 12,
+      "status": "VERIFIED_POSTHOC_EXACT_GROUP_SIGN_SENSITIVITY_EXPLORATORY_ONLY"
+    },
+    "full799_candidate_union": {
+      "candidate_rows": 799,
+      "chatgpt_pass_rows": 445,
+      "complete_composition_chains": {
+        "complete": 6,
+        "required": 44
       },
-      "targeted_retry_counts": {
-        "fluency_pass": 15,
-        "joint_pass": 3,
-        "reviewed": 17,
-        "semantic_pass": 5
+      "complete_forget_cases": {
+        "complete": 60,
+        "required": 117
       },
-      "targeted_retry_counts_by_language": {
-        "de": {
-          "fluency_pass": 3,
-          "joint_pass": 1,
-          "reviewed": 3,
-          "semantic_pass": 1
+      "complete_retain_cases": {
+        "complete": 19,
+        "required": 39
+      },
+      "json_sha256": "c9e3c8e06dd0957369aed2c9acced0a95abc6691ce25bed8fb82a8b57436735c",
+      "script_sha256": "181570f73f59f17755e7a0d9f4544723df7c1ce95597cf7fad1119829f46d810",
+      "status": "OPTIMISTIC_CANDIDATE_UNION_CEILING_NOT_RELEASE_APPROVAL",
+      "translategemma_pass_rows": 397,
+      "unique_candidate_pass_rows": 612
+    },
+    "local_sft_preflight": {
+      "errors": [
+        "Approved SFT corpus and manifest are required"
+      ],
+      "hf_token_present": false,
+      "human_translation_reviewed": false,
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "model_profile": {
+        "bnb_4bit_compute_dtype": "float16",
+        "bnb_4bit_quant_type": "nf4",
+        "bnb_4bit_use_double_quant": true,
+        "compute_dtype": "float16",
+        "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "name": "llama31_8b_main_qlora_nf4",
+        "quantization": "4bit_nf4",
+        "role": "main_study"
+      },
+      "model_revision": null,
+      "note": "Preflight never downloads weights or starts training. Pilot/main-study model and quantization are recorded explicitly; translations were reviewed AI-only with no fluent-human review.",
+      "status": "BLOCKED",
+      "train_flag": false,
+      "training_packages": {
+        "accelerate": false,
+        "bitsandbytes": false,
+        "numpy": true,
+        "peft": false,
+        "torch": true,
+        "transformers": true
+      },
+      "training_packages_ready": false,
+      "training_started": false,
+      "translation_review_mode": null
+    },
+    "main_notebook_label_hash_guard": {
+      "gold_labels_hash_checked_only_at_scoring_and_recorded_in_result_manifest": true,
+      "notebook_sha256": "20b13ce0a8e6b66fb0c0baf7f596959d7bcb228c39021d8b3f806d5070c38c4a",
+      "status": "PASS"
+    },
+    "offline_fixtures": {
+      "passed": 36,
+      "status": "PASS",
+      "test_source_sha256": "413162b01eb58adbf7826be2f99b24bbeac900870cd4f657d67248ba65e4cc3f"
+    },
+    "pilot_dap_exact_cluster_bootstrap": {
+      "all_dap_denominators_nonzero": true,
+      "analysis_script_sha256": "40ec667b5ea36bd5915575724e0401fa4616e75209df9fa7cf28f0a98f10add6",
+      "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+      "method_language_cells": 12,
+      "result_json_sha256": "26ae9f481e024f2ade3932d03a3a5ca058c5a6c71366c4eec2118c3866ef0836",
+      "result_markdown_sha256": "6a3b5e63f1119a49ae8d634cd14e2bff5dff62231a41a7b4cb3d2864e7a1e266",
+      "status": "PASS_EXACT_POSTHOC_CLUSTERED_DAP_DIAGNOSTIC"
+    },
+    "pilot_rescore": {
+      "output_sha256": {
+        "case_metrics.jsonl": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+        "cross_language_contrasts.csv": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+        "cross_language_contrasts.json": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+        "diagnostic_report.md": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+        "scored_predictions.jsonl": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+        "summary.csv": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+        "summary.json": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+      },
+      "scorer_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+      "status": "PASS_BYTE_IDENTICAL"
+    },
+    "source_release_gate": {
+      "assembler_script_sha256": "afb34f4abad6772c4aab984e520e7345b23ed6e57b4dd92b45d0ac39fcc29beb",
+      "evidence_file_sha256": "cab16ecf38bee7b66dcdc7b4c00d31c8692a51a1f0f5c0ee78e1e8f65e18d4fc",
+      "message": "raise ValueError(f\"Translation screen excluded required atomic cases: {dict(eligible_atomic_counts)}; expected {EXPECTED_ATOMIC_CASES_BY_SPLIT}\")",
+      "release_builder_sha256": "851614ae2c73457f640acff423db8e25ed6cda95fdf5f04143637eafab128a14",
+      "status": "BLOCKED_EXPECTED_DATA_GATE"
+    },
+    "targeted_gap_union": {
+      "independently_rerun_verifiers": {
+        "alias_retry": {
+          "answers_or_split_labels_included": false,
+          "counts": {
+            "fluency_pass": 15,
+            "joint_pass": 3,
+            "recovered_from_block": 17,
+            "reviewed": 17,
+            "semantic_pass": 5
+          },
+          "gpu": [
+            "Tesla T4",
+            "Tesla T4"
+          ],
+          "human_translation_reviewed": false,
+          "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+          "interpretation": "AI-only retry diagnostics; no translation is certified or admitted to the release by this receipt.",
+          "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+          "output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+          "prior_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+          "pulled_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+          "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+          "release_approved": false,
+          "rows": 17,
+          "status": "VERIFIED_AI_ONLY_RETRY_DIAGNOSTIC_QUARANTINED",
+          "submitted_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+          "training_eligible": false
         },
-        "fr": {
-          "fluency_pass": 2,
-          "joint_pass": 0,
-          "reviewed": 2,
-          "semantic_pass": 0
+        "mistral_hard_negative_control": {
+          "counts": {
+            "at_least_one_flag": 13,
+            "both_pass": 2,
+            "semantic_flag": 9,
+            "semantic_pass": 6
+          },
+          "limitation": "Obvious synthetic mismatches are not representative of real translation errors.",
+          "output_sha256": "0ce0814f95544dcefeba191116e9510bf86bd1c363835addd063205bfc45d2f8",
+          "rows": 15,
+          "status": "CONTROLLED_MISMATCH_DIAGNOSTIC_ONLY"
         },
-        "hi": {
-          "fluency_pass": 9,
-          "joint_pass": 2,
-          "reviewed": 10,
-          "semantic_pass": 3
+        "nllb_alternate_candidates": {
+          "answers_or_split_labels_included": false,
+          "counts": {
+            "blocked": 125,
+            "candidate_rows": 24,
+            "fluency_pass": 22,
+            "joint_pass": 3,
+            "reviewed": 23,
+            "semantic_pass": 4
+          },
+          "counts_by_language": {
+            "de": {
+              "blocked": 2,
+              "candidate_rows": 10,
+              "fluency_pass": 8,
+              "joint_pass": 3,
+              "reviewed": 9,
+              "semantic_pass": 4
+            },
+            "fr": {
+              "candidate_rows": 12,
+              "fluency_pass": 12,
+              "joint_pass": 0,
+              "reviewed": 12,
+              "semantic_pass": 0
+            },
+            "hi": {
+              "blocked": 52
+            },
+            "th": {
+              "blocked": 71,
+              "candidate_rows": 2,
+              "fluency_pass": 2,
+              "joint_pass": 0,
+              "reviewed": 2,
+              "semantic_pass": 0
+            }
+          },
+          "gpu": [
+            "Tesla T4",
+            "Tesla T4"
+          ],
+          "human_translation_reviewed": false,
+          "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+          "interpretation": "AI-only alternate candidate screen; no translation is certified or admitted to the training release.",
+          "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+          "output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+          "pulled_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+          "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+          "release_approved": false,
+          "rows": 148,
+          "status": "VERIFIED_AI_ONLY_NLLB_CANDIDATES_QUARANTINED",
+          "submitted_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+          "training_eligible": false
         },
-        "th": {
-          "fluency_pass": 1,
-          "joint_pass": 0,
-          "reviewed": 2,
-          "semantic_pass": 1
+        "primary": {
+          "artifact_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+          "by_kind": {
+            "atomic": {
+              "blocked": 14,
+              "fluency_pass": 85,
+              "joint_pass": 18,
+              "reviewed": 86,
+              "semantic_pass": 18
+            },
+            "composition": {
+              "blocked": 3,
+              "fluency_pass": 84,
+              "joint_pass": 18,
+              "reviewed": 84,
+              "semantic_pass": 18
+            }
+          },
+          "by_language": {
+            "de": {
+              "blocked": 3,
+              "fluency_pass": 16,
+              "joint_pass": 7,
+              "reviewed": 16,
+              "semantic_pass": 7
+            },
+            "fr": {
+              "blocked": 2,
+              "fluency_pass": 18,
+              "joint_pass": 9,
+              "reviewed": 19,
+              "semantic_pass": 9
+            },
+            "hi": {
+              "blocked": 10,
+              "fluency_pass": 52,
+              "joint_pass": 8,
+              "reviewed": 52,
+              "semantic_pass": 8
+            },
+            "th": {
+              "blocked": 2,
+              "fluency_pass": 83,
+              "joint_pass": 12,
+              "reviewed": 83,
+              "semantic_pass": 12
+            }
+          },
+          "counts": {
+            "blocked": 17,
+            "fluency_pass": 169,
+            "joint_pass": 36,
+            "semantic_pass": 36
+          },
+          "errors": [],
+          "human_translation_reviewed": false,
+          "input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+          "model_revisions": {
+            "nllb": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+            "qwen": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+          },
+          "record_rows": 187,
+          "release_approved": false,
+          "reviewed_input_rows": 187,
+          "status": "VERIFIED_AI_ONLY_DIAGNOSTIC_QUARANTINED",
+          "training_eligible": false
+        },
+        "qwen14_hard_negative_control": {
+          "accelerate": "1.15.0",
+          "accepted_known_mismatches": [
+            {
+              "control_id": "HN012",
+              "kind": "composition",
+              "language": "hi",
+              "reason": "The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source.",
+              "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?"
+            }
+          ],
+          "counts": {
+            "both_pass": 1,
+            "fluency_pass": 16,
+            "not_both_pass": 15,
+            "semantic_pass": 1,
+            "semantic_reject": 15
+          },
+          "gpu": "Tesla T4",
+          "input_sha256": "a0cfaf53556f292294c09655106f28c0cb23b8baa6265a6654df4ce71218fcad",
+          "limitations": [
+            "The source/candidate pairing is intentionally wrong by one relation-word substitution.",
+            "The reused translations are AI-screened, not human-gold translations.",
+            "This tests rejection of relation-level mismatches; it does not certify target-language fluency or the full corpus."
+          ],
+          "model_id": "Qwen/Qwen2.5-14B-Instruct",
+          "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+          "next_step_allowed": "reviewer_requires_revision_and_fresh_controls",
+          "output_sha256": "336d7c7b110b4ff1fd2c63227f7410ecddb771051f24d199b4708e0103f44406",
+          "predeclared_rule_passed": false,
+          "release_status": "NOT_A_RELEASE_GATE_OR_TRANSLATION_APPROVAL",
+          "review_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+          "rows": 16,
+          "run_log_sha256": "85b92019daf5af9086c6ee7a27fe8cd97bd696c53128ace7eff366be8cf03f7a",
+          "semantic_rejections_by_language_and_kind": {
+            "de/atomic": {
+              "semantic_reject": 2
+            },
+            "de/composition": {
+              "semantic_reject": 2
+            },
+            "fr/atomic": {
+              "semantic_reject": 2
+            },
+            "fr/composition": {
+              "semantic_reject": 2
+            },
+            "hi/atomic": {
+              "semantic_reject": 2
+            },
+            "hi/composition": {
+              "semantic_pass": 1,
+              "semantic_reject": 1
+            },
+            "th/atomic": {
+              "semantic_reject": 2
+            },
+            "th/composition": {
+              "semantic_reject": 2
+            }
+          },
+          "status": "VERIFIED_DIAGNOSTIC_SCREEN_FAILED",
+          "submitted_script_matches_local": true,
+          "submitted_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+          "torch": "2.11.0+cu130",
+          "transformers": "4.51.3"
+        },
+        "segmented_nllb_retry": {
+          "answers_or_split_labels_included": false,
+          "counts": {
+            "blocked": 1,
+            "candidate_rows": 124,
+            "fluency_pass": 101,
+            "joint_pass": 0,
+            "reviewed": 124,
+            "semantic_pass": 0
+          },
+          "counts_by_language": {
+            "de": {
+              "candidate_rows": 2,
+              "fluency_pass": 2,
+              "joint_pass": 0,
+              "reviewed": 2,
+              "semantic_pass": 0
+            },
+            "fr": {},
+            "hi": {
+              "blocked": 1,
+              "candidate_rows": 51,
+              "fluency_pass": 40,
+              "joint_pass": 0,
+              "reviewed": 51,
+              "semantic_pass": 0
+            },
+            "th": {
+              "candidate_rows": 71,
+              "fluency_pass": 59,
+              "joint_pass": 0,
+              "reviewed": 71,
+              "semantic_pass": 0
+            }
+          },
+          "error_counts": {
+            "candidate_error": 1
+          },
+          "gpu": [
+            "Tesla T4",
+            "Tesla T4"
+          ],
+          "human_translation_reviewed": false,
+          "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+          "interpretation": "AI-only marker-preserving candidate retry; outputs are quarantined and cannot approve a translation.",
+          "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+          "output_sha256": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
+          "previous_candidate_output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+          "pulled_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+          "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+          "release_approved": false,
+          "rows": 125,
+          "status": "VERIFIED_AI_ONLY_NLLB_SEGMENTED_RETRY_QUARANTINED",
+          "submitted_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+          "training_eligible": false
+        },
+        "third_candidate_mistral_direct_review": {
+          "answers_or_splits_sent": false,
+          "blocked_rows": 0,
+          "counts_by_language": {
+            "de": {
+              "blocked": 0,
+              "by_kind": {
+                "atomic": {
+                  "blocked": 0,
+                  "flag": 0,
+                  "pass": 7
+                },
+                "composition": {
+                  "blocked": 0,
+                  "flag": 0,
+                  "pass": 12
+                }
+              },
+              "flag": 0,
+              "pass": 19
+            },
+            "fr": {
+              "blocked": 0,
+              "by_kind": {
+                "atomic": {
+                  "blocked": 0,
+                  "flag": 3,
+                  "pass": 12
+                },
+                "composition": {
+                  "blocked": 0,
+                  "flag": 3,
+                  "pass": 3
+                }
+              },
+              "flag": 6,
+              "pass": 15
+            },
+            "hi": {
+              "blocked": 0,
+              "by_kind": {
+                "atomic": {
+                  "blocked": 0,
+                  "flag": 0,
+                  "pass": 34
+                },
+                "composition": {
+                  "blocked": 0,
+                  "flag": 0,
+                  "pass": 28
+                }
+              },
+              "flag": 0,
+              "pass": 62
+            },
+            "th": {
+              "blocked": 0,
+              "by_kind": {
+                "atomic": {
+                  "blocked": 0,
+                  "flag": 1,
+                  "pass": 43
+                },
+                "composition": {
+                  "blocked": 0,
+                  "flag": 2,
+                  "pass": 39
+                }
+              },
+              "flag": 3,
+              "pass": 82
+            }
+          },
+          "human_translation_reviewed": false,
+          "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+          "kaggle_pulled_review_script_sha256": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+          "local_review_script_sha256": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+          "models": {
+            "id": "mistralai/Mistral-7B-Instruct-v0.3",
+            "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+          },
+          "note": "Direct source-to-translation Mistral review is an independent AI diagnostic, not translation certification.",
+          "output_sha256": "6bf88c9090e07ffb49ede0fb44ff12d8158a23a397a4f2b913cdb8cb4de21748",
+          "qwen_decisions_or_backtranslations_sent": false,
+          "release_approved": false,
+          "rows": 187,
+          "runtime": {
+            "completed_at_utc": "2026-11-04T08:28:53.610686+00:00",
+            "gpu": "Tesla T4",
+            "packages": {
+              "accelerate": "1.15.0",
+              "bitsandbytes": "0.50.2",
+              "transformers": "4.51.3"
+            },
+            "quantization": "4-bit NF4",
+            "started_at_utc": "2026-11-04T07:56:01.269679+00:00"
+          },
+          "status": "VERIFIED_MISTRAL_DIRECT_187_DIAGNOSTIC_ONLY",
+          "training_eligible": false
+        },
+        "third_candidate_mistral_rationale_audit": {
+          "mistral_fluency_false_with_affirmative_rationale": 4,
+          "mistral_semantic_false_with_affirmative_rationale": 8
+        },
+        "third_candidate_overlay": {
+          "counts": {
+            "FLAG": 151,
+            "PASS": 36
+          },
+          "counts_by_kind": {
+            "atomic": {
+              "FLAG": 74,
+              "PASS": 26
+            },
+            "composition": {
+              "FLAG": 77,
+              "PASS": 10
+            }
+          },
+          "counts_by_language": {
+            "de": {
+              "FLAG": 16,
+              "PASS": 3
+            },
+            "fr": {
+              "FLAG": 13,
+              "PASS": 8
+            },
+            "hi": {
+              "FLAG": 48,
+              "PASS": 14
+            },
+            "th": {
+              "FLAG": 74,
+              "PASS": 11
+            }
+          },
+          "human_translation_reviewed": false,
+          "overlay_sha256": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+          "release_approved": false,
+          "repaired_rows": 18,
+          "rows": 187,
+          "status": "PASS_HASH_BOUND_DIAGNOSTIC_OVERLAY_ONLY",
+          "training_eligible": false
+        },
+        "third_candidate_reviewer_comparison": {
+          "agreement": 33,
+          "both_flag": 6,
+          "both_pass": 27,
+          "disagreement": 154,
+          "qwen_flag_mistral_pass": 134,
+          "qwen_mistral_status_crosstab": {
+            "blocked": {
+              "blocked": 0,
+              "flag": 1,
+              "pass": 17
+            },
+            "flag": {
+              "blocked": 0,
+              "flag": 6,
+              "pass": 134
+            },
+            "pass": {
+              "blocked": 0,
+              "flag": 2,
+              "pass": 27
+            }
+          },
+          "qwen_pass_mistral_flag": 2,
+          "rows": 187
         }
       },
-      "targeted_retry_joint_pass_overlap_by_language": {},
-      "targeted_retry_new_joint_pass_rows_by_language": {
-        "de": 1,
-        "hi": 2
+      "json_sha256": "7b207fe1280a87640c4dbdc57b440dc7a3e1cd3af89d14d4a1afa4e6da45de68",
+      "markdown_sha256": "5cfa63778588dd6354f9394d6df0d8122611426c7396b8c7c1dcd949815be689",
+      "status": "PASS_HASH_BOUND_COVERAGE_DIAGNOSTIC_ONLY"
+    },
+    "translation_overlay": {
+      "counts": {
+        "FLAG": 151,
+        "PASS": 36
       },
-      "targeted_review_counts": {
-        "blocked": 17,
-        "fluency_pass": 169,
-        "joint_pass": 36,
-        "semantic_pass": 36
+      "counts_by_kind": {
+        "atomic": {
+          "FLAG": 74,
+          "PASS": 26
+        },
+        "composition": {
+          "FLAG": 77,
+          "PASS": 10
+        }
       },
-      "training_eligible": false,
-      "translategemma_fullflagged_pass_rows_by_language": {
-        "de": 201,
-        "fr": 140,
-        "hi": 163,
-        "th": 179
+      "counts_by_language": {
+        "de": {
+          "FLAG": 16,
+          "PASS": 3
+        },
+        "fr": {
+          "FLAG": 13,
+          "PASS": 8
+        },
+        "hi": {
+          "FLAG": 48,
+          "PASS": 14
+        },
+        "th": {
+          "FLAG": 74,
+          "PASS": 11
+        }
+      },
+      "human_translation_reviewed": false,
+      "overlay_sha256": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+      "release_approved": false,
+      "repaired_rows": 18,
+      "rows": 187,
+      "status": "PASS_HASH_BOUND_DIAGNOSTIC_OVERLAY_ONLY",
+      "training_eligible": false
+    }
+  },
+  "caveats": [
+    "The historical 1B pilot is not the planned 8B, three-seed main experiment.",
+    "The checked workspace has no standalone timestamped preregistration artifact; describe the main protocol as documented, not formally preregistered.",
+    "All translation candidate screens are purposive, AI-only diagnostics without human-gold controls; no candidate was admitted to training.",
+    "The 8B runtime receipt used synthetic data only and is not a hypothesis result.",
+    "The local preflight does not represent Kaggle's installed packages or secret state."
+  ],
+  "created_at_utc": "2026-11-05T15:36:25.443061+00:00",
+  "historical_v4_pilot": {
+    "all_paired_intervals_include_or_touch_zero": true,
+    "all_seven_outputs_match": true,
+    "contrasts_with_95_percent_group_bootstrap_interval_including_or_touching_zero": 12,
+    "model": "Llama 3.2 1B",
+    "paired_contrasts": 12,
+    "pilot_rescore_receipt": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/v4_corrected_independent_rescore_2026-11-04.json",
+    "posthoc_dap_diagnostic": {
+      "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+      "limitations": [
+        "Post-hoc diagnostic, not preregistered and not confirmatory.",
+        "One 1B seed; does not estimate seed-to-seed variation.",
+        "The pilot's bilingual baseline competence gates failed; this per-language DAP does not bypass those gates.",
+        "AI-only translation review; no fluent-human review or human-gold controls.",
+        "Exact enumeration removes Monte Carlo error, not uncertainty from the small number of entity groups."
+      ],
+      "method_language_cells": 12,
+      "point_estimate_range_percent": [
+        81.8,
+        100.0
+      ],
+      "status": "PASS_EXACT_POSTHOC_CLUSTERED_DAP_DIAGNOSTIC"
+    },
+    "prediction_rows": 7740,
+    "rescore_outputs_byte_identical": {
+      "case_metrics.jsonl": true,
+      "cross_language_contrasts.csv": true,
+      "cross_language_contrasts.json": true,
+      "diagnostic_report.md": true,
+      "scored_predictions.jsonl": true,
+      "summary.csv": true,
+      "summary.json": true
+    },
+    "role": "exploratory; baseline competence gate failed in all four target languages",
+    "seed": 42
+  },
+  "legacy_kaggle_notebook_execution": {
+    "explicit_no_training_messages": 4,
+    "hf_token_retrieval_failed": true,
+    "interpretation": "The published alias log is for the legacy Llama 3.2 1B pilot dataset, records training_started=false, and is not a v5.1 main-study run.",
+    "kernel": "bunnoob2005/experiments",
+    "model_ids_in_log": [
+      "meta-llama/Llama-3.2-1B-Instruct"
+    ],
+    "output_command_exit_code": 0,
+    "output_log_sha256": "03ddd345f4a48da7982a347a34fc4770ea3042722f3b78c115dcff081dfcf310",
+    "research_training_started": false,
+    "status": "PREFLIGHT_ONLY_NO_TRAINING",
+    "training_started_false_receipt_seen": true,
+    "training_started_true_receipt_seen": false
+  },
+  "live_kaggle_related_inventory": {
+    "account": "bunnoob2005",
+    "kernels": {
+      "bunnoob2005/experiments": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 06:52:23.007000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "experiments"
+      },
+      "bunnoob2005/sw-gap187-alias-retry-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-05 05:30:36.143000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SW Gap187 Alias Retry 2026-11-05"
+      },
+      "bunnoob2005/sw-gap187-candidate-review-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-05 02:35:51.460000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SW Gap187 Candidate Review 2026-11-05"
+      },
+      "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-05 05:54:38.417000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SW Gap187 NLLB 148 Candidate Review 2026-11-05"
+      },
+      "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-05 06:19:49.700000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SW Gap187 NLLB Segmented Retry 2026-11-05"
+      },
+      "bunnoob2005/sw-third-key-retry-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 18:35:35.620000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "sw-third-key-retry-2026-11-05"
+      },
+      "bunnoob2005/sw-third-marker-retry-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 18:14:51.113000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "sw-third-marker-retry-2026-11-05"
+      },
+      "bunnoob2005/sw-third-qwen-retry-2026-11-05": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 18:24:43.597000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "sw-third-qwen-retry-2026-11-05"
+      },
+      "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 14:46:13.963000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SWSM Qwen14 Direct Paired Calibration 2026-11-04"
+      },
+      "bunnoob2005/swsm-qwen3-pilot-paired-review-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 14:20:35.337000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SWSM Qwen3 Pilot Paired Review 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-ai-only-translation-repair-review": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 23:52:57.173000",
+        "status": "KernelWorkerStatus.ERROR",
+        "title": "SynthWorlds AI-only Translation Repair Review"
+      },
+      "bunnoob2005/synthworlds-assistant-backtranslation-probe": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 16:15:53.080000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds assistant backtranslation probe"
+      },
+      "bunnoob2005/synthworlds-assistant-review-probe": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 16:06:02.727000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds assistant review probe"
+      },
+      "bunnoob2005/synthworlds-chatgpt-cal32-mistral-cross-review-9": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 19:49:02.937000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds ChatGPT Cal32 Mistral Cross Review 9"
+      },
+      "bunnoob2005/synthworlds-chatgpt-translation-32-review": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 19:14:32.500000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds ChatGPT translation 32 review"
+      },
+      "bunnoob2005/synthworlds-full-candidate-review": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 16:27:09.627000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds full candidate review"
+      },
+      "bunnoob2005/synthworlds-full-nllb-candidate-draft": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 16:20:50.060000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds full NLLB candidate draft"
+      },
+      "bunnoob2005/synthworlds-llama31-8b-access-probe-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 08:41:10.493000",
+        "status": "KernelWorkerStatus.ERROR",
+        "title": "SynthWorlds Llama31 8B Access Probe 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-05 03:59:44.563000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Llama31 8B Runtime Smoke 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-mistral-cross-review-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 07:55:26.490000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Mistral Cross Review 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-mistral-negative-control": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:23:59.513000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Mistral negative control"
+      },
+      "bunnoob2005/synthworlds-mistral-review-probe": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:18:18.473000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Mistral review probe"
+      },
+      "bunnoob2005/synthworlds-nllb600-flagged-repairs": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:36:00.080000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds NLLB600 flagged repairs"
+      },
+      "bunnoob2005/synthworlds-nllb600-repair-review": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:39:29.773000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds NLLB600 repair review"
+      },
+      "bunnoob2005/synthworlds-qwen-negative-control": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:29:47.747000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen negative control"
+      },
+      "bunnoob2005/synthworlds-qwen14-unresolved-review": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 17:52:44.237000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen14 unresolved review"
+      },
+      "bunnoob2005/synthworlds-qwen14b-hard-negative-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 21:11:12.977000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen14B Hard Negative 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-qwen14b-negative-control-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 20:50:23.890000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen14B Negative Control 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-qwen14b-pipeline-controls-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 21:41:44.273000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen14B Pipeline Controls 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-qwen14b-positive-controls-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-03 23:17:16.453000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen14B Positive Controls 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 13:38:36.263000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Qwen3 Translation Pilot 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-r1-blocked-qwen-recheck-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 16:33:23.723000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds R1 blocked Qwen recheck 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 17:00:54.407000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "Synthworlds R1 Direct Same31 Review 2026 11 04"
+      },
+      "bunnoob2005/synthworlds-r1-placeholder-alias-probe-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 16:14:49.013000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds R1 placeholder alias probe 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-r1-qwen-retry-truncated-3-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 16:49:41.443000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds R1 Qwen retry truncated 3 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-r1-tg-complement-review-v1": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 04:14:04.510000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds R1 TG Complement Review v1"
+      },
+      "bunnoob2005/synthworlds-third-candidate-review-2026-11-04": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 07:08:26.750000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Third Candidate Review 2026-11-04"
+      },
+      "bunnoob2005/synthworlds-translation-repair-retry-v1": {
+        "exit_code": 0,
+        "last_run_time": "2026-11-04 03:06:04.060000",
+        "status": "KernelWorkerStatus.COMPLETE",
+        "title": "SynthWorlds Translation Repair Retry v1"
       }
     },
-    "audit_output": "reports/hypothesis_diagnostics/r1_reliability_recheck_2026-11-05/targeted_candidate_ceiling_after_segmented_retry.json",
-    "audit_script": "experiments/synthworlds_r1/scripts/audit_targeted_translation_candidate_ceiling.py",
-    "meaning": "Optimistic diagnostic availability only. No replacement is admitted to canonical translations or SFT.",
-    "observed_at_utc": "2026-11-05T06:46:43.845543+00:00"
+    "listing_pages": 3,
+    "observed_at_utc": "2026-11-05T15:36:24.419920+00:00",
+    "related_kernels": 38,
+    "scope": "All Kaggle kernels visible to the configured account in the retrieved pages whose refs contain SynthWorlds R1 naming markers, plus the legacy experiments alias. Status is Kaggle job state only; completed jobs require output-receipt inspection to determine whether research training occurred.",
+    "status": "PASS_SCOPED_LIVE_INVENTORY",
+    "status_counts": {
+      "KernelWorkerStatus.COMPLETE": 36,
+      "KernelWorkerStatus.ERROR": 2
+    },
+    "visible_kernels_scanned": 106
+  },
+  "live_kaggle_status": {
+    "all_complete": true,
+    "kernels": {
+      "bunnoob2005/experiments": {
+        "exit_code": 0,
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      "bunnoob2005/sw-gap187-alias-retry-2026-11-05": {
+        "exit_code": 0,
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      "bunnoob2005/sw-gap187-nllb-148-candidate-review-2026-11-05": {
+        "exit_code": 0,
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05": {
+        "exit_code": 0,
+        "status": "KernelWorkerStatus.COMPLETE"
+      },
+      "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04": {
+        "exit_code": 0,
+        "status": "KernelWorkerStatus.COMPLETE"
+      }
+    },
+    "observed_at_utc": "2026-11-05T15:35:24.124880+00:00",
+    "scope": "Existing legacy 1B pilot notebook alias, three latest targeted-gap review jobs, and the bounded 8B synthetic runtime smoke; this is not a status query for every Kaggle notebook."
+  },
+  "main_study": {
+    "local_training_preflight": {
+      "errors": [
+        "Approved SFT corpus and manifest are required"
+      ],
+      "missing_packages": [
+        "peft",
+        "accelerate",
+        "bitsandbytes"
+      ],
+      "note": "Local environment only; Kaggle uses its own pinned dependency setup.",
+      "packages_ready": false,
+      "status": "BLOCKED",
+      "training_started": false
+    },
+    "main_run_started": false,
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "planned_seeds": [
+      42,
+      43,
+      44
+    ],
+    "release_gate": {
+      "approved_corpus_exists": false,
+      "assembler_exit_code": 1,
+      "assembler_status": "BLOCKED_EXPECTED_DATA_GATE",
+      "composition_chains_eligible": 0,
+      "composition_chains_required": 44,
+      "forget_cases_eligible": 5,
+      "forget_cases_required": 117,
+      "retain_cases_eligible": 3,
+      "retain_cases_required": 39
+    }
+  },
+  "quarantined_all_candidate_lanes_ceiling": {
+    "after_blocked_row_retry": {
+      "atomic_cases_total": {
+        "forget": 117,
+        "retain": 39
+      },
+      "composition_chains_total": 44,
+      "optimistic_complete_atomic_cases": {
+        "forget": {
+          "complete": 69,
+          "required": 117
+        },
+        "retain": {
+          "complete": 20,
+          "required": 39
+        }
+      },
+      "optimistic_complete_composition_chains": {
+        "complete": 7,
+        "required": 44
+      }
+    },
+    "after_nllb_alternates": {
+      "atomic_cases_total": {
+        "forget": 117,
+        "retain": 39
+      },
+      "composition_chains_total": 44,
+      "optimistic_complete_atomic_cases": {
+        "forget": {
+          "complete": 69,
+          "required": 117
+        },
+        "retain": {
+          "complete": 21,
+          "required": 39
+        }
+      },
+      "optimistic_complete_composition_chains": {
+        "complete": 7,
+        "required": 44
+      }
+    },
+    "after_segmented_retry": {
+      "atomic_cases_total": {
+        "forget": 117,
+        "retain": 39
+      },
+      "composition_chains_total": 44,
+      "optimistic_complete_atomic_cases": {
+        "forget": {
+          "complete": 69,
+          "required": 117
+        },
+        "retain": {
+          "complete": 21,
+          "required": 39
+        }
+      },
+      "optimistic_complete_composition_chains": {
+        "complete": 7,
+        "required": 44
+      }
+    },
+    "after_targeted_gap_candidates": {
+      "atomic_cases_total": {
+        "forget": 117,
+        "retain": 39
+      },
+      "composition_chains_total": 44,
+      "optimistic_complete_atomic_cases": {
+        "forget": {
+          "complete": 69,
+          "required": 117
+        },
+        "retain": {
+          "complete": 19,
+          "required": 39
+        }
+      },
+      "optimistic_complete_composition_chains": {
+        "complete": 7,
+        "required": 44
+      }
+    },
+    "base_full_flagged_union": {
+      "atomic_cases_total": {
+        "forget": 117,
+        "retain": 39
+      },
+      "composition_chains_total": 44,
+      "optimistic_complete_atomic_cases": {
+        "forget": {
+          "complete": 60,
+          "required": 117
+        },
+        "retain": {
+          "complete": 19,
+          "required": 39
+        }
+      },
+      "optimistic_complete_composition_chains": {
+        "complete": 6,
+        "required": 44
+      }
+    },
+    "human_translation_reviewed": false,
+    "interpretation": "Candidate union is an optimistic planning ceiling. Targeted AI passes are not production approvals; every replacement must pass the complete frozen source-bound screen before training.",
+    "nllb_candidate_counts": {
+      "blocked": 125,
+      "candidate_rows": 24,
+      "fluency_pass": 22,
+      "joint_pass": 3,
+      "reviewed": 23,
+      "semantic_pass": 4
+    },
+    "release_approved": false,
+    "segmented_retry_counts": {
+      "blocked": 1,
+      "candidate_rows": 124,
+      "fluency_pass": 101,
+      "joint_pass": 0,
+      "reviewed": 124,
+      "semantic_pass": 0
+    },
+    "source_hashes": {
+      "assembler": "851614ae2c73457f640acff423db8e25ed6cda95fdf5f04143637eafab128a14",
+      "audit_script": "5b74cc8108b2b115a0c005cf2be452e2f07608956777fcc8a2d1f54c0397eff6",
+      "base_review_report": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+      "merged_chatgpt_review": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+      "nllb_candidate_input": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+      "nllb_candidate_input_preparer": "319d8645da2e2ca9d33ac0bb4c428b72dbc098d9e40f584fd1ec490fc89c48e8",
+      "nllb_candidate_output": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+      "nllb_candidate_receipt": "a0e763b9295af55a9aaa74866225a438f7407ee26f528bbc2484bea92cbc6ee0",
+      "nllb_candidate_script": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+      "nllb_candidate_verifier": "317997d922c69d2934356ef77d598fae2cd1826f227dc28d7938305073fba4c1",
+      "segmented_retry_input": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+      "segmented_retry_input_preparer": "ecfb836ce4dff27d60c39aeb45194aa964f75612207b964634cc69da4b7c163e",
+      "segmented_retry_output": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
+      "segmented_retry_receipt": "6e48755b6fdf09786160b0e658bf99352dec9d7b1b9746e02c69332d40f7378e",
+      "segmented_retry_script": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+      "segmented_retry_verifier": "eddd71612723c72ca73b34014f8ce866c0440927e9ce1a719834a0bcd6fcedf5",
+      "source_integrity_verifier": "b3c58354e2ca4c222ccb4ae2404a169a8ecc2c88e2383ff4e0fdb6a733f333d6",
+      "targeted_gap_map": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+      "targeted_gap_report": "2537678803424253777df2ee9578714057bff5813b3802620644385c47a20772",
+      "targeted_retry_input": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+      "targeted_retry_output": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+      "targeted_retry_receipt": "18898f8d3fa8806e23beb49eaaafe5c4646c43584f5929e649f7cf8b9293a750",
+      "targeted_retry_script": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+      "targeted_review_input_script": "cef9f1d677d259ff80c3b5ab1e1b2137509951d55ecdcbf21aa6ebdc81549cf1",
+      "targeted_review_output": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+      "targeted_review_receipt": "8ee2d82e74cd853256668638241e34cb4440b48ef8cf71d6bfb0a9ea2fd93b5c",
+      "translategemma_candidates": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+    },
+    "status": "VERIFIED_OPTIMISTIC_CANDIDATE_CEILING_ONLY_NOT_RELEASE_APPROVAL",
+    "targeted_review_counts": {
+      "blocked": 17,
+      "fluency_pass": 169,
+      "joint_pass": 36,
+      "semantic_pass": 36
+    },
+    "training_eligible": false
+  },
+  "quarantined_candidate_union": {
+    "audit_interpretation": "The added rows are candidate translations screened by AI-only semantic and fluency checks, with no human-gold controls. They remain quarantined and are not admitted to the multilingual SFT corpus. Coverage changes are feasibility diagnostics only; they cannot show that a trained model will meet the pre-unlearning competence gate or support a causal unlearning comparison. The candidate review runtime also logged an SDPA sliding-window attention caveat. A direct Mistral cross-review disagreed with the initial Qwen screen on 154/187 rows; its deliberate-mismatch control passed 2/15, and the Qwen14 deliberate-mismatch screen passed 1/16. These small controls are not error-rate estimates, but they show that neither AI reviewer can certify the candidates.",
+    "candidate_rows_after": 1677,
+    "candidate_rows_before": 1628,
+    "complete_composition_chains": 2,
+    "composition_chains_required": 44,
+    "composition_rows_missing": 114,
+    "exact_four_language_cases": {
+      "forget": 42,
+      "retain": 16
+    },
+    "exact_leakage_groups": {
+      "forget": 22,
+      "retain": 12
+    },
+    "human_reviewed": false,
+    "net_new_unique_prompt_language_rows": 49,
+    "optimistic_relation_aware_template_ceiling": {
+      "forget": 47,
+      "retain": 19
+    },
+    "review_screens": {
+      "alias_retry_17": {
+        "already_covered_before_screen": 3,
+        "joint_pass_rows": 3,
+        "net_unique_rows": 0
+      },
+      "initial_187": {
+        "already_covered_before_screen": 1,
+        "joint_pass_rows": 36,
+        "net_unique_rows": 35
+      },
+      "nllb_alternates": {
+        "already_covered_before_screen": 2,
+        "joint_pass_rows": 3,
+        "net_unique_rows": 1
+      },
+      "segmented_nllb_retry": {
+        "already_covered_before_screen": 0,
+        "joint_pass_rows": 0,
+        "net_unique_rows": 0
+      },
+      "third_candidate_overlay": {
+        "already_covered_before_screen": 23,
+        "joint_pass_rows": 36,
+        "net_unique_rows": 13
+      }
+    },
+    "training_eligible": false
+  },
+  "quarantined_full799_candidate_union": {
+    "audit_interpretation": "Separate full flagged-question repair candidate union; optimistic AI-only coverage ceiling, not production approval.",
+    "chatgpt_pass_rows": 445,
+    "complete_composition_chains": {
+      "complete": 6,
+      "required": 44
+    },
+    "complete_forget_cases": {
+      "complete": 60,
+      "required": 117
+    },
+    "complete_retain_cases": {
+      "complete": 19,
+      "required": 39
+    },
+    "flagged_source_rows": 799,
+    "human_reviewed": false,
+    "overlap_rows": 230,
+    "training_eligible": false,
+    "translategemma_pass_rows": 397,
+    "unique_candidate_pass_rows": 612
+  },
+  "recheck_builder_sha256": "1b9812091cf4e99cdbba281b0b15cbda12568e05772e5cc00ea610218adc5217",
+  "scope": "Reliability and exploratory diagnostics only; no SFT or unlearning was started by this check.",
+  "targeted_translation_recheck": {
+    "by_kind": {
+      "atomic": {
+        "FLAG": 74,
+        "PASS": 26
+      },
+      "composition": {
+        "FLAG": 77,
+        "PASS": 10
+      }
+    },
+    "by_language": {
+      "de": {
+        "FLAG": 16,
+        "PASS": 3
+      },
+      "fr": {
+        "FLAG": 13,
+        "PASS": 8
+      },
+      "hi": {
+        "FLAG": 48,
+        "PASS": 14
+      },
+      "th": {
+        "FLAG": 74,
+        "PASS": 11
+      }
+    },
+    "flags": 151,
+    "human_reviewed": false,
+    "note": "Purposively selected gap-repair queue; percentages are descriptive, not a population error-rate estimate.",
+    "pass_rate_percent_descriptive_only": 19.3,
+    "passes": 36,
+    "repaired_rows": 18,
+    "rows": 187,
+    "training_eligible": false
   }
 }

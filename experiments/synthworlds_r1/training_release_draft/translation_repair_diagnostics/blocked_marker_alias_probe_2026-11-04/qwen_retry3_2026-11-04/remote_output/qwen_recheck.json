@@ -1,0 +1,70 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "d7fa988d54547b19cea3b531e18fb1ee47bc93e98f3146018e431920b6346f1e",
+  "parent_output_sha256": "0586215735ec2f4b6b046ccac08b124a82907b0cff4c4581e7a5716a622cb2db",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "lm_format_enforcer": "0.11.1",
+  "output_schema": "single-item decisions array",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "records": [
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "back_translation_sha256": "fac81d5e937589600953de3616e10e5f76376a8569e0f35018035952b873589d",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0222\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Semantically equivalent and fluent.\"}]}",
+      "decision": {
+        "key": "R0222",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Semantically equivalent and fluent."
+      }
+    },
+    {
+      "review_key": "R0421",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "back_translation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0421\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation differs in temporal relationship.\"}]}",
+      "decision": {
+        "key": "R0421",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation differs in temporal relationship."
+      }
+    },
+    {
+      "review_key": "R0521",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "translation_sha256": "0e4b32fa7b1384265a4a13e1d8e811f3b76917f958b45ad0c44da3fabc526bd8",
+      "back_translation_sha256": "e33425dd121b4117655a4096958bc713ba9d3279b81c9e3f176872443e0676ab",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0521\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterprets 'borders' as 'on the border'\"}]}",
+      "decision": {
+        "key": "R0521",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterprets 'borders' as 'on the border'"
+      }
+    }
+  ],
+  "started_at_utc": "2026-11-04T16:55:23.861093+00:00",
+  "counts": {
+    "PASS": 1,
+    "FLAG": 2
+  },
+  "completed_at_utc": "2026-11-04T16:55:46.001853+00:00"
+}

@@ -1,0 +1,247 @@
+{
+  "status": "PASS_INDEPENDENT_SCORE_REPRODUCTION_EXPLORATORY_ONLY",
+  "created_utc": "2026-11-04",
+  "run_bundle": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/r1_composition_retainfix_verified_results_20261103_v3.zip",
+  "run_bundle_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+  "zip_crc": "PASS",
+  "zip_entries": 78,
+  "indexed_files": 77,
+  "indexed_archive_to_extraction_hashes": "PASS",
+  "indexed_hash_failures": [],
+  "prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+  "prediction_rows": 7740,
+  "prediction_unique_composite_keys": true,
+  "rows_per_checkpoint": {
+    "GA": 1290,
+    "GD": 1290,
+    "NPO": 1290,
+    "pretrained": 1290,
+    "retain_only": 1290,
+    "sft": 1290
+  },
+  "scorer": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/scripts/evaluate_crosslingual_unlearning.py",
+  "scorer_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+  "independent_rescore_command": "python3 evaluate_crosslingual_unlearning.py --eval-root extracted/evaluation_dataset --predictions extracted/corrected_evaluation/predictions.jsonl --output-dir /tmp/r1_v4_corrected_independent_rescore --score-only --bootstrap 2000 --checkpoint sft=unused --contrast-model GA --contrast-model GD --contrast-model NPO",
+  "derived_outputs_byte_identical": {
+    "case_metrics.jsonl": true,
+    "cross_language_contrasts.csv": true,
+    "cross_language_contrasts.json": true,
+    "scored_predictions.jsonl": true,
+    "summary.csv": true,
+    "summary.json": true,
+    "diagnostic_report.md": true
+  },
+  "all_seven_outputs_byte_identical": true,
+  "primary_forget_language_contrasts": [
+    {
+      "model": "GA",
+      "split": "forget",
+      "language": "fr",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -10.0,
+      "language_multi_delta_vs_sft_pp": 0.0,
+      "language_minus_english_did_pp": 10.0,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "model": "GA",
+      "split": "forget",
+      "language": "de",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "english_multi_delta_vs_sft_pp": -33.33333333333333,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 22.22222222222222,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        80.0
+      ]
+    },
+    {
+      "model": "GA",
+      "split": "forget",
+      "language": "hi",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 0.0,
+      "cluster_bootstrap_95ci_pp": [
+        -33.33333333333333,
+        33.33333333333333
+      ]
+    },
+    {
+      "model": "GA",
+      "split": "forget",
+      "language": "th",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "english_multi_delta_vs_sft_pp": -27.27272727272727,
+      "language_multi_delta_vs_sft_pp": -18.181818181818183,
+      "language_minus_english_did_pp": 9.090909090909092,
+      "cluster_bootstrap_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ]
+    },
+    {
+      "model": "GD",
+      "split": "forget",
+      "language": "fr",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -10.0,
+      "language_multi_delta_vs_sft_pp": 0.0,
+      "language_minus_english_did_pp": 10.0,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "model": "GD",
+      "split": "forget",
+      "language": "de",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "english_multi_delta_vs_sft_pp": -22.22222222222222,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 11.11111111111111,
+      "cluster_bootstrap_95ci_pp": [
+        -33.33333333333333,
+        80.0
+      ]
+    },
+    {
+      "model": "GD",
+      "split": "forget",
+      "language": "hi",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -22.22222222222222,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 11.11111111111111,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "model": "GD",
+      "split": "forget",
+      "language": "th",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "english_multi_delta_vs_sft_pp": -27.27272727272727,
+      "language_multi_delta_vs_sft_pp": -18.181818181818183,
+      "language_minus_english_did_pp": 9.090909090909092,
+      "cluster_bootstrap_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ]
+    },
+    {
+      "model": "NPO",
+      "split": "forget",
+      "language": "fr",
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -10.0,
+      "language_multi_delta_vs_sft_pp": 0.0,
+      "language_minus_english_did_pp": 10.0,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "model": "NPO",
+      "split": "forget",
+      "language": "de",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "english_multi_delta_vs_sft_pp": -22.22222222222222,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 11.11111111111111,
+      "cluster_bootstrap_95ci_pp": [
+        -33.33333333333333,
+        80.0
+      ]
+    },
+    {
+      "model": "NPO",
+      "split": "forget",
+      "language": "hi",
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "english_multi_delta_vs_sft_pp": -22.22222222222222,
+      "language_multi_delta_vs_sft_pp": -11.11111111111111,
+      "language_minus_english_did_pp": 11.11111111111111,
+      "cluster_bootstrap_95ci_pp": [
+        0.0,
+        50.0
+      ]
+    },
+    {
+      "model": "NPO",
+      "split": "forget",
+      "language": "th",
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "english_multi_delta_vs_sft_pp": -27.27272727272727,
+      "language_multi_delta_vs_sft_pp": -18.181818181818183,
+      "language_minus_english_did_pp": 9.090909090909092,
+      "cluster_bootstrap_95ci_pp": [
+        -27.27272727272727,
+        57.14285714285714
+      ]
+    }
+  ],
+  "run_manifests": {
+    "GA": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "distinct_retain_ids": 0,
+      "holdout_rows": 0,
+      "baseline_gate_status": "FAIL",
+      "seed": 42,
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct"
+    },
+    "GD": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "distinct_retain_ids": 26,
+      "holdout_rows": 0,
+      "baseline_gate_status": "FAIL",
+      "seed": 42,
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct"
+    },
+    "NPO": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "distinct_retain_ids": 26,
+      "holdout_rows": 0,
+      "baseline_gate_status": "FAIL",
+      "seed": 42,
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct"
+    }
+  },
+  "limitations": [
+    "one seed only; Llama 3.2 1B feasibility model, not the planned Llama 3.1 8B main profile",
+    "baseline bilingual competence gate failed: FR 10 cases/6 groups, DE 9/5, HI 9/6, TH 11/7; required 15/8",
+    "translation review was AI-only and no fluent-human audit was performed",
+    "raw Kaggle unlearning manifests omitted the unlearning-script hash; code-to-run association is post-run provenance reconciliation, not cryptographic attestation",
+    "cluster-bootstrap intervals are exploratory, based on 5-7 matched groups per target-language contrast, and unadjusted for multiple comparisons"
+  ]
+}

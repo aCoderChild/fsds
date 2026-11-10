@@ -1,0 +1,46 @@
+[{"stream_name":"stderr","time":16.688735856,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":16.688789167,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.688795846,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.688798753,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":16.68880141,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.802765543,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":51.802806448,"data":"I0000 00:00:1793739077.288571       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":182.819416162,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:53\u003c13:16, 113.79s/it]\rFetching 8 files:  25%|██▌       | 2/8 [02:07\u003c05:29, 54.91s/it] \rFetching 8 files: 100%|██████████| 8/8 [02:07\u003c00:00, 15.94s/it]\n"}
+,{"stream_name":"stderr","time":188.078180837,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":294.238622088,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:10\u003c01:16, 10.98s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:22\u003c01:08, 11.41s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:35\u003c01:01, 12.21s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:51\u003c00:54, 13.51s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:07\u003c00:42, 14.32s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:22\u003c00:29, 14.84s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:38\u003c00:15, 15.18s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 12.50s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 13.20s/it]\n"}
+,{"stream_name":"stderr","time":294.364941857,"data":"WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stderr","time":294.447996493,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":294.448025312,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":294.448031102,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":294.448036695,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":294.448040892,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":294.448079295,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":320.842884736,"data":"Reviewed 1/15\n"}
+,{"stream_name":"stdout","time":346.544697719,"data":"Reviewed 2/15\n"}
+,{"stream_name":"stdout","time":367.710686536,"data":"Reviewed 3/15\n"}
+,{"stream_name":"stdout","time":393.047224265,"data":"Reviewed 4/15\n"}
+,{"stream_name":"stdout","time":418.820152179,"data":"Reviewed 5/15\n"}
+,{"stream_name":"stdout","time":445.040620585,"data":"Reviewed 6/15\n"}
+,{"stream_name":"stdout","time":468.575431261,"data":"Reviewed 7/15\n"}
+,{"stream_name":"stdout","time":489.723660599,"data":"Reviewed 8/15\n"}
+,{"stream_name":"stdout","time":517.647218719,"data":"Reviewed 9/15\n"}
+,{"stream_name":"stdout","time":533.410367169,"data":"Reviewed 10/15\n"}
+,{"stream_name":"stdout","time":555.094691207,"data":"Reviewed 11/15\n"}
+,{"stream_name":"stdout","time":576.295039157,"data":"Reviewed 12/15\n"}
+,{"stream_name":"stdout","time":600.610738297,"data":"Reviewed 13/15\n"}
+,{"stream_name":"stdout","time":627.7370073,"data":"Reviewed 14/15\n"}
+,{"stream_name":"stdout","time":652.151186566,"data":"Reviewed 15/15\n"}
+,{"stream_name":"stdout","time":652.151539751,"data":"{\n"}
+,{"stream_name":"stdout","time":652.151555012,"data":"  \"status\": \"DIAGNOSTIC_COMPLETE\",\n"}
+,{"stream_name":"stdout","time":652.151560521,"data":"  \"schema_errors\": 0,\n"}
+,{"stream_name":"stdout","time":652.151564902,"data":"  \"semantic_passes_on_known_mismatches\": 0,\n"}
+,{"stream_name":"stdout","time":652.151569203,"data":"  \"fluency_passes\": 15,\n"}
+,{"stream_name":"stdout","time":652.151573503,"data":"  \"both_pass_on_known_mismatches\": 0\n"}
+,{"stream_name":"stdout","time":652.151578343,"data":"}\n"}
+,{"stream_name":"stderr","time":659.932207177,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":659.932241612,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":660.245944146,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":660.245971888,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":661.174053572,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":661.967822176,"data":"[NbConvertApp] Writing 296758 bytes to __results__.html\n"}
+]

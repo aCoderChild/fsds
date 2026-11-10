@@ -1,0 +1,38 @@
+{
+  "batch": {
+    "qa": [
+      "0074-qa-sm"
+    ],
+    "documents": [
+      "Q25989",
+      "Q41329"
+    ],
+    "facts": [
+      "Q25989"
+    ],
+    "pilot_fact_sft": [
+      "derived-sha256:2476f94e57461f4f0c6234a023ff97827a25b40d3d501dd389120e94e4aa3bd0",
+      "derived-sha256:b6208881fa3425413f652fe4e339f7c42d30394786d79963a0c04bb264edad7d"
+    ]
+  },
+  "counts": {
+    "qa": {
+      "completed": 1,
+      "pending": 1199
+    },
+    "documents": {
+      "completed": 2,
+      "pending": 6288
+    },
+    "facts": {
+      "completed": 1,
+      "pending": 6289
+    },
+    "pilot_fact_sft": {
+      "completed": 2,
+      "pending": 204
+    }
+  },
+  "file_count": 24,
+  "archive_sha256": "2aa28a8dc6ad9131dfd759f97006ee217d5277186edc3951bf5e0fb103eefaf8"
+}

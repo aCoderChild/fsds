@@ -1,0 +1,213 @@
+{
+  "audit_id": "muse_news_readiness_2026-11-09",
+  "checked_at_utc": "2026-11-09T06:16:32.422996+00:00",
+  "dataset": {
+    "repo": "muse-bench/MUSE-News",
+    "revision": "506bd5b150b92814d45e4404a82f120ab2d748bf",
+    "public": true,
+    "gated": false,
+    "license_tag": "cc-by-4.0",
+    "repo_file_count": 39,
+    "repo_file_bytes_sum": 89541776,
+    "raw_split_article_counts": {
+      "forget": 889,
+      "retain1": 1777,
+      "retain2": 1778,
+      "holdout": 3043
+    },
+    "train_forget_article_count": 3554,
+    "verbmem_forget_sample_count": 100,
+    "verbmem_forget_columns": [
+      "prompt",
+      "gt"
+    ],
+    "raw_forget_unique_article_texts": 858,
+    "train_forget_unique_article_texts": 3120,
+    "raw_forget_unique_texts_found_in_train_forget": 858,
+    "raw_forget_unique_texts_missing_from_train_forget": 0,
+    "train_forget_unique_texts_beyond_raw_forget": 2262,
+    "knowmem_forget_qa_count": 100,
+    "knowmem_forget_qa_fields": [
+      "answer",
+      "question",
+      "target_statistics"
+    ],
+    "knowmem_forget_qa_nested_fields": [
+      "answer",
+      "question",
+      "response",
+      "rouge1",
+      "rouge1_recall",
+      "rougeL",
+      "rougeL_recall",
+      "target_statistics"
+    ],
+    "target_statistics_fields": [
+      "response",
+      "rouge1",
+      "rouge1_recall",
+      "rougeL",
+      "rougeL_recall"
+    ],
+    "repository_file_paths": [
+      ".gitattributes",
+      "README.md",
+      "knowmem/forget-qa-icl.json",
+      "knowmem/forget-qa.json",
+      "knowmem/forget_qa-00000-of-00001.parquet",
+      "knowmem/forget_qa_icl-00000-of-00001.parquet",
+      "knowmem/retain2-qa-icl.json",
+      "knowmem/retain2-qa.json",
+      "knowmem/retain2_qa-00000-of-00001.parquet",
+      "knowmem/retain2_qa_icl-00000-of-00001.parquet",
+      "knowmem/retain_qa-00000-of-00001.parquet",
+      "knowmem/retain_qa_icl-00000-of-00001.parquet",
+      "privleak/forget-00000-of-00001.parquet",
+      "privleak/forget.json",
+      "privleak/holdout-00000-of-00001.parquet",
+      "privleak/holdout.json",
+      "privleak/retain-00000-of-00001.parquet",
+      "privleak/retain2-00000-of-00001.parquet",
+      "privleak/retain2.json",
+      "raw/forget-00000-of-00001.parquet",
+      "raw/holdout-00000-of-00001.parquet",
+      "raw/retain1-00000-of-00001.parquet",
+      "raw/retain2-00000-of-00001.parquet",
+      "scal/forget_1-00000-of-00001.parquet",
+      "scal/forget_2-00000-of-00001.parquet",
+      "scal/forget_3-00000-of-00001.parquet",
+      "scal/forget_4-00000-of-00001.parquet",
+      "sust/forget_1-00000-of-00001.parquet",
+      "sust/forget_2-00000-of-00001.parquet",
+      "sust/forget_3-00000-of-00001.parquet",
+      "sust/forget_4-00000-of-00001.parquet",
+      "train/forget-00000-of-00001.parquet",
+      "train/forget.json",
+      "train/retain1-00000-of-00001.parquet",
+      "train/retain1.json",
+      "train/retain2-00000-of-00001.parquet",
+      "train/retain2.json",
+      "verbmem/forget-00000-of-00001.parquet",
+      "verbmem/forget.json"
+    ],
+    "repository_source_mapping_paths": [],
+    "knowmem_forget_qa_columns": [
+      "answer",
+      "question",
+      "target_statistics"
+    ],
+    "raw_article_columns": [
+      "text"
+    ],
+    "article_linkage": {
+      "status": "POTENTIAL_QA_RAW_SPLIT_ALIGNMENT_ISSUE_AND_NO_SOURCE_IDS_FOR_CLUSTER_BOOTSTRAP",
+      "qa_records_have_source_id": false,
+      "raw_article_records_have_source_id": false,
+      "normalized_exact_answer_match_counts_raw_forget": {
+        "unique": 27,
+        "multiple": 47,
+        "none": 26
+      },
+      "normalized_exact_answer_match_counts_train_forget": {
+        "unique": 23,
+        "multiple": 77,
+        "none": 0
+      },
+      "normalized_exact_answer_match_counts_verbmem_forget": {
+        "unique": 11,
+        "multiple": 24,
+        "none": 65
+      },
+      "qa_index_equals_verbmem_index_exact_answer_matches": [
+        3,
+        7,
+        8,
+        12,
+        14,
+        22
+      ],
+      "qa_index_equals_verbmem_index_exact_answer_match_count": 6,
+      "qa_rows_unmatched_in_raw_forget_but_matched_in_train_forget": [
+        4,
+        6,
+        25,
+        29,
+        30,
+        38,
+        40,
+        50,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        60,
+        62,
+        63,
+        66,
+        67,
+        70,
+        72,
+        76,
+        79,
+        83,
+        90,
+        95
+      ],
+      "candidate_table": "qa_split_alignment_candidates.jsonl",
+      "candidate_table_rows": 100,
+      "basis": "The MUSE paper says KnowMem QA pairs are generated from excerpts of Verbatim samples, while the Hub card says KnowMem questions test the corresponding raw split. Exact normalized answer searches across raw articles, training passages, and the released verbmem prompt/gt samples are diagnostics, not source identifiers.",
+      "note": "Exact answer matching is only a diagnostic. It leaves ambiguous/unmatched questions and cannot be treated as verified article-group labels.",
+      "schema_audit": "All released forget-QA rows and nested target_statistics were inspected. target_statistics contains only model response and ROUGE fields; no source/article identifier was found in QA schema or dataset repository file paths."
+    }
+  },
+  "target_model": {
+    "repo": "muse-bench/MUSE-news_target",
+    "revision": "a2f39769e9a0b98ec1cdd12f65e9962502208935",
+    "public": true,
+    "gated": false,
+    "license_tag": null,
+    "license_missing_from_card_and_readme": true,
+    "model_type": "llama",
+    "architecture": [
+      "LlamaForCausalLM"
+    ],
+    "parameters_approx": "7B",
+    "checkpoint_dtype": "float32",
+    "safetensors_file_count": 6,
+    "safetensors_bytes": 26953696096,
+    "safetensors_gib": 25.103,
+    "note": "Public/un-gated access is technically verified, but the model card does not state a license or fine-tuning provenance. Resolve applicable base-model and derivative-weight terms before training or redistributing outputs."
+  },
+  "decision": {
+    "dataset_access": "PASS",
+    "model_download_access": "PASS_PUBLIC_UNGATED",
+    "training_readiness": "BLOCKED_MODEL_TERMS_AND_QA_RAW_SPLIT_ALIGNMENT_REVIEW",
+    "gpu_run_started": false,
+    "recommended_next_action": "Do not start training. Review the source-alignment mismatch and applicable target-model terms; for an inference-only baseline, attach a token with access to the exact gated Meta Llama-2-7b-hf tokenizer to this Kaggle kernel, pass the hash-checked preflight, then run baseline only."
+  },
+  "official_source_review": {
+    "checked_at_utc": "2026-11-09",
+    "paper": "https://arxiv.org/abs/2407.06460",
+    "official_loader_repo": "https://github.com/swj0419/muse_bench",
+    "official_loader_commit": "fcd6651da8bcf34744fb9a1cc69bb856ab3eb277",
+    "official_loader_preserves_qa_article_ids": false,
+    "official_loader_serializes_knowmem_rows_as": [
+      "question",
+      "answer"
+    ],
+    "target_model_paper_lineage": "Llama 2 7B fine-tuned on BBC articles, as stated in the MUSE paper",
+    "target_model_hub_license_tag_present": false,
+    "normalized_answer_substring_candidates": {
+      "qa_forget_rows": 100,
+      "rows_with_any_train_forget_candidate": 100,
+      "rows_without_raw_forget_candidate": 26,
+      "rows_without_raw_forget_candidate_but_with_other_raw_split_candidate": 13,
+      "rows_with_candidates_in_multiple_raw_splits": 59,
+      "interpretation": "Lexical candidates only; not verified source links and not proof of leakage."
+    },
+    "training_decision": "REMAINS_BLOCKED_PROVENANCE_TERMS_AND_SOURCE_SCOPE_REVIEW",
+    "inference_only_option": "Report fixed-set official means descriptively without source-cluster intervals; do not interpret this as resolving source alignment."
+  }
+}

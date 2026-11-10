@@ -1,0 +1,20 @@
+{
+  "status": "PASS_MASK_PREFLIGHT",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "scope": "TOKENIZER_AND_ASSISTANT_MASK_PREFLIGHT_ONLY",
+  "gpu_required": false,
+  "weights_downloaded": false,
+  "research_data_loaded": false,
+  "training_started": false,
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "transformers_version": "5.22.1",
+  "tokenizer_is_fast": true,
+  "tokenizer_vocab_size": 128000,
+  "tokenizer_json_sha256": "b47fcb7017102fb3594326d69acc6b74872032ed15def90890d49d61ea94d220",
+  "assistant_mask_source_sha256": "6c91f6047e14438b5f7eda646402580734478a8d312cdcef36a71cdec45f45c6",
+  "loss_mask_method": "single_render_fast_tokenizer_offsets",
+  "input_token_count": 48,
+  "assistant_supervised_token_count": 2,
+  "first_supervised_token_index": 46,
+  "interpretation": "The pinned fast tokenizer and shared assistant-only offset mask passed on a synthetic prompt. No model weights or research data were loaded; no training was started."
+}

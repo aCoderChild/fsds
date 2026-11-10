@@ -1,0 +1,10 @@
+{
+  "title": "SynthWorlds-SM SFT Feasibility Pilot v3",
+  "id": "bunnoob2005/synthworlds-sm-sft-pilot-v3",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-4.0"
+    }
+  ],
+  "description": "Private feasibility-pilot SFT package derived from kenqgu/SynthWorlds (CC-BY-4.0) with NLLB-200 translations (CC-BY-NC-4.0). AI-only translation review; no fluent human review. Research pilot; not human-validated multilingual data."
+}

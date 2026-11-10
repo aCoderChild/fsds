@@ -1,0 +1,11 @@
+{
+  "title": "TOFU 3B Recovery Artifacts v2 - Nov 8 2026",
+  "id": "bunnoob2005/tofu-3b-recovery-v2-2026-11-08",
+  "subtitle": "Verified alpha=10 development checkpoint for preregistered recovery study",
+  "description": "Private continuation input for the locked TOFU Llama 3.2 3B NPO-LoRA profile-cohort study. Contains the v2 experiment archive after alpha=10 training completed 250 steps and all 800 development evaluations. Its independent gate recheck reports FAIL_DIAGNOSTIC_GATES: forget metrics improve, but retain answer probability and retain ROUGE-L exceed the locked 5 percentage-point utility-loss margin. The prior notebook then stopped on a recoverable NameError while recording this already saved candidate. The archive contains 48 files, passed ZIP CRC, is 187184387 bytes, and has SHA-256 74a8a86c7c1f67f0c9625df2805293679a9bacf808204736a8579b839b65d370. It contains no model cache. Notebook v3 verifies the mounted tree against this archive manifest, verifies and reuses alpha=10 without retraining, then runs only preregistered alpha=20. Final-cohort training remains blocked unless a development candidate passes every locked gate. Data source: locuslab/TOFU at pinned revision 324592d84ae4f482ac7249b9285c2ecdb53e3a68.",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

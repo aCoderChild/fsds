@@ -1,0 +1,101 @@
+{"entity_fact_group_id": "eg-4c51626fb33d6f3d", "entity_qids": ["Q1077", "Q18043309", "Q1974429", "Q20074", "Q2955489", "Q3487169", "Q380519", "Q54800541", "Q607489", "Q718644", "Q75538077", "Q8038644"], "instance_ids": ["0009-qa-sm", "0017-qa-sm", "0036-qa-sm", "0098-qa-sm", "0143-qa-sm", "0178-qa-sm"], "size": 6, "split": "forget"}
+{"entity_fact_group_id": "eg-568808211f4be832", "entity_qids": ["Q13974", "Q150", "Q154064", "Q161806", "Q16744174", "Q1860", "Q269599", "Q348445", "Q5106989", "Q540427", "Q55191", "Q6066272", "Q6532683"], "instance_ids": ["0033-qa-sm", "0055-qa-sm", "0085-qa-sm", "0108-qa-sm", "0153-qa-sm", "0165-qa-sm"], "size": 6, "split": "retain"}
+{"entity_fact_group_id": "eg-38f99ec0cc9d3e2b", "entity_qids": ["Q131964", "Q188", "Q348626", "Q42884", "Q505918", "Q699738", "Q76967"], "instance_ids": ["0013-qa-sm", "0035-qa-sm", "0088-qa-sm"], "size": 3, "split": "holdout"}
+{"entity_fact_group_id": "eg-3e2b43a17f3bc203", "entity_qids": ["Q1039", "Q1239", "Q15", "Q27407", "Q27433", "Q48", "Q977"], "instance_ids": ["0072-qa-sm", "0173-qa-sm", "0177-qa-sm"], "size": 3, "split": "forget"}
+{"entity_fact_group_id": "eg-c8e60523dc293141", "entity_qids": ["Q121752426", "Q1370330", "Q18010311", "Q233335", "Q666578", "Q8229"], "instance_ids": ["0086-qa-sm", "0110-qa-sm", "0123-qa-sm"], "size": 3, "split": "holdout"}
+{"entity_fact_group_id": "eg-ccdaf1f9614a4ba6", "entity_qids": ["Q13013925", "Q25539146", "Q448071", "Q548733", "Q855252"], "instance_ids": ["0081-qa-sm", "0121-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-7ffacd8fa64cf887", "entity_qids": ["Q1399299", "Q193196", "Q2631797", "Q713738", "Q957538"], "instance_ids": ["0150-qa-sm", "0186-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-18a835ced36494a9", "entity_qids": ["Q16508607", "Q1726", "Q22661404", "Q57070", "Q9021"], "instance_ids": ["0193-qa-sm", "0199-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-634331706de3caad", "entity_qids": ["Q3955", "Q559186", "Q61360", "Q747279"], "instance_ids": ["0020-qa-sm", "0040-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-4a4a6106a8dcc806", "entity_qids": ["Q1052964", "Q15700818", "Q18810066", "Q272162", "Q38370"], "instance_ids": ["0037-qa-sm", "0163-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-e34d275098c78826", "entity_qids": ["Q1321", "Q2841", "Q3070", "Q739", "Q800"], "instance_ids": ["0111-qa-sm", "0159-qa-sm"], "size": 2, "split": "retain"}
+{"entity_fact_group_id": "eg-8d45ef8c614fcbd6", "entity_qids": ["Q1236482", "Q206414", "Q232090", "Q787204"], "instance_ids": ["0079-qa-sm", "0198-qa-sm"], "size": 2, "split": "holdout"}
+{"entity_fact_group_id": "eg-a4bb51e20e2ccb0e", "entity_qids": ["Q126418747", "Q30059240", "Q694826"], "instance_ids": ["0053-qa-sm", "0169-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-d83ead9d3f8a1ab2", "entity_qids": ["Q12548", "Q1501215", "Q15089621", "Q551624", "Q64266"], "instance_ids": ["0154-qa-sm", "0160-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-492a14de0940e3ec", "entity_qids": ["Q1527", "Q16", "Q2406528", "Q2837732", "Q33385"], "instance_ids": ["0161-qa-sm", "0168-qa-sm"], "size": 2, "split": "forget"}
+{"entity_fact_group_id": "eg-0b412c2e9512144f", "entity_qids": ["Q1081620", "Q1861", "Q690708", "Q869"], "instance_ids": ["0089-qa-sm", "0120-qa-sm"], "size": 2, "split": "retain"}
+{"entity_fact_group_id": "eg-aa33e29fe914cf3c", "entity_qids": ["Q153015", "Q156199", "Q1731", "Q2079", "Q58020", "Q590208"], "instance_ids": ["0034-qa-sm", "0130-qa-sm"], "size": 2, "split": "holdout"}
+{"entity_fact_group_id": "eg-41e2841992648bf3", "entity_qids": ["Q122392", "Q78"], "instance_ids": ["0164-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-6792ec138679836b", "entity_qids": ["Q1157807", "Q206173"], "instance_ids": ["0070-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-819577aa33fcc223", "entity_qids": ["Q1043", "Q162688", "Q185246"], "instance_ids": ["0059-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-fe703d5254f8cf7c", "entity_qids": ["Q131621", "Q57326", "Q67721"], "instance_ids": ["0176-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-af1c1a49701038f7", "entity_qids": ["Q131729", "Q133747", "Q38104"], "instance_ids": ["0003-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-98e29fe64d7dc704", "entity_qids": ["Q16275172", "Q2958359", "Q60292"], "instance_ids": ["0000-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-3cd4f36cfa7edf0a", "entity_qids": ["Q2642826", "Q34618", "Q704661"], "instance_ids": ["0100-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-f4e5c0eefaa6ea77", "entity_qids": ["Q1027888", "Q602612"], "instance_ids": ["0127-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-d8c972f8051e9db9", "entity_qids": ["Q3392", "Q4918", "Q85"], "instance_ids": ["0090-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-b621fa48f927c97c", "entity_qids": ["Q1051324", "Q221236", "Q4165246"], "instance_ids": ["0172-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-544dc42f0aa7dfbe", "entity_qids": ["Q6778501", "Q7268179", "Q7754466"], "instance_ids": ["0114-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-9740c9b8ebabfb0e", "entity_qids": ["Q16069777", "Q18286730"], "instance_ids": ["0157-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-54536a68a35be004", "entity_qids": ["Q129857", "Q202660", "Q311115"], "instance_ids": ["0185-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-49fbe404734916ad", "entity_qids": ["Q3306", "Q37660", "Q98"], "instance_ids": ["0170-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-dd8c90fca9a97ff3", "entity_qids": ["Q16552", "Q3887604", "Q585462"], "instance_ids": ["0096-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-89b11d86fc5ab5c2", "entity_qids": ["Q193803", "Q833163", "Q9134365"], "instance_ids": ["0056-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-f007c61dc7884e7d", "entity_qids": ["Q150494", "Q234379", "Q57527"], "instance_ids": ["0117-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-5e7f5404e43bca14", "entity_qids": ["Q2958752", "Q562013"], "instance_ids": ["0116-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-e73c273a56f64bc7", "entity_qids": ["Q2860507", "Q465342", "Q5589"], "instance_ids": ["0021-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-b6cb1ff3ab29f7d0", "entity_qids": ["Q15728223", "Q57531", "Q7411"], "instance_ids": ["0145-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-a644baaf4f0b6a76", "entity_qids": ["Q158229", "Q242687"], "instance_ids": ["0128-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-09ebac9986bc7fc3", "entity_qids": ["Q3912134", "Q474823", "Q727"], "instance_ids": ["0144-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-8b7b70b892b6b04f", "entity_qids": ["Q1129820", "Q510324", "Q89574171"], "instance_ids": ["0107-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-deb200e67ad75cb1", "entity_qids": ["Q23810", "Q37922", "Q47484"], "instance_ids": ["0024-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-57021769f5abf308", "entity_qids": ["Q128995", "Q145", "Q158258"], "instance_ids": ["0132-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-5221f080bec8f680", "entity_qids": ["Q131981", "Q161885", "Q40807"], "instance_ids": ["0065-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-9bb380da06f1eb74", "entity_qids": ["Q108321192", "Q29422073", "Q5465"], "instance_ids": ["0099-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-ae0476624edfa11e", "entity_qids": ["Q233496", "Q52938", "Q52939"], "instance_ids": ["0184-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-0802f0d2cf808221", "entity_qids": ["Q120180", "Q49542", "Q7737"], "instance_ids": ["0115-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-8ca56a16a56c163f", "entity_qids": ["Q1252328", "Q165349", "Q602358"], "instance_ids": ["0152-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-aa68974727c21681", "entity_qids": ["Q155790", "Q9067", "Q949"], "instance_ids": ["0008-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-4bd3cb3c6cf672f2", "entity_qids": ["Q15174", "Q15175", "Q16572"], "instance_ids": ["0038-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-182717f4c6cd34ef", "entity_qids": ["Q1029706", "Q7976", "Q8007"], "instance_ids": ["0148-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-6350757176887d5e", "entity_qids": ["Q131252", "Q323232"], "instance_ids": ["0142-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-282919f9f3239e25", "entity_qids": ["Q270794", "Q746633"], "instance_ids": ["0156-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-d7a98e6020abadae", "entity_qids": ["Q450110", "Q814779"], "instance_ids": ["0057-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-25445bcc0300ae56", "entity_qids": ["Q566408", "Q700425"], "instance_ids": ["0031-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-67d8b6142e2110c9", "entity_qids": ["Q15616452", "Q16069188", "Q96958170"], "instance_ids": ["0151-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-7451e32414e061a1", "entity_qids": ["Q170027", "Q174570", "Q337430"], "instance_ids": ["0010-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-50559922188a70f8", "entity_qids": ["Q25989", "Q27509", "Q41329"], "instance_ids": ["0074-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-dd1eb790378e7dc7", "entity_qids": ["Q3496861", "Q3506645", "Q907311"], "instance_ids": ["0190-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-3a1e75ff4f74c12f", "entity_qids": ["Q220", "Q333369", "Q352482"], "instance_ids": ["0118-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-da2f01c219f9607a", "entity_qids": ["Q122960", "Q156617", "Q211053"], "instance_ids": ["0091-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-1bb94a08f653507d", "entity_qids": ["Q165980", "Q58586", "Q78492"], "instance_ids": ["0052-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-e98b1e8b860a429f", "entity_qids": ["Q590893", "Q665807"], "instance_ids": ["0137-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-7f147b1d98acebb3", "entity_qids": ["Q115", "Q3624", "Q423"], "instance_ids": ["0023-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-3115afd0cde393cd", "entity_qids": ["Q3312529", "Q5188759"], "instance_ids": ["0066-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-6ab94d683ea2ba12", "entity_qids": ["Q107542665", "Q18920891", "Q3662198"], "instance_ids": ["0042-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-7a4745dbea4e94af", "entity_qids": ["Q2147172", "Q514276", "Q7737966"], "instance_ids": ["0058-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-039e4ac148d9f45a", "entity_qids": ["Q156659", "Q67653663", "Q702090"], "instance_ids": ["0189-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-6f6c233e9cdaec4e", "entity_qids": ["Q19180675", "Q7733079", "Q7850"], "instance_ids": ["0078-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-474c7293a3b0a6b0", "entity_qids": ["Q1056251", "Q311253", "Q622282"], "instance_ids": ["0051-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-c3b7462af1c3aa2a", "entity_qids": ["Q487983", "Q79854"], "instance_ids": ["0139-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-42e904099435f83c", "entity_qids": ["Q1809071", "Q87406962"], "instance_ids": ["0077-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-7ed5fa393dbc4b35", "entity_qids": ["Q112707", "Q4281643", "Q870568"], "instance_ids": ["0138-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-c2bf544de4c6571d", "entity_qids": ["Q132537", "Q47285", "Q58978"], "instance_ids": ["0073-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-5ca1c4ce9b23cf60", "entity_qids": ["Q2629417", "Q44166126"], "instance_ids": ["0071-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-620321c72f38ed4a", "entity_qids": ["Q41304", "Q7318"], "instance_ids": ["0134-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-423b3e8b6223f8bb", "entity_qids": ["Q191716", "Q2659593", "Q362"], "instance_ids": ["0045-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-2638473d77254592", "entity_qids": ["Q11317651", "Q3893448", "Q550766"], "instance_ids": ["0075-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-04ed1fa817aae435", "entity_qids": ["Q6412254", "Q669458"], "instance_ids": ["0006-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-e026e3d438127b46", "entity_qids": ["Q101384", "Q232761", "Q68508"], "instance_ids": ["0019-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-64c7bfc2884764fe", "entity_qids": ["Q57063", "Q71031", "Q76622"], "instance_ids": ["0187-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-bd1b3681bc8b7671", "entity_qids": ["Q3414212", "Q540510", "Q7857147"], "instance_ids": ["0182-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-44c502af11b2ef9c", "entity_qids": ["Q16141539", "Q236970", "Q295850"], "instance_ids": ["0191-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-c0d8989699ce62a3", "entity_qids": ["Q290720", "Q312305", "Q810104"], "instance_ids": ["0094-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-5ace350bc83a02ea", "entity_qids": ["Q49115", "Q549942", "Q7729572"], "instance_ids": ["0007-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-612fc523d1fd4ebc", "entity_qids": ["Q207318", "Q701723", "Q78994"], "instance_ids": ["0155-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-d28a7e06dc96483d", "entity_qids": ["Q164396", "Q2657718"], "instance_ids": ["0061-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-1bc76e4c3e8e2030", "entity_qids": ["Q116452747", "Q356644"], "instance_ids": ["0027-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-807bc755edef03bd", "entity_qids": ["Q34713", "Q614661", "Q77067"], "instance_ids": ["0002-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-e4c907a1eb9f5bf9", "entity_qids": ["Q238470", "Q3642350", "Q895187"], "instance_ids": ["0136-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-411b4e362de6115d", "entity_qids": ["Q61774", "Q66165", "Q77313"], "instance_ids": ["0188-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-c3a54ad7bf6ad13f", "entity_qids": ["Q1588", "Q495691", "Q512832"], "instance_ids": ["0105-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-67ee8f61d3c8642e", "entity_qids": ["Q3492931", "Q43668", "Q7732"], "instance_ids": ["0133-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-8b9f5a65c434f377", "entity_qids": ["Q11708", "Q3757", "Q559929"], "instance_ids": ["0062-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-43c7856d73e19146", "entity_qids": ["Q175130", "Q295144", "Q311"], "instance_ids": ["0022-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-9e9c68495346380e", "entity_qids": ["Q108774", "Q16290", "Q5036940"], "instance_ids": ["0141-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-2449def3a8d2cb36", "entity_qids": ["Q110671441", "Q7605588", "Q99868784"], "instance_ids": ["0030-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-699159ceddc39c42", "entity_qids": ["Q16968699", "Q8652"], "instance_ids": ["0005-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-79047946e4c693ec", "entity_qids": ["Q1374339", "Q8733"], "instance_ids": ["0054-qa-sm"], "size": 1, "split": "holdout"}
+{"entity_fact_group_id": "eg-196a6a138dc3b432", "entity_qids": ["Q1439", "Q18", "Q49"], "instance_ids": ["0180-qa-sm"], "size": 1, "split": "retain"}
+{"entity_fact_group_id": "eg-eeab2851036cdef5", "entity_qids": ["Q45670", "Q46", "Q58800860"], "instance_ids": ["0147-qa-sm"], "size": 1, "split": "forget"}
+{"entity_fact_group_id": "eg-f89be122d4aef3f0", "entity_qids": ["Q1092", "Q766141"], "instance_ids": ["0167-qa-sm"], "size": 1, "split": "forget"}

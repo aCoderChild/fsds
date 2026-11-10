@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09",
+  "title": "TOFU 3B IDK+AP LoRA Diagnostic 2026-11-09",
+  "code_file": "tofu_3b_idk_ap_lora_diagnostic.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "GPU T4 x2",
+  "dataset_sources": [
+    "bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08"
+  ]
+}

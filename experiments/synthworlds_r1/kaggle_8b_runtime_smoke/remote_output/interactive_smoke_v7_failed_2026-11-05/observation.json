@@ -1,0 +1,21 @@
+{
+  "status": "FAILED_RUNTIME_SMOKE_BEFORE_OPTIMIZER_STEP",
+  "observed_date": "2026-11-05",
+  "observed_source": "Kaggle interactive notebook editor output; raw JSON receipt was not downloaded",
+  "kaggle_notebook_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "published_version": 7,
+  "interactive_cell_execution_seconds": 200.189,
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "pinned_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "weight_download_observed": "16.1 GB; 291/291 shards loaded",
+  "failure_stage": "assistant-only loss mask check after tokenizer and model weight load, before TrainingArguments/Trainer construction",
+  "error": "RuntimeError: Assistant-only loss mask does not match the tokenizer chat template",
+  "optimizer_steps_completed": 0,
+  "npo_update_started": false,
+  "research_data_loaded": false,
+  "main_experiment_result": false,
+  "old_embedded_runner_sha256": "014e8af05695ed3c5b50ed48be25df4848e5c8c845ed619f92f05e2ff44d869d",
+  "old_code_cell_sha256": "037a20e677e7809ca66a09d4b937bd921ae2be4c35e2c4d90ca8c32cbf4244a2",
+  "source_verification": "The old embedded runner hash matches the archived access_preflight_publish_v6/kaggle_8b_runtime_smoke.py; it used the separate prompt-token-prefix assertion.",
+  "limitation": "Editor output is preserved as a manually observed failure record, not as a downloaded/verified runtime receipt."
+}

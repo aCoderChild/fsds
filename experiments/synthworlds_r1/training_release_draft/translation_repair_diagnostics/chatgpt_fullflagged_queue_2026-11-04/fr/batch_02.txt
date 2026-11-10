@@ -1,0 +1,35 @@
+Translate each English question into natural French. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"FR0033","question_en":"In what year did ZXQENTAQXZ end?"}
+{"row_id":"FR0034","question_en":"Which political party is ZXQENTAQXZ a member of?"}
+{"row_id":"FR0035","question_en":"Which work does ZXQENTAQXZ follow?"}
+{"row_id":"FR0036","question_en":"Which jurisdiction does the ZXQENTAQXZ apply to?"}
+{"row_id":"FR0037","question_en":"Which continent is ZXQENTAQXZ part of?"}
+{"row_id":"FR0038","question_en":"Which work describes the ZXQENTAQXZ?"}
+{"row_id":"FR0039","question_en":"In what work is ZXQENTAQXZ described?"}
+{"row_id":"FR0040","question_en":"What is a notable work of ZXQENTAQXZ?"}
+{"row_id":"FR0041","question_en":"What conflict followed the ZXQENTAQXZ?"}
+{"row_id":"FR0042","question_en":"Which organization confers the ZXQENTAQXZ?"}
+{"row_id":"FR0043","question_en":"Of which administrative division is ZXQENTAQXZ the capital?"}
+{"row_id":"FR0044","question_en":"What is the language regulatory body for ZXQENTAQXZ?"}
+{"row_id":"FR0045","question_en":"Which media franchise does ZXQENTAQXZ belong to?"}
+{"row_id":"FR0046","question_en":"On what date did the ZXQENTAQXZ begin?"}
+{"row_id":"FR0047","question_en":"What assessment was used to evaluate ZXQENTAQXZ?"}
+{"row_id":"FR0048","question_en":"On which physical feature is ZXQENTAQXZ located?"}
+{"row_id":"FR0049","question_en":"On what physical feature is ZXQENTAQXZ located?"}
+{"row_id":"FR0050","question_en":"What is ZXQENTAQXZ part of?"}
+{"row_id":"FR0051","question_en":"Which continent is ZXQENTAQXZ part of?"}
+{"row_id":"FR0052","question_en":"Who produced ZXQENTAQXZ?"}
+{"row_id":"FR0053","question_en":"Which award did ZXQENTAQXZ receive?"}
+{"row_id":"FR0054","question_en":"At which institution was ZXQENTAQXZ educated?"}
+{"row_id":"FR0055","question_en":"Who taught ZXQENTAQXZ?"}
+{"row_id":"FR0056","question_en":"Who is the godparent of ZXQENTAQXZ?"}
+{"row_id":"FR0057","question_en":"Which work follows ZXQENTAQXZ?"}
+{"row_id":"FR0058","question_en":"In what year did ZXQENTBQXZ found ZXQENTAQXZ?"}
+{"row_id":"FR0059","question_en":"What is the standard plug type for mains electricity in ZXQENTAQXZ?"}
+{"row_id":"FR0060","question_en":"What award did ZXQENTAQXZ receive?"}
+{"row_id":"FR0061","question_en":"Which organization confers the ZXQENTAQXZ?"}
+{"row_id":"FR0062","question_en":"When did ZXQENTBQXZ become part of the ZXQENTAQXZ?"}
+{"row_id":"FR0063","question_en":"Who is a doctoral student of ZXQENTAQXZ?"}
+{"row_id":"FR0064","question_en":"For which award was ZXQENTAQXZ nominated?"}

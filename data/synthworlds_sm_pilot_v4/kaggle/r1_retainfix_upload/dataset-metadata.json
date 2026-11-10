@@ -1,0 +1,10 @@
+{
+  "title": "SynthWorlds-SM R1 Exploratory Follow-up v4",
+  "id": "bunnoob2005/synthworlds-sm-sft-pilot-v3",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-4.0"
+    }
+  ],
+  "description": "Private exploratory follow-up preserving the v3 evaluation split and adding 85 source-verified Type-B three-edge train-only chains. Derived from kenqgu/SynthWorlds (CC-BY-4.0); NLLB translations are CC-BY-NC-4.0. AI-only automated consistency checks; no fluent human review. Research pilot; not human-validated multilingual data."
+}

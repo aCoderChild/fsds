@@ -1,0 +1,15 @@
+{
+  "id": "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
+  "title": "SW Gap187 NLLB Segmented Retry 2026-11-05",
+  "code_file": "segmented_retry.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

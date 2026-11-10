@@ -1,0 +1,12 @@
+{
+  "status": "PENDING_RESEARCHER_APPROVAL",
+  "reviewer_name": "",
+  "review_date": "",
+  "scope": "The 129-case leakage-isolated feasibility pilot split only; not approval of the full dataset or a powered main-study sample.",
+  "review_checklist": [
+    "Review the split proposal and exclusions in README.md and audit_report.json.",
+    "Confirm the 77/26/26 assignment is acceptable for the feasibility pilot.",
+    "Confirm holdout examples remain excluded from SFT and all unlearning data.",
+    "Confirm whole source documents and fact rows remain excluded from training."
+  ]
+}

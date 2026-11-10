@@ -1,0 +1,18 @@
+{
+  "cross_split_exact_fact_collisions": 0,
+  "exact_fact_source_uniqueness": "1 matched entry per canonical source row / eligible hop",
+  "fact_record_counts": {
+    "forget": 154,
+    "retain": 52
+  },
+  "fact_use_count": 208,
+  "holdout_chain_fact_id_count_excluded": 52,
+  "holdout_qa_count_excluded": 26,
+  "limitation": "The r2 fact necessarily contains the answer entity as its object; no separate multi-hop gold-answer field or evaluation question is included.",
+  "multihop_queries_or_gold_answer_fields_used": false,
+  "source_qa_count": 104,
+  "status": "SFT_CANDIDATE_NOT_APPROVED",
+  "unique_fact_record_count": 206,
+  "verification": "Fact triple and any qualifiers copied verbatim from source facts, matched against graph and prior audit.",
+  "whole_docs_or_whole_fact_rows_used": false
+}

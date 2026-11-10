@@ -1,0 +1,12 @@
+{
+  "status": "SUPERSEDED_INCOMPLETE_DIAGNOSTIC_NOT_FOR_RELEASE",
+  "reason": "The initial target-language binary review produced false negatives on idiomatic French and used an overly strict prompt. Its rows are retained only as diagnostic evidence. The approved data path is the separate cross-model round-trip plus target-language fluency screen.",
+  "release_gate": false,
+  "human_translation_reviewed": false,
+  "completed_languages": {
+    "fr": 488,
+    "de": 488,
+    "hi": 488,
+    "th": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "FAIL_ACCESS_ONLY",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "expected_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "scope": "SECRET_AND_CONFIG_ACCESS_ONLY",
+  "gpu_required": false,
+  "weights_downloaded": false,
+  "research_data_loaded": false,
+  "training_started": false,
+  "error_type": "ConnectionError",
+  "error": "Connection error trying to communicate with service.",
+  "token_value_logged": false
+}

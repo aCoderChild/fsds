@@ -1,0 +1,2380 @@
+{
+  "identity": {
+    "judge_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "mask_script_sha256": "a5d6dd9d8cdd530d09d08b44f9f1484058cc2acc328165a875cc741902db7275",
+    "model_digests": {
+      "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "nllb_candidates_sha256": "504d254fb91a94c25ca830f868b5a578f0344bba115bc5bfc22d6c3c1485e4c9",
+    "nllb_report_sha256": "32081c22d725cae1e3ac8568b4dad3a28c70bd592fd50f2d51946c9f589e975f",
+    "roundtrip_script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af",
+    "script_sha256": "689cbc6788321f78d6de61efd23d2659920d154f106f1f5cfbbff45830dec395",
+    "source_calibration_report_sha256": "1c9d0e63cca3e4950453b4a2f3f40467fd1214d73c4e177a72e201e1b5b32325"
+  },
+  "records": [
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What did Eternal Reign replace?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "e18f1bbaaa998f17be65acdc178e3ca50d415e4fb87159788228c6d4fec355ef",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0134-qa-sm:r1",
+      "protected_entity_names": [
+        "1972-01-01",
+        "Caladorn",
+        "Eternal Reign",
+        "Renaissance Harbor"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translation accurately conveys the source question and is fluent in French.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question structure."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct and natural.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "lost relation direction",
+      "review_pair_sha256": "264d9b9b092f48f6c07b6cc7fffbd159a6c1271be4879d6799a8dbb16fff026a",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:27:37.387820+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What did Eternal Reign replace?",
+      "text_translation": "Qu'est-ce que le Eternal Reign a remplacé ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the godfather of Calix Silverwood?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "fe69fb89ec0838fe310e494a49653cb2ed5b01c31e72d36d41e9de2b1783de26",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0050-qa-sm:r1",
+      "protected_entity_names": [
+        "Calix Silverwood",
+        "Elian Calyssar",
+        "Lysandra Myralun",
+        "Thalendria",
+        "Vespera Liora Thorne"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation does not match source; it asks about [ENTITY_A] being a godparent to someone else rather than who their godchild is.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Lost relation direction."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different entity roles.",
+      "review_pair_sha256": "761b72f838438a561ae22e4dd8cfbcd91c6b1d8df874ee57e055716f824daccf",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:30:14.591798+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is Calix Silverwood the godparent of?",
+      "text_translation": "Le parrain de qui est Calix Silverwood ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What evaluation was used to evaluate Eldoria Chronicles: The Celestial Saga?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "33ec406aba73c6eb65d6e82231b40c41d7631f437730b7dd946c521327381f5a",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0172-qa-sm:r2",
+      "protected_entity_names": [
+        "Arcane Legends",
+        "Eldoria Chronicles: The Celestial Saga",
+        "Galactic Sentinel",
+        "VoiceMatrix"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The translation accurately conveys the source question and is fluent in French.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question structure."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different answer type.",
+      "review_pair_sha256": "182eb58ce6356eda8fabc9c24a7a70c0f6f69305c8841eb23fb18c1282ebb727",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:29:06.096866+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What assessment was used to evaluate Eldoria Chronicles: The Celestial Saga?",
+      "text_translation": "Quelle évaluation a été utilisée pour évaluer Eldoria Chronicles: The Celestial Saga?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "When did Thundralis become part of Jorathia Clarity Alliance?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f7f296ccb48544778e43b9e4bec36c85382f9ea14fced8806905a7479e89a98f",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0014-qa-sm:r2",
+      "protected_entity_names": [
+        "2031-05-07",
+        "Celestia Confederation",
+        "Council of Allied Sovereignties",
+        "Fortress of Nations",
+        "Global Investment Authority",
+        "Global Network for Civic Engagement",
+        "Global Partnership Bank",
+        "Global Progress Fund",
+        "Global Security Coalition",
+        "Global Sovereignty Alliance",
+        "Insightful Pathways Institute",
+        "Intercontinental Unity Organization",
+        "Intergovernmental Partnership Initiative",
+        "Jorathia Clarity Alliance",
+        "SyncSphere",
+        "Thundralis",
+        "Universal Peace Coalition",
+        "Xylphoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The translation accurately conveys the source question and is fluent in French.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question structure."
+        }
+      },
+      "qwen_fluency_pass": false,
+      "qwen_fluency_reason": "[ENTITY_B] is not defined",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "Time of joining consistent.",
+      "review_pair_sha256": "f81b7df0e2bf4764c7c0dcc5112b8e88fd78fada678bca174fd86c8d6d3f9794",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:29:34.791079+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "When did Thundralis become part of the Jorathia Clarity Alliance?",
+      "text_translation": "Quand le Thundralis est-il devenu une partie du Jorathia Clarity Alliance ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "To which class does Twilight Pendant belong as a subclass?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "15c45369f4cbe4b61ac06cdebff8445a7f9fe5fc3265b4b16fec3ae9fbd22523",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "protected_entity_names": [
+        "Celestial Knightly Ascendancy",
+        "Fellowship of the Enchanted Realm",
+        "Order of the Celestial Compass",
+        "Twilight Pendant"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translation accurately captures the meaning and is fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same subclass relation."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct.",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "Same question structure.",
+      "review_pair_sha256": "71be0b0e5f666234eef05ea764b7eff2e049c7c55ed110e4fc1b77462dfb25ab",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T05:32:24.813995+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Of what class is the Twilight Pendant a subclass?",
+      "text_translation": "De quelle classe est la Twilight Pendant une sous-classe ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the in-law of Adel Zoltan?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "49091734d5cd3cc092b66f36721ee3b77c831eab5d1613c5a7891d1e4997b099",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "protected_entity_names": [
+        "Adel Zoltan",
+        "Adelzo Thornfield",
+        "Velorian",
+        "Xyldari"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The back-translation does not match the source question's specific query about a stepparent relationship.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "In-law and stepparent similar."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different relation direction.",
+      "review_pair_sha256": "41c5184ee59e87d37c24578ed2c97f94c4646b995bf8ef09b8d9dabe589908fa",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:35:08.606337+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is Adel Zoltan's stepparent?",
+      "text_translation": "Qui est le beau-parent de Adel Zoltan ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the last name of the entity that immediately follows the family to which Nerythia Monrroy belongs?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "7234f8454fc153a44b375697a645daec0b2800da8bcd96f1ee1eb01bc40d7177",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "protected_entity_names": [
+        "Galdrin",
+        "Nerythia Monrroy",
+        "Reed-Campbell",
+        "Valencrest"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The translation accurately captures the meaning and is fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Family/following family names match."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different relation direction and scope.",
+      "review_pair_sha256": "2889f9ecc78b770f98cf231f796572021b5b1b9f174489acffccfde2d72308bd",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:34:33.684398+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What is the family name of the entity that immediately follows the family to which Nerythia Monrroy belongs?",
+      "text_translation": "Quel est le nom de famille de l'entité qui suit immédiatement la famille à laquelle appartient Nerythia Monrroy?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the last name of Valencrest?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "46c555d5b2ba2839be1185c42978b52c5753319b3921f4b42eebef458735f5c4",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "protected_entity_names": [
+        "Galdrin",
+        "Nerythia Monrroy",
+        "Reed-Campbell",
+        "Valencrest"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The translation accurately captures the meaning and is fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Family name is last name."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different answer type: family vs. last name.",
+      "review_pair_sha256": "d5aaa63910578c544be004f484a219455109beadc56a9b2aacb1db07f88728a2",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:34:33.684397+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What is Valencrest's family name?",
+      "text_translation": "Quel est le nom de famille de Valencrest ?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the publisher of Version Vault?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "9b432f036d6a5beb783edd5b0ebf891be97ca7f6802b63f83e3881c783f55187",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0169-qa-sm:r1",
+      "protected_entity_names": [
+        "1969 (year)",
+        "Commonwealth Academic Excellence Award",
+        "Version Vault",
+        "Vyndel Amparo",
+        "public domain"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation uses 'publisher' instead of 'editor', changing the meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Publisher vs editor"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatisch korrekt.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "lost scope",
+      "review_pair_sha256": "3284163a250dd9b40b0a3b1493a3947819186c2e0fc376867280b6654fe15832",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:45:11.549086+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is the editor of Version Vault?",
+      "text_translation": "Wer ist der Herausgeber von Version Vault?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the native language of Ardentia?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "6e3c75b1ece95f5f37d534a5c1d34e6888980672dc574baddeca2f1188093884",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0035-qa-sm:r2",
+      "protected_entity_names": [
+        "Ardentia",
+        "Malquari",
+        "Qasthirians",
+        "Yloria Francois"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Both semantic and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Same question"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Changed answer type.",
+      "review_pair_sha256": "ffc1cf493ed1ded7b055ccb13d3ab3f58068f3481e29530bfc12025a621ebf83",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:46:37.363646+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What is the native language of Ardentia?",
+      "text_translation": "Was ist die Muttersprache von Ardentia?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who was a student or researcher associated with Tamsin Rivers?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "4c281830ca446e969f97d6e2c0444dc9c1e67d8600e34ddc4e93f80e1bd931cf",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0196-qa-sm:r1",
+      "protected_entity_names": [
+        "Braxton",
+        "Tamsin Rivers",
+        "Ulwyn Bayne",
+        "Yates Merrick Thompson",
+        "Zyvra Gerber"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Back-translation is too vague and does not capture the specific relationship of being a doctoral student.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Student vs associated"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct and natural.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "context changed.",
+      "review_pair_sha256": "589d29c738cb66699c5285e461a610131acf56649e1b8b094f697c2b0f81ba95",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:49:22.527451+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who was a doctoral student of Tamsin Rivers?",
+      "text_translation": "Wer war ein Doktorand von Tamsin Rivers?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "In which publication or work is Knight Aerion mentioned or described?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "0bdd921f725d6002d4213031074d10b14eda4e3e9e3e562ce87514aeb86aa137",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0152-qa-sm:r2",
+      "protected_entity_names": [
+        "Alaric Thornewood",
+        "Chimeric Viceroy",
+        "Dreamt Compilation",
+        "Knight Aerion"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Back-translation uses 'mentioned or described' which broadens the original scope of just 'described'.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same relation"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatisch korrekt und verständlich.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different context: broadcast vs. described.",
+      "review_pair_sha256": "e7e541d6bd0c01931bbdcf767cda4c0c0867e89bd3470378eca53dffb4b4d8df",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:44:26.357678+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "In what work is Knight Aerion described?",
+      "text_translation": "In welchem Werk wird Knight Aerion beschrieben?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What political office of the state, which replaced the country with its capital Opal City, is held by its head of state? Maintain the complete meaning, relation direction, scope, and answer type.",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "954ba337b5be4e214c582cbb674df40d84e610b01f507474c981cb5d4639bd11",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "protected_entity_names": [
+        "Crystalis",
+        "Grand Duke of Rithoria and the Federated Realms",
+        "Opal City",
+        "Rithoria-Commonwealth"
+      ],
+      "qwen14": {
+        "fluency_pass": false,
+        "key": "ROW_000",
+        "reason": "The translated question is not fluent in German; it contains grammatical errors and awkward phrasing.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, relation direction."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatisch korrekt und verständlich.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Lost relation direction",
+      "review_pair_sha256": "7afdf477b2c2ac1bf4d4b5280ac7ff96825ccad650661239f51c7b3f07958fd0",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:50:36.535412+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Which political office of the state that replaced the country whose capital is Opal City is held by its head of state?",
+      "text_translation": "Welches politische Amt des Staates, das das Land ersetzte, dessen Hauptstadt Opal City ist, wird von seinem Staatsoberhaupt innehat?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Which work is part of Secrets of the Ancients?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "54c887764030642143829899fb7228c7366ae33d45e4fe66c933c2bb8f19b1f6",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "protected_entity_names": [
+        "Chronicles of the Lost Civilization",
+        "Fyntra Flow",
+        "Secrets of the Ancients",
+        "Xander"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Both the semantics and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, answer type."
+        }
+      },
+      "qwen_fluency_pass": false,
+      "qwen_fluency_reason": "Unverwandt mit Englisch.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Wrong entity type.",
+      "review_pair_sha256": "9e1c0b1d78f808a9ca307974de2f59deb223923d4f691dbc0516472fe3e2db4c",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:51:56.304313+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Which work is a part of Secrets of the Ancients?",
+      "text_translation": "Welches Werk ist Teil von Secrets of the Ancients?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the step-parent of Glynor Rutherford?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "3893d02aaa1b7eeeb12a66ccbc4259ebdc858b80e383716b16d3dfd34a7907df",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "protected_entity_names": [
+        "Alessandro Zoltari",
+        "Delphina Orimund Shyr",
+        "Glynor Rutherford",
+        "Zolterra"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The translated question changes the meaning by incorrectly using 'Stiefelternteil' which does not exist in German; it should be 'Stiefelter' or simply 'Stiefeltern'.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Unlesbar, unvollständig."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, relation direction."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatisch korrekt.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Changed relation direction and scope.",
+      "review_pair_sha256": "2f1a6e54b3653224831b657a6c589e52d06fcef92c8c20e49991614c9ac9e1ef",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:49:32.147134+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is Glynor Rutherford's stepparent?",
+      "text_translation": "Wer ist Glynor Rutherfords Stiefelternteil?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What work does The Phantom Archives refer to?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "ab32f3ab59a09d356232f67c38b40cd7c3ead7d571e7c2c0bf1137eced343518",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "protected_entity_names": [
+        "Gwendal Truax",
+        "The Phantom Archives",
+        "The Shattered Illusion",
+        "The Shattered Labyrinth: A New Path"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The translated question changes the meaning by asking what [ENTITY_A] refers to instead of which work it references; it should be 'Welches Werk wird von [ENTITY_A] referenziert?'.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Unlesbar, unvollständig."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, answer type."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "Grammatically correct and natural.",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different answer type",
+      "review_pair_sha256": "d04c8d12e36557777cc7d6a5e7c13b9ea9860d63e5e9142b5d7a3416dd30ce1f",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T05:51:29.086157+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Which work does The Phantom Archives reference?",
+      "text_translation": "Auf welches Werk bezieht sich The Phantom Archives?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "In which activity does Lighthaven appear?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "d98b330906290d3ba6640fd136668d7506c21506646f4cde4cfdafc0e07e8f7f",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0046-qa-sm:r2",
+      "protected_entity_names": [
+        "Falthoria",
+        "Lighthaven",
+        "Lumeria",
+        "Luminara",
+        "Nebula Quest",
+        "Vesperbrook"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translation is semantically equivalent and fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "activity vs. work"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "different wording but same meaning",
+      "review_pair_sha256": "f13d97fecc09888383cb2c2a6531a88715ae8a928517a69d4bddb53514d17d53",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:03:27.957146+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "In which work does Lighthaven appear?",
+      "text_translation": "Lighthaven किस कार्य में दिखाई देता है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "In which area does Nexus Learning Society operate?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "c2196bcf172f34719d43402428ee5bd1b2369ba0ae523168d1f8d609785ec032",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0092-qa-sm:r2",
+      "protected_entity_names": [
+        "Cognition Coalition",
+        "Frontier Society of Research",
+        "Illyndra",
+        "Institute of Artistry and Design",
+        "Menara Carrizales",
+        "Nexus Learning Society",
+        "Sablemere Union of Sovereign States"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The translation is semantically equivalent and fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "area vs. work"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "similar but different phrasing",
+      "review_pair_sha256": "adce2c28830187637360e88471b9aab1bbe9fb9f6797125c839227923b0a551d",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:04:09.641627+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "In which area does the Nexus Learning Society operate?",
+      "text_translation": "Nexus Learning Society किस क्षेत्र में कार्य करता है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the boundary of Mystic Deep?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "e30648fb781e072b1912c78d7ecb6571960937d29a390bb3e039e9a24e801894",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0072-qa-sm:r1",
+      "protected_entity_names": [
+        "Mystic Deep",
+        "Nystoria",
+        "Valtoria",
+        "Valtorian Sylvaterra"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Back-translation does not match the source question's meaning; it asks about the boundary of [ENTITY_A] rather than what is on its boundary.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Untranslated English."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "same question"
+        }
+      },
+      "qwen_fluency_pass": false,
+      "qwen_fluency_reason": "contains untranslated English",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "different relation direction",
+      "review_pair_sha256": "af055dcdb06549b92180fb956297184b7f58f6bbfa52783a24fa760362339f23",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:00:44.533997+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What is on the boundary of Mystic Deep?",
+      "text_translation": "Mystic Deep की सीमा पर क्या है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What activity describes Luntru?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f4bc901ca2852f9b2937db023f20fe319ab0a2ccfc1b855d4a09694b22ef65ca",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0078-qa-sm:r2",
+      "protected_entity_names": [
+        "Legendarium",
+        "Luntru",
+        "Pheris Keaton",
+        "Quolmar"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The back-translation changes the sentence structure and meaning, asking what activity describes [ENTITY_A], not where it is described.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "different word order"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "work description vs context",
+      "review_pair_sha256": "c676f9cdb1abf8ca0ede4cf330cb17d12c2e74b3efce27595d2eb41ea975ad27",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:03:53.379799+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "In which work is Luntru described?",
+      "text_translation": "Luntru किस कार्य में वर्णित है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who founded the organization that has a position above Golden Vanguard Class?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "90e1b6531e3f5dbb57e5ad47e101a8a609183c6814012131dc0fb766ab01606e",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "protected_entity_names": [
+        "Draxen Schiff",
+        "Everlasting Tribute",
+        "Golden Vanguard Class",
+        "Sovereign's Luminary Grade"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation mismatch; it asks about a position above ENTITY_A rather than an organization containing that rank.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "changed relation direction"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and natural",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "changed relation direction",
+      "review_pair_sha256": "d0bea8a8f2f5086060be6e32853f933794ba901a2eddb5c795630ebd32d0948c",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:06:21.083127+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who founded the organization that the rank above the Golden Vanguard Class is part of?",
+      "text_translation": "इस संगठन की स्थापना किसने की, जिसका Golden Vanguard Class से ऊपर का पद है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Which task is part of Secrets of the Ancients?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "baf8821d9ebbb6256c160c77427d96f219d522bf1e167a29bc795f5c00d26df6",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "protected_entity_names": [
+        "Chronicles of the Lost Civilization",
+        "Fyntra Flow",
+        "Secrets of the Ancients",
+        "Xander"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Accurate translation maintaining original meaning and fluently phrased in Hindi.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "different answer type"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical and clear",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "different answer type",
+      "review_pair_sha256": "1fc976d50e612d351252693e1aa8701a5f7fddc6dc829aa35d6d9078bd8fcc7b",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:06:54.265686+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Which work is a part of Secrets of the Ancients?",
+      "text_translation": "कौन सा कार्य Secrets of the Ancients का हिस्सा है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the editor of Tides of Ink?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "2e34025a12347eb0f44dd205d8acaf3730f48f61df9bd1197dfea840ab2f0526",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0218-qa-sm:q2",
+      "protected_entity_names": [
+        "Aria Morvane",
+        "Elara Morvane",
+        "Thalric Kytarathian Ravenshadow",
+        "Tides of Ink"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Exact match with source question in terms of semantics and natural Hindi expression.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "same question"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "संपादक सही है",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Changed answer type.",
+      "review_pair_sha256": "826dddbebab16b7da3abb9d7571142d52f334897e50d0dcf5d6d26b74b6543a3",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:05:38.205117+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is the editor of Tides of Ink?",
+      "text_translation": "Tides of Ink का संपादक कौन है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the parent organization of Caelan Asterwood?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "6b9244405ee9c5e56c8d27e00113e99bfb4fbd7e8e15419f563843f1e35957cf",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "protected_entity_names": [
+        "Adeline Thornfield Smith",
+        "Caelan Asterwood",
+        "Feryndal Kohl",
+        "Varyndoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Back-translation mismatch; it asks about a parent organization rather than a godparent.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "lost relation direction"
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammatical",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Clear change in relation.",
+      "review_pair_sha256": "4523836fc8fc5746b5ca0eb3f82ab1c69b423e9f918527734a1203fd372a0960",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:07:02.038901+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is Caelan Asterwood's godparent?",
+      "text_translation": "Caelan Asterwood का गॉडपेरेंट कौन है?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Where is the word 'Tharavon' located?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "2838c1252207d2c9a951dd05cd14c2725e2e3bdc8be4829690764a6375948d60",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0044-qa-sm:r2",
+      "protected_entity_names": [
+        "Fendril",
+        "Lunaris Vespera",
+        "Mercuria",
+        "Myrthia",
+        "Pendoria",
+        "Solara Archipelago",
+        "Tharavon",
+        "Valtarian Luntrish"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation does not match the original question's meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different relation direction."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "句法正确，意义自然。",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "Same question, different word order.",
+      "review_pair_sha256": "654609956ed4743fb7b83d913f64befd2f443fbc8300d8ad5ea1ada7aab9c539",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:18:07.939137+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "On which physical feature is Tharavon located?",
+      "text_translation": "Tharavon ตั้งอยู่บนพื้นที่ใด?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What letters are used to form the word 'Alaric Thornewood'?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "635f88bd618a60469f148d58c83274a1c609288878a60e187e8b146165745556",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0152-qa-sm:r1",
+      "protected_entity_names": [
+        "Alaric Thornewood",
+        "Chimeric Viceroy",
+        "Dreamt Compilation",
+        "Knight Aerion"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation does not match the original question's meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different answer type."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "句法正确，意义自然。",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Changed relation",
+      "review_pair_sha256": "7a3f48683cbfaef3acf844fd93e7c0369016129bac7437ef05ef94850202bca2",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:15:57.174840+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "What honorific prefix is used for Alaric Thornewood?",
+      "text_translation": "ตัวอักษรที่นํามาใช้สําหรับ Alaric Thornewood คืออะไร?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Which language is 'Myrathian' in?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f6040b1be6213b23683f7fb082806b7225450161a64cfce6fae4f0d31f7d3cc5",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0115-qa-sm:r2",
+      "protected_entity_names": [
+        "Cynvelthar",
+        "Kaldren Sythorix",
+        "Myrathian",
+        "Vyradon"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Back-translation does not match the original question's meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Lost relation direction."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "句法正确，意义自然。",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "same question type",
+      "review_pair_sha256": "cdc7f6f19976d120b1b124b27e80bf56a7c4b3504f5d299313a5c704dc95e542",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:15:10.274475+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Where is the Myrathian language indigenous to?",
+      "text_translation": "ภาษา Myrathian เป็นภาษาพื้นเมืองของที่ไหน?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who uses or refers to 'Caspian Frost'?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "e8a50cecc86ee1675528d2ebf33e925d92269783c4fc7e8577810687bba8e0df",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0055-qa-sm:r1",
+      "protected_entity_names": [
+        "Caspian Frost",
+        "Pyraen Vest",
+        "Velthar",
+        "Xian Concha"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Back-translation does not match the original question's meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed question focus."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammar correct",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Different relation (performance vs. creation).",
+      "review_pair_sha256": "c273ccc12ea90939b0cb2a360d4fe92ba8a5b0be483a49af2b38340a7b919cd6",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:14:17.338780+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who performed Caspian Frost?",
+      "text_translation": "ใครแสดง Caspian Frost?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the father of the famous person associated with Ivrys Pineiro?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "13d8cd875cb00e0ee2829a0d6037871b0448abba9cbba55b72e082f9efa5aebf",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "protected_entity_names": [
+        "Delyndra Mccall",
+        "Ivrys Pineiro",
+        "Lorthan Kaushik",
+        "Rynesta"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation does not match source question; it refers to a 'famous person' rather than the creator of a noble title.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed relation direction."
+        }
+      },
+      "qwen_fluency_pass": false,
+      "qwen_fluency_reason": "缺少实体[ENTITY_A]",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Lost relation direction: creator of noble title vs. person who holds the honor.",
+      "review_pair_sha256": "bd7d10cc55d4a1e06d60391bc679566999c37ef4b7daa68dc077ee26f571d061",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:24:38.390531+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is the father of the creator of the noble title held by Ivrys Pineiro?",
+      "text_translation": "ใครคือพ่อของผู้สร้างชื่ออันยิ่งใหญ่ของ Ivrys Pineiro?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the stepfather of Caelan Asterwood?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "83126f532aff0a50ab200625ecbd53fcd8775d11b12f925ceb623589685870b2",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "protected_entity_names": [
+        "Adeline Thornfield Smith",
+        "Caelan Asterwood",
+        "Feryndal Kohl",
+        "Varyndoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation incorrectly identifies godparent as stepfather.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Godparent ≠ stepfather."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "句法正确，意义自然",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "Changed relation to stepfather.",
+      "review_pair_sha256": "1fb022270c4ccdb57c185bb4b209876652f28b8f7a4e82dc80a6eb421441f95f",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:23:06.689566+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is Caelan Asterwood's godparent?",
+      "text_translation": "ใครคือพ่อเลี้ยงของ Caelan Asterwood?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the unmarried partner of Noxen Myralun Luminara?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "8ef640d40463a6a5aa20f78ce112e13a2b8f16904d9eb6aa49c099b202fa22a1",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "protected_entity_names": [
+        "Emissary of the Silver Crescent",
+        "Noxen Myralun Luminara",
+        "The Palace of Reflections",
+        "Zelwyn Elsayed"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Translated question is semantically and fluently correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "句法正确，自然。",
+      "qwen_semantic_pass": true,
+      "qwen_semantic_reason": "Changed answer type.",
+      "review_pair_sha256": "64c03310b0624dcd16c6e2aae63f51782a62463a1bb71ad8bf029bc8e745990f",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS",
+      "reviewed_at_utc": "2026-11-03T06:22:35.661382+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Who is the unmarried partner of Noxen Myralun Luminara?",
+      "text_translation": "ใครคือคู่ที่ไม่ได้แต่งงานของ Noxen Myralun Luminara?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Where is the mother of the person that Kynara Mosqueda works for buried?",
+      "backtranslation_model": "ollama:translategemma:4b",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "0477cd3402ad7698aa03d7503897758ffc420424dc93343d14891dda2cc9bce1",
+      "final_review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "human_translation_reviewed": false,
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "protected_entity_names": [
+        "Heavenly Embrace Cathedral",
+        "Kynara Mosqueda",
+        "Selantra Crenshaw",
+        "Varlyn Bayona"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Translated question matches source in meaning and is fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question."
+        }
+      },
+      "qwen_fluency_pass": true,
+      "qwen_fluency_reason": "grammar correct",
+      "qwen_semantic_pass": false,
+      "qwen_semantic_reason": "Lost original question focus.",
+      "review_pair_sha256": "a1fadd93602c49e44673318045e42c9a5325e2837d77b58189fba99aecb60155",
+      "review_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+      "review_status": "AI_ONLY_REVIEW_FLAGGED",
+      "reviewed_at_utc": "2026-11-03T06:22:27.504380+00:00",
+      "reviewer_model": "ollama:qwen2.5:7b-instruct",
+      "semantic_checks": {
+        "backtranslation_available": true,
+        "backtranslation_deterministic_checks_pass": true
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "backtranslation_cache": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      },
+      "target_deterministic_checks": {
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved_with_multiplicity": true,
+        "protected_numbers_preserved_with_multiplicity": true,
+        "target_script_present": true
+      },
+      "text_en": "Where is the mother of the person Kynara Mosqueda works for buried?",
+      "text_translation": "แม่ของคนที่ Kynara Mosqueda ทํางานอยู่ถูกฝังไว้ที่ไหน?",
+      "translation_model": "facebook/nllb-200-distilled-600M"
+    }
+  ]
+}

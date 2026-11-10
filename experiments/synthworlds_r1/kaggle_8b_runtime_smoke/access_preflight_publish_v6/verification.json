@@ -1,0 +1,16 @@
+{
+  "access_preflight_enabled": true,
+  "gpu_runtime_smoke": false,
+  "hash_bound_runners_match": true,
+  "hub_downgrade_present": false,
+  "internet_enabled": true,
+  "kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "local_notebook_sha256": "fba8db318cec593c6f9cc8660afbe99317ec39283046e64055b68e86719434f5",
+  "published_metadata_sha256": "a8db65a3189df3c8d23d444caa8db3676ce18f260e0d57f42e416298e9a3e28f",
+  "published_notebook_sha256": "46adead5fdc785b5015b3b087b197ce860bd70fcf9e65414a9476398e1160d73",
+  "research_data_loaded": false,
+  "runtime_smoke_enabled": false,
+  "status": "VERIFIED_V6_ACCESS_PREFLIGHT_PUBLISH_ARTIFACT",
+  "training_started": false,
+  "weights_downloaded": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/synthworlds-qwen3-translation-pilot-2026-11-04",
+  "title": "SynthWorlds Qwen3 Translation Pilot 2026-11-04",
+  "code_file": "generation.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

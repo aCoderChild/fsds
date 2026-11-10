@@ -1,0 +1,52 @@
+{
+  "conclusion": "The older v3 feasibility corpus is not a substitute for the source-verified 2,440-row main-study release. Software fixture checks pass; data release and Kaggle secret/runtime checks still block the 8B experiment.",
+  "legacy_pilot_corpus_check": {
+    "command": "python -B experiments/synthworlds_r1/scripts/train_sft_lora.py --corpus data/synthworlds_sm_pilot_v3/sft_training/corpus.jsonl --manifest data/synthworlds_sm_pilot_v3/sft_training/manifest.json",
+    "corpus_rows": 1025,
+    "errors": [
+      "Corpus manifest is not approved for training",
+      "Corpus manifest lacks an intact, explicitly AI-pipeline-validated pilot split record",
+      "Source-bound SFT validation proof, release validation, and verifier script are required"
+    ],
+    "manifest_status": "AI_ONLY_REVIEWED_FIVE_LANGUAGE_SFT_CORPUS",
+    "rows_per_language": 205,
+    "status": "BLOCKED",
+    "training_started": false
+  },
+  "main_sft_preflight": {
+    "command": "python -B experiments/synthworlds_r1/scripts/train_sft_lora.py",
+    "errors": [
+      "Approved SFT corpus and manifest are required"
+    ],
+    "hf_token_present_locally": false,
+    "packages": {
+      "accelerate": false,
+      "bitsandbytes": false,
+      "numpy": true,
+      "peft": false,
+      "torch": true,
+      "transformers": true
+    },
+    "status": "BLOCKED",
+    "training_started": false
+  },
+  "main_sft_training_directory_exists": false,
+  "observed_at_utc": "2026-11-05T01:58:50Z",
+  "offline_fixture_suite": {
+    "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+    "exit_code": 0,
+    "scope": "synthetic fixtures; no model weights or GPU",
+    "status": "PASS",
+    "tests_failed": 0,
+    "tests_passed": 35
+  },
+  "source_verified_assembler": {
+    "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
+    "composition_chains_eligible": 0,
+    "corpus_written": false,
+    "error": "Translation screen excluded required atomic cases: forget 5/117, retain 3/39; expected forget 117, retain 39.",
+    "exit_code": 1,
+    "manifest_written": false,
+    "status": "BLOCKED_AS_DESIGNED"
+  }
+}

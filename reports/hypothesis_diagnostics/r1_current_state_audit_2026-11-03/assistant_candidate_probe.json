@@ -1,0 +1,24 @@
+{
+  "status": "UNREVIEWED_DIAGNOSTIC_ONLY",
+  "generator": "OpenAI assistant in this conversation; exact model revision not recorded",
+  "selection": "Matched calibration questions for which both NLLB and TranslateGemma were flagged by the alternative-mask AI review",
+  "human_reviewed": false,
+  "candidates": [
+    {"language":"fr","kind":"atomic","prompt_id":"0050-qa-sm:r1","translation":"De qui Calix Silverwood est-il le parrain ou la marraine ?"},
+    {"language":"fr","kind":"composition","prompt_id":"disjoint-b:0348-qa-sm:q2","translation":"Qui est le beau-parent d’Adel Zoltan ?"},
+    {"language":"de","kind":"atomic","prompt_id":"0169-qa-sm:r1","translation":"Wer ist der Herausgeber oder die Herausgeberin von Version Vault?"},
+    {"language":"de","kind":"atomic","prompt_id":"0196-qa-sm:r1","translation":"Wer war Doktorand oder Doktorandin von Tamsin Rivers?"},
+    {"language":"de","kind":"atomic","prompt_id":"0152-qa-sm:r2","translation":"In welchem Werk wird Knight Aerion beschrieben?"},
+    {"language":"de","kind":"composition","prompt_id":"disjoint-b:0238-qa-sm:multi","translation":"Welches politische Amt des Staates, der das Land mit der Hauptstadt Opal City ablöste, wird von dessen Staatsoberhaupt bekleidet?"},
+    {"language":"de","kind":"composition","prompt_id":"disjoint-b:0203-qa-sm:q3","translation":"Wer ist der Stiefelternteil von Glynor Rutherford?"},
+    {"language":"hi","kind":"atomic","prompt_id":"0072-qa-sm:r1","translation":"Mystic Deep की सीमा पर क्या है?"},
+    {"language":"hi","kind":"atomic","prompt_id":"0078-qa-sm:r2","translation":"किस कृति में Luntru का वर्णन किया गया है?"},
+    {"language":"hi","kind":"composition","prompt_id":"disjoint-b:0300-qa-sm:q2","translation":"Caelan Asterwood के धर्म-माता या धर्म-पिता कौन हैं?"},
+    {"language":"th","kind":"atomic","prompt_id":"0044-qa-sm:r2","translation":"Tharavon ตั้งอยู่บนลักษณะภูมิประเทศใด?"},
+    {"language":"th","kind":"atomic","prompt_id":"0152-qa-sm:r1","translation":"คำยกย่องที่ใช้เป็นคำนำหน้าชื่อของ Alaric Thornewood คืออะไร?"},
+    {"language":"th","kind":"atomic","prompt_id":"0055-qa-sm:r1","translation":"ใครเป็นผู้แสดง Caspian Frost?"},
+    {"language":"th","kind":"composition","prompt_id":"disjoint-b:0382-qa-sm:multi","translation":"บิดาของผู้สร้างบรรดาศักดิ์ที่ Ivrys Pineiro ถือครองคือใคร?"},
+    {"language":"th","kind":"composition","prompt_id":"disjoint-b:0300-qa-sm:q2","translation":"พ่อทูนหัวหรือแม่ทูนหัวของ Caelan Asterwood คือใคร?"}
+  ],
+  "limitations": ["Candidate translations have not been independently reviewed and must not enter training.", "The selection is diagnostic and adaptive, not a representative sample.", "Semantic ambiguity and fluency require independent evaluation."]
+}

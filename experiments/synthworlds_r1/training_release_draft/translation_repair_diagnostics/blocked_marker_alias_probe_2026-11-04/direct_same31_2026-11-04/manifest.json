@@ -1,0 +1,15 @@
+{
+  "status": "SOURCE_BOUND_BLINDED_DIRECT_REVIEW_READY_NOT_APPROVAL",
+  "rows": 31,
+  "input_sha256": "14c79c8dbb4da0c95128521954c8695174c53cad0983b1af934e40b6ffe28310",
+  "parent_overlay_sha256": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+  "script_sha256": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "output_schema": "single-item decisions array; lm-format-enforcer 0.11.1",
+  "review_mode": "direct English source vs target language only; no back-translation, prior decision, answer, fact, or split label",
+  "release_approved": false,
+  "training_eligible": false,
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false
+}

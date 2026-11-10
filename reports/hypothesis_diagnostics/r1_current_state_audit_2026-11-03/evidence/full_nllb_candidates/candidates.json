@@ -1,0 +1,5604 @@
+{
+  "status": "UNREVIEWED_DIAGNOSTIC_ONLY",
+  "input_sha256": "fff0ead393ef5b1f8f16b225a17fd459d9ecf8f531ea7f00fe847411994e9c88",
+  "model_id": "facebook/nllb-200-distilled-1.3B",
+  "model_revision": "7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0134-qa-sm:r1",
+      "masked_translation": "Qu'est-ce que Zorvani a remplacé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "masked_translation": "Zorvani est le parrain de qui ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r2",
+      "masked_translation": "Quelle évaluation a été utilisée pour l' évaluation de Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0014-qa-sm:r2",
+      "masked_translation": "Quand Kelvoria est-elle devenue une partie des Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0158-qa-sm:r1",
+      "masked_translation": "Quelle entité territoriale administrative est comprise dans Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "masked_translation": "Zorvani est la capitale de quelle division administrative ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "masked_translation": "Qui est le beau-père de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r2",
+      "masked_translation": "Quel ouvrage décrit Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "masked_translation": "Qui était un étudiant de doctorat de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0147-qa-sm:r1",
+      "masked_translation": "Dans quelle juridiction le Zorvani s'applique-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0154-qa-sm:r1",
+      "masked_translation": "Quelle est une œuvre remarquable de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "masked_translation": "Où est Zorvani indigène?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0133-qa-sm:r2",
+      "masked_translation": "D'après qui Zorvani porte-t-il son nom ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r1",
+      "masked_translation": "En quoi Zorvani est différent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0122-qa-sm:r1",
+      "masked_translation": "Quel endroit partage une frontière avec Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0188-qa-sm:r2",
+      "masked_translation": "Qui a appris à Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "masked_translation": "De quelle division administrative Zorvani est la capitale ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "masked_translation": "Quel conflit a suivi les Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0115-qa-sm:r2",
+      "masked_translation": "Où la langue Zorvani est-elle originaire ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0053-qa-sm:r1",
+      "masked_translation": "À quelle œuvre créatrice Zorvani a- t- il contribué?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r2",
+      "masked_translation": "D'après qui Zorvani porte-t-il son nom ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0069-qa-sm:r1",
+      "masked_translation": "De quel pays est Zorvani originaire ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r2",
+      "masked_translation": "Dans quelle juridiction le titre Zorvani s'applique-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0136-qa-sm:r2",
+      "masked_translation": "De quelle maison fait partie le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0059-qa-sm:r2",
+      "masked_translation": "Où Zorvani a-t-il été éduqué ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "masked_translation": "Où est originaire Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0171-qa-sm:r1",
+      "masked_translation": "Avec quelle ville Zorvani est-il jumelé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r2",
+      "masked_translation": "À quelle date Zorvani a-t-il été joué pour la première fois ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0045-qa-sm:r1",
+      "masked_translation": "Qui a produit Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r1",
+      "masked_translation": "Sur quelle caractéristique physique se trouve Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "masked_translation": "Qui est le sujet principal de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r2",
+      "masked_translation": "Que possède Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0065-qa-sm:r2",
+      "masked_translation": "De quel pays est Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r2",
+      "masked_translation": "À quelle date le Zorvani a-t-il commencé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "masked_translation": "Dans quoi Zorvani est-il impliqué ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0010-qa-sm:r1",
+      "masked_translation": "Quelle est l'organisation mère de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r2",
+      "masked_translation": "Quel est le type de prise standard pour l'électricité du réseau à Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r1",
+      "masked_translation": "Qui est un étudiant au doctorat de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0079-qa-sm:r2",
+      "masked_translation": "De quoi le Zorvani est-il différent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0102-qa-sm:r1",
+      "masked_translation": "Quel pays se trouve dans le bassin du Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0120-qa-sm:r1",
+      "masked_translation": "De quel pays est Zorvani citoyen ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r1",
+      "masked_translation": "Qui est le scénariste de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "masked_translation": "Qui est le rédacteur en chef du Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r1",
+      "masked_translation": "Quelle entité territoriale administrative est comprise dans Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r1",
+      "masked_translation": "Qui est le parrain de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "masked_translation": "Qu'est-ce que Zorvani remplace ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r2",
+      "masked_translation": "Quelle langue parle Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "masked_translation": "De quelle division administrative Zorvani est la capitale ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0101-qa-sm:r2",
+      "masked_translation": "De quelle œuvre Zorvani est-il une édition ou une traduction ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "masked_translation": "Quel est le prénom équivalent du sexe opposé pour Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r2",
+      "masked_translation": "Dans quelle organisation Zorvani a-t-il été fusionné ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0149-qa-sm:r1",
+      "masked_translation": "Pour quoi Zorvani a-t-il été nominé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r2",
+      "masked_translation": "À quelle date Zorvani a-t-elle été constituée ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0003-qa-sm:r2",
+      "masked_translation": "Pour quel prix Zorvani a-t-il été nominé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r2",
+      "masked_translation": "À quelle date Kelvoria est-elle devenue une parente de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0194-qa-sm:r2",
+      "masked_translation": "Qui est un étudiant au doctorat de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r2",
+      "masked_translation": "En quelle année Zorvani a-t-il commencé sa maîtrise ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "masked_translation": "Quelle organisation confère le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r2",
+      "masked_translation": "Quel est l'organisme de réglementation des langues pour Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0090-qa-sm:r1",
+      "masked_translation": "Sur ou à côté de quel plan d'eau se trouve Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0068-qa-sm:r2",
+      "masked_translation": "Quel est le contraire de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r2",
+      "masked_translation": "Quelle organisation confère le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r1",
+      "masked_translation": "Qui occupait la position du Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0099-qa-sm:r2",
+      "masked_translation": "Où est né Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "masked_translation": "Dans quelle œuvre Zorvani est-il décrit ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0081-qa-sm:r2",
+      "masked_translation": "Qui est le président de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r1",
+      "masked_translation": "Quelle récompense Zorvani a- t- il reçue?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r1",
+      "masked_translation": "Pour qui Zorvani travaille-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "masked_translation": "Dans quelle œuvre Zorvani apparaît-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0054-qa-sm:r2",
+      "masked_translation": "En quelle année le Zorvani a-t-il pris fin ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0166-qa-sm:r2",
+      "masked_translation": "Quand Kelvoria est-elle devenue une partie des Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0070-qa-sm:r2",
+      "masked_translation": "À quelle date Zorvani a-t-il été publié pour la première fois ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0051-qa-sm:r1",
+      "masked_translation": "Qui a écrit le scénario de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0195-qa-sm:r1",
+      "masked_translation": "Qui est l'élève de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0140-qa-sm:r1",
+      "masked_translation": "À quelle organisation Zorvani appartient-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r2",
+      "masked_translation": "Quelle langue parle Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r2",
+      "masked_translation": "Quel prix Zorvani a-t-il reçu ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "masked_translation": "Qui est le parrain de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r2",
+      "masked_translation": "Pour quel prix Zorvani a-t-il été nominé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "masked_translation": "Qui a joué Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0186-qa-sm:r2",
+      "masked_translation": "Dans quelle institution Zorvani a-t-il été éduqué ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "masked_translation": "Quelle langue parle Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r1",
+      "masked_translation": "Quelle langue parle Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0137-qa-sm:r2",
+      "masked_translation": "En quelle année Zorvani a-t-il pris fin ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r1",
+      "masked_translation": "Pour quel prix Zorvani a-t-il été nominé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r2",
+      "masked_translation": "Qui a participé au Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0070-qa-sm:r1",
+      "masked_translation": "Quelle est l'œuvre remarquable de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0158-qa-sm:r2",
+      "masked_translation": "Quand Kelvoria est-elle devenue membre des Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r1",
+      "masked_translation": "Quel travail suit Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0060-qa-sm:r2",
+      "masked_translation": "En quelle année Kelvoria a-t-il été l'architecte de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "masked_translation": "Qui est le créateur de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0062-qa-sm:r2",
+      "masked_translation": "Sur quelle caractéristique physique se trouve Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "masked_translation": "Qui est le frère de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0147-qa-sm:r2",
+      "masked_translation": "Zorvani fait partie de quel continent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0088-qa-sm:r1",
+      "masked_translation": "Quel pays sert Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0067-qa-sm:r1",
+      "masked_translation": "Qui confère le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0180-qa-sm:r1",
+      "masked_translation": "Zorvani fait partie de quel continent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "masked_translation": "Quelle œuvre Zorvani suit dans sa série ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r1",
+      "masked_translation": "Quel travail fait partie de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "masked_translation": "En quelle langue Zorvani écrit-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "masked_translation": "Dans quelle œuvre Zorvani est-il décrit ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "masked_translation": "Quel ouvrage décrit le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0121-qa-sm:r1",
+      "masked_translation": "D'après qui Zorvani a-t-il été nommé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0190-qa-sm:r1",
+      "masked_translation": "Quelle œuvre suit Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "masked_translation": "Quel est le travail de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r1",
+      "masked_translation": "À quelle franchise de médias Zorvani appartient-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0109-qa-sm:r2",
+      "masked_translation": "Dans quelle entité territoriale administrative se trouve Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0066-qa-sm:r2",
+      "masked_translation": "À quelle date Zorvani a-t-il été joué pour la première fois ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0060-qa-sm:r1",
+      "masked_translation": "Quelle institution détient les dossiers d'artistes pour Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r1",
+      "masked_translation": "Qui a produit Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0139-qa-sm:r1",
+      "masked_translation": "De quel parti politique Zorvani est-il membre ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "masked_translation": "En quelle année Kelvoria a-t-elle trouvé Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r2",
+      "masked_translation": "De quelle entité Zorvani est différent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r2",
+      "masked_translation": "Quel est le prénom de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r1",
+      "masked_translation": "Sur quelle caractéristique physique se trouve Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0043-qa-sm:r2",
+      "masked_translation": "En l'honneur de qui le Zorvani est-il nommé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r1",
+      "masked_translation": "Qui a réalisé Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "masked_translation": "De quelle classe est le Zorvani une sous-classe ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "masked_translation": "Qui est le beau-père de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "masked_translation": "Quel est le nom de famille de l'entité qui suit immédiatement la famille à laquelle Zorvani appartient ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "masked_translation": "Quel est le nom de famille de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q1",
+      "masked_translation": "Quelle institution détient les objets de la collection de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "masked_translation": "Qui était le conseiller de doctorat du recteur de l'employeur de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "masked_translation": "Quelle langue parle le beau-père du fondateur de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "masked_translation": "Quelle fonction politique de l'État qui a remplacé le pays dont Zorvani est la capitale est occupée par son chef d'État ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q2",
+      "masked_translation": "Quel est le rang supérieur au Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "masked_translation": "De qui Zorvani est différent ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "masked_translation": "Quelle est l'entité territoriale administrative de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "masked_translation": "Quel travail fait partie de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "masked_translation": "De qui le professeur du père de Zorvani diffère-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:q2",
+      "masked_translation": "D'après qui Zorvani porte-t-il son nom ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "masked_translation": "Qui est le beau-père de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "masked_translation": "Où a été formée l'organisation dont le lieu où Zorvani a été détenu est un membre?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q1",
+      "masked_translation": "Quel est le titre noble de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q3",
+      "masked_translation": "Qui est le frère de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q2",
+      "masked_translation": "Pour qui Zorvani s'intéresse-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "masked_translation": "Dans quoi le Zorvani fait-il partie ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "masked_translation": "Qui est le frère de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q2",
+      "masked_translation": "D'après qui Zorvani porte-t-il son nom ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "masked_translation": "Quel est le prénom du partenaire célibataire du frère de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q2",
+      "masked_translation": "Qu'est-ce qui partage une frontière avec Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0345-qa-sm:multi",
+      "masked_translation": "Qui représente le créateur du participant à Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q2",
+      "masked_translation": "Qui a réalisé Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:multi",
+      "masked_translation": "Qui est le père de la personne qui intéresse le partenaire célibataire de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "masked_translation": "Quel préfixe honorifique est utilisé avant le nom du partenaire célibataire du fondateur de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:q3",
+      "masked_translation": "Où le Zorvani a-t-il été formé ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "masked_translation": "Qui est la femme de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q1",
+      "masked_translation": "Quel travail élargit l'intrigue de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q2",
+      "masked_translation": "Qui est le rédacteur en chef de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q2",
+      "masked_translation": "Qui est le recteur de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q1",
+      "masked_translation": "Quelle est la capitale de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q3",
+      "masked_translation": "Où travaille le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q2",
+      "masked_translation": "D'après qui Zorvani porte-t-il son nom ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:multi",
+      "masked_translation": "Quelle récompense la famille de l'enfant de Zorvani a-t-elle reçue ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "masked_translation": "Où est l'entité qui borde l'endroit où Zorvani a son siège ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0277-qa-sm:q1",
+      "masked_translation": "Pour qui Zorvani travaille-t-il ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "masked_translation": "Quelle entité appartient à Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:q3",
+      "masked_translation": "Quel prix Zorvani a-t-il reçu ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "masked_translation": "Qui est le parrain de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:q3",
+      "masked_translation": "Quel préfixe honorifique est utilisé avant le nom de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "masked_translation": "Qui est le frère de la personne qui a donné son nom à l'endroit où se trouve le Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q3",
+      "masked_translation": "Quelle position Zorvani a-t-il occupée ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "masked_translation": "Où est mort le père du parrain de Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q3",
+      "masked_translation": "Qu'est-ce qui fait partie du Zorvani ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "masked_translation": "Wer ist der Herausgeber von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0035-qa-sm:r2",
+      "masked_translation": "Was ist die Muttersprache von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "masked_translation": "Wer war ein Doktorand von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "masked_translation": "In welchem Werk wird Zorvani beschrieben?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "masked_translation": "Wann wurde Zorvani das Land, in dem sich Kelvoria befindet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0116-qa-sm:r2",
+      "masked_translation": "In welchem Jahr begann Zorvanis Tätigkeit?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0068-qa-sm:r1",
+      "masked_translation": "In welcher Sprache ist das Werk \"Zorvani\" geschrieben?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "masked_translation": "Welche Organisation verleiht den Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "masked_translation": "Welche Sprache spricht Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0190-qa-sm:r1",
+      "masked_translation": "Welches Werk folgt Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0068-qa-sm:r2",
+      "masked_translation": "Was ist das Gegenteil von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0111-qa-sm:r2",
+      "masked_translation": "Was ist die Amtssprache von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0060-qa-sm:r1",
+      "masked_translation": "Welche Institution hält die Künstlerakten für Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "masked_translation": "Auf welchem physikalischen Merkmal befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r1",
+      "masked_translation": "Mit welcher Stadt ist Zorvani verbunden?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r2",
+      "masked_translation": "Wann begann der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0067-qa-sm:r1",
+      "masked_translation": "Wer verleiht den Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "masked_translation": "Wer spielte Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r1",
+      "masked_translation": "Was ist Zorvanis Muttersprache?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r2",
+      "masked_translation": "In welchem Jahr war Zorvani bekannt für seine Aktivität?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0088-qa-sm:r1",
+      "masked_translation": "Welchem Land dient Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r2",
+      "masked_translation": "Welchem Land oder welcher anderen Macht verdankt Zorvani seine Treue?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0133-qa-sm:r2",
+      "masked_translation": "Nach wem ist Zorvani benannt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0088-qa-sm:r2",
+      "masked_translation": "Was ist die Amtssprache von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "masked_translation": "In welchem Jahr fand Kelvoria Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0101-qa-sm:r2",
+      "masked_translation": "Welches Werk ist Zorvani eine Ausgabe oder Übersetzung?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0184-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Ehefrau?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0122-qa-sm:r2",
+      "masked_translation": "Was hat Zorvani ersetzt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r2",
+      "masked_translation": "In welchem Jahr erhielt Kelvoria den Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "masked_translation": "Von welcher Verwaltungsabteilung ist Zorvani die Hauptstadt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "masked_translation": "Von welcher Verwaltungsabteilung ist Zorvani die Hauptstadt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r2",
+      "masked_translation": "Wann hat Kelvoria diplomatische Beziehungen zu Zorvani aufgenommen?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r1",
+      "masked_translation": "Wer hielt die Position der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r2",
+      "masked_translation": "Wie ist Zorvanis Vorname?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r2",
+      "masked_translation": "Zu welchem Militärzweig gehört Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0130-qa-sm:r2",
+      "masked_translation": "Wann hörte Kelvoria auf, die Hauptstadt von Zorvani zu sein?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r2",
+      "masked_translation": "Wessen Schüler war Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r2",
+      "masked_translation": "Wann wurde Zorvani zum ersten Mal aufgeführt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r2",
+      "masked_translation": "Welches Werk beschreibt Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r2",
+      "masked_translation": "Nach wem ist Zorvani benannt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r2",
+      "masked_translation": "Auf welchem Kontinent befinden sich die Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r2",
+      "masked_translation": "Was ist die Sprachbehörde für Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r1",
+      "masked_translation": "Wer war Zorvanis Doktorand?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0137-qa-sm:r1",
+      "masked_translation": "In welchem Dokument wird Zorvani bestätigt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "masked_translation": "Welche Arbeit verfolgt Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r2",
+      "masked_translation": "Von welcher Entität unterscheidet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0059-qa-sm:r2",
+      "masked_translation": "Wo wurde Zorvani ausgebildet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r2",
+      "masked_translation": "Wann wurde Zorvani gegründet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0081-qa-sm:r1",
+      "masked_translation": "Zu welcher Familie gehört Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0115-qa-sm:r1",
+      "masked_translation": "Was ist Zorvanis Muttersprache?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0115-qa-sm:r2",
+      "masked_translation": "Wo ist die Zorvani-Sprache einheimisch?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Stiefelternteil?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0045-qa-sm:r1",
+      "masked_translation": "Wer hat Zorvani produziert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "masked_translation": "Welches Werk beschreibt die Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "masked_translation": "Wer ist der Herausgeber der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "masked_translation": "Was ist der gleichwertige Vorname des anderen Geschlechts für Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0160-qa-sm:r2",
+      "masked_translation": "Von welchem Land ist Zorvani Staatsbürger?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0043-qa-sm:r2",
+      "masked_translation": "Nach wem ist der Zorvani benannt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r1",
+      "masked_translation": "Wer hat Zorvani inszeniert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "masked_translation": "Wo ist Zorvani heimisch?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0005-qa-sm:r1",
+      "masked_translation": "Wo spielt die Erzählung von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r2",
+      "masked_translation": "Wann wurde Zorvani gegründet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r1",
+      "masked_translation": "Welche Sprache spricht, schreibt oder gebraucht Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0081-qa-sm:r2",
+      "masked_translation": "Wer ist der Vorsitzende von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "masked_translation": "Wer ist der ausgestellte Schöpfer von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r1",
+      "masked_translation": "Für welche Auszeichnung war Zorvani nominiert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0123-qa-sm:r1",
+      "masked_translation": "Wie ist Zorvanis Vorname?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r1",
+      "masked_translation": "Wer hat Zorvani produziert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0089-qa-sm:r2",
+      "masked_translation": "In welchem Verwaltungsgebiet befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0180-qa-sm:r2",
+      "masked_translation": "Was teilt eine Grenze mit Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "masked_translation": "In welcher Sprache schreibt Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r2",
+      "masked_translation": "Was teilt eine Grenze mit Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "masked_translation": "Was ersetzt Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0018-qa-sm:r2",
+      "masked_translation": "Zu welchem Militärzweig gehört Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0084-qa-sm:r2",
+      "masked_translation": "Welchen bedeutenden Platz hat Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0066-qa-sm:r1",
+      "masked_translation": "Welches Werk erweitert die Handlung von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r1",
+      "masked_translation": "Was teilt eine Grenze mit Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0054-qa-sm:r2",
+      "masked_translation": "In welchem Jahr endete der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r2",
+      "masked_translation": "Welcher Standard-Stecker wird in Zorvani verwendet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r1",
+      "masked_translation": "Welches Werk ist Teil von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0118-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Kind?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r1",
+      "masked_translation": "Auf welchem physikalischen Merkmal befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "masked_translation": "Zorvani ist die Hauptstadt welcher Verwaltungsabteilung?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0079-qa-sm:r2",
+      "masked_translation": "Woran unterscheidet sich der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0171-qa-sm:r1",
+      "masked_translation": "Mit welcher Stadt ist Zorvani verbunden?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0134-qa-sm:r1",
+      "masked_translation": "Was hat Zorvani ersetzt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "masked_translation": "Wer ist Zorvanis Bruder?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r1",
+      "masked_translation": "Welche Verwaltungsgebietseinheit ist in Zorvani enthalten?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r2",
+      "masked_translation": "Welche Beurteilung wurde zur Evaluierung von Zorvani verwendet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "masked_translation": "Worin ist Zorvani beteiligt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0109-qa-sm:r2",
+      "masked_translation": "In welchem Verwaltungsgebiet befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0131-qa-sm:r2",
+      "masked_translation": "Was ist Zorvanis Muttersprache?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r2",
+      "masked_translation": "Welche Sprache spricht Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0096-qa-sm:r2",
+      "masked_translation": "Welcher Flughafen gehört Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "masked_translation": "In welchem Werk erscheint Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0062-qa-sm:r2",
+      "masked_translation": "Auf welchem physikalischen Merkmal befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "masked_translation": "Welchem Werk folgt Zorvani in seiner Serie?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0099-qa-sm:r2",
+      "masked_translation": "Wo wurde Zorvani geboren?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r2",
+      "masked_translation": "Was ist die Amtssprache von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0110-qa-sm:r2",
+      "masked_translation": "In welchem Dokument steht der Name Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r2",
+      "masked_translation": "Wer hat an der Zorvani teilgenommen?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0008-qa-sm:r2",
+      "masked_translation": "Was ist Zorvanis Muttersprache?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0100-qa-sm:r1",
+      "masked_translation": "Mit welcher Bewegung ist Zorvani verbunden?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r1",
+      "masked_translation": "Wer ist der Vorsitzende von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0090-qa-sm:r1",
+      "masked_translation": "Auf oder neben welchem Gewässer befindet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "masked_translation": "Wem ist Zorvani der Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "masked_translation": "Welches politische Amt des Staates, das das Land ersetzte, dessen Hauptstadt Zorvani ist, wird von seinem Staatsoberhaupt innehat?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "masked_translation": "Welches Werk ist Teil von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "masked_translation": "Wer ist Zorvanis Stiefelternteil?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "masked_translation": "Auf welches Werk bezieht sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q1",
+      "masked_translation": "Wer ist Zorvanis unverheirateter Partner?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q3",
+      "masked_translation": "Wie ist Zorvanis Vorname?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "masked_translation": "Wer ist der Bruder der Person, nach der der Ort, in dem die Zorvani wohnen, benannt ist?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:multi",
+      "masked_translation": "Wer ist der Drehbuchautor des Werkes, auf das sich das Werk bezieht, das die Handlung von Zorvani erweitert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "masked_translation": "Wer ist Zorvanis Stiefelternteil?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q1",
+      "masked_translation": "Wo ist Zorvani heimisch?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "masked_translation": "Wer war der Doktorand des Rektors von Zorvanis Arbeitgeber?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "masked_translation": "Welche Position hat das Kind des Schutzheiligen von Zorvani inne?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "masked_translation": "Wer ist Zorvanis Bruder?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "masked_translation": "Wer war Zorvanis Doktorand?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "masked_translation": "Wie heißt der unverheiratete Partner von Zorvanis Geschwister?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "masked_translation": "Wie lautet der Familienname der Einheit, die unmittelbar nach der Familie folgt, zu der Zorvani gehört?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "masked_translation": "Wer ist der Ehepartner der Person, nach der der Ort, an dem Zorvani arbeitete, benannt wurde?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0246-qa-sm:multi",
+      "masked_translation": "Welche Zahlungsarten akzeptiert der Veranstalter der Veranstaltung, an der Zorvani teilgenommen hat?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:q1",
+      "masked_translation": "Wer ist der Hauptdarsteller von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:multi",
+      "masked_translation": "Zu welcher Familie gehört die Mutter des Hauptpersonen des Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q3",
+      "masked_translation": "Wer ist das Staatsoberhaupt von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "masked_translation": "Wo wurde die Organisation gegründet, deren Mitglied der Ort ist, wo Zorvani festgehalten wurde?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q1",
+      "masked_translation": "Wo befindet sich der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:q3",
+      "masked_translation": "Von welchem Land ist Zorvani Staatsbürger?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q2",
+      "masked_translation": "Wer ist der Rektor von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q3",
+      "masked_translation": "Wer ist Zorvanis Ehefrau?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q1",
+      "masked_translation": "Wer ist Zorvanis Ehefrau?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:multi",
+      "masked_translation": "Wer ist das Staatsoberhaupt des Landes, dessen Staatsbürger Zorvanis Ehefrau ist?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q2",
+      "masked_translation": "Nach wem ist Zorvani benannt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "masked_translation": "Zu welcher Klasse gehört der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "masked_translation": "Wer ist der Vater des unverheirateten Partners der Ehefrau von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:q2",
+      "masked_translation": "Wer ist Zorvanis unverheirateter Partner?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "masked_translation": "Wie heißt der Leiter der Arbeit, die Teil von Zorvani ist?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q2",
+      "masked_translation": "Wer ist das Staatsoberhaupt von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q2",
+      "masked_translation": "Von welchem Land ist Zorvani Staatsbürger?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "masked_translation": "Was ersetzte die Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:multi",
+      "masked_translation": "Was ist die Hauptstadt des Landes, mit dem die Verwaltungsregion Zorvani diplomatische Beziehungen unterhält?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "masked_translation": "Wer ist Zorvanis Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "masked_translation": "Wer ist Zorvanis unverheirateter Partner?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "masked_translation": "Welche Sprache spricht der Stiefvater des Gründers von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q2",
+      "masked_translation": "Wer hat Zorvani inszeniert?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "masked_translation": "Wie ist Zorvanis Familienname?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:q3",
+      "masked_translation": "Was ist die Hauptstadt der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q2",
+      "masked_translation": "Wer interessiert Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q1",
+      "masked_translation": "Wer ist das Staatsoberhaupt von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q1",
+      "masked_translation": "Wer ist das Staatsoberhaupt von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q3",
+      "masked_translation": "Was ist ein Teil der Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q2",
+      "masked_translation": "Was teilt eine Grenze mit Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0277-qa-sm:q2",
+      "masked_translation": "Wer ist Zorvanis Mutter?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0345-qa-sm:multi",
+      "masked_translation": "Wer repräsentiert den Schöpfer des Teilnehmers in Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "masked_translation": "Welches politische Amt von Zorvani hat sein Staatsoberhaupt?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "masked_translation": "Wo ist die Entität, die an den Ort grenzt, an dem Zorvani seinen Sitz hat?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "masked_translation": "Welche Verwaltungsgebietseinheit befindet sich in Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "masked_translation": "Wo arbeitet der Staatschef der in Zorvani enthaltenen Verwaltungsgebietseinheit?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "masked_translation": "Welches Unternehmen gehört Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "masked_translation": "Welches Ehrenpräfix wird vor dem Namen des unverheirateten Partners des Gründers von Zorvani verwendet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:multi",
+      "masked_translation": "Was ist die offizielle Religion der Einheit, die die Verwaltungsgebietseinheit ersetzt hat, die Zorvani enthält?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "masked_translation": "Von wem unterscheidet sich der Lehrer von Zorvanis Vater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q1",
+      "masked_translation": "In welcher Institution befinden sich Zorvanis Sammlungsgegenstände?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q3",
+      "masked_translation": "Wie ist Zorvanis Vorname?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:multi",
+      "masked_translation": "Wer ist die Ehefrau des Paten des Staatsoberhauptes von Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q3",
+      "masked_translation": "Wer war Zorvanis Doktorand?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q3",
+      "masked_translation": "Wer ist Zorvanis Ehefrau?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "masked_translation": "Von wem unterscheidet sich Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0355-qa-sm:q1",
+      "masked_translation": "Wem ist der Zorvani gewidmet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q1",
+      "masked_translation": "Wo hat Zorvani gearbeitet?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:q1",
+      "masked_translation": "Wer ist Zorvanis Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q3",
+      "masked_translation": "Welche Position hatte Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "masked_translation": "Wer ist Zorvanis Ehefrau?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:multi",
+      "masked_translation": "Welche Auszeichnung erhielt die Familie von Zorvanis Kind?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "masked_translation": "Wo starb der Vater von Zorvanis Patenvater?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस रचना में दिखाई देते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0092-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस क्षेत्र में कार्य करता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी की सीमा पर क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0078-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का वर्णन किस कृति में किया गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0186-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का प्रदर्शन किसने किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी किस प्रशासनिक प्रभाग की राजधानी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0109-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का वर्णन किस कृति में किया गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0062-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस भौतिक विशेषता पर स्थित है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0101-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस रचना का संस्करण या अनुवाद है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0083-qa-sm:r1",
+      "masked_translation": "Zorvani किसका प्रतिनिधित्व करता है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r1",
+      "masked_translation": "कैलुम द्वीपसमूह के किस देश के साथ राजनयिक संबंध हैं?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी कौन सी भाषा बोलते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस महाद्वीप पर स्थित हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0043-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का नाम किसके नाम पर रखा गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी कहाँ का मूल निवासी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस रचना में वर्णित हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0052-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी के साथ कौन महत्वपूर्ण व्यक्ति जुड़ा हुआ है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0010-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का मूल संगठन क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0093-qa-sm:r1",
+      "masked_translation": "जोरवानी का प्रतिनिधित्व कौन करता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0051-qa-sm:r2",
+      "masked_translation": "केल्वोरिया को किस वर्ष ज़ोरवानी के लिए नामांकित किया गया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का संपादक कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी पहली बार किस रचना में दिखाई दिए?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस प्रशासनिक प्रभाग की राजधानी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "masked_translation": "किस तारीख को ज़ोर्वानी उस देश में बदल गया जिसमें केलवोरिया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का अध्यक्ष कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी के बारे में किस संस्था के पास कलाकारों की फाइलें हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0198-qa-sm:r2",
+      "masked_translation": "Zorvani किस अवधि के दौरान हुआ?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0069-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस तारीख को केलवोरिया का देश नहीं रहा?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किसका छात्र था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0187-qa-sm:r2",
+      "masked_translation": "केल्वोरिया किस वर्ष ज़ोर्वानी की डॉक्टरेट की छात्रा थी?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0176-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का पिता कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी के पास कौन सा महान पद है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का गॉडपेरेंट कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0117-qa-sm:r2",
+      "masked_translation": "केल्वोरिया किस वर्ष ज़ोरवानी की पत्नी बनीं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी का असली नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का वर्णन किस कृत्य में किया गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0162-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी को कौन सा पुरस्कार मिला?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0128-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी किससे अलग है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0190-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी को किसने वितरित किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0168-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी में कौन सी भाषा व्यापक रूप से बोली जाती है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0123-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का असली नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r2",
+      "masked_translation": "किस तारीख को केलवोरिया जोरवानी की रिश्तेदार बन गई?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "masked_translation": "केल्वोरिया ने किस वर्ष ज़ोर्वानी को पाया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0051-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का पटकथा लेखक कौन था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी के साथ किसकी सीमा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0158-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी में कौन सा प्रशासनिक क्षेत्रीय इकाई शामिल है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का निर्माण किसने किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0081-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का अध्यक्ष कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0130-qa-sm:r2",
+      "masked_translation": "किस तारीख को केलवोरिया ज़ोर्वानी की राजधानी नहीं रही?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी को किसने बदल दिया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0149-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी को किसके लिए नामांकित किया गया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0101-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का वर्णन किस कृति में किया गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस इकाई से भिन्न है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस भाषा में लिखते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी के बाद कौन-सा काम होगा?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0171-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी से जुड़ी प्लेग महामारी किस वर्ष समाप्त हुई?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी कौन सी भाषा बोलते, लिखते या सांकेतिक भाषा बोलते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का भाई कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0180-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी के साथ किसकी सीमा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0079-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किससे भिन्न है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0056-qa-sm:r2",
+      "masked_translation": "Zorvani कौन प्रदान करता है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0045-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का निर्माण किसने किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0179-qa-sm:r2",
+      "masked_translation": "किस वर्ष केलवोरिया ने ज़ोर्वानी के बोर्ड सदस्य के रूप में सेवा करना बंद कर दिया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0166-qa-sm:r2",
+      "masked_translation": "जब Kelvoria Zorvani का हिस्सा बन गया?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0171-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी किस शहर के साथ जुड़वा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0122-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी ने किसकी जगह ली?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी किस मीडिया फ्रैंचाइज़ी से संबंधित है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का कार्यक्षेत्र क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0168-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस देश में है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी के एक डॉक्टरेट छात्र कौन थे?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी किसका गॉडपेरेंट है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी अपनी श्रृंखला में किस कार्य का अनुसरण करता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का गॉडपेरेंट कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0099-qa-sm:r2",
+      "masked_translation": "जोरवानी का जन्म कहाँ हुआ था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0154-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का कौन सा उल्लेखनीय कार्य है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी की स्थापना किस तारीख को हुई थी?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का मुख्य विषय कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस संगठन में विलय हुए थे?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0060-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी के कलाकारों की फाइलें किस संस्था के पास हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस काम का पालन करते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी के लिए भाषा नियामक निकाय क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0066-qa-sm:r1",
+      "masked_translation": "कौन सा कार्य ज़ोरवानी की साजिश का विस्तार करता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी का क्या हिस्सा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी कहाँ का मूल निवासी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0161-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का पटकथा लेखक कौन था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस तारीख को शुरू हुआ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी के पास क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का वर्णन किस रचना में किया गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0095-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी की सरकार का मूल रूप गणतंत्र कब बन गया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r2",
+      "masked_translation": "Zorvani किसके साथ संगत है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी किसकी राजधानी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस पद पर थे?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी किस भाषा की बोली है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी के साथ किसकी सीमा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0134-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी ने किसकी जगह ली?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी किस प्रशासनिक प्रभाग की राजधानी है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0194-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी का डॉक्टरेंट छात्र कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0011-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का कार्यक्षेत्र क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0138-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी के तुरंत बाद क्या हुआ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0184-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r2",
+      "masked_translation": "केल्वोरिया को किस वर्ष ज़ोर्वानी प्राप्त हुआ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0118-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी का बच्चा कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का नाम किसके नाम पर रखा गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0089-qa-sm:r1",
+      "masked_translation": "जोरवानी की राजधानी क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r1",
+      "masked_translation": "कौन सा काम ज़ोर्वानी का हिस्सा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r1",
+      "masked_translation": "Zorvani किसके लिए काम करता है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0070-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी का कौन सा उल्लेखनीय कार्य है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी किससे भिन्न है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0133-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी का नाम किसके नाम पर रखा गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "masked_translation": "जोरवानी के लिए विपरीत लिंग का समकक्ष प्रथम नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी कौन सी भाषा बोलते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r2",
+      "masked_translation": "ज़ोरवानी को कौन सा पुरस्कार मिला?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0160-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी किस देश का नागरिक है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी के सौतेले माता-पिता कौन हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "masked_translation": "ज़ोरवानी के प्रदर्सित निर्माता कौन हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "masked_translation": "ज़ोर्वानी क्या बदलता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r2",
+      "masked_translation": "केलवोरिया की सरकार के प्रमुख के रूप में जोरवानी का कार्यकाल किस वर्ष समाप्त हुआ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0067-qa-sm:r1",
+      "masked_translation": "Zorvani कौन प्रदान करता है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r1",
+      "masked_translation": "ज़ोर्वानी किस शहर के साथ जुड़वा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "masked_translation": "कौन सा संगठन ज़ोरवानी प्रदान करता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "masked_translation": "इस संगठन की स्थापना किसने की है जिसमें ज़ोरवानी से ऊपर का पद है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "masked_translation": "कौन सा काम ज़ोर्वानी का हिस्सा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी का संपादक कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी का गॉडपेरेंट कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0209-qa-sm:multi",
+      "masked_translation": "उस घटना के तुरंत बाद क्या हुआ जिसमें ज़ोरवानी के व्यापार या खेल के साथी ने भाग लिया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:multi",
+      "masked_translation": "जोरवानी के अविवाहित साथी के बच्चे का धर्म क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी का भाई कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:multi",
+      "masked_translation": "उस वर्ग से ऊपर अगले उच्च पद का कौन सा भाग है जिसका ज़ोरवानी एक उपवर्ग है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "masked_translation": "उस व्यक्ति की पत्नी कौन है जिसका नाम उस स्थान पर रखा गया है जहाँ ज़ोर्वानी ने काम किया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी का रेक्टर कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी कहाँ काम करते थे?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी के किस देश के साथ राजनयिक संबंध हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:q1",
+      "masked_translation": "ज़ोर्वानी का बच्चा कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी किससे अलग है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:q3",
+      "masked_translation": "ज़ोरवानी के नाम के आगे कौन सा मानार्थ उपसर्ग प्रयोग किया जाता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:multi",
+      "masked_translation": "जोरवानी के अविवाहित साथी की रुचि रखने वाले व्यक्ति का पिता कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:q1",
+      "masked_translation": "ज़ोर्वानी का गॉडपेरेंट कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "masked_translation": "ज़ोर्वानी में कौन सा प्रशासनिक क्षेत्रीय इकाई है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी का बच्चा कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी का नाम किसके नाम पर रखा गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी का डॉक्टरेट सलाहकार कौन था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी का असली नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0246-qa-sm:multi",
+      "masked_translation": "जोरवानी द्वारा भाग लिए गए कार्यक्रम के आयोजक द्वारा किस प्रकार के भुगतान स्वीकार किए जाते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "masked_translation": "जोरवानी से जुड़े व्यक्ति के पिता की मां कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "masked_translation": "जोरवानी के भाई-बहन के अविवाहित साथी का असली नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q1",
+      "masked_translation": "किस संग्रह में जोरवानी के काम हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी के तुरंत बाद क्या हुआ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी का बच्चा कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "masked_translation": "ज़ोर्वानी का भाई कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "masked_translation": "जहां Zorvani के मूल निवासियों के मुख्यालय के साथ सीमा है कि इकाई कहाँ है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी के साथ कौन महत्वपूर्ण व्यक्ति जुड़ा हुआ है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q3",
+      "masked_translation": "ज़ोरवानी कौन सी भाषा बोलते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी को किसने नियुक्त किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q3",
+      "masked_translation": "ज़ोरवानी ने किस पद पर कार्य किया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0244-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी को किसने पवित्र किया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी किस काम का उल्लेख करते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q3",
+      "masked_translation": "Zorvani कहाँ काम करता है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "masked_translation": "जोरवानी के नियोक्ता के रेक्टर का डॉक्टरेट सलाहकार कौन था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के गॉडपेरेंट के पिता की मृत्यु कहाँ हुई?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "masked_translation": "किस संस्था के पास उस व्यक्ति के बारे में दस्तावेज फाइलें हैं जिसका नाम उस शहर के नाम पर रखा गया है जिसमें ज़ोरवानी का मुख्यालय है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी के सौतेले माता-पिता कौन हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के संस्थापक के सौतेले माता-पिता कौन सी भाषा बोलते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी का निर्माता कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के पिता का शिक्षक किससे भिन्न है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:multi",
+      "masked_translation": "जोरवानी के डॉक्टरेट सलाहकार से जुड़े आंदोलन से कौन महत्वपूर्ण व्यक्ति जुड़ा हुआ है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी का असली नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:multi",
+      "masked_translation": "जोरवानी के रचनात्मक कार्य के संपादक की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "masked_translation": "जोरवानी के भीतर स्थित प्रशासनिक क्षेत्रीय इकाई के राज्य प्रमुख कहां काम करते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी का मुख्य विषय कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q1",
+      "masked_translation": "ज़ोर्वानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी के साथ कौन महत्वपूर्ण व्यक्ति जुड़ा हुआ है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी का नाम किसके नाम पर रखा गया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी किस संस्था का मालिक है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी की पत्नी के अविवाहित साथी का पिता कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "masked_translation": "उस व्यक्ति का भाई-बहन कौन है जिसके नाम पर उस जगह का नाम रखा गया है जहाँ ज़ोरवानी रहते हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q3",
+      "masked_translation": "ज़ोरवानी का हिस्सा क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0355-qa-sm:q3",
+      "masked_translation": "जोरवानी से जुड़ा कोई महत्वपूर्ण व्यक्ति कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:multi",
+      "masked_translation": "जोरवानी की पत्नी जिस देश की नागरिक है, उस देश का राज्य प्रमुख कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के स्वामित्व वाली कंपनी के संस्थापक के बारे में किस संस्था के पास दस्तावेजी फाइलें हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "masked_translation": "उस संगठन का गठन कहाँ किया गया था जिसका सदस्य वह स्थान है जहाँ ज़ोर्वानी को हिरासत में लिया गया था?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:multi",
+      "masked_translation": "जोरवानी के कार्यक्षेत्र से जुड़े महत्वपूर्ण व्यक्ति किस देश के नागरिक हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के राज्य प्रमुख के गॉडपेरेंट की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "masked_translation": "उस राज्य का कौन सा राजनीतिक पद जो उस देश की जगह लेता है जिसकी राजधानी जोरवानी है, उसके राज्य के प्रमुख द्वारा आयोजित किया जाता है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:q1",
+      "masked_translation": "Zorvani के चालक दल का सदस्य कौन है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "masked_translation": "ज़ोर्वानी के संरक्षक संत के पुत्र ने क्या पद धारण किया है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी का उपनाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "masked_translation": "उस इकाई का क्या नाम है जो उस परिवार के तुरंत बाद आती है जिसमें ज़ोरवानी का संबंध है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "masked_translation": "Zorvani का हिस्सा क्या है?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी के साथ किसकी सीमा है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:multi",
+      "masked_translation": "ज़ोरवानी के राज्य प्रमुख के पिता के सौतेले माता-पिता कौन हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "masked_translation": "ज़ोरवानी को किसने बदल दिया?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी की पत्नी कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q1",
+      "masked_translation": "ज़ोरवानी के पास कौन सा महान पद है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "masked_translation": "ज़ोरवानी के सौतेले माता-पिता कौन हैं?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "masked_translation": "ज़ोर्वानी का कौन सा राजनीतिक पद उसके राज्य प्रमुख के पास है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "masked_translation": "ज़ोर्वानी का संरक्षक कौन है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "masked_translation": "जोरवानी का हिस्सा है, उसके निर्देशक का नाम क्या है?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "masked_translation": "โซร์วานี่อยู่บนภูมิภาคไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r1",
+      "masked_translation": "เบื้องต้นเกียรติใดที่ใช้สําหรับ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0115-qa-sm:r2",
+      "masked_translation": "ภาษาซอร์วานีเป็นภาษาพื้นบ้านของที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r1",
+      "masked_translation": "ใครแสดง โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ (Zorvani) ใช้อะไร?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0081-qa-sm:r2",
+      "masked_translation": "ใครเป็นประธานของโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0022-qa-sm:r2",
+      "masked_translation": "ซอร์วานี่ถูกฝังอยู่ที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0149-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ได้รับการเสนอชื่อเพื่ออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0021-qa-sm:r2",
+      "masked_translation": "สถาบันไหนเก็บบันทึกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักศึกษาปริญญาเอกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "masked_translation": "โซร์วานีเป็นเมืองหลวงของส่วนการปกครองใด?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0094-qa-sm:r2",
+      "masked_translation": "ใครเป็นคนก่อตั้งโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ตั้งอยู่บนลักษณะทางกายภาพไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r1",
+      "masked_translation": "ซอร์วานี่เป็นส่วนหนึ่งของซีรีส์อะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เป็นพื้นเมืองที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r2",
+      "masked_translation": "สาขาอํานาจใดที่ชื่อ โซร์วานี่ ใช้ได้",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ปรากฏในงานไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r1",
+      "masked_translation": "ใครเป็นคนเขียนบทเรื่อง โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0118-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ทํางานที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0158-qa-sm:r1",
+      "masked_translation": "หน่วยบริหารส่วนท้องถิ่นใดอยู่ในโซร์วานี?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0136-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เป็นส่วนหนึ่งของบ้านไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0180-qa-sm:r2",
+      "masked_translation": "อะไรแบ่งชายแดนกับโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r2",
+      "masked_translation": "ในปีใดการดํารงตําแหน่งของโซร์วานี่ ในฐานะหัวหน้ารัฐบาลของเคลโวเรียสิ้นสุดลง?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r2",
+      "masked_translation": "ชื่อจริงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r2",
+      "masked_translation": "โซร์วานี่รวมตัวกับองค์กรไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0161-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ทํางานที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เปลี่ยนอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0147-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ใช้ในเขตอํานาจไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "masked_translation": "ปีไหนที่เคลโวเรียเจอซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r1",
+      "masked_translation": "ใครกํากับ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "masked_translation": "ใครคือหัวข้อหลักของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0131-qa-sm:r1",
+      "masked_translation": "ใครเป็นสมาชิกประกอบละครของ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0161-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักเขียนบทเรื่อง โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เป็นนักเรียนของใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r1",
+      "masked_translation": "อะไรแบ่งชายแดนกับซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r2",
+      "masked_translation": "ประเภทปั๊มไฟฟ้ามาตรฐานที่ใช้ใน Zorvani คืออะไร?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r1",
+      "masked_translation": "โซร์วานี่อยู่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0184-qa-sm:r2",
+      "masked_translation": "ใครคือลูกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0105-qa-sm:r1",
+      "masked_translation": "หน่วยบริหารส่วนพื้นที่ใดอยู่ในโซร์วานี?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0118-qa-sm:r1",
+      "masked_translation": "ใครคือลูกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r2",
+      "masked_translation": "ใครเป็นผู้กํากับการถ่ายภาพของ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0099-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เกิดที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "masked_translation": "โซร์วานีเป็นเมืองหลวงของส่วนการปกครองใด?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0068-qa-sm:r1",
+      "masked_translation": "ผลงาน \"Zorvani\" เขียนในภาษาไหน?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0111-qa-sm:r1",
+      "masked_translation": "หน่วยบริหารส่วนท้องถิ่นใดอยู่ในโซร์วานี?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0186-qa-sm:r1",
+      "masked_translation": "ใครแสดง โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0160-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เป็นประชาชนของประเทศไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0065-qa-sm:r1",
+      "masked_translation": "เพลงเพลงราชการของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0051-qa-sm:r2",
+      "masked_translation": "ปีไหนที่เคลโวเรียได้รับการเสนอชื่อให้กับ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0084-qa-sm:r2",
+      "masked_translation": "โซร์วานี่มีตําแหน่งสําคัญอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0089-qa-sm:r1",
+      "masked_translation": "เมืองหลวงของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "masked_translation": "งานไหนที่อธิบาย โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0176-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เป็นครอบครัวไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r1",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ได้รับการเสนอรางวัลอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r1",
+      "masked_translation": "โซร์วานี่แตกต่างจากอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r1",
+      "masked_translation": "เมืองหลวงของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0082-qa-sm:r1",
+      "masked_translation": "เมืองหลวงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0154-qa-sm:r1",
+      "masked_translation": "ผลงานที่โดดเด่นของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0101-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ เป็นการตีพิมพ์หรือแปลงานอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0051-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักเขียนบทเรื่อง โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r1",
+      "masked_translation": "งานอะไรตามไปกับซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เกิดเมื่อไหร่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0053-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ มีส่วนร่วมในงานสร้างสรรค์อะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0005-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ถูกจัดตั้งเมื่อวันไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0069-qa-sm:r2",
+      "masked_translation": "วันใดที่โซร์วานีหยุดเป็นประเทศของเคลโวเรีย?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0100-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เกี่ยวข้องกับกระแสไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ถูกแสดงครั้งแรกเมื่อวันไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r2",
+      "masked_translation": "โซร์วานี่มีชื่อในปีไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0011-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ทํางานอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0033-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เขียนภาษาไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ทํางานแบบไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "masked_translation": "จอร์วานี่เป็นชาวพื้นเมืองที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0066-qa-sm:r1",
+      "masked_translation": "งานไหนที่ขยายเรื่องราวของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0195-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักเรียนของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0067-qa-sm:r1",
+      "masked_translation": "ใครมอบ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0134-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เปลี่ยนอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ใช้ระบบการเขียนแบบไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "masked_translation": "ชื่อที่เทียบเท่าของเพศตรงข้ามสําหรับ Zorvani คืออะไร?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0062-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ตั้งอยู่บนลักษณะทางกายภาพไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0128-qa-sm:r1",
+      "masked_translation": "โซร์วานี่แตกต่างจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0123-qa-sm:r1",
+      "masked_translation": "ชื่อจริงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0010-qa-sm:r1",
+      "masked_translation": "องค์กรแม่ของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0010-qa-sm:r2",
+      "masked_translation": "เมื่อวันไหนที่การดํารงตําแหน่งของเคลโวเรีย ในฐานะผู้อํานวยการของ โซร์วานี่สิ้นสุดลง?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0110-qa-sm:r1",
+      "masked_translation": "ชื่อซอร์วานี่เป็นภาษาหญิงอย่างไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "masked_translation": "สงครามอะไรที่ติดตามโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0056-qa-sm:r2",
+      "masked_translation": "ใครมอบ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0168-qa-sm:r1",
+      "masked_translation": "ภาษาไหนที่ใช้กันทั่วไปในโซร์วานี?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เขียนด้วยภาษาไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ติดตามงานไหนในซีรีส์?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r2",
+      "masked_translation": "อะไรที่แทนที่ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0062-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ทํางานที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "masked_translation": "โซร์วานีเป็นเมืองหลวงของส่วนการปกครองใด?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0190-qa-sm:r2",
+      "masked_translation": "ใครจําหน่ายซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0021-qa-sm:r1",
+      "masked_translation": "ใครมีอิทธิพลต่อซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0060-qa-sm:r1",
+      "masked_translation": "สถาบันไหนเก็บไฟล์ศิลปินของซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0071-qa-sm:r1",
+      "masked_translation": "งานไหนเป็นส่วนหนึ่งของ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เรียนปริญญาตรีปีไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0094-qa-sm:r1",
+      "masked_translation": "ซอร์วานี่ถูกฝังอยู่ที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0070-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ถูกตีพิมพ์ครั้งแรกเมื่อวันไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0187-qa-sm:r1",
+      "masked_translation": "ใครเป็นที่ปรึกษาการศึกษาระดับปริญญาเอกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0169-qa-sm:r2",
+      "masked_translation": "ปีไหนที่เคลโวเรียได้รับ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ได้รับรางวัลอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r2",
+      "masked_translation": "องค์กรไหนที่ให้บริการ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r2",
+      "masked_translation": "หน่วยกํากับภาษาของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ทํางานให้ใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r2",
+      "masked_translation": "อะไรแบ่งชายแดนกับซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r1",
+      "masked_translation": "ใครผลิต โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0190-qa-sm:r1",
+      "masked_translation": "งานไหนตามโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0045-qa-sm:r1",
+      "masked_translation": "ใครผลิต โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0116-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักเรียนของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0170-qa-sm:r2",
+      "masked_translation": "ส่วนหนึ่งของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "masked_translation": "ผู้บรรณาธิการของหนังสือพิมพ์โซร์วานี่คือใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r2",
+      "masked_translation": "โซร์วานี่มีชื่อในปีไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r1",
+      "masked_translation": "ใครครองตําแหน่งของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0089-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ตั้งอยู่ในองค์กรปกครองพื้นที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r2",
+      "masked_translation": "การประเมินอะไรที่ใช้ในการประเมิน Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "masked_translation": "วันไหนที่โซร์วานี่กลายเป็นประเทศที่เคลโวเรียอยู่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0182-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ได้รับรางวัลอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0122-qa-sm:r1",
+      "masked_translation": "ที่ไหนมีชายแดนกับซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0072-qa-sm:r1",
+      "masked_translation": "สิ่งที่อยู่บนชายแดนของ Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0123-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ใช้ระบบการเขียนแบบไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0066-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ถูกแสดงครั้งแรกเมื่อวันไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "masked_translation": "ใครคือพี่น้องของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r1",
+      "masked_translation": "โซร์วานี่มีเกียรติศักดิ์ศรีอะไร",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เป็นภาษายังไง?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0152-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ถูกอธิบายในงานไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "masked_translation": "องค์กรไหนที่ให้บริการ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r1",
+      "masked_translation": "สถาบันไหนเก็บไฟล์ศิลปินเกี่ยวกับซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0122-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เปลี่ยนอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เป็นสื่ออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0109-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ถูกอธิบายในงานไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0077-qa-sm:r1",
+      "masked_translation": "ใครจัดซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0102-qa-sm:r1",
+      "masked_translation": "ประเทศไหนอยู่ในบึงของแม่น้ําโซร์วานี?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r1",
+      "masked_translation": "โซร์วานี่อยู่บนภูมิภาคไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r2",
+      "masked_translation": "โซร์วานี่ (Zorvani) รองรับอะไรได้บ้าง?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0164-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เกิดที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r1",
+      "masked_translation": "หมู่เกาะคาลัม มีความสัมพันธ์ทางการทูตกับประเทศไหน",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0088-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ให้บริการประเทศไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ทํางานอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0014-qa-sm:r2",
+      "masked_translation": "เคลโวเรียเป็นส่วนหนึ่งของซอร์วานี่เมื่อไหร่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "masked_translation": "โซร์วานี่เป็นพ่อเลี้ยงใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0032-qa-sm:r2",
+      "masked_translation": "ใครเข้าร่วมกับซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r1",
+      "masked_translation": "โซร์วานี่ปรากฏครั้งแรกในงานไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "masked_translation": "ซอร์วานี่เป็นส่วนหนึ่งของอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0121-qa-sm:r1",
+      "masked_translation": "โซร์วานี่มีชื่อมาจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r2",
+      "masked_translation": "ประเภทปั๊มแบบมาตรฐานสําหรับไฟฟ้าในโซอร์วานีคืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0043-qa-sm:r2",
+      "masked_translation": "โซร์วานี่มีชื่อมาจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r1",
+      "masked_translation": "เซอร์วานี่จงรักภักดีกับประเทศหรืออํานาจใด",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0102-qa-sm:r2",
+      "masked_translation": "เมืองหลวงของโซร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r2",
+      "masked_translation": "เซอร์วานี่จงรักภักดีกับประเทศหรือพลังอื่นใด",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0057-qa-sm:r1",
+      "masked_translation": "สถาบันไหนเก็บบันทึกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0198-qa-sm:r2",
+      "masked_translation": "โซร์วานี่เกิดขึ้นในช่วงเวลาไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0024-qa-sm:r2",
+      "masked_translation": "โซร์วานี่มีชื่อมาจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r1",
+      "masked_translation": "ใครเป็นนักศึกษาปริญญาเอกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "masked_translation": "ใครคือบิดาของผู้สร้างตําแหน่งผู้มีเกียรติของซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "masked_translation": "ใครคือคู่หูที่ไม่ได้แต่งงานของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "masked_translation": "แม่ของคนที่ซอร์วานี่ทํางานอยู่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0244-qa-sm:multi",
+      "masked_translation": "คนที่อุปถัมภ์ลูกของซอร์วานี่ตายที่ไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0209-qa-sm:q2",
+      "masked_translation": "โซร์วานี่ไปแข่งขันในรายการไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0355-qa-sm:multi",
+      "masked_translation": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับแม่ของบุคคลที่ Zorvani ถวายไว้?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:multi",
+      "masked_translation": "ครูของพ่อของซอร์วานี่แตกต่างจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:q2",
+      "masked_translation": "โซร์วานี่มีชื่อมาจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "masked_translation": "สถาบันไหนเก็บเอกสารเกี่ยวกับบุคคล ที่เมืองที่ตั้งสํานักงานใหญ่ของซอร์วานี่ มีชื่อมาจาก?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q2",
+      "masked_translation": "โซร์วานี่มีชื่อมาจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "masked_translation": "จอร์วานี่เป็นเจ้าขององค์กรไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:multi",
+      "masked_translation": "อะไรคือส่วนหนึ่งของระดับที่สูงกว่าชั้นที่โซร์วานี่เป็นชั้นย่อย?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q2",
+      "masked_translation": "ใครคือลูกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0345-qa-sm:q1",
+      "masked_translation": "ใครมีส่วนร่วมใน โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q1",
+      "masked_translation": "ใครคือคู่หูที่ไม่ได้แต่งงานของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0355-qa-sm:q3",
+      "masked_translation": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q2",
+      "masked_translation": "อะไรแบ่งชายแดนกับโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "masked_translation": "ใครคือผู้ดูแล โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "masked_translation": "งานไหนเป็นส่วนหนึ่งของ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:q2",
+      "masked_translation": "หน่วยใดที่เปลี่ยน โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q1",
+      "masked_translation": "อันดับที่สูงกว่าโซร์วานี่ คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:multi",
+      "masked_translation": "กรุงเทพมหานครของประเทศที่เขตการปกครองที่ครอบคลุมโซร์วานี มีความสัมพันธ์ทางการทูตกับอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "masked_translation": "โซร์วานี่พูดถึงงานไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q1",
+      "masked_translation": "งานไหนที่ขยายเรื่องราวของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "masked_translation": "ใครเป็นผู้ก่อตั้งองค์กร ที่มีตําแหน่งสูงกว่าโซร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q3",
+      "masked_translation": "ชื่อจริงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:multi",
+      "masked_translation": "คนสําคัญที่เกี่ยวข้องกับสาขาทํางานของโซร์วานี่ เป็นประชาชนของประเทศไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q2",
+      "masked_translation": "ใครสั่งซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "masked_translation": "ชื่อจริงของคู่ที่ไม่ได้แต่งงานของพี่น้องของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:multi",
+      "masked_translation": "ใครเป็นภรรยาของพ่อแม่ของหัวหน้ารัฐของ Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0280-qa-sm:q3",
+      "masked_translation": "โซร์วานี่แตกต่างจากใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:multi",
+      "masked_translation": "สถาบันไหนมีเอกสารเกี่ยวกับผู้ก่อตั้งของบริษัท ที่เป็นของโซร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "masked_translation": "องค์กรที่โซร์วานี่ถูกคุมขัง เป็นสมาชิกขององค์กรไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q2",
+      "masked_translation": "ผู้อํานวยการของซอร์วานี่คือใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0345-qa-sm:multi",
+      "masked_translation": "ใครเป็นตัวแทนของผู้สร้างผู้เข้าร่วมใน โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "masked_translation": "โซร์วานี่เป็นตระกูลย่อยของตระกูลไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q1",
+      "masked_translation": "โซร์วานี่ทํางานที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0244-qa-sm:q2",
+      "masked_translation": "ใครแต่งตั้งซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:multi",
+      "masked_translation": "อะไรคือศาสนาอย่างเป็นทางการขององค์กรที่แทนที่องค์กรปกครองที่ครอบคลุมโซร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:q3",
+      "masked_translation": "เมืองหลวงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "masked_translation": "ใครเป็นพ่อของคู่ครองที่ไม่ได้แต่งงานของภรรยาของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "masked_translation": "ใครคือพี่น้องของคนที่ชื่อของสถานที่ที่จัดเก็บซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "masked_translation": "ซอร์วานี่เป็นส่วนไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "masked_translation": "หน่วยที่อยู่ติดกับที่ที่ โซร์วานี่มีสํานักงานใหญ่อยู่ที่ไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:q3",
+      "masked_translation": "ตัวอักษรประกอบเกียรติใดที่ใช้ก่อนชื่อของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q1",
+      "masked_translation": "โซร์วานี่มีเกียรติศักดิ์ศรีอะไร",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q3",
+      "masked_translation": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q2",
+      "masked_translation": "โซร์วานี่เกี่ยวข้องกับกระแสไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "masked_translation": "เบื้องต้นเกียรติใดที่ใช้ก่อนชื่อของคู่หูที่ไม่ได้แต่งงานของผู้ก่อตั้งของ Zorvani?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:multi",
+      "masked_translation": "เด็กของคู่ครองที่ไม่ได้แต่งงานของโซร์วานี่ มีศาสนาอะไร",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "masked_translation": "ใครคือที่ปรึกษาปริญญาเอก ของผู้อํานวยการของนายจ้างของโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "masked_translation": "ลูกของพระผู้ปกป้องของโซร์วานี มีตําแหน่งอะไรบ้าง?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q3",
+      "masked_translation": "ใครคือพี่น้องของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q1",
+      "masked_translation": "สถาบันไหนเก็บของสะสมของซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0209-qa-sm:multi",
+      "masked_translation": "อะไรที่เกิดขึ้นทันทีหลังจากเหตุการณ์ ที่คู่หูธุรกิจหรือกีฬาของโซร์วานี่มีส่วนร่วม",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "masked_translation": "ใครคือสามี/ภรรยาของคนที่ชื่อของสถานที่ที่ซอร์วานี่ทํางาน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:q3",
+      "masked_translation": "โซร์วานี่ได้รับรางวัลอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "masked_translation": "จังหวัด Zorvani มีองค์กรส่วนท้องถิ่นทางการปกครองไหน?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "masked_translation": "พ่อของพ่อเลี้ยงของซอร์วานี่ตายที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "masked_translation": "ชื่อตระกูลขององค์กรที่อยู่เบื้องหลังตระกูลที่ซอร์วานี่เป็นส่วนหนึ่งคืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:q2",
+      "masked_translation": "ใครคือลูกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q3",
+      "masked_translation": "โซร์วานี่มีตําแหน่งอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "masked_translation": "ใครเป็นแม่ของพ่อของคนที่เกี่ยวข้องกับซอร์วานี่",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q1",
+      "masked_translation": "โซร์วานี่ สนับสนุน งาน สร้าง อะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "masked_translation": "ผู้นํารัฐของโซร์วานี่มีตําแหน่งทางการเมืองใด",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:multi",
+      "masked_translation": "ผู้ดูแลมูลนิธิที่มีผลงานของ โซร์วานี่ อยู่ที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "masked_translation": "หัวหน้ารัฐขององค์กรปกครองพื้นที่ที่อยู่ใน Zorvani ทํางานที่ไหน?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q1",
+      "masked_translation": "ซอร์วานี่เป็นเมืองหลวงของอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:q1",
+      "masked_translation": "โซร์วานี่เป็นพื้นเมืองที่ไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0355-qa-sm:q1",
+      "masked_translation": "โซร์วานี่เป็นของใคร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q1",
+      "masked_translation": "คอลเลคชั่นไหนมีผลงานของ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:q3",
+      "masked_translation": "ชื่อจริงของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:q1",
+      "masked_translation": "ใครคือพระผู้ปกป้องของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "masked_translation": "ใครเป็นที่ปรึกษาการศึกษาระดับปริญญาเอกของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0373-qa-sm:multi",
+      "masked_translation": "ครอบครัวของลูกของซอร์วานี่ ได้รับรางวัลอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:multi",
+      "masked_translation": "แม่ของคนสําคัญของซอร์วานีเป็นของครอบครัวไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "masked_translation": "ชื่อจริงของผู้อํานวยการงานที่เป็นส่วนหนึ่งของ Zorvani คืออะไร?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:q3",
+      "masked_translation": "โซร์วานี่มีส่วนร่วมในสงครามไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0246-qa-sm:multi",
+      "masked_translation": "ชนิดการชําระเงินใดที่รับโดยผู้จัดกิจกรรมที่ Zorvani ร่วม?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:q2",
+      "masked_translation": "โซร์วานี่เป็นสมาชิกของลูกเรือไหน?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "masked_translation": "อะไรที่แทนที่ โซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q2",
+      "masked_translation": "โซร์วานี่เป็นประชาชนของประเทศไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "masked_translation": "ใครคือพี่น้องของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "masked_translation": "พ่อเลี้ยงของผู้ก่อตั้งโซร์วานี่พูดภาษาไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q2",
+      "masked_translation": "เกิดอะไรขึ้นทันทีหลังจากซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q3",
+      "masked_translation": "ใครเป็นที่ปรึกษาการศึกษาระดับปริญญาเอกของโซร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:multi",
+      "masked_translation": "ใครคือบุคคลสําคัญที่เกี่ยวข้องกับการเคลื่อนไหว ที่ที่ปรึกษาปริญญาเอกของโซร์วานี่เกี่ยวข้องกับ",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:q3",
+      "masked_translation": "โซร์วานี่เป็นประชาชนของประเทศไหน",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0363-qa-sm:multi",
+      "masked_translation": "คนที่สั่งให้สถาบันที่เก็บของสะสมของซอร์วานี่ มีส่วนร่วมในความขัดแย้งอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:multi",
+      "masked_translation": "ใครคือผู้อํานวยการของลูกเรือ ที่ลูกเรือของซอร์วานี่เป็นของ?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:q1",
+      "masked_translation": "ใครเป็นพ่อเลี้ยงของซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0246-qa-sm:q1",
+      "masked_translation": "โซร์วานี่มีส่วนร่วมในงานอะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:multi",
+      "masked_translation": "ใครเป็นภรรยาของผู้บรรณาธิการ ของงานสร้างสรรค์ที่ Zorvani สนับสนุน?",
+      "surrogate_integrity": true
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0209-qa-sm:q3",
+      "masked_translation": "เกิดอะไรขึ้นทันทีหลังจากที่ซอร์วานี่?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "masked_translation": "ชื่อตระกูลของซอร์วานี่คืออะไร?",
+      "surrogate_integrity": false
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "masked_translation": "อํานวยการทางการเมืองใดของรัฐที่แทนที่ประเทศที่มีเมืองหลวงคือ Zorvani ถูกดํารงโดยหัวหน้าของรัฐของมัน?",
+      "surrogate_integrity": true
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "status": "VERIFIED_DIAGNOSTIC_ONLY_NOT_RELEASE",
+  "input_sha256": "7fe75e5cb4ab9b3ca9bb96c4cbd713d0a88a39feffc4b7af330d3e18259ccc14",
+  "review_output_sha256": "20acac21b7eb8c72f812199fb5f16aec77d5cd2b99974a50422339707c6ba01c",
+  "kernel_log_sha256": "588302332c77975b281b54c453ce5ea307c1a06a4ecde161ea1dc5e4730b8b13",
+  "verifier_sha256": "56966b21b77f018eac10b6fb0fa71fdbd46125c5e5634c11edef24d77438634d",
+  "reviewer_model": "Qwen/Qwen2.5-14B-Instruct",
+  "reviewer_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "device": "Tesla T4",
+  "attention_backend": "sdpa",
+  "torch_version": "2.11.0+cu130",
+  "rows": 32,
+  "unique_rows": 32,
+  "schema_errors": 0,
+  "answers_included": false,
+  "target_markers_preserved": true,
+  "per_language_kind": {
+    "de/atomic": {
+      "n": 4,
+      "semantic_pass": 4,
+      "fluency_pass": 4,
+      "both_pass": 4
+    },
+    "de/composition": {
+      "n": 4,
+      "semantic_pass": 3,
+      "fluency_pass": 4,
+      "both_pass": 3
+    },
+    "fr/atomic": {
+      "n": 4,
+      "semantic_pass": 3,
+      "fluency_pass": 4,
+      "both_pass": 3
+    },
+    "fr/composition": {
+      "n": 4,
+      "semantic_pass": 3,
+      "fluency_pass": 4,
+      "both_pass": 3
+    },
+    "hi/atomic": {
+      "n": 4,
+      "semantic_pass": 4,
+      "fluency_pass": 4,
+      "both_pass": 4
+    },
+    "hi/composition": {
+      "n": 4,
+      "semantic_pass": 2,
+      "fluency_pass": 4,
+      "both_pass": 2
+    },
+    "th/atomic": {
+      "n": 4,
+      "semantic_pass": 3,
+      "fluency_pass": 3,
+      "both_pass": 2
+    },
+    "th/composition": {
+      "n": 4,
+      "semantic_pass": 3,
+      "fluency_pass": 3,
+      "both_pass": 2
+    }
+  },
+  "joint_pass_total": 23,
+  "joint_pass_rate": 0.71875,
+  "flagged_rows": [
+    {
+      "prompt_id": "0134-qa-sm:r1",
+      "language": "fr",
+      "kind": "atomic",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The source question asks what ZXQENTAQXZ replaced, but the candidate translation asks what ZXQENTAQXZ was replaced by, reversing the relation direction."
+    },
+    {
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "language": "fr",
+      "kind": "composition",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The English source uses 'stepparent' which is gender-neutral, while the French translation specifies 'beau-père ou belle-mère', distinguishing between stepfather and stepmother, thus altering the scope."
+    },
+    {
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "language": "de",
+      "kind": "composition",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The English question asks specifically for a stepparent (singular), while the German translation asks for either a stepfather or a stepmother, implying two possible answers or a choice between them."
+    },
+    {
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "language": "hi",
+      "kind": "composition",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The translation reverses the relationship between the organization and the rank. The English sentence asks about the founder of the organization that has a rank above ZXQENTAQXZ, but the Hindi sentence incorrectly states ZXQENTAQXZ is part of the organization."
+    },
+    {
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "language": "hi",
+      "kind": "composition",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The candidate translation incorrectly uses 'धर्मपिता या धर्ममाता' (religious father or religious mother) instead of 'साबुत' (godparent)."
+    },
+    {
+      "prompt_id": "0044-qa-sm:r2",
+      "language": "th",
+      "kind": "atomic",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The translation reverses the subject and object, asking about the physical feature on which ZXQENTAQXZ is located instead of the other way around."
+    },
+    {
+      "prompt_id": "0115-qa-sm:r2",
+      "language": "th",
+      "kind": "atomic",
+      "semantic_pass": true,
+      "fluency_pass": false,
+      "reviewer_reason": "The translation is semantically correct but not natural in Thai. The word order and phrasing should be adjusted for better fluency."
+    },
+    {
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "language": "th",
+      "kind": "composition",
+      "semantic_pass": true,
+      "fluency_pass": false,
+      "reviewer_reason": "The translation accurately captures the meaning, relations, scope, polarity, tense, and question type. However, it is not entirely natural in Thai as 'ZXQENTAQXZ' disrupts the flow and typically such titles would be mentioned after the verb phrase."
+    },
+    {
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "language": "th",
+      "kind": "composition",
+      "semantic_pass": false,
+      "fluency_pass": true,
+      "reviewer_reason": "The relation direction is incorrect. The English sentence asks who is the unmarried partner of ZXQENTAQXZ, but the Thai sentence asks who ZXQENTAQXZ's unmarried partner is."
+    }
+  ],
+  "limitations": [
+    "Diagnostic calibration sample only; it does not authorize training.",
+    "Reviewer judgments are AI-only and are not human fluency certification.",
+    "The reviewer's unsupported or erroneous explanations remain possible; reviewer accuracy was not independently gold-labeled.",
+    "The ChatGPT UI translator backend and exact prompt were not recorded, limiting exact reproduction."
+  ]
+}

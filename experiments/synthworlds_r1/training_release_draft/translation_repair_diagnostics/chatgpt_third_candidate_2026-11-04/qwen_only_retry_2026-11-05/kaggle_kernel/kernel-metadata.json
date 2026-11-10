@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/sw-third-qwen-retry-2026-11-05",
+  "title": "sw-third-qwen-retry-2026-11-05",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

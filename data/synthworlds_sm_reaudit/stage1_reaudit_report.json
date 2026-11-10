@@ -1,0 +1,158 @@
+{
+  "answer_and_fact_guard_group_sizes_eligible": {
+    "1": 98,
+    "2": 12,
+    "4": 2
+  },
+  "cross_split_chain_exact_fact_overlap_pairs": 0,
+  "cross_split_exact_gold_answer_pairs": 0,
+  "cross_split_target_overlap_pairs": 0,
+  "dataset": "SynthWorlds-SM",
+  "documents": {
+    "all_candidate_training_docs_withheld_unverified": 203,
+    "candidate_docs_after_conservative_exclusions_not_certified_safe": 193,
+    "cross_split_pool_risks": {
+      "forget": {
+        "flagged_qids": [
+          "Q108774",
+          "Q115",
+          "Q13013925",
+          "Q165349",
+          "Q1731",
+          "Q2079",
+          "Q2659593",
+          "Q272162",
+          "Q295850",
+          "Q3312529",
+          "Q33143",
+          "Q348626",
+          "Q380519",
+          "Q3955",
+          "Q448071",
+          "Q5106989",
+          "Q548733",
+          "Q55191"
+        ],
+        "gold_qid_passage_pool_size": 152,
+        "passages_flagged_other_split_chain_risk": 18,
+        "passages_without_direct_flags_but_still_not_certified": 134,
+        "whole_fact_rows_exposing_other_split_chain": 1
+      },
+      "holdout": {
+        "flagged_qids": [
+          "Q120180",
+          "Q1370330",
+          "Q18010311",
+          "Q207318",
+          "Q54800541",
+          "Q5589",
+          "Q766141",
+          "Q76967"
+        ],
+        "gold_qid_passage_pool_size": 51,
+        "passages_flagged_other_split_chain_risk": 8,
+        "passages_without_direct_flags_but_still_not_certified": 43,
+        "whole_fact_rows_exposing_other_split_chain": 3
+      },
+      "retain": {
+        "flagged_qids": [
+          "Q1077",
+          "Q1370330",
+          "Q154064",
+          "Q18010311",
+          "Q272162",
+          "Q3487169",
+          "Q54800541",
+          "Q57531",
+          "Q622282"
+        ],
+        "gold_qid_passage_pool_size": 52,
+        "passages_flagged_other_split_chain_risk": 9,
+        "passages_without_direct_flags_but_still_not_certified": 43,
+        "whole_fact_rows_exposing_other_split_chain": 4
+      }
+    },
+    "eligible_type_a_targets_referenced_as_gold_qids_by_excluded_graph_types": 64,
+    "forget_examples_with_target_subject_doc_remaining": 74,
+    "full_corpus_holdout_chain_subject_fact_rows": 51,
+    "full_document_count": 6290,
+    "holdout_related_full_corpus_doc_qids_flagged": 239,
+    "provisional_forget_retain_gold_qid_document_pool": 203,
+    "retain_examples_with_target_subject_doc_remaining": 24,
+    "retain_only_doc_pool": 52,
+    "retain_only_doc_qids_after_forget_chain_flags": 46,
+    "retain_only_docs_flagged_forget_chain_risk": 6,
+    "unsafe_candidate_training_docs_excluded": 10,
+    "unsafe_candidate_training_fact_rows": 3
+  },
+  "eligibility_convention": "Conservative: Q1 must uniquely select n2 from all source facts with same (subject,relation). Multiple object answers => excluded.",
+  "eligible_type_a_count": 130,
+  "entity_qid_group_sizes_eligible": {
+    "1": 85,
+    "2": 12,
+    "3": 3,
+    "6": 2
+  },
+  "exact_fact_group_sizes_all_type_a": {
+    "1": 196,
+    "2": 2
+  },
+  "exact_fact_group_sizes_eligible": {
+    "1": 126,
+    "2": 2
+  },
+  "excluded_count": 1070,
+  "excluded_reasons": {
+    "NOT_TYPE_A": 1000,
+    "Q1_MULTIPLE_POSSIBLE_BRIDGE_ANSWERS": 70
+  },
+  "limitations": [
+    "Q1 relation semantics were checked with graph/source triple, source-name anchoring, and bridge tags; not a certified manual paraphrase semantic evaluation for every question.",
+    "70 Type-A rows with multi-valued Q1 are conservatively excluded even though r1 is uniquely specified by the graph.",
+    "Exact relation PID is not encoded in textual fact statements; graph PID is preserved but cannot be independently confirmed against facts.jsonl.",
+    "Training documents are full multi-fact passages and may expose facts beyond their own QA split; mere different QA labels do not imply safety.",
+    "Document co-mention indicates possible leakage, not proof of the relation; absence of co-mention does not rule out paraphrases or aliases.",
+    "Every candidate full document is withheld from training: explicit risk or UNSAFE_PENDING_PASSAGE_VERIFICATION; no train-ready corpus released.",
+    "Original mhop_qa string and other QA fields remain untouched in the original uploads; audit exports only metadata.",
+    "Excluded graph types must remain excluded from any training corpus unless separately re-audited."
+  ],
+  "overlap_counts_strict_eligible": {
+    "qa_count": 130,
+    "qid_only_pairs": 18,
+    "shared_entity_qid_pairs": 41,
+    "shared_exact_fact_pairs": 2,
+    "shared_gold_answer_pairs": 22,
+    "shared_path_or_answer_pairs": 22,
+    "total_pairs": 8385
+  },
+  "overlap_counts_type_a_all": {
+    "qa_count": 200,
+    "qid_only_pairs": 41,
+    "shared_entity_qid_pairs": 76,
+    "shared_exact_fact_pairs": 2,
+    "shared_gold_answer_pairs": 35,
+    "shared_path_or_answer_pairs": 35,
+    "total_pairs": 19900
+  },
+  "overlap_metrics_explanation": "Counts are unordered QA pairs; same entity uses graph and supporting QIDs; exact fact considers verified r1/r2 chain fact strings; target is exact r1. Full reasoning paths require identical ordered exact chain fact IDs. Shared answer is exact matching gold_answers. Categories overlap.",
+  "proposed_group_allocation": {
+    "counts": {
+      "forget": 78,
+      "holdout": 26,
+      "retain": 26
+    },
+    "group_count": 112,
+    "method": "Deterministic SHA256-seeded greedy assignment of indivisible exact-fact/full-path/shared-answer groups; never random row split.",
+    "qa_assignments_are_proposals": true,
+    "random_seed": 20261102,
+    "target_counts": {
+      "forget": 78,
+      "holdout": 26,
+      "retain": 26
+    }
+  },
+  "stage_2_translation": "NOT_STARTED",
+  "status": "PROPOSED_FOR_REVIEW_NOT_APPROVED",
+  "target_rule": "Type A only: graph_qa.r1 with subject n1 and bridge n2; Q1 asks r1 subject relation; Q2 <bridge> is n2",
+  "type_a_graph_valid_first_hops": 200
+}

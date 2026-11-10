@@ -1,0 +1,56 @@
+[{"stream_name":"stderr","time":17.045604193,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.045655733,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.04566038,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.045663109,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.045665621,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":54.687934668,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":54.687977483,"data":"I0000 00:00:1793733328.944919       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":199.880900896,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:53\u003c13:14, 113.51s/it]\rFetching 8 files:  25%|██▌       | 2/8 [02:01\u003c05:09, 51.51s/it] \rFetching 8 files:  38%|███▊      | 3/8 [02:21\u003c03:05, 37.03s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:21\u003c00:00, 17.68s/it]\n"}
+,{"stream_name":"stderr","time":312.673127788,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:14\u003c01:42, 14.60s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:27\u003c01:21, 13.57s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:38\u003c01:02, 12.54s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:54\u003c00:55, 13.76s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:10\u003c00:43, 14.46s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:25\u003c00:29, 14.95s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:41\u003c00:15, 15.27s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:48\u003c00:00, 12.55s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:48\u003c00:00, 13.58s/it]\n"}
+,{"stream_name":"stderr","time":312.922860139,"data":"WARNING:accelerate.big_modeling:Some parameters are on the meta device because they were offloaded to the cpu.\n"}
+,{"stream_name":"stderr","time":313.009164883,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":313.009198313,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":313.009204518,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":313.009210394,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":313.009221971,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":313.009242064,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":343.562269535,"data":"Reviewed 1 / 32\n"}
+,{"stream_name":"stdout","time":377.360199172,"data":"Reviewed 2 / 32\n"}
+,{"stream_name":"stdout","time":407.400431046,"data":"Reviewed 3 / 32\n"}
+,{"stream_name":"stdout","time":443.877662946,"data":"Reviewed 4 / 32\n"}
+,{"stream_name":"stdout","time":475.415554333,"data":"Reviewed 5 / 32\n"}
+,{"stream_name":"stdout","time":505.555200037,"data":"Reviewed 6 / 32\n"}
+,{"stream_name":"stdout","time":539.023782899,"data":"Reviewed 7 / 32\n"}
+,{"stream_name":"stdout","time":571.073969651,"data":"Reviewed 8 / 32\n"}
+,{"stream_name":"stdout","time":603.982898186,"data":"Reviewed 9 / 32\n"}
+,{"stream_name":"stdout","time":631.317821161,"data":"Reviewed 10 / 32\n"}
+,{"stream_name":"stdout","time":658.653170423,"data":"Reviewed 11 / 32\n"}
+,{"stream_name":"stdout","time":686.065888576,"data":"Reviewed 12 / 32\n"}
+,{"stream_name":"stdout","time":720.43719237,"data":"Reviewed 13 / 32\n"}
+,{"stream_name":"stdout","time":747.876816224,"data":"Reviewed 14 / 32\n"}
+,{"stream_name":"stdout","time":776.173593779,"data":"Reviewed 15 / 32\n"}
+,{"stream_name":"stdout","time":803.580084355,"data":"Reviewed 16 / 32\n"}
+,{"stream_name":"stdout","time":830.521542678,"data":"Reviewed 17 / 32\n"}
+,{"stream_name":"stdout","time":860.193870055,"data":"Reviewed 18 / 32\n"}
+,{"stream_name":"stdout","time":890.256273385,"data":"Reviewed 19 / 32\n"}
+,{"stream_name":"stdout","time":920.828680549,"data":"Reviewed 20 / 32\n"}
+,{"stream_name":"stdout","time":955.870834793,"data":"Reviewed 21 / 32\n"}
+,{"stream_name":"stdout","time":1001.203731895,"data":"Reviewed 22 / 32\n"}
+,{"stream_name":"stdout","time":1026.29111313,"data":"Reviewed 23 / 32\n"}
+,{"stream_name":"stdout","time":1058.944461711,"data":"Reviewed 24 / 32\n"}
+,{"stream_name":"stdout","time":1083.805407751,"data":"Reviewed 25 / 32\n"}
+,{"stream_name":"stdout","time":1115.461627484,"data":"Reviewed 26 / 32\n"}
+,{"stream_name":"stdout","time":1138.068790552,"data":"Reviewed 27 / 32\n"}
+,{"stream_name":"stdout","time":1167.032451878,"data":"Reviewed 28 / 32\n"}
+,{"stream_name":"stdout","time":1202.10117842,"data":"Reviewed 29 / 32\n"}
+,{"stream_name":"stdout","time":1242.684130422,"data":"Reviewed 30 / 32\n"}
+,{"stream_name":"stdout","time":1271.981556269,"data":"Reviewed 31 / 32\n"}
+,{"stream_name":"stdout","time":1306.246595187,"data":"Reviewed 32 / 32\n"}
+,{"stream_name":"stdout","time":1306.247182523,"data":"Final status: DIAGNOSTIC_AI_REVIEW_COMPLETE schema_errors: 0\n"}
+,{"stream_name":"stderr","time":1315.098094219,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1315.098134411,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1315.457858355,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1315.457888813,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1316.408860758,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1317.177108695,"data":"[NbConvertApp] Writing 332265 bytes to __results__.html\n"}
+]

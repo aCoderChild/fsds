@@ -1,0 +1,105 @@
+{
+  "answers_or_labels_in_request": false,
+  "chatgpt_merged_review_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+  "human_translation_reviewed": false,
+  "limitations": [
+    "This 187-row queue targets only gaps that block currently incomplete required cases/chains.",
+    "Requests are masked questions only. Never upload private_row_map.jsonl.",
+    "Returned text remains an AI-generated candidate and must pass the frozen production review and source hash checks.",
+    "The candidate-union ceiling combines different diagnostic criteria; it is not a valid merged review or approval."
+  ],
+  "queue_row_map_sha256": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+  "release_approved": false,
+  "release_counts_covered_by_candidate_union": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 60,
+        "required": 117
+      },
+      "retain": {
+        "complete": 19,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 6,
+      "required": 44
+    }
+  },
+  "request_sha256_by_file": {
+    "requests/de/batch_01.jsonl": "7bdde863d1724a1f85b6f0a5531ba57231e3302797fed9fdb718259405538c3c",
+    "requests/de/batch_02.jsonl": "9a17a73eb306198bb755adba8081c0c6b3c9d3355e4b5d6a429060f5cce4160b",
+    "requests/fr/batch_01.jsonl": "b53cb2fa04f53bb3b66c1b6d122735cb5ee9f852a409031f43880ae627377624",
+    "requests/fr/batch_02.jsonl": "df85bd281a91b31ac4f218c0ab2288c5d6da4110b277629bcaa9f08cb91c12f4",
+    "requests/hi/batch_01.jsonl": "8e4e2ae360e5298ab189f3b957155896138acae0a46cd62cfef18997dd424919",
+    "requests/hi/batch_02.jsonl": "93cd18be3cfcf1d24df930a6591414a2b14094dd24db86b436a5dd2164b7bebe",
+    "requests/hi/batch_03.jsonl": "a1592f94825d903cf3185d3b1eee76672179a5f15e6262608aed811eb9fe4fd6",
+    "requests/hi/batch_04.jsonl": "ebb1895abf23219b0c853c5c8f6ddfb8a3e5f95f914d52580743055c59b161ce",
+    "requests/th/batch_01.jsonl": "a4c55bb4c8a1dbaf5d6f8f87b1d4035246f282d6155b31e50a8852caa464527a",
+    "requests/th/batch_02.jsonl": "8f15cee81a8fbcaca81d96ec66d590618ff4af44bf2017e0d2b7fc65d14a7032",
+    "requests/th/batch_03.jsonl": "4f8058cb707fd5977988bdcb920afb0fa5f6473f10a1f52d355e3cec37291e4f",
+    "requests/th/batch_04.jsonl": "d652523d756c09c21fb7e76e743af0f769de353e0f392cfcfc482423b5ae4a0e",
+    "requests/th/batch_05.jsonl": "b28c261354bc3099fc64f7fef668afc2559f27f985550a2dc18f1a9dea61d463",
+    "requests/th/batch_06.jsonl": "c650ee5f14f8d859cb8c999f8095991e215fb187655c8b8ba634be1d8bae8b54"
+  },
+  "rows": 187,
+  "rows_by_kind": {
+    "atomic": 100,
+    "composition": 87
+  },
+  "rows_by_language": {
+    "de": 19,
+    "fr": 21,
+    "hi": 62,
+    "th": 85
+  },
+  "source_hashes_by_language": {
+    "de": {
+      "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_de": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "fr": {
+      "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_fr": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "hi": {
+      "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_hi": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    },
+    "th": {
+      "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "flagged_repairs_th": "ABSENT",
+      "review_protocol": "reasoned_translation_equivalence_v2"
+    }
+  },
+  "source_review_file_sha256_by_language": {
+    "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+    "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+    "hi": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+    "th": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+  },
+  "split_or_case_ids_in_request": false,
+  "status": "VERIFIED_TARGETED_TRANSLATION_GAP_QUEUE_ONLY_NOT_APPROVAL",
+  "training_eligible": false,
+  "translategemma_candidate_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+}

@@ -1,0 +1,36 @@
+{
+  "archive_name": "kaggle_preflight_attempts",
+  "date": "2026-11-03",
+  "files": [
+    {
+      "path": "r1_kaggle_preflight/experiments.log",
+      "bytes": 8261,
+      "sha256": "598b61b7b1893ab6a408083ba6ed577093f375c17066e4f6499275b89cbdefee"
+    },
+    {
+      "path": "r1_kaggle_preflight_v4/experiments.log",
+      "bytes": 7630,
+      "sha256": "7fe62ad4c273c9a67d246d56b043d6643391e4443c8f65ac673a35b78b22f8d1"
+    },
+    {
+      "path": "r1_kaggle_preflight_v5/experiments.log",
+      "bytes": 7639,
+      "sha256": "b14d42eb6591d6558edee9b999271992b0968f8b5680367d719bbfb1d15e0539"
+    },
+    {
+      "path": "r1_kaggle_preflight_v6/experiments.log",
+      "bytes": 7648,
+      "sha256": "e200acd097885f83cb73494cacc7daa2421be363186edf21a90f72b364b7d612"
+    },
+    {
+      "path": "r1_kaggle_preflight_v7/experiments.log",
+      "bytes": 7902,
+      "sha256": "82ad7c80e1aaf85dc00074225b4f2eb1d0e6e98d4e6fe168810d152cdce4c058"
+    },
+    {
+      "path": "r1_kaggle_preflight_v8/experiments.log",
+      "bytes": 8154,
+      "sha256": "5f9071a29d2878bb19896032012fd3e1cc1d6ecb347f6e85c4925b8607d28530"
+    }
+  ]
+}

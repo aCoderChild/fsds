@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED_ACCESS_PREFLIGHT_FAILURE",
+  "observed_date": "2026-11-04",
+  "kaggle_notebook_run_id": "365561200",
+  "secret_enabled_in_notebook": true,
+  "internet_enabled": true,
+  "accelerator": "None",
+  "cell_execution_seconds": 6.679,
+  "receipt_matches_observed_cell_output": true,
+  "no_weights_downloaded": true,
+  "no_research_data_loaded": true,
+  "no_training_started": true,
+  "pip_dependency_warning": "The executed draft downgraded huggingface_hub to 0.36.2, conflicting with installed Transformers/Gradio requirements. The corrected local notebook removes this install and uses Kaggle\u2019s existing dependency.",
+  "scope_note": "Access diagnostic only; not an 8B runtime smoke and not a research experiment."
+}

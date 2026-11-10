@@ -1,0 +1,29 @@
+[{"stream_name":"stderr","time":20.278895812000002,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":20.278939135999998,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":20.278945708,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":20.278950196,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":20.278953912,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":68.345781153,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":68.345809455,"data":"I0000 00:00:1793722624.236161       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":138.309612301,"data":"Back-translated 1 / 15\n"}
+,{"stream_name":"stdout","time":139.916255186,"data":"Back-translated 2 / 15\n"}
+,{"stream_name":"stdout","time":141.557185566,"data":"Back-translated 3 / 15\n"}
+,{"stream_name":"stdout","time":143.220506992,"data":"Back-translated 4 / 15\n"}
+,{"stream_name":"stdout","time":144.801648155,"data":"Back-translated 5 / 15\n"}
+,{"stream_name":"stdout","time":146.609545187,"data":"Back-translated 6 / 15\n"}
+,{"stream_name":"stdout","time":148.292027,"data":"Back-translated 7 / 15\n"}
+,{"stream_name":"stdout","time":149.873732428,"data":"Back-translated 8 / 15\n"}
+,{"stream_name":"stdout","time":151.453782657,"data":"Back-translated 9 / 15\n"}
+,{"stream_name":"stdout","time":153.154033397,"data":"Back-translated 10 / 15\n"}
+,{"stream_name":"stdout","time":154.764552559,"data":"Back-translated 11 / 15\n"}
+,{"stream_name":"stdout","time":156.453554179,"data":"Back-translated 12 / 15\n"}
+,{"stream_name":"stdout","time":158.024101495,"data":"Back-translated 13 / 15\n"}
+,{"stream_name":"stdout","time":159.752659447,"data":"Back-translated 14 / 15\n"}
+,{"stream_name":"stdout","time":161.381446195,"data":"Back-translated 15 / 15\n"}
+,{"stream_name":"stderr","time":171.086325555,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":171.086367608,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":171.521974847,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":171.522002634,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":172.397508988,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":173.285678682,"data":"[NbConvertApp] Writing 289967 bytes to __results__.html\n"}
+]

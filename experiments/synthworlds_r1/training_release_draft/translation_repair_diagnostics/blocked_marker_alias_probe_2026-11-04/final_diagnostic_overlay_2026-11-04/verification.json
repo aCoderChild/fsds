@@ -1,0 +1,50 @@
+{
+  "alias_marker_count_restored": 28,
+  "alias_output_sha256": "9739fab6b583cb730c2401da846282f4f3eb94c8001cfc4a1ba275054204ca3d",
+  "answers_or_splits_sent": false,
+  "counts": {
+    "AI_ONLY_REPAIR_REVIEW_FLAGGED": 19,
+    "AI_ONLY_REPAIR_REVIEW_PASS": 12
+  },
+  "counts_by_kind": {
+    "atomic": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 14,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 11
+    },
+    "composition": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 5,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 1
+    }
+  },
+  "counts_by_language": {
+    "de": {
+      "AI_ONLY_REPAIR_REVIEW_PASS": 4
+    },
+    "fr": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 2
+    },
+    "hi": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 14,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 5
+    },
+    "th": {
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 3,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 3
+    }
+  },
+  "formerly_blocked_rows_rechecked": 31,
+  "human_translation_reviewed": false,
+  "limitation": "AI-only diagnostic judgment; semantic/fluency accuracy is not human-certified.",
+  "malformed_or_blocked_after_retry": 0,
+  "qwen_recheck_output_sha256": "0586215735ec2f4b6b046ccac08b124a82907b0cff4c4581e7a5716a622cb2db",
+  "qwen_recheck_verification_sha256": "face812fedbcf984a0a2c227302299fd1b31c9a2a57ecea98e6daf2d953e605a",
+  "release_approved": false,
+  "result_rows_sha256": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+  "rows": 31,
+  "semantic_reviews_complete": 31,
+  "source_799_rows_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+  "status": "VERIFIED_31_ROW_ALIAS_RECHECK_DIAGNOSTIC_ONLY",
+  "three_row_retry_output_sha256": "42aab777e51e5712dddf9a03fd2afb6983cb78f5cf2b29b32ca031256d77d80f",
+  "three_row_retry_verification_sha256": "141d0b7c79a93aea97751cbe99b797cfa9ad0349aad8d1c4a4c46b5b709d26f2",
+  "training_eligible": false
+}

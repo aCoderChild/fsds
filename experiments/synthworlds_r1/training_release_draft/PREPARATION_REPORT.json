@@ -1,0 +1,125 @@
+{
+  "approval_status": "NOT_APPROVED_FOR_TRAINING",
+  "atomic_fact_rows_expected": 312,
+  "atomic_plan": {
+    "new_fact_rows": 148,
+    "partially_reused_fact_rows": 164,
+    "reuse_source_candidate_hashes": {
+      "de": "91568187ef96a91a9282887c48cf78fd824ec585a0ba3de91b341d19b01bf952",
+      "fr": "9e28aac42a101eab14ffe6e785d2438ff77866346beca116a97be61ca392cfd8",
+      "hi": "ec84839df92c20e4fc9b0d3bfc765d7ce98cab36bdea0a5faccc65d3cec93a29",
+      "th": "9bb2ece3bc450372092e17ddc0d1d06e26d8b2d9ba32cd1d583dae417f0f6193"
+    }
+  },
+  "atomic_reuse_rows": 968,
+  "atomic_translation_requests": 592,
+  "composition_plan": {
+    "candidate_chains": 85,
+    "english_candidate_sha256": "742c458d066ffe89c5268897a8c53a045e41255852a5339bbb6c189874a6677f",
+    "exclusion_counts": {
+      "evaluation_qid_overlap": 27,
+      "evaluation_surface_overlap": 14
+    },
+    "original_ai_review_status": "AI_ONLY_REVIEWED_DISJOINT_TRAIN_ONLY_TRANSLATIONS",
+    "original_independent_verification_sha256": "a7a8b613af1a24f9476f45226b833b980083b2e17f2be58385a211029b1fb401",
+    "original_manifest_sha256": "ff7bcafdfd9d3b9d746da00cecddf248ed0fe6e8bd6f226ad99279719c58ec42",
+    "original_translation_review_report_sha256": "173edbc7f20243916613b07ba8ab5776cfe7a123fefb576f152d99d369c438c1",
+    "original_verification_status": "PASS",
+    "selected_chains": 44,
+    "selected_source_qa_ids": [
+      "0202-qa-sm",
+      "0203-qa-sm",
+      "0207-qa-sm",
+      "0209-qa-sm",
+      "0214-qa-sm",
+      "0218-qa-sm",
+      "0219-qa-sm",
+      "0230-qa-sm",
+      "0238-qa-sm",
+      "0241-qa-sm",
+      "0242-qa-sm",
+      "0244-qa-sm",
+      "0246-qa-sm",
+      "0251-qa-sm",
+      "0267-qa-sm",
+      "0269-qa-sm",
+      "0270-qa-sm",
+      "0277-qa-sm",
+      "0280-qa-sm",
+      "0284-qa-sm",
+      "0291-qa-sm",
+      "0292-qa-sm",
+      "0295-qa-sm",
+      "0296-qa-sm",
+      "0300-qa-sm",
+      "0301-qa-sm",
+      "0305-qa-sm",
+      "0306-qa-sm",
+      "0307-qa-sm",
+      "0321-qa-sm",
+      "0323-qa-sm",
+      "0330-qa-sm",
+      "0333-qa-sm",
+      "0335-qa-sm",
+      "0345-qa-sm",
+      "0347-qa-sm",
+      "0348-qa-sm",
+      "0355-qa-sm",
+      "0363-qa-sm",
+      "0373-qa-sm",
+      "0382-qa-sm",
+      "0383-qa-sm",
+      "0394-qa-sm",
+      "0398-qa-sm"
+    ],
+    "translation_sha256_by_language": {
+      "de": "15ebf3fb56c3af4321a68ddf249bb76d1cfed2a04f8e6d7ee5fbeda807af01d9",
+      "fr": "0b22aa635149d4e39d1aa9d40a49a85071feb5f5557f17824073895395925163",
+      "hi": "c5b51ba6ac186efcf13678900da8d0603dc1dea760a24e4b4b70313dc9fc9bb7",
+      "th": "d2424da1481e3a35c01b5c32512ae4734fe95cb67463432a5283a7145ed373d7"
+    }
+  },
+  "composition_review_rows": 704,
+  "composition_training_rows": 880,
+  "do_not_evaluate": false,
+  "do_not_train": true,
+  "evaluation_cohort": {
+    "forget": {
+      "cases": 43,
+      "entity_groups": 24
+    },
+    "holdout": {
+      "cases": 17,
+      "entity_groups": 11
+    },
+    "retain": {
+      "cases": 20,
+      "entity_groups": 12
+    }
+  },
+  "evaluation_label_rows": 1200,
+  "evaluation_prompt_rows": 1200,
+  "human_translation_reviewed": false,
+  "source_hashes": {
+    "candidate_cases": "7afa39bf55581ef95fb320b197d1353d4f6c4b1e13d93bb39e5dfe9bdc259700",
+    "labels": "56cafa01b756a19459e4ad233c66cbba3d0af20074a0d8b22802eadbd3f8d4f6",
+    "requests": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+    "source_facts": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+    "source_qa": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+    "v4_atomic_corpus": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f"
+  },
+  "split_counts": {
+    "forget": 117,
+    "holdout": 39,
+    "retain": 39
+  },
+  "status": "PREPARED_QUARANTINED_RELEASE_PENDING_TRANSLATION_AND_QWEN_SCREEN",
+  "training_design": {
+    "design_limit": "the 15-case/8-group floor is a feasibility gate, not a power calculation; do not claim confirmatory power from passing it",
+    "evaluation": "translation-screened common cohort, all three probes in EN/FR/DE/HI/TH; prompts and gold labels are separate files",
+    "full_sft": "forget+retain atomic R1/R2 facts in EN/FR/DE/HI/TH plus selected source/path-verified Type-B train-only composition chains; no holdout rows or evaluation prompts/labels",
+    "retain_only": "retain atomic facts plus the same disjoint train-only composition chains",
+    "unlearning_input": "English R1 facts for the 117 forget cases; retain facts only as the method's retain regularizer; no holdout data"
+  },
+  "translation_review_mode": "AI_ONLY_WITH_INDEPENDENT_QWEN_SCREEN_PENDING"
+}

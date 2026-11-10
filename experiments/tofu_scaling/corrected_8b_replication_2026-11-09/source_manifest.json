@@ -1,0 +1,32 @@
+{
+  "protocol_sha256": "142dcc0f2cdc93e6bf5d8742dd619dc71261dfdc2eb9399caa57821b5ef03aab",
+  "notebook_sha256": "9fc6fb752485d3c1492cf55e6a3dda953b5a2f4e95f9d1b17e572b7fff245f80",
+  "kernel_id": "bunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43",
+  "baseline_dataset": "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08",
+  "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+  "source_sha256": {
+    "tofu_official_eval.py": "8a3fc9e38a810aba45c46f3940948d913adaf11e60c750ee0be7450cd925e5e8",
+    "verify_tofu_official_eval.py": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+    "npo_objective.py": "a0029ba390e4631d415ed3b29a03795cb707e4d02dfa9233ec61e8e60b4a24b1",
+    "verify_npo_objective.py": "a347993f29316439e1df83870e476965cf91ae488f61a0f7fa9b7e8f752b9e62",
+    "npo_lora_train.py": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+    "evaluate_npo_adapter.py": "bca3638bb65f64486c9470e5f0320b7424e4eae79758c5787023d7472df667b0",
+    "verify_npo_run.py": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594",
+    "requirements-npo-pilot.txt": "ede1f3cc82df5c450e9b4ad937d7045b358a9d67c5ebb64e341aa403507ef8fc"
+  },
+  "seed": 43,
+  "training_steps": 500,
+  "retain_aggregation": "pooled target-token mean across all accumulation microbatches per optimizer update",
+  "status": "LAUNCHED_QUEUED",
+  "prelaunch_gates": [
+    "protocol_sha256",
+    "embedded_source_sha256",
+    "upstream_objective_and_gradient",
+    "pinned_8b_baselines",
+    "two_T4_real_data_smoke",
+    "no_offload",
+    "no_truncation",
+    "500_steps",
+    "independent_metric_recomputation"
+  ]
+}

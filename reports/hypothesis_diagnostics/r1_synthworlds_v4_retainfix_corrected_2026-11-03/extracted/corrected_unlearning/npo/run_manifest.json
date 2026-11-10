@@ -1,0 +1,103 @@
+{
+  "status": "UNLEARNING_COMPLETE",
+  "training_started": true,
+  "method": "NPO",
+  "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+  "language": "en",
+  "seed": 42,
+  "epochs": 3,
+  "optimizer_steps": 45,
+  "english_forget_rows": 15,
+  "english_retain_rows": 26,
+  "english_retain_regularization_rows_used": 26,
+  "english_retain_sft_ids_used": [
+    "0008-qa-sm:r1",
+    "0019-qa-sm:r1",
+    "0033-qa-sm:r1",
+    "0051-qa-sm:r1",
+    "0055-qa-sm:r1",
+    "0056-qa-sm:r1",
+    "0057-qa-sm:r1",
+    "0062-qa-sm:r1",
+    "0065-qa-sm:r1",
+    "0066-qa-sm:r1",
+    "0073-qa-sm:r1",
+    "0085-qa-sm:r1",
+    "0089-qa-sm:r1",
+    "0094-qa-sm:r1",
+    "0100-qa-sm:r1",
+    "0108-qa-sm:r1",
+    "0111-qa-sm:r1",
+    "0120-qa-sm:r1",
+    "0136-qa-sm:r1",
+    "0144-qa-sm:r1",
+    "0153-qa-sm:r1",
+    "0157-qa-sm:r1",
+    "0159-qa-sm:r1",
+    "0165-qa-sm:r1",
+    "0180-qa-sm:r1",
+    "0190-qa-sm:r1"
+  ],
+  "holdout_rows_used": 0,
+  "english_forget_target_ids": [
+    "0009-qa-sm",
+    "0010-qa-sm",
+    "0017-qa-sm",
+    "0036-qa-sm",
+    "0037-qa-sm",
+    "0052-qa-sm",
+    "0053-qa-sm",
+    "0061-qa-sm",
+    "0098-qa-sm",
+    "0132-qa-sm",
+    "0156-qa-sm",
+    "0169-qa-sm",
+    "0172-qa-sm",
+    "0177-qa-sm",
+    "0178-qa-sm"
+  ],
+  "target_ids_manifest_sha256": "2f2598d8b5e41fa01e3d201d95485987166448679abfa127ca754aeac45d5866",
+  "target_selection_rule": "SFT direct and full multi-hop answers both correct in English",
+  "baseline_case_metrics_sha256": "19771eea69c63404015fd3b1119926eea97551ca0d08cd11fcecdffe3121020e",
+  "objective": "NPO against frozen SFT reference plus retain CE regularizer",
+  "retain_weight": 1.0,
+  "beta": 0.1,
+  "sft_adapter": "/kaggle/working/r1_composition_sft_v4_3355/adapter",
+  "sft_run_manifest_sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c",
+  "source_corpus_sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c",
+  "corpus_manifest_sha256": "7fdc456c866ac2cf0e456326dc6ebdebbfbf9bc8d110ab332ae17fb3cc984b68",
+  "training_data_sha256": "cdad29329bd6a83cbd1051d4e8fb9839409761f221df65a57d1e73efac9fe933",
+  "training_data_selection": "SFT-precompetent English r1 first-hop forget IDs plus the unique English r1 retain rows actually used for regularization; r2/composition rows ignored",
+  "retain_schedule": "round_robin_all_retain_rows",
+  "run_mode": "EXPLORATORY_LOW_POWER_AFTER_FAILED_GATE",
+  "baseline_gate_status": "FAIL",
+  "baseline_gate_thresholds": {
+    "minimum_matched_cases_per_language": 15,
+    "minimum_entity_groups_per_language": 8
+  },
+  "baseline_bilingual_counts_by_language": {
+    "fr": {
+      "bilingual_precompetent_cases": 10,
+      "entity_groups": 6
+    },
+    "de": {
+      "bilingual_precompetent_cases": 9,
+      "entity_groups": 5
+    },
+    "hi": {
+      "bilingual_precompetent_cases": 9,
+      "entity_groups": 6
+    },
+    "th": {
+      "bilingual_precompetent_cases": 11,
+      "entity_groups": 7
+    }
+  },
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "adapter_dir": "/kaggle/working/r1_composition_unlearning_v4_3355_verified_retainfix_v2/npo/adapter",
+  "objective_loss_first_last": [
+    13.860000610351562,
+    9.179536819458008
+  ]
+}

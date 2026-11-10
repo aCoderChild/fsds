@@ -1,0 +1,22 @@
+Translate each English question into natural German. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"DE0161","question_en":"Which entity is owned by ZXQENTAQXZ?"}
+{"row_id":"DE0162","question_en":"Where is ZXQENTAQXZ indigenous to?"}
+{"row_id":"DE0163","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"DE0164","question_en":"Where is the entity that borders the place ZXQENTAQXZ is indigenous to headquartered?"}
+{"row_id":"DE0165","question_en":"What country is ZXQENTAQXZ a citizen of?"}
+{"row_id":"DE0166","question_en":"Who represents the creator of the participant in ZXQENTAQXZ?"}
+{"row_id":"DE0167","question_en":"Where did ZXQENTAQXZ work?"}
+{"row_id":"DE0168","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"DE0169","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"DE0170","question_en":"Who is the spouse of the person for whom the place where ZXQENTAQXZ worked was named?"}
+{"row_id":"DE0171","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"DE0172","question_en":"What language does the stepparent of the founder of ZXQENTAQXZ speak?"}
+{"row_id":"DE0173","question_en":"To whom is the ZXQENTAQXZ dedicated?"}
+{"row_id":"DE0174","question_en":"What institution holds the collection items of ZXQENTAQXZ?"}
+{"row_id":"DE0175","question_en":"Which award did the family of ZXQENTAQXZ's child receive?"}
+{"row_id":"DE0176","question_en":"What is the capital of the ZXQENTAQXZ?"}
+{"row_id":"DE0177","question_en":"What is the capital of the country that the administrative region containing ZXQENTAQXZ has diplomatic relations with?"}
+{"row_id":"DE0178","question_en":"Who is the godparent of ZXQENTAQXZ?"}
+{"row_id":"DE0179","question_en":"Where did the father of the godparent of ZXQENTAQXZ die?"}

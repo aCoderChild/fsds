@@ -1,0 +1,22 @@
+{
+  "status": "VERIFIED_ANSWER_BLIND_SEGMENTED_RETRY_INPUT",
+  "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+  "previous_candidate_input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+  "previous_candidate_output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+  "previous_candidate_receipt_sha256": "a0e763b9295af55a9aaa74866225a438f7407ee26f528bbc2484bea92cbc6ee0",
+  "row_map_sha256": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+  "rows": 125,
+  "blocked_rows_selected": 125,
+  "language_rows": {
+    "fr": 0,
+    "de": 2,
+    "hi": 52,
+    "th": 71
+  },
+  "answers_or_split_labels_included": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "kernel_id": "bunnoob2005/sw-gap187-nllb-segmented-retry-2026-11-05",
+  "script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7"
+}

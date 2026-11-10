@@ -1,0 +1,95 @@
+{
+  "base_source_review_pass_rows_by_language": {
+    "de": 309,
+    "fr": 324,
+    "hi": 288,
+    "th": 232
+  },
+  "candidate_union": {
+    "chatgpt_pass_rows": 445,
+    "flagged_rows_with_no_pass_from_either_current_candidate": 187,
+    "overlap_rows": 230,
+    "translategemma_pass_rows": 397,
+    "union_pass_rows_by_language_kind": {
+      "de": {
+        "atomic": 101,
+        "composition": 59
+      },
+      "fr": {
+        "atomic": 102,
+        "composition": 41
+      },
+      "hi": {
+        "atomic": 86,
+        "composition": 52
+      },
+      "th": {
+        "atomic": 113,
+        "composition": 58
+      }
+    },
+    "unique_rows_with_at_least_one_diagnostic_pass": 612
+  },
+  "chatgpt_review": {
+    "counts": {
+      "AI_ONLY_REPAIR_REVIEW_BLOCKED": 31,
+      "AI_ONLY_REPAIR_REVIEW_FLAGGED": 323,
+      "AI_ONLY_REPAIR_REVIEW_PASS": 445
+    },
+    "diagnostic_pass_rows": 445,
+    "merge_receipt_sha256": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+    "verified_semantic_progress": 799,
+    "worker_status": "VERIFIED_RETRY_MERGED"
+  },
+  "created_at_utc": "2026-11-05T15:35:14.093177+00:00",
+  "frozen_flagged_questions": 799,
+  "human_translation_reviewed": false,
+  "limitations": [
+    "ChatGPT and TranslateGemma candidate passes come from different AI-only criteria and candidate texts.",
+    "The union only asks whether a row has any promising candidate; it is not a valid merged review.",
+    "Every selected translation still requires the complete frozen production review and hash reconciliation.",
+    "The candidate union is an optimistic availability ceiling; each translation still requires the frozen production screen.",
+    "AI-only judgments do not certify human translation quality."
+  ],
+  "optimistic_candidate_union_coverage": {
+    "atomic_cases_total": {
+      "forget": 117,
+      "retain": 39
+    },
+    "composition_chains_total": 44,
+    "optimistic_complete_atomic_cases": {
+      "forget": {
+        "complete": 60,
+        "required": 117
+      },
+      "retain": {
+        "complete": 19,
+        "required": 39
+      }
+    },
+    "optimistic_complete_composition_chains": {
+      "complete": 6,
+      "required": 44
+    }
+  },
+  "optimistic_only": true,
+  "release_approved": false,
+  "source_hashes": {
+    "chatgpt_candidate_file": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+    "merged_chatgpt_receipt": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+    "merged_chatgpt_rows": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+    "partial_chatgpt_output": "f7147371c08c9aab319d9772d98bed22fb95442557ae5fd9abdbc6a870aa770e",
+    "partial_chatgpt_verification": "6f2c413e8dd52321ba5f6d709b9bfc11db121b025fadb39ec30041b5c226f4e2",
+    "partial_chatgpt_verified_rows": "dbc2d620dbd0be81ee08d3c59f91b17b6de164fd862d488788d408c75d4f936c",
+    "private_map": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+    "review_input": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+    "translategemma_candidate_file": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+  },
+  "status": "OPTIMISTIC_CANDIDATE_UNION_CEILING_NOT_RELEASE_APPROVAL",
+  "training_eligible": false,
+  "translategemma_candidate_set": {
+    "qwen7_and_deterministic_pass_rows": 397,
+    "rows_in_diagnostic": 948,
+    "source_bound_flagged_candidates_available": 586
+  }
+}

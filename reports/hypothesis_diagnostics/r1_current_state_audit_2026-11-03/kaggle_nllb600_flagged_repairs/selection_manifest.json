@@ -1,0 +1,8 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE",
+  "screen_sha256": "604808bcba9601e0dac80bc7b6443fae951e930e06ae16a69d1d30e79562d372",
+  "input_sha256": "2e2cda2dc70920b1123d325360acd9e56e87f62be7800c19c1ed39fe9858e55c",
+  "script_sha256": "f315cc75d8718545d2e07cf820f6dfc1b69d670e6ea9dc4ea42606df81231ee0",
+  "rows": 180,
+  "limitation": "NLLB checkpoints share a model family; outputs require independent review."
+}

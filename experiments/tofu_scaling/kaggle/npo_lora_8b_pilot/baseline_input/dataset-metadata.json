@@ -1,0 +1,11 @@
+{
+  "title": "Verified TOFU 8B Baseline Inputs 2026-11-08",
+  "id": "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08",
+  "subtitle": "Verified full and retain-oracle 8B benchmark results",
+  "description": "Private input artifact for the TOFU Llama 3.1 8B NPO-LoRA diagnostic. Contains verified baseline metric outputs, source verification receipt, and pinned TOFU data audit. Source benchmark: locuslab/TOFU at revision 324592d84ae4f482ac7249b9285c2ecdb53e3a68 (MIT declared by its Hugging Face dataset card: https://huggingface.co/datasets/locuslab/TOFU). Baselines came from bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06 version 6; archive SHA-256 b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5, ZIP CRC and independent verifier passed. These are baseline inputs, not unlearning results.",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

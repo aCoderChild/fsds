@@ -1,0 +1,22 @@
+{
+  "observed_at_utc": "2026-11-05T00:18:05Z",
+  "evidence_type": "read_only_authenticated_huggingface_ui_inspection",
+  "hf_account": "bunnoob2005",
+  "matches_kaggle_whoami_account": true,
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_page_access_state": "page_displays_share_information_gate_and_expand_to_review_and_access",
+  "gated_repositories_page": {
+    "url": "https://huggingface.co/settings/gated-repos",
+    "accepted_entries_observed": [
+      "Meta's Llama 3.2 language models & evals"
+    ],
+    "llama_3_1_8b_entry_observed": false
+  },
+  "actions_taken": {
+    "accepted_license_or_policy": false,
+    "submitted_access_request": false,
+    "changed_or_viewed_token_value": false,
+    "downloaded_model_weights": false
+  },
+  "interpretation": "The active HF account UI does not show Llama 3.1 8B access as accepted; the visible accepted Llama 3.2 collection is a different gated release. This matches the Kaggle config.json HTTP 403. User must complete the exact Llama 3.1 repository access flow and any required license/policy agreement before another preflight."
+}

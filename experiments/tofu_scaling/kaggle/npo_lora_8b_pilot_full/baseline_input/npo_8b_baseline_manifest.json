@@ -1,0 +1,43 @@
+{
+  "artifact_kind": "verified_8b_npo_baseline_inputs",
+  "status": "PASS",
+  "source_kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "source_kaggle_kernel_version": 6,
+  "source_archive_sha256": "b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5",
+  "source_archive_crc": "PASS",
+  "source_independent_verification_status": "PASS",
+  "source_independent_verification_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0",
+  "dataset_id": "locuslab/TOFU",
+  "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+  "models": {
+    "llama_3_1_8b_full": {
+      "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_full",
+      "revision": "1a5c5b1a557f8c99bdadecd5168ebd03f640b00e",
+      "role": "full"
+    },
+    "llama_3_1_8b_retain90": {
+      "repo_id": "open-unlearning/tofu_Llama-3.1-8B-Instruct_retain90",
+      "revision": "f02956a9f25a18f38ad7808fbefb2f957347273e",
+      "role": "retain90_oracle"
+    }
+  },
+  "expected_rows": {
+    "full": {
+      "forget10": 400,
+      "retain90": 400,
+      "holdout10": 400,
+      "real_authors": 100,
+      "world_facts": 117
+    },
+    "retain90_oracle": {
+      "forget10": 400
+    }
+  },
+  "files": {
+    "llama_3_1_8b_full_official_eval.json": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+    "llama_3_1_8b_retain90_official_eval.json": "7308eed28bdd7fbd6b05deaed707c0e8b86540ed6d1ab28374a1ff675aed61b9",
+    "tofu_readiness_audit.json": "b6299d7fe7fdcf47dea413e63ec004c426db8e239f539bbbdddf1e50f2b7a508",
+    "official_eval_status.json": "8ad3e4ca4ca21b65d5856a486ef2df82612d512fec6350feb6e1dfa740675915",
+    "source_verification_receipt.json": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0"
+  }
+}

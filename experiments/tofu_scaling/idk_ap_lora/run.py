@@ -94,12 +94,14 @@ def main() -> None:
             destination.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, destination)
     receipt = {
+        "receipt_schema_version": 2,
         "status": "RUNNING",
         "protocol_id": protocol["protocol_id"],
         "protocol_sha256": protocol_hash,
         "upstream_source_commit": upstream_commit,
         "upstream_losses_sha256": sha256(upstream_losses),
         "kaggle_gpu_names": [],
+        "gpu_names_by_cohort": {},
         "started_at_utc": datetime.now(timezone.utc).isoformat(),
         "training_started": False,
         "development_training_started": False,
@@ -157,6 +159,12 @@ def main() -> None:
         train_receipt = json.loads(train_receipt_path.read_text(encoding="utf-8"))
         if train_receipt.get("status") != "TRAINING_COMPLETE" or train_receipt.get("optimizer_steps") != protocol["training"]["expected_optimizer_steps"]:
             raise RuntimeError("Development training did not complete the locked schedule")
+        dev_gpu_names = train_receipt.get("gpus")
+        if dev_gpu_names != ["Tesla T4", "Tesla T4"]:
+            raise RuntimeError(f"Development training receipt has unexpected GPUs: {dev_gpu_names}")
+        receipt["gpu_names_by_cohort"]["dev"] = dev_gpu_names
+        receipt["kaggle_gpu_names"] = dev_gpu_names
+        write_json(receipt_path, receipt)
         command = [sys.executable, str(HERE / "evaluate.py"), "--protocol", str(args.protocol),
                    "--cohort", "dev", "--adapter-dir", str(dev_dir / "training" / "adapter"),
                    "--training-receipt", str(train_receipt_path), "--reference-support-dir", str(args.reference_support_dir),
@@ -190,6 +198,11 @@ def main() -> None:
         final_receipt = json.loads(final_receipt_path.read_text(encoding="utf-8"))
         if final_receipt.get("status") != "TRAINING_COMPLETE" or final_receipt.get("optimizer_steps") != protocol["training"]["expected_optimizer_steps"]:
             raise RuntimeError("Final training did not complete the locked schedule")
+        final_gpu_names = final_receipt.get("gpus")
+        if final_gpu_names != ["Tesla T4", "Tesla T4"] or final_gpu_names != dev_gpu_names:
+            raise RuntimeError(f"Development/final GPU receipts do not match: dev={dev_gpu_names}, final={final_gpu_names}")
+        receipt["gpu_names_by_cohort"]["final"] = final_gpu_names
+        write_json(receipt_path, receipt)
         command = [sys.executable, str(HERE / "evaluate.py"), "--protocol", str(args.protocol),
                    "--cohort", "final", "--adapter-dir", str(final_dir / "training" / "adapter"),
                    "--training-receipt", str(final_receipt_path), "--reference-support-dir", str(args.reference_support_dir),

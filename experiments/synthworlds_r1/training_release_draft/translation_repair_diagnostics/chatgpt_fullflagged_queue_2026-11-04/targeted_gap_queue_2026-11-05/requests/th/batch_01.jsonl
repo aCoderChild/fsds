@@ -1,0 +1,16 @@
+{"row_id": "G0001", "source_english": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0002", "source_english": "What is the official anthem of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0003", "source_english": "Which entity is owned by [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0004", "source_english": "To whom is the [ENTITY_A] dedicated?", "target_language": "Thai"}
+{"row_id": "G0006", "source_english": "In which work is [ENTITY_A] described?", "target_language": "Thai"}
+{"row_id": "G0007", "source_english": "What is the equivalent given name of the opposite gender for [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0010", "source_english": "Who is [ENTITY_A]'s godparent?", "target_language": "Thai"}
+{"row_id": "G0012", "source_english": "What is [ENTITY_A]'s given name?", "target_language": "Thai"}
+{"row_id": "G0014", "source_english": "During which time period did [ENTITY_A] occur?", "target_language": "Thai"}
+{"row_id": "G0017", "source_english": "Who is the rector of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0021", "source_english": "Who is [ENTITY_A]'s stepparent?", "target_language": "Thai"}
+{"row_id": "G0022", "source_english": "Who confers the [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0024", "source_english": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?", "target_language": "Thai"}
+{"row_id": "G0026", "source_english": "In what year did [ENTITY_A] receive the [ENTITY_B]?", "target_language": "Thai"}
+{"row_id": "G0027", "source_english": "Which noble title does [ENTITY_A] hold?", "target_language": "Thai"}
+{"row_id": "G0028", "source_english": "Who represents the creator of the participant in [ENTITY_A]?", "target_language": "Thai"}

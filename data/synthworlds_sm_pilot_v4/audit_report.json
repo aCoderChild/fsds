@@ -1,0 +1,87 @@
+{
+  "all_split_documents_with_detected_other_split_risk": 25,
+  "approved_training_documents": 0,
+  "do_not_train": true,
+  "eligible_for_this_split": 129,
+  "excluded_non_type_a": 1000,
+  "excluded_other_type_a_ambiguous": 70,
+  "group_size_histogram": {
+    "1": 84,
+    "2": 12,
+    "3": 3,
+    "6": 2
+  },
+  "grouping_basis": [
+    "shared graph/document entity QID",
+    "shared exact chain fact ID",
+    "shared exact final answer"
+  ],
+  "holdout_sft_records": 0,
+  "human_translation_review_status": "PENDING",
+  "indivisible_group_count": 101,
+  "largest_group_size": 6,
+  "limitations": [
+    "The 77/26/26 assignment is a deterministic proposal, not a statistically powered final dataset.",
+    "Translation and native-speaker review are not complete.",
+    "A conservative passage-risk screen is complete; all full documents and whole fact rows remain excluded from training.",
+    "Relation PIDs are graph metadata and are not independently encoded in the free-text source facts."
+  ],
+  "overlap_pair_count": 41,
+  "passage_audit_status": "CONSERVATIVE_PASSAGE_SCREEN_COMPLETE_NO_DOCUMENTS_APPROVED_FOR_TRAINING",
+  "pilot_documents_with_detected_other_split_risk": 1,
+  "pilot_selection": {
+    "forget": "0077-qa-sm",
+    "holdout": "0110-qa-sm",
+    "retain": "0055-qa-sm"
+  },
+  "pilot_translation_status": "DRAFT_TRANSLATIONS_PENDING_FLUENT_REVIEW_NOT_APPROVED",
+  "previous_cross_split_overlap_pairs_resolved": 9,
+  "r2_conflict_excluded": 1,
+  "remaining_cross_split_chain_fact_pairs": 0,
+  "remaining_cross_split_entity_pairs": 0,
+  "remaining_cross_split_exact_answer_pairs": 0,
+  "sft_exact_duplicates_merged": 1,
+  "sft_source_records_before_exact_deduplication": 206,
+  "sft_unique_message_counts_by_split": {
+    "forget": 153,
+    "retain": 52
+  },
+  "sft_unique_message_records": 205,
+  "source_checksums": {
+    "documents": {
+      "bytes": 6461576,
+      "filename": "qa-sm-docs.jsonl",
+      "rows": 6290,
+      "sha256": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe"
+    },
+    "facts": {
+      "bytes": 13742781,
+      "filename": "qa-sm-facts.jsonl",
+      "rows": 6290,
+      "sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e"
+    },
+    "qa": {
+      "bytes": 8948814,
+      "filename": "qa-sm.jsonl",
+      "rows": 1200,
+      "sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+    }
+  },
+  "source_counts": {
+    "documents": 6290,
+    "facts": 6290,
+    "qa": 1200
+  },
+  "split_counts": {
+    "forget": 77,
+    "holdout": 26,
+    "retain": 26
+  },
+  "split_ratio_actual": {
+    "forget": 0.596899,
+    "holdout": 0.20155,
+    "retain": 0.20155
+  },
+  "status": "ENTITY_FACT_ANSWER_ISOLATED_PROPOSAL_NOT_APPROVED",
+  "strict_type_a_eligible_before_conflict_exclusion": 130
+}

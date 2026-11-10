@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/synthworlds-third-candidate-review-2026-11-04",
+  "title": "SynthWorlds Third Candidate Review 2026-11-04",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

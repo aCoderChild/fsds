@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/synthworlds-assistant-backtranslation-probe",
+  "title": "SynthWorlds assistant backtranslation probe",
+  "code_file": "backtranslate.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

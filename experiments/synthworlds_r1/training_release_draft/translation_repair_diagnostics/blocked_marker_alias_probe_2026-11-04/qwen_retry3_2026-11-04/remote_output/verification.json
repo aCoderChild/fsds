@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED_THREE_ROW_FORMAT_RETRY_DIAGNOSTIC_ONLY",
+  "rows": 3,
+  "counts": {
+    "PASS": 1,
+    "FLAG": 2
+  },
+  "release_approved": false,
+  "training_eligible": false,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "d7fa988d54547b19cea3b531e18fb1ee47bc93e98f3146018e431920b6346f1e",
+  "parent_output_sha256": "0586215735ec2f4b6b046ccac08b124a82907b0cff4c4581e7a5716a622cb2db",
+  "submitted_script_sha256": "c96525cba482be061c884009f0d5306a865bf964e18c51f93ac0d095a3bdcbe9",
+  "pulled_script_sha256": "c96525cba482be061c884009f0d5306a865bf964e18c51f93ac0d095a3bdcbe9",
+  "output_sha256": "42aab777e51e5712dddf9a03fd2afb6983cb78f5cf2b29b32ca031256d77d80f",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false
+}

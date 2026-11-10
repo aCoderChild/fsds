@@ -1,0 +1,50 @@
+[{"stream_name":"stderr","time":18.03779201,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.037833081,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.03783767,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.03784052,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.037843266,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":59.439796449,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":59.439850541,"data":"I0000 00:00:1793816152.499888       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":94.233047872,"data":"Alias backtranslation 1/15: R0036\n"}
+,{"stream_name":"stdout","time":94.460776928,"data":"Alias backtranslation 2/15: R0066\n"}
+,{"stream_name":"stdout","time":94.726718717,"data":"Alias backtranslation 3/15: R0179\n"}
+,{"stream_name":"stdout","time":94.927887183,"data":"Alias backtranslation 4/15: R0206\n"}
+,{"stream_name":"stdout","time":95.130075199,"data":"Alias backtranslation 5/15: R0222\n"}
+,{"stream_name":"stdout","time":95.46000584,"data":"Alias backtranslation 6/15: R0349\n"}
+,{"stream_name":"stdout","time":95.8077217,"data":"Alias backtranslation 7/15: R0360\n"}
+,{"stream_name":"stdout","time":96.110265494,"data":"Alias backtranslation 8/15: R0379\n"}
+,{"stream_name":"stdout","time":96.38959674,"data":"Alias backtranslation 9/15: R0407\n"}
+,{"stream_name":"stdout","time":96.73523284,"data":"Alias backtranslation 10/15: R0417\n"}
+,{"stream_name":"stdout","time":97.043639492,"data":"Alias backtranslation 11/15: R0436\n"}
+,{"stream_name":"stdout","time":97.437734312,"data":"Alias backtranslation 12/15: R0449\n"}
+,{"stream_name":"stdout","time":97.905608004,"data":"Alias backtranslation 13/15: R0464\n"}
+,{"stream_name":"stdout","time":98.261184861,"data":"Alias backtranslation 14/15: R0549\n"}
+,{"stream_name":"stdout","time":98.462174154,"data":"Alias backtranslation 15/15: R0677\n"}
+,{"stream_name":"stderr","time":221.004361636,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:59\u003c13:57, 119.62s/it]\rFetching 8 files:  50%|█████     | 4/8 [01:59\u003c01:30, 22.68s/it] \rFetching 8 files:  75%|███████▌  | 6/8 [02:00\u003c00:25, 12.87s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:00\u003c00:00, 15.02s/it]\n"}
+,{"stream_name":"stderr","time":235.57222683,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":345.746291808,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:12\u003c01:27, 12.48s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:26\u003c01:19, 13.21s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:40\u003c01:08, 13.62s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:54\u003c00:55, 13.94s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:10\u003c00:43, 14.60s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:26\u003c00:30, 15.05s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:42\u003c00:15, 15.37s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:49\u003c00:00, 12.81s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:49\u003c00:00, 13.72s/it]\n"}
+,{"stream_name":"stderr","time":351.398267689,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":351.398310516,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":351.398315781,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":351.398320624,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":351.398324212,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":351.39832851,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":359.388047096,"data":"Qwen retry 11/18: R0421\n"}
+,{"stream_name":"stdout","time":365.852200409,"data":"Qwen retry 13/18: R0443\n"}
+,{"stream_name":"stdout","time":372.780990495,"data":"Qwen retry 16/18: R0537\n"}
+,{"stream_name":"stdout","time":372.781553236,"data":"{\n"}
+,{"stream_name":"stdout","time":372.781566863,"data":"  \"status\": \"COMPLETE_DIAGNOSTIC_ONLY\",\n"}
+,{"stream_name":"stdout","time":372.781571103,"data":"  \"counts\": {\n"}
+,{"stream_name":"stdout","time":372.781574549,"data":"    \"BLOCKED\": 15,\n"}
+,{"stream_name":"stdout","time":372.781578101,"data":"    \"FLAG\": 2,\n"}
+,{"stream_name":"stdout","time":372.781585056,"data":"    \"PASS\": 1\n"}
+,{"stream_name":"stdout","time":372.78158834,"data":"  },\n"}
+,{"stream_name":"stdout","time":372.781593195,"data":"  \"rows\": 18\n"}
+,{"stream_name":"stdout","time":372.781596708,"data":"}\n"}
+,{"stream_name":"stderr","time":380.854549343,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":380.854582692,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":381.175969956,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":381.175995505,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":382.051334006,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":382.909973796,"data":"[NbConvertApp] Writing 335921 bytes to __results__.html\n"}
+]

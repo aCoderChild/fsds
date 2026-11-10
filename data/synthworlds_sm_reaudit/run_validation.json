@@ -1,0 +1,17 @@
+{
+  "eligible": 130,
+  "exact_fact_cross_split_overlap": 0,
+  "excluded_plus_eligible": 1200,
+  "gold_answer_cross_split_overlap": 0,
+  "indivisible_groups_preserved": true,
+  "proposal_counts": {
+    "forget": 78,
+    "holdout": 26,
+    "retain": 26
+  },
+  "source_hashes_equal_to_prior_audit": true,
+  "source_hashes_unchanged": true,
+  "status": "PASS",
+  "total_qa": 1200,
+  "translated_files": 0
+}

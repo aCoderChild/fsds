@@ -1,0 +1,95 @@
+[{"stream_name":"stderr","time":19.761738154,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.761804137,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.761813814,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.7618183,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.761822697,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.254176778,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":64.254229392,"data":"I0000 00:00:1793802101.461031       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":101.793252506,"data":"Backtranslated 1/32\n"}
+,{"stream_name":"stdout","time":102.195865284,"data":"Backtranslated 2/32\n"}
+,{"stream_name":"stdout","time":102.371204766,"data":"Backtranslated 3/32\n"}
+,{"stream_name":"stdout","time":102.642367395,"data":"Backtranslated 4/32\n"}
+,{"stream_name":"stdout","time":103.188281975,"data":"Backtranslated 5/32\n"}
+,{"stream_name":"stdout","time":103.699354061,"data":"Backtranslated 6/32\n"}
+,{"stream_name":"stdout","time":104.00182324,"data":"Backtranslated 7/32\n"}
+,{"stream_name":"stdout","time":104.240843726,"data":"Backtranslated 8/32\n"}
+,{"stream_name":"stdout","time":104.641944064,"data":"Backtranslated 9/32\n"}
+,{"stream_name":"stdout","time":104.926972649,"data":"Backtranslated 10/32\n"}
+,{"stream_name":"stdout","time":105.184232309,"data":"Backtranslated 11/32\n"}
+,{"stream_name":"stdout","time":105.355318393,"data":"Backtranslated 12/32\n"}
+,{"stream_name":"stdout","time":105.766918406,"data":"Backtranslated 13/32\n"}
+,{"stream_name":"stdout","time":106.067629241,"data":"Backtranslated 14/32\n"}
+,{"stream_name":"stdout","time":106.320844483,"data":"Backtranslated 15/32\n"}
+,{"stream_name":"stdout","time":106.534635879,"data":"Backtranslated 16/32\n"}
+,{"stream_name":"stdout","time":106.826739628,"data":"Backtranslated 17/32\n"}
+,{"stream_name":"stdout","time":107.105234775,"data":"Backtranslated 18/32\n"}
+,{"stream_name":"stdout","time":107.537823053,"data":"Backtranslated 19/32\n"}
+,{"stream_name":"stdout","time":107.809218622,"data":"Backtranslated 20/32\n"}
+,{"stream_name":"stdout","time":107.973721285,"data":"Backtranslated 21/32\n"}
+,{"stream_name":"stdout","time":108.253396134,"data":"Backtranslated 22/32\n"}
+,{"stream_name":"stdout","time":108.50676607,"data":"Backtranslated 23/32\n"}
+,{"stream_name":"stdout","time":108.743862574,"data":"Backtranslated 24/32\n"}
+,{"stream_name":"stdout","time":108.979141881,"data":"Backtranslated 25/32\n"}
+,{"stream_name":"stdout","time":109.215972004,"data":"Backtranslated 26/32\n"}
+,{"stream_name":"stdout","time":109.527013729,"data":"Backtranslated 27/32\n"}
+,{"stream_name":"stdout","time":109.759753948,"data":"Backtranslated 28/32\n"}
+,{"stream_name":"stdout","time":110.079647755,"data":"Backtranslated 29/32\n"}
+,{"stream_name":"stdout","time":110.427927715,"data":"Backtranslated 30/32\n"}
+,{"stream_name":"stdout","time":110.686398825,"data":"Backtranslated 31/32\n"}
+,{"stream_name":"stdout","time":111.03886359,"data":"Backtranslated 32/32\n"}
+,{"stream_name":"stderr","time":240.988363205,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [02:00\u003c14:04, 120.62s/it]\rFetching 8 files:  38%|███▊      | 3/8 [02:01\u003c02:37, 31.43s/it] \rFetching 8 files:  62%|██████▎   | 5/8 [02:08\u003c00:51, 17.09s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:08\u003c00:00, 16.02s/it]\n"}
+,{"stream_name":"stderr","time":249.596540084,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":355.712320534,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:12\u003c01:28, 12.71s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:24\u003c01:12, 12.09s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:35\u003c00:59, 11.87s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:51\u003c00:53, 13.45s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:06\u003c00:41, 13.93s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:22\u003c00:29, 14.60s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:38\u003c00:15, 15.04s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 12.53s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 13.20s/it]\n"}
+,{"stream_name":"stderr","time":361.52609264,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":361.526133427,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":361.526140041,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":361.526146934,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":361.526157279,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":361.526163555,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":370.802232762,"data":"Reviewed 1/32\n"}
+,{"stream_name":"stdout","time":379.119828644,"data":"Reviewed 2/32\n"}
+,{"stream_name":"stdout","time":387.662522799,"data":"Reviewed 3/32\n"}
+,{"stream_name":"stdout","time":397.490683541,"data":"Reviewed 4/32\n"}
+,{"stream_name":"stdout","time":406.919733461,"data":"Reviewed 5/32\n"}
+,{"stream_name":"stdout","time":416.838371287,"data":"Reviewed 6/32\n"}
+,{"stream_name":"stdout","time":424.930434979,"data":"Reviewed 7/32\n"}
+,{"stream_name":"stdout","time":434.154256483,"data":"Reviewed 8/32\n"}
+,{"stream_name":"stdout","time":443.279895762,"data":"Reviewed 9/32\n"}
+,{"stream_name":"stdout","time":451.850706791,"data":"Reviewed 10/32\n"}
+,{"stream_name":"stdout","time":461.578601704,"data":"Reviewed 11/32\n"}
+,{"stream_name":"stdout","time":469.843342577,"data":"Reviewed 12/32\n"}
+,{"stream_name":"stdout","time":479.483596984,"data":"Reviewed 13/32\n"}
+,{"stream_name":"stdout","time":488.719141103,"data":"Reviewed 14/32\n"}
+,{"stream_name":"stdout","time":499.043925339,"data":"Reviewed 15/32\n"}
+,{"stream_name":"stdout","time":508.282873411,"data":"Reviewed 16/32\n"}
+,{"stream_name":"stdout","time":518.064982799,"data":"Reviewed 17/32\n"}
+,{"stream_name":"stdout","time":528.388855035,"data":"Reviewed 18/32\n"}
+,{"stream_name":"stdout","time":540.401534785,"data":"Reviewed 19/32\n"}
+,{"stream_name":"stdout","time":548.228735725,"data":"Reviewed 20/32\n"}
+,{"stream_name":"stdout","time":558.621737954,"data":"Reviewed 21/32\n"}
+,{"stream_name":"stdout","time":569.459172936,"data":"Reviewed 22/32\n"}
+,{"stream_name":"stdout","time":578.695102374,"data":"Reviewed 23/32\n"}
+,{"stream_name":"stdout","time":586.678600796,"data":"Reviewed 24/32\n"}
+,{"stream_name":"stdout","time":596.643298343,"data":"Reviewed 25/32\n"}
+,{"stream_name":"stdout","time":606.190907518,"data":"Reviewed 26/32\n"}
+,{"stream_name":"stdout","time":616.286094253,"data":"Reviewed 27/32\n"}
+,{"stream_name":"stdout","time":627.138412698,"data":"Reviewed 28/32\n"}
+,{"stream_name":"stdout","time":636.488756145,"data":"Reviewed 29/32\n"}
+,{"stream_name":"stdout","time":644.97647805,"data":"Reviewed 30/32\n"}
+,{"stream_name":"stdout","time":658.1856157,"data":"Reviewed 31/32\n"}
+,{"stream_name":"stdout","time":667.45199256,"data":"Reviewed 32/32\n"}
+,{"stream_name":"stdout","time":667.452691071,"data":"{\n"}
+,{"stream_name":"stdout","time":667.452711391,"data":"  \"status\": \"AI_ONLY_REPAIR_REVIEW_COMPLETE_DIAGNOSTIC_ONLY\",\n"}
+,{"stream_name":"stdout","time":667.452715857,"data":"  \"input_rows\": 32,\n"}
+,{"stream_name":"stdout","time":667.452719148,"data":"  \"reviewed_rows\": 32,\n"}
+,{"stream_name":"stdout","time":667.4527224,"data":"  \"blocked_rows\": 0,\n"}
+,{"stream_name":"stdout","time":667.452725896,"data":"  \"gpu\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":667.452728952,"data":"  \"quantization\": \"4-bit NF4\"\n"}
+,{"stream_name":"stdout","time":667.452732178,"data":"}\n"}
+,{"stream_name":"stderr","time":677.575881368,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":677.575913622,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":677.944816168,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":677.944857126,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":678.837792229,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":679.705166459,"data":"[NbConvertApp] Writing 342568 bytes to __results__.html\n"}
+]

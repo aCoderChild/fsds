@@ -1,0 +1,85 @@
+{
+  "answers_sent_to_reviewer": false,
+  "completed_at_utc": "2026-11-03T06:24:51.600817+00:00",
+  "do_not_train": true,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "backtranslation_sha256": "375a352f8f6ce4d69c4abaa3680510c44a06b852899bc08acba80276ea525811",
+      "questions": 488,
+      "review_sha256": "e3850e8d4b5600985a20a7f5517b571cb832f20db0057f776bdcd7c67c78af9f",
+      "review_status_counts": {
+        "AI_ONLY_REVIEW_FLAGGED": 243,
+        "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS": 245
+      },
+      "source_hashes": {
+        "atomic_drafts_de": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+        "atomic_repairs_de": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_de": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      }
+    },
+    "fr": {
+      "backtranslation_sha256": "8938b51a463b816ba2232b7fb0dd921d59d623e255216258567f0ee5ce17576d",
+      "questions": 488,
+      "review_sha256": "871bdf0f91de439e2e67d1e95d10e2e4db895d6b0a8e061a19a7deab29e7b469",
+      "review_status_counts": {
+        "AI_ONLY_REVIEW_FLAGGED": 195,
+        "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS": 293
+      },
+      "source_hashes": {
+        "atomic_drafts_fr": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+        "atomic_repairs_fr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_fr": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      }
+    },
+    "hi": {
+      "backtranslation_sha256": "144244b373d0bf1e7231b01980e048b2099123de0ad356e287ae99f3883a04df",
+      "questions": 488,
+      "review_sha256": "0cc789e1a46c99e3ef03e8827694e055c7d45820a44dd3cfce11da2e0063cfbb",
+      "review_status_counts": {
+        "AI_ONLY_REVIEW_FLAGGED": 227,
+        "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS": 261
+      },
+      "source_hashes": {
+        "atomic_drafts_hi": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+        "atomic_repairs_hi": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_hi": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      }
+    },
+    "th": {
+      "backtranslation_sha256": "46121264308ca25f2de642f419101daecc0a20d5d68fe63d06202fbcc33eae55",
+      "questions": 488,
+      "review_sha256": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb",
+      "review_status_counts": {
+        "AI_ONLY_REVIEW_FLAGGED": 283,
+        "AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS": 205
+      },
+      "source_hashes": {
+        "atomic_drafts_th": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+        "atomic_repairs_th": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+        "atomic_reuse": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+        "composition_review_queue": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+        "flagged_repairs_th": "ABSENT",
+        "roundtrip_protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+        "script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af"
+      }
+    }
+  },
+  "protocol": "translategemma_backtranslation_plus_qwen_english_semantics_and_target_fluency_v2",
+  "release_ready": false,
+  "semantic_and_fluency_reviewer": "ollama:qwen2.5:7b-instruct",
+  "status": "AI_ONLY_ROUNDTRIP_TRANSLATION_SCREEN_COMPLETE",
+  "translation_model": "ollama:translategemma:4b"
+}

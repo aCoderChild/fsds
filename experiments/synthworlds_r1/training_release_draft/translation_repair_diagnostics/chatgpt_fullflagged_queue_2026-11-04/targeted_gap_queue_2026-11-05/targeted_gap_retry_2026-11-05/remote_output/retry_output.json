@@ -1,0 +1,629 @@
+{
+  "status": "AI_ONLY_DIAGNOSTIC_RETRY_COMPLETE",
+  "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+  "retry_input_payload": {
+    "answers_or_split_labels_included": false,
+    "human_translation_reviewed": false,
+    "mode": "AI_ONLY_DIAGNOSTIC_RETRY_NO_RELEASE_APPROVAL",
+    "prior_nllb_model": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "prior_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+    "prior_qwen_model": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    },
+    "release_approved": false,
+    "rows": [
+      {
+        "kind": "atomic",
+        "language": "de",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0018",
+        "source_question_en": "What is the [ENTITY_A] different from?",
+        "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+        "translated_question": "Wovon unterscheidet sich [ENTITY_A]?",
+        "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0023",
+        "source_question_en": "Which political office of the state that replaced the country whose capital is [ENTITY_A] is held by its head of state?",
+        "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+        "translated_question": "उस राज्य का कौन-सा राजनीतिक पद उसके राष्ट्राध्यक्ष के पास है, जिसने उस देश का स्थान लिया जिसकी राजधानी [ENTITY_A] है?",
+        "translation_sha256": "bfc19b6f81ae339081da560d434a11ca92b2a770e9272a74048874787f2c8b2e"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0026",
+        "source_question_en": "In what year did [ENTITY_A] receive the [ENTITY_B]?",
+        "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+        "translated_question": "[ENTITY_A] ได้รับ [ENTITY_B] ในปีใด?",
+        "translation_sha256": "94c56fdd5677e63ad2a91b561745da781be24c5001833eeb094c27f57429ffbc"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0055",
+        "source_question_en": "In what year did [ENTITY_A] stop serving as a board member of [ENTITY_B]?",
+        "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+        "translated_question": "किस वर्ष [ENTITY_A] ने [ENTITY_B] के बोर्ड सदस्य के रूप में काम करना बंद किया?",
+        "translation_sha256": "0af254f1d3f1eef5699ad710cabafdbd113abbaba66bf54b412a3be177d0cb5a"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0059",
+        "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+        "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+        "translated_question": "วาระการดำรงตำแหน่งผู้อำนวยการของ [ENTITY_A] ใน [ENTITY_B] สิ้นสุดลงในวันที่ใด?",
+        "translation_sha256": "366dce5fab4446c1d1f50aa629ea9aec5bd88ee12bd898e0a4a26f51ce2f48bb"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0069",
+        "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+        "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+        "translated_question": "An welchem Datum wurde [ENTITY_A] zu dem Land, in dem [ENTITY_B] liegt?",
+        "translation_sha256": "c1aaea2421589f60ac386fb07b706cd28b1c1ae4540e44da70543efa59096107"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0072",
+        "source_question_en": "Which entity is [ENTITY_A] different from?",
+        "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+        "translated_question": "Von welcher Entität unterscheidet sich [ENTITY_A]?",
+        "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "prior_backtranslation_en": "What comes after [ENTITY_A]?",
+        "prior_backtranslation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+        "retry_backtranslation": "REUSE_VERIFIED_PRIOR",
+        "review_key": "G0083",
+        "source_question_en": "What immediately follows [ENTITY_A]?",
+        "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+        "translated_question": "[ENTITY_A] के तुरंत बाद क्या आता है?",
+        "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0085",
+        "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+        "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+        "translated_question": "किस तारीख को [ENTITY_A] और [ENTITY_B] रिश्तेदार बने?",
+        "translation_sha256": "2b5e2842d8f4e0aa3b6d23c2854ae947f5db65e05d02f95bb6e91313e8f61811"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0090",
+        "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+        "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+        "translated_question": "किस तारीख को [ENTITY_A] वह देश बना जिसमें [ENTITY_B] स्थित है?",
+        "translation_sha256": "1dc304fbd1da18126a643514bc31967ff91eb0eadd498fcf6a700a736e9f6fc6"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0092",
+        "source_question_en": "In what year did [ENTITY_A] become the spouse of [ENTITY_B]?",
+        "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+        "translated_question": "किस वर्ष [ENTITY_A] और [ENTITY_B] जीवनसाथी बने?",
+        "translation_sha256": "7a6dfc57f024e0cee68cf9d4bf9ad58a3e09563409bc150f7a60d187012b5118"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0096",
+        "source_question_en": "What payment types are accepted by the organizer of the event [ENTITY_A] participated in?",
+        "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+        "translated_question": "जिस आयोजन में [ENTITY_A] ने भाग लिया, उसके आयोजक कौन-से भुगतान प्रकार स्वीकार करते हैं?",
+        "translation_sha256": "4a9a7c26903e76cde822748295984b94f7a5914fd998e9375ef21a5a79e66d4f"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0113",
+        "source_question_en": "On what date did [ENTITY_A] cease to be the country of [ENTITY_B]?",
+        "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+        "translated_question": "किस तारीख को [ENTITY_A], [ENTITY_B] का देश होना बंद हुआ?",
+        "translation_sha256": "7e50e25c39af6b00dd5265e1e18300831f552bec1f08999e067c6656846e577b"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0142",
+        "source_question_en": "On what date did [ENTITY_A] stop being the capital of [ENTITY_B]?",
+        "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+        "translated_question": "किस तारीख को [ENTITY_A] ने [ENTITY_B] की राजधानी होना बंद किया?",
+        "translation_sha256": "f88b628b2fe508e42192124252c494dffe86f323d006839a37ea21317762022b"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0144",
+        "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+        "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+        "translated_question": "À quelle date le lien de parenté entre [ENTITY_A] et [ENTITY_B] a-t-il commencé ?",
+        "translation_sha256": "5ea0cf873f0a418426d49160ddbd4eb11e6ed50399885ef31945b0177796f91f"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "prior_backtranslation_en": "What is the title of the [ENTITY_A]?",
+        "prior_backtranslation_sha256": "fc474ec32055b24484f7b5b7a51f5e2906bce8af222e777f99939eeb463cd23d",
+        "retry_backtranslation": "REUSE_VERIFIED_PRIOR",
+        "review_key": "G0162",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+        "translated_question": "[ENTITY_A] के पास कौन-सी कुलीन उपाधि है?",
+        "translation_sha256": "f0353b66e7c82366eeec7918bb5bda8d0d635180a54635ec6608592095a0f7cd"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "retry_backtranslation": "ALIAS_NLLB",
+        "review_key": "G0176",
+        "source_question_en": "In what year was [ENTITY_A] the architect of [ENTITY_B]?",
+        "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+        "translated_question": "En quelle année [ENTITY_A] a-t-il été l’architecte de [ENTITY_B] ?",
+        "translation_sha256": "3e7885f2f9ba29881b2a0d507f9e4e642354dbfdbef759c09fec06be05843a68"
+      }
+    ],
+    "schema": "synthworlds-targeted-gap-retry-v1",
+    "source_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+    "training_eligible": false
+  },
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "records": [
+    {
+      "review_key": "G0018",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "What's [ENTITY_A] different about?",
+      "backtranslation_sha256": "608dd69dda98669871d7f24775e6a88f7c009e7b5ec39c82e7a51b5f3831f08a",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0018",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0018\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning.\"}] }"
+    },
+    {
+      "review_key": "G0023",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "translation_sha256": "bfc19b6f81ae339081da560d434a11ca92b2a770e9272a74048874787f2c8b2e",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "What political office does the head of state hold in the state, who has replaced the country whose capital is [ENTITY_A]?",
+      "backtranslation_sha256": "2b891ab911a8f0419932c1424d508f4f5dc5b556852b3107248199fe56e646ed",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0023",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Misinterprets 'replaced' as 'has replaced'"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0023\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Misinterprets 'replaced' as 'has replaced'\"}]}"
+    },
+    {
+      "review_key": "G0026",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "94c56fdd5677e63ad2a91b561745da781be24c5001833eeb094c27f57429ffbc",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "[ENTITY_A] got [ENTITY_B] in what year?",
+      "backtranslation_sha256": "ada4fad007ce73cc0d9b63310170744efaeaf5abc6956cc8ba8daed7820a1f34",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0026",
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "Back translation alters original question structure."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0026\", \"semantic_pass\": true, \"fluency_pass\": false, \"reason\": \"Back translation alters original question structure.\"}] }"
+    },
+    {
+      "review_key": "G0055",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+      "translation_sha256": "0af254f1d3f1eef5699ad710cabafdbd113abbaba66bf54b412a3be177d0cb5a",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "In what year did [ENTITY_A] cease to serve as a board member of [ENTITY_B]?",
+      "backtranslation_sha256": "8347f792779780050e25fde07709a0a1dfe56de4366e9c08f2c8365ae368ed14",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0055",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Accurate translation, fluent Hindi."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0055\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Accurate translation, fluent Hindi.\"}]}"
+    },
+    {
+      "review_key": "G0059",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+      "translation_sha256": "366dce5fab4446c1d1f50aa629ea9aec5bd88ee12bd898e0a4a26f51ce2f48bb",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "When did [ENTITY_A]'s term as director at [ENTITY_B]'s end?",
+      "backtranslation_sha256": "edb8e8bfaf1151c6eef3b7aeb2cedba5fb4aa7f5160a8203872d8ddb905a10d1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0059",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation changes original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0059\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation changes original meaning.\"}]}"
+    },
+    {
+      "review_key": "G0069",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "c1aaea2421589f60ac386fb07b706cd28b1c1ae4540e44da70543efa59096107",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "When did [ENTITY_A] become the country where [ENTITY_B] lies?",
+      "backtranslation_sha256": "5ade77ce432530a68c98cfc36ded29d1be61d49f044f1a333f499bcd3cb6e4d9",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0069",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes 'date' to 'when'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0069\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes 'date' to 'when'.\"}] }"
+    },
+    {
+      "review_key": "G0072",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "What entity is [ENTITY_A] different from?",
+      "backtranslation_sha256": "fac81d5e937589600953de3616e10e5f76376a8569e0f35018035952b873589d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0072",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Back-translation matches source."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0072\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Back-translation matches source.\"}]}"
+    },
+    {
+      "review_key": "G0083",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "retry_backtranslation": "REUSE_VERIFIED_PRIOR",
+      "backtranslation_en": "What comes after [ENTITY_A]?",
+      "backtranslation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0083",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back translation mismatch, asks after instead of immediately"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0083\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back translation mismatch, asks after instead of immediately\"}]}"
+    },
+    {
+      "review_key": "G0085",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "2b5e2842d8f4e0aa3b6d23c2854ae947f5db65e05d02f95bb6e91313e8f61811",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "On what date did [ENTITY_A] and [ENTITY_B] become relatives?",
+      "backtranslation_sha256": "f5038b3801fc5b06d7df59a3b9789e2274e2a8730301946ea1427241a388b1f4",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0085",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Back-translation matches source, fluent Hindi."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0085\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Back-translation matches source, fluent Hindi.\"}] }"
+    },
+    {
+      "review_key": "G0090",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1dc304fbd1da18126a643514bc31967ff91eb0eadd498fcf6a700a736e9f6fc6",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "On what date did [ENTITY_A] make the country in which [ENTITY_B] is located?",
+      "backtranslation_sha256": "619346d13607e0f9334f65bf76de88757bfa0391f5d6088983cf0fa92d7250ee",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0090",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrect formation of the sentence structure."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0090\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrect formation of the sentence structure.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0092",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "translation_sha256": "7a6dfc57f024e0cee68cf9d4bf9ad58a3e09563409bc150f7a60d187012b5118",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "In what year did [ENTITY_A] and [ENTITY_B] become married?",
+      "backtranslation_sha256": "b26ec33716b59ce151ad91876313f9e982b5db900577a28230c03238672bc6ad",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0092",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Became married instead of spouse"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0092\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Became married instead of spouse\"}]}\n\n"
+    },
+    {
+      "review_key": "G0096",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "translation_sha256": "4a9a7c26903e76cde822748295984b94f7a5914fd998e9375ef21a5a79e66d4f",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "What payment methods do the organizers of the event in which [ENTITY_A] participated accept?",
+      "backtranslation_sha256": "29c39f93333294a41a7b9e0506fcea67c5e10c27bac036e7e3e7347bfed09ac8",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0096",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Payment types changed to methods"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0096\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Payment types changed to methods\"}]}\n\n"
+    },
+    {
+      "review_key": "G0113",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "7e50e25c39af6b00dd5265e1e18300831f552bec1f08999e067c6656846e577b",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "When did [ENTITY_A], [ENTITY_B]'s country cease to exist?",
+      "backtranslation_sha256": "227edae38eaece6ff697a4ae9485b570c02f05853f347f5eb7d6c4de016e3a5e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0113",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0113\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning\"}]}"
+    },
+    {
+      "review_key": "G0142",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "f88b628b2fe508e42192124252c494dffe86f323d006839a37ea21317762022b",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "On what date did [ENTITY_A] cease to be [ENTITY_B]'s capital?",
+      "backtranslation_sha256": "c15766ab6ff0bf952402a99409a7b95f5d1a571e1556d89ab92d4c2824268ec9",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0142",
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "grammatical error in Hindi"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0142\", \"semantic_pass\": true, \"fluency_pass\": false, \"reason\": \"grammatical error in Hindi\"}]}"
+    },
+    {
+      "review_key": "G0144",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "5ea0cf873f0a418426d49160ddbd4eb11e6ed50399885ef31945b0177796f91f",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "When did [ENTITY_A] and [ENTITY_B] start to be related?",
+      "backtranslation_sha256": "d54269cdced2e2434d2d1d7ae72c3e7c060e92b8ccc3072ceb69e22f22777ca2",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0144",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes relation type"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0144\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes relation type\"}]}\n\n"
+    },
+    {
+      "review_key": "G0162",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "translation_sha256": "f0353b66e7c82366eeec7918bb5bda8d0d635180a54635ec6608592095a0f7cd",
+      "retry_backtranslation": "REUSE_VERIFIED_PRIOR",
+      "backtranslation_en": "What is the title of the [ENTITY_A]?",
+      "backtranslation_sha256": "fc474ec32055b24484f7b5b7a51f5e2906bce8af222e777f99939eeb463cd23d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0162",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatches original question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0162\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatches original question.\"}]}"
+    },
+    {
+      "review_key": "G0176",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "translation_sha256": "3e7885f2f9ba29881b2a0d507f9e4e642354dbfdbef759c09fec06be05843a68",
+      "retry_backtranslation": "ALIAS_NLLB",
+      "backtranslation_en": "What year was [ENTITY_A] [ENTITY_B]'s architect?",
+      "backtranslation_sha256": "2563477f2c03de18be77899dc3c6629bf65a13637033c10c1e89a3672e0c2be1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0176",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing 'in' preposition"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0176\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing 'in' preposition\"}]}"
+    }
+  ],
+  "started_at_utc": "2026-11-05T05:31:19.017533+00:00",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "quantization": "NF4, double quantization, float16 compute",
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "answers_or_split_labels_included": false,
+  "completed_at_utc": "2026-11-05T05:38:14.030964+00:00",
+  "reviewed_rows": 17,
+  "blocked_rows": 0
+}

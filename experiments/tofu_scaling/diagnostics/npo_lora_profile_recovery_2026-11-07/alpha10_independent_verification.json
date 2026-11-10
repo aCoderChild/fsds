@@ -1,0 +1,122 @@
+{
+  "status": "PASS_ALPHA10_ARTIFACTS_AND_GATE_RECOMPUTATION",
+  "verified_at_utc": "2026-11-08T02:41:22Z",
+  "source": {
+    "kaggle_kernel_version": 2,
+    "run_id": "366729454",
+    "status": "KernelWorkerStatus.ERROR",
+    "completed_at_utc": "2026-11-07T22:42:58.268292+00:00",
+    "error": "NameError: name 'reference_hashes' is not defined",
+    "output_archive": "tofu_npo_profile_recovery_artifacts_resumed_v2.zip",
+    "output_archive_sha256": "74a8a86c7c1f67f0c9625df2805293679a9bacf808204736a8579b839b65d370",
+    "output_archive_crc": "PASS",
+    "output_archive_file_count": 48,
+    "output_archive_uncompressed_bytes": 237980312,
+    "model_cache_in_archive": false,
+    "run_log": "tofu-3b-npo-profile-recovery-resume-v2.log",
+    "run_log_sha256": "1961331d5c35e53ced20dea5473ad82f82af9432f45f0c203d13daaa858b2d29"
+  },
+  "protocol": {
+    "protocol_id": "tofu_3b_npo_lora_profile_recovery_v1",
+    "sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+    "alpha_retain": 10.0,
+    "seed": 42,
+    "model_revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+    "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68"
+  },
+  "training": {
+    "status": "TRAINING_COMPLETE",
+    "global_steps": 250,
+    "training_script_sha256": "39c366e28a165dc9d97836a859ff8beb18c6a7f27f10ce1c43fcc0fea52f604f",
+    "adapter_files_sha256": {
+      "README.md": "9a5b08cb99b54f562751a089e8a07cc3518ab30cfe111b3daa846e2a443ebd70",
+      "adapter_config.json": "b0d479542385f9473ad683dde384331207e2106bedc5ce48adc3195416f0a770",
+      "adapter_model.safetensors": "45d309fd7c4b821e9a0175afc4580b9eedf5ce15daf4ba2f5f90fad3001e8913",
+      "chat_template.jinja": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+      "tokenizer.json": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+      "tokenizer_config.json": "58d954db45152000b3596db19f22648213abd8a65893610380e527b7c87802b6"
+    }
+  },
+  "evaluation": {
+    "status": "PASS_PROFILE_COHORT_EVAL",
+    "rows_by_split": {
+      "forget10": 200,
+      "retain90": 400,
+      "holdout10": 200
+    },
+    "dataset_hash_set_matches_reference": true,
+    "input_truncation": false,
+    "cpu_offload_used": false,
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "gate_recomputation": {
+    "status": "FAIL_DIAGNOSTIC_GATES",
+    "all_gates_pass": false,
+    "independent_recomputation": "PASS",
+    "utility_and_forgetting_gates": {
+      "forget10.truth_ratio_score": {
+        "delta": 0.052205094762340476,
+        "ci95": [
+          0.03840348757174254,
+          0.06526519961695688
+        ],
+        "rule": "lower_gt_zero",
+        "threshold": 0.0,
+        "pass": true,
+        "n_questions": 200,
+        "n_profile_blocks": 10
+      },
+      "forget10.answer_probability": {
+        "delta": -0.32449924944313546,
+        "ci95": [
+          -0.35043717170232336,
+          -0.2964395614098969
+        ],
+        "rule": "upper_lt_zero",
+        "threshold": 0.0,
+        "pass": true,
+        "n_questions": 200,
+        "n_profile_blocks": 10
+      },
+      "retain90.answer_probability": {
+        "delta": -0.2459670176887377,
+        "ci95": [
+          -0.2602022112959373,
+          -0.23295512821555905
+        ],
+        "rule": "lower_gt_minus_margin",
+        "threshold": -0.05,
+        "pass": false,
+        "n_questions": 400,
+        "n_profile_blocks": 20
+      },
+      "retain90.rougeL_recall": {
+        "delta": -0.2557284911925114,
+        "ci95": [
+          -0.28365838459455484,
+          -0.22663155558254572
+        ],
+        "rule": "lower_gt_minus_margin",
+        "threshold": -0.05,
+        "pass": false,
+        "n_questions": 400,
+        "n_profile_blocks": 20
+      },
+      "holdout10.answer_probability": {
+        "delta": 0.05363397470382881,
+        "ci95": [
+          0.04836224908535213,
+          0.05821746264510194
+        ],
+        "rule": "lower_gt_minus_margin",
+        "threshold": -0.05,
+        "pass": true,
+        "n_questions": 200,
+        "n_profile_blocks": 10
+      }
+    }
+  },
+  "final_cohort_training_started": false,
+  "interpretation": "Alpha=10 is a completed development diagnostic, but it fails the locked retain-answer-probability and retain-ROUGE noninferiority gates. It is not eligible for final-cohort training."
+}

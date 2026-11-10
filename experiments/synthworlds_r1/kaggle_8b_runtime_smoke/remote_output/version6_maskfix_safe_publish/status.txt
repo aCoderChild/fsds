@@ -1,0 +1,2 @@
+Warning: Looks like you're using an outdated `kaggle`` version (installed: {current_version}), please consider upgrading to the latest version ({latest_version_str})
+bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04 has status "KernelWorkerStatus.COMPLETE"

@@ -1,0 +1,154 @@
+{
+  "as_of_utc": "2026-11-05T14:50:01+00:00",
+  "baseline_competence": {
+    "de": "9/5",
+    "fr": "10/6",
+    "hi": "9/6",
+    "required_per_language": "15 cases and 8 entity groups",
+    "th": "11/7"
+  },
+  "current_stage": "Data preparation / multilingual training-release validation",
+  "fixture_verification": {
+    "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+    "failed": 0,
+    "passed": 36,
+    "status": "PASS_SYNTHETIC_FIXTURES_ONLY",
+    "test_source_sha256": "413162b01eb58adbf7826be2f99b24bbeac900870cd4f657d67248ba65e4cc3f"
+  },
+  "kaggle_scoped_kernel_status": {
+    "all_five_complete": true,
+    "scope_note": "These five scoped kernels were queried in the current recheck; COMPLETE means stopped, not that an experiment ran.",
+    "statuses": {
+      "8b_runtime_smoke": "COMPLETE",
+      "main_experiment": "COMPLETE",
+      "translation_alias_retry": "COMPLETE",
+      "translation_nllb_alternates": "COMPLETE",
+      "translation_segmented_retry": "COMPLETE"
+    }
+  },
+  "limitations": [
+    "The 1B pilot is one-seed, post-hoc, and below every target-language competence floor.",
+    "Exact resampling removes Monte Carlo error, not uncertainty from only 5-7 groups; cluster-bootstrap coverage is approximate.",
+    "AI-only translation screens lack human-gold calibration and are not training approval.",
+    "The 8B smoke used synthetic records only."
+  ],
+  "main_notebook": {
+    "note": "No research corpus is attached/released and the notebook was not run for the main study.",
+    "planned_seeds": [
+      42,
+      43,
+      44
+    ],
+    "sha256": "20b13ce0a8e6b66fb0c0baf7f596959d7bcb228c39021d8b3f806d5070c38c4a",
+    "training_switches_default_off": true
+  },
+  "main_study_result_created": false,
+  "pilot_exact_cluster_sensitivity": {
+    "baseline_competence_gate": "FAILED in all four target languages",
+    "independent_groups_per_cell": "5-7",
+    "max_endpoint_difference_from_100k_draw_analysis_pp": 0.0,
+    "primary_cells": 12,
+    "primary_effects_pp": {
+      "de": "-11.1 [-80.0, 0.0]",
+      "fr": "0.0 [0.0, 0.0]",
+      "hi": "-11.1 [-66.7, 0.0]",
+      "th": "-18.2 [-85.7, 0.0]"
+    },
+    "primary_familywise_intervals_including_or_touching_zero": 12,
+    "secondary_did_cells": 12,
+    "secondary_familywise_intervals_including_or_touching_zero": 12,
+    "secondary_interval_outer_bounds_pp": [
+      -71.42857142857143,
+      100.0
+    ],
+    "status": "VERIFIED_EXACT_POST_HOC_CLUSTER_BOOTSTRAP_SENSITIVITY_EXPLORATORY_ONLY"
+  },
+  "pilot_fresh_rescore": {
+    "case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+    "derived_outputs_byte_identical": 7,
+    "derived_outputs_expected": 7,
+    "generation_failures": 0,
+    "human_translation_reviewed": false,
+    "invalid_output_flags": 0,
+    "model": "meta-llama/Llama-3.2-1B-Instruct",
+    "output_sha256": {
+      "case_metrics.jsonl": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+      "cross_language_contrasts.csv": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+      "cross_language_contrasts.json": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9",
+      "diagnostic_report.md": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de",
+      "scored_predictions.jsonl": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b",
+      "summary.csv": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f",
+      "summary.json": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+    },
+    "prediction_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+    "predictions": 7740,
+    "seed": 42,
+    "status": "PASS_SCORE_REPRODUCTION_EXPLORATORY_ONLY",
+    "translation_review_mode": "AI_ONLY"
+  },
+  "prepared_source_alignment": {
+    "canonical_sft_ids": 488,
+    "meaning": "Confirms prepared IDs/source alignment, not translation quality or corpus approval.",
+    "source_manifest_sha256": "3c2329c098559c35c6ca2684c710b5d4745a8c193cb20bf25fa6fca8783f0cb2",
+    "source_validation_sha256": "3856e5685e0174b1e8bee104f443c19a4416eccba4fa009e640f3b47b1225844",
+    "status": "PASS_PREPARED_SOURCE_ALIGNMENT_ONLY"
+  },
+  "research_sft_or_unlearning_running": false,
+  "runtime_smoke": {
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "npo_optimizer_steps_completed": 1,
+    "receipt_sha256": "f203c9b06a88647ab9868e3c1052dd02325eb21522e5f5ccd5e0b436f783d09c",
+    "research_data_loaded": false,
+    "status": "VERIFIED_RUNTIME_ONLY_NOT_EXPERIMENT",
+    "trainer_global_step": 1,
+    "trainer_train_loss": 0.02475927211344242,
+    "validator_sha256": "522713eff9aad9249480a147377e465b22ccb3192f35afa44215609f17a36b10"
+  },
+  "scope": "Fresh read-only execution recheck; no training/unlearning jobs were launched.",
+  "source_bound_release_gate": {
+    "assembler_exit_code": 1,
+    "assembler_sha256": "afb34f4abad6772c4aab984e520e7345b23ed6e57b4dd92b45d0ac39fcc29beb",
+    "eligible_forget_cases": 5,
+    "eligible_retain_cases": 3,
+    "eligible_training_composition_chains": 0,
+    "main_release_corpus_exists": false,
+    "main_release_manifest_exists": false,
+    "required_forget_cases": 117,
+    "required_retain_cases": 39,
+    "required_training_composition_chains": 44,
+    "status": "BLOCKED_EXPECTED_DATA_GATE"
+  },
+  "translation_diagnostics": {
+    "candidate_texts_remain_quarantined": true,
+    "candidate_union_exact_cases": {
+      "composition": "2/44",
+      "forget": "42/117",
+      "retain": "16/39"
+    },
+    "candidate_union_optimistic_template_ceiling": {
+      "forget": "47/117",
+      "retain": "19/39"
+    },
+    "human_gold_controls": 0,
+    "human_reviewed": false,
+    "mismatch_control_acceptances": {
+      "mistral": "2/15",
+      "qwen14": "1/16"
+    },
+    "qwen_mistral_cross_review_disagreements": "154/187",
+    "targeted_gap_queue": {
+      "by_language": {
+        "de": "3/19",
+        "fr": "8/21",
+        "hi": "14/62",
+        "th": "11/85"
+      },
+      "descriptive_pass_percent": 19.3,
+      "flagged": 151,
+      "passed": 36,
+      "rows": 187
+    },
+    "training_eligible": false
+  }
+}

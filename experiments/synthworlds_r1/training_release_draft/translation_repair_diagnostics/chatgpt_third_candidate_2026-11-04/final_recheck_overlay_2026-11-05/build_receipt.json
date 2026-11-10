@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "FLAG": 151,
+    "PASS": 36
+  },
+  "initial_retry_output_sha256": "49ef405a582c6af101a3293bdede84f88a1509f73256c9754e4b34412b468590",
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "key_constrained_retry_output_sha256": "abf573f2813d34ea8849c06de18ae958ea3e7ca143cbbaaf4a8f7db78e7db980",
+  "overlay_sha256": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+  "parent_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "qwen_only_retry_output_sha256": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+  "release_approved": false,
+  "repaired_rows": 18,
+  "rows": 187,
+  "status": "BUILT_HASH_BOUND_RECHECK_OVERLAY_NOT_RELEASE_APPROVAL",
+  "training_eligible": false
+}

@@ -1,0 +1,204 @@
+{
+  "decisions": {
+    "de|atomic|0035-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "Both back-translation and translation are semantically correct and fluent.",
+      "semantic_pass": true
+    },
+    "de|atomic|0152-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "Back-translation uses 'appear' instead of 'described', changing the nuance of the question.",
+      "semantic_pass": false
+    },
+    "de|atomic|0169-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "Back-translation uses 'publisher' instead of 'editor', changing the meaning.",
+      "semantic_pass": false
+    },
+    "de|atomic|0196-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "Back-translation is too vague and does not capture the specific meaning of 'doctoral student'.",
+      "semantic_pass": false
+    },
+    "de|composition|disjoint-b:0203-qa-sm:q3": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "The translated question incorrectly specifies 'stepfather' instead of the more general term for stepparent used in the source question.",
+      "semantic_pass": false
+    },
+    "de|composition|disjoint-b:0238-qa-sm:multi": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "The back-translation changes the meaning; it refers to a country replacing another state, whereas the source asks about a political office in a successor state relative to a predecessor country's capital.",
+      "semantic_pass": false
+    },
+    "de|composition|disjoint-b:0269-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "The translation and back-translation are semantically equivalent and fluent.",
+      "semantic_pass": true
+    },
+    "de|composition|disjoint-b:0295-qa-sm:q1": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "The translation and back-translation are semantically equivalent and fluent.",
+      "semantic_pass": true
+    },
+    "fr|atomic|0014-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "The translation is semantically equivalent and fluent.",
+      "semantic_pass": true
+    },
+    "fr|atomic|0050-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "Back-translation uses 'godfather' instead of the source's 'godparent', changing gender specificity.",
+      "semantic_pass": false
+    },
+    "fr|atomic|0134-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "The translation is semantically equivalent and fluent.",
+      "semantic_pass": true
+    },
+    "fr|atomic|0172-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "The translation is semantically equivalent and fluent.",
+      "semantic_pass": true
+    },
+    "fr|composition|disjoint-b:0202-qa-sm:q1": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "The translation accurately conveys the source question and is fluent in French.",
+      "semantic_pass": true
+    },
+    "fr|composition|disjoint-b:0305-qa-sm:multi": {
+      "fluency_pass": false,
+      "key": "ROW_002",
+      "reason": "Contains non-French text ('фамилия') and mistranslates 'family name' as 'last name', altering the meaning; also grammatically incorrect in French.",
+      "semantic_pass": false
+    },
+    "fr|composition|disjoint-b:0305-qa-sm:q3": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "The translation accurately conveys the source question and is fluent in French.",
+      "semantic_pass": true
+    },
+    "fr|composition|disjoint-b:0348-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "The back-translation does not match the original English question's meaning; it incorrectly refers to a parent rather than a stepparent.",
+      "semantic_pass": false
+    },
+    "hi|atomic|0046-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "Back-translation does not match source question; asks about an 'activity' rather than a 'work'. The back-translation should be 'In which work does [ENTITY_A] appear?'.",
+      "semantic_pass": false
+    },
+    "hi|atomic|0072-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "Back-translation does not match source question; asks about 'boundary or scope' rather than what is on the boundary of [ENTITY_A].",
+      "semantic_pass": false
+    },
+    "hi|atomic|0078-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "Back-translation does not match source question; asks about an activity rather than work where [ENTITY_A] is described.",
+      "semantic_pass": false
+    },
+    "hi|atomic|0092-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "Both the translation and back-translation are semantically correct and fluent.",
+      "semantic_pass": true
+    },
+    "hi|composition|disjoint-b:0218-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "The Hindi question correctly asks who the editor of [ENTITY_A] is.",
+      "semantic_pass": true
+    },
+    "hi|composition|disjoint-b:0267-qa-sm:multi": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "The Hindi question correctly asks about the founder of the organization above [ENTITY_A]'s rank.",
+      "semantic_pass": true
+    },
+    "hi|composition|disjoint-b:0295-qa-sm:q1": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "Back-translation does not match source; it incorrectly inquires about a part of [ENTITY_A] rather than what work is part of [ENTITY_A].",
+      "semantic_pass": false
+    },
+    "hi|composition|disjoint-b:0300-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "Back-translation does not match source; it incorrectly refers to guardians or overseeing bodies instead of godparent.",
+      "semantic_pass": false
+    },
+    "th|atomic|0044-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "Back-translation asks about the characteristic of ENTITY_A instead of where it is located.",
+      "semantic_pass": false
+    },
+    "th|atomic|0055-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "Back-translation asks who operates or manages ENTITY_A instead of who performed it.",
+      "semantic_pass": false
+    },
+    "th|atomic|0115-qa-sm:r2": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "Both the translation and back-translation correctly ask about the origin of [ENTITY_A] language.",
+      "semantic_pass": true
+    },
+    "th|atomic|0152-qa-sm:r1": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "Back-translation asks for terms or pronouns used to refer to ENTITY_A rather than an honorific prefix specifically.",
+      "semantic_pass": false
+    },
+    "th|composition|disjoint-b:0277-qa-sm:multi": {
+      "fluency_pass": true,
+      "key": "ROW_003",
+      "reason": "The back-translation changes the meaning from burial location to living location.",
+      "semantic_pass": false
+    },
+    "th|composition|disjoint-b:0291-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_002",
+      "reason": "The translated question asks about marriage instead of an unmarried partnership.",
+      "semantic_pass": false
+    },
+    "th|composition|disjoint-b:0300-qa-sm:q2": {
+      "fluency_pass": true,
+      "key": "ROW_001",
+      "reason": "The back-translation changes the meaning from godparent to parents or guardians.",
+      "semantic_pass": false
+    },
+    "th|composition|disjoint-b:0382-qa-sm:multi": {
+      "fluency_pass": true,
+      "key": "ROW_000",
+      "reason": "The translated question asks about the creator of the name '[ENTITY_A]', not the noble title held by [ENTITY_A].",
+      "semantic_pass": false
+    }
+  },
+  "identity": {
+    "judge_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "masking_script_sha256": "a5d6dd9d8cdd530d09d08b44f9f1484058cc2acc328165a875cc741902db7275",
+    "model_digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+    "prior_checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97",
+    "prior_report_sha256": "d0c9fd60e441a6b9bd1c9b92e3df8d9d19cb124b94d0c8f78fee4defb907f798",
+    "script_sha256": "3a3a79c16058896c24ebf9ffa136b4270893ae2bea8710b76b3b5cbf06933d60"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_ONLY",
+  "mode": "third_candidate_marker_safe_18_row_retry",
+  "input_sha256": "5c4044643e876db21ce5979c7377f7e5745d7a18fec5d21fda15fa3177049849",
+  "prior_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "started_at_utc": "2026-11-04T18:15:32.129741+00:00",
+  "records": [
+    {
+      "review_key": "R0036",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "translation_sha256": "3e7885f2f9ba29881b2a0d507f9e4e642354dbfdbef759c09fec06be05843a68",
+      "backtranslation_en": "What year was [ENTITY_A] [ENTITY_B]'s architect?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "2563477f2c03de18be77899dc3c6629bf65a13637033c10c1e89a3672e0c2be1"
+    },
+    {
+      "review_key": "R0066",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "f65a0b63f3069b2d6cf9356498affc276eed81479e0323cd62d2d3205610f3c3",
+      "backtranslation_en": "What is [ENTITY_A]'s other entity?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "20a40ca043a2f37e73713c5726e9b341555f077707bf026ecf29cc7b587c7cd5"
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "c1aaea2421589f60ac386fb07b706cd28b1c1ae4540e44da70543efa59096107",
+      "backtranslation_en": "When did [ENTITY_A] become the country where [ENTITY_B] lies?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "5ade77ce432530a68c98cfc36ded29d1be61d49f044f1a333f499bcd3cb6e4d9"
+    },
+    {
+      "review_key": "R0206",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70",
+      "backtranslation_en": "What's [ENTITY_A] different about?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "608dd69dda98669871d7f24775e6a88f7c009e7b5ec39c82e7a51b5f3831f08a"
+    },
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "backtranslation_en": "What entity is [ENTITY_A] different from?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "fac81d5e937589600953de3616e10e5f76376a8569e0f35018035952b873589d"
+    },
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "6126c08bbb7716fff06e5e696a33a2527720446fd8dec166a841470a3d44f0b4",
+      "backtranslation_en": "On what date did the family relationship between [ENTITY_A] and [ENTITY_B] begin?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "a91a6e6b7f56c4482b7e5f1eb390514a1d9956b9c5a2600f8e60a2c4256354ae"
+    },
+    {
+      "review_key": "R0360",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1dc304fbd1da18126a643514bc31967ff91eb0eadd498fcf6a700a736e9f6fc6",
+      "backtranslation_en": "On what date did [ENTITY_A] make the country in which [ENTITY_B] is located?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "619346d13607e0f9334f65bf76de88757bfa0391f5d6088983cf0fa92d7250ee"
+    },
+    {
+      "review_key": "R0379",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "e0d50b69093df6735dc25c167566300386b3ecadd0e7103e05f70085b1b69cfb",
+      "backtranslation_en": "What date did [ENTITY_A], [ENTITY_B]'s country not go?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "f13b54f5adb3acc56ad22a5ecd0d17de0307f63a23204aa966a0e71b35b400d1"
+    },
+    {
+      "review_key": "R0407",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "translation_sha256": "31f44ecb167c2e9ce4eb5fcd966973b50996c0f0a4a60408607cb140cad08365",
+      "backtranslation_en": "In what year did [ENTITY_A] become [ENTITY_B]'s wife?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "75e59f5f7eb4d53b6afdf8d8733bf5487049e27a9cadd2c0f9b06ef72d39f893"
+    },
+    {
+      "review_key": "R0417",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "f88b628b2fe508e42192124252c494dffe86f323d006839a37ea21317762022b",
+      "backtranslation_en": "On what date did [ENTITY_A] cease to be [ENTITY_B]'s capital?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "c15766ab6ff0bf952402a99409a7b95f5d1a571e1556d89ab92d4c2824268ec9"
+    },
+    {
+      "review_key": "R0421",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "backtranslation_en": "What comes after [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0421",
+        "semantic_pass": false,
+        "reason": "Back translation mismatch, uses 'after' instead of 'immediately follows'.",
+        "fluency_pass": true
+      },
+      "backtranslation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0421\", \"semantic_pass\": false, \"reason\": \"Back translation mismatch, uses 'after' instead of 'immediately follows'.\"\t\t, \"fluency_pass\": true}]}"
+    },
+    {
+      "review_key": "R0436",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "67cd5d215258af71553921e092e3c2f91c8bbfdce8a7731c2eda092b8c4382f5",
+      "backtranslation_en": "On what date did [ENTITY_A], [ENTITY_B], become part of?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "5d475e01dc7a5ff7f7e8242dd95d906e4a47df7c3b56e1cf0836235d35910c4a"
+    },
+    {
+      "review_key": "R0443",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "623106a1d9c0a3ba3f5826efba6963d30caecc1464b4d3596bd0a88fbc282fae",
+      "translation_sha256": "20b4f0c0ac199e3d465f232ead05554ab9d8e7d98e0a482882077f1deb868a6a",
+      "backtranslation_en": "What is the twin city of [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0443",
+        "semantic_pass": true,
+        "reason": "Back-translation matches source question.",
+        "fluency_pass": true
+      },
+      "backtranslation_sha256": "862bc4486dc9321e638140372dc986bb14e498fad66119f8497dcb3580718f17",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0443\", \"semantic_pass\": true, \"reason\": \"Back-translation matches source question.\"\t\t,\"fluency_pass\": true}] }"
+    },
+    {
+      "review_key": "R0449",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+      "translation_sha256": "0af254f1d3f1eef5699ad710cabafdbd113abbaba66bf54b412a3be177d0cb5a",
+      "backtranslation_en": "In what year did [ENTITY_A] cease to serve as a board member of [ENTITY_B]?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "8347f792779780050e25fde07709a0a1dfe56de4366e9c08f2c8365ae368ed14"
+    },
+    {
+      "review_key": "R0464",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "translation_sha256": "0e4c4fc81f97fa75dfc38992aa34db66902f23f4d81fa7737d485de7dc750f5d",
+      "backtranslation_en": "Which of the subcategories of the class [ENTITY_A] is a level above the class?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "83bbb1ee6df4bdcc348715531b4ee27c3489fddcaff47d40b3f7bdfa1b83a1cd"
+    },
+    {
+      "review_key": "R0537",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "translation_sha256": "f0353b66e7c82366eeec7918bb5bda8d0d635180a54635ec6608592095a0f7cd",
+      "backtranslation_en": "What is the title of the [ENTITY_A]?",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "R0537",
+        "semantic_pass": false,
+        "reason": "Asks about title, not noble title.",
+        "fluency_pass": true
+      },
+      "backtranslation_sha256": "fc474ec32055b24484f7b5b7a51f5e2906bce8af222e777f99939eeb463cd23d",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0537\", \"semantic_pass\": false, \"reason\": \"Asks about title, not noble title.\"\t\t,\"fluency_pass\": true}]}"
+    },
+    {
+      "review_key": "R0549",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+      "translation_sha256": "275d84ae30a58bf91e7f8b51ac6926461298ae6498c665d15d93991d7d561a40",
+      "backtranslation_en": "When did [ENTITY_A]'s term as director at [ENTITY_B]'s end?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "edb8e8bfaf1151c6eef3b7aeb2cedba5fb4aa7f5160a8203872d8ddb905a10d1"
+    },
+    {
+      "review_key": "R0677",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "94c56fdd5677e63ad2a91b561745da781be24c5001833eeb094c27f57429ffbc",
+      "backtranslation_en": "[ENTITY_A] got [ENTITY_B] in what year?",
+      "backtranslation_error": "NameError: name 'bt_by_key' is not defined",
+      "decision": {
+        "error": "backtranslation_failed"
+      },
+      "backtranslation_sha256": "ada4fad007ce73cc0d9b63310170744efaeaf5abc6956cc8ba8daed7820a1f34"
+    }
+  ],
+  "counts": {
+    "BLOCKED": 15,
+    "FLAG": 2,
+    "PASS": 1
+  },
+  "completed_at_utc": "2026-11-04T18:21:05.841207+00:00"
+}

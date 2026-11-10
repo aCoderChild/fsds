@@ -1,0 +1,67 @@
+[{"stream_name":"stderr","time":18.980652609,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.980695964,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.980703225,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.980708408,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.980713235,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":61.346090217,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":61.346144759,"data":"I0000 00:00:1793856699.126419       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":96.076720786,"data":"Backtranslation 1/17\n"}
+,{"stream_name":"stdout","time":96.703631,"data":"Backtranslation 2/17\n"}
+,{"stream_name":"stdout","time":96.914128045,"data":"Backtranslation 3/17\n"}
+,{"stream_name":"stdout","time":97.320944258,"data":"Backtranslation 4/17\n"}
+,{"stream_name":"stdout","time":97.686484628,"data":"Backtranslation 5/17\n"}
+,{"stream_name":"stdout","time":97.958164125,"data":"Backtranslation 6/17\n"}
+,{"stream_name":"stdout","time":98.163416628,"data":"Backtranslation 7/17\n"}
+,{"stream_name":"stdout","time":98.163916864,"data":"Backtranslation 8/17\n"}
+,{"stream_name":"stdout","time":98.433096522,"data":"Backtranslation 9/17\n"}
+,{"stream_name":"stdout","time":98.789741074,"data":"Backtranslation 10/17\n"}
+,{"stream_name":"stdout","time":99.059673925,"data":"Backtranslation 11/17\n"}
+,{"stream_name":"stdout","time":99.486966219,"data":"Backtranslation 12/17\n"}
+,{"stream_name":"stdout","time":99.818692433,"data":"Backtranslation 13/17\n"}
+,{"stream_name":"stdout","time":100.17457672,"data":"Backtranslation 14/17\n"}
+,{"stream_name":"stdout","time":100.445255175,"data":"Backtranslation 15/17\n"}
+,{"stream_name":"stdout","time":100.445830204,"data":"Backtranslation 16/17\n"}
+,{"stream_name":"stdout","time":100.717558967,"data":"Backtranslation 17/17\n"}
+,{"stream_name":"stderr","time":231.642097863,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:46\u003c12:24, 106.31s/it]\rFetching 8 files:  25%|██▌       | 2/8 [01:59\u003c05:07, 51.28s/it] \rFetching 8 files:  50%|█████     | 4/8 [02:09\u003c01:29, 22.43s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:09\u003c00:00, 16.20s/it]\n"}
+,{"stream_name":"stderr","time":236.503637534,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":344.573015814,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:13\u003c01:34, 13.48s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:24\u003c01:13, 12.24s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:37\u003c01:02, 12.48s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:52\u003c00:54, 13.56s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:08\u003c00:43, 14.37s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:24\u003c00:29, 14.90s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:40\u003c00:15, 15.23s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:47\u003c00:00, 12.65s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:47\u003c00:00, 13.45s/it]\n"}
+,{"stream_name":"stderr","time":350.42100711,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":350.421055066,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":350.42106005,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":350.421064703,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":350.421068308,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":350.421074325,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":356.628081176,"data":"Judge 1/17\n"}
+,{"stream_name":"stdout","time":363.938920815,"data":"Judge 2/17\n"}
+,{"stream_name":"stdout","time":369.903737195,"data":"Judge 3/17\n"}
+,{"stream_name":"stdout","time":376.286041968,"data":"Judge 4/17\n"}
+,{"stream_name":"stdout","time":382.22237047,"data":"Judge 5/17\n"}
+,{"stream_name":"stdout","time":389.012002885,"data":"Judge 6/17\n"}
+,{"stream_name":"stdout","time":394.978062388,"data":"Judge 7/17\n"}
+,{"stream_name":"stdout","time":401.348500407,"data":"Judge 8/17\n"}
+,{"stream_name":"stdout","time":407.771559305,"data":"Judge 9/17\n"}
+,{"stream_name":"stdout","time":414.012460053,"data":"Judge 10/17\n"}
+,{"stream_name":"stdout","time":420.265743675,"data":"Judge 11/17\n"}
+,{"stream_name":"stdout","time":426.528756055,"data":"Judge 12/17\n"}
+,{"stream_name":"stdout","time":432.529504139,"data":"Judge 13/17\n"}
+,{"stream_name":"stdout","time":438.614595473,"data":"Judge 14/17\n"}
+,{"stream_name":"stdout","time":444.221062014,"data":"Judge 15/17\n"}
+,{"stream_name":"stdout","time":450.389868809,"data":"Judge 16/17\n"}
+,{"stream_name":"stdout","time":456.250591032,"data":"Judge 17/17\n"}
+,{"stream_name":"stdout","time":456.251361728,"data":"{\n"}
+,{"stream_name":"stdout","time":456.251382301,"data":"  \"status\": \"AI_ONLY_DIAGNOSTIC_RETRY_COMPLETE\",\n"}
+,{"stream_name":"stdout","time":456.251387984,"data":"  \"rows\": 17,\n"}
+,{"stream_name":"stdout","time":456.251392691,"data":"  \"reviewed_rows\": 17,\n"}
+,{"stream_name":"stdout","time":456.251397284,"data":"  \"blocked_rows\": 0,\n"}
+,{"stream_name":"stdout","time":456.251402588,"data":"  \"gpu\": [\n"}
+,{"stream_name":"stdout","time":456.251407902,"data":"    \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":456.251413324,"data":"    \"Tesla T4\"\n"}
+,{"stream_name":"stdout","time":456.251418582,"data":"  ]\n"}
+,{"stream_name":"stdout","time":456.25142285,"data":"}\n"}
+,{"stream_name":"stderr","time":464.795741583,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":464.79581251,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":465.127763895,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":465.127790945,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":466.194750967,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":467.033005253,"data":"[NbConvertApp] Writing 351984 bytes to __results__.html\n"}
+]

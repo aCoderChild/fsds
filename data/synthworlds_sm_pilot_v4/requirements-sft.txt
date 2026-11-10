@@ -1,0 +1,7 @@
+# Training runner uses Transformers Trainer directly; TRL and Datasets are not required.
+torch>=2.6
+transformers>=4.57,<5
+peft>=0.20
+accelerate>=1.15
+
+numpy>=1.24

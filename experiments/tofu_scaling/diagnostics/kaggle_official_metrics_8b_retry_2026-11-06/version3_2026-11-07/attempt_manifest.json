@@ -1,0 +1,20 @@
+{
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_kernel_version": 3,
+  "observed_at_utc": "2026-11-07T02:37:45.995813+00:00",
+  "outcome": "ERROR_BEFORE_8B_SCORING",
+  "configured_gpu_memory_cap_gib_per_t4": 10,
+  "guard": "CPU/disk placement detected; evaluator stopped before generation smoke and dataset scoring",
+  "verified_3b_outputs_retained": true,
+  "training_started": false,
+  "files": {
+    "official_eval_status.json": {
+      "sha256": "04734ba5d3c1a0ea1d2cb96960bb430e43f07cf881161deac5ffd47aeff874f6",
+      "bytes": 1578
+    },
+    "kaggle_kernel.log": {
+      "sha256": "ff5f4a4018c293748ba7158c3650a669503ae6b87a0e0829723472e075ea5692",
+      "bytes": 26392
+    }
+  }
+}

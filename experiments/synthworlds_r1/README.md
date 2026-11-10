@@ -1,0 +1,81 @@
+# SynthWorlds-SM v5.1 R1 study
+
+## Current status
+
+The source-verified candidate split contains 195 cases assigned 117/39/39 to forget, retain, and holdout across 102 indivisible leakage groups. The current evaluation cohort is frozen from the later TranslateGemma-repaired and Qwen-reviewed translation set: 80 cases (43 forget / 20 retain / 17 holdout), with 43 forget cases across 24 entity groups. All three probes for each included case passed in French, German, Hindi, and Thai, with every accepted translation independently screened by a different model from its translator. Three otherwise passing cases were excluded because at least one prompt had only a same-model self-check. This clears the pilot's translation-coverage floor; it does **not** establish that any model has learned the facts.
+
+Translation review was AI-only. It is not fluent-human certification. Across the 2,340 translated evaluation prompts, the repaired review reports 2,137 passes, 156 flags, and 47 translation failures. Only complete cases with three probes independently screened in all four target languages enter the frozen 80-case evaluation cohort. Flagged, failed, and same-model-self-checked prompts remain excluded. The initial `qwen_blinded_v1` report is superseded for cohort selection; its 9-case figure must not be cited as the current cohort size.
+
+The pilot translates question inputs and scores the canonical entity-name answer, which is the same target string across languages. It measures multilingual-input question answering and cross-lingual forgetting transfer; it does not measure fluent answer generation in French, German, Hindi, or Thai.
+
+The training-question review uses an AI-only two-stage process: Qwen2.5 7B plus TranslateGemma back-translation, followed by a Qwen2.5 14B semantic/fluency pass. The 14B second pass is **complete**, with 488 prompts reviewed in each target language: FR 324 passed/164 flagged, DE 309/179, HI 288/200, and TH 232/256. Recomputing the assembler's strict all-four-language, all-atomic-facts criterion gives only 5/117 eligible forget cases and 3/39 eligible retain cases; none of the 44 training-only composition chains pass. The assembler therefore fails closed before writing the corpus, manifest, or release-validation file. No SFT corpus is approved. The two Qwen reviewers share a model family, so their errors may be correlated; neither AI-only review nor back-translation certifies fluency.
+
+The answer-blind ChatGPT repair review of all 799 final-flagged prompts is complete and source/hash verified: 445 candidate passes, 323 flags, and 31 blocked rows. The 27 request files mask entity names and numbers; a local private map binds simple row IDs to source records and restoration values. A separate TranslateGemma/Qwen7B diagnostic has 397 preliminary passes. An optimistic, source-bound union identifies 612 flagged rows with at least one promising candidate, but it combines different candidate texts and non-equivalent screening criteria. It is only an upper bound for planning and is not translation approval. The strict release screen still admits 5/117 forget cases, 3/39 retain cases, and 0/44 composition chains; no corpus or manifest is approved. Each candidate selected for the full training corpus must pass the frozen production review and source-integrity checks. The ChatGPT UI does not expose its translator backend/version, and AI-only review is not fluent-human certification. See `training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/` and `reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/diagnostic_report.md`.
+
+A separate 187-row targeted-gap set was drafted on 2026-11-05 (FR 21, DE 19, HI 62, TH 85). It passes structural checks for exact IDs, masked-entity counts, target scripts, and question punctuation. These are assistant-generated drafts with no independent AI or human review; their model revision is unknown. They remain quarantined, are not part of the 799-row candidate review, and do not change the release counts or make any row training-eligible. The reproducible audit and hashes are in `training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/`.
+
+A supplemental answer-blind screen of 75 alternate TranslateGemma candidates completed on Kaggle: 27 passed, 43 were flagged, and 5 were blocked. It increases candidate coverage to at most 31 forget cases / 17 groups, 11 retain / 8 groups, and 1 composition chain; it does not approve these candidates or make them training-eligible. The current source-bound verifier and coverage receipt are in `training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/`.
+
+The independently reproduced one-seed Llama 3.2 1B pilot is the only completed hypothesis diagnostic. It fails the predeclared 15-case / 8-group baseline competence floor in all four target languages; its wide intervals do not establish either transfer or no transfer. See `reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/completed_v4_pilot_hypothesis_diagnostic.md`. No current five-language SFT or unlearning job is running.
+
+After release assembly, run three full-SFT seeds and three retain-only reference seeds. Generate all baseline predictions without loading labels, score them in a separate step, and apply the predeclared model-competence gate: at least 15 cases and 8 entity groups in each target language, common across the three SFT seeds and correct on direct-positive, direct-negative-control, and multi-hop probes in English and the target language. This is a feasibility floor, not a power calculation. GA, GD, and NPO are blocked unless the gate passes. When all three unlearning seeds complete, the analysis reports each seed separately and the across-seed mean/SD plus case-paired entity-group bootstrap intervals.
+
+## Key files
+
+- `candidate_cases.draft.jsonl`, `assignments.draft.jsonl`, and `LOCAL_VALIDATION.json`: source-verified candidate cases, split, and leakage validation.
+- `labels/gold_labels.draft.jsonl`: evaluation labels; keep separate from prompt generation.
+- `translation_reviews/translategemma_repair_v1_full/`: current repaired, blinded AI evaluation review and its report.
+- `translation_reviews/qwen_blinded_v1/`: superseded initial screen; not used to select the current cohort.
+- `translation_drafts/` and `translation_reviews/`: translation drafts/reviews with their source and model provenance; the active evaluation review is explicitly identified above, while the training release remains blocked.
+- `training_release_draft/scripts/prepare_release.py`: creates the training/evaluation draft from source data and the current repaired evaluation review.
+- `training_release_draft/scripts/review_training_translations_roundtrip.py`: cross-model training-question screen.
+- `training_release_draft/scripts/assemble_training_release.py`: frozen legacy translation and split gate, retained byte-for-byte because completed review provenance records its hash. Its composition-answer source alignment is insufficient by itself.
+- `training_release_draft/scripts/assemble_sft_source_verified.py`: required release entry point. It reconstructs prepared rows from the original source, runs the frozen translation and split gate, checks the complete corpus against source answers and reviewed translations, and writes the source-integrity proof.
+- `training_release_draft/scripts/prepare_chatgpt_flagged_repair_queue.py` and `parse_chatgpt_flagged_repair_responses.py`: prepare masked, hash-bound requests for final-flagged translations and parse returned text into quarantined candidates. Neither writes to the release inputs or approves a corpus.
+- `scripts/validate_sft_source_integrity.py`: independently reconstructs prepared SFT data and validates an assembled release. SFT and unlearning preflight require its hash-bound `sft_training/source_integrity_validation.json` proof.
+- The adjudication and first-stage roundtrip-review scripts retain the former workspace path as a compatibility alias because their exact source hashes are recorded in completed review manifests. Do not edit those scripts without rerunning and re-recording the corresponding AI review.
+- `scripts/train_sft_lora.py`: five-language LoRA SFT runner with fail-closed preflight; direct CLI defaults to the report-aligned 8B main profile, and 1B feasibility runs require an explicit profile choice.
+- `scripts/assistant_masking.py`: shared by SFT and English unlearning. It renders each conversation once and uses fast-tokenizer character offsets to supervise assistant answer tokens only. This avoids relying on separately tokenized prompt IDs being a prefix of the full conversation, which failed during the first interactive Llama 3.1 runtime smoke. Both run manifests record this helper's hash, and unlearning preflight requires the SFT and unlearning stages to use the same helper version.
+- `scripts/model_profiles.py`: explicit Llama 3.1 8B NF4 QLoRA main-study profile and separate Llama 3.2 1B FP16 feasibility profile. The main profile is pinned to commit `0e9e39f249a16976918f6564b8830bc894c89659`, resolved from authenticated repository metadata on 2026-11-04. The historical 1B run did not record its base revision, so new 1B stages fail closed until a revision is reviewed and pinned. The 2026-11-04 Kaggle HTTP 403 is superseded by the user-provided 2026-11-05 acceptance evidence and the subsequent load of the exact 8B Instruct weights; the first smoke then failed on its old token-prefix mask check.
+- `scripts/validate_8b_runtime_smoke_receipt.py`: verifies the synthetic 8B NF4 runtime receipt against the frozen model revision, config hash, locked package stack, assistant-only offset mask, and dual-GPU NPO update. The main Kaggle notebook requires one attached passing receipt before any 8B main-study stage. The source-verified multilingual corpus release remains independently blocked.
+- `scripts/evaluate_pilot_three_probe.py`: label-isolated generation, strict scoring, baseline gate, and paired effects; generation defaults to the report-aligned 8B profile. The paired bilingual summary reports English change, target-language change, and target-minus-English DID on the exact same competent forget cases, with entity-group bootstrap intervals for each component.
+- DAP is reported as a percentage, not an accuracy change. Its cross-seed interval targets the mean of defined seed ratios and is omitted if an entity-group resample has a zero denominator for an included seed; one-group intervals are also omitted.
+- `scripts/unlearn_lora.py`: English-only GA/GD/NPO trainer; defaults to the 8B profile, refuses to run unless the competence gate passes, and recomputes the gate from its hash-bound case metrics.
+- `scripts/unlearning_objectives.py`: shared NPO loss implementation used by both the trainer and the two-GPU synthetic runtime smoke.
+- `scripts/kaggle_result_snapshot.py`: writes atomic, hash-indexed stage archives and restores one verified archive after a Kaggle session reset.
+- `scripts/test_r1_pilot_pipeline.py`: offline fixture checks for assistant-only SFT loss, translation provenance, target-gate recomputation/tamper rejection, snapshot restore integrity, prediction/prompt integrity, paired multi-seed analysis, and the exact 8B runtime-smoke receipt gate. It creates synthetic predictions and is not an experiment.
+- `requirements-sft.txt`: exact Transformers/PEFT/Accelerate API lock for Kaggle; deliberately leaves its CUDA PyTorch installation unchanged. `requirements-main-qlora.txt` adds the pinned bitsandbytes dependency for the 8B profile. The notebook checks the selected stack and GPU before training.
+- `kaggle/r1_multiseed_experiment.ipynb`: Kaggle workflow for three-seed SFT, gated unlearning, reproducible evaluation, and hash-verified session resume. It defaults to the Llama 3.1 8B main profile and retains an explicit 1B feasibility option. To resume, attach exactly one `*_latest.zip` archive from the most advanced completed stage.
+
+The v7 smoke failure and v8 setup are historical. On 2026-11-05, the pinned fast-tokenizer/assistant-mask preflight passed on CPU, then an interactive T4 × 2 run loaded the exact `meta-llama/Llama-3.1-8B-Instruct` revision, completed one synthetic LoRA Trainer optimizer step and one synthetic NPO update, and produced a receipt that passes `kaggle_8b_runtime_smoke/verify_receipt.py`. The first GPU attempt failed only at receipt serialization (`KeyError: 'loss'`); the runner was corrected to read the returned Trainer `train_loss` metric. A subsequent attempt hit OOM from stale kernel references; after kernel restart, the run passed using Kaggle's cached weights. The passing receipt and verification are in `kaggle_8b_runtime_smoke/remote_output/interactive_smoke_v8_passed_runtime_only_2026-11-05/`. This is runtime evidence only, not a research result. The Kaggle session was stopped after receipt verification. The source-verified multilingual corpus release remains independently blocked.
+
+## Reproduction
+
+From the repository root:
+
+```bash
+python experiments/synthworlds_r1/scripts/validate_candidate_draft.py
+python experiments/synthworlds_r1/scripts/summarize_translation_audit.py \
+  --draft-dir experiments/synthworlds_r1/translation_drafts/translategemma_repair_v1_full \
+  --review-dir experiments/synthworlds_r1/translation_reviews/translategemma_repair_v1_full
+python experiments/synthworlds_r1/training_release_draft/scripts/prepare_release.py
+python -B experiments/synthworlds_r1/scripts/validate_sft_source_integrity.py --prepared-only
+```
+
+Once all translation reviews pass, run `python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py` locally with the original source snapshots present. Include `source_integrity_validation.json`, `release_validation.json`, the corpus and manifest, and all files under `scripts/` in the Kaggle project package. The proof binds the files to a local source reconstruction; it is not a signed attestation or a human language review. The release remains blocked while translation coverage is incomplete. For the 8B main study, first pass the separate synthetic runtime smoke and attach its `r1_8b_runtime_smoke.json` output as a Kaggle input dataset. The main notebook also verifies file-level access to the exact model config before any model stage.
+
+All review and experiment artifacts must identify their model versions, input hashes, split, seeds, and whether the work used AI-only or human translation review. Do not treat fixture tests as model results.
+
+## Project layout
+
+- `scripts/`: source selection, data validation, SFT, unlearning, evaluation, and fixture checks.
+- `translation_requests/`, `translation_drafts/`, `translation_reviews/`: multilingual evaluation translations and their review provenance.
+- `training_release_draft/`: hash-bound translation screening, quarantined repair diagnostics, and the fail-closed release assembler. It is a draft workbench; it is not an approved training corpus.
+- `kaggle/r1_multiseed_experiment.ipynb`: the current three-seed experiment notebook. Its switches default off.
+- `sft_training/`: reserved for approved release artifacts; it is intentionally absent until the release gate passes.
+
+The canonical workspace is `experiments/synthworlds_r1/`. The former `data/synthworlds_sm_pilot_v5_1/` path remains a compatibility symlink for existing links and notebooks. Source lineage in pilots v2–v4 remains under `data/`; superseded v1/v5 drafts are in `archive/synthworlds_sm/`. The bounded TranslateGemma repair pilot is retained under `archive/experiments/synthworlds_r1/` and is not used by the current release.
+
+## Local resource housekeeping
+
+The local computer has limited disk space and memory. Check available space before large downloads or runs. After diagnostics, unload idle models and remove regenerable caches, temporary files, and model downloads that are no longer needed. Keep the pinned inputs needed for the next run, the evidence needed to reproduce results, and unrelated active work. Record model identifiers and hashes before removing any model used in an experiment.

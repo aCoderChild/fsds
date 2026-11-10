@@ -1,0 +1,14 @@
+{
+  "code_file": "review.py",
+  "competition_sources": [],
+  "dataset_sources": [],
+  "enable_gpu": true,
+  "enable_internet": true,
+  "id": "bunnoob2005/synthworlds-r1-tg-complement-review-v1",
+  "is_private": true,
+  "kernel_sources": [],
+  "kernel_type": "script",
+  "language": "python",
+  "model_sources": [],
+  "title": "SynthWorlds R1 TG Complement Review v1"
+}

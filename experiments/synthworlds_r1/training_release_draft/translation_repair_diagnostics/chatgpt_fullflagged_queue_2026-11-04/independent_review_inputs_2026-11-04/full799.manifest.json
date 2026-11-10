@@ -1,0 +1,38 @@
+{
+  "answers_or_splits_in_input": false,
+  "candidate_file_sha256": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+  "candidate_report_sha256": "2ef0ad6ea90764d2e198598f2f088c53d9a14e270309d4eb59da4b948a2b377b",
+  "human_translation_reviewed": false,
+  "input_sha256": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+  "language_counts": {
+    "de": 179,
+    "fr": 164,
+    "hi": 200,
+    "th": 256
+  },
+  "language_kind_counts": {
+    "de/atomic": 108,
+    "de/composition": 71,
+    "fr/atomic": 117,
+    "fr/composition": 47,
+    "hi/atomic": 120,
+    "hi/composition": 80,
+    "th/atomic": 157,
+    "th/composition": 99
+  },
+  "limitations": [
+    "AI-only screening is not fluent-human certification.",
+    "This input package does not approve translations or enable training."
+  ],
+  "mode": "full799",
+  "private_map_sha256": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+  "purpose": "Independent AI-only semantic/fluency diagnostic of flagged ChatGPT translation repair candidates.",
+  "rows": 799,
+  "source_review_file_sha256_by_language": {
+    "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+    "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+    "hi": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+    "th": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+  },
+  "status": "MASKED_AI_REVIEW_INPUT_ONLY_NOT_APPROVED"
+}

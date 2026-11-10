@@ -1,0 +1,16 @@
+{"row_id": "G0005", "source_english": "Which town is [ENTITY_A] twinned with?", "target_language": "Hindi"}
+{"row_id": "G0008", "source_english": "What is a part of the [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0009", "source_english": "Who is [ENTITY_A]'s godparent?", "target_language": "Hindi"}
+{"row_id": "G0013", "source_english": "What language is [ENTITY_A] a dialect of?", "target_language": "Hindi"}
+{"row_id": "G0015", "source_english": "What is [ENTITY_A] part of?", "target_language": "Hindi"}
+{"row_id": "G0019", "source_english": "Who is the spouse of the person for whom the place where [ENTITY_A] worked was named?", "target_language": "Hindi"}
+{"row_id": "G0023", "source_english": "Which political office of the state that replaced the country whose capital is [ENTITY_A] is held by its head of state?", "target_language": "Hindi"}
+{"row_id": "G0025", "source_english": "What is [ENTITY_A]'s field of work?", "target_language": "Hindi"}
+{"row_id": "G0031", "source_english": "What did [ENTITY_A] replace?", "target_language": "Hindi"}
+{"row_id": "G0033", "source_english": "Who is the father of the person whom the unmarried partner of [ENTITY_A] is interested in?", "target_language": "Hindi"}
+{"row_id": "G0037", "source_english": "In which area does the [ENTITY_A] operate?", "target_language": "Hindi"}
+{"row_id": "G0041", "source_english": "Who is the child of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0043", "source_english": "Who founded the organization that the rank above the [ENTITY_A] is part of?", "target_language": "Hindi"}
+{"row_id": "G0045", "source_english": "Who is [ENTITY_A]'s child?", "target_language": "Hindi"}
+{"row_id": "G0051", "source_english": "Who is the exhibited creator of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0052", "source_english": "Which work describes [ENTITY_A]?", "target_language": "Hindi"}

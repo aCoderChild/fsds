@@ -1,0 +1,50 @@
+{
+  "answers_translated": false,
+  "batch_size": 8,
+  "device": "mps",
+  "generated_at_utc": "2026-11-03T04:44:37.552271+00:00",
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "blocked": 0,
+      "drafted": 148,
+      "failures": [],
+      "output_sha256": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "requested": 148
+    },
+    "fr": {
+      "blocked": 0,
+      "drafted": 148,
+      "failures": [],
+      "output_sha256": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "requested": 148
+    },
+    "hi": {
+      "blocked": 1,
+      "drafted": 147,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker omitted: ZXQENTAQXZ expected 1, found 0",
+          "sft_id": "0140-qa-sm:r2"
+        }
+      ],
+      "output_sha256": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "requested": 148
+    },
+    "th": {
+      "blocked": 1,
+      "drafted": 147,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker omitted: ZXQENTAQXZ expected 1, found 0",
+          "sft_id": "0022-qa-sm:r2"
+        }
+      ],
+      "output_sha256": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "requested": 148
+    }
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "source_requests_sha256": "b3caefe291ef1303bdb74b22cfa4b0ecfc4f697a27cfe150a8de225ee32bac40",
+  "status": "MACHINE_TRANSLATION_DRAFTS_PENDING_QWEN_CROSS_MODEL_SCREEN"
+}

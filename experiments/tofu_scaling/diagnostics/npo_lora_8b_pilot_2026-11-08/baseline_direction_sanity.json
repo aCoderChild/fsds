@@ -1,0 +1,24 @@
+{
+  "status": "PASS_BASELINE_DIRECTION_SANITY",
+  "scope": "Supplemental baseline-only direction check; not the preregistered NPO effect test.",
+  "not_preregistered_primary_test": true,
+  "protocol_id": "tofu_8b_npo_lora_pilot_v1",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+  "source_verification_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0",
+  "full_baseline_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+  "oracle_baseline_sha256": "7308eed28bdd7fbd6b05deaed707c0e8b86540ed6d1ab28374a1ff675aed61b9",
+  "metric": "forget10 truth_ratio_score; larger values indicate less distinction between paraphrased and perturbed answer likelihoods under the locked formula.",
+  "full_mean": 0.4734332034773024,
+  "retain90_oracle_mean": 0.640740942137616,
+  "oracle_minus_full_mean_delta": 0.1673077386603136,
+  "paired_profile_block_bootstrap_95pct_ci": [
+    0.1417100534348617,
+    0.1896113646050951
+  ],
+  "n_questions": 400,
+  "n_profile_blocks": 20,
+  "bootstrap_draws": 5000,
+  "bootstrap_seed": 42,
+  "interpretation": "The oracle baseline has a higher mean forget10 score than the full checkpoint. A positive NPO-minus-full change is directionally consistent with this oracle contrast, but alone does not establish that the NPO adapter moved closer to the oracle."
+}

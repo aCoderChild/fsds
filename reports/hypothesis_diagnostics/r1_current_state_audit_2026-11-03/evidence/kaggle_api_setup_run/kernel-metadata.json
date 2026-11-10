@@ -1,0 +1,22 @@
+{
+  "id": "bunnoob2005/experiments",
+  "id_no": 142224142,
+  "title": "experiments",
+  "code_file": "experiments.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "bunnoob2005/synthworlds-sm-r1-retrainfix-v4",
+    "bunnoob2005/synthworlds-sm-sft-pilot-v3"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4"
+}

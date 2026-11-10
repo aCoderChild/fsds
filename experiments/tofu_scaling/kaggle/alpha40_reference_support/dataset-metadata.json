@@ -1,0 +1,11 @@
+{
+  "title": "TOFU 3B Reference Eval Support Nov 2026",
+  "id": "bunnoob2005/tofu-3b-profile-alpha40-reference-2026-11-08",
+  "subtitle": "Compact verified baseline support; no model weights or training data",
+  "description": "Private support artifact for the preregistered post-hoc alpha=40 TOFU 3B NPO-LoRA follow-up. Contains only the frozen full-checkpoint profile evaluation JSON (400 forget, 800 retain, 400 holdout rows) and its provenance/hash manifest. Derived from the verified prior v3 archive with SHA-256 68b72db9abc1c6120e74397f3e495a97b2e2c3b1c1205f212408948136e45c02. No model weights, adapters, credentials, or trainable data are included. Also includes the prior independent alpha=20 verification receipt with a pinned hash.",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "VERIFIED_PIPELINE_INPUT_DIAGNOSTIC_PASSED",
+  "release_status": "NOT_A_RELEASE_GATE_OR_TRANSLATION_APPROVAL",
+  "interpretation": "The remote run used the production system prompt and input fields, but unconstrained generation returned a keyed JSON object rather than the production schema's decisions array. The local normalizer accepted only an exact one-key object with the expected ID and decision fields; raw output is preserved and hash-bound.",
+  "all_known_mismatches_rejected": true,
+  "rows": 16,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "d0a0ecd8ee0d424d52549c5a911b0c0b1deda2642c5c55e80e99912de5b47442",
+  "review_script_sha256": "300d3c71682310316c2d8aabe5659f01ad496fc23222e68550150e5120f0ef3c",
+  "submitted_script_sha256": "300d3c71682310316c2d8aabe5659f01ad496fc23222e68550150e5120f0ef3c",
+  "submitted_script_matches_local": true,
+  "normalizer_sha256": "3048f1a4c5b558e47ec9871c0d421b5121f47258bfcbc91228572a6ef0860f03",
+  "raw_remote_review_sha256": "769a5e8a2e2af69c80ffab7db97246193d3693808cf6433746007e8e1ea010d9",
+  "output_sha256": "49c407fc5fc2166dd63a590c8a7c183268a011c05aea1ed98a12536495118533",
+  "run_log_sha256": "fe3f92d4844fdc0b90e5d77fe446451f0ab525a1a95a3233066fab2bad9066bc",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "counts": {
+    "semantic_reject": 16,
+    "fluency_pass": 16
+  },
+  "semantic_results_by_language_and_kind": {
+    "de/atomic": {
+      "semantic_reject": 2
+    },
+    "de/composition": {
+      "semantic_reject": 2
+    },
+    "fr/atomic": {
+      "semantic_reject": 2
+    },
+    "fr/composition": {
+      "semantic_reject": 2
+    },
+    "hi/atomic": {
+      "semantic_reject": 2
+    },
+    "hi/composition": {
+      "semantic_reject": 2
+    },
+    "th/atomic": {
+      "semantic_reject": 2
+    },
+    "th/composition": {
+      "semantic_reject": 2
+    }
+  },
+  "accepted_known_mismatches": [],
+  "limitations": [
+    "The translations and back-translations are AI-screened, not human-gold.",
+    "The back-translation corresponds to the original positive English source while the reviewed source changes one relation/event phrase.",
+    "This tests rejection of relation-level mismatches with the production back-translation evidence; it does not establish real-corpus precision, recall, or fluency accuracy."
+  ]
+}

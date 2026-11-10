@@ -1,0 +1,118 @@
+{
+  "by_language_kind": {
+    "de/atomic": {
+      "chatgpt_structural_candidate": 108,
+      "flagged": 108,
+      "has_candidate_for_further_review": 108,
+      "translategemma_hash_bound_candidate": 87,
+      "translategemma_qwen7_pass_candidate": 77
+    },
+    "de/composition": {
+      "chatgpt_structural_candidate": 71,
+      "flagged": 71,
+      "has_candidate_for_further_review": 71,
+      "translategemma_hash_bound_candidate": 44,
+      "translategemma_qwen7_pass_candidate": 28
+    },
+    "fr/atomic": {
+      "chatgpt_structural_candidate": 117,
+      "flagged": 117,
+      "has_candidate_for_further_review": 117,
+      "translategemma_hash_bound_candidate": 73,
+      "translategemma_qwen7_pass_candidate": 53
+    },
+    "fr/composition": {
+      "chatgpt_structural_candidate": 47,
+      "flagged": 47,
+      "has_candidate_for_further_review": 47,
+      "translategemma_hash_bound_candidate": 32,
+      "translategemma_qwen7_pass_candidate": 18
+    },
+    "hi/atomic": {
+      "chatgpt_structural_candidate": 120,
+      "flagged": 120,
+      "has_candidate_for_further_review": 120,
+      "translategemma_hash_bound_candidate": 82,
+      "translategemma_qwen7_pass_candidate": 65
+    },
+    "hi/composition": {
+      "chatgpt_structural_candidate": 80,
+      "flagged": 80,
+      "has_candidate_for_further_review": 80,
+      "translategemma_hash_bound_candidate": 63,
+      "translategemma_qwen7_pass_candidate": 33
+    },
+    "th/atomic": {
+      "chatgpt_structural_candidate": 157,
+      "flagged": 157,
+      "has_candidate_for_further_review": 157,
+      "translategemma_hash_bound_candidate": 128,
+      "translategemma_qwen7_pass_candidate": 83
+    },
+    "th/composition": {
+      "chatgpt_structural_candidate": 99,
+      "flagged": 99,
+      "has_candidate_for_further_review": 99,
+      "translategemma_hash_bound_candidate": 77,
+      "translategemma_qwen7_pass_candidate": 40
+    }
+  },
+  "chatgpt_release_approved": false,
+  "chatgpt_structurally_valid_candidates": 799,
+  "chatgpt_training_eligible": false,
+  "final_flagged_rows": 799,
+  "flagged_rows_without_these_candidates": 0,
+  "input_hashes": {
+    "chatgpt_candidate_manifest": "3333f40b405ba0ce1dfaee3a56a79501d459be5a3a5acff2eace37f8f7768538",
+    "chatgpt_private_map": "7648962af276064d0447da4c8d1b5a39cde433677a9e2c6f1242eee4bb45552c",
+    "chatgpt_queue_validation": "7af1c943848fe538370d1d0c7513ab5c1d37551b2228fae06c1ff050722d4269",
+    "chatgpt_response_files": {
+      "de/batch_01.jsonl": "59d9e0b47da58ea8a55bb1886b377b8faaf9f31ec230e9c7df01e0f102ddde85",
+      "de/batch_02.jsonl": "b6db67286aa730e243bd0ca701a1746d29e3a939291aa3495fd90d2cfa0ce4fd",
+      "de/batch_03.jsonl": "24dc75372244760423561d21a41eee6d6679566ff7320836117b411cabfc1d0e",
+      "de/batch_04.jsonl": "5d2b15de3ae584bcb642ff3d3cfce48af8db0a4a10fb55e7fa624750ca1bf0bf",
+      "de/batch_05.jsonl": "aa8699a3c52df7e5cf5b61d9ed8e02a4b375011a7230b14f10f29632211deeb1",
+      "de/batch_06.jsonl": "fa275d2bb7be96e131f0eb85ee27b239e4133cb8b41986f41c74170ef5f220cd",
+      "fr/batch_01.jsonl": "cb3cd3c2761a5f75e72cfbc36f702fa9d4e68ee656a9212fe2b47843bd78701e",
+      "fr/batch_02.jsonl": "4356ddd08b81db71f05c799e20a8a815a7fe09664d2801279f3e95a5a03ff8dd",
+      "fr/batch_03.jsonl": "eaac49418f73b5c7882155c74ba1c4759b71d8fe3fc3626e255e8a61a48f0cd5",
+      "fr/batch_04.jsonl": "3e88f554a764b6eb45a6571973d790541c541909abefbe72c6d301454a2e554b",
+      "fr/batch_05.jsonl": "881be192aff1267b065d334820064ef1a24551578a1ad6c39349b2bc4e476193",
+      "fr/batch_06.jsonl": "3e8333cd3b1fd333d761246d1b241b3c065accee8bd2589d045b92a22d1d196b",
+      "hi/batch_01.jsonl": "1ba8e0b1a45a84d80012b8084b88c38e10a767e87baaa05ba1822de43158919c",
+      "hi/batch_02.jsonl": "3256004a4b09b6c78119bdc2b121317d24e46f4f3fd3677e535abdd81f83cf7f",
+      "hi/batch_03.jsonl": "4726a6769e82b216c26a7d78ee07ecf46f36c37cbcd11c78e944e523273704d4",
+      "hi/batch_04.jsonl": "c0c964fae7797a7d152bd0544ed054eb2b6af7207352b6463389d108bfa2f85c",
+      "hi/batch_05.jsonl": "60f9228d6914f3a262066b974f7f49e6cf27d980055561493b72595a04515753",
+      "hi/batch_06.jsonl": "3a58de40ae588b984ef2bbb3f6db93bb41ff8f9968e0eabe54d6c154411374e6",
+      "hi/batch_07.jsonl": "debf7a2d29c4d00f9ec5e4446c711134ab5ba06579fceb10bbc8d0a2b74e903f",
+      "th/batch_01.jsonl": "9fbc9abf23d0589f418f220053fad736315e45b439f4983df7c5bf1c1b380998",
+      "th/batch_02.jsonl": "6860e8750833e537aa85c85900743ecd04072fd4edb65d20726bf328ccad46af",
+      "th/batch_03.jsonl": "405e11eb8927c2a6fa4c340df866c315e0734a3ebbe090c718e3baac5a8f5c78",
+      "th/batch_04.jsonl": "1be4c6f8ca401b39e0b38bc935af767f810dbafea2635ecf02a45c0e7281d476",
+      "th/batch_05.jsonl": "f57166dada1bd079c12d9a6fde18ba77ab7bb35eebf17b8f7bcfa5828f012764",
+      "th/batch_06.jsonl": "7403dd50f84f7e6a33ec8f0b316b413216a6362b13e8e1e5e03ce00efbffd60d",
+      "th/batch_07.jsonl": "6378b0a9049fb40bd577d347d2bbb8012c2e5ba881a2fd83ca617a3a47efd63b",
+      "th/batch_08.jsonl": "c932f76c91f73aec1979fca29dfcc4ec3b5e67de4a1ba2a88a4447f1b4f3e45a"
+    },
+    "final_flag_files_by_language": {
+      "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "hi": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "th": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+    },
+    "translategemma_candidates": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+    "translategemma_report": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336"
+  },
+  "limitations": [
+    "Candidate availability and source binding are not translation-quality judgments.",
+    "TranslateGemma Qwen7B passes are preliminary and share a reviewer family with the primary screen.",
+    "ChatGPT responses are only structurally checked; backend model/version is not exposed.",
+    "No candidate in this audit is approved or training-eligible."
+  ],
+  "status": "VERIFIED_CANDIDATE_AVAILABILITY_ONLY_NOT_RELEASE",
+  "translategemma_hash_bound_flagged_candidates": 586,
+  "translategemma_qwen7_pass_candidates": 397,
+  "translation_quality_approved": false,
+  "union_of_qwen7_pass_tg_or_chatgpt_candidates": 799
+}

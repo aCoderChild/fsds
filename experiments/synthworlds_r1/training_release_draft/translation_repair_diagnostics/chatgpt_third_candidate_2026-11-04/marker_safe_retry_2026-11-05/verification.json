@@ -1,0 +1,36 @@
+{
+  "alias_backtranslation_rows": 15,
+  "alias_restored_but_qwen_not_run_rows": 15,
+  "answers_or_splits_sent": false,
+  "counts": {
+    "BLOCKED": 15,
+    "FLAG": 2,
+    "PASS": 1
+  },
+  "counts_by_language": {
+    "de": {
+      "BLOCKED": 3
+    },
+    "fr": {
+      "BLOCKED": 2
+    },
+    "hi": {
+      "BLOCKED": 8,
+      "FLAG": 2,
+      "PASS": 1
+    },
+    "th": {
+      "BLOCKED": 2
+    }
+  },
+  "format_retry_rows": 3,
+  "human_translation_reviewed": false,
+  "input_sha256": "5c4044643e876db21ce5979c7377f7e5745d7a18fec5d21fda15fa3177049849",
+  "interpretation": "Alias masking resolves a marker-integrity failure only. AI decisions are not human-gold and cannot approve training translations.",
+  "output_sha256": "49ef405a582c6af101a3293bdede84f88a1509f73256c9754e4b34412b468590",
+  "prior_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "release_approved": false,
+  "rows": 18,
+  "status": "VERIFIED_18_ROW_RETRY_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

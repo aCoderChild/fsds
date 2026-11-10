@@ -1,0 +1,13 @@
+{
+  "alias_retry_output_sha256": "49ef405a582c6af101a3293bdede84f88a1509f73256c9754e4b34412b468590",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "input_sha256": "ae9e971f55064f1d059cbd6cd4d61d2763c5eb78a123b1280eeaf08b2ffdeeda",
+  "interpretation": "Reuses the exact restored backtranslations from the alias retry after verifying source/candidate hashes and placeholder multisets; no NLLB rerun.",
+  "prior_187_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "release_approved": false,
+  "rows": 15,
+  "script_sha256": "e944cca7fb1086d626b71c137999006d1658a41e1b6e90e574de2f5ff8a09d7b",
+  "status": "PREPARED_15_ROW_QWEN_RETRY_NOT_APPROVAL",
+  "training_eligible": false
+}

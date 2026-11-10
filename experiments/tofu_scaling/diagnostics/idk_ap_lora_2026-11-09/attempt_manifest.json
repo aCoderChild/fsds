@@ -1,0 +1,116 @@
+{
+  "stage_id": "tofu_3b_idk_ap_lora_profile_diagnostic_v1",
+  "updated_at_utc": "2026-11-09T07:50:37.946790+00:00",
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_FAIL_GATE",
+  "confirmatory_result_available": false,
+  "kaggle": {
+    "kernel": "bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09",
+    "url": "https://www.kaggle.com/code/bunnoob2005/tofu-3b-idk-ap-lora-diagnostic-2026-11-09",
+    "version": 2,
+    "status": "COMPLETE",
+    "gpu_by_cohort": {
+      "dev": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "final": [
+        "Tesla T4",
+        "Tesla T4"
+      ]
+    }
+  },
+  "protocol": {
+    "path": "experiments/tofu_scaling/idk_ap_lora/idk_ap_lora_protocol.json",
+    "sha256": "650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049",
+    "alignment": "PASS_FOR_EXECUTED_IDK_AP_LORA_DIAGNOSTIC"
+  },
+  "model": {
+    "repo": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+    "architecture": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  "training": {
+    "method": "IDK+AP objective with LoRA",
+    "seed": 42,
+    "epochs": 5,
+    "optimizer_steps_per_cohort": 125,
+    "cohorts": [
+      "dev",
+      "final"
+    ]
+  },
+  "result": {
+    "status": "FAIL_DIAGNOSTIC_GATES",
+    "development_gates": "5/5 passed",
+    "final_gates": "4/5 passed",
+    "final_primary_forgetting_metric": {
+      "name": "Truth Ratio score",
+      "delta_pp": 2.027,
+      "ci95_pp": [
+        1.722,
+        2.316
+      ],
+      "gate": "PASS"
+    },
+    "final_retain_answer_probability": {
+      "delta_pp": -1.74,
+      "ci95_pp": [
+        -1.878,
+        -1.605
+      ],
+      "gate": "PASS"
+    },
+    "final_retain_rougeL_recall": {
+      "delta_pp": -3.058,
+      "ci95_pp": [
+        -5.11,
+        -0.993
+      ],
+      "gate": "FAIL",
+      "required_lower_bound_pp": "strictly greater than -5"
+    },
+    "final_holdout_answer_probability": {
+      "delta_pp": 2.207,
+      "ci95_pp": [
+        1.997,
+        2.417
+      ],
+      "gate": "PASS"
+    },
+    "limits": [
+      "One seed and LoRA adaptation; not an exact full-parameter reproduction.",
+      "Final profile blocks were used in earlier project pilots; project-level result is exploratory, not confirmatory.",
+      "IDK phrase string match was 0/200; this is not a semantic refusal assessment."
+    ]
+  },
+  "artifact": {
+    "path": "experiments/tofu_scaling/diagnostics/idk_ap_lora_2026-11-09/kaggle_run2/tofu_3b_idk_ap_lora_diagnostic.zip",
+    "bytes": 186305204,
+    "sha256": "0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3",
+    "crc": "PASS",
+    "verification_path": "experiments/tofu_scaling/diagnostics/idk_ap_lora_2026-11-09/kaggle_run2/LOCAL_VERIFICATION_RECHECK_CURRENT.json",
+    "verification_sha256": "740f7d49ff504e44b3c15f36f0180359b2bb8998261d105000c98c983df603f3"
+  },
+  "next_action": "Freeze this result. Do not retune or rerun on the inspected TOFU profiles; select and audit an untouched benchmark/cohort and pre-register its metrics, margins, seeds, and stopping rule before any GPU run.",
+  "diagnostic_result_available": true,
+  "cohort_independence": "Final TOFU profile blocks appeared in earlier project pilots; exploratory only.",
+  "posthoc_profile_consistency_audit": {
+    "status": "PASS_POSTHOC_PROFILE_RECOMPUTATION",
+    "path": "experiments/tofu_scaling/diagnostics/idk_ap_lora_2026-11-09/profile_consistency_posthoc.json",
+    "script": "experiments/tofu_scaling/diagnostics/idk_ap_lora_2026-11-09/audit_profile_consistency.py",
+    "sha256": "3fc724ecb10cd4cfe7f413a7ff512e3e62a78306e0f9d26389f12c75317835e1",
+    "gpu_used": false,
+    "multiple_testing_adjustment": false,
+    "interpretation": "Descriptive post-hoc profile consistency check; does not alter preregistered gates.",
+    "findings": {
+      "forget_truth_ratio_profiles_in_intended_direction": "10/10",
+      "forget_answer_probability_profiles_in_intended_direction": "10/10",
+      "retain_answer_probability_profiles_decreased": "20/20",
+      "retain_rougeL_profiles_decreased": "16/20",
+      "retain_rougeL_leave_one_profile_out_delta_pp_range": [
+        -3.5173777477022514,
+        -2.6619660976127073
+      ]
+    }
+  }
+}

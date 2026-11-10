@@ -1,0 +1,13 @@
+{
+  "status": "FAIL_HF_ACCESS_PREFLIGHT",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "scope": "HF_ACCESS_PREFLIGHT_ONLY",
+  "gpu_required": false,
+  "weights_downloaded": false,
+  "research_data_loaded": false,
+  "training_started": false,
+  "failed_stage": "download_and_validate_small_config",
+  "error_type": "GatedRepoError",
+  "http_status": 403,
+  "interpretation": "The Kaggle notebook retrieved HF_TOKEN and resolved repository metadata, but this token was denied access to config.json for the exact gated Llama 3.1 8B repository. No model weights or research data were downloaded; no training ran."
+}

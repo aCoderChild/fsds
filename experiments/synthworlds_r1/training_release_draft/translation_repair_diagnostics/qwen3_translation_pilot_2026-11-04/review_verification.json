@@ -1,0 +1,49 @@
+{
+  "answers_or_splits_sent": false,
+  "blocked": 3,
+  "counts_by_language": {
+    "de": {
+      "blocked": 1,
+      "flag": 2,
+      "pass": 1
+    },
+    "fr": {
+      "blocked": 1,
+      "flag": 2,
+      "pass": 1
+    },
+    "hi": {
+      "blocked": 0,
+      "flag": 2,
+      "pass": 2
+    },
+    "th": {
+      "blocked": 1,
+      "flag": 3,
+      "pass": 0
+    }
+  },
+  "flag": 9,
+  "human_translation_reviewed": false,
+  "input_sha256": "e2b120430cda89f777daacdd991270b5c97607bbd4781f21d929f56880b4a1fa",
+  "models": {
+    "nllb": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "qwen": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "note": "This is one AI-only semantic/fluency review with NLLB back-translation. It is diagnostic evidence, not human certification or corpus approval.",
+  "output_sha256": "006d8923f1641de7a0eb4afada228e102854017efcf2e02ebe26df5d2d2284cc",
+  "pass": 4,
+  "pulled_kaggle_review_script_matches": true,
+  "pulled_kaggle_review_script_sha256": "69fc8acef3be76e7242c7b0ffd2c995f38a43968b2782d6da1787058b518a93e",
+  "release_approved": false,
+  "review_script_sha256": "69fc8acef3be76e7242c7b0ffd2c995f38a43968b2782d6da1787058b518a93e",
+  "rows": 16,
+  "status": "VERIFIED_QWEN14_NLLB_SCREEN_WITH_BLOCKED_ROWS_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

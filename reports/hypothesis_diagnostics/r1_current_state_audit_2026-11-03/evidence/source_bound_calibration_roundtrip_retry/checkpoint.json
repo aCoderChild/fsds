@@ -1,0 +1,1392 @@
+{
+  "answers_sent_to_reviewer": false,
+  "human_translation_reviewed": false,
+  "identity": {
+    "adjudication_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "model_digests": {
+      "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "prior_checkpoint_sha256": "ca160c4a0e7aa888dfc1966df4a121e7a284848c701a9ba60bbc4818e2ee4b1c",
+    "prior_report_sha256": "315e38656e9c42e8835fa7738c0db6495f4200fefd2f5ad1c92da1c57ce4b419",
+    "roundtrip_script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af",
+    "script_sha256": "26a139cd79de84c39589f5e69752640df62966d75de28489d8ec3eed0a8754e4",
+    "source_decisions_sha256": "5c844f52a83a0fc19f9c1fc28fe415ebcafe6e1bb11a943a7094f96b2cf43908",
+    "source_report_sha256": "1c9d0e63cca3e4950453b4a2f3f40467fd1214d73c4e177a72e201e1b5b32325",
+    "verifier_sha256": "98bd822dadf41a397f1a92a36340d08ac516314688d45237ccb65348ae1a815f"
+  },
+  "records": [
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What did Eternal Reign replace?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "6a46b0a11436d7e19756f6d9c0d761d17def45e6ecb0a6b9e57cab5304f41aa2",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "atomic",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "0134-qa-sm:r1",
+      "protected_entity_names": [
+        "1972-01-01",
+        "Caladorn",
+        "Eternal Reign",
+        "Renaissance Harbor"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translation is semantically equivalent and fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and clear."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, different wording."
+        }
+      },
+      "source_sha256": "a27ce7e67f12e134073e3f42274ad30c9ed85954337e39ca71e69ff717ea4c33",
+      "text_en": "What did Eternal Reign replace?",
+      "text_translation": "Eternal Reign a-t-il remplacé quoi ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is Calix Silverwood the godfather of?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "63126c91f2a49e21c8e5d999e206b8ac0a331123bf3ad91c33b43526884f0d54",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "0050-qa-sm:r1",
+      "protected_entity_names": [
+        "Calix Silverwood",
+        "Elian Calyssar",
+        "Lysandra Myralun",
+        "Thalendria",
+        "Vespera Liora Thorne"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation uses 'godfather' instead of the source's 'godparent', changing gender specificity.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and clear."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different relation: godparent vs. godfather."
+        }
+      },
+      "source_sha256": "7c773f9a29a023d1267bbd2e5620883e16ff1ca0cddc66cdced67b46c63af0e5",
+      "text_en": "Who is Calix Silverwood the godparent of?",
+      "text_translation": "Calix Silverwood est-il le parrain de qui ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What evaluation method was used to evaluate Eldoria Chronicles: The Celestial Saga?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "26e1e7fb75bbce3fa3dc799f8bc94a1723cf15120a8406e987cf7dcf9f2141c5",
+      "diagnostic_status": "14B_ADJUDICATED_PASS",
+      "kind": "atomic",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0172-qa-sm:r2",
+      "protected_entity_names": [
+        "Arcane Legends",
+        "Eldoria Chronicles: The Celestial Saga",
+        "Galactic Sentinel",
+        "VoiceMatrix"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The translation is semantically equivalent and fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and clear."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different answer type: assessment vs. evaluation method."
+        }
+      },
+      "source_sha256": "27baf29752ca1232f809faa53bba2e351382d8a66174950a048003fdc2cb31fd",
+      "text_en": "What assessment was used to evaluate Eldoria Chronicles: The Celestial Saga?",
+      "text_translation": "Quelle méthode d'évaluation a été utilisée pour évaluer Eldoria Chronicles: The Celestial Saga ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "When did Thundralis become part of Jorathia Clarity Alliance?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "9d661eaad2bf4ccbf2718bd00bc947d140778b6f1684efe692fa906933bb26d3",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "atomic",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0014-qa-sm:r2",
+      "protected_entity_names": [
+        "2031-05-07",
+        "Celestia Confederation",
+        "Council of Allied Sovereignties",
+        "Fortress of Nations",
+        "Global Investment Authority",
+        "Global Network for Civic Engagement",
+        "Global Partnership Bank",
+        "Global Progress Fund",
+        "Global Security Coalition",
+        "Global Sovereignty Alliance",
+        "Insightful Pathways Institute",
+        "Intercontinental Unity Organization",
+        "Intergovernmental Partnership Initiative",
+        "Jorathia Clarity Alliance",
+        "SyncSphere",
+        "Thundralis",
+        "Universal Peace Coalition",
+        "Xylphoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The translation is semantically equivalent and fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and clear."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question and relation."
+        }
+      },
+      "source_sha256": "b02be38589d2f1d252d255d909369cbf1bca165c6166ef50d633d1664b46e361",
+      "text_en": "When did Thundralis become part of the Jorathia Clarity Alliance?",
+      "text_translation": "Quand Thundralis est-il devenu partie de Jorathia Clarity Alliance ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "To which class does Twilight Pendant belong, given that it is a subclass?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "5c9bff64d8b921157e34a2180a84dfab6f21558162330b778bec7325a21d083b",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "composition",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "protected_entity_names": [
+        "Celestial Knightly Ascendancy",
+        "Fellowship of the Enchanted Realm",
+        "Order of the Celestial Compass",
+        "Twilight Pendant"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translation accurately conveys the source question's meaning and is fluent in French.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "same relation direction"
+        }
+      },
+      "source_sha256": "3ca5cf9438b9d16e6c1a7528ec877d7d6131a8760a04d37b37ad6a05eec49f16",
+      "text_en": "Of what class is the Twilight Pendant a subclass?",
+      "text_translation": "La Twilight Pendant appartient-elle à quelle classe, étant une sous-classe ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is the parent of Adel Zoltan? (Assuming 'parent' refers to a spouse or legal guardian)",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "c97975327d6936d9a73f9eda36af5a3bb9dc67a99b3d61953208b4d251b244a0",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "protected_entity_names": [
+        "Adel Zoltan",
+        "Adelzo Thornfield",
+        "Velorian",
+        "Xyldari"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The back-translation does not correctly reflect the original query about a stepparent; it incorrectly refers to a parent without specifying step relationship.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "different stepparent to parent"
+        }
+      },
+      "source_sha256": "6bb34b05a77eaf8b5d0d676478a56fb20e1a378d1a96519ab775c647f879a9f6",
+      "text_en": "Who is Adel Zoltan's stepparent?",
+      "text_translation": "Qui est le/la beau-parent(e) de Adel Zoltan ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What is the last name of the entity that immediately follows the last name of Nerythia Monrroy?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "6f1aa063a0f83a5962df3ac31a5a3d27234ea730b473ea59a7a10bfe2f6d1112",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "protected_entity_names": [
+        "Galdrin",
+        "Nerythia Monrroy",
+        "Reed-Campbell",
+        "Valencrest"
+      ],
+      "qwen14": {
+        "fluency_pass": false,
+        "key": "ROW_002",
+        "reason": "Contains non-French text ('фамилия') and misinterprets 'family name' as a direct translation of 'follows', which is not clear in context.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Contains non-French characters."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "changed 'immediately follows' to direct question"
+        }
+      },
+      "source_sha256": "efd36b3d984cdb923769b0233d05de73a647a417f241b26c242e27f8aec10381",
+      "text_en": "What is the family name of the entity that immediately follows the family to which Nerythia Monrroy belongs?",
+      "text_translation": "Quelle est la фамилия de l'entité qui suit immédiatement la фамилия à laquelle appartient Nerythia Monrroy ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What is the surname of Valencrest?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "46c555d5b2ba2839be1185c42978b52c5753319b3921f4b42eebef458735f5c4",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "composition",
+      "language": "fr",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "protected_entity_names": [
+        "Galdrin",
+        "Nerythia Monrroy",
+        "Reed-Campbell",
+        "Valencrest"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The translation accurately conveys the source question's meaning and is fluent in French.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "same family name query"
+        }
+      },
+      "source_sha256": "98540d9f6ee26c0258915b603fd910f0154ea59151d0e17fda053e4b6c9e33ca",
+      "text_en": "What is Valencrest's family name?",
+      "text_translation": "Quel est le nom de famille de Valencrest ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is the publisher of Version Vault?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "9b432f036d6a5beb783edd5b0ebf891be97ca7f6802b63f83e3881c783f55187",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0169-qa-sm:r1",
+      "protected_entity_names": [
+        "1969 (year)",
+        "Commonwealth Academic Excellence Award",
+        "Version Vault",
+        "Vyndel Amparo",
+        "public domain"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation uses 'publisher' instead of 'editor', changing the meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Publisher vs editor"
+        }
+      },
+      "source_sha256": "6538c833b2910f6df5947ee4aa84c9c1b3af614825498600fe1d076863513d68",
+      "text_en": "Who is the editor of Version Vault?",
+      "text_translation": "Wer ist der Herausgeber von Version Vault?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What is the native language spoken by Ardentia?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "ca85cab0abda25dd1ca90419448ed9ab791628c23226734eb005b767e058f896",
+      "diagnostic_status": "14B_ADJUDICATED_PASS",
+      "kind": "atomic",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0035-qa-sm:r2",
+      "protected_entity_names": [
+        "Ardentia",
+        "Malquari",
+        "Qasthirians",
+        "Yloria Francois"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Both semantic and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Language vs speaker"
+        }
+      },
+      "source_sha256": "6019c81e934e35fd01e203a97a2e9faeadcc322ffda8266e7dbdeac2f987dfa2",
+      "text_en": "What is the native language of Ardentia?",
+      "text_translation": "Welche Sprache ist die Muttersprache von Ardentia?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who was a student or researcher associated with Tamsin Rivers?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "4c281830ca446e969f97d6e2c0444dc9c1e67d8600e34ddc4e93f80e1bd931cf",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0196-qa-sm:r1",
+      "protected_entity_names": [
+        "Braxton",
+        "Tamsin Rivers",
+        "Ulwyn Bayne",
+        "Yates Merrick Thompson",
+        "Zyvra Gerber"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Back-translation is too vague and changes the meaning from doctoral student to a more general researcher/student role.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Student vs associated"
+        }
+      },
+      "source_sha256": "921464bee1c7288ac7d47511ef49bfc54eea5f1bdf0b21688b0ac9e738721fb9",
+      "text_en": "Who was a doctoral student of Tamsin Rivers?",
+      "text_translation": "Wer war ein Doktorand von Tamsin Rivers?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "In which publication or work does Knight Aerion appear?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "0bdd921f725d6002d4213031074d10b14eda4e3e9e3e562ce87514aeb86aa137",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "atomic",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0152-qa-sm:r2",
+      "protected_entity_names": [
+        "Alaric Thornewood",
+        "Chimeric Viceroy",
+        "Dreamt Compilation",
+        "Knight Aerion"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Both semantic and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same type of question"
+        }
+      },
+      "source_sha256": "a34d0530ee2702b71242c638ebab01d8c2444f259f12cdba46361cbbf9da7f30",
+      "text_en": "In what work is Knight Aerion described?",
+      "text_translation": "In welchem Werk wird Knight Aerion beschrieben?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What political office does the head of state hold in a country that replaces the state and whose capital is Opal City?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "11b4bd5b6f4afa85d073dfddfffb4d47b244cc2f5c843242bb94c621b8afb064",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "protected_entity_names": [
+        "Crystalis",
+        "Grand Duke of Rithoria and the Federated Realms",
+        "Opal City",
+        "Rithoria-Commonwealth"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The back-translation changes the meaning; it incorrectly suggests a single country replacing another state, rather than asking about an office in the successor state's government.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, changed order."
+        }
+      },
+      "source_sha256": "3b3ee566e6446c098a43f1c378974165c92b7d67e5f1aa2180ee00afad7db409",
+      "text_en": "Which political office of the state that replaced the country whose capital is Opal City is held by its head of state?",
+      "text_translation": "Welche politische Funktion im Staat, der den Staat ersetzt und dessen Hauptstadt Opal City ist, bekleidet sein Staatsoberhaupt?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Which work is part of Secrets of the Ancients?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "d67084025180bef9e70aa0dc9ae4638792dc39d269daa7a65e1353601bf60111",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "composition",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "protected_entity_names": [
+        "Chronicles of the Lost Civilization",
+        "Fyntra Flow",
+        "Secrets of the Ancients",
+        "Xander"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Both semantic and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Same question, minor rephrasing."
+        }
+      },
+      "source_sha256": "53b837bd2e8855c093e1001ab3915a02cd42a39a0ed502f4f4ea0db56f91432b",
+      "text_en": "Which work is a part of Secrets of the Ancients?",
+      "text_translation": "Welches Werk ist ein Teil von Secrets of the Ancients?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is the stepfather of Glynor Rutherford?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f77137d2b4b0700f17d79c3ea1dfbb48ae195732086a1a285fdf4e868943647c",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "protected_entity_names": [
+        "Alessandro Zoltari",
+        "Delphina Orimund Shyr",
+        "Glynor Rutherford",
+        "Zolterra"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The back-translation specifies 'stepfather' instead of the general term for stepparent; it changes the answer type from any stepparent to a specific one.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Unlesbar, englische Phrase."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different relation (stepparent vs stepfather)."
+        }
+      },
+      "source_sha256": "919df8ed7f0a26d78d5220c22f5692e8126a50ea3fa5b7d592c3187ec07ad30f",
+      "text_en": "Who is Glynor Rutherford's stepparent?",
+      "text_translation": "Wer ist der Stiefeltern von Glynor Rutherford?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Which work is mentioned/referenced by The Phantom Archives?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "7f0f180b85fa958c7f85bee2938ca956b5c7112e67ea7edb9bea7894ece818d7",
+      "diagnostic_status": "TWO_MODEL_PASS",
+      "kind": "composition",
+      "language": "de",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "protected_entity_names": [
+        "Gwendal Truax",
+        "The Phantom Archives",
+        "The Shattered Illusion",
+        "The Shattered Labyrinth: A New Path"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Both semantic and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatisch korrekt."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Equivalent paraphrase."
+        }
+      },
+      "source_sha256": "3c468fe6e3cb76585289f82483b338aa79c5a072ac3612ab6006732c8c8f918c",
+      "text_en": "Which work does The Phantom Archives reference?",
+      "text_translation": "Welches Werk wird von The Phantom Archives erwähnt/referenziert?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "In which activity does Lighthaven appear?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "d98b330906290d3ba6640fd136668d7506c21506646f4cde4cfdafc0e07e8f7f",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0046-qa-sm:r2",
+      "protected_entity_names": [
+        "Falthoria",
+        "Lighthaven",
+        "Lumeria",
+        "Luminara",
+        "Nebula Quest",
+        "Vesperbrook"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation indicates 'activity' instead of 'work', changing the scope and context.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different activity"
+        }
+      },
+      "source_sha256": "db6b0de03704191616c05a87815b77d8044bcb88ef45f9b8902abd91e615449d",
+      "text_en": "In which work does Lighthaven appear?",
+      "text_translation": "Lighthaven किस कार्य में दिखाई देता है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "In what area of work does Nexus Learning Society operate?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "3413bc9d0a801575df72271d389b3906bb4e364e187dc9163817bd9212fd488d",
+      "diagnostic_status": "14B_ADJUDICATED_PASS",
+      "kind": "atomic",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0092-qa-sm:r2",
+      "protected_entity_names": [
+        "Cognition Coalition",
+        "Frontier Society of Research",
+        "Illyndra",
+        "Institute of Artistry and Design",
+        "Menara Carrizales",
+        "Nexus Learning Society",
+        "Sablemere Union of Sovereign States"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Both semantic meaning and fluency are correct.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Area vs. activity"
+        }
+      },
+      "source_sha256": "da4f0af290ce815dec9b563b47a195e6cf740cb387add93cacf724136d5aac1f",
+      "text_en": "In which area does the Nexus Learning Society operate?",
+      "text_translation": "Nexus Learning Society किस क्षेत्र में काम करता है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What is the boundary or scope of Mystic Deep?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "e30648fb781e072b1912c78d7ecb6571960937d29a390bb3e039e9a24e801894",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0072-qa-sm:r1",
+      "protected_entity_names": [
+        "Mystic Deep",
+        "Nystoria",
+        "Valtoria",
+        "Valtorian Sylvaterra"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Back-translation misinterprets the question as asking about the boundary itself rather than what is on it.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "Untranslated English."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Boundary vs. scope"
+        }
+      },
+      "source_sha256": "789ad569bae918e7e773c3c4a2af933ee07098b03e33cf368e3fc167c7209e65",
+      "text_en": "What is on the boundary of Mystic Deep?",
+      "text_translation": "Mystic Deep की सीमा पर क्या है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What activity is Luntru described in?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f4bc901ca2852f9b2937db023f20fe319ab0a2ccfc1b855d4a09694b22ef65ca",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0078-qa-sm:r2",
+      "protected_entity_names": [
+        "Legendarium",
+        "Luntru",
+        "Pheris Keaton",
+        "Quolmar"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Back-translation indicates a change in context from 'work' to 'activity', altering scope and meaning.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Described vs. activity"
+        }
+      },
+      "source_sha256": "6d737bff8e2a69239d4115658c6b4bc89a0c2dfd62887489b2c4ba1d0aa7c919",
+      "text_en": "In which work is Luntru described?",
+      "text_translation": "Luntru किस कार्य में वर्णित है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who founded the organization ranked above Golden Vanguard Class?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "cf2376baa302abbc306fdcedd1b57d24cce8a6ba75d72b62eefdfe3c661c4472",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "protected_entity_names": [
+        "Draxen Schiff",
+        "Everlasting Tribute",
+        "Golden Vanguard Class",
+        "Sovereign's Luminary Grade"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The back-translation does not match the original source question's meaning; it asks about a rank above [ENTITY_[NUMBER_1]], whereas the source asks about an organization that has a rank above [ENTITY_[NUMBER_1]].",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Lost relation direction"
+        }
+      },
+      "source_sha256": "524902ed5e0dd2f3ee75fa0ddd6a54ec7a9de6e99c9f1deffcae906ed8c742c5",
+      "text_en": "Who founded the organization that the rank above the Golden Vanguard Class is part of?",
+      "text_translation": "Golden Vanguard Class से ऊपर की रैंक वाले संगठन की स्थापना किसने की थी?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Which part of Secrets of the Ancients is a component of?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "cc9849fba420364095e6eb5260c91df678fcf96e782fc7cf31d7a5550a3aefed",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "protected_entity_names": [
+        "Chronicles of the Lost Civilization",
+        "Fyntra Flow",
+        "Secrets of the Ancients",
+        "Xander"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The back-translation does not match the original source question's meaning; it asks which part of [ENTITY_[NUMBER_1]] is a component of something else, whereas the source asks which work is a part of [ENTITY_[NUMBER_1]].",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed answer type"
+        }
+      },
+      "source_sha256": "53b837bd2e8855c093e1001ab3915a02cd42a39a0ed502f4f4ea0db56f91432b",
+      "text_en": "Which work is a part of Secrets of the Ancients?",
+      "text_translation": "Secrets of the Ancients का कौन सा काम एक हिस्सा है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who are the editors of Tides of Ink?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "2529a9dbef382456c112be23dd7ad53df89edcea2b3ca65220dc86ef40d8f01d",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0218-qa-sm:q2",
+      "protected_entity_names": [
+        "Aria Morvane",
+        "Elara Morvane",
+        "Thalric Kytarathian Ravenshadow",
+        "Tides of Ink"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The back-translation does not match the original source question's meaning; it asks who are the editors of [ENTITY_[NUMBER_1]], whereas the source asks who is the editor (singular).",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different scope"
+        }
+      },
+      "source_sha256": "c7b4f64eaabf2d857c763317bf6d5d8c23dcd5166886fba75ad41e9bad1f78d8",
+      "text_en": "Who is the editor of Tides of Ink?",
+      "text_translation": "Tides of Ink के संपादक कौन हैं?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who are the guardians or overseeing bodies of Caelan Asterwood?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "b8ff687f80e9aad6fd7fcea60fc2342ec1f0aa0129d2dcf57856396d06a8eae8",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "hi",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "protected_entity_names": [
+        "Adeline Thornfield Smith",
+        "Caelan Asterwood",
+        "Feryndal Kohl",
+        "Varyndoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The back-translation does not match the original source question's meaning; it asks who are the guardians or overseeing bodies of [ENTITY_[NUMBER_1]], whereas the source asks who is [ENTITY_[NUMBER_1]]'s godparent (singular).",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatical and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Clear change"
+        }
+      },
+      "source_sha256": "7378b5cefd4b0ae22a7efcc2997b7e8a3e8463a6a9f61f17c9d97fed92bfd7aa",
+      "text_en": "Who is Caelan Asterwood's godparent?",
+      "text_translation": "Caelan Asterwood के अभिभावक कौन हैं?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What is the physical characteristic of Tharavon?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "c40421ac7e560f27560b192b869cc09f6fbdc67f24c60f38eff8b7559268bdc2",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "th",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0044-qa-sm:r2",
+      "protected_entity_names": [
+        "Fendril",
+        "Lunaris Vespera",
+        "Mercuria",
+        "Myrthia",
+        "Pendoria",
+        "Solara Archipelago",
+        "Tharavon",
+        "Valtarian Luntrish"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation asks about characteristics instead of location.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed relation direction."
+        }
+      },
+      "source_sha256": "a036036fb6ffd1c834502c7953714c961a0fcb6eb1506f55a1a89c84bc5608be",
+      "text_en": "On which physical feature is Tharavon located?",
+      "text_translation": "Tharavon ตั้งอยู่บนลักษณะทางกายภาพใด?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "What are the terms or pronouns used to refer to Alaric Thornewood?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "eec4ee5a38b816396da0b560a393b221d86a4ce12deb993c6ea27d3139395581",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "th",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "0152-qa-sm:r1",
+      "protected_entity_names": [
+        "Alaric Thornewood",
+        "Chimeric Viceroy",
+        "Dreamt Compilation",
+        "Knight Aerion"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation asks for terms or pronouns rather than a single honorific prefix.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different answer type."
+        }
+      },
+      "source_sha256": "b5bcbe8c885796312bfaa0eed217448e6e18c1607ee937641441c8166e74d075",
+      "text_en": "What honorific prefix is used for Alaric Thornewood?",
+      "text_translation": "คำสรรพนามที่ใช้เรียก \"Alaric Thornewood\" มีอะไรบ้าง?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Where did the language Myrathian originate from?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "191bf40d1eacd95b2af0421990aef4c911b3b7d298ee78980caf239b72bd8968",
+      "diagnostic_status": "14B_ADJUDICATED_PASS",
+      "kind": "atomic",
+      "language": "th",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0115-qa-sm:r2",
+      "protected_entity_names": [
+        "Cynvelthar",
+        "Kaldren Sythorix",
+        "Myrathian",
+        "Vyradon"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "Both source and back-translation ask about the origin of the language correctly.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Lost scope and relation direction."
+        }
+      },
+      "source_sha256": "9ae47bef59adc1ac06942dd2e456ff3883a63670910c217a3f3e34cbbe773735",
+      "text_en": "Where is the Myrathian language indigenous to?",
+      "text_translation": "ภาษา Myrathian นั้นมีต้นกำเนิดที่ไหน?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who operates or manages Caspian Frost?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "5b742d4567adb7216ced882c9adf146f3e295d6208cae05819bf67dfb79dca9f",
+      "diagnostic_status": "FLAGGED",
+      "kind": "atomic",
+      "language": "th",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "0055-qa-sm:r1",
+      "protected_entity_names": [
+        "Caspian Frost",
+        "Pyraen Vest",
+        "Velthar",
+        "Xian Concha"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "Back-translation asks who operates or manages instead of who performed.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammar correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed entity role."
+        }
+      },
+      "source_sha256": "c7b6ca12b73d958784a9e92d65114f3cae6e27da6d86c60ed8774344a01b108e",
+      "text_en": "Who performed Caspian Frost?",
+      "text_translation": "ใครเป็นผู้ดำเนินการ Caspian Frost?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is the father of the person who created the name \"Ivrys Pineiro\"?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "35575cee299ea8d1894c3efa6ecc505efb3f441a98d04d338c189991ff44ecd3",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "th",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "protected_entity_names": [
+        "Delyndra Mccall",
+        "Ivrys Pineiro",
+        "Lorthan Kaushik",
+        "Rynesta"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The back-translation asks about who created a name rather than a noble title.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "句法正确，意义自然。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed relation direction."
+        }
+      },
+      "source_sha256": "610523b5ccc1234dabbbc19b67cccecab505b501b92e579cd39f037aa529125d",
+      "text_en": "Who is the father of the creator of the noble title held by Ivrys Pineiro?",
+      "text_translation": "ผู้เป็นบิดาของบุคคลที่สร้างชื่อ \"Ivrys Pineiro\" ขึ้น"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who are the parents or guardians of the person named Caelan Asterwood?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "9ddf8483337321b9a17f6053f25a1a8542c0061c3b3fdd753fa1a882e64a63a9",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "th",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "protected_entity_names": [
+        "Adeline Thornfield Smith",
+        "Caelan Asterwood",
+        "Feryndal Kohl",
+        "Varyndoria"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The back-translation asks about parents or guardians instead of godparent.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "句法正确，意义自然。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "godparent != parents/guardians."
+        }
+      },
+      "source_sha256": "7378b5cefd4b0ae22a7efcc2997b7e8a3e8463a6a9f61f17c9d97fed92bfd7aa",
+      "text_en": "Who is Caelan Asterwood's godparent?",
+      "text_translation": "Caelan Asterwood มีพ่อแม่เลี้ยงดู (หรือผู้ที่รับเป็นผู้ปกครอง) เป็นใคร?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Who is Noxen Myralun Luminara married to?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "e62541f21c5c33b49f560d897b95823673cac3788b6f69ffa19f5536569d94ab",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "th",
+      "preliminary_direct_qwen_pass": false,
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "protected_entity_names": [
+        "Emissary of the Silver Crescent",
+        "Noxen Myralun Luminara",
+        "The Palace of Reflections",
+        "Zelwyn Elsayed"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_002",
+        "reason": "The translated question incorrectly states that [ENTITY_[NUMBER_1]] is married rather than asking about an unmarried partner.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "句法正确，意义自然。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "unmarried partner != married to."
+        }
+      },
+      "source_sha256": "bbd4372c9d0074d90c9279248f06c2e812cdc8a30796b794cf5dba786200cb8b",
+      "text_en": "Who is the unmarried partner of Noxen Myralun Luminara?",
+      "text_translation": "Noxen Myralun Luminara นั้นแต่งงานแล้วกับใคร?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "no_marker_remains": true,
+        "nonempty": true,
+        "source_entity_names_preserved_with_multiplicity": true,
+        "source_numbers_preserved_with_multiplicity": true
+      },
+      "backtranslation_en": "Where does the mother of the person that Kynara Mosqueda works for live?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "4ef4bd6314c1fb0750e9e7da953c8664a4f83a66e1d57565396d94451f9d7813",
+      "diagnostic_status": "FLAGGED",
+      "kind": "composition",
+      "language": "th",
+      "preliminary_direct_qwen_pass": true,
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "protected_entity_names": [
+        "Heavenly Embrace Cathedral",
+        "Kynara Mosqueda",
+        "Selantra Crenshaw",
+        "Varlyn Bayona"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_003",
+        "reason": "The back-translation asks where the mother lives instead of where she is buried.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "缺少主语。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "buried != lives"
+        }
+      },
+      "source_sha256": "a4504a50f81c1edda7836f86bce7079db62600bd927d7a317403e458bd4dba24",
+      "text_en": "Where is the mother of the person Kynara Mosqueda works for buried?",
+      "text_translation": "แม่ของคนที่ Kynara Mosqueda ทำงาน อยู่ที่ไหน?"
+    }
+  ],
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

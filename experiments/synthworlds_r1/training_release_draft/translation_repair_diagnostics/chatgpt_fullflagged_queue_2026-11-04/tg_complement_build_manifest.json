@@ -1,0 +1,25 @@
+{
+  "answers_or_splits_in_remote_input": false,
+  "chatgpt_merge_sha256": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+  "counts_by_language": {
+    "de": 34,
+    "fr": 13,
+    "th": 28
+  },
+  "deterministic_exclusions": 92,
+  "human_translation_reviewed": false,
+  "input_compact_array_sha256": "53c3c0abc151fe1a0b5f7b2b089bf3c5fbbed1e8db068da6149f18e518fe437d",
+  "input_jsonl_sha256": "dc0a022f27cf062bb599e3b4066b5f525e5ee7d314ef395fb0607110d466146a",
+  "kernel_id": "bunnoob2005/synthworlds-r1-tg-complement-review-v1",
+  "limitation": "This is a standardized AI-only candidate screen; no row is approved for training by this queue.",
+  "mode": "tg_qwen7_complement_v1",
+  "preliminary_complement_rows": 167,
+  "private_map_sha256": "d187bd9376c8911eb05113c1b793a978f860093f3414a8c331b53d359984cbec",
+  "private_map_uploaded": false,
+  "release_approved": false,
+  "review_script_sha256": "d51ec72aeacc952054c33c61b650151edf5bfdc98da7c3c67b69b3bc2d27e4d0",
+  "rows": 75,
+  "selected_rule": "TG deterministic+Qwen7 preliminary pass AND ChatGPT/NLLB/Qwen14 diagnostic is not pass",
+  "status": "MASKED_TG_COMPLEMENT_REVIEW_READY_NOT_APPROVED",
+  "tg_candidate_file_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+}

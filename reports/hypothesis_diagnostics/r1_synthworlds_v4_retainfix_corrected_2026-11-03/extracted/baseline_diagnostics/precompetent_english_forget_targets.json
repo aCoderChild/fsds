@@ -1,0 +1,53 @@
+{
+  "status": "SFT_PRECOMPETENT_ENGLISH_FORGET_TARGETS",
+  "language": "en",
+  "split": "forget",
+  "selection_rule": "SFT direct and full multi-hop answers both correct in English",
+  "selected_source_qa_ids": [
+    "0009-qa-sm",
+    "0010-qa-sm",
+    "0017-qa-sm",
+    "0036-qa-sm",
+    "0037-qa-sm",
+    "0052-qa-sm",
+    "0053-qa-sm",
+    "0061-qa-sm",
+    "0098-qa-sm",
+    "0132-qa-sm",
+    "0156-qa-sm",
+    "0169-qa-sm",
+    "0172-qa-sm",
+    "0177-qa-sm",
+    "0178-qa-sm"
+  ],
+  "baseline_gate_status": "FAIL",
+  "pilot_gate_thresholds": {
+    "minimum_matched_cases_per_language": 15,
+    "minimum_entity_groups_per_language": 8
+  },
+  "bilingual_counts_by_language": {
+    "fr": {
+      "bilingual_precompetent_cases": 10,
+      "entity_groups": 6
+    },
+    "de": {
+      "bilingual_precompetent_cases": 9,
+      "entity_groups": 5
+    },
+    "hi": {
+      "bilingual_precompetent_cases": 9,
+      "entity_groups": 6
+    },
+    "th": {
+      "bilingual_precompetent_cases": 11,
+      "entity_groups": 7
+    }
+  },
+  "source_corpus_sha256": "2b2119939fe133286d2a70de1f405dc0227332f9615d87bb92c1e65b76f3d95c",
+  "sft_run_manifest_sha256": "4a08c46bb041ad4235cb9d31a5f54cd0c3ef1cc1d1451e0ba28b00e3b424224c",
+  "sft_adapter_dir": "/kaggle/working/r1_composition_sft_v4_3355/adapter",
+  "case_metrics_path": "/kaggle/working/r1_composition_diagnostics_v4_3355/case_metrics.jsonl",
+  "case_metrics_sha256": "19771eea69c63404015fd3b1119926eea97551ca0d08cd11fcecdffe3121020e",
+  "human_reviewed": false,
+  "translation_review_mode": "AI_ONLY"
+}

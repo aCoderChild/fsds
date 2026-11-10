@@ -1,0 +1,35 @@
+Translate each English question into natural French. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"FR0129","question_en":"What position has ZXQENTAQXZ held?"}
+{"row_id":"FR0130","question_en":"What is the ZXQENTAQXZ part of?"}
+{"row_id":"FR0131","question_en":"Which work expands the plot of ZXQENTAQXZ?"}
+{"row_id":"FR0132","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"FR0133","question_en":"Who does ZXQENTAQXZ work for?"}
+{"row_id":"FR0134","question_en":"Who is ZXQENTAQXZ different from?"}
+{"row_id":"FR0135","question_en":"Who does the teacher of ZXQENTAQXZ's father differ from?"}
+{"row_id":"FR0136","question_en":"Who is the rector of ZXQENTAQXZ?"}
+{"row_id":"FR0137","question_en":"Who was the doctoral advisor of the rector of ZXQENTAQXZ's employer?"}
+{"row_id":"FR0138","question_en":"What honorific prefix is used before ZXQENTAQXZ's name?"}
+{"row_id":"FR0139","question_en":"What honorific prefix is used before the name of the unmarried partner of the founder of ZXQENTAQXZ?"}
+{"row_id":"FR0140","question_en":"Who is ZXQENTAQXZ interested in?"}
+{"row_id":"FR0141","question_en":"Who is the father of the person whom the unmarried partner of ZXQENTAQXZ is interested in?"}
+{"row_id":"FR0142","question_en":"Which work is a part of ZXQENTAQXZ?"}
+{"row_id":"FR0143","question_en":"Who directed ZXQENTAQXZ?"}
+{"row_id":"FR0144","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"FR0145","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"FR0146","question_en":"Who is the sibling of the person after whom the place that houses the ZXQENTAQXZ is named?"}
+{"row_id":"FR0147","question_en":"Who is ZXQENTAQXZ's godparent?"}
+{"row_id":"FR0148","question_en":"What is ZXQENTAQXZ's family name?"}
+{"row_id":"FR0149","question_en":"What is the family name of the entity that immediately follows the family to which ZXQENTAQXZ belongs?"}
+{"row_id":"FR0150","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"FR0151","question_en":"What is the given name of the unmarried partner of ZXQENTAQXZ's sibling?"}
+{"row_id":"FR0152","question_en":"Which entity is owned by ZXQENTAQXZ?"}
+{"row_id":"FR0153","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"FR0154","question_en":"Where is the entity that borders the place ZXQENTAQXZ is indigenous to headquartered?"}
+{"row_id":"FR0155","question_en":"Who represents the creator of the participant in ZXQENTAQXZ?"}
+{"row_id":"FR0156","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"FR0157","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"FR0158","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"FR0159","question_en":"What language does the stepparent of the founder of ZXQENTAQXZ speak?"}
+{"row_id":"FR0160","question_en":"What institution holds the collection items of ZXQENTAQXZ?"}

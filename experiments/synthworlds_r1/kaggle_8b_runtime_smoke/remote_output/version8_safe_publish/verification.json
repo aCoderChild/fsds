@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED_KAGGLE_V8_SAFE_SETUP_ONLY",
+  "observed_date": "2026-11-05",
+  "kaggle_notebook_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "published_version": 8,
+  "kaggle_kernel_status": "COMPLETE",
+  "local_notebook_sha256": "a223590d092e184ed2874bfe4450e577d991ccc1515c8aaeb745f6f61f17dfa1",
+  "pulled_notebook_sha256": "fee5afecf9f462792ef11ec8d4e60f0558dad315d08b7823bd87dc5f0149e532",
+  "notebook_cells_source_identical": true,
+  "local_code_cell_sha256": "e02527470f462f52ad82aa80adcb317565ae3a88111632de3fc2a9d3095cff89",
+  "pulled_code_cell_sha256": "e02527470f462f52ad82aa80adcb317565ae3a88111632de3fc2a9d3095cff89",
+  "safe_mode_output_observed": true,
+  "gpu_enabled_at_publish": false,
+  "internet_enabled_at_publish": false,
+  "datasets_attached": false,
+  "access_preflight_run": false,
+  "mask_preflight_run": false,
+  "weights_downloaded": false,
+  "training_started": false
+}

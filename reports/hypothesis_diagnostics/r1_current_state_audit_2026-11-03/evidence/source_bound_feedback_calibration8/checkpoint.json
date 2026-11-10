@@ -1,0 +1,179 @@
+{
+  "decisions": {
+    "de|atomic|0169-qa-sm:r1": {
+      "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}}",
+      "feedback": "Back-translation uses 'publisher' instead of 'editor', changing the meaning.",
+      "kind": "atomic",
+      "language": "de",
+      "previous_candidate_sha256": "9b432f036d6a5beb783edd5b0ebf891be97ca7f6802b63f83e3881c783f55187",
+      "prompt_id": "0169-qa-sm:r1",
+      "source_sha256": "6538c833b2910f6df5947ee4aa84c9c1b3af614825498600fe1d076863513d68",
+      "status": "ERROR"
+    },
+    "de|atomic|0196-qa-sm:r1": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation is too vague and does not capture the specific meaning of 'doctoral student'.",
+      "kind": "atomic",
+      "language": "de",
+      "new_translation": "\"Wer hat bei Tamsin Rivers promoviert?\"",
+      "previous_candidate_sha256": "4c281830ca446e969f97d6e2c0444dc9c1e67d8600e34ddc4e93f80e1bd931cf",
+      "prompt_id": "0196-qa-sm:r1",
+      "qwen7_pass": false,
+      "qwen7_reason": "The German translation does not preserve the question's format. The original asks 'who' as a doctoral student, while the translation inverts this to ask if someone 'promoted' at [ENTITY_A]. This changes the relation direction and answer type.",
+      "source_sha256": "921464bee1c7288ac7d47511ef49bfc54eea5f1bdf0b21688b0ac9e738721fb9",
+      "status": "FLAGGED"
+    },
+    "fr|atomic|0050-qa-sm:r1": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation uses 'godfather' instead of the source's 'godparent', changing gender specificity.",
+      "kind": "atomic",
+      "language": "fr",
+      "new_translation": "Qui est Calix Silverwood, le parrain ou la marraine ?",
+      "previous_candidate_sha256": "63126c91f2a49e21c8e5d999e206b8ac0a331123bf3ad91c33b43526884f0d54",
+      "prompt_id": "0050-qa-sm:r1",
+      "qwen7_pass": true,
+      "qwen7_reason": "The French translation accurately captures the meaning and intent of the original question. It correctly uses 'parrain ou la marraine' to convey the concept of a godparent, which is an appropriate term in this context.",
+      "source_sha256": "7c773f9a29a023d1267bbd2e5620883e16ff1ca0cddc66cdced67b46c63af0e5",
+      "status": "PRELIMINARY_PASS"
+    },
+    "fr|composition|disjoint-b:0348-qa-sm:q2": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "The back-translation does not match the original English question's meaning; it incorrectly refers to a parent rather than a stepparent.",
+      "kind": "composition",
+      "language": "fr",
+      "new_translation": "\"Quel est le statut familial de Adel Zoltan (conjoint/partenaire) ?\"",
+      "previous_candidate_sha256": "c97975327d6936d9a73f9eda36af5a3bb9dc67a99b3d61953208b4d251b244a0",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "qwen7_pass": false,
+      "qwen7_reason": "The translation does not preserve the original question's meaning. The source asks about a stepparent relationship, while the target translates to inquire about a marital or partnership status instead.",
+      "source_sha256": "6bb34b05a77eaf8b5d0d676478a56fb20e1a378d1a96519ab775c647f879a9f6",
+      "status": "FLAGGED"
+    },
+    "hi|atomic|0046-qa-sm:r2": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation does not match source question; asks about an 'activity' rather than a 'work'. The back-translation should be 'In which work does [ENTITY_A] appear?'.",
+      "kind": "atomic",
+      "language": "hi",
+      "new_translation": "Lighthaven किस कार्य में दिखाई देता है?",
+      "previous_candidate_sha256": "d98b330906290d3ba6640fd136668d7506c21506646f4cde4cfdafc0e07e8f7f",
+      "prompt_id": "0046-qa-sm:r2",
+      "qwen7_pass": true,
+      "qwen7_reason": "The translation accurately captures the meaning, relation direction, and scope of the original question. It is grammatically correct and natural in Hindi.",
+      "source_sha256": "db6b0de03704191616c05a87815b77d8044bcb88ef45f9b8902abd91e615449d",
+      "status": "PRELIMINARY_PASS"
+    },
+    "hi|atomic|0072-qa-sm:r1": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation does not match source question; asks about 'boundary or scope' rather than what is on the boundary of [ENTITY_A].",
+      "kind": "atomic",
+      "language": "hi",
+      "new_translation": "\"Mystic Deep के किन हिस्सों की सीमा क्या है?\"",
+      "previous_candidate_sha256": "e30648fb781e072b1912c78d7ecb6571960937d29a390bb3e039e9a24e801894",
+      "prompt_id": "0072-qa-sm:r1",
+      "qwen7_pass": false,
+      "qwen7_reason": "The translation does not accurately capture the meaning of 'boundary' as a border or perimeter. It translates to 'parts', which changes the question's intent.",
+      "source_sha256": "789ad569bae918e7e773c3c4a2af933ee07098b03e33cf368e3fc167c7209e65",
+      "status": "FLAGGED"
+    },
+    "th|atomic|0044-qa-sm:r2": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation asks about the characteristic of ENTITY_A instead of where it is located.",
+      "kind": "atomic",
+      "language": "th",
+      "new_translation": "Tharavon ตั้งอยู่ที่ลักษณะทางกายภาพใด?",
+      "previous_candidate_sha256": "c40421ac7e560f27560b192b869cc09f6fbdc67f24c60f38eff8b7559268bdc2",
+      "prompt_id": "0044-qa-sm:r2",
+      "qwen7_pass": true,
+      "qwen7_reason": "翻译保留了原始问题的意义、关系方向、范围和答案类型，并且语法正确，易于理解。",
+      "source_sha256": "a036036fb6ffd1c834502c7953714c961a0fcb6eb1506f55a1a89c84bc5608be",
+      "status": "PRELIMINARY_PASS"
+    },
+    "th|atomic|0152-qa-sm:r1": {
+      "checks": {
+        "missing_names": [],
+        "missing_numbers": [],
+        "no_unrestored_marker": true,
+        "nonempty": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "target_script_present": true
+      },
+      "feedback": "Back-translation asks for terms or pronouns used to refer to ENTITY_A rather than an honorific prefix specifically.",
+      "kind": "atomic",
+      "language": "th",
+      "new_translation": "\"คำนำหน้าที่เป็นทางการที่ใช้เรียก \\\"Alaric Thornewood\\\" คืออะไร?\"",
+      "previous_candidate_sha256": "eec4ee5a38b816396da0b560a393b221d86a4ce12deb993c6ea27d3139395581",
+      "prompt_id": "0152-qa-sm:r1",
+      "qwen7_pass": true,
+      "qwen7_reason": "The translation accurately captures the meaning, relation direction, and scope of the original question. It is grammatically correct and natural in Thai.",
+      "source_sha256": "b5bcbe8c885796312bfaa0eed217448e6e18c1607ee937641441c8166e74d075",
+      "status": "PRELIMINARY_PASS"
+    }
+  },
+  "identity": {
+    "comparison_checkpoint_sha256": "d087b79a2f7c17b42466ffae1879d3a3d299f5d774e8a93781a5468bc1b98a30",
+    "comparison_report_sha256": "9aadfee3f6337941867dc3ff3bc047633ec94d21b5b2290881adf6519e7ee615",
+    "prior_checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97",
+    "review_model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "script_sha256": "06c0b6e86cbe8d179e8df33a50d9bef436c845c76bf1f0ed27b0647747c7213b",
+    "selected_keys": [
+      "fr|atomic|0050-qa-sm:r1",
+      "fr|composition|disjoint-b:0348-qa-sm:q2",
+      "de|atomic|0169-qa-sm:r1",
+      "de|atomic|0196-qa-sm:r1",
+      "hi|atomic|0046-qa-sm:r2",
+      "hi|atomic|0072-qa-sm:r1",
+      "th|atomic|0044-qa-sm:r2",
+      "th|atomic|0152-qa-sm:r1"
+    ],
+    "translation_model_digest": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+  }
+}

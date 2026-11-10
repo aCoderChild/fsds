@@ -1,0 +1,74 @@
+{
+  "README.md": {
+    "bytes": 3318,
+    "sha256": "f3b3c20a17fdb0902bf99260c72c2748741d6a72cfa258979a4c18c52ba2c313"
+  },
+  "build_reaudit.py": {
+    "bytes": 29885,
+    "sha256": "0fd713ef813171f472670b3e0ff29c132d7696db049f59eea9a736700f524794"
+  },
+  "candidate_fact_groups.jsonl": {
+    "bytes": 26315,
+    "sha256": "76d4995bcbb805f54c883c0bc56a0812096bfb3d87099417abc1f0d6e5ef8825"
+  },
+  "candidate_split_manifest.json": {
+    "bytes": 31723,
+    "sha256": "e502b690bbe5452c785e24364971523c2544a93ba2eace64a44846d2d27aa0c1"
+  },
+  "candidate_training_document_risks.jsonl": {
+    "bytes": 64238,
+    "sha256": "bdc34e13ae4d7030b5ac102e274f60d5dda316a837e90e7b776b4c9d9c8c6d18"
+  },
+  "candidate_training_fact_risks.jsonl": {
+    "bytes": 920,
+    "sha256": "7193cdfcc72a2bab708156df4fd69b1cd10b6855072ee216a3deea16e5644370"
+  },
+  "excluded_examples.jsonl": {
+    "bytes": 238318,
+    "sha256": "7fdeb00fec8f928670d449cde0eb18402b794bafe011f4ee70b58812182572b4"
+  },
+  "excluded_graph_type_source_exposure.jsonl": {
+    "bytes": 8228,
+    "sha256": "f11d592fcf546d3de8e052bbf53794109b1309d6951f6e94b8ee8291058ff784"
+  },
+  "full_corpus_holdout_document_risks.jsonl": {
+    "bytes": 117268,
+    "sha256": "ebdd6f63a09e4ff5166ffe0cb335952b4cfbf6f45da42beb9d1de4cb3c8be2d2"
+  },
+  "full_corpus_holdout_fact_exposures.jsonl": {
+    "bytes": 7259,
+    "sha256": "efeec5093f14318d4c3b146af74e1041961b11f847a1518e7d52f7e021ca7685"
+  },
+  "overlap_pairs_type_a.jsonl": {
+    "bytes": 17797,
+    "sha256": "51692a2bee5aaf38dbd901d7bf00ca7e67dde4fa1213cac735abe0fcfca4281f"
+  },
+  "proposed_split_assignments.jsonl": {
+    "bytes": 54078,
+    "sha256": "eb00854d408cccde8522be76bc8beafd1e613aad7606e2becc668a2939b1b5e5"
+  },
+  "retain_only_document_risks.jsonl": {
+    "bytes": 2210,
+    "sha256": "1dcc4ba7e0950bf5b95124c616b1f10b6a17881ab4ef3e900a052de22972179e"
+  },
+  "run_validation.json": {
+    "bytes": 403,
+    "sha256": "442e61e2ad8643ad6ddee458d7fadb3e7bb03f2a34a97324698635193733c9e4"
+  },
+  "split_specific_document_risks.jsonl": {
+    "bytes": 38375,
+    "sha256": "22286df225e8d7ed6803097d3cca88807946f023f7bff8642d65104033c10aab"
+  },
+  "split_specific_fact_risks.jsonl": {
+    "bytes": 2077,
+    "sha256": "dfc9dbad335922d5c052a23cef8c787cd9fee9efc20e97f2b989c15c06b866c8"
+  },
+  "stage1_reaudit_report.json": {
+    "bytes": 5932,
+    "sha256": "3d97bbffbdc13b47820b04ac0550c76ff3bb387a0fdd4235bf275432fb0003e3"
+  },
+  "type_a_target_eligibility.jsonl": {
+    "bytes": 318410,
+    "sha256": "69f00c67afd3ebde034bf79aaf46c54bacb0357d164c940b05903bcfe9276311"
+  }
+}

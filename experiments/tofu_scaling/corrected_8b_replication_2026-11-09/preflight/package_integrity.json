@@ -1,0 +1,90 @@
+{
+  "checked_at_utc": "2026-11-09T10:06:43.264427+00:00",
+  "overall_status": "PASS",
+  "checks": {
+    "notebook_hash_matches_attempt_manifest": true,
+    "protocol_hash_matches_attempt_manifest": true,
+    "protocol_registered_before_run": true,
+    "seed_locked": true,
+    "full_training_enabled_in_notebook": true,
+    "kernel_id_matches_attempt_manifest": true,
+    "gpu_enabled": true,
+    "machine_shape_is_t4x2": true,
+    "baseline_dataset_attached": true,
+    "queued_without_training_or_result": true,
+    "all_locked_sources_match_local_and_embedded": true,
+    "embedded_protocol_exact_match": true,
+    "trainer_8b_batching_matches_effective_batch": true,
+    "locked_data_schedule_derives_500_steps": true
+  },
+  "protocol_sha256": "142dcc0f2cdc93e6bf5d8742dd619dc71261dfdc2eb9399caa57821b5ef03aab",
+  "notebook_sha256": "9fc6fb752485d3c1492cf55e6a3dda953b5a2f4e95f9d1b17e572b7fff245f80",
+  "kaggle_kernel_id": "bunnoob2005/tofu-8b-npo-lora-corrected-diagnostic-seed-43",
+  "dataset_sources": [
+    "bunnoob2005/tofu-8b-npo-baseline-inputs-2026-11-08"
+  ],
+  "model_family": "8b",
+  "seed": 43,
+  "epochs": 10,
+  "hardware": "Kaggle GPU T4 x2 only; refuse CPU/disk weight offload; FP16 base, FP32 adapter and loss; SDPA",
+  "source_integrity": {
+    "tofu_official_eval.py": {
+      "locked_sha256": "8a3fc9e38a810aba45c46f3940948d913adaf11e60c750ee0be7450cd925e5e8",
+      "local_sha256": "8a3fc9e38a810aba45c46f3940948d913adaf11e60c750ee0be7450cd925e5e8",
+      "notebook_embedded_sha256": "8a3fc9e38a810aba45c46f3940948d913adaf11e60c750ee0be7450cd925e5e8",
+      "pass": true
+    },
+    "verify_tofu_official_eval.py": {
+      "locked_sha256": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+      "local_sha256": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+      "notebook_embedded_sha256": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+      "pass": true
+    },
+    "npo_objective.py": {
+      "locked_sha256": "a0029ba390e4631d415ed3b29a03795cb707e4d02dfa9233ec61e8e60b4a24b1",
+      "local_sha256": "a0029ba390e4631d415ed3b29a03795cb707e4d02dfa9233ec61e8e60b4a24b1",
+      "notebook_embedded_sha256": "a0029ba390e4631d415ed3b29a03795cb707e4d02dfa9233ec61e8e60b4a24b1",
+      "pass": true
+    },
+    "verify_npo_objective.py": {
+      "locked_sha256": "a347993f29316439e1df83870e476965cf91ae488f61a0f7fa9b7e8f752b9e62",
+      "local_sha256": "a347993f29316439e1df83870e476965cf91ae488f61a0f7fa9b7e8f752b9e62",
+      "notebook_embedded_sha256": "a347993f29316439e1df83870e476965cf91ae488f61a0f7fa9b7e8f752b9e62",
+      "pass": true
+    },
+    "npo_lora_train.py": {
+      "locked_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+      "local_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+      "notebook_embedded_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+      "pass": true
+    },
+    "evaluate_npo_adapter.py": {
+      "locked_sha256": "bca3638bb65f64486c9470e5f0320b7424e4eae79758c5787023d7472df667b0",
+      "local_sha256": "bca3638bb65f64486c9470e5f0320b7424e4eae79758c5787023d7472df667b0",
+      "notebook_embedded_sha256": "bca3638bb65f64486c9470e5f0320b7424e4eae79758c5787023d7472df667b0",
+      "pass": true
+    },
+    "verify_npo_run.py": {
+      "locked_sha256": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594",
+      "local_sha256": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594",
+      "notebook_embedded_sha256": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594",
+      "pass": true
+    },
+    "requirements-npo-pilot.txt": {
+      "locked_sha256": "ede1f3cc82df5c450e9b4ad937d7045b358a9d67c5ebb64e341aa403507ef8fc",
+      "local_sha256": "ede1f3cc82df5c450e9b4ad937d7045b358a9d67c5ebb64e341aa403507ef8fc",
+      "notebook_embedded_sha256": "ede1f3cc82df5c450e9b4ad937d7045b358a9d67c5ebb64e341aa403507ef8fc",
+      "pass": true
+    }
+  },
+  "training_schedule_audit": {
+    "forget_rows": 400,
+    "microbatch_per_side": 1,
+    "gradient_accumulation_steps": 8,
+    "effective_paired_batch_per_side": 8,
+    "epochs": 10,
+    "optimizer_steps_per_epoch": 50,
+    "derived_optimizer_steps": 500,
+    "verifier_has_500_step_gate": true
+  }
+}

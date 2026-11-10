@@ -1,0 +1,147 @@
+{
+  "schema_version": "pilot-draft-1",
+  "method": "Assistant-authored translation drafts; no native-speaker review claimed.",
+  "review_status": "PENDING_FLUENT_REVIEW",
+  "languages": {
+    "fr": {
+      "qa": {
+        "0077-qa-sm": {
+          "query": "En quelle année l'organisation qui a organisé The Artistic Voyage a-t-elle officiellement ouvert ?",
+          "Q1": "Qui a organisé The Artistic Voyage ?",
+          "Q2": "En quelle année <bridge>The Inspiration Hub</bridge> a-t-il officiellement ouvert ses portes ?"
+        },
+        "0055-qa-sm": {
+          "query": "Dans quelle langue la personne qui interprète Caspian Frost écrit-elle ?",
+          "Q1": "Qui interprète Caspian Frost ?",
+          "Q2": "Dans quelle langue <bridge>Pyraen Vest</bridge> écrit-elle ?"
+        },
+        "0110-qa-sm": {
+          "query": "Dans quel document la version féminine du prénom Kaelith est-elle attestée ?",
+          "Q1": "Quelle est la version féminine du prénom Kaelith ?",
+          "Q2": "Dans quel document le prénom <bridge>Sylphina</bridge> est-il attesté ?"
+        }
+      },
+      "documents": {
+        "Q1809071": "The Inspiration Hub est un musée de design situé à Cleanscape, en Mystralyn. Le sujet principal du musée est le design, et son domaine d'activité est le patrimoine culturel.\n\nIl a été fondé en 1942 et a officiellement ouvert ses portes en 1942. L'établissement se trouve dans la ville de Cleanscape, en Mystralyn.",
+        "Q87406962": "The Artistic Voyage est une exposition d'art et une exposition itinérante organisée par The Inspiration Hub, un musée de design. L'exposition était consacrée à la joaillerie d'art et à la châtelaine, et elle est associée à l'année 2045.\n\nEn tant qu'exposition itinérante, The Artistic Voyage a été présentée dans les pays suivants : Calyptoria, Krestoria, Mystralyn et Terranova. Ses dates de début enregistrées sont le 1 novembre 2046 et le 2 septembre 2047, et ses dates de fin enregistrées sont le 14 octobre 2046 et le 26 avril 2048.\n\nL'exposition a présenté des œuvres de Aelthar Dietrich, Eryndra Ferrari, Eryndra Knutson, Farenth José, Kaelith Rodman, Lirael Mora, Quinella Lemons, Xilara Kuntz, Xylar Justus, Zeryn Grey et Zeyth Claxton.",
+        "Q55191": "Caspian Frost est un personnage humain fictif de bande dessinée et un personnage littéraire qui apparaît dans la franchise médiatique Eldoria Chronicles. Créée par Lyvian Mensah, elle est présentée comme une humaine originaire de l'univers narratif Aetherian Eldoria Realm et comme une citoyenne de Galactic Concord of the Starlit Expanse. Le personnage parle le velthar.\n\nDans la fiction, Caspian Frost est présentée comme la chirurgienne d'un vaisseau spatial, formée à Galactic Vanguard Academy. Elle est membre de Interstellar Institute et fait partie de l'équipage de Astro Defense League.\n\nCaspian Frost apparaît dans les œuvres écrites Mystic Folio et The Written Horizon. Le rôle a été interprété par Pyraen Vest. La franchise identifie le personnage comme une femme.",
+        "Q269599": "Pyraen Vest (née le 19 août 1977 à Myrthwood) est une actrice de cinéma, de télévision et de doublage. Elle a commencé à exercer professionnellement en 2003 et travaille dans ces domaines depuis cette date.\n\nDe langue maternelle velthar, elle parle et écrit en velthar. Elle a produit des textes dans cette langue, en plus de ses rôles d'actrice.",
+        "Q18010311": "Kaelith est un prénom masculin. Il est associé à la langue therian et s'écrit avec l'écriture Eldranth Script.\n\nLa version féminine de Kaelith est Sylphina, qui s'emploie comme prénom féminin correspondant.\n\nTherian est une langue naturelle moderne. Eldranth Script est un système d'écriture naturel utilisé pour représenter des prénoms tels que Kaelith.",
+        "Q1370330": "Sylphina est un prénom féminin. Il existe en Thesvian, en Valorean Tongue et en Veldrith, qui sont des langues naturelles modernes, ainsi qu'en Xyldari, répertoriée comme langue moderne. Le prénom s'écrit avec Eldranth Script, un système d'écriture naturel.\n\nSylphina est le pendant féminin du prénom masculin Kaelith et est également indiqué comme son opposé. Kaelith est considéré comme un prénom masculin.\n\nLa forme Sylphina est attestée dans Academic Reference Blueprint, une publication présentée comme un article qui sert de directive, de liste et d'article universitaire."
+      },
+      "chain_facts": {
+        "0055-qa-sm:r1": "Caspian Frost (Q55191) → interprète → Pyraen Vest (Q269599)",
+        "0055-qa-sm:r2": "Pyraen Vest (Q269599) → langue d'écriture → Velthar (Q1860)",
+        "0077-qa-sm:r1": "The Artistic Voyage (Q87406962) → organisé par → The Inspiration Hub (Q1809071)",
+        "0077-qa-sm:r2": "The Inspiration Hub (Q1809071) → date d'ouverture officielle → 1942 (year)",
+        "0110-qa-sm:r1": "Kaelith (Q18010311) → version du prénom pour l'autre genre → Sylphina (Q1370330)",
+        "0110-qa-sm:r2": "Sylphina (Q1370330) → attesté dans → Academic Reference Blueprint (Q121752426)"
+      }
+    },
+    "de": {
+      "qa": {
+        "0077-qa-sm": {
+          "query": "In welchem Jahr wurde die Organisation, die The Artistic Voyage organisiert hat, offiziell eröffnet?",
+          "Q1": "Wer hat The Artistic Voyage organisiert?",
+          "Q2": "In welchem Jahr wurde <bridge>The Inspiration Hub</bridge> offiziell eröffnet?"
+        },
+        "0055-qa-sm": {
+          "query": "In welcher Sprache schreibt die Person, die Caspian Frost darstellt?",
+          "Q1": "Wer hat Caspian Frost dargestellt?",
+          "Q2": "In welcher Sprache schreibt <bridge>Pyraen Vest</bridge>?"
+        },
+        "0110-qa-sm": {
+          "query": "In welchem Dokument ist die weibliche Version des Namens Kaelith belegt?",
+          "Q1": "Wie lautet die weibliche Version des Namens Kaelith?",
+          "Q2": "In welchem Dokument ist der Name <bridge>Sylphina</bridge> belegt?"
+        }
+      },
+      "documents": {
+        "Q1809071": "The Inspiration Hub ist ein Designmuseum in Cleanscape, Mystralyn. Das Hauptthema des Museums ist Design, und sein Arbeitsgebiet ist das Kulturerbe.\n\nEs wurde 1942 gegründet und 1942 offiziell eröffnet. Die Einrichtung befindet sich in der Stadt Cleanscape in Mystralyn.",
+        "Q87406962": "The Artistic Voyage ist eine Kunstausstellung und eine Wanderausstellung, die von The Inspiration Hub, einem Designmuseum, organisiert wurde. Die Ausstellung widmete sich Kunstschmuck und der Chatelaine und wird dem Jahr 2045 zugeordnet.\n\nAls Wanderausstellung wurde The Artistic Voyage in den Ländern Calyptoria, Krestoria, Mystralyn und Terranova gezeigt. Als Anfangszeiten sind der 1. November 2046 und der 2. September 2047 verzeichnet; als Endzeiten sind der 14. Oktober 2046 und der 26. April 2048 verzeichnet.\n\nDie Ausstellung zeigte Werke von Aelthar Dietrich, Eryndra Ferrari, Eryndra Knutson, Farenth José, Kaelith Rodman, Lirael Mora, Quinella Lemons, Xilara Kuntz, Xylar Justus, Zeryn Grey und Zeyth Claxton.",
+        "Q55191": "Caspian Frost ist eine fiktive menschliche Comic- und Literaturfigur, die im Medienfranchise Eldoria Chronicles auftritt. Sie wurde von Lyvian Mensah geschaffen und wird als Mensch aus dem Erzähluniversum Aetherian Eldoria Realm sowie als Bürgerin der Galactic Concord of the Starlit Expanse dargestellt. Die Figur spricht Velthar.\n\nIn der Fiktion wird Caspian Frost als Chirurgin eines Raumschiffs dargestellt, die an der Galactic Vanguard Academy ausgebildet wurde. Sie ist Mitglied des Interstellar Institute und gehört zur Besatzung der Astro Defense League.\n\nCaspian Frost tritt in den schriftlichen Werken Mystic Folio und The Written Horizon auf. Die Rolle wurde von Pyraen Vest dargestellt. Im Franchise wird die Figur als weiblich bezeichnet.",
+        "Q269599": "Pyraen Vest (geboren am 19. August 1977 in Myrthwood) ist Film-, Fernseh- und Synchronsprecherin. Sie begann 2003 beruflich zu arbeiten und ist seitdem in diesen Bereichen tätig.\n\nVelthar ist ihre Muttersprache; sie spricht und schreibt Velthar. Zusätzlich zu ihren Schauspielrollen hat sie schriftliche Werke in dieser Sprache verfasst.",
+        "Q18010311": "Kaelith ist ein männlicher Vorname. Der Name ist mit der Sprache Therian verbunden und wird in Eldranth Script geschrieben.\n\nDie weibliche Version von Kaelith ist Sylphina, das als entsprechender weiblicher Vorname verwendet wird.\n\nTherian ist eine moderne natürliche Sprache. Eldranth Script ist ein natürliches Schriftsystem, mit dem Namen wie Kaelith wiedergegeben werden.",
+        "Q1370330": "Sylphina ist ein weiblicher Vorname. Er kommt in Thesvian, Valorean Tongue und Veldrith vor, die moderne natürliche Sprachen sind, sowie in Xyldari, das als moderne Sprache verzeichnet ist. Der Name wird mit Eldranth Script geschrieben, einem natürlichen Schriftsystem.\n\nSylphina ist das weibliche Gegenstück zum männlichen Vornamen Kaelith und wird auch als dessen Gegenteil verzeichnet. Kaelith gilt als männlicher Vorname.\n\nDie Form Sylphina ist im Academic Reference Blueprint belegt, einer Veröffentlichung, die als Artikel dargestellt wird und als Richtlinie, Liste und wissenschaftlicher Artikel fungiert."
+      },
+      "chain_facts": {
+        "0055-qa-sm:r1": "Caspian Frost (Q55191) → dargestellt von → Pyraen Vest (Q269599)",
+        "0055-qa-sm:r2": "Pyraen Vest (Q269599) → Schriftsprache → Velthar (Q1860)",
+        "0077-qa-sm:r1": "The Artistic Voyage (Q87406962) → organisiert von → The Inspiration Hub (Q1809071)",
+        "0077-qa-sm:r2": "The Inspiration Hub (Q1809071) → Datum der offiziellen Eröffnung → 1942 (year)",
+        "0110-qa-sm:r1": "Kaelith (Q18010311) → Vornamenform für das andere Geschlecht → Sylphina (Q1370330)",
+        "0110-qa-sm:r2": "Sylphina (Q1370330) → belegt in → Academic Reference Blueprint (Q121752426)"
+      }
+    },
+    "hi": {
+      "qa": {
+        "0077-qa-sm": {
+          "query": "The Artistic Voyage का आयोजन करने वाली संस्था आधिकारिक रूप से किस वर्ष खुली?",
+          "Q1": "The Artistic Voyage का आयोजन किसने किया?",
+          "Q2": "<bridge>The Inspiration Hub</bridge> आधिकारिक रूप से किस वर्ष खुला?"
+        },
+        "0055-qa-sm": {
+          "query": "Caspian Frost का अभिनय करने वाली कलाकार किस भाषा में लिखती हैं?",
+          "Q1": "Caspian Frost का अभिनय किसने किया?",
+          "Q2": "<bridge>Pyraen Vest</bridge> किस भाषा में लिखती हैं?"
+        },
+        "0110-qa-sm": {
+          "query": "Kaelith नाम का स्त्रीलिंग रूप किस दस्तावेज़ में प्रमाणित है?",
+          "Q1": "Kaelith नाम का स्त्रीलिंग रूप क्या है?",
+          "Q2": "<bridge>Sylphina</bridge> नाम किस दस्तावेज़ में प्रमाणित है?"
+        }
+      },
+      "documents": {
+        "Q1809071": "The Inspiration Hub, Cleanscape, Mystralyn में स्थित एक डिज़ाइन संग्रहालय है। संग्रहालय का मुख्य विषय डिज़ाइन है और इसका कार्यक्षेत्र सांस्कृतिक विरासत है।\n\nइसकी स्थापना 1942 में हुई और यह आधिकारिक रूप से 1942 में खुला। यह संस्थान Mystralyn के Cleanscape शहर में स्थित है।",
+        "Q87406962": "The Artistic Voyage एक कला प्रदर्शनी और भ्रमणशील प्रदर्शनी है, जिसका आयोजन डिज़ाइन संग्रहालय The Inspiration Hub ने किया था। यह प्रदर्शनी कला-आभूषण और चेटलेन आभूषण पर केंद्रित थी और इसका संबंध वर्ष 2045 से है।\n\nएक भ्रमणशील प्रदर्शनी के रूप में The Artistic Voyage, Calyptoria, Krestoria, Mystralyn और Terranova देशों में प्रस्तुत की गई। इसके दर्ज प्रारंभ समय 1 नवंबर 2046 और 2 सितंबर 2047 हैं, और दर्ज समाप्ति समय 14 अक्टूबर 2046 और 26 अप्रैल 2048 हैं।\n\nइस प्रदर्शनी में Aelthar Dietrich, Eryndra Ferrari, Eryndra Knutson, Farenth José, Kaelith Rodman, Lirael Mora, Quinella Lemons, Xilara Kuntz, Xylar Justus, Zeryn Grey और Zeyth Claxton की कृतियाँ प्रस्तुत की गईं।",
+        "Q55191": "Caspian Frost एक काल्पनिक मानव कॉमिक्स पात्र और साहित्यिक पात्र है, जो Eldoria Chronicles मीडिया फ्रैंचाइज़ में दिखाई देती है। Lyvian Mensah द्वारा रचित, उसे Aetherian Eldoria Realm कथात्मक ब्रह्मांड की मानव और Galactic Concord of the Starlit Expanse की नागरिक के रूप में दर्शाया गया है। यह पात्र Velthar बोलती है।\n\nकथा में Caspian Frost को अंतरिक्षयान की शल्य-चिकित्सक के रूप में दिखाया गया है, जिसने Galactic Vanguard Academy में शिक्षा प्राप्त की। वह Interstellar Institute की सदस्य है और Astro Defense League के दल में कार्य करती है।\n\nCaspian Frost, Mystic Folio और The Written Horizon नामक लिखित कृतियों में दिखाई देती है। यह भूमिका Pyraen Vest ने निभाई है। फ्रैंचाइज़ में पात्र को महिला बताया गया है।",
+        "Q269599": "Pyraen Vest (जन्म 19 अगस्त 1977, Myrthwood में) फ़िल्म, टेलीविज़न और वॉइस अभिनेत्री हैं। उन्होंने 2003 में पेशेवर रूप से काम शुरू किया और तब से इन क्षेत्रों में सक्रिय हैं।\n\nVelthar उनकी मातृभाषा है; वह Velthar बोलती और लिखती हैं। अभिनय भूमिकाओं के अतिरिक्त उन्होंने इस भाषा में लिखित रचनाएँ भी तैयार की हैं।",
+        "Q18010311": "Kaelith एक पुरुष नाम है। यह नाम Therian भाषा से जुड़ा है और Eldranth Script में लिखा जाता है।\n\nKaelith का स्त्रीलिंग रूप Sylphina है, जिसे इसके अनुरूप स्त्री नाम के रूप में इस्तेमाल किया जाता है।\n\nTherian एक आधुनिक प्राकृतिक भाषा है। Eldranth Script एक प्राकृतिक लेखन प्रणाली है, जिसका उपयोग Kaelith जैसे नाम लिखने के लिए किया जाता है।",
+        "Q1370330": "Sylphina एक स्त्री नाम है। यह Thesvian, Valorean Tongue और Veldrith में मिलता है, जो आधुनिक प्राकृतिक भाषाएँ हैं; यह Xyldari में भी मिलता है, जिसे आधुनिक भाषा के रूप में दर्ज किया गया है। यह नाम Eldranth Script नामक प्राकृतिक लेखन प्रणाली में लिखा जाता है।\n\nSylphina, पुरुष नाम Kaelith का स्त्रीलिंग समकक्ष है और इसे Kaelith के विपरीत रूप में भी दर्ज किया गया है। Kaelith को पुरुष नाम माना जाता है।\n\nSylphina का रूप Academic Reference Blueprint में प्रमाणित है। यह एक ऐसा प्रकाशन है जिसे लेख के रूप में प्रस्तुत किया गया है और जो दिशानिर्देश, सूची तथा शैक्षणिक लेख के रूप में कार्य करता है।"
+      },
+      "chain_facts": {
+        "0055-qa-sm:r1": "Caspian Frost (Q55191) → अभिनय किया → Pyraen Vest (Q269599)",
+        "0055-qa-sm:r2": "Pyraen Vest (Q269599) → लेखन की भाषा → Velthar (Q1860)",
+        "0077-qa-sm:r1": "The Artistic Voyage (Q87406962) → आयोजक → The Inspiration Hub (Q1809071)",
+        "0077-qa-sm:r2": "The Inspiration Hub (Q1809071) → आधिकारिक उद्घाटन की तारीख → 1942 (year)",
+        "0110-qa-sm:r1": "Kaelith (Q18010311) → दूसरे लिंग के लिए दिए गए नाम का रूप → Sylphina (Q1370330)",
+        "0110-qa-sm:r2": "Sylphina (Q1370330) → में प्रमाणित → Academic Reference Blueprint (Q121752426)"
+      }
+    },
+    "th": {
+      "qa": {
+        "0077-qa-sm": {
+          "query": "องค์กรที่จัดงาน The Artistic Voyage เปิดอย่างเป็นทางการในปีใด?",
+          "Q1": "ใครเป็นผู้จัดงาน The Artistic Voyage?",
+          "Q2": "<bridge>The Inspiration Hub</bridge> เปิดอย่างเป็นทางการในปีใด?"
+        },
+        "0055-qa-sm": {
+          "query": "ผู้รับบท Caspian Frost เขียนด้วยภาษาใด?",
+          "Q1": "ใครรับบท Caspian Frost?",
+          "Q2": "<bridge>Pyraen Vest</bridge> เขียนด้วยภาษาใด?"
+        },
+        "0110-qa-sm": {
+          "query": "ชื่อรูปแบบเพศหญิงของ Kaelith มีหลักฐานอยู่ในเอกสารใด?",
+          "Q1": "ชื่อรูปแบบเพศหญิงของ Kaelith คืออะไร?",
+          "Q2": "ชื่อ <bridge>Sylphina</bridge> มีหลักฐานอยู่ในเอกสารใด?"
+        }
+      },
+      "documents": {
+        "Q1809071": "The Inspiration Hub เป็นพิพิธภัณฑ์ด้านการออกแบบ ตั้งอยู่ใน Cleanscape, Mystralyn หัวข้อหลักของพิพิธภัณฑ์คือการออกแบบ และสาขางานคือมรดกทางวัฒนธรรม\n\nก่อตั้งขึ้นในปี 1942 และเปิดอย่างเป็นทางการในปี 1942 สถาบันตั้งอยู่ในเมือง Cleanscape ภายใน Mystralyn",
+        "Q87406962": "The Artistic Voyage เป็นนิทรรศการศิลปะและนิทรรศการสัญจรที่จัดโดย The Inspiration Hub ซึ่งเป็นพิพิธภัณฑ์ด้านการออกแบบ นิทรรศการมุ่งเน้นเครื่องประดับศิลปะและเครื่องประดับแชตเลน และเชื่อมโยงกับปี 2045\n\nในฐานะนิทรรศการสัญจร The Artistic Voyage จัดแสดงในประเทศ Calyptoria, Krestoria, Mystralyn และ Terranova เวลาที่บันทึกว่าเริ่มจัดแสดงคือ 1 พฤศจิกายน 2046 และ 2 กันยายน 2047 ส่วนเวลาสิ้นสุดที่บันทึกไว้คือ 14 ตุลาคม 2046 และ 26 เมษายน 2048\n\nนิทรรศการจัดแสดงผลงานของ Aelthar Dietrich, Eryndra Ferrari, Eryndra Knutson, Farenth José, Kaelith Rodman, Lirael Mora, Quinella Lemons, Xilara Kuntz, Xylar Justus, Zeryn Grey และ Zeyth Claxton",
+        "Q55191": "Caspian Frost เป็นตัวละครมนุษย์สมมติในหนังสือการ์ตูนและตัวละครวรรณกรรม ซึ่งปรากฏในแฟรนไชส์สื่อ Eldoria Chronicles ตัวละครนี้สร้างโดย Lyvian Mensah และนำเสนอว่าเป็นมนุษย์จากจักรวาลเรื่องเล่า Aetherian Eldoria Realm และเป็นพลเมืองของ Galactic Concord of the Starlit Expanse ตัวละครพูดภาษา Velthar\n\nในเรื่อง Caspian Frost เป็นศัลยแพทย์ประจำยานอวกาศและได้รับการศึกษาที่ Galactic Vanguard Academy เธอเป็นสมาชิกของ Interstellar Institute และเป็นลูกเรือของ Astro Defense League\n\nCaspian Frost ปรากฏในงานเขียน Mystic Folio และ The Written Horizon บทนี้แสดงโดย Pyraen Vest แฟรนไชส์ระบุว่าตัวละครเป็นผู้หญิง",
+        "Q269599": "Pyraen Vest (เกิดเมื่อวันที่ 19 สิงหาคม 1977 ที่ Myrthwood) เป็นนักแสดงภาพยนตร์ โทรทัศน์ และนักพากย์ เธอเริ่มทำงานในวงการอย่างมืออาชีพในปี 2003 และทำงานในสาขาเหล่านี้ตั้งแต่นั้นมา\n\nภาษา Velthar เป็นภาษาแม่ของเธอ เธอพูดและเขียนภาษา Velthar นอกเหนือจากบทบาทการแสดงแล้ว เธอยังสร้างงานเขียนในภาษานี้ด้วย",
+        "Q18010311": "Kaelith เป็นชื่อผู้ชาย ชื่อนี้เกี่ยวข้องกับภาษา Therian และเขียนด้วยอักษร Eldranth Script\n\nรูปแบบเพศหญิงของ Kaelith คือ Sylphina ซึ่งใช้เป็นชื่อผู้หญิงที่สอดคล้องกัน\n\nTherian เป็นภาษาธรรมชาติสมัยใหม่ Eldranth Script เป็นระบบการเขียนตามธรรมชาติที่ใช้เขียนชื่ออย่าง Kaelith",
+        "Q1370330": "Sylphina เป็นชื่อผู้หญิง ชื่อนี้พบในภาษา Thesvian, Valorean Tongue และ Veldrith ซึ่งเป็นภาษาธรรมชาติสมัยใหม่ และใน Xyldari ซึ่งบันทึกว่าเป็นภาษาสมัยใหม่ ชื่อนี้เขียนด้วย Eldranth Script ซึ่งเป็นระบบการเขียนตามธรรมชาติ\n\nSylphina เป็นชื่อคู่รูปเพศหญิงของชื่อผู้ชาย Kaelith และยังบันทึกว่าเป็นชื่อที่ตรงข้ามกับ Kaelith โดยถือว่า Kaelith เป็นชื่อผู้ชาย\n\nรูป Sylphina มีหลักฐานอยู่ใน Academic Reference Blueprint ซึ่งเป็นสิ่งพิมพ์ที่นำเสนอในรูปบทความและทำหน้าที่เป็นแนวทาง รายการ และบทความวิชาการ"
+      },
+      "chain_facts": {
+        "0055-qa-sm:r1": "Caspian Frost (Q55191) → ผู้แสดง → Pyraen Vest (Q269599)",
+        "0055-qa-sm:r2": "Pyraen Vest (Q269599) → ภาษาที่ใช้เขียน → Velthar (Q1860)",
+        "0077-qa-sm:r1": "The Artistic Voyage (Q87406962) → ผู้จัด → The Inspiration Hub (Q1809071)",
+        "0077-qa-sm:r2": "The Inspiration Hub (Q1809071) → วันที่เปิดอย่างเป็นทางการ → 1942 (year)",
+        "0110-qa-sm:r1": "Kaelith (Q18010311) → รูปของชื่อสำหรับเพศอื่น → Sylphina (Q1370330)",
+        "0110-qa-sm:r2": "Sylphina (Q1370330) → มีหลักฐานใน → Academic Reference Blueprint (Q121752426)"
+      }
+    }
+  }
+}

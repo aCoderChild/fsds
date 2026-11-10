@@ -1,0 +1,40 @@
+{
+  "batch_id": "0001",
+  "counts": [
+    {
+      "docs": 2,
+      "facts": 1,
+      "language": "fr",
+      "qa_complete_docs": 1,
+      "qa_records": 1,
+      "sft": 2
+    },
+    {
+      "docs": 2,
+      "facts": 1,
+      "language": "de",
+      "qa_complete_docs": 1,
+      "qa_records": 1,
+      "sft": 2
+    },
+    {
+      "docs": 2,
+      "facts": 1,
+      "language": "hi",
+      "qa_complete_docs": 1,
+      "qa_records": 1,
+      "sft": 2
+    },
+    {
+      "docs": 2,
+      "facts": 1,
+      "language": "th",
+      "qa_complete_docs": 1,
+      "qa_records": 1,
+      "sft": 2
+    }
+  ],
+  "human_review_status": "pending",
+  "method": "GPT-6-authored translations carried forward from v1 seed batch with new v2 validation; linguistic review pending",
+  "validation": "structural_pass_only"
+}

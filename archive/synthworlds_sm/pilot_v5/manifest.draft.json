@@ -1,0 +1,81 @@
+{
+  "approval_status": "NOT_APPROVED_FOR_TRAINING_OR_EVALUATION",
+  "artifact_counts": {
+    "assignment_rows": 195,
+    "case_rows": 195,
+    "gold_label_rows": 585,
+    "prompts_per_case": 3,
+    "translation_request_rows": 585
+  },
+  "artifact_sha256": {
+    "assignments.draft.jsonl": "bcf5870f73166159a6c4f291d9babd65d7de3514f75b61d777312086d267f23d",
+    "candidate_cases.draft.jsonl": "074f752354213668cbe9af6e1d9f3afd2176997b25a31c1ab6c4f9a45bf99d87",
+    "labels/gold_labels.draft.jsonl": "56cafa01b756a19459e4ad233c66cbba3d0af20074a0d8b22802eadbd3f8d4f6",
+    "leakage_groups.draft.jsonl": "4d34d0abc9969ac6d935a2bb0abf8a4b70a428eac3a9ad490967bc6edae61bbe",
+    "translation_requests/en.draft.jsonl": "cb46e839bef29b836d882fb489372b80d8ce18517a711fe1bd94999c4754500c"
+  },
+  "balancing_feature_counts": {
+    "ambiguous_q1_cases": 67,
+    "date_like_final_answers": 62
+  },
+  "candidate_cases": 195,
+  "do_not_evaluate": true,
+  "do_not_train": true,
+  "gates": {
+    "baseline_competence_gate": "NOT_RUN",
+    "candidate_split_approval": "PENDING",
+    "fresh_sft_corpus": "NOT_BUILT",
+    "translation_and_ai_review": "AI_SCREEN_COMPLETE_REPAIRS_REQUIRED",
+    "unlearning": "NOT_STARTED"
+  },
+  "group_assignment_method": "SciPy HiGHS mixed-integer allocation; exact case totals, minimize normalized absolute deviation from proportional allocation for group count, multi-answer-Q1 count, and date/year-shaped final answers.",
+  "largest_group": 24,
+  "leakage_groups": 102,
+  "probe_design": {
+    "direct_negative_control": "Same prompt with a source-derived entity that is not in the complete source-supported Q1 answer set.",
+    "direct_positive": "Would [designated bridge] be a valid answer to [Q1]? Reply exactly YES or NO.",
+    "final_answer_probe": "Original English composed multi-hop question; final label source-verified unique.",
+    "negative_control_source_counts": {
+      "same_relation_other_subject": 185,
+      "same_subject_other_relation": 10
+    },
+    "output_tokens": [
+      "YES",
+      "NO"
+    ],
+    "translation_review_policy": "AI_ONLY_AUTHORIZED; not human-fluency certification",
+    "translation_status": "AI_ONLY_SCREEN_COMPLETE_REPAIRS_REQUIRED"
+  },
+  "requested_split_proportions": {
+    "forget": 0.6,
+    "holdout": 0.2,
+    "retain": 0.2
+  },
+  "source_candidate_rule": "Type-A row with exact unique R1/R2 source facts, a unique source-supported final-answer set equal to the gold set, designated bridge as only Q1 source candidate with an R2 continuation, and not in the known 0080 source/graph conflict list.",
+  "translation_review": {
+    "status": "AI_ONLY_SCREEN_COMPLETE_REPAIRS_REQUIRED",
+    "reviewer_model": "ollama:qwen2.5:7b-instruct",
+    "protocol_id": "blind_entity_probe_neutral_global_deduplicated_v4",
+    "input_rows": 2340,
+    "pass_rows": 1587,
+    "flagged_rows": 753,
+    "unresolved_rows": 0,
+    "duplicate_pair_decision_conflicts": 0,
+    "cross_model_rows": 2242,
+    "same_model_self_check_rows": 98,
+    "human_translation_reviewed": false,
+    "report": "translation_reviews/qwen_blinded_v4/diagnostic_report.md",
+    "machine_report": "translation_reviews/qwen_blinded_v4/report.json"
+  },
+  "source_hashes": {
+    "documents": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe",
+    "facts": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+    "qa": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+  },
+  "split_counts": {
+    "forget": 117,
+    "holdout": 39,
+    "retain": 39
+  },
+  "status": "DRAFT_NOT_APPROVED"
+}

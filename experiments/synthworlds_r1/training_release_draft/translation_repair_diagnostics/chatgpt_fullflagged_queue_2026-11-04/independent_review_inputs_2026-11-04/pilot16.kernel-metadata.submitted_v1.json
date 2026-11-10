@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/synthworlds-qwen14b-repair-review-2026-11-04",
+  "title": "SynthWorlds AI-only Translation Repair Review",
+  "code_file": "review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

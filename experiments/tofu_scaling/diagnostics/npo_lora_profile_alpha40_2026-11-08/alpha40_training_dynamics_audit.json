@@ -1,0 +1,146 @@
+{
+  "audit": "alpha40_training_dynamics_recomputation_v1",
+  "source_archive_sha256": "a5857e7d7d68074abd564023d5575ca8baddad1072eab81a1cc1886326f3c1ec",
+  "training_source_sha256": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+  "training_source_sha256_in_receipt": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+  "archived_training_source_matches_receipt": true,
+  "current_local_training_source_sha256": "bf315fd872f9d9b72558b5961e8e053abc10315d706c9055b12abc963a6a41f1",
+  "current_local_training_source_matches_archive": false,
+  "source_identity_note": "The current shared trainer has changed since this archived run. The archived source hash is checked against the run receipt; current-source byte identity is reported for context only.",
+  "retain_aggregation_audit": {
+    "archived_behavior": "Compute a token-mean retain NLL per microbatch, then divide each microbatch contribution by gradient_accumulation_steps.",
+    "gradient_accumulation_steps": 4,
+    "protocol_retain_loss_type": "token_mean_nll",
+    "protocol_aggregation_scope": null,
+    "protocol_aggregation_scope_explicit": false,
+    "objective_fixture_examples": 2,
+    "objective_fixture_covers_full_accumulation_update": false,
+    "full_update_pooled_token_mean_equivalence_verified": false,
+    "interpretation": "The protocol names token_mean_nll but does not specify the aggregation scope. The recorded objective fixture covers two examples, while training accumulates four microbatches; equivalence to a token-pooled mean over the full optimizer update was not established."
+  },
+  "trace_member": "tofu_npo_alpha40_followup/dev_alpha_40/loss_trace.jsonl",
+  "trace_sha256": "68cb1047cd883848de0a52e8c83b5e8f4ba9c86743361d41d8be6ae12c708f87",
+  "zip_crc": "PASS",
+  "trace_rows": 1000,
+  "optimizer_steps": 250,
+  "records_per_optimizer_step": {
+    "min": 4,
+    "max": 4
+  },
+  "gradient_norm_semantics": "torch.nn.utils.clip_grad_norm_ return value, recorded once after accumulation and before clipping; repeated on each microbatch record for that optimizer step",
+  "gradient_clip_cap": 1.0,
+  "optimizer_steps_above_clip_cap": 250,
+  "optimizer_steps_clipped_fraction": 1.0,
+  "preclip_gradient_norm": {
+    "min": 12.88943099975586,
+    "p50_nearest_rank": 52.6264533996582,
+    "p90_nearest_rank": 97.81299591064453,
+    "p95_nearest_rank": 113.5064697265625,
+    "max": 173.88046264648438,
+    "median_clip_scale_approx": 0.018920549124939758,
+    "smallest_clip_scale_approx": 0.00575107740559154
+  },
+  "epochs": {
+    "1": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 13.863036088943481,
+      "mean_retain_token_nll": 0.061587377293035386,
+      "mean_combined_loss": 16.326531180664897,
+      "mean_preclip_gradient_norm": 26.401492042541506,
+      "min_learning_rate": 4.0000000000000003e-07,
+      "max_learning_rate": 1e-05
+    },
+    "2": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 13.712802152633667,
+      "mean_retain_token_nll": 0.0510016274265945,
+      "mean_combined_loss": 15.752867249697447,
+      "mean_preclip_gradient_norm": 22.297350692749024,
+      "min_learning_rate": 8.888888888888888e-06,
+      "max_learning_rate": 9.955555555555556e-06
+    },
+    "3": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 13.383685932159423,
+      "mean_retain_token_nll": 0.05830970691051334,
+      "mean_combined_loss": 15.716074208579958,
+      "mean_preclip_gradient_norm": 29.1405606842041,
+      "min_learning_rate": 7.77777777777778e-06,
+      "max_learning_rate": 8.844444444444445e-06
+    },
+    "4": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 12.963677406311035,
+      "mean_retain_token_nll": 0.06203030215576291,
+      "mean_combined_loss": 15.444889492541552,
+      "mean_preclip_gradient_norm": 35.822296981811526,
+      "min_learning_rate": 6.666666666666667e-06,
+      "max_learning_rate": 7.733333333333334e-06
+    },
+    "5": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 12.365206742286682,
+      "mean_retain_token_nll": 0.052173652513884006,
+      "mean_combined_loss": 14.452152842842043,
+      "mean_preclip_gradient_norm": 43.49233551025391,
+      "min_learning_rate": 5.555555555555557e-06,
+      "max_learning_rate": 6.6222222222222236e-06
+    },
+    "6": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 11.563811349868775,
+      "mean_retain_token_nll": 0.04900783467106521,
+      "mean_combined_loss": 13.524124736711382,
+      "mean_preclip_gradient_norm": 55.29329879760742,
+      "min_learning_rate": 4.444444444444444e-06,
+      "max_learning_rate": 5.511111111111112e-06
+    },
+    "7": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 10.554278783798217,
+      "mean_retain_token_nll": 0.05796178764663637,
+      "mean_combined_loss": 12.872750289663673,
+      "mean_preclip_gradient_norm": 75.07516616821289,
+      "min_learning_rate": 3.3333333333333333e-06,
+      "max_learning_rate": 4.4e-06
+    },
+    "8": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 9.676847385168076,
+      "mean_retain_token_nll": 0.05604238217230886,
+      "mean_combined_loss": 11.91854267206043,
+      "mean_preclip_gradient_norm": 81.24902801513672,
+      "min_learning_rate": 2.222222222222222e-06,
+      "max_learning_rate": 3.2888888888888894e-06
+    },
+    "9": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 8.97307770729065,
+      "mean_retain_token_nll": 0.07097942927852273,
+      "mean_combined_loss": 11.812254878431558,
+      "mean_preclip_gradient_norm": 100.34805145263672,
+      "min_learning_rate": 1.111111111111111e-06,
+      "max_learning_rate": 2.1777777777777777e-06
+    },
+    "10": {
+      "microbatch_records": 100,
+      "optimizer_steps": 25,
+      "mean_forget_npo_loss": 8.687769677639007,
+      "mean_retain_token_nll": 0.0701017920440063,
+      "mean_combined_loss": 11.49184135939926,
+      "mean_preclip_gradient_norm": 98.02776794433593,
+      "min_learning_rate": 0.0,
+      "max_learning_rate": 1.066666666666667e-06
+    }
+  },
+  "interpretation": "All optimizer updates exceeded the configured global-norm cap; the implementation applies clipping once after gradient accumulation. This confirms clipping was active as specified, while the large preclip norms are a sensitivity signal and do not by themselves prove instability or a code defect."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/tofu-official-metrics-baseline-3b-8b-2026-11-06",
+  "title": "TOFU Official Metrics Baseline 3B 8B 2026-11-06",
+  "code_file": "tofu_official_metrics_baseline.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

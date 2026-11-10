@@ -1,0 +1,460 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "14c79c8dbb4da0c95128521954c8695174c53cad0983b1af934e40b6ffe28310",
+  "parent_overlay_sha256": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "lm_format_enforcer": "0.11.1",
+  "output_schema": "single-item decisions array",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "backtranslation_provided": false,
+  "records": [
+    {
+      "review_key": "R0011",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "9dcb5567f8b6570f98e145ccfe7487a74282cf1e1840abda673c63f53b2a1404",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0011\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent French.\"}]}",
+      "decision": {
+        "key": "R0011",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent French."
+      }
+    },
+    {
+      "review_key": "R0036",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "translation_sha256": "a592939c7be497961645ef92032599c77dfcdcd9e41a7c855039bccd93bb18c7",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0036\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent French.\"}]}",
+      "decision": {
+        "key": "R0036",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent French."
+      }
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1f00d5cb0ce2d141244f4fcdf7e342668b971c749cc8fa6a16ddf5c9936d52aa",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0179\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent German.\"}]}",
+      "decision": {
+        "key": "R0179",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent German."
+      }
+    },
+    {
+      "review_key": "R0206",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0206\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Correct translation preserves meaning and is fluent.\"}]}",
+      "decision": {
+        "key": "R0206",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Correct translation preserves meaning and is fluent."
+      }
+    },
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0222\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent German.\"}]}",
+      "decision": {
+        "key": "R0222",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent German."
+      }
+    },
+    {
+      "review_key": "R0238",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "fd22e8a64b2938bc0e417d4c6b53108ecef9e7f3a47f1b8aa375375b178683c7",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0238\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent German.\"}]}",
+      "decision": {
+        "key": "R0238",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent German."
+      }
+    },
+    {
+      "review_key": "R0344",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "8f7658e2ed48d94e7a834a9ea7399f457423375b7c1a6719958a2cbc0d053dc9",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0344\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0344",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "69afe55df5a0bff2481d9e5c54824914a09accbdcd06881806d3d14daf6305ab",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0349\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0349",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0360",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "3190112894410f1d1ca4ef9fa793222895430ebef4b53b11a616d08b850ed372",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0360\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0360",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0371",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "96c1274bf75adfb041915685cff06affddd6643c4a84c1f5f482889d6868a305",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0371\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0371",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0379",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "6b6eeabb7355462271d553a785e025af6b3ba6af5ae5875f3e70c642b4a6a7e9",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0379\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0379",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0407",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "translation_sha256": "933010858eb9ab6b0dd2a2a9f2ff778c2f095e94aa451bd57cb1cb4b6b346ed4",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0407\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0407",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0417",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "f1af8b33def803a9739d40a1e92498284441b6a8fa7c74f9fb6c983caaca0857",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0417\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0417",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0418",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f783ddbe190ca2905193c706e22d73d7c386cf62ce3b0ecb67c967047fd73d9d",
+      "translation_sha256": "9fa858c9b2897fc69ff47e5755d6d10247b12b57f2b906a9d6754fe83966b645",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0418\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0418",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0421",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0421\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0421",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0436",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "4b8dd31ddfa534a16140865bbd448e7b800be9ee240247c69df671641170ee8f",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0436\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0436",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0442",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9cc48c5a4408c6c17e0ba5d32e5e62ceffa9be76c1ce9e62a0fb10b98a49dc8b",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0442\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0442",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0449",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+      "translation_sha256": "ac281a05083c309308301328465f18ad60a119df332865eb72be7b427b700edd",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0449\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0449",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0455",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "a9142483623686861fdac42a3f06b7b348fd6afa253a05e21875a3731a4bb2c4",
+      "translation_sha256": "ba74f0b6d43a06f8cca88e48a033eeded85d7861b332f7c584aea16b68234500",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0455\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0455",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0481",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "translation_sha256": "3a7b29f23efff8ccbb613e80111ec2a404c29cf06bd30b979397e696ffa8a807",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0481\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0481",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0489",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "translation_sha256": "7b6ee2131e5fd8937a825b344d961f728fc4f937daad45e40136c253914578c8",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0489\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0489",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0493",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "translation_sha256": "51891aae90ea9ebaef538478b539255739ebcb908f9e7a324b4db247519e81f3",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0493\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0493",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0512",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0512\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0512",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0521",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "translation_sha256": "0e4b32fa7b1384265a4a13e1d8e811f3b76917f958b45ad0c44da3fabc526bd8",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0521\", \"semantic_pass\": true, \"fluency_pass\": false, \"reason\": \"Natural paraphrase but grammatically incorrect.\"}]}",
+      "decision": {
+        "key": "R0521",
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "Natural paraphrase but grammatically incorrect."
+      }
+    },
+    {
+      "review_key": "R0537",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "translation_sha256": "f0353b66e7c82366eeec7918bb5bda8d0d635180a54635ec6608592095a0f7cd",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0537\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Hindi.\"}]}",
+      "decision": {
+        "key": "R0537",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Hindi."
+      }
+    },
+    {
+      "review_key": "R0544",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "35180d601cc659e40b900900f5e09f71686bd9ff0c73881f55e01f1a7201c0de",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0544\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning and fluency match source question.\"}]}",
+      "decision": {
+        "key": "R0544",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning and fluency match source question."
+      }
+    },
+    {
+      "review_key": "R0553",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "ca8727e8211fbf79152d55e795e5b5e444bdb479a31882eba82d77e58fa93c6c",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0553\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning and fluency match source question.\"}]}",
+      "decision": {
+        "key": "R0553",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning and fluency match source question."
+      }
+    },
+    {
+      "review_key": "R0571",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1048b64a6f70b0aa5120fe6e93db2b5ece12a35e259b3db22777c27cf3469d48",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0571\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Thai.\"}]}",
+      "decision": {
+        "key": "R0571",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Thai."
+      }
+    },
+    {
+      "review_key": "R0587",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "b18cc2bc41902461d345ed9b1fc5bdc281a98a29b05ff012ee3a00ae14335bb0",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0587\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning and fluency match source question.\"}]}",
+      "decision": {
+        "key": "R0587",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning and fluency match source question."
+      }
+    },
+    {
+      "review_key": "R0602",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "333beefbad26f6dc809172cfa44eab3ea3b317a988335b8930ed26511fa0bcd1",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0602\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning preserved, fluent Thai.\"}]}",
+      "decision": {
+        "key": "R0602",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning preserved, fluent Thai."
+      }
+    },
+    {
+      "review_key": "R0677",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9d33f1aa686a910ef8c21c2d9daeccfdf6217e2e55d445c1bef9f9338f809b61",
+      "raw_output": "{\"decisions\": [{\"key\": \"R0677\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Meaning and fluency match source question.\"}]}",
+      "decision": {
+        "key": "R0677",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Meaning and fluency match source question."
+      }
+    }
+  ],
+  "started_at_utc": "2026-11-04T17:05:53.771729+00:00",
+  "counts": {
+    "PASS": 30,
+    "FLAG": 1
+  },
+  "completed_at_utc": "2026-11-04T17:08:51.980612+00:00"
+}

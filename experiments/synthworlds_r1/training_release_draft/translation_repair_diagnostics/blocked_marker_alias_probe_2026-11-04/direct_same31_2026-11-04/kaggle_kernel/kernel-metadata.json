@@ -1,0 +1,14 @@
+{
+  "id": "bunnoob2005/synthworlds-r1-direct-same31-review-2026-11-04",
+  "title": "Synthworlds R1 Direct Same31 Review 2026 11 04",
+  "code_file": "direct_review.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

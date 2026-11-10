@@ -15,6 +15,25 @@ artifacts/
 outputs/
 checkpoints/
 cache/
+**/model_cache/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+*.pyc
+tmp/
+
+# Local report build products
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.out
+docs/report/*.log
+
+# Trained model artifacts and bundled checkpoints are kept outside GitHub.
+**/adapter/
+**/*artifacts*.zip
+**/*diagnostic*.zip
+
+# A source checkout embedded in an old Kaggle output is not a project submodule.
+experiments/tofu_scaling/diagnostics/npo_lora_profile_recovery_2026-11-07/kaggle_output_v1/open-unlearning/

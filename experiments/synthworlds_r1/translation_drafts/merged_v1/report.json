@@ -1,0 +1,57 @@
+{
+  "completed_at_utc": "2026-11-03T03:13:12.063043+00:00",
+  "fallback_model": "ollama:qwen2.5:7b-instruct",
+  "human_reviewed_total": 0,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "failures": [],
+      "merged_sha256": "ff59f2a592d471701654f7aa2663dd3b8fe4d99f94cf5c05a01d278153cdec7a",
+      "nllb_primary_rows": 563,
+      "qwen_fallback_rows": 22,
+      "rows": 585,
+      "unresolved_rows": 0
+    },
+    "fr": {
+      "failures": [],
+      "merged_sha256": "654471c53fc488871a963d7548390b1369dc521a964d363b7765aba6ba9e113d",
+      "nllb_primary_rows": 568,
+      "qwen_fallback_rows": 17,
+      "rows": 585,
+      "unresolved_rows": 0
+    },
+    "hi": {
+      "failures": [
+        {
+          "error": "ValueError: Fallback deterministic checks failed: {'nonempty': True, 'target_script_present': True, 'yes_no_contract_preserved': True, 'all_protected_names_present': False}",
+          "prompt_id": "0010-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Fallback deterministic checks failed: {'nonempty': True, 'target_script_present': True, 'yes_no_contract_preserved': True, 'all_protected_names_present': False}",
+          "prompt_id": "0043-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Fallback deterministic checks failed: {'nonempty': True, 'target_script_present': True, 'yes_no_contract_preserved': True, 'all_protected_names_present': False}",
+          "prompt_id": "0140-qa-sm:multi_hop"
+        }
+      ],
+      "merged_sha256": "4dab240257dfe884e317912e894b064d97c18ed07ea218ad3fb1fc626f4761eb",
+      "nllb_primary_rows": 547,
+      "qwen_fallback_rows": 35,
+      "rows": 585,
+      "unresolved_rows": 3
+    },
+    "th": {
+      "failures": [],
+      "merged_sha256": "35bec196a99e215d7b3c74fcdfc0a05de2aad9d0ddd83fd546a13162d87d929b",
+      "nllb_primary_rows": 557,
+      "qwen_fallback_rows": 28,
+      "rows": 585,
+      "unresolved_rows": 0
+    }
+  },
+  "primary_translation_model": "facebook/nllb-200-distilled-600M",
+  "status": "MERGED_TRANSLATIONS_BLOCKED",
+  "translation_requests_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "unresolved_total": 3
+}

@@ -1,0 +1,108 @@
+{
+  "protocol_id": "tofu_3b_npo_lora_pilot_v1",
+  "status": "PREREGISTERED_BEFORE_GPU_RUN",
+  "registered_locally_at": "2026-11-07",
+  "research_question": "On TOFU forget10, does a resource-bounded LoRA implementation of the pinned Open-Unlearning NPO objective move the 3B model's official Truth Ratio score toward the retain90-only oracle while preserving retain and holdout utility?",
+  "study_type": "Exploratory one-seed implementation pilot; not confirmatory evidence and not a full-parameter reproduction.",
+  "model_family": "3b",
+  "seed": 42,
+  "base_checkpoint": {
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a",
+    "architecture_id": "meta-llama/Llama-3.2-3B-Instruct"
+  },
+  "retain_only_reference_checkpoint": {
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_retain90",
+    "revision": "2c35819e9a731d096df9abd6efbcc361870c5333"
+  },
+  "dataset": {
+    "repo_id": "locuslab/TOFU",
+    "revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "training": {
+      "forget_file": {"name": "forget10.json", "rows": 400, "sha256": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6"},
+      "retain_file": {"name": "retain90.json", "rows": 3600, "sha256": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55"},
+      "holdout_used_for_training": false
+    },
+    "evaluation_rows": {"forget10": 400, "retain90": 400, "holdout10": 400, "real_authors": 100, "world_facts": 117},
+    "evaluation_file_sha256": {
+      "forget10.json": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+      "forget10_perturbed.json": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+      "retain90.json": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+      "retain_perturbed.json": "fc69f33bad70d3dca65920bdb54380039e3e8872dd16bbae20c1a839b99533fb",
+      "holdout10.json": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd",
+      "real_authors_perturbed.json": "a23255383ac75a5fbe5acd57622a03fb9c368954fd7b2428afa152b784d9533a",
+      "world_facts_perturbed.json": "0e171838040d0ec94b1ce248d891508e85e3b77344370077caa27b61898eb3e1"
+    }
+  },
+  "objective": {
+    "source": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "method": "NPO forget objective plus retain negative log-likelihood",
+    "formula": "mean[-2/beta * log_sigmoid(beta * (current_sequence_summed_nll - reference_sequence_summed_nll))] + retain_token_mean_nll",
+    "beta": 0.1,
+    "forget_weight_gamma": 1.0,
+    "retain_weight_alpha": 1.0,
+    "reference_model": "frozen initial full checkpoint; reference sequence NLL precomputed before LoRA insertion",
+    "equivalence_requirement": "Pinned upstream loss value and parameter gradients match the candidate implementation within absolute tolerance 1e-6 on the deterministic CPU fixture before any GPU training."
+  },
+  "adaptation": {
+    "scope": "LoRA adapters only; frozen FP16 base; report as an NPO-LoRA adaptation, not full-parameter NPO.",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "precision": "FP16 frozen base checkpoint; FP32 LoRA parameters and loss; SDPA",
+    "optimizer": "AdamW, betas=(0.9,0.999), eps=1e-8, weight_decay=0",
+    "learning_rate": 0.00001,
+    "epochs": 10,
+    "effective_paired_batch_size": 8,
+    "forget_retain_pairing": "one uniformly sampled retain example with replacement for each forget example; seed 42",
+    "scheduler": "linear; one epoch warmup",
+    "warmup": "one epoch of optimizer steps, then linear decay",
+    "gradient_clip_norm": 1.0,
+    "max_length": 512,
+    "truncation": false,
+    "hardware": "Kaggle GPU T4 x2 only; refuse CPU/disk weight offload; FP16 base, FP32 adapter and loss; SDPA",
+    "determinism_note": "Python, CPU Torch, and CUDA Torch RNGs are seeded; CUDA kernels may remain nondeterministic."
+  },
+  "bounded_smoke": {
+    "required_before_full_pilot": true,
+    "real_data_rows": "first eight pinned forget10 rows and one sampled retain row",
+    "optimizer_steps": 1,
+    "success_criteria": ["finite NPO/retain losses and gradients", "exactly one optimizer step", "nonzero LoRA parameter update", "T4 x2 placement", "no CPU/disk offload", "smoke adapter discarded and never scored as research result"]
+  },
+  "evaluation": {
+    "official_metrics": ["answer_probability", "greedy-generation ROUGE-L recall", "Truth Ratio score", "normalized option probability", "nine-component model-utility harmonic mean"],
+    "primary_metric": "forget10 mean Truth Ratio score, paired NPO adapter minus the same 3B full-checkpoint rows",
+    "primary_direction": "positive values indicate movement toward the retain-only oracle: the score is higher when perturbed and paraphrased answer likelihoods are less distinguishable; verify against the measured full-to-oracle contrast.",
+    "uncertainty": "paired percentile bootstrap resampling the 20 TOFU profile blocks, 5000 draws, seed 42; preserve all rows in each sampled block",
+    "primary_signal_rule": "Exploratory signal only if the 95% profile-block bootstrap interval for NPO-minus-full Truth Ratio score is wholly above zero.",
+    "utility_gates": {
+      "retain90.answer_probability": {"minimum_delta": -0.05, "rule": "95% paired profile-block interval lower bound strictly greater than -0.05"},
+      "retain90.rougeL_recall": {"minimum_delta": -0.05, "rule": "95% paired profile-block interval lower bound strictly greater than -0.05"},
+      "holdout10.answer_probability": {"minimum_delta": -0.05, "rule": "95% paired profile-block interval lower bound strictly greater than -0.05"},
+      "model_utility.harmonic_mean": {"minimum_delta": -0.05, "rule": "point difference strictly greater than -0.05; descriptive gate because utility rows do not share profile IDs"}
+    },
+    "secondary_descriptive_metrics": ["forget10 answer probability and ROUGE-L change", "NPO-versus-oracle paired contrasts", "all individual utility components", "profile-cluster intervals"]
+  },
+  "stopping_rules": [
+    "Do not train unless the pinned upstream objective/gradient check passes and the 3B baseline full/oracle outputs independently verify.",
+    "Do not train unless the bounded real-data smoke passes with a nonzero adapter update and GPU-only placement.",
+    "Stop and preserve partial receipts on non-finite loss/gradient, OOM, missing data, revision/hash mismatch, truncation, offload, or incomplete optimizer steps.",
+    "Do not tune after inspecting pilot evaluation results; any change requires a new protocol and new seed.",
+    "A failed primary or utility gate is a diagnostic result, not a reason to change the threshold or discard the run."
+  ],
+  "interpretation_limits": [
+    "Single seed and one model family: exploratory only, cannot establish general effectiveness.",
+    "Adapter training changes capacity and optimization relative to the original full-parameter recipe.",
+    "TOFU profiles are fictional and do not support claims about deletion of real personal data or real-world privacy.",
+    "Truth Ratio is one benchmark metric; this run is not proof of complete knowledge removal."
+  ],
+  "code_sources": {
+    "trainer": "npo_lora_train.py",
+    "objective": "npo_objective.py",
+    "objective_verifier": "verify_npo_objective.py",
+    "official_evaluator": "tofu_official_eval.py",
+    "adapter_evaluator": "evaluate_npo_adapter.py",
+    "independent_run_verifier": "verify_npo_run.py"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "controls": [
+    {
+      "backtranslation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "base_review_file_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP001",
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0198-qa-sm:r1",
+      "source_control_id": "PH001",
+      "translation_sha256": "3cbc7512733d4d2746566fdfe8935ce4909dcb6be905c5de2458643aa09a6622"
+    },
+    {
+      "backtranslation_sha256": "f2614b2886ff92cfa5cce4c12a9625a26f748a3e6c95002919490d58b4ccca43",
+      "base_review_file_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP002",
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0057-qa-sm:r2",
+      "source_control_id": "PH002",
+      "translation_sha256": "21a17570a82ed4aaeee21cba3370a24e8391883d7dbd63d38f3d102cf90367c7"
+    },
+    {
+      "backtranslation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5",
+      "base_review_file_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP003",
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0207-qa-sm:q3",
+      "source_control_id": "PH003",
+      "translation_sha256": "4f37b92dcf94c059c7307c1cac873ecca95f739f11789f582409a54f1600a455"
+    },
+    {
+      "backtranslation_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517",
+      "base_review_file_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP004",
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "source_control_id": "PH004",
+      "translation_sha256": "fb6ff16d1f23efbf81fedc2671978445ab0fb3d7a3fa3bc2329280cc3c4b25f3"
+    },
+    {
+      "backtranslation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5",
+      "base_review_file_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP005",
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0117-qa-sm:r1",
+      "source_control_id": "PH005",
+      "translation_sha256": "af3ea01f57a37b33b57443e925c315455debbaf9e3f59958eaf79a2fb25a714b"
+    },
+    {
+      "backtranslation_sha256": "d13aab56aa85aeba44e072ea1bfc3cf404d76b5c95b1f864779ec8a92f1097c0",
+      "base_review_file_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP006",
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0077-qa-sm:r2",
+      "source_control_id": "PH006",
+      "translation_sha256": "65030dde55ba3b645f5eb5e41c94c6f39f7e595d52e9e9ee4c51fc7173902d28"
+    },
+    {
+      "backtranslation_sha256": "c75cfe9a85d3550d28f9511e4c964f567ca325403f620668ba46257fa21b7125",
+      "base_review_file_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP007",
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0355-qa-sm:multi",
+      "source_control_id": "PH007",
+      "translation_sha256": "e0c63ec9840d04b32cfc42bc28b38c82316e4945398e3296dcfef42442f08e1f"
+    },
+    {
+      "backtranslation_sha256": "7045917ae6ad552fe467d21f88b3d4d66afe8f55130e3f75bc0600c147b60b5a",
+      "base_review_file_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP008",
+      "kind": "composition",
+      "language": "de",
+      "prompt_id": "disjoint-b:0241-qa-sm:q3",
+      "source_control_id": "PH008",
+      "translation_sha256": "286052844393cbc9aa4ef23d9c24885f58b21632b2e7e299638515c30f849dc2"
+    },
+    {
+      "backtranslation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "base_review_file_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP009",
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0013-qa-sm:r1",
+      "source_control_id": "PH009",
+      "translation_sha256": "9d76946fcfc76543441a1a2fa650c7c89f9efb5a66d733101bfa47b469d23ba8"
+    },
+    {
+      "backtranslation_sha256": "9843747f2eb4ceb2c6c21b90c3431b3e65626c5cb554833ea9559f8b2776109b",
+      "base_review_file_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP010",
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0057-qa-sm:r2",
+      "source_control_id": "PH010",
+      "translation_sha256": "32ce630099380c3d4b8a9a62c5ab67b1b0f7422e3f3a8c9a540f147c16a72b48"
+    },
+    {
+      "backtranslation_sha256": "407fd66be06309e224b93616fd2e7d2fd906acd7e5773ce1af608e56762a720e",
+      "base_review_file_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP011",
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0306-qa-sm:multi",
+      "source_control_id": "PH011",
+      "translation_sha256": "bb6f6002fa2e833081e7d6f7667127131085da614845f868045674b7c8d61f96"
+    },
+    {
+      "backtranslation_sha256": "01da43031177fb4fc58cbbc29056a677a75486b8743678026cb48b2d18bbddbf",
+      "base_review_file_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "base_review_status": "AI_ONLY_14B_ADJUDICATED_PASS",
+      "control_id": "PP012",
+      "kind": "composition",
+      "language": "hi",
+      "prompt_id": "disjoint-b:0241-qa-sm:multi",
+      "source_control_id": "PH012",
+      "translation_sha256": "989b61a240a8eeb55d2e53f3c58c7c7f99d1241c1e91165bcc16335b3573bdc1"
+    },
+    {
+      "backtranslation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "base_review_file_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP013",
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0198-qa-sm:r1",
+      "source_control_id": "PH013",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93"
+    },
+    {
+      "backtranslation_sha256": "5e0ed7d43a6f2294af9d89eb17f70942f31d40818abd9a4bff1d5ea04412a656",
+      "base_review_file_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP014",
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0093-qa-sm:r2",
+      "source_control_id": "PH014",
+      "translation_sha256": "301207ae685dd5939296660a9d39bd37adf436ad87ea66c9cabe64daf3823f8e"
+    },
+    {
+      "backtranslation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "base_review_file_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP015",
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0306-qa-sm:q2",
+      "source_control_id": "PH015",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93"
+    },
+    {
+      "backtranslation_sha256": "57dd7bd9387735b34545e7785b0d3a4c7e05963cd7b1bcabf8162be992d95329",
+      "base_review_file_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "base_review_status": "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS",
+      "control_id": "PP016",
+      "kind": "composition",
+      "language": "th",
+      "prompt_id": "disjoint-b:0218-qa-sm:q3",
+      "source_control_id": "PH016",
+      "translation_sha256": "bf51f7e1d1bc461f7ee7b1991ac33483b96409a538ed9d79988fb11cd0710d55"
+    }
+  ],
+  "controls_per_language_kind": 2,
+  "human_translation_reviewed": false,
+  "input_jsonl_sha256": "7221ac457cc018348674b6aa62a50cfafd26bac52eb3f2760f3d08c1f026326a",
+  "input_sha256_compact_array": "0179d6f1cdcf9d98e238181726b21ec92681abebee216adc0261eed0fbb6ca85",
+  "inputs_include_answer_or_split": false,
+  "interpretation": "Tests acceptance consistency on original source/translation pairs that previously passed AI-only review; these are not human-gold positive controls.",
+  "limitations": [
+    "All base translations and back-translations were reviewed by AI only, not fluent human reviewers.",
+    "Pairs were selected for passing prior AI review; the set is a small consistency diagnostic, not an unbiased estimate of false-rejection rate.",
+    "This does not establish real-corpus precision, recall, or fluency accuracy."
+  ],
+  "rows": 16,
+  "source_negative_control_manifest_sha256": "c84e90db4ab3f2bb21460e869dfb26460bee709df2259b231e213c3aea40ff06",
+  "status": "AI_ONLY_POSITIVE_REVIEW_CONSISTENCY_DIAGNOSTIC_ONLY"
+}

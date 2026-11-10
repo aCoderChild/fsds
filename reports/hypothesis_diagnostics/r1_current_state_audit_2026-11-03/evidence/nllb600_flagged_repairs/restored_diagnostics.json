@@ -1,0 +1,2596 @@
+{
+  "status": "UNREVIEWED_DIAGNOSTIC_ONLY",
+  "input_sha256": "a04897ec1d0e5f756229696108c2017e0176ff333a4a69e946f86af6c87cb59b",
+  "counts": {
+    "exact_surrogate": 85,
+    "heuristic_transliteration": 56,
+    "unresolved": 39
+  },
+  "by_language": {
+    "fr": {
+      "exact_surrogate": 21
+    },
+    "de": {
+      "exact_surrogate": 33
+    },
+    "hi": {
+      "heuristic_transliteration": 56,
+      "exact_surrogate": 2,
+      "unresolved": 1
+    },
+    "th": {
+      "unresolved": 38,
+      "exact_surrogate": 29
+    }
+  },
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quelle évaluation a été utilisée pour évaluer Eldoria Chronicles: The Celestial Saga?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0014-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quand Thundralis est-elle devenue membre des Jorathia Clarity Alliance ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le beau-père de Faryn Gastelum ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0188-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui a enseigné Caden Rivers ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quel conflit a suivi les Galdorian Kingdom Conflict?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quel est le rôle de Culturavia Prime ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est l'éditeur du Lormund-Nuvrak Encyclopedia ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0166-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quand Syldoria est-elle devenue membre des Clarity Coalition ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "De quelle langue Eldorathian est-il un dialecte ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le frère de Wryten Nate ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quel est le travail de Mythic Realms: The Saga of Valoria ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le beau-père de Adel Zoltan ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui était le conseiller de doctorat du recteur de l'employeur de Moryn Woodhouse ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le beau-père de Glynor Rutherford ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le frère de Wylian Loya ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "status": "exact_surrogate",
+      "restored_translation": "Quel est le rôle de Sovereign's Luminary Grade ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le frère de Orilith Njie ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Comment s'appelle le conjoint célibataire du frère de Orilith Njie ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est la femme de James Grey ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Où est l'entité qui borde l'endroit où Malquolyndra est originaire ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Qui est le frère ou la sœur de la personne dont le nom donne à l'endroit où se trouvent les Museum of Timeless Masterpieces?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Wann wurde Goldenreach das Land, in dem Delvoria ist?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "In welcher Sprache ist Eldorathian ein Dialekt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "In welchem Jahr fand Merith Watts The Artistic Exchange?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0184-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist die Ehefrau von Wryten Obeng?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "In welcher Verwaltungsabteilung ist Kestrelia die Hauptstadt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "In welcher Verwaltungsabteilung ist Aetherfall die Hauptstadt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer war Yardley Riven Kests Doktorand?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Wann wurde Sapphire Bay gegründet?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Faryn Gastelums Stiefeltern?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Nethoria ist die Hauptstadt welcher Verwaltungsabteilung?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Wryten Nates Geschwister?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Worin ist Culturavia Prime beteiligt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Glynor Rutherfords Stiefeltern?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist der Geschwister der Person, nach der der Ort, in dem die Museum of Timeless Masterpieces wohnen, benannt wurde?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Adel Zoltans Stiefeltern?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer war der Doktorand des Rektors von Moryn Woodhouses Arbeitgeber?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Orilith Njies Geschwister?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer war Bryston Suns Doktorand?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wie heißt der unverheiratete Partner von Orilith Njies Geschwister?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Was ist der Familienname der Entität, die unmittelbar nach der Familie folgt, zu der Nerythia Monrroy gehört?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Zu welcher Familie gehört die Mutter des Hauptsubjekts der Quantum Nexus Archive?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wo wurde die Organisation gegründet, deren Mitglied der Ort ist, an dem Yandor White festgehalten wurde?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Adeline Thornfield Smiths Ehefrau?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Chyndra Yearwoods Ehefrau?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q2",
+      "status": "exact_surrogate",
+      "restored_translation": "Wem interessiert sich Lirael Reddick?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Welches politische Amt von Crystalis hat der Staatsoberhaupt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wo befindet sich die Einheit, die an den Ort grenzt, an dem Malquolyndra seinen Hauptsitz hat?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "Welches Unternehmen gehört SabaGalend Films?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Welche ist die offizielle Religion der Entität, die die Verwaltungs- und Territorialentität ersetzte, die Elenthar enthielt?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer war Nykin Amins Doktorand?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist Aria Morvanes Ehefrau?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "Wer ist James Greys Ehefrau?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Wo ist der Vater des Pflegeltern von Qelith Renderos gestorben?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Lighthaven किस काम में दिखाई देती हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0186-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Elysia Dreamweaver का प्रदर्शन किसने किया?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "कैलम द्वीपसमूह के साथ किस देश के राजनयिक संबंध हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Ellyra Saldaña किस भाषा में बोलता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Jorith आदिवासी कहाँ है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0093-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Lamyra Sanborn का प्रतिनिधित्व कौन करता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Goldenreach किस तारीख को उस देश में बन गया जिसमें Delvoria है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0069-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Cynthera किस तारीख को Orinthia का देश नहीं रहा?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0187-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "किस वर्ष में Lyren Hammoud Yardley Thorne की डॉक्टरेट की छात्रा थी?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0117-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "किस तारीख को Ystara Michelle Brendith Ransom के रिश्तेदार बन गईं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Talyrian March की जगह क्या ले गया?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Pyraen Vest किस भाषा में लिखते हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Pyraen Senior किस भाषा में बोलते हैं, लिखते हैं या साइन करते हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Tamsin Rivers का डॉक्टरेट का छात्र कौन था?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Berylith University Press को किस संगठन में विलय किया गया था?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Mythic Realms: The Saga of Valoria किस काम का पालन करता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Valtarian Luntrish कहाँ का मूल निवासी है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Eldaranian Tongue का वर्णन किस काम में किया गया है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Iverath Wolfson किस पद पर थे?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Eldorathian किस भाषा का बोली है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0194-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Aelynd Shakir का डॉक्टरेट छात्र कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0138-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Zephyrian के तुरंत बाद क्या हुआ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Sylphina के लिए विपरीत लिंग का समकक्ष उपनाम क्या है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Vyndel Gibbs किस भाषा में बोलता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Faryn Gastelum के सौतेले माता-पिता कौन हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "The Ephemeral Showcase का प्रदर्शनकर्ता कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Valdrem क्या बदलता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Cynthera की सरकार के प्रमुख के रूप में Freyael Redmon का कार्यकाल किस वर्ष समाप्त हुआ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "जिस व्यक्ति के लिए Irvin Aldridge के काम करने की जगह का नाम रखा गया है, उसका पति कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Lirathia के किस देश के साथ राजनयिक संबंध हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Alden Edras Kylven के अविवाहित साथी की दिलचस्पी रखने वाले व्यक्ति का पिता कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Crownlandia में कौन सी प्रशासनिक क्षेत्रीय इकाई शामिल है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Phaelan Guel से जुड़े व्यक्ति के पिता की माँ कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Orilith Njie के भाई-बहन के अविवाहित साथी का नाम क्या है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Galdrin के तुरंत बाद क्या हुआ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "वह संस्था कहाँ है जो Malquolyndra के मूल निवासी के मुख्यालय के साथ सीमा पार करती है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q3",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Adelzo Thornfield किस भाषा में बोलता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "The Phantom Archives किस काम का उल्लेख करता है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Moryn Woodhouse के नियोक्ता के रेक्टर के डॉक्टरेट सलाहकार कौन थे?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "Obsidian Arts Collective के मुख्यालय में रहने वाले शहर का नाम किस व्यक्ति के नाम पर रखा गया है, इसके बारे में दस्तावेज किस संस्था के पास हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Adel Zoltan के सौतेले माता-पिता कौन हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Velorian के संस्थापक के सौतेले माता-पिता किस भाषा में बोलते हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Bryston Sun के डॉक्टरेट सलाहकार से जुड़े आंदोलन से जुड़े महत्वपूर्ण व्यक्ति कौन हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Crownlandia में निहित प्रशासनिक क्षेत्रीय इकाई के राज्य प्रमुख कहाँ काम करते हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "status": "heuristic_transliteration",
+      "restored_translation": "SabaGalend Films किस इकाई के स्वामित्व में है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Kairis Mcdade की पत्नी के अविवाहित साथी का पिता कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "उस व्यक्ति का भाई-बहन कौन है जिसके नाम पर Museum of Timeless Masterpieces के रहने वाले स्थान का नाम रखा गया है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "जिस संगठन का सदस्य जहां Yandor White को हिरासत में लिया गया था, वह किस संगठन का सदस्य था?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "जिस देश की राजधानी Opal City है, उसके स्थान पर राज्य का कौन सा राजनीतिक पद राज्य के प्रमुख के पास है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Umbermist के संरक्षक संत के बच्चे ने क्या पद संभाला है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Valencrest का उपनाम क्या है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Nerythia Monrroy के परिवार का तुरंत अनुसरण करने वाली इकाई का उपनाम क्या है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Zolterra के राज्य प्रमुख के पिता के सौतेले माता-पिता कौन हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Rithoria-Commonwealth की जगह क्या ले गया?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Glynor Rutherford के सौतेले माता-पिता कौन हैं?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Crystalis का कौन सा राजनीतिक पद उसके राज्य प्रमुख के पास है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Culturavia Artistralia का क्यूरेटर कौन है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "status": "heuristic_transliteration",
+      "restored_translation": "Secrets of the Ancients के काम के निदेशक का नाम क्या है?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "ชื่อ Protector of the Eternal Flame ใช้ในเขตอํานาจใด?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครคือหัวข้อหลักของ O'Rourke Insights Online?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0131-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครคือสมาชิกสตาร์ทของ The Silent Guardian?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "ประเภทสายไฟฟ้าแบบมาตรฐานที่ใช้ใน Merithia คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครเป็นผู้อํานวยการถ่ายภาพของ The Enigma of Aetherial Paths?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0160-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0065-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "เพลงเพลงราชการของ Irvin Oathen คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0176-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0011-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "สาขาการทํางานของ Quindra Pandya คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0110-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "ชื่อ Kaelith เป็นชื่ออะไรสําหรับผู้หญิง?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "สถาบันใดที่มอบรางวัล Nova Recognition?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "ผู้บรรณาธิการของ Lormund-Nuvrak Encyclopedia คือใคร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "สถาบันใดที่มอบรางวัล Dynamo Medal?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0102-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r2",
+      "status": "exact_surrogate",
+      "restored_translation": "Celestial Command มีความสอดคล้องกับอะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r1",
+      "status": "exact_surrogate",
+      "restored_translation": "สาขาการทํางานของ Xylara Gz คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0244-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "สถาบันไหนมีเอกสารเกี่ยวกับบุคคลที่ชื่อเมืองที่ตั้งสํานักงานใหญ่ของ Obsidian Arts Collective?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "องค์กรไหนเป็นของ SabaGalend Films?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครเป็นคูเรอเตอร์ของ Culturavia Artistralia?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "อันดับที่สูงกว่าของ Golden Vanguard Class คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "กรุงเทพของประเทศใดที่ภูมิภาคบริหารที่ประกอบด้วย Solstice City มีความสัมพันธ์ทางการทูตกับ?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครคือพี่น้องของคนที่ตั้งชื่อที่บ้านของ Museum of Timeless Masterpieces",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "มีคําอํานวยความเกียรติอะไรที่ใช้ก่อนชื่อคู่รักที่ยังไม่ได้แต่งงานของผู้ก่อตั้ง The Palace of Reflections?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ใครคือที่ปรึกษาระดับปริญญาเอกของผู้อํานวยการของ Moryn Woodhouse?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ลูกของศักดิ์สิทธิ์ผู้คุ้มครองของ Umbermist ได้ดํารงตําแหน่งอะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "status": "exact_surrogate",
+      "restored_translation": "จังหวัดองค์การบริหารที่ Crownlandia ประกอบด้วยองค์กรใด?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ชื่อสกุลขององค์กรที่ติดตามครอบครัวของ Nerythia Monrroy ได้อย่างไร",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "status": "exact_surrogate",
+      "restored_translation": "หน่วยงานการเมืองของ Crystalis มีหัวหน้ารัฐใด?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ผู้อํานวยการของภาพรวมที่มีผลงานของ Elthar Murthy อยู่ที่ไหน?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q1",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ชื่อผู้อํานวยการของงานที่เป็นส่วนหนึ่งของ Secrets of the Ancients คืออะไร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q2",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:q3",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ผู้อํานวยการของทีมที่สมาชิกทีมของ Astro Defense League เป็นส่วนของใคร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:multi",
+      "status": "exact_surrogate",
+      "restored_translation": "ผู้สมรสของผู้ประกอบการของงานสร้างสรรค์ Thalric Kytarathian Ravenshadow ส่งส่วนร่วมให้กับใคร?",
+      "checks": {
+        "nonempty": true,
+        "target_script_present": true,
+        "protected_names_preserved": true,
+        "protected_numbers_preserved": true,
+        "no_unrestored_marker": true,
+        "missing_names": [],
+        "missing_numbers": []
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "status": "unresolved",
+      "restored_translation": null,
+      "checks": {}
+    }
+  ]
+}

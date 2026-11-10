@@ -1,0 +1,16 @@
+{
+  "status": "INTERACTIVE_RUNTIME_SMOKE_NOTEBOOK_PREPARED_SAFE_BY_DEFAULT",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_revision_pin": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "runner_sha256": "7dac2115db3c53ba1fd2b57e979ac5400446d7f7e0081ac70612e032c8cd7951",
+  "assistant_masking_sha256": "6c91f6047e14438b5f7eda646402580734478a8d312cdcef36a71cdec45f45c6",
+  "mask_preflight_sha256": "68111b3ff298c8236d39743235699d116eb1332d40be8cadd86fd043ef349af1",
+  "access_preflight_sha256": "e8644a1aa0b39197170f13c73f5d0d97ac152db5e8f3b4744de1e2c08c29e7fb",
+  "npo_objective_sha256": "45ab41016cb88b5abab6eab85e886b9b33f7a49422af49832552949c221ae620",
+  "notebook_sha256": "905fc1f6ee06bc2f379b06ab86837cf502fec4b0c03490472d51e1285de218e5",
+  "enable_gpu_at_publish": false,
+  "enable_internet_at_publish": false,
+  "research_data_loaded": false,
+  "run_training": false,
+  "requires_user_interactive_session": true
+}

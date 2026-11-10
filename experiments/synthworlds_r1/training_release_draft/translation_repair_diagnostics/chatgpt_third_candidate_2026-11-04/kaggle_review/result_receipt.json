@@ -1,0 +1,17 @@
+{
+  "kernel_id": "bunnoob2005/synthworlds-third-candidate-review-2026-11-04",
+  "version": 1,
+  "kaggle_status": "COMPLETE",
+  "review_status": "AI_ONLY_REPAIR_REVIEW_HAS_BLOCKED_ROWS",
+  "verification_status": "VERIFIED_WITH_BLOCKED_ROWS_DIAGNOSTIC_ONLY",
+  "rows": 187,
+  "reviewed_rows": 169,
+  "blocked_rows": 18,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "log_sha256": "b305e34679fc3f49421ca7367273bd10141d530f5295f81fefbb3e0d310eed8e",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "release_approved": false,
+  "training_eligible": false
+}

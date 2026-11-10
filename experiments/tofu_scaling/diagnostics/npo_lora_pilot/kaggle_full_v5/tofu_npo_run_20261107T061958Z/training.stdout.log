@@ -1,0 +1,172 @@
+{
+  "status": "TRAINING_COMPLETE",
+  "run_type": "exploratory_single_seed",
+  "started_at_utc": "2026-11-07T06:21:20.887196+00:00",
+  "model": {
+    "label": "Llama 3.2 3B full",
+    "family": "llama_3_2_3b",
+    "role": "full",
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+  },
+  "dataset": {
+    "repo": "locuslab/TOFU",
+    "revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+    "forget10_rows": 400,
+    "retain90_rows": 3600,
+    "forget10_sha256": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+    "retain90_sha256": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55"
+  },
+  "upstream_code_revision": "2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+  "method": {
+    "method": "NPO + retain NLL (LoRA adapter)",
+    "beta": 0.1,
+    "gamma_forget": 1.0,
+    "alpha_retain": 1.0,
+    "retain_loss_type": "NLL",
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0,
+    "epochs": 10,
+    "max_length": 512,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "lora_target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "gradient_clip_norm": 1.0,
+    "batching": "1 forget + 1 retain example per microbatch; effective paired batch 8",
+    "optimizer": "torch AdamW, betas=(0.9,0.999), eps=1e-8",
+    "scheduler": "linear; one epoch warmup",
+    "precision": "FP16 frozen base checkpoint; FP32 LoRA parameters and loss; SDPA",
+    "retain_sampling": "uniform with replacement, one retain row per forget row, as in pinned upstream anchor=forget wrapper"
+  },
+  "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+  "objective_equivalence": {
+    "status": "PASS",
+    "upstream": "locuslab/open-unlearning@2d98027677f3468d52b6baa3fc4f2b9f2dc08820",
+    "upstream_utils_sha256": "742bd2682b5829bb731988c952550c9c2ff75889737f8eee14f1b148d6d975e9",
+    "candidate_objective_sha256": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "protocol_sha256": "eec466da78a5666e0564aa602d6ff74e7205fa850fd94fbeb8fd945b94ef7c69",
+    "python_version": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "torch_version": "2.11.0+cu130",
+    "npo_beta": 0.1,
+    "upstream_loss": 13.862943649291992,
+    "candidate_loss": 13.862943649291992,
+    "absolute_loss_difference": 0.0,
+    "maximum_parameter_gradient_difference": 5.960464477539063e-08,
+    "retain_nll_loss_difference": 0.0,
+    "combined_vs_sequential_backward_max_gradient_difference": 0.0,
+    "examples": 2,
+    "loss_reduction": "sum token NLL per sequence; batch mean for NPO; token mean for retain NLL"
+  },
+  "training_script_sha256": "79036aab028fb0b2abaceae8bde3ac9f789be0918bb8a880265bb50cb594edca",
+  "seed": 42,
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "package_versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.22.1",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "scipy": "1.16.3",
+    "torchao": null
+  },
+  "gpu_total_memory_bytes": [
+    15636037632,
+    15636037632
+  ],
+  "smoke_rows": null,
+  "training_started": true,
+  "adapter_saved": true,
+  "tokenization": {
+    "max_length_observed": 170,
+    "truncated_examples": 0,
+    "prompt_answer_prefix_check": "PASS for every sequence"
+  },
+  "runtime": {
+    "device_map": {
+      "model.embed_tokens": "0",
+      "lm_head": "0",
+      "model.layers.0": "0",
+      "model.layers.1": "0",
+      "model.layers.2": "0",
+      "model.layers.3": "0",
+      "model.layers.4": "0",
+      "model.layers.5": "0",
+      "model.layers.6": "0",
+      "model.layers.7": "0",
+      "model.layers.8": "0",
+      "model.layers.9": "0",
+      "model.layers.10": "0",
+      "model.layers.11": "0",
+      "model.layers.12": "0",
+      "model.layers.13": "0",
+      "model.layers.14": "0",
+      "model.layers.15": "1",
+      "model.layers.16": "1",
+      "model.layers.17": "1",
+      "model.layers.18": "1",
+      "model.layers.19": "1",
+      "model.layers.20": "1",
+      "model.layers.21": "1",
+      "model.layers.22": "1",
+      "model.layers.23": "1",
+      "model.layers.24": "1",
+      "model.layers.25": "1",
+      "model.layers.26": "1",
+      "model.layers.27": "1",
+      "model.norm": "1",
+      "model.rotary_emb": "1"
+    },
+    "cpu_or_disk_offload": false,
+    "input_device": "cuda:0",
+    "dtype": "float16",
+    "attention": "sdpa"
+  },
+  "completed_at_utc": "2026-11-07T06:48:01.747480+00:00",
+  "global_steps": 500,
+  "trainable_parameters": 24313856,
+  "all_parameters": 3237063680,
+  "trainable_parameter_fraction": 0.00751108362502155,
+  "optimizer_steps_with_finite_loss_and_gradient": 500,
+  "smoke_max_abs_lora_parameter_update": null,
+  "runtime_seconds": 1600.87,
+  "adapter_files_sha256": {
+    "README.md": "9a5b08cb99b54f562751a089e8a07cc3518ab30cfe111b3daa846e2a443ebd70",
+    "adapter_config.json": "14fb93e529aac580b310d447f1a8fa14e7fcd6c20eddd52bd678e93901c78cad",
+    "adapter_model.safetensors": "1b313e8c53b70c4da41fee44aa9db7e5e15d52697262c74b14afdde6771e8795",
+    "chat_template.jinja": "5816fce10444e03c2e9ee1ef8a4a1ea61ae7e69e438613f3b17b69d0426223a4",
+    "tokenizer.json": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b",
+    "tokenizer_config.json": "58d954db45152000b3596db19f22648213abd8a65893610380e527b7c87802b6"
+  }
+}
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:01<04:45,  1.13s/it]
+Loading weights:  22%|██▏       | 57/254 [00:01<00:03, 61.39it/s]
+Loading weights:  32%|███▏      | 82/254 [00:01<00:02, 72.21it/s]
+Loading weights:  39%|███▉      | 100/254 [00:01<00:02, 76.23it/s]
+Loading weights:  45%|████▌     | 115/254 [00:01<00:01, 76.17it/s]
+Loading weights:  50%|█████     | 127/254 [00:02<00:01, 77.85it/s]
+Loading weights:  54%|█████▍    | 138/254 [00:02<00:01, 74.68it/s]
+Loading weights:  58%|█████▊    | 148/254 [00:02<00:01, 74.66it/s]
+Loading weights:  62%|██████▏   | 158/254 [00:02<00:01, 79.35it/s]
+Loading weights:  69%|██████▊   | 174/254 [00:02<00:00, 84.07it/s]
+Loading weights:  72%|███████▏  | 184/254 [00:02<00:00, 83.50it/s]
+Loading weights:  76%|███████▌  | 193/254 [00:02<00:00, 81.19it/s]
+Loading weights:  80%|███████▉  | 203/254 [00:02<00:00, 84.99it/s]
+Loading weights:  83%|████████▎ | 212/254 [00:03<00:00, 78.56it/s]
+Loading weights:  90%|████████▉ | 228/254 [00:03<00:00, 84.11it/s]
+Loading weights:  93%|█████████▎| 237/254 [00:03<00:00, 85.25it/s]
+Loading weights:  97%|█████████▋| 246/254 [00:03<00:00, 83.30it/s]
+Loading weights: 100%|██████████| 254/254 [00:03<00:00, 72.07it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

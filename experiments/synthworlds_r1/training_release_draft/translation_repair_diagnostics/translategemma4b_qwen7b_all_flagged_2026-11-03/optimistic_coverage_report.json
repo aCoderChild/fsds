@@ -1,0 +1,59 @@
+{
+  "combination_rule": "first-stage AI_ONLY_ROUNDTRIP_AND_FLUENCY_PASS OR full-repair DIAGNOSTIC_QWEN_PASS",
+  "created_at_utc": "2026-11-04T03:40:56.367213+00:00",
+  "limits": [
+    "This optimistic upper bound counts first-stage passes and repair Qwen passes only.",
+    "Repaired candidates have not passed the frozen round-trip and Qwen2.5 14B release review.",
+    "No candidate is merged into source translations or the training release by this analysis.",
+    "AI-only review is not fluent-human certification."
+  ],
+  "optimistic_complete_atomic_cases": {
+    "forget": {
+      "complete": 52,
+      "required": 117
+    },
+    "retain": {
+      "complete": 17,
+      "required": 39
+    }
+  },
+  "optimistic_complete_composition_chains": {
+    "complete": 1,
+    "required": 44
+  },
+  "repair_candidates_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973",
+  "repair_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+  "repair_script_sha256": "3ea569f1b53c72394091615260968b2ae4fff7c71ace171a4e3fca46a417689f",
+  "rows_by_language": {
+    "de": {
+      "first_stage_pass": 245,
+      "optimistic_effective_pass": 446,
+      "optimistic_effective_pass_rate": 0.913934,
+      "repair_qwen_pass": 201,
+      "source_rows": 488
+    },
+    "fr": {
+      "first_stage_pass": 293,
+      "optimistic_effective_pass": 433,
+      "optimistic_effective_pass_rate": 0.887295,
+      "repair_qwen_pass": 140,
+      "source_rows": 488
+    },
+    "hi": {
+      "first_stage_pass": 261,
+      "optimistic_effective_pass": 424,
+      "optimistic_effective_pass_rate": 0.868852,
+      "repair_qwen_pass": 163,
+      "source_rows": 488
+    },
+    "th": {
+      "first_stage_pass": 205,
+      "optimistic_effective_pass": 384,
+      "optimistic_effective_pass_rate": 0.786885,
+      "repair_qwen_pass": 179,
+      "source_rows": 488
+    }
+  },
+  "source_review_sha256": "b5cdfcf944366f64b3e6110d412e78b2c2b3b53380400e020f98df96e45b41d6",
+  "status": "OPTIMISTIC_DIAGNOSTIC_ONLY_NOT_RELEASE_APPROVAL"
+}

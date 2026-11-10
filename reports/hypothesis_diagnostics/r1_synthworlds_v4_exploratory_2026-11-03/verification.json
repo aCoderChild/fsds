@@ -1,0 +1,70 @@
+{
+  "status": "ARCHIVE_AND_RESCORING_VERIFIED",
+  "archive": "r1_composition_v4_3355_exploratory_reproducibility_bundle.zip",
+  "archive_sha256": "e348c104e1c8a07960c737d349121635bbc93d70ef0f4c677d04081fead75843",
+  "zip_crc": "PASS",
+  "zip_entries": 82,
+  "manifest_file_count": 81,
+  "manifest_files_verified": 81,
+  "rescore_checks": [
+    {
+      "phase": "baseline",
+      "file": "scored_predictions.jsonl",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "phase": "baseline",
+      "file": "summary.json",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "phase": "baseline",
+      "file": "cross_language_contrasts.json",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "phase": "post_unlearning",
+      "file": "scored_predictions.jsonl",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "phase": "post_unlearning",
+      "file": "summary.json",
+      "status": "EXACT_MATCH"
+    },
+    {
+      "phase": "post_unlearning",
+      "file": "cross_language_contrasts.json",
+      "status": "EXACT_MATCH"
+    }
+  ],
+  "baseline_gate_status": "FAIL",
+  "run_mode": "EXPLORATORY_LOW_POWER_AFTER_FAILED_GATE",
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "corrected_sampler_kaggle_run": "PENDING",
+  "corrected_unlearning_script_sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d",
+  "corrected_notebook_sha256": "76a6be4813d53784318b45013744391c2d6d1671813cf80cea42c3f4414f6a3e",
+  "corrected_kaggle_package_sha256": "8247dfd4ac04675ca674e06a3babe46957e877f0a099af002b40a9b439df683d",
+  "fixture_tests": {
+    "r1_experiment": 14,
+    "sft_pipeline": 7,
+    "status": "PASS"
+  },
+  "type_b_independent_verifier": {
+    "status": "PASS",
+    "chains": 85,
+    "english_rows": 340,
+    "errors": 0
+  },
+  "notebook_syntax": {
+    "code_cells_compiled": 17,
+    "outputs_clean": true,
+    "all_training_switches_default_off": true
+  },
+  "r1_tex_latexmk": {
+    "status": "PASS",
+    "pages": 10,
+    "output": "/tmp/r1_report_build/R1.pdf"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_chains": 85,
+  "candidate_rows_en": 340,
+  "candidate_sha256": "742c458d066ffe89c5268897a8c53a045e41255852a5339bbb6c189874a6677f",
+  "error_count": 0,
+  "errors": [],
+  "evaluation_assignments_sha256": "d6ab5aeead869c1072dece276cc403a32c46e24253e1ad33c35d054209059bea",
+  "evaluation_labels_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+  "prompt_types_per_chain": {
+    "q1+q2+q3+multi": 85
+  },
+  "source_facts_sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+  "source_qa_sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+  "status": "PASS"
+}

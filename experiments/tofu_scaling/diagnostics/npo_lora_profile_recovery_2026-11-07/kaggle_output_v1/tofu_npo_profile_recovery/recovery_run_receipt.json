@@ -1,0 +1,23 @@
+{
+  "status": "ERROR",
+  "protocol_id": "tofu_3b_npo_lora_profile_recovery_v1",
+  "protocol_sha256": "6b69807f5a9e15979617823256afc59e46444d12463be2b71f2938c3033ce91a",
+  "started_at_utc": "2026-11-07T16:49:14.338517+00:00",
+  "gpu_names": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "training_started": true,
+  "candidate_attempts": [],
+  "selected_alpha_retain": null,
+  "final_training_started": false,
+  "smoke_status": "PASS_BOUNDED_REAL_DATA_SMOKE",
+  "candidate_alpha_in_progress": 5.0,
+  "error": "RuntimeError: Development evaluation failed for alpha=5",
+  "completed_at_utc": "2026-11-07T19:51:15.447367+00:00",
+  "artifact_archive": {
+    "path": "/kaggle/working/tofu_npo_profile_recovery_artifacts.zip",
+    "bytes": 94031045,
+    "sha256": "83332e17863a4126808f19e07f546dd5cbacd774bf966b531f5b4a479c8853b8"
+  }
+}

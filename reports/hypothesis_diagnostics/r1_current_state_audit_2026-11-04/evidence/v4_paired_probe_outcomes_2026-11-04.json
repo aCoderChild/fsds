@@ -1,0 +1,531 @@
+{
+  "cohort_definition": "Forget cases where the archived SFT checkpoint answered both direct intermediate-fact and final multi-hop probes correctly in English and in the target language.",
+  "input": {
+    "archive_index_entry_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+    "archive_index_path": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/artifact_index.json",
+    "bytes": 1500436,
+    "independent_rescore_receipt": "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/v4_corrected_independent_rescore_2026-11-04.json",
+    "path": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/case_metrics.jsonl",
+    "run_bundle": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/r1_composition_retainfix_verified_results_20261103_v3.zip",
+    "run_bundle_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+    "sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9"
+  },
+  "interpretation_limit": "Direct-probe failure with a correct final answer shows only that the measured final answer remained correct; it cannot distinguish alternate associations, cueing, or probe limitations.",
+  "outcomes": [
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 90.0,
+        "total": 10
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 10
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 10,
+      "method": "GA",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0169-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 10,
+        "percent": 100.0,
+        "total": 10
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 10
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 10,
+        "percent": 100.0,
+        "total": 10
+      },
+      "target_language": "fr"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 6,
+        "percent": 66.7,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 5,
+      "matched_precompetent_cases": 9,
+      "method": "GA",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0172-qa-sm",
+        "0177-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_language": "de"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 9,
+      "method": "GA",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0036-qa-sm",
+        "0037-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_language": "hi"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 72.7,
+        "total": 11
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "entity_groups": 7,
+      "matched_precompetent_cases": 11,
+      "method": "GA",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0053-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0172-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_language": "th"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 90.0,
+        "total": 10
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 10
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 10,
+      "method": "GD",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0169-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 10,
+        "percent": 100.0,
+        "total": 10
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 2,
+        "percent": 20.0,
+        "total": 10
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 80.0,
+        "total": 10
+      },
+      "target_language": "fr"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 7,
+        "percent": 77.8,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 5,
+      "matched_precompetent_cases": 9,
+      "method": "GD",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0172-qa-sm",
+        "0177-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 1,
+        "percent": 11.1,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 7,
+        "percent": 77.8,
+        "total": 9
+      },
+      "target_language": "de"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 7,
+        "percent": 77.8,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 9,
+      "method": "GD",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0036-qa-sm",
+        "0037-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_language": "hi"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 72.7,
+        "total": 11
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "entity_groups": 7,
+      "matched_precompetent_cases": 11,
+      "method": "GD",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0053-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0172-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_language": "th"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 90.0,
+        "total": 10
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 10
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 10,
+      "method": "NPO",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0169-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 10,
+        "percent": 100.0,
+        "total": 10
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 1,
+        "percent": 10.0,
+        "total": 10
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 9,
+        "percent": 90.0,
+        "total": 10
+      },
+      "target_language": "fr"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 7,
+        "percent": 77.8,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 5,
+      "matched_precompetent_cases": 9,
+      "method": "NPO",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0172-qa-sm",
+        "0177-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_language": "de"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 7,
+        "percent": 77.8,
+        "total": 9
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "entity_groups": 6,
+      "matched_precompetent_cases": 9,
+      "method": "NPO",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0036-qa-sm",
+        "0037-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 9
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 8,
+        "percent": 88.9,
+        "total": 9
+      },
+      "target_language": "hi"
+    },
+    {
+      "english_final_multihop_accuracy": {
+        "correct": 8,
+        "percent": 72.7,
+        "total": 11
+      },
+      "english_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "entity_groups": 7,
+      "matched_precompetent_cases": 11,
+      "method": "NPO",
+      "paired_case_ids": [
+        "0009-qa-sm",
+        "0010-qa-sm",
+        "0017-qa-sm",
+        "0036-qa-sm",
+        "0053-qa-sm",
+        "0061-qa-sm",
+        "0098-qa-sm",
+        "0132-qa-sm",
+        "0156-qa-sm",
+        "0172-qa-sm",
+        "0178-qa-sm"
+      ],
+      "target_final_multihop_accuracy": {
+        "correct": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_intermediate_direct_accuracy": {
+        "correct": 0,
+        "percent": 0.0,
+        "total": 11
+      },
+      "target_intermediate_wrong_final_correct": {
+        "cases": 9,
+        "percent": 81.8,
+        "total": 11
+      },
+      "target_language": "th"
+    }
+  ],
+  "scope": "Historical v4 one-seed Llama 3.2 1B run; descriptive diagnostic, not confirmatory R1 evidence.",
+  "status": "PASS_RECOMPUTED_EXPLORATORY_PAIRED_OUTCOMES"
+}

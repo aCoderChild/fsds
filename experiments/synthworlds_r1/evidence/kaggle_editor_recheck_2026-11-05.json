@@ -1,0 +1,40 @@
+{
+  "observed_at_utc": "2026-11-05T02:03:10Z",
+  "scope": "KAGGLE_EDITOR_AND_KERNEL_STATUS_RECHECK",
+  "published_kernel": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "published_kernel_status": "ERROR",
+  "interactive_editor_run_id": "365567278",
+  "interactive_session_state": "STOPPED",
+  "draft_save_state": "FAILED_WITH_CONCURRENCY_VIOLATION",
+  "editor_draft_switches_observed": {
+    "RUN_ACCESS_PREFLIGHT": false,
+    "RUN_SMOKE": true,
+    "draft_is_saved": false
+  },
+  "editor_visible_weight_load_log": {
+    "downloaded_size": "16.1 GB",
+    "shards_loaded": "291/291",
+    "interpretation": "A model-weight load attempt is visible in notebook output. It does not establish that the corrected smoke completed or that an optimizer step passed."
+  },
+  "editor_visible_access_probe": {
+    "status": "FAIL_HF_ACCESS_PREFLIGHT",
+    "hf_account": "bunnoob2005",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "resolved_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "failed_stage": "download_small_config",
+    "http_status": 403,
+    "weights_downloaded_by_this_probe": false,
+    "research_data_loaded": false,
+    "training_started": false
+  },
+  "passing_runtime_receipt_visible": false,
+  "research_experiment_running": false,
+  "dataset_release_gate": {
+    "forget_eligible": "5/117",
+    "retain_eligible": "3/39",
+    "training_only_composition_eligible": "0/44",
+    "approved_main_sft_corpus_exists": false
+  },
+  "interpretation": "Neither the published kernel nor the interactive editor currently provides a verified passing 8B runtime-smoke receipt. The interactive draft is unsaved and configured to skip the access preflight, so its current cell should not be run as-is. The main experiment is independently blocked by the source-verified multilingual dataset release gate.",
+  "next_safe_step": "Request/confirm access for the exact meta-llama/Llama-3.1-8B-Instruct repository using the HF account bound to Kaggle. Restore the canonical notebook's safe switches, save it without a concurrent editor conflict, run only the CPU config preflight, and proceed to the GPU smoke only after a verified PASS_HF_ACCESS_PREFLIGHT receipt."
+}

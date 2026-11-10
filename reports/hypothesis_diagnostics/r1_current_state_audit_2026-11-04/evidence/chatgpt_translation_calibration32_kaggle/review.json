@@ -1,0 +1,431 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_COMPLETE",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "7fe75e5cb4ab9b3ca9bb96c4cbd713d0a88a39feffc4b7af330d3e18259ccc14",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "attention_backend": "sdpa",
+  "use_sliding_window": false,
+  "records": [
+    {
+      "prompt_id": "0134-qa-sm:r1",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "What did ZXQENTAQXZ replace?",
+      "translation": "Qu'est-ce que ZXQENTAQXZ a remplacé ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The source question asks what ZXQENTAQXZ replaced, but the candidate translation asks what ZXQENTAQXZ was replaced by, reversing the relation direction.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The source question asks what ZXQENTAQXZ replaced, but the candidate translation asks what ZXQENTAQXZ was replaced by, reversing the relation direction."
+      }
+    },
+    {
+      "prompt_id": "0050-qa-sm:r1",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "Who is ZXQENTAQXZ the godparent of?",
+      "translation": "De qui ZXQENTAQXZ est-il le parrain ou la marraine ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'parrain ou la marraine' is natural and appropriate in French for asking about someone being a godparent.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'parrain ou la marraine' is natural and appropriate in French for asking about someone being a godparent."
+      }
+    },
+    {
+      "prompt_id": "0172-qa-sm:r2",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "What assessment was used to evaluate ZXQENTAQXZ?",
+      "translation": "Quelle évaluation a été utilisée pour évaluer ZXQENTAQXZ ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also natural in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also natural in French."
+      }
+    },
+    {
+      "prompt_id": "0014-qa-sm:r2",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "When did ZXQENTBQXZ become part of the ZXQENTAQXZ?",
+      "translation": "Quand ZXQENTBQXZ a-t-il commencé à faire partie de ZXQENTAQXZ ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'a-t-il commencé' correctly conveys the past tense and the question type is maintained. The translation sounds natural in French.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'a-t-il commencé' correctly conveys the past tense and the question type is maintained. The translation sounds natural in French."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0202-qa-sm:q1",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Of what class is the ZXQENTAQXZ a subclass?",
+      "translation": "De quelle classe ZXQENTAQXZ est-il une sous-classe ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The ZXQ marker remains in the correct semantic position. The sentence is also natural in French.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The ZXQ marker remains in the correct semantic position. The sentence is also natural in French."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Who is ZXQENTAQXZ's stepparent?",
+      "translation": "Qui est le beau-père ou la belle-mère de ZXQENTAQXZ ?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The English source uses 'stepparent' which is gender-neutral, while the French translation specifies 'beau-père ou belle-mère', distinguishing between stepfather and stepmother, thus altering the scope.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The English source uses 'stepparent' which is gender-neutral, while the French translation specifies 'beau-père ou belle-mère', distinguishing between stepfather and stepmother, thus altering the scope."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "language": "fr",
+      "kind": "composition",
+      "source": "What is the family name of the entity that immediately follows the family to which ZXQENTAQXZ belongs?",
+      "translation": "Quel est le nom de famille de l'entité qui suit immédiatement la famille à laquelle ZXQENTAQXZ appartient ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type from English to French. The placeholder ZXQENTAQXZ remains in the correct semantic position. The sentence is also natural and fluent in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type from English to French. The placeholder ZXQENTAQXZ remains in the correct semantic position. The sentence is also natural and fluent in French."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "language": "fr",
+      "kind": "composition",
+      "source": "What is ZXQENTAQXZ's family name?",
+      "translation": "Quel est le nom de famille de ZXQENTAQXZ ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also natural in French.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also natural in French."
+      }
+    },
+    {
+      "prompt_id": "0169-qa-sm:r1",
+      "language": "de",
+      "kind": "atomic",
+      "source": "Who is the editor of ZXQENTAQXZ?",
+      "translation": "Wer ist der Herausgeber von ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the same position semantically. The sentence is also natural in German.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The placeholder ZXQENTAQXZ remains in the same position semantically. The sentence is also natural in German."
+      }
+    },
+    {
+      "prompt_id": "0035-qa-sm:r2",
+      "language": "de",
+      "kind": "atomic",
+      "source": "What is the native language of ZXQENTAQXZ?",
+      "translation": "Was ist die Muttersprache von ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "0196-qa-sm:r1",
+      "language": "de",
+      "kind": "atomic",
+      "source": "Who was a doctoral student of ZXQENTAQXZ?",
+      "translation": "Wer war Doktorand von ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "0152-qa-sm:r2",
+      "language": "de",
+      "kind": "atomic",
+      "source": "In what work is ZXQENTAQXZ described?",
+      "translation": "In welchem Werk wird ZXQENTAQXZ beschrieben?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "language": "de",
+      "kind": "composition",
+      "source": "Which political office of the state that replaced the country whose capital is ZXQENTAQXZ is held by its head of state?",
+      "translation": "Welches politische Amt des Staates, der das Land ablöste, dessen Hauptstadt ZXQENTAQXZ ist, wird vom Staatsoberhaupt dieses Staates bekleidet?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relations, scope, polarity, tense, and question type from the English source. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also fluent and natural in German.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relations, scope, polarity, tense, and question type from the English source. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also fluent and natural in German."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "language": "de",
+      "kind": "composition",
+      "source": "Which work is a part of ZXQENTAQXZ?",
+      "translation": "Welches Werk ist ein Teil von ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "language": "de",
+      "kind": "composition",
+      "source": "Who is ZXQENTAQXZ's stepparent?",
+      "translation": "Wer ist der Stiefvater oder die Stiefmutter von ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The English question asks specifically for a stepparent (singular), while the German translation asks for either a stepfather or a stepmother, implying two possible answers or a choice between them.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The English question asks specifically for a stepparent (singular), while the German translation asks for either a stepfather or a stepmother, implying two possible answers or a choice between them."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "language": "de",
+      "kind": "composition",
+      "source": "Which work does ZXQENTAQXZ reference?",
+      "translation": "Auf welches Werk verweist ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relation direction, scope, polarity, and tense of the original English question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "0046-qa-sm:r2",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "In which work does ZXQENTAQXZ appear?",
+      "translation": "ZXQENTAQXZ किस कृति में प्रकट होता है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and question type. The ZXQ marker remains in the correct position. The sentence is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and question type. The ZXQ marker remains in the correct position. The sentence is natural in Hindi."
+      }
+    },
+    {
+      "prompt_id": "0092-qa-sm:r2",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "In which area does the ZXQENTAQXZ operate?",
+      "translation": "ZXQENTAQXZ किस क्षेत्र में कार्य करता है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The entity ZXQENTAQXZ remains in the correct position. The sentence is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The entity ZXQENTAQXZ remains in the correct position. The sentence is natural in Hindi."
+      }
+    },
+    {
+      "prompt_id": "0072-qa-sm:r1",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "What is on the boundary of ZXQENTAQXZ?",
+      "translation": "ZXQENTAQXZ की सीमा पर क्या है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation correctly maintains the meaning, relation direction, scope, polarity, and tense of the original English question. The placement of ZXQENTAQXZ is also correct. The sentence is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation correctly maintains the meaning, relation direction, scope, polarity, and tense of the original English question. The placement of ZXQENTAQXZ is also correct. The sentence is natural in Hindi."
+      }
+    },
+    {
+      "prompt_id": "0078-qa-sm:r2",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "In which work is ZXQENTAQXZ described?",
+      "translation": "ZXQENTAQXZ का वर्णन किस कृति में किया गया है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The entity ZXQENTAQXZ remains in the correct semantic position. The sentence is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately preserves the meaning, relation direction, scope, polarity, tense, and question type. The entity ZXQENTAQXZ remains in the correct semantic position. The sentence is also natural in Hindi."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0267-qa-sm:multi",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who founded the organization that the rank above the ZXQENTAQXZ is part of?",
+      "translation": "उस संगठन की स्थापना किसने की, जिसका हिस्सा ZXQENTAQXZ से ऊपर का पद है?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship between the organization and the rank. The English sentence asks about the founder of the organization that has a rank above ZXQENTAQXZ, but the Hindi sentence incorrectly states ZXQENTAQXZ is part of the organization.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship between the organization and the rank. The English sentence asks about the founder of the organization that has a rank above ZXQENTAQXZ, but the Hindi sentence incorrectly states ZXQENTAQXZ is part of the organization."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0295-qa-sm:q1",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Which work is a part of ZXQENTAQXZ?",
+      "translation": "कौन-सी कृति ZXQENTAQXZ का हिस्सा है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"Translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The use of 'कौन-सी कृति' for 'Which work' and 'ZXQENTAQXZ का हिस्सा है?' for 'is a part of' is accurate and natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Translation preserves the exact meaning, relation direction, scope, polarity, tense, and question type. The use of 'कौन-सी कृति' for 'Which work' and 'ZXQENTAQXZ का हिस्सा है?' for 'is a part of' is accurate and natural in Hindi."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0218-qa-sm:q2",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who is the editor of ZXQENTAQXZ?",
+      "translation": "ZXQENTAQXZ का संपादक कौन है?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original question. The target language version is also natural and fluent.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and tense of the original question. The target language version is also natural and fluent."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who is ZXQENTAQXZ's godparent?",
+      "translation": "ZXQENTAQXZ के धर्मपिता या धर्ममाता कौन हैं?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation incorrectly uses 'धर्मपिता या धर्ममाता' (religious father or religious mother) instead of 'साबुत' (godparent).\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation incorrectly uses 'धर्मपिता या धर्ममाता' (religious father or religious mother) instead of 'साबुत' (godparent)."
+      }
+    },
+    {
+      "prompt_id": "0044-qa-sm:r2",
+      "language": "th",
+      "kind": "atomic",
+      "source": "On which physical feature is ZXQENTAQXZ located?",
+      "translation": "ZXQENTAQXZ ตั้งอยู่บนลักษณะภูมิประเทศใด?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and object, asking about the physical feature on which ZXQENTAQXZ is located instead of the other way around.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and object, asking about the physical feature on which ZXQENTAQXZ is located instead of the other way around."
+      }
+    },
+    {
+      "prompt_id": "0152-qa-sm:r1",
+      "language": "th",
+      "kind": "atomic",
+      "source": "What honorific prefix is used for ZXQENTAQXZ?",
+      "translation": "ใช้คำยกย่องนำหน้าชื่อใดสำหรับ ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'ZXQENTAQXZ' is preserved in the same position. The Thai version sounds natural.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relation direction, scope, polarity, and tense of the original English question. The use of 'ZXQENTAQXZ' is preserved in the same position. The Thai version sounds natural."
+      }
+    },
+    {
+      "prompt_id": "0115-qa-sm:r2",
+      "language": "th",
+      "kind": "atomic",
+      "source": "Where is the ZXQENTAQXZ language indigenous to?",
+      "translation": "ภาษา ZXQENTAQXZ เป็นภาษาพื้นเมืองของที่ใด?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation is semantically correct but not natural in Thai. The word order and phrasing should be adjusted for better fluency.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation is semantically correct but not natural in Thai. The word order and phrasing should be adjusted for better fluency."
+      }
+    },
+    {
+      "prompt_id": "0055-qa-sm:r1",
+      "language": "th",
+      "kind": "atomic",
+      "source": "Who performed ZXQENTAQXZ?",
+      "translation": "ใครเป็นผู้แสดง ZXQENTAQXZ?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation preserves the exact meaning, relation direction, scope, polarity, and question type. The ZXQ marker remains in the correct position. The sentence is also natural in Thai.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation preserves the exact meaning, relation direction, scope, polarity, and question type. The ZXQ marker remains in the correct position. The sentence is also natural in Thai."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0382-qa-sm:multi",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is the father of the creator of the noble title held by ZXQENTAQXZ?",
+      "translation": "ใครคือบิดาของผู้สถาปนาบรรดาศักดิ์ที่ ZXQENTAQXZ ถือครอง?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation accurately captures the meaning, relations, scope, polarity, tense, and question type. However, it is not entirely natural in Thai as 'ZXQENTAQXZ' disrupts the flow and typically such titles would be mentioned after the verb phrase.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation accurately captures the meaning, relations, scope, polarity, tense, and question type. However, it is not entirely natural in Thai as 'ZXQENTAQXZ' disrupts the flow and typically such titles would be mentioned after the verb phrase."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is ZXQENTAQXZ's godparent?",
+      "translation": "ใครคือพ่อทูนหัวหรือแม่ทูนหัวของ ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relation direction, scope, polarity, and question type. The term 'godparent' is appropriately translated as 'พ่อทูนหัวหรือแม่ทูนหัว'. The name ZXQENTAQXZ is preserved correctly. The sentence is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relation direction, scope, polarity, and question type. The term 'godparent' is appropriately translated as 'พ่อทูนหัวหรือแม่ทูนหัว'. The name ZXQENTAQXZ is preserved correctly. The sentence is natural in Thai."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0291-qa-sm:q2",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is the unmarried partner of ZXQENTAQXZ?",
+      "translation": "ใครคือคู่ครองที่ไม่ได้สมรสกับ ZXQENTAQXZ?",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The relation direction is incorrect. The English sentence asks who is the unmarried partner of ZXQENTAQXZ, but the Thai sentence asks who ZXQENTAQXZ's unmarried partner is.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The relation direction is incorrect. The English sentence asks who is the unmarried partner of ZXQENTAQXZ, but the Thai sentence asks who ZXQENTAQXZ's unmarried partner is."
+      }
+    },
+    {
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "language": "th",
+      "kind": "composition",
+      "source": "Where is the mother of the person ZXQENTAQXZ works for buried?",
+      "translation": "มารดาของบุคคลที่ ZXQENTAQXZ ทำงานให้ถูกฝังอยู่ที่ใด?",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning, relation direction, scope, polarity, tense, and question type of the original English sentence. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also fluent in Thai.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning, relation direction, scope, polarity, tense, and question type of the original English sentence. The placeholder ZXQENTAQXZ remains in the correct position. The sentence is also fluent in Thai."
+      }
+    }
+  ],
+  "schema_errors": 0
+}

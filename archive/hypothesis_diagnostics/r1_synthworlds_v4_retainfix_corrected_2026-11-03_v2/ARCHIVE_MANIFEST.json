@@ -1,0 +1,415 @@
+{
+  "archive_name": "corrected_v4_results_v2_superseded",
+  "date": "2026-11-03",
+  "zip": {
+    "path": "r1_composition_retainfix_corrected_results_20261103_v2.zip",
+    "bytes": 225656503,
+    "sha256": "4757aef0841894a89597c8312cd2d94b515e898ca2045eea8f92a0af3fd8eb89",
+    "crc_check": "PASS",
+    "file_count": 78,
+    "uncompressed_bytes": 324128107
+  },
+  "removed_duplicate_extraction": {
+    "path": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted_v2_superseded",
+    "pre_removal_sha256_comparison": "PASS for all 78 ZIP members"
+  },
+  "members": [
+    {
+      "path": "corrected_evaluation/cross_language_contrasts.csv",
+      "bytes": 2864,
+      "crc32": "e6f0219d"
+    },
+    {
+      "path": "corrected_evaluation/summary.json",
+      "bytes": 59760,
+      "crc32": "81e8c8a1"
+    },
+    {
+      "path": "corrected_evaluation/case_metrics.jsonl",
+      "bytes": 1500436,
+      "crc32": "996fa8ab"
+    },
+    {
+      "path": "corrected_evaluation/predictions.jsonl",
+      "bytes": 1323357,
+      "crc32": "9a38cc81"
+    },
+    {
+      "path": "corrected_evaluation/diagnostic_report.md",
+      "bytes": 11632,
+      "crc32": "33fe6b10"
+    },
+    {
+      "path": "corrected_evaluation/summary.csv",
+      "bytes": 11239,
+      "crc32": "6a59c783"
+    },
+    {
+      "path": "corrected_evaluation/verification.json",
+      "bytes": 1344,
+      "crc32": "40cf9db2"
+    },
+    {
+      "path": "corrected_evaluation/scored_predictions.jsonl",
+      "bytes": 2179918,
+      "crc32": "a7d5c656"
+    },
+    {
+      "path": "corrected_evaluation/cross_language_contrasts.json",
+      "bytes": 12977,
+      "crc32": "27f73a07"
+    },
+    {
+      "path": "corrected_evaluation/generation.log",
+      "bytes": 18134,
+      "crc32": "6da0d808"
+    },
+    {
+      "path": "corrected_evaluation/corrected_gd_npo_predictions.jsonl",
+      "bytes": 406246,
+      "crc32": "6472e935"
+    },
+    {
+      "path": "corrected_evaluation/partial_predictions/GD.jsonl",
+      "bytes": 202577,
+      "crc32": "4444c680"
+    },
+    {
+      "path": "corrected_evaluation/partial_predictions/NPO.jsonl",
+      "bytes": 203669,
+      "crc32": "96aace9b"
+    },
+    {
+      "path": "corrected_unlearning/ga/train.log",
+      "bytes": 2657,
+      "crc32": "269074e6"
+    },
+    {
+      "path": "corrected_unlearning/ga/run_manifest.json",
+      "bytes": 2607,
+      "crc32": "6d52609e"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/adapter_config.json",
+      "bytes": 1165,
+      "crc32": "4975d478"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "crc32": "ecb74bc3"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/README.md",
+      "bytes": 5218,
+      "crc32": "0d929417"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "crc32": "e0ab37d3"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "crc32": "68e33385"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "crc32": "72e98fbd"
+    },
+    {
+      "path": "corrected_unlearning/ga/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "crc32": "b4cc8d74"
+    },
+    {
+      "path": "corrected_unlearning/gd/train.log",
+      "bytes": 3236,
+      "crc32": "52849433"
+    },
+    {
+      "path": "corrected_unlearning/gd/run_manifest.json",
+      "bytes": 3186,
+      "crc32": "dabf9b52"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/adapter_config.json",
+      "bytes": 1165,
+      "crc32": "dc47b66d"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "crc32": "ecb74bc3"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/README.md",
+      "bytes": 5218,
+      "crc32": "0d929417"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "crc32": "e0ab37d3"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "crc32": "6cb285f7"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "crc32": "72e98fbd"
+    },
+    {
+      "path": "corrected_unlearning/gd/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "crc32": "b4cc8d74"
+    },
+    {
+      "path": "corrected_unlearning/npo/train.log",
+      "bytes": 3245,
+      "crc32": "883c0a84"
+    },
+    {
+      "path": "corrected_unlearning/npo/run_manifest.json",
+      "bytes": 3195,
+      "crc32": "4283ead2"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/adapter_config.json",
+      "bytes": 1165,
+      "crc32": "1e00c90c"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/special_tokens_map.json",
+      "bytes": 439,
+      "crc32": "ecb74bc3"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/README.md",
+      "bytes": 5218,
+      "crc32": "0d929417"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "crc32": "e0ab37d3"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "crc32": "5f2da704"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "crc32": "72e98fbd"
+    },
+    {
+      "path": "corrected_unlearning/npo/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "crc32": "b4cc8d74"
+    },
+    {
+      "path": "sft_baseline/adapter/training_args.bin",
+      "bytes": 5841,
+      "crc32": "294e09b8"
+    },
+    {
+      "path": "sft_baseline/adapter/adapter_config.json",
+      "bytes": 1165,
+      "crc32": "eee6efce"
+    },
+    {
+      "path": "sft_baseline/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "crc32": "7dff9dbc"
+    },
+    {
+      "path": "sft_baseline/adapter/README.md",
+      "bytes": 5218,
+      "crc32": "0d929417"
+    },
+    {
+      "path": "sft_baseline/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "crc32": "e0ab37d3"
+    },
+    {
+      "path": "sft_baseline/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "crc32": "aed6d1c7"
+    },
+    {
+      "path": "sft_baseline/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "crc32": "72e98fbd"
+    },
+    {
+      "path": "sft_baseline/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "crc32": "b4cc8d74"
+    },
+    {
+      "path": "retain_only_baseline/adapter/training_args.bin",
+      "bytes": 5905,
+      "crc32": "457d4c78"
+    },
+    {
+      "path": "retain_only_baseline/adapter/adapter_config.json",
+      "bytes": 1165,
+      "crc32": "1cb58d7a"
+    },
+    {
+      "path": "retain_only_baseline/adapter/special_tokens_map.json",
+      "bytes": 325,
+      "crc32": "7dff9dbc"
+    },
+    {
+      "path": "retain_only_baseline/adapter/README.md",
+      "bytes": 5218,
+      "crc32": "0d929417"
+    },
+    {
+      "path": "retain_only_baseline/adapter/tokenizer.json",
+      "bytes": 17209920,
+      "crc32": "e0ab37d3"
+    },
+    {
+      "path": "retain_only_baseline/adapter/adapter_model.safetensors",
+      "bytes": 45118424,
+      "crc32": "27cd5314"
+    },
+    {
+      "path": "retain_only_baseline/adapter/tokenizer_config.json",
+      "bytes": 50554,
+      "crc32": "72e98fbd"
+    },
+    {
+      "path": "retain_only_baseline/adapter/chat_template.jinja",
+      "bytes": 3827,
+      "crc32": "b4cc8d74"
+    },
+    {
+      "path": "evaluation_dataset/README.md",
+      "bytes": 1875,
+      "crc32": "e1513d18"
+    },
+    {
+      "path": "evaluation_dataset/manifest.json",
+      "bytes": 2461,
+      "crc32": "f451b303"
+    },
+    {
+      "path": "evaluation_dataset/labels/gold_labels.jsonl",
+      "bytes": 66460,
+      "crc32": "2101844e"
+    },
+    {
+      "path": "evaluation_dataset/prompts/en.jsonl",
+      "bytes": 63538,
+      "crc32": "edd6be63"
+    },
+    {
+      "path": "evaluation_dataset/translation_requests/de.jsonl",
+      "bytes": 183249,
+      "crc32": "e3933cdb"
+    },
+    {
+      "path": "evaluation_dataset/translation_requests/fr.jsonl",
+      "bytes": 183249,
+      "crc32": "db965723"
+    },
+    {
+      "path": "evaluation_dataset/translation_requests/hi.jsonl",
+      "bytes": 183249,
+      "crc32": "5fc9a626"
+    },
+    {
+      "path": "evaluation_dataset/translation_requests/th.jsonl",
+      "bytes": 183249,
+      "crc32": "8a9c09c0"
+    },
+    {
+      "path": "evaluation_dataset/translations/review_process_log.json",
+      "bytes": 1276,
+      "crc32": "fb32c057"
+    },
+    {
+      "path": "evaluation_dataset/translations/ai_reviewed/de.jsonl",
+      "bytes": 40325,
+      "crc32": "f9acd43c"
+    },
+    {
+      "path": "evaluation_dataset/translations/ai_reviewed/fr.jsonl",
+      "bytes": 40916,
+      "crc32": "ab0b239c"
+    },
+    {
+      "path": "evaluation_dataset/translations/ai_reviewed/hi.jsonl",
+      "bytes": 54800,
+      "crc32": "c006a6ed"
+    },
+    {
+      "path": "evaluation_dataset/translations/ai_reviewed/review_import_report.json",
+      "bytes": 1415,
+      "crc32": "e71e7d86"
+    },
+    {
+      "path": "evaluation_dataset/translations/ai_reviewed/th.jsonl",
+      "bytes": 53178,
+      "crc32": "eef3bd12"
+    },
+    {
+      "path": "sft_baseline/run_manifest.json",
+      "bytes": 1061,
+      "crc32": "6f84b1ff"
+    },
+    {
+      "path": "retain_only_baseline/run_manifest.json",
+      "bytes": 1044,
+      "crc32": "66cfdc1a"
+    },
+    {
+      "path": "baseline_diagnostics/precompetent_english_forget_targets.json",
+      "bytes": 1550,
+      "crc32": "f2e4a32b"
+    },
+    {
+      "path": "sft_training/composition_corpus_disjoint.jsonl",
+      "bytes": 5086520,
+      "crc32": "a2724633"
+    },
+    {
+      "path": "sft_training/composition_disjoint_manifest.json",
+      "bytes": 4696,
+      "crc32": "678492bd"
+    },
+    {
+      "path": "scripts/evaluate_crosslingual_unlearning.py",
+      "bytes": 29165,
+      "crc32": "021612a6"
+    },
+    {
+      "path": "scripts/unlearn_lora_v4_exploratory_fixed.py",
+      "bytes": 19183,
+      "crc32": "51d220dd"
+    },
+    {
+      "path": "artifact_index.json",
+      "bytes": 14116,
+      "crc32": "d263722a"
+    }
+  ],
+  "files": [
+    {
+      "path": "r1_composition_retainfix_corrected_results_20261103_v2.zip",
+      "bytes": 225656503,
+      "sha256": "4757aef0841894a89597c8312cd2d94b515e898ca2045eea8f92a0af3fd8eb89"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "cross_split_exact_answers": 0,
+  "cross_split_exact_facts": 0,
+  "cross_split_target_facts": 0,
+  "eligible_type_a_count": 130,
+  "excluded_type_a_count": 70,
+  "graph_relation_pid_independently_verifiable_from_source_facts": false,
+  "indivisible_group_count": 112,
+  "indivisible_group_size_histogram": {
+    "1": 98,
+    "2": 12,
+    "4": 2
+  },
+  "limitations": [
+    "Source facts contain relation strings but not PIDs; relation ID provenance is the parsed graph metadata.",
+    "Q1 relation semantics were checked against the prior audit and exact source relation cardinality; automated checks cannot fully establish semantic entailment for every paraphrase.",
+    "The 78/26/26 assignment is candidate-only and not approved."
+  ],
+  "other_graph_types_excluded": 1000,
+  "proposed_counts": {
+    "forget": 78,
+    "holdout": 26,
+    "retain": 26
+  },
+  "source_checksums": {
+    "documents": {
+      "bytes": 6461576,
+      "filename": "qa-sm-docs.jsonl",
+      "rows": 6290,
+      "sha256": "ece11d38e02b0992fc74bcda0a1a6da65e89126686a8c7de8ecfef1902b8dffe"
+    },
+    "facts": {
+      "bytes": 13742781,
+      "filename": "qa-sm-facts.jsonl",
+      "rows": 6290,
+      "sha256": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e"
+    },
+    "qa": {
+      "bytes": 8948814,
+      "filename": "qa-sm.jsonl",
+      "rows": 1200,
+      "sha256": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb"
+    }
+  },
+  "status": "VERIFIED_PROPOSAL_NOT_APPROVED"
+}

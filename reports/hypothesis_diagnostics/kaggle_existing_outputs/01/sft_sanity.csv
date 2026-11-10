@@ -1,0 +1,1153 @@
+checkpoint,case_id,split,language,probe,question,gold,prediction,depth,correct
+full_sft,MQuAKE-CF:1479,forget,en,direct,What is the country of citizenship of Raluca Olaru?,Romania,Romania,2,1
+full_sft,MQuAKE-CF:1479,forget,en,multi,Who is the head of state of the country where Raluca Olaru is a citizen?,Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-CF:1479,forget,de,direct,Welches ist das Staatsangehörigkeitsland von Raluca Olaru?,Romania,Romania,2,1
+full_sft,MQuAKE-CF:1479,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Raluca Olaru Staatsbürger ist?",Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-CF:1479,forget,ru,direct,Какая страна имеет гражданство Ралука Олуру?,Romania,Romania,2,1
+full_sft,MQuAKE-CF:1479,forget,ru,multi,"Кто является главой государства страны, гражданином которой является Ралука Олуру?",Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-CF:1479,forget,zh,direct,拉卢卡·奥尔鲁的国籍国家是什么?,Romania,Germany,2,0
+full_sft,MQuAKE-CF:1479,forget,zh,multi,拉卢卡·奥拉鲁是该国公民的国家元首是谁?,Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-CF:1479,forget,tr,direct,Raluca Olaru'nun vatandaşlığı hangi ülkede?,Romania,Romania,2,1
+full_sft,MQuAKE-CF:1479,forget,tr,multi,Raluca Olaru'nun vatandaş olduğu ülkenin devlet başkanı kim?,Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-CF:1479,forget,vi,direct,Quốc gia công dân của Raluca Olaru là gì?,Romania,Romania,2,1
+full_sft,MQuAKE-CF:1479,forget,vi,multi,Ai là thủ lĩnh của quốc gia mà Raluca Olaru là công dân?,Klaus Iohannis,Klaus Iohannis,2,1
+full_sft,MQuAKE-T:797,forget,en,direct,What is the country of citizenship of Jo In-seong?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:797,forget,en,multi,Who is the head of the government of the country that Jo In-seong is a citizen of?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:797,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Jo In-seong?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:797,forget,de,multi,"Wer ist der Regierungschef des Landes, dessen Staatsbürger Jo In-seong ist?",Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:797,forget,ru,direct,В какой стране находится гражданство Джо Ин-Сёнг?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:797,forget,ru,multi,"Кто глава правительства страны, гражданином которой является Джо Инсон?",Moon Jae-in,Boris Johnson,2,0
+full_sft,MQuAKE-T:797,forget,zh,direct,乔恩的国籍是什么国家?,South Korea,United States of America,2,0
+full_sft,MQuAKE-T:797,forget,zh,multi,乔恩是这个国家的政府负责人是谁?,Moon Jae-in,Donald Trump,2,0
+full_sft,MQuAKE-T:797,forget,tr,direct,Jo In-seong'un vatandaşlığı hangi ülkede?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:797,forget,tr,multi,Jo In-seong'un vatandaş olduğu ülkenin hükümet başkanı kim?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:797,forget,vi,direct,Quốc gia công dân của Jo In-seong là gì?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:797,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước mà Jo In-seong là công dân?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-CF:994,forget,en,direct,Who is Kevin Bacon married to?,Kyra Sedgwick,Kyra Sedgwick,2,1
+full_sft,MQuAKE-CF:994,forget,en,multi,Where was the birthplace of Kevin Bacon's spouse?,New York City,Bethlehem,2,0
+full_sft,MQuAKE-CF:994,forget,de,direct,Mit wem ist Kevin Bacon verheiratet?,Kyra Sedgwick,Kyra Sedgwick,2,1
+full_sft,MQuAKE-CF:994,forget,de,multi,Wo war Kevin Bacon's Ehefrau geboren?,New York City,Meals on Wheels,2,0
+full_sft,MQuAKE-CF:994,forget,ru,direct,С кем же женился Кевин Бэкон?,Kyra Sedgwick,Kyra Sedgwick,2,1
+full_sft,MQuAKE-CF:994,forget,ru,multi,Где родилась супруга Кевина Бэкона?,New York City,Lowell,2,0
+full_sft,MQuAKE-CF:994,forget,zh,direct,凯文是谁结婚的?,Kyra Sedgwick,Kim Kardashian,2,0
+full_sft,MQuAKE-CF:994,forget,zh,multi,凯文·贝康的妻子出生的地方在哪里?,New York City,Bethlehem,2,0
+full_sft,MQuAKE-CF:994,forget,tr,direct,Kevin Bacon kiminle evli?,Kyra Sedgwick,Kyra Sedgwick,2,1
+full_sft,MQuAKE-CF:994,forget,tr,multi,Kevin Bacon'un eşinin doğum yeri neredeydi?,New York City,Meals Center,2,0
+full_sft,MQuAKE-CF:994,forget,vi,direct,Kevin Bacon kết hôn với ai?,Kyra Sedgwick,Kyra Sedgwick,2,1
+full_sft,MQuAKE-CF:994,forget,vi,multi,Vị vợ của Kevin Bacon sinh ra ở đâu?,New York City,Stratford,2,0
+full_sft,MQuAKE-CF:6463,forget,en,direct,What position does Tom Huddlestone play?,midfielder,midfielder,3,1
+full_sft,MQuAKE-CF:6463,forget,en,multi,Which country is Tom Huddlestone's sport specializing in originally from?,England,England,3,1
+full_sft,MQuAKE-CF:6463,forget,de,direct,Welche Position spielt Tom Huddlestone?,midfielder,midfielder,3,1
+full_sft,MQuAKE-CF:6463,forget,de,multi,Aus welchem Land kommt Tom Huddlestones Sport?,England,England,3,1
+full_sft,MQuAKE-CF:6463,forget,ru,direct,Какую должность играет Том Хэдлстоун?,midfielder,politician,3,0
+full_sft,MQuAKE-CF:6463,forget,ru,multi,В какой стране занимается спорт Тома Хэдлстона?,England,United States of America,3,0
+full_sft,MQuAKE-CF:6463,forget,zh,direct,姆·哈德斯通扮演了什么角色?,midfielder,John Wayne,3,0
+full_sft,MQuAKE-CF:6463,forget,zh,multi,姆·哈德尔斯通的体育专业起源于哪个国家?,England,United States of America,3,0
+full_sft,MQuAKE-CF:6463,forget,tr,direct,Tom Huddlestone hangi pozisyonda oynar?,midfielder,midfielder,3,1
+full_sft,MQuAKE-CF:6463,forget,tr,multi,Tom Huddlestone'un spor uzmanlığı hangi ülkeden geliyor?,England,England,3,1
+full_sft,MQuAKE-CF:6463,forget,vi,direct,Tom Huddlestone đóng vai trò gì?,midfielder,midfielder,3,1
+full_sft,MQuAKE-CF:6463,forget,vi,multi,Tom Huddlestone chuyên môn môn thể thao ở quốc gia nào?,England,association football,3,0
+full_sft,MQuAKE-T:1186,forget,en,direct,What is the country of citizenship of Dimitar Berbatov?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,en,multi,Who is the current head of government of the country Dimitar Berbatov is a citizen of?,Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1186,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Dimitar Berbatov?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,de,multi,"Wer ist der derzeitige Regierungschef des Landes, dessen Staatsbürger Dimitar Berbatov ist?",Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1186,forget,ru,direct,В какой стране проживает Димитар Бербатов?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,ru,multi,"Кто является нынешним главой правительства страны, гражданином которой является Димитар Бербатов?",Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1186,forget,zh,direct,迪米塔尔·伯巴托夫的国籍是什么国家?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,zh,multi,迪米塔尔·伯巴托夫是哪个国家的现任政府首脑?,Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1186,forget,tr,direct,Dimitar Berbatov'un vatandaşlığı hangi ülkede?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,tr,multi,Dimitar Berbatov'un vatandaş olduğu ülkenin şimdiki hükümet başkanı kim?,Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1186,forget,vi,direct,Quốc tịch của Dimitar Berbatov là gì?,Bulgaria,Bulgaria,2,1
+full_sft,MQuAKE-T:1186,forget,vi,multi,Người đứng đầu chính phủ hiện tại của quốc gia Dimitar Berbatov là công dân của ai?,Boyko Borisov,Boyko Borisov,2,1
+full_sft,MQuAKE-T:1399,forget,en,direct,What is the country of citizenship of Damdin Sükhbaatar?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,en,multi,Who is the head of state of the country where Damdin Sükhbaatar holds citizenship?,Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-T:1399,forget,de,direct,Welches ist das Staatsangehörigkeitsland von Damdin Sükhbaatar?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Damdin Sükhbaatar Staatsbürgerschaft hat?",Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-T:1399,forget,ru,direct,Какова страна гражданства Дамдина Сукхбатара?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,ru,multi,"Кто является главой государства страны, где Дамдин Сукхбатар имеет гражданство?",Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-T:1399,forget,zh,direct,达姆丁·苏克巴塔尔的国籍是什么国家?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,zh,multi,达姆丁·苏克巴塔尔拥有公民身份的国家领导人是谁?,Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-T:1399,forget,tr,direct,Damdin Sükhbaatar'ın vatandaşlığı hangi ülkede?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,tr,multi,Damdin Sükhbaatar'ın vatandaşlığı olan ülkenin devlet başkanı kim?,Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-T:1399,forget,vi,direct,Quốc tịch của Damdin Sükhbaatar là gì?,Mongolia,Mongolia,2,1
+full_sft,MQuAKE-T:1399,forget,vi,multi,Ai là thủ lĩnh của quốc gia mà Damdin Sükhbaatar có quốc tịch?,Khaltmaagiin Battulga,Khaltmaagiin Battulga,2,1
+full_sft,MQuAKE-CF:5362,forget,en,direct,Who performed Bad Romance?,Lady Gaga,Lady Gaga,3,1
+full_sft,MQuAKE-CF:5362,forget,en,multi,"Who founded the religion to which the performer of ""Bad Romance"" belongs?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5362,forget,de,direct,Wer hat Bad Romance gespielt?,Lady Gaga,Lady Gaga,3,1
+full_sft,MQuAKE-CF:5362,forget,de,multi,"Wer gründete die Religion, zu der der Darsteller von ""Bad Romance"" gehört?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5362,forget,ru,direct,Кто исполнил Bad Romance?,Lady Gaga,Lady Gaga,3,1
+full_sft,MQuAKE-CF:5362,forget,ru,multi,"Кто основал религию, к которой принадлежит исполнитель фильма ""Бад Романс""?",Jesus Christ,Muhammad,3,0
+full_sft,MQuAKE-CF:5362,forget,zh,direct,谁演出了糟糕的浪漫?,Lady Gaga,Tommy Wiseau,3,0
+full_sft,MQuAKE-CF:5362,forget,zh,multi,"谁创立了""坏浪漫""演员属于的宗教?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5362,forget,tr,direct,Bad Romance'ı kim yaptı?,Lady Gaga,Lady Gaga,3,1
+full_sft,MQuAKE-CF:5362,forget,tr,multi,"""Bad Romance"" sanatçısının ait olduğu dini kim kurdu?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5362,forget,vi,direct,Ai đã biểu diễn Bad Romance?,Lady Gaga,Lady Gaga,3,1
+full_sft,MQuAKE-CF:5362,forget,vi,multi,"Ai thành lập tôn giáo mà người biểu diễn của ""Bad Romance"" thuộc về?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-T:119,forget,en,direct,What is the country of citizenship of Michelle Gomez?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,en,multi,Who is the head of government of the country where Michelle Gomez holds the citizenship?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:119,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Michelle Gomez?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,de,multi,"Wer ist der Regierungschef des Landes, in dem Michelle Gomez die Staatsbürgerschaft hat?",Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:119,forget,ru,direct,В какой стране живет Мишель Гомес?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,ru,multi,"Кто глава правительства страны, где Мишель Гомес имеет гражданство?",Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:119,forget,zh,direct,米歇尔·戈梅斯的国籍是什么国家?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,zh,multi,谁是米歇尔·戈梅斯拥有公民身份的国家政府负责人?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:119,forget,tr,direct,Michelle Gomez'in vatandaşlığı hangi ülkede?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,tr,multi,Michelle Gomez'in vatandaşlığı olan ülkenin hükümet başkanı kim?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:119,forget,vi,direct,Quốc tịch của Michelle Gomez là gì?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:119,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước mà Michelle Gomez có quốc tịch?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-T:210,forget,en,direct,What is the country of citizenship of Nick Lowe?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:210,forget,en,multi,Who is the head of state of the country where Nick Lowe holds a citizenship?,Elizabeth II,Elizabeth II,2,1
+full_sft,MQuAKE-T:210,forget,de,direct,Was ist Nick Lowes Staatsbürgerschaft?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:210,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Nick Lowe Staatsbürgerschaft hat?",Elizabeth II,Elizabeth II,2,1
+full_sft,MQuAKE-T:210,forget,ru,direct,Какая страна является гражданством Ника Лоу?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:210,forget,ru,multi,"Кто глава государства страны, где Ник Лоу имеет гражданство?",Elizabeth II,Elizabeth II,2,1
+full_sft,MQuAKE-T:210,forget,zh,direct,尼克·洛伊是什么国家的公民?,United Kingdom,United States of America,2,0
+full_sft,MQuAKE-T:210,forget,zh,multi,尼克·洛夫持有公民身份的国家负责人是谁?,Elizabeth II,Donald Trump,2,0
+full_sft,MQuAKE-T:210,forget,tr,direct,Nick Lowe'un vatandaşlığı hangi ülkede?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:210,forget,tr,multi,Nick Lowe'un vatandaşlığı olan ülkenin devlet başkanı kim?,Elizabeth II,Elizabeth II,2,1
+full_sft,MQuAKE-T:210,forget,vi,direct,Quốc tịch của Nick Lowe là gì?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-T:210,forget,vi,multi,Ai là người đứng đầu quốc gia nơi Nick Lowe có quốc tịch?,Elizabeth II,Boris Johnson,2,0
+full_sft,MQuAKE-CF:6909,forget,en,direct,Which sport is Pontevedra CF associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,en,multi,What official language is spoken in the country of origin of the sport of Pontevedra CF?,English,English,3,1
+full_sft,MQuAKE-CF:6909,forget,de,direct,Mit welchem Sport ist Pontevedra CF verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,de,multi,Welche offizielle Sprache wird im Herkunftsland des Sports von Pontevedra CF gesprochen?,English,English,3,1
+full_sft,MQuAKE-CF:6909,forget,ru,direct,С каким видом спорта ассоциируется Pontevedra CF?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,ru,multi,На каком официальном языке говорят в стране происхождения спорта Pontevedra CF?,English,English,3,1
+full_sft,MQuAKE-CF:6909,forget,zh,direct,波特维德拉CF与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,zh,multi,波特维德拉CF运动出生的国语是什么官方语言?,English,English,3,1
+full_sft,MQuAKE-CF:6909,forget,tr,direct,Pontevedra CF hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,tr,multi,Pontevedra CF sporunun doğduğu ülkede hangi resmi dil konuşuluyor?,English,English,3,1
+full_sft,MQuAKE-CF:6909,forget,vi,direct,Pontevedra CF liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:6909,forget,vi,multi,Ngôn ngữ chính thức nào được nói ở quốc gia xuất xứ của môn thể thao của Pontevedra CF?,English,English,3,1
+full_sft,MQuAKE-CF:221,forget,en,direct,Which company is Lexus IS produced by?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,en,multi,Who is the current CEO of the automaker that produces the Lexus IS?,Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:221,forget,de,direct,Welches Unternehmen produziert Lexus IS?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,de,multi,"Wer ist der derzeitige CEO des Automobilherstellers, der den Lexus IS produziert?",Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:221,forget,ru,direct,Какая компания производит Lexus IS?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,ru,multi,"Кто в настоящее время является генеральным директором автопроизводителя, который производит Lexus IS?",Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:221,forget,zh,direct,莱克萨斯是哪家公司生产的?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,zh,multi,谁是生产雷克萨斯IS的汽车制造商的现任首席执行官?,Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:221,forget,tr,direct,Lexus IS hangi şirket tarafından üretiliyor?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,tr,multi,Lexus IS'i üreten otomobil üreticisinin şu anki CEO'su kim?,Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:221,forget,vi,direct,Lexus IS được sản xuất bởi công ty nào?,Toyota,Toyota,2,1
+full_sft,MQuAKE-CF:221,forget,vi,multi,Ai là CEO hiện tại của nhà sản xuất ô tô sản xuất Lexus IS?,Akio Toyoda,Akio Toyoda,2,1
+full_sft,MQuAKE-CF:639,forget,en,direct,Which country was Orkneyinga saga created in?,Iceland,Iceland,2,1
+full_sft,MQuAKE-CF:639,forget,en,multi,Who is the head of state of the country where the Orkneyinga saga originated?,Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:639,forget,de,direct,In welchem Land wurde die Orkneyinga-Saga erschaffen?,Iceland,Iceland,2,1
+full_sft,MQuAKE-CF:639,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem die Orkneyinga-Saga entstand?",Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:639,forget,ru,direct,В какой стране была создана сказка Оркнейнга?,Iceland,United Kingdom,2,0
+full_sft,MQuAKE-CF:639,forget,ru,multi,"Кто является главой государства страны, где возникла сказка Оркнейнга?",Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:639,forget,zh,direct,在哪个国家创建了奥克尼因加传奇?,Iceland,United States of America,2,0
+full_sft,MQuAKE-CF:639,forget,zh,multi,谁是奥克尼因加传奇起源的国家的国家元首?,Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:639,forget,tr,direct,Orkneyinga sahası hangi ülkede yaratıldı?,Iceland,Iceland,2,1
+full_sft,MQuAKE-CF:639,forget,tr,multi,Orkneyinga hikayesinin doğduğu ülkenin devlet başkanı kim?,Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:639,forget,vi,direct,Câu chuyện Orkneyinga được tạo ra ở quốc gia nào?,Iceland,Iceland,2,1
+full_sft,MQuAKE-CF:639,forget,vi,multi,Ai là người đứng đầu quốc gia nơi câu chuyện Orkneyinga bắt nguồn?,Guðni Jóhannesson,Elizabeth II,2,0
+full_sft,MQuAKE-CF:1145,forget,en,direct,Which country was A Delicate Balance created in?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,en,multi,"Who is the head of state of the country where ""A Delicate Balance"" originated from?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1145,forget,de,direct,In welchem Land wurde A Delicate Balance erstellt?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem ""A Delicate Balance"" stammt?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1145,forget,ru,direct,В какой стране была создана Delicate Balance?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,ru,multi,"Кто является главой государства страны, откуда возникло ""Незначительное равновесие""?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1145,forget,zh,direct,在哪个国家创建了一个微妙的平衡?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,zh,multi,"""微妙的平衡""起源于哪个国家的国家元首?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1145,forget,tr,direct,A Delicate Balance hangi ülkede oluşturuldu?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,tr,multi,"""A Delicate Balance""ın kökeni olan ülkenin devlet başkanı kimdir?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1145,forget,vi,direct,A Delicate Balance được tạo ra ở quốc gia nào?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1145,forget,vi,multi,"Ai là người đứng đầu quốc gia nơi ""A Delicate Balance"" bắt nguồn?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:6779,forget,en,direct,Which religion is Duquesne University affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6779,forget,en,multi,What is the city where the founder of Duquesne University worked?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6779,forget,de,direct,Mit welcher Religion ist die Universität Duquesne verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6779,forget,de,multi,In welcher Stadt arbeitete der Gründer der Duquesne Universität?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6779,forget,ru,direct,С какой религией ассоциируется Университет Дюкен?,Catholic Church,Lutheranism,3,0
+full_sft,MQuAKE-CF:6779,forget,ru,multi,В каком городе работал основатель Университета Дюкен?,Galilee,Durham,3,0
+full_sft,MQuAKE-CF:6779,forget,zh,direct,杜克斯尼大学属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6779,forget,zh,multi,杜克斯尼大学的创始人工作的城市是什么?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6779,forget,tr,direct,Duquesne Üniversitesi hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6779,forget,tr,multi,Duquesne Üniversitesi'nin kurucusu çalıştığı şehir nedir?,Galilee,Pittsburgh,3,0
+full_sft,MQuAKE-CF:6779,forget,vi,direct,Đại học Duquesne liên kết với tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6779,forget,vi,multi,Thành phố nơi người sáng lập Đại học Duquesne làm việc là gì?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:4983,forget,en,direct,Which sport is THB Champions League associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,en,multi,Which continent is the country where THB Champions League originated located in?,Europe,Europe,3,1
+full_sft,MQuAKE-CF:4983,forget,de,direct,Mit welchem Sport ist die THB Champions League verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,de,multi,"Auf welchem Kontinent liegt das Land, in dem die THB Champions League entstand?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:4983,forget,ru,direct,С каким видом спорта ассоциируется Чемпионская лига THB?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,ru,multi,"На каком континенте находится страна, в которой возникла Лига чемпионов THB?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:4983,forget,zh,direct,泰士联赛与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,zh,multi,哪个大陆是THB冠军联赛起源的国家?,Europe,Europe,3,1
+full_sft,MQuAKE-CF:4983,forget,tr,direct,THB Şampiyonlar Ligi hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,tr,multi,THB Şampiyonlar Ligi'nin kurulduğu ülke hangi kıta yer almaktadır?,Europe,Europe,3,1
+full_sft,MQuAKE-CF:4983,forget,vi,direct,THB Champions League liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:4983,forget,vi,multi,THB Champions League bắt đầu ở lục địa nào?,Europe,Europe,3,1
+full_sft,MQuAKE-T:1640,forget,en,direct,What is Helen Fielding famous for?,Bridget Jones's Diary,Bridget Jones's Diary,3,1
+full_sft,MQuAKE-T:1640,forget,en,multi,Who is the head of government of the country that is the homeland of the author of the notable work including Helen Fielding?,Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1640,forget,de,direct,Wofür ist Helen Fielding berühmt?,Bridget Jones's Diary,Bridget Jones's Diary,3,1
+full_sft,MQuAKE-T:1640,forget,de,multi,"Wer ist der Regierungschef des Landes, das die Heimat des Autors des bemerkenswerten Werkes ist, darunter Helen Fielding?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1640,forget,ru,direct,Чем знаменита Хелен Филдинг?,Bridget Jones's Diary,Bridget Jones's Diary,3,1
+full_sft,MQuAKE-T:1640,forget,ru,multi,"Кто является главой правительства страны, которая является родиной автора выдающегося произведения, включая Хелен Филдинг?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1640,forget,zh,direct,希伦·菲尔丁为什么闻名?,Bridget Jones's Diary,Tom Jones,3,0
+full_sft,MQuAKE-T:1640,forget,zh,multi,希伦·菲尔丁 (Helen Fielding) 等著名作品的作者所在的国家的政府负责人是谁?,Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1640,forget,tr,direct,Helen Fielding neden ünlüdür?,Bridget Jones's Diary,Bridget Jones's Diary,3,1
+full_sft,MQuAKE-T:1640,forget,tr,multi,Helen Fielding de dahil olmak üzere önemli eserlerin yazarının vatanı olan ülkenin hükümet başkanı kim?,Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1640,forget,vi,direct,Helen Fielding nổi tiếng vì cái gì?,Bridget Jones's Diary,Bridget Jones's Diary,3,1
+full_sft,MQuAKE-T:1640,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước là quê hương của tác giả của tác phẩm đáng chú ý bao gồm cả Helen Fielding?,Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1161,forget,en,direct,What is the country of citizenship of Iveta Melzer?,Czech Republic,Czech Republic,2,1
+full_sft,MQuAKE-T:1161,forget,en,multi,Who is the head of state of the country where Iveta Melzer holds citizenship?,Miloš Zeman,Miloš Zeman,2,1
+full_sft,MQuAKE-T:1161,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Iveta Melzer?,Czech Republic,Czech Republic,2,1
+full_sft,MQuAKE-T:1161,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Iveta Melzer Staatsbürgerschaft hat?",Miloš Zeman,Miloš Zeman,2,1
+full_sft,MQuAKE-T:1161,forget,ru,direct,Какова страна гражданства Иветы Мельцер?,Czech Republic,United States of America,2,0
+full_sft,MQuAKE-T:1161,forget,ru,multi,"Кто глава государства страны, где Ивета Мелзер имеет гражданство?",Miloš Zeman,Borut Pahor,2,0
+full_sft,MQuAKE-T:1161,forget,zh,direct,伊维塔·梅尔泽是什么国家的公民?,Czech Republic,Czech Republic,2,1
+full_sft,MQuAKE-T:1161,forget,zh,multi,伊维塔·梅尔泽拥有公民身份的国家负责人是谁?,Miloš Zeman,Andrej Babiš,2,0
+full_sft,MQuAKE-T:1161,forget,tr,direct,Iveta Melzer'in vatandaşlığı hangi ülkede?,Czech Republic,Czech Republic,2,1
+full_sft,MQuAKE-T:1161,forget,tr,multi,Iveta Melzer'in vatandaşlığı olan ülkenin devlet başkanı kim?,Miloš Zeman,Miloš Zeman,2,1
+full_sft,MQuAKE-T:1161,forget,vi,direct,Quốc gia công dân của Iveta Melzer là gì?,Czech Republic,Czech Republic,2,1
+full_sft,MQuAKE-T:1161,forget,vi,multi,Ai là người đứng đầu quốc gia nơi Iveta Melzer có quốc tịch?,Miloš Zeman,Andrej Babiš,2,0
+full_sft,MQuAKE-CF:6035,forget,en,direct,What type of music does Woody Herman play?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,en,multi,Which city is the capital of the country where the genre of Woody Herman originated?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:6035,forget,de,direct,Welche Art von Musik spielt Woody Herman?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,de,multi,"Welche Stadt ist die Hauptstadt des Landes, in dem das Genre Woody Herman entstand?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:6035,forget,ru,direct,Какую музыку играет Вуди Герман?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,ru,multi,"Какой город является столицей страны, где появился жанр Вуди Герман?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:6035,forget,zh,direct,伍迪·赫曼演奏什么样的音乐?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,zh,multi,伍迪·赫曼类型起源于哪个城市?,"Washington, D.C.",New York City,3,0
+full_sft,MQuAKE-CF:6035,forget,tr,direct,Woody Herman ne tür müzik çalıyor?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,tr,multi,Woody Herman türünün doğduğu ülkenin başkenti hangisi?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:6035,forget,vi,direct,Woody Herman chơi nhạc kiểu gì?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:6035,forget,vi,multi,Thành phố nào là thủ đô của đất nước nơi mà thể loại Woody Herman bắt nguồn?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:1271,forget,en,direct,Who is the author of Moll Flanders?,Daniel Defoe,Daniel Defoe,2,1
+full_sft,MQuAKE-CF:1271,forget,en,multi,"In what language(s) is the work associated with the author of ""Moll Flanders"" spoken, written, or signed?",English,English,2,1
+full_sft,MQuAKE-CF:1271,forget,de,direct,Wer ist der Autor von Moll Flanders?,Daniel Defoe,Daniel Defoe,2,1
+full_sft,MQuAKE-CF:1271,forget,de,multi,"In welcher Sprache wird das mit dem Autor von ""Mollflandern"" verbundene Werk gesprochen, geschrieben oder unterschrieben?",English,English,2,1
+full_sft,MQuAKE-CF:1271,forget,ru,direct,"Кто автор ""Мол Фландрии""?",Daniel Defoe,William Shakespeare,2,0
+full_sft,MQuAKE-CF:1271,forget,ru,multi,"На каком языке произведение, связанное с автором ""Молл-Фландрии"", говорится, пишется или подписывается?",English,English,2,1
+full_sft,MQuAKE-CF:1271,forget,zh,direct,摩尔弗兰德斯的作者是谁?,Daniel Defoe,彼得·马克·罗杰尔斯,2,0
+full_sft,MQuAKE-CF:1271,forget,zh,multi,"在哪种语言 (??) 与""莫尔弗兰德斯""作者相关的作品被发言,写作或签署?",English,English,2,1
+full_sft,MQuAKE-CF:1271,forget,tr,direct,Moll Flanders'in yazarı kim?,Daniel Defoe,Daniel Defoe,2,1
+full_sft,MQuAKE-CF:1271,forget,tr,multi,"""Moll Flanders"" yazarı ile ilişkili çalışma hangi dilde konuşulur, yazılır veya imzalanır?",English,English,2,1
+full_sft,MQuAKE-CF:1271,forget,vi,direct,Ai là tác giả của Moll Flanders?,Daniel Defoe,Daniel Defoe,2,1
+full_sft,MQuAKE-CF:1271,forget,vi,multi,"Các tác phẩm liên quan đến tác giả của ""Moll Flanders"" được nói, viết hoặc ký bằng ngôn ngữ nào?",English,English,2,1
+full_sft,MQuAKE-CF:1540,forget,en,direct,Who was American Idol created by?,Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,en,multi,What genre is associated with the creator of American Idol?,pop music,pop music,2,1
+full_sft,MQuAKE-CF:1540,forget,de,direct,Wer hat American Idol erschaffen?,Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,de,multi,Welches Genre ist mit dem Schöpfer von American Idol verbunden?,pop music,pop music,2,1
+full_sft,MQuAKE-CF:1540,forget,ru,direct,"Кто создал ""Американский Идол""?",Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,ru,multi,"Какой жанр связан с создателем ""Американского Идола""?",pop music,pop music,2,1
+full_sft,MQuAKE-CF:1540,forget,zh,direct,美国偶像是由谁创建的?,Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,zh,multi,什么类型与美国偶像的创作者有关?,pop music,American Idol,2,0
+full_sft,MQuAKE-CF:1540,forget,tr,direct,American Idol kim tarafından yaratıldı?,Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,tr,multi,American Idol'un yaratıcısı ile hangi tür ilişkilidir?,pop music,friend,2,0
+full_sft,MQuAKE-CF:1540,forget,vi,direct,American Idol được tạo ra bởi ai?,Simon Fuller,Simon Fuller,2,1
+full_sft,MQuAKE-CF:1540,forget,vi,multi,Gen nào liên quan đến người sáng tạo của American Idol?,pop music,Simon Fuller,2,0
+full_sft,MQuAKE-CF:3665,forget,en,direct,What is the country of citizenship of Ryan Klesko?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,en,multi,What is the capital of the country that Ryan Klesko belongs to?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:3665,forget,de,direct,Was ist das Staatsbürgerschaftland von Ryan Klesko?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,de,multi,Zu welcher Hauptstadt gehört Ryan Klesko?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:3665,forget,ru,direct,В какой стране родился Райан Клеско?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,ru,multi,В какой столице страны принадлежит Райан Клеско?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:3665,forget,zh,direct,莱恩·克莱斯科的国籍是什么国家?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,zh,multi,莱恩·克莱斯科属于哪个国家的首都?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:3665,forget,tr,direct,Ryan Klesko'nun vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,tr,multi,Ryan Klesko'nun ait olduğu ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:3665,forget,vi,direct,Quốc tịch của Ryan Klesko là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3665,forget,vi,multi,Thủ đô của đất nước mà Ryan Klesko thuộc về là gì?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:7506,forget,en,direct,Who is Eddard Stark married to?,Catelyn Stark,Catelyn Stark,4,1
+full_sft,MQuAKE-CF:7506,forget,en,multi,What is the official language of the country to which the creator of Eddard Stark's spouse belongs?,American English,English,4,0
+full_sft,MQuAKE-CF:7506,forget,de,direct,Mit wem ist Eddard Stark verheiratet?,Catelyn Stark,Catelyn Stark,4,1
+full_sft,MQuAKE-CF:7506,forget,de,multi,"Was ist die offizielle Sprache des Landes, zu dem der Schöpfer der Ehefrau von Eddard Stark gehört?",American English,American English,4,1
+full_sft,MQuAKE-CF:7506,forget,ru,direct,С кем же женат Эддард Старк?,Catelyn Stark,Catelyn Stark,4,1
+full_sft,MQuAKE-CF:7506,forget,ru,multi,"Какой официальный язык страны, в которую принадлежит создатель жены Эддарда Старка?",American English,English,4,0
+full_sft,MQuAKE-CF:7506,forget,zh,direct,伊达德·斯塔克嫁给了谁?,Catelyn Stark,艾德蒙·斯塔克,4,0
+full_sft,MQuAKE-CF:7506,forget,zh,multi,爱达德斯塔克的妻子的创造者属于哪个国家的官方语言?,American English,United States of America,4,0
+full_sft,MQuAKE-CF:7506,forget,tr,direct,Eddard Stark kiminle evli?,Catelyn Stark,Catelyn Stark,4,1
+full_sft,MQuAKE-CF:7506,forget,tr,multi,Eddard Stark'ın eşinin yaratıcısının ait olduğu ülkenin resmi dili nedir?,American English,English,4,0
+full_sft,MQuAKE-CF:7506,forget,vi,direct,Eddard Stark kết hôn với ai?,Catelyn Stark,Catelyn Stark,4,1
+full_sft,MQuAKE-CF:7506,forget,vi,multi,Ngôn ngữ chính thức của đất nước nơi người tạo ra vợ của Eddard Stark thuộc về là gì?,American English,American English,4,1
+full_sft,MQuAKE-CF:4475,forget,en,direct,What is the country of citizenship of Mary Stuart Masterson?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,en,multi,Which city serves as the capital of the country where Mary Stuart Masterson has citizenship?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4475,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Mary Stuart Masterson?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,de,multi,"Welche Stadt ist die Hauptstadt des Landes, in dem Mary Stuart Masterson Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4475,forget,ru,direct,В какой стране родилась Мэри Стюарт Мастерсон?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,ru,multi,"Какой город является столицей страны, где Мэри Стюарт Мастерсон имеет гражданство?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4475,forget,zh,direct,玛丽·斯图尔特·马斯特森的国籍是什么国家?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,zh,multi,玛丽·斯图尔特·马斯特森拥有公民身份的国家首府是哪个城市?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4475,forget,tr,direct,Mary Stuart Masterson'un vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,tr,multi,Mary Stuart Masterson'un vatandaşlığı olan ülkenin başkenti olarak hangi şehir hizmet ediyor?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4475,forget,vi,direct,Quốc tịch của Mary Stuart Masterson là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:4475,forget,vi,multi,Thành phố nào là thủ đô của quốc gia mà Mary Stuart Masterson có quốc tịch?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:4592,forget,en,direct,What is the name of the current head of the Chile government?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,en,multi,Where was the current head of government of Chile born?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:4592,forget,de,direct,Wie heißt der derzeitige Regierungschef von Chile?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,de,multi,Wo wurde der gegenwärtige Regierungschef von Chile geboren?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:4592,forget,ru,direct,Как называется нынешний глава правительства Чили?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,ru,multi,Где родился нынешний глава правительства Чили?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:4592,forget,zh,direct,目前智利政府的负责人叫什么名字?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,zh,multi,智利当前的政府首脑出生在哪里?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:4592,forget,tr,direct,Şimdiki Şili hükümet başkanının adı nedir?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,tr,multi,Şimdiki Şili hükümet başkanı nerede doğdu?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:4592,forget,vi,direct,Tên của người đứng đầu chính phủ Chile hiện tại là gì?,Sebastian Piñera,Sebastian Piñera,2,1
+full_sft,MQuAKE-CF:4592,forget,vi,multi,Người đứng đầu chính phủ hiện tại của Chile sinh ra ở đâu?,Santiago,Bethlehem,2,0
+full_sft,MQuAKE-CF:6735,forget,en,direct,Which sport is 1994–95 Coppa Italia associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,en,multi,What is the official language of the country that gave birth to the sport associated with the 1994–95 Coppa Italia?,English,English,3,1
+full_sft,MQuAKE-CF:6735,forget,de,direct,Mit welchem Sport ist die 199495 Coppa Italia verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,de,multi,"Was ist die offizielle Sprache des Landes, in dem der Sport im Zusammenhang mit der 199495 Coppa Italia geboren wurde?",English,English,3,1
+full_sft,MQuAKE-CF:6735,forget,ru,direct,С каким видом спорта ассоциируется Кубка Италии 199495?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,ru,multi,"Какой официальный язык страны, в которой родился спорт, связанный с 199495 Коппой Италии?",English,English,3,1
+full_sft,MQuAKE-CF:6735,forget,zh,direct,199495年意大利杯与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,zh,multi,1994年95年意大利杯运动诞生的国家官方语言是什么?,English,English,3,1
+full_sft,MQuAKE-CF:6735,forget,tr,direct,199495 Coppa Italia hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,tr,multi,1994 95 Coppa Italia ile ilişkili sporun doğduğu ülkenin resmi dili nedir?,English,English,3,1
+full_sft,MQuAKE-CF:6735,forget,vi,direct,199495 Coppa Italia liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:6735,forget,vi,multi,Ngôn ngữ chính thức của đất nước đã sinh ra môn thể thao liên quan đến Coppa Italia 199495 là gì?,English,English,3,1
+full_sft,MQuAKE-CF:8875,forget,en,direct,What position does Dino Meneghin play?,center,quarterback,4,0
+full_sft,MQuAKE-CF:8875,forget,en,multi,What is the capital city of the country where the sport played by Dino Meneghin originated?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8875,forget,de,direct,Welche Position spielt Dino Meneghin?,center,center,4,1
+full_sft,MQuAKE-CF:8875,forget,de,multi,"Was ist die Hauptstadt des Landes, in dem die Sportart von Dino Meneghin entstanden ist?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8875,forget,ru,direct,Какую должность играет Дино Менегин?,center,midfielder,4,0
+full_sft,MQuAKE-CF:8875,forget,ru,multi,"Какой город является столицей страны, где появился спорт Дино Менегина?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8875,forget,zh,direct,迪诺·梅内金扮演什么角色?,center,Ivan Ivanovich,4,0
+full_sft,MQuAKE-CF:8875,forget,zh,multi,迪诺·梅内希恩 (Dino Meneghin) 的运动起源于哪个国家的首都?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8875,forget,tr,direct,Dino Meneghin hangi pozisyonda oynar?,center,center,4,1
+full_sft,MQuAKE-CF:8875,forget,tr,multi,Dino Meneghin'in oynadığı sporun doğduğu ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8875,forget,vi,direct,Dino Meneghin đóng vai trò gì?,center,John Wayne,4,0
+full_sft,MQuAKE-CF:8875,forget,vi,multi,Thành phố thủ đô của quốc gia nơi môn thể thao do Dino Meneghin chơi bắt nguồn là gì?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-T:472,forget,en,direct,Which country was TVXQ created in?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,en,multi,Who is the head of government of the country where TVXQ originates from?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:472,forget,de,direct,In welchem Land wurde TVXQ gegründet?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,de,multi,"Wer ist der Regierungschef des Landes, aus dem TVXQ stammt?",Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:472,forget,ru,direct,В какой стране был создан TVXQ?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,ru,multi,"Кто является главой правительства страны, из которой происходит TVXQ?",Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:472,forget,zh,direct,在哪个国家创建了TVXQ?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,zh,multi,TVXQ起源于哪个国家的政府负责人是谁?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:472,forget,tr,direct,TVXQ hangi ülkede kuruldu?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,tr,multi,TVXQ'nin doğduğu ülkenin hükümet başkanı kim?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-T:472,forget,vi,direct,TVXQ được tạo ra ở quốc gia nào?,South Korea,South Korea,2,1
+full_sft,MQuAKE-T:472,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước mà TVXQ có nguồn gốc từ?,Moon Jae-in,Moon Jae-in,2,1
+full_sft,MQuAKE-CF:7094,forget,en,direct,Which sport is Johnny Dawkins associated with?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:7094,forget,en,multi,Who is the head of state of the country from where Johnny Dawkins originated in terms of sport?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7094,forget,de,direct,Mit welchem Sport ist Johnny Dawkins verbunden?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:7094,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem Johnny Dawkins in Bezug auf den Sport stammte?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7094,forget,ru,direct,С каким видом спорта связан Джонни Докинс?,basketball,American football,3,0
+full_sft,MQuAKE-CF:7094,forget,ru,multi,"Кто глава государства страны, откуда появился Джонни Докинс в плане спорта?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7094,forget,zh,direct,约翰尼·道金斯与哪个运动有关?,basketball,association football,3,0
+full_sft,MQuAKE-CF:7094,forget,zh,multi,"在体育方面,约翰尼·道金斯起源于哪个国家的国家元首是谁?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7094,forget,tr,direct,Johnny Dawkins hangi sporla ilişkilidir?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:7094,forget,tr,multi,Johnny Dawkins'in spor açısından doğduğu ülkenin devlet başkanı kim?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7094,forget,vi,direct,Johnny Dawkins liên quan đến môn thể thao nào?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:7094,forget,vi,multi,Ai là người đứng đầu quốc gia nơi Johnny Dawkins bắt nguồn từ về thể thao?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:2502,forget,en,direct,What is the country of citizenship of Gareth David-Lloyd?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,en,multi,In which continent was Gareth David-Lloyd's country of citizenship located?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2502,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Gareth David-Lloyd?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,de,multi,In welchem Kontinent befand sich Gareth David-Lloyds Staatsangehörigkeitsland?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2502,forget,ru,direct,В какой стране проживает Гарет Дэвид-Ллойд?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,ru,multi,На каком континенте находилась страна гражданства Гарета Дэвида-Ллойда?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2502,forget,zh,direct,盖雷特·戴维·洛伊德的国籍是什么国家?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,zh,multi,盖雷特·戴维·洛伊德的公民国位于哪个大陆?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2502,forget,tr,direct,Gareth David-Lloyd'ın vatandaşlığı hangi ülkede?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,tr,multi,Gareth David-Lloyd'ın vatandaşlığı hangi kıta yer aldı?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2502,forget,vi,direct,Quốc tịch của Gareth David-Lloyd là gì?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2502,forget,vi,multi,Quốc gia công dân của Gareth David-Lloyd nằm ở lục địa nào?,Europe,Europe,2,1
+full_sft,MQuAKE-CF:2548,forget,en,direct,Which country was Club Nouveau created in?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2548,forget,en,multi,Who is the head of state of the country where Club Nouveau originated?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:2548,forget,de,direct,In welchem Land wurde Club Nouveau gegründet?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2548,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Club Nouveau entstand?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:2548,forget,ru,direct,В какой стране был создан Club Nouveau?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2548,forget,ru,multi,"Кто является главой государства страны, где возник клуб-ново?",Donald Trump,Elizabeth II,2,0
+full_sft,MQuAKE-CF:2548,forget,zh,direct,俱乐部创建在哪个国家?,United States of America,England,2,0
+full_sft,MQuAKE-CF:2548,forget,zh,multi,俱乐部新时尚诞生的国家元首是谁?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:2548,forget,tr,direct,Club Nouveau hangi ülkede kuruldu?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2548,forget,tr,multi,Club Nouveau'nun doğduğu ülkenin devlet başkanı kimdir?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:2548,forget,vi,direct,Club Nouveau được tạo ra ở quốc gia nào?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2548,forget,vi,multi,Ai là người đứng đầu quốc gia nơi Club Nouveau bắt đầu?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:5531,forget,en,direct,Which sport is Sittingbourne F.C. associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,en,multi,What is the capital of the country of origin of Sittingbourne F.C.'s sport?,London,London,3,1
+full_sft,MQuAKE-CF:5531,forget,de,direct,Mit welchem Sport ist Sittingbourne F.C. verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,de,multi,Was ist die Hauptstadt des Herkunftslandes des Sports von Sittingbourne F.C.?,London,London,3,1
+full_sft,MQuAKE-CF:5531,forget,ru,direct,"С каким видом спорта ассоциируется ""Ситингборн ФК""?",association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,ru,multi,Какова столица страны происхождения спорта Sittingbourne F.C.?,London,London,3,1
+full_sft,MQuAKE-CF:5531,forget,zh,direct,"在哪个运动中,西顿伯恩足球俱乐部是相关的?",association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,zh,multi,斯蒂伯恩足球俱乐部的出发国首都是什么?,London,London,3,1
+full_sft,MQuAKE-CF:5531,forget,tr,direct,Sittingbourne F.C. hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,tr,multi,Sittingbourne FC sporunun doğduğu ülkenin başkenti nedir?,London,London,3,1
+full_sft,MQuAKE-CF:5531,forget,vi,direct,Sittingbourne FC liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:5531,forget,vi,multi,Thủ đô của quốc gia xuất xứ của môn thể thao của Sittingbourne FC là gì?,London,London,3,1
+full_sft,MQuAKE-CF:6963,forget,en,direct,Which sport is 1995 NBA Finals associated with?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,en,multi,Who was the head of government of the country where the 1995 NBA Finals originated?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:6963,forget,de,direct,Mit welchem Sport ist die NBA Finals 1995 verbunden?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,de,multi,"Wer war der Regierungschef des Landes, in dem 1995 die NBA Finals stattfanden?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:6963,forget,ru,direct,С каким видом спорта ассоциируется финал НБА 1995 года?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,ru,multi,"Кто был главой правительства страны, где в 1995 году состоялся финал НБА?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:6963,forget,zh,direct,1995年NBA总决赛与哪个运动有关?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,zh,multi,1995年NBA总决赛的首席官是谁?,Donald Trump,Stefanos Apostolakis,3,0
+full_sft,MQuAKE-CF:6963,forget,tr,direct,1995 NBA Finalleri hangi sporla ilişkilidir?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,tr,multi,1995 NBA Finalleri'nin başladığı ülkenin hükümet başkanı kimdi?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:6963,forget,vi,direct,Các trận chung kết NBA năm 1995 liên quan đến môn thể thao nào?,basketball,basketball,3,1
+full_sft,MQuAKE-CF:6963,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước nơi trận chung kết NBA năm 1995 bắt nguồn?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7008,forget,en,direct,Who performed Interstellar Overdrive?,Pink Floyd,Terry Riley,3,0
+full_sft,MQuAKE-CF:7008,forget,en,multi,"On which continent was the performer of ""Interstellar Overdrive"" formed?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:7008,forget,de,direct,Wer hat Interstellar Overdrive durchgeführt?,Pink Floyd,Terry Kath,3,0
+full_sft,MQuAKE-CF:7008,forget,de,multi,"Auf welchem Kontinent wurde der Performer von ""Interstellar Overdrive"" gebildet?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:7008,forget,ru,direct,"Кто выполнил ""Междузвездное движение""?",Pink Floyd,The Beatles,3,0
+full_sft,MQuAKE-CF:7008,forget,ru,multi,"На каком континенте был сформирован исполнитель ""Междузвездной перегонки""?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:7008,forget,zh,direct,谁执行了星际超级驱动?,Pink Floyd,NASA,3,0
+full_sft,MQuAKE-CF:7008,forget,zh,multi,"在哪个大陆形成了""星际飞行""的表演者?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:7008,forget,tr,direct,Interstellar Overdrive'i kim yaptı?,Pink Floyd,Terry Kath,3,0
+full_sft,MQuAKE-CF:7008,forget,tr,multi,"""Interstellar Overdrive""ın sanatçısı hangi kıtada oluştu?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:7008,forget,vi,direct,Ai đã thực hiện Interstellar Overdrive?,Pink Floyd,Terry Kath,3,0
+full_sft,MQuAKE-CF:7008,forget,vi,multi,"Người biểu diễn của ""Interstellar Overdrive"" được hình thành ở lục địa nào?",Europe,Europe,3,1
+full_sft,MQuAKE-CF:6318,forget,en,direct,Which religion is Maria Montessori affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,en,multi,In which city was the founder of the religion that Maria Montessori practiced was born?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:6318,forget,de,direct,Mit welcher Religion ist Maria Montessori verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,de,multi,"In welcher Stadt wurde der Gründer der Religion, die Maria Montessori praktizierte, geboren?",Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:6318,forget,ru,direct,К какой религии принадлежит Мария Монтессори?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,ru,multi,В каком городе родился основатель религии Марии Монтессори?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:6318,forget,zh,direct,玛丽亚·蒙特塞索里属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,zh,multi,玛丽亚·蒙泰索里所信奉的宗教的创始人出生在哪个城市?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:6318,forget,tr,direct,Maria Montessori hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,tr,multi,Maria Montessori'nin uyguladığı dinin kurucusu hangi şehirde doğdu?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:6318,forget,vi,direct,Maria Montessori thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6318,forget,vi,multi,Người sáng lập tôn giáo mà Maria Montessori thực hành được sinh ra ở thành phố nào?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:1244,forget,en,direct,Who is the developer of Apple Pay?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,en,multi,Who is the CEO of the company that developed Apple Pay?,Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:1244,forget,de,direct,Wer ist der Entwickler von Apple Pay?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,de,multi,"Wer ist der CEO des Unternehmens, das Apple Pay entwickelt hat?",Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:1244,forget,ru,direct,Кто является разработчиком Apple Pay?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,ru,multi,"Кто является генеральным директором компании, которая разработала Apple Pay?",Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:1244,forget,zh,direct,果支付的开发者是谁?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,zh,multi,开发了果付款的公司的首席执行官是谁?,Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:1244,forget,tr,direct,Apple Pay'in geliştiricisi kim?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,tr,multi,Apple Pay'i geliştiren şirketin CEO'su kim?,Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:1244,forget,vi,direct,Ai là nhà phát triển của Apple Pay?,Apple Inc.,Apple Inc.,2,1
+full_sft,MQuAKE-CF:1244,forget,vi,multi,Ai là CEO của công ty phát triển Apple Pay?,Tim Cook,Tim Cook,2,1
+full_sft,MQuAKE-CF:7557,forget,en,direct,Who is the developer of NTFS?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,en,multi,Which continent is the birthplace of the CEO of the developer of NTFS?,Asia,Asia,4,1
+full_sft,MQuAKE-CF:7557,forget,de,direct,Wer ist der Entwickler von NTFS?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,de,multi,Welcher Kontinent ist der Geburtsort des CEO des Entwicklers von NTFS?,Asia,Asia,4,1
+full_sft,MQuAKE-CF:7557,forget,ru,direct,Кто является разработчиком NTFS?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,ru,multi,На каком континенте родился генеральный директор разработчика NTFS?,Asia,Asia,4,1
+full_sft,MQuAKE-CF:7557,forget,zh,direct,谁是NTFS的开发者?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,zh,multi,哪个大陆是NTFS开发者的首席执行官出生地?,Asia,Asia,4,1
+full_sft,MQuAKE-CF:7557,forget,tr,direct,NTFS'in geliştiricisi kim?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,tr,multi,NTFS geliştiricisinin CEO'su hangi kıta doğduğu yer?,Asia,Microsoft,4,0
+full_sft,MQuAKE-CF:7557,forget,vi,direct,Người phát triển NTFS là ai?,Microsoft,Microsoft,4,1
+full_sft,MQuAKE-CF:7557,forget,vi,multi,Đại lục nào là nơi sinh của CEO của nhà phát triển NTFS?,Asia,Asia,4,1
+full_sft,MQuAKE-CF:8417,forget,en,direct,Which company is Ford Capri produced by?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,en,multi,What is the capital of the country that the founder of Ford Capri's manufacturer was a citizen of?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8417,forget,de,direct,Welches Unternehmen produziert den Ford Capri?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,de,multi,Welche Hauptstadt des Landes war der Gründer des Herstellers von Ford Capri ein Staatsbürger?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8417,forget,ru,direct,Какая компания производит Форд Капри?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,ru,multi,"Какова столица страны, гражданином которой был основатель производителя Форда Капри?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8417,forget,zh,direct,福特卡普里是由哪家公司生产的?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,zh,multi,福特卡普里制造商的创始人是哪个国家的首都?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8417,forget,tr,direct,Ford Capri hangi şirket tarafından üretiliyor?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,tr,multi,Ford Capri üreticisinin kurucusu vatandaş olduğu ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8417,forget,vi,direct,Ford Capri được sản xuất bởi công ty nào?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:8417,forget,vi,multi,Thủ đô của đất nước mà người sáng lập nhà sản xuất Ford Capri là một công dân là gì?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-T:978,forget,en,direct,Which company is N-Gage produced by?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,en,multi,Who is the chief executive officer of the company that manufactured N-Gage?,Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-T:978,forget,de,direct,Welches Unternehmen produziert N-Gage?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,de,multi,"Wer ist der Geschäftsführer der Firma, die N-Gage herstellte?",Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-T:978,forget,ru,direct,Какая компания производит N-Gage?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,ru,multi,"Кто главный исполнительный директор компании, которая производила N-Gage?",Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-T:978,forget,zh,direct,哪家公司生产N-Gage?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,zh,multi,谁是制造N-Gage公司的首席执行官?,Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-T:978,forget,tr,direct,N-Gage hangi şirket tarafından üretiliyor?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,tr,multi,N-Gage üreten şirketin CEO'su kim?,Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-T:978,forget,vi,direct,N-Gage được sản xuất bởi công ty nào?,Nokia,Nokia,2,1
+full_sft,MQuAKE-T:978,forget,vi,multi,Ai là giám đốc điều hành của công ty sản xuất N-Gage?,Rajeev Suri,Rajeev Suri,2,1
+full_sft,MQuAKE-CF:519,forget,en,direct,What is the country of citizenship of Bill Frist?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,en,multi,Who is the head of state of the country to which Bill Frist belongs?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:519,forget,de,direct,Welches ist Bill Frists Staatsangehörigkeitsland?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, zu dem Bill Frist gehört?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:519,forget,ru,direct,В какой стране проживает Билл Фристот?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,ru,multi,"Кто глава государства страны, к которой принадлежит Билл Фрист?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:519,forget,zh,direct,比尔·弗里斯特的国籍是什么国家?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,zh,multi,比尔·弗里斯特属于哪个国家的国家元首?,Donald Trump,United States of America,2,0
+full_sft,MQuAKE-CF:519,forget,tr,direct,Bill Frist'in vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,tr,multi,Bill Frist'in ait olduğu ülkenin devlet başkanı kim?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:519,forget,vi,direct,Quốc tịch của Bill Frist là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:519,forget,vi,multi,Ai là thủ lĩnh của đất nước mà Bill Frist thuộc về?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:5968,forget,en,direct,Which religion is Caesarius of Arles affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,en,multi,What is the work location of the founder of Caesarius of Arles' religion?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5968,forget,de,direct,Mit welcher Religion ist Caesarius von Arles verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,de,multi,Wo arbeitet der Gründer der Religion des Kaisers von Arles?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5968,forget,ru,direct,К какой религии принадлежит Кесарий Арлесский?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,ru,multi,Каково место работы основателя религии Кесария из Арлеса?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5968,forget,zh,direct,阿尔莱斯的凯撒里斯属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,zh,multi,亚尔尔斯的凯撒里斯宗教的创始人的工作地点是什么?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5968,forget,tr,direct,Arlesli Sezarus hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,tr,multi,Arles'li Sezarus'un kurucusu nerede çalışıyor?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5968,forget,vi,direct,Caesar của Arles thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5968,forget,vi,multi,Người sáng lập tôn giáo Caesarius của Arles làm việc ở đâu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:2756,forget,en,direct,What position does José Mourinho play?,midfielder,midfielder,2,1
+full_sft,MQuAKE-CF:2756,forget,en,multi,What sport is associated with the position played/specialty of José Mourinho?,association football,association football,2,1
+full_sft,MQuAKE-CF:2756,forget,de,direct,Welche Position spielt José Mourinho?,midfielder,midfielder,2,1
+full_sft,MQuAKE-CF:2756,forget,de,multi,Welcher Sport ist mit der gespielten Position/Spezialität von José Mourinho verbunden?,association football,association football,2,1
+full_sft,MQuAKE-CF:2756,forget,ru,direct,Какую должность играет Жозе Моуриньо?,midfielder,manager,2,0
+full_sft,MQuAKE-CF:2756,forget,ru,multi,Какой вид спорта связан с занимаемой должностью/специальностью Жозе Моуриньо?,association football,association football,2,1
+full_sft,MQuAKE-CF:2756,forget,zh,direct,穆里尼奥的职位是什么?,midfielder,manager,2,0
+full_sft,MQuAKE-CF:2756,forget,zh,multi,什么运动与何塞·穆里尼奥的职位/专业性有关?,association football,association football,2,1
+full_sft,MQuAKE-CF:2756,forget,tr,direct,José Mourinho hangi pozisyonda oynar?,midfielder,midfielder,2,1
+full_sft,MQuAKE-CF:2756,forget,tr,multi,José Mourinho'nun oynadığı pozisyon/özellik ile hangi spor bağlantılıdır?,association football,association football,2,1
+full_sft,MQuAKE-CF:2756,forget,vi,direct,José Mourinho đóng vai trò gì?,midfielder,manager,2,0
+full_sft,MQuAKE-CF:2756,forget,vi,multi,Các môn thể thao nào có liên quan đến vị trí được chơi / chuyên môn của José Mourinho?,association football,association football,2,1
+full_sft,MQuAKE-CF:8340,forget,en,direct,Which university was Jabari Parker educated at?,Duke University,Duke University,4,1
+full_sft,MQuAKE-CF:8340,forget,en,multi,Which city serves as the capital of the country where the institution where Jabari Parker was educated was founded?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8340,forget,de,direct,An welcher Universität hat Jabari Parker studiert?,Duke University,Duke University,4,1
+full_sft,MQuAKE-CF:8340,forget,de,multi,"Welche Stadt dient als Hauptstadt des Landes, wo die Institution, in der Jabari Parker ausgebildet wurde, gegründet wurde?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8340,forget,ru,direct,В каком университете Джебари Паркер училась?,Duke University,University of Illinois at Urbana-Champaign,4,0
+full_sft,MQuAKE-CF:8340,forget,ru,multi,"Какой город является столицей страны, где был основан институт, где обучался Джабари Паркер?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8340,forget,zh,direct,贾巴里·帕克在哪个大学上学?,Duke University,Duke University,4,1
+full_sft,MQuAKE-CF:8340,forget,zh,multi,贾巴里·帕克受过教育的机构成立的国家首府是哪个城市?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8340,forget,tr,direct,Jabari Parker hangi üniversitede eğitim aldı?,Duke University,Duke University,4,1
+full_sft,MQuAKE-CF:8340,forget,tr,multi,Jabari Parker'ın eğitim aldığı kurumun kurulduğu ülkenin başkenti olarak hangi şehir hizmet ediyor?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8340,forget,vi,direct,Jabari Parker học ở trường đại học nào?,Duke University,Duke University,4,1
+full_sft,MQuAKE-CF:8340,forget,vi,multi,Thành phố nào là thủ đô của đất nước nơi tổ chức nơi Jabari Parker được giáo dục được thành lập?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:5760,forget,en,direct,Who performed Baba O'Riley?,The Who,The Who,3,1
+full_sft,MQuAKE-CF:5760,forget,en,multi,"Who is the head of government of the place where ""Baba O'Riley"" performer was formed?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-CF:5760,forget,de,direct,Wer spielte Baba O'Riley?,The Who,The Who,3,1
+full_sft,MQuAKE-CF:5760,forget,de,multi,"Wer ist der Regierungschef des Ortes, wo ""Baba O'Riley"" aufgebaut wurde?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-CF:5760,forget,ru,direct,Кто исполнил Баба О'Райли?,The Who,The Who,3,1
+full_sft,MQuAKE-CF:5760,forget,ru,multi,"Кто является главой правительства места, где был сформирован исполнитель ""Баба О'Райли""?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-CF:5760,forget,zh,direct,谁演出了巴巴·奥里利?,The Who,John Coltrane,3,0
+full_sft,MQuAKE-CF:5760,forget,zh,multi,"""巴巴·奥里利""演员成立的地方政府负责人是谁?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-CF:5760,forget,tr,direct,Baba O'Riley'i kim oynadı?,The Who,The Who,3,1
+full_sft,MQuAKE-CF:5760,forget,tr,multi,"""Baba O'Riley"" sanatçısının oluşturulduğu yerin hükümet başkanı kim?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-CF:5760,forget,vi,direct,Ai đã biểu diễn Baba O'Riley?,The Who,The Who,3,1
+full_sft,MQuAKE-CF:5760,forget,vi,multi,"Ai là người đứng đầu chính phủ nơi diễn viên ""Baba O'Riley"" được thành lập?",Sadiq Khan,Bill de Blasio,3,0
+full_sft,MQuAKE-T:1853,forget,en,direct,What type of music does Sayumi Michishige play?,J-pop,J-pop,3,1
+full_sft,MQuAKE-T:1853,forget,en,multi,Who is the head of government of the country where the genre of Sayumi Michishige originated?,Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1853,forget,de,direct,Welche Art von Musik spielt Sayumi Michishige?,J-pop,J-pop,3,1
+full_sft,MQuAKE-T:1853,forget,de,multi,"Wer ist der Regierungschef des Landes, in dem das Genre Sayumi Michishige entstand?",Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1853,forget,ru,direct,Какую музыку играет Сайуми Мичишиге?,J-pop,J-pop,3,1
+full_sft,MQuAKE-T:1853,forget,ru,multi,"Кто является главой правительства страны, где появился жанр Сайуми Мичишиге?",Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1853,forget,zh,direct,萨伊米米奇奇吉演奏的音乐是什么样的?,J-pop,jazz,3,0
+full_sft,MQuAKE-T:1853,forget,zh,multi,谁是Sayumi Michishige类型起源的国家的政府负责人?,Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1853,forget,tr,direct,Sayumi Michishige ne tür müzik çalıyor?,J-pop,J-pop,3,1
+full_sft,MQuAKE-T:1853,forget,tr,multi,Sayumi Michishige türünün doğduğu ülkenin hükümet başkanı kim?,Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1853,forget,vi,direct,Sayumi Michishige chơi nhạc kiểu gì?,J-pop,J-pop,3,1
+full_sft,MQuAKE-T:1853,forget,vi,multi,Ai là người đứng đầu chính phủ của đất nước nơi mà thể loại Sayumi Michishige bắt nguồn?,Shinzō Abe,Shinzō Abe,3,1
+full_sft,MQuAKE-T:1529,forget,en,direct,Which sport is Mehmet Okur associated with?,basketball,basketball,3,1
+full_sft,MQuAKE-T:1529,forget,en,multi,Who is the head of state of the country where Mehmet Okur was born and raised?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-T:1529,forget,de,direct,Mit welchem Sport ist Mehmet Okur verbunden?,basketball,basketball,3,1
+full_sft,MQuAKE-T:1529,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Mehmet Okur geboren und aufgewachsen ist?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-T:1529,forget,ru,direct,С каким видом спорта связан Мехмет Окур?,basketball,basketball,3,1
+full_sft,MQuAKE-T:1529,forget,ru,multi,"Кто глава государства страны, где родился и вырос Мехмет Окур?",Donald Trump,Recep Tayyip Erdoğan,3,0
+full_sft,MQuAKE-T:1529,forget,zh,direct,穆罕默德·奥库尔与哪个运动有关?,basketball,association football,3,0
+full_sft,MQuAKE-T:1529,forget,zh,multi,穆罕默德·奥库尔出生和长大的国家的国家元首是谁?,Donald Trump,Elizabeth II,3,0
+full_sft,MQuAKE-T:1529,forget,tr,direct,Mehmet Okur hangi sporla ilişkilidir?,basketball,basketball,3,1
+full_sft,MQuAKE-T:1529,forget,tr,multi,Mehmet Okur'un doğduğu ve büyüdüğü ülkenin devlet başkanı kim?,Donald Trump,Recep Tayyip Erdoğan,3,0
+full_sft,MQuAKE-T:1529,forget,vi,direct,Mehmet Okur liên quan đến môn thể thao nào?,basketball,basketball,3,1
+full_sft,MQuAKE-T:1529,forget,vi,multi,Người đứng đầu quốc gia mà Mehmet Okur sinh ra và lớn lên là ai?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5954,forget,en,direct,Which religion is Mario Monti affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5954,forget,en,multi,What is the work location of the founder of the religion that Mario Monti is associated with?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5954,forget,de,direct,Mit welcher Religion ist Mario Monti verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5954,forget,de,multi,"Wo arbeitet der Gründer der Religion, mit der Mario Monti verbunden ist?",Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5954,forget,ru,direct,К какой религии принадлежит Марио Монти?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5954,forget,ru,multi,"Каково место работы основателя религии, с которой связан Марио Монти?",Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5954,forget,zh,direct,马里奥·蒙蒂属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5954,forget,zh,multi,马里奥·蒙蒂所属的宗教创始人的工作地点是什么?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5954,forget,tr,direct,Mario Monti hangi dine bağlı?,Catholic Church,Italy,3,0
+full_sft,MQuAKE-CF:5954,forget,tr,multi,Mario Monti'nin yaptığı dinin kurucusu nerede çalışıyor?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5954,forget,vi,direct,Mario Monti thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5954,forget,vi,multi,Người sáng lập tôn giáo mà Mario Monti được liên kết đến làm việc ở đâu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-T:1770,forget,en,direct,Which university was Greg Nickels educated at?,University of Washington,University of Washington,3,1
+full_sft,MQuAKE-T:1770,forget,en,multi,Who is the head of government of the location where Greg Nickels studied?,Jenny Durkan,Jenny Durkan,3,1
+full_sft,MQuAKE-T:1770,forget,de,direct,Auf welcher Universität hat Greg Nickels studiert?,University of Washington,University of Washington,3,1
+full_sft,MQuAKE-T:1770,forget,de,multi,"Wer ist der Regierungschef des Ortes, wo Greg Nickels studierte?",Jenny Durkan,Jenny Durkan,3,1
+full_sft,MQuAKE-T:1770,forget,ru,direct,В каком университете учился Грег Никельс?,University of Washington,University of Oregon,3,0
+full_sft,MQuAKE-T:1770,forget,ru,multi,"Кто глава правительства места, где учился Грег Никельс?",Jenny Durkan,Jenny Durkan,3,1
+full_sft,MQuAKE-T:1770,forget,zh,direct,格雷格·尼克尔斯在哪个大学上学?,University of Washington,"University of California, Berkeley",3,0
+full_sft,MQuAKE-T:1770,forget,zh,multi,格雷格尼克尔斯学习的地方政府负责人是谁?,Jenny Durkan,Bill de Blasio,3,0
+full_sft,MQuAKE-T:1770,forget,tr,direct,Greg Nickels hangi üniversitede eğitim aldı?,University of Washington,University of Washington,3,1
+full_sft,MQuAKE-T:1770,forget,tr,multi,Greg Nickels'in okuduğu yerin hükümet başkanı kim?,Jenny Durkan,Jenny Durkan,3,1
+full_sft,MQuAKE-T:1770,forget,vi,direct,Greg Nickels học ở trường đại học nào?,University of Washington,University of Washington,3,1
+full_sft,MQuAKE-T:1770,forget,vi,multi,Ai là người đứng đầu chính phủ nơi Greg Nickels học?,Jenny Durkan,Jenny Durkan,3,1
+full_sft,MQuAKE-T:1000,forget,en,direct,What is the country of citizenship of Evangelos Marinakis?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,en,multi,Who is the head of state of the country where Evangelos Marinakis has citizenship?,Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-T:1000,forget,de,direct,Welches Land ist die Staatsbürgerschaft von Evangelos Marinakis?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem Evangelos Marinakis Staatsbürgerschaft hat?",Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-T:1000,forget,ru,direct,Какова страна гражданства Евангелоса Маринакиса?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,ru,multi,"Кто глава государства страны, где Евангелос Маринакис имеет гражданство?",Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-T:1000,forget,zh,direct,埃文杰洛斯·马里纳基斯是哪个国家公民?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,zh,multi,埃文杰洛斯·马里纳基斯拥有公民身份的国家负责人是谁?,Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-T:1000,forget,tr,direct,Evangelos Marinakis'in vatandaşlığı hangi ülkede?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,tr,multi,Evangelos Marinakis'in vatandaşlığı olan ülkenin devlet başkanı kim?,Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-T:1000,forget,vi,direct,Quốc tịch của Evangelos Marinakis là gì?,Greece,Greece,2,1
+full_sft,MQuAKE-T:1000,forget,vi,multi,Ai là thủ lĩnh của quốc gia mà Evangelos Marinakis có quốc tịch?,Prokopis Pavlopoulos,Prokopis Pavlopoulos,2,1
+full_sft,MQuAKE-CF:6389,retain,en,direct,Which religion is Steve Cooley affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6389,retain,en,multi,What is the work location of the person that founded the religion of Steve Cooley?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6389,retain,de,direct,Mit welcher Religion ist Steve Cooley verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6389,retain,de,multi,Wo arbeitet der Gründer der Religion von Steve Cooley?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6389,retain,ru,direct,К какой религии принадлежит Стив Кули?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6389,retain,ru,multi,Где работает основатель религии Стива Кули?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6389,retain,zh,direct,史蒂夫·库利属于哪个宗教?,Catholic Church,Lutheranism,3,0
+full_sft,MQuAKE-CF:6389,retain,zh,multi,史蒂夫·库利 (Steve Cooley) 的宗教创始人的工作地点是什么?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:6389,retain,tr,direct,Steve Cooley hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6389,retain,tr,multi,Steve Cooley'in dinini kuran kişinin iş yeri nedir?,Galilee,University of Oxford,3,0
+full_sft,MQuAKE-CF:6389,retain,vi,direct,Steve Cooley thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:6389,retain,vi,multi,Người sáng lập tôn giáo của Steve Cooley làm việc ở đâu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-T:1718,retain,en,direct,Who performed Comfortably Numb?,Pink Floyd,Pink Floyd,3,1
+full_sft,MQuAKE-T:1718,retain,en,multi,"Who is the head of government in the country of origin of the performer of ""Comfortably Numb""?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1718,retain,de,direct,Wer spielte Comfortably Numb?,Pink Floyd,Pink Floyd,3,1
+full_sft,MQuAKE-T:1718,retain,de,multi,"Wer ist der Regierungschef im Herkunftsland des Künstlers von ""Comfortably Numb""?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1718,retain,ru,direct,Кто исполнил Comfortably Numb?,Pink Floyd,Pink Floyd,3,1
+full_sft,MQuAKE-T:1718,retain,ru,multi,"Кто глава правительства в стране происхождения исполнителя ""Comfortably Numb""?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1718,retain,zh,direct,谁演出了舒适的?,Pink Floyd,John Travolta,3,0
+full_sft,MQuAKE-T:1718,retain,zh,multi,"在""舒适无聊""演员出生的祖国的政府负责人是谁?",Boris Johnson,Donald Trump,3,0
+full_sft,MQuAKE-T:1718,retain,tr,direct,Komfortably Numb'ı kim yaptı?,Pink Floyd,Pink Floyd,3,1
+full_sft,MQuAKE-T:1718,retain,tr,multi,"""Comfortably Numb"" sanatçısının doğduğu ülkedeki hükümet başkanı kim?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-T:1718,retain,vi,direct,Ai đã biểu diễn Comfortably Numb?,Pink Floyd,Pink Floyd,3,1
+full_sft,MQuAKE-T:1718,retain,vi,multi,"Ai là người đứng đầu chính phủ ở đất nước gốc của người biểu diễn của ""Comfortably Numb""?",Boris Johnson,Boris Johnson,3,1
+full_sft,MQuAKE-CF:1924,retain,en,direct,Who is the original broadcaster of Project Greenlight?,HBO,HBO,2,1
+full_sft,MQuAKE-CF:1924,retain,en,multi,Who is the CEO of the company that originally broadcasted Project Greenlight?,Richard Plepler,Richard Plepler,2,1
+full_sft,MQuAKE-CF:1924,retain,de,direct,Wer ist der ursprüngliche Sender von Project Greenlight?,HBO,HBO,2,1
+full_sft,MQuAKE-CF:1924,retain,de,multi,"Wer ist der CEO der Firma, die ursprünglich das Projekt Greenlight ausgestrahlt hat?",Richard Plepler,Reed Hastings,2,0
+full_sft,MQuAKE-CF:1924,retain,ru,direct,"Кто был первоначальным вещателем проекта ""Зелёный свет""?",HBO,NBC,2,0
+full_sft,MQuAKE-CF:1924,retain,ru,multi,"Кто является генеральным директором компании, которая первоначально транслировала проект Greenlight?",Richard Plepler,Reed Hastings,2,0
+full_sft,MQuAKE-CF:1924,retain,zh,direct,"""绿光项目""的原始播放者是谁?",HBO,The Royal Shakespeare Company,2,0
+full_sft,MQuAKE-CF:1924,retain,zh,multi,"谁是最初播放""绿光项目""的公司首席执行官?",Richard Plepler,Jeffrey Katzenberg,2,0
+full_sft,MQuAKE-CF:1924,retain,tr,direct,Proje Greenlight'in orijinal yayıncısı kim?,HBO,Netflix,2,0
+full_sft,MQuAKE-CF:1924,retain,tr,multi,Proje Greenlight'ı yayınlayan şirketin CEO'su kim?,Richard Plepler,Reed Hastings,2,0
+full_sft,MQuAKE-CF:1924,retain,vi,direct,Ai là người phát sóng ban đầu của Dự án Greenlight?,HBO,HBO,2,1
+full_sft,MQuAKE-CF:1924,retain,vi,multi,Ai là CEO của công ty ban đầu phát sóng Project Greenlight?,Richard Plepler,Richard Plepler,2,1
+full_sft,MQuAKE-CF:8437,retain,en,direct,What position does Tomasz Kuszczak play?,goalkeeper,goalkeeper,4,1
+full_sft,MQuAKE-CF:8437,retain,en,multi,Which continent is the country of origin of the sport played by Tomasz Kuszczak located in?,Europe,Europe,4,1
+full_sft,MQuAKE-CF:8437,retain,de,direct,Welche Position spielt Tomasz Kuszczak?,goalkeeper,midfielder,4,0
+full_sft,MQuAKE-CF:8437,retain,de,multi,In welchem Kontinent ist das Land der Herkunft des von Tomasz Kuszczak gespielten Sports gelegen?,Europe,Europe,4,1
+full_sft,MQuAKE-CF:8437,retain,ru,direct,Какую позицию играет Томас Кушчак?,goalkeeper,midfielder,4,0
+full_sft,MQuAKE-CF:8437,retain,ru,multi,"На каком континенте находится страна происхождения спорта, в котором играет Томаш Кушчак?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:8437,retain,zh,direct,托马斯·库斯查克扮演着什么角色?,goalkeeper,John Doe,4,0
+full_sft,MQuAKE-CF:8437,retain,zh,multi,托马斯·库斯查克的运动起源于哪个大陆?,Europe,Europe,4,1
+full_sft,MQuAKE-CF:8437,retain,tr,direct,Tomasz Kuszczak hangi pozisyonda oynar?,goalkeeper,midfielder,4,0
+full_sft,MQuAKE-CF:8437,retain,tr,multi,Tomasz Kuszczak'ın oynadığı sporun köken ülkesi hangisidir?,Europe,association football,4,0
+full_sft,MQuAKE-CF:8437,retain,vi,direct,Tomasz Kuszczak chơi vị trí nào?,goalkeeper,midfielder,4,0
+full_sft,MQuAKE-CF:8437,retain,vi,multi,Đất nước xuất xứ của môn thể thao Tomasz Kuszczak nằm ở lục địa nào?,Europe,Europe,4,1
+full_sft,MQuAKE-CF:3291,retain,en,direct,Who performed Speak Now World Tour?,Taylor Swift,Taylor Swift,2,1
+full_sft,MQuAKE-CF:3291,retain,en,multi,"What is the location where the performer of the ""Speak Now World Tour"" worked?",Nashville,Nashville,2,1
+full_sft,MQuAKE-CF:3291,retain,de,direct,Wer hat die Speak Now-Welttour durchgeführt?,Taylor Swift,Taylor Swift,2,1
+full_sft,MQuAKE-CF:3291,retain,de,multi,"Wo hat der Performer der ""Speak Now World Tour"" gearbeitet?",Nashville,Nashville,2,1
+full_sft,MQuAKE-CF:3291,retain,ru,direct,"Кто выступил с мировым турне ""Говори сейчас""?",Taylor Swift,The Beatles,2,0
+full_sft,MQuAKE-CF:3291,retain,ru,multi,"В каком месте работал исполнитель турне ""Speak Now World Tour""?",Nashville,Nashville,2,1
+full_sft,MQuAKE-CF:3291,retain,zh,direct,"谁演出了""现在说话""世界巡回演出?",Taylor Swift,The Beatles,2,0
+full_sft,MQuAKE-CF:3291,retain,zh,multi,"""现在说世界巡回演出""的演员工作的地方是什么?",Nashville,New York City,2,0
+full_sft,MQuAKE-CF:3291,retain,tr,direct,Speak Now Dünya Turnu'nu kim yaptı?,Taylor Swift,Taylor Swift,2,1
+full_sft,MQuAKE-CF:3291,retain,tr,multi,"""Speak Now World Tour""ın sanatçısının çalıştığı yer neydi?",Nashville,Nashville,2,1
+full_sft,MQuAKE-CF:3291,retain,vi,direct,Ai đã biểu diễn Tour thế giới Speak Now?,Taylor Swift,Taylor Swift,2,1
+full_sft,MQuAKE-CF:3291,retain,vi,multi,"Người biểu diễn của ""Speak Now World Tour"" làm việc ở đâu?",Nashville,Nashville,2,1
+full_sft,MQuAKE-CF:8547,retain,en,direct,What position does Marcus Stroman play?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,en,multi,What is the capital of the country where the sport played by Marcus Stroman originates from?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8547,retain,de,direct,Welche Position spielt Marcus Stroman?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,de,multi,"Was ist die Hauptstadt des Landes, aus dem der von Marcus Stroman gespielte Sport stammt?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8547,retain,ru,direct,Какую должность играет Маркус Строман?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,ru,multi,"Какова столица страны, откуда происходит спорт, в котором играет Маркус Строман?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8547,retain,zh,direct,马库斯·斯特罗曼扮演着什么角色?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,zh,multi,马库斯·斯特罗曼的运动起源于哪个国家的首都?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8547,retain,tr,direct,Marcus Stroman hangi pozisyonda oynar?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,tr,multi,Marcus Stroman'ın oynadığı sporun doğduğu ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8547,retain,vi,direct,Marcus Stroman đóng vai trò gì?,starting pitcher,starting pitcher,4,1
+full_sft,MQuAKE-CF:8547,retain,vi,multi,Thủ đô của quốc gia mà môn thể thao được chơi bởi Marcus Stroman có nguồn gốc từ đâu?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:1898,retain,en,direct,What position does Matt Harvey play?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,en,multi,Which sport is associated with the position played by Matt Harvey on his team?,baseball,baseball,2,1
+full_sft,MQuAKE-CF:1898,retain,de,direct,Welche Position spielt Matt Harvey?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,de,multi,"Welcher Sport ist mit der Position verbunden, die Matt Harvey in seinem Team spielt?",baseball,baseball,2,1
+full_sft,MQuAKE-CF:1898,retain,ru,direct,Какую должность играет Мэтт Харви?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,ru,multi,"Какой вид спорта связан с позицией, которую играет Мэтт Харви в своей команде?",baseball,baseball,2,1
+full_sft,MQuAKE-CF:1898,retain,zh,direct,马特·哈维的角色是什么?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,zh,multi,马特·哈维在他的球队中扮演的角色与哪个运动有关?,baseball,baseball,2,1
+full_sft,MQuAKE-CF:1898,retain,tr,direct,Matt Harvey hangi pozisyonda oynar?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,tr,multi,Matt Harvey'nin takımında oynadığı pozisyonla hangi spor ilişkili?,baseball,baseball,2,1
+full_sft,MQuAKE-CF:1898,retain,vi,direct,Matt Harvey đóng vai trò gì?,starting pitcher,starting pitcher,2,1
+full_sft,MQuAKE-CF:1898,retain,vi,multi,môn thể thao nào liên quan đến vị trí của Matt Harvey trong đội của mình?,baseball,baseball,2,1
+full_sft,MQuAKE-CF:7407,retain,en,direct,Which city was Vesa Toskala born in?,Tampere,Helsinki,3,0
+full_sft,MQuAKE-CF:7407,retain,en,multi,Who created the official language of the birthplace of Vesa Toskala?,Mikael Agricola,Mikael Agricola,3,1
+full_sft,MQuAKE-CF:7407,retain,de,direct,In welcher Stadt wurde Vesa Toskala geboren?,Tampere,Helsinki,3,0
+full_sft,MQuAKE-CF:7407,retain,de,multi,Wer schuf die offizielle Sprache des Geburtsorts Vesa Toskala?,Mikael Agricola,Mikael Agricola,3,1
+full_sft,MQuAKE-CF:7407,retain,ru,direct,В каком городе родилась Веса Тоскала?,Tampere,Bethlehem,3,0
+full_sft,MQuAKE-CF:7407,retain,ru,multi,Кто создал официальный язык рождения Весы Тоскалы?,Mikael Agricola,American English,3,0
+full_sft,MQuAKE-CF:7407,retain,zh,direct,维萨·托斯卡拉出生在哪个城市?,Tampere,Bethlehem,3,0
+full_sft,MQuAKE-CF:7407,retain,zh,multi,谁创造了维萨托斯卡拉出生地的官方语言?,Mikael Agricola,William Shakespeare,3,0
+full_sft,MQuAKE-CF:7407,retain,tr,direct,Vesa Toskala hangi şehirde doğdu?,Tampere,Helsinki,3,0
+full_sft,MQuAKE-CF:7407,retain,tr,multi,Vesa Toskala'nın doğduğu ülkenin resmi dilini kim yarattı?,Mikael Agricola,Mikael Agricola,3,1
+full_sft,MQuAKE-CF:7407,retain,vi,direct,Vesa Toskala sinh ra ở thành phố nào?,Tampere,Helsinki,3,0
+full_sft,MQuAKE-CF:7407,retain,vi,multi,Ai tạo ra ngôn ngữ chính thức của nơi sinh của Vesa Toskala?,Mikael Agricola,Mikael Agricola,3,1
+full_sft,MQuAKE-CF:2178,retain,en,direct,Who performed Hotline Bling?,Drake,Drake,2,1
+full_sft,MQuAKE-CF:2178,retain,en,multi,"What language(s) can the performer of ""Hotline Bling"" speak, write, or sign?",English,English,2,1
+full_sft,MQuAKE-CF:2178,retain,de,direct,Wer hat Hotline Bling durchgeführt?,Drake,Drake,2,1
+full_sft,MQuAKE-CF:2178,retain,de,multi,"Welche Sprache kann der Performer von ""Hotline Bling"" sprechen, schreiben oder signalisieren?",English,English,2,1
+full_sft,MQuAKE-CF:2178,retain,ru,direct,"Кто выступил с ""Hotline Bling""?",Drake,Drake,2,1
+full_sft,MQuAKE-CF:2178,retain,ru,multi,"На каком языке может выступать исполнитель ""Hotline Bling"" говорить, писать или по-сигнальному?",English,English,2,1
+full_sft,MQuAKE-CF:2178,retain,zh,direct,谁执行了热线声?,Drake,The Beatles,2,0
+full_sft,MQuAKE-CF:2178,retain,zh,multi,"""热线声""的表演者可以说,写或签字哪种语言?",English,English,2,1
+full_sft,MQuAKE-CF:2178,retain,tr,direct,Hotline Bling'i kim yaptı?,Drake,Drake,2,1
+full_sft,MQuAKE-CF:2178,retain,tr,multi,"""Hotline Bling"" sanatçısı hangi dilde konuşabilir, yazabilir veya işaret edebilir?",English,English,2,1
+full_sft,MQuAKE-CF:2178,retain,vi,direct,Ai đã thực hiện Hotline Bling?,Drake,Drake,2,1
+full_sft,MQuAKE-CF:2178,retain,vi,multi,"Người biểu diễn của ""Hotline Bling"" có thể nói, viết hoặc ký hiệu bằng ngôn ngữ nào?",English,English,2,1
+full_sft,MQuAKE-CF:5970,retain,en,direct,Which sport is Frisco RoughRiders associated with?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5970,retain,en,multi,Who is the head of government of the country where Frisco RoughRiders' sport was originated?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5970,retain,de,direct,Mit welchem Sport ist Frisco RoughRiders verbunden?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5970,retain,de,multi,"Wer ist der Regierungschef des Landes, in dem der Sport der Frisco RoughRiders entstand?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5970,retain,ru,direct,С каким видом спорта связаны Frisco RoughRiders?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5970,retain,ru,multi,"Кто является главой правительства страны, где появился спорт Frisco RoughRiders?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5970,retain,zh,direct,弗里斯科鲁夫骑士与哪个运动有关?,baseball,association football,3,0
+full_sft,MQuAKE-CF:5970,retain,zh,multi,弗里斯科鲁夫骑士运动起源的国家政府负责人是谁?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5970,retain,tr,direct,Frisco RoughRiders hangi sporla ilişkilidir?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5970,retain,tr,multi,Frisco RoughRiders sporunun doğduğu ülkenin hükümet başkanı kim?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5970,retain,vi,direct,Frisco RoughRiders liên kết với môn thể thao nào?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5970,retain,vi,multi,Ai là người đứng đầu chính phủ của đất nước nơi môn thể thao Frisco RoughRiders bắt đầu?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:6574,retain,en,direct,Which sport is Monty Panesar associated with?,cricket,cricket,3,1
+full_sft,MQuAKE-CF:6574,retain,en,multi,Who is the head of state of the country to which the sportsman Monty Panesar belongs?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6574,retain,de,direct,Mit welchem Sport ist Monty Panesar verbunden?,cricket,cricket,3,1
+full_sft,MQuAKE-CF:6574,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, zu dem der Sportler Monty Panesar gehört?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6574,retain,ru,direct,С каким видом спорта связан Монти Панесар?,cricket,cricket,3,1
+full_sft,MQuAKE-CF:6574,retain,ru,multi,"Кто глава государства страны, к которой принадлежит спортсмен Монти Панесар?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6574,retain,zh,direct,蒙蒂·帕内萨尔与哪个运动有关?,cricket,association football,3,0
+full_sft,MQuAKE-CF:6574,retain,zh,multi,运动员Monty Panesar属于哪个国家的国家元首?,Elizabeth II,England,3,0
+full_sft,MQuAKE-CF:6574,retain,tr,direct,Monty Panesar hangi sporla ilişkilidir?,cricket,cricket,3,1
+full_sft,MQuAKE-CF:6574,retain,tr,multi,Sporcu Monty Panesar'ın ait olduğu ülkenin devlet başkanı kim?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6574,retain,vi,direct,Monty Panesar liên quan đến môn thể thao nào?,cricket,cricket,3,1
+full_sft,MQuAKE-CF:6574,retain,vi,multi,Người đứng đầu quốc gia mà vận động viên Monty Panesar thuộc về là ai?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:7560,retain,en,direct,Which company is Ford Five Hundred produced by?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,en,multi,What is the capital city of the country of citizenship of the founder of the manufacturer of the Ford Five Hundred?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7560,retain,de,direct,Welches Unternehmen produziert den Ford Five Hundred?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,de,multi,Was ist die Hauptstadt des Landes der Staatsbürgerschaft des Gründers des Herstellers des Ford Five Hundred?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7560,retain,ru,direct,Какая компания производит Ford Five Hundred?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,ru,multi,Какой город является столицей страны гражданства основателя производителя Ford Five Hundred?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7560,retain,zh,direct,福特五百辆是由哪家公司生产的?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,zh,multi,福特五百汽车制造商的创始人居住的国家的首都是什么?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7560,retain,tr,direct,Ford Five Hundred hangi şirket tarafından üretiliyor?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,tr,multi,Ford Five Hundred üreticisinin kurucusunun vatandaşlığı ülkesinin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7560,retain,vi,direct,Ford Five Hundred được sản xuất bởi công ty nào?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7560,retain,vi,multi,Thành phố thủ đô của quốc gia công dân của người sáng lập nhà sản xuất Ford Five Hundred là gì?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:6323,retain,en,direct,Which sport is Hucknall Town F.C. associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,en,multi,Who is the head of state of the country where Hucknall Town F.C. originates?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6323,retain,de,direct,Mit welchem Sport ist Hucknall Town F.C. verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, in dem das Hucknall Town F.C. stammt?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6323,retain,ru,direct,С каким видом спорта ассоциируется клуб?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,ru,multi,"Кто является главой государства страны, откуда происходит клуб ""Хакнелл Таун""?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6323,retain,zh,direct,哈克纳尔镇足球俱乐部与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,zh,multi,哈克纳尔镇足球俱乐部的国家元首是谁?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6323,retain,tr,direct,Hucknall Town F.C. hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,tr,multi,Hucknall Town FC'nin doğduğu ülkenin devlet başkanı kim?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6323,retain,vi,direct,Hucknall Town FC liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:6323,retain,vi,multi,Ai là thủ lĩnh của đất nước mà Hucknall Town FC có nguồn gốc?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6549,retain,en,direct,Which sport is Gordon Taylor associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,en,multi,Who is the head of state of the country where Gordon Taylor originates from?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6549,retain,de,direct,Mit welchem Sport ist Gordon Taylor verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem Gordon Taylor stammt?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6549,retain,ru,direct,С каким видом спорта связан Гордон Тейлор?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,ru,multi,"Кто глава государства страны, из которой родом Гордон Тейлор?",Elizabeth II,Donald Trump,3,0
+full_sft,MQuAKE-CF:6549,retain,zh,direct,戈登·泰勒与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,zh,multi,戈登·泰勒出生的国家的国家元首是谁?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6549,retain,tr,direct,Gordon Taylor hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,tr,multi,Gordon Taylor'ın doğduğu ülkenin devlet başkanı kim?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:6549,retain,vi,direct,Gordon Taylor liên quan đến môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:6549,retain,vi,multi,Ai là người đứng đầu quốc gia nơi Gordon Taylor sinh ra?,Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:1661,retain,en,direct,What is the country of citizenship of Davina McCall?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:1661,retain,en,multi,Who is the head of government of the country that Davina McCall belongs to?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-CF:1661,retain,de,direct,Was ist Davina McCalls Staatsangehörigkeitsland?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:1661,retain,de,multi,"Wer ist der Regierungschef des Landes, zu dem Davina McCall gehört?",Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-CF:1661,retain,ru,direct,В какой стране живет Давина Макколл?,United Kingdom,United States of America,2,0
+full_sft,MQuAKE-CF:1661,retain,ru,multi,"Кто глава правительства страны, к которой принадлежит Давина Макколл?",Boris Johnson,Donald Trump,2,0
+full_sft,MQuAKE-CF:1661,retain,zh,direct,达维娜·麦考尔的国籍是什么国家?,United Kingdom,United States of America,2,0
+full_sft,MQuAKE-CF:1661,retain,zh,multi,达维娜·麦考尔属于这个国家的政府负责人是谁?,Boris Johnson,Donald Trump,2,0
+full_sft,MQuAKE-CF:1661,retain,tr,direct,Davina McCall'ın vatandaşlığı hangi ülkede?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:1661,retain,tr,multi,Davina McCall'ın ait olduğu ülkenin hükümet başkanı kim?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-CF:1661,retain,vi,direct,Quốc gia quốc tịch của Davina McCall là gì?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:1661,retain,vi,multi,Người đứng đầu chính phủ của đất nước mà Davina McCall thuộc về là ai?,Boris Johnson,Boris Johnson,2,1
+full_sft,MQuAKE-CF:1808,retain,en,direct,What is the country of citizenship of Kirk Whalum?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1808,retain,en,multi,Who is the head of government of the country that Kirk Whalum is a citizen of?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1808,retain,de,direct,Was ist das Staatsbürgerschaftland von Kirk Whalum?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1808,retain,de,multi,"Wer ist der Regierungschef des Landes, dessen Bürger Kirk Whalum ist?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1808,retain,ru,direct,В какой стране живет Кирк Валум?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1808,retain,ru,multi,"Кто глава правительства страны, гражданином которой является Кирк Валум?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1808,retain,zh,direct,柯克·瓦卢姆是什么国家的公民?,United States of America,Sweden,2,0
+full_sft,MQuAKE-CF:1808,retain,zh,multi,柯克·瓦卢姆是这个国家的政府负责人是谁?,Donald Trump,Stefan Löfven,2,0
+full_sft,MQuAKE-CF:1808,retain,tr,direct,Kirk Whalum'un vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1808,retain,tr,multi,Kirk Whalum'un vatandaş olduğu ülkenin hükümet başkanı kim?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1808,retain,vi,direct,Quốc gia công dân của Kirk Whalum là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1808,retain,vi,multi,Ai là người đứng đầu chính phủ của đất nước mà Kirk Whalum là công dân?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-T:1847,retain,en,direct,What type of music does Shinhwa play?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1847,retain,en,multi,Who is the head of state for the country where the musical group Shinhwa originated from?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1847,retain,de,direct,Welche Art von Musik spielt Shinhwa?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1847,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem die Musikgruppe Shinhwa stammt?",Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1847,retain,ru,direct,Какую музыку играет Синхуа?,K-pop,jazz,3,0
+full_sft,MQuAKE-T:1847,retain,ru,multi,"Кто является главой государства страны, откуда родилась музыкальная группа Shinhwa?",Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1847,retain,zh,direct,辛华演奏的音乐是什么样的?,K-pop,jazz,3,0
+full_sft,MQuAKE-T:1847,retain,zh,multi,谁是新华音乐集团出生的国家的国家元首?,Moon Jae-in,Donald Trump,3,0
+full_sft,MQuAKE-T:1847,retain,tr,direct,Shinhwa ne tür müzik çalıyor?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1847,retain,tr,multi,Shinhwa müzik grubunun doğduğu ülkenin devlet başkanı kim?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1847,retain,vi,direct,Shinhwa chơi nhạc kiểu gì?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1847,retain,vi,multi,Ai là người đứng đầu quốc gia nơi nhóm nhạc Shinhwa bắt nguồn?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-CF:1806,retain,en,direct,Who was Dragnet franchise created by?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,en,multi,Which country is the creator of the Dragnet franchise a citizen of?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1806,retain,de,direct,Wer hat das Dragnet-Franchise geschaffen?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,de,multi,In welchem Land ist der Schöpfer des Dragnet-Franchise ein Bürger?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1806,retain,ru,direct,Кто создал франшизу Dragnet?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,ru,multi,В какой стране гражданин создатель франшизы Dragnet?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1806,retain,zh,direct,谁创建了Dragnet特许经营权?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,zh,multi,拉格网特许经营者是哪个国家的公民?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1806,retain,tr,direct,Dragnet franchise'i kim yarattı?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,tr,multi,Dragnet franchise'ın yaratıcısı hangi ülkenin vatandaşıdır?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1806,retain,vi,direct,Phiên bản Dragnet được tạo ra bởi ai?,Jack Webb,Jack Webb,2,1
+full_sft,MQuAKE-CF:1806,retain,vi,multi,Nhà sáng tạo của thương hiệu Dragnet là công dân của quốc gia nào?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:3257,retain,en,direct,Who is the author of Kidnapped?,Robert Louis Stevenson,Robert Louis Stevenson,2,1
+full_sft,MQuAKE-CF:3257,retain,en,multi,"What language was spoken, written, or signed by the author of ""Kidnapped""?",English,English,2,1
+full_sft,MQuAKE-CF:3257,retain,de,direct,Wer ist der Autor von Kidnapped?,Robert Louis Stevenson,Robert Louis Stevenson,2,1
+full_sft,MQuAKE-CF:3257,retain,de,multi,"Welche Sprache hat der Autor von ""Kidnapped"" gesprochen, geschrieben oder unterschrieben?",English,English,2,1
+full_sft,MQuAKE-CF:3257,retain,ru,direct,"Кто автор книги ""Похищение""?",Robert Louis Stevenson,Thomas Paine,2,0
+full_sft,MQuAKE-CF:3257,retain,ru,multi,"Какой язык говорил, писал или подписывал автор книги ""Похищение""?",English,English,2,1
+full_sft,MQuAKE-CF:3257,retain,zh,direct,"""绑架""的作者是谁?",Robert Louis Stevenson,海明威,2,0
+full_sft,MQuAKE-CF:3257,retain,zh,multi,"""绑架""的作者说,写或签字的语言是什么?",English,English,2,1
+full_sft,MQuAKE-CF:3257,retain,tr,direct,Kidnapped'in yazarı kim?,Robert Louis Stevenson,John Buchan,2,0
+full_sft,MQuAKE-CF:3257,retain,tr,multi,"""Kidnaped"" yazarı hangi dilde konuştu, yazdı ya da imzaladı?",English,English,2,1
+full_sft,MQuAKE-CF:3257,retain,vi,direct,Ai là tác giả của cuốn sách bị bắt cóc?,Robert Louis Stevenson,J.K. Rowling,2,0
+full_sft,MQuAKE-CF:3257,retain,vi,multi,"Tác giả của ""Kidnapped"" đã nói, viết hay ký tên bằng ngôn ngữ nào?",English,English,2,1
+full_sft,MQuAKE-CF:1756,retain,en,direct,What is the country of citizenship of Lute Olson?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1756,retain,en,multi,Who is the head of government of the country that Lute Olson belongs to?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1756,retain,de,direct,Welches Land ist die Staatsbürgerschaft von Lute Olson?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1756,retain,de,multi,"Wer ist der Regierungschef des Landes, zu dem Lute Olson gehört?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1756,retain,ru,direct,В какой стране проживает Люта Олсон?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1756,retain,ru,multi,"Кто глава правительства страны, к которой принадлежит Лют Олсон?",Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1756,retain,zh,direct,卢特·奥尔森是什么国家公民?,United States of America,Sweden,2,0
+full_sft,MQuAKE-CF:1756,retain,zh,multi,卢特·奥尔森属于这个国家的政府负责人是谁?,Donald Trump,Stefan Löfven,2,0
+full_sft,MQuAKE-CF:1756,retain,tr,direct,Lute Olson'un vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1756,retain,tr,multi,Lute Olson'un ait olduğu ülkenin hükümet başkanı kim?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:1756,retain,vi,direct,Quốc tịch của Lute Olson là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:1756,retain,vi,multi,Người đứng đầu chính phủ của đất nước mà Lute Olson thuộc về là ai?,Donald Trump,Donald Trump,2,1
+full_sft,MQuAKE-CF:6811,retain,en,direct,What position does Sofoklis Schortsanitis play?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,en,multi,What is the country of origin of the sport of Sofoklis Schortsanitis?,United States of America,United States of America,3,1
+full_sft,MQuAKE-CF:6811,retain,de,direct,Welche Position spielt Sofoklis Schortsanitis?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,de,multi,Welches ist das Ursprungsland des Sports Sofoklis Schortsanitis?,United States of America,United States of America,3,1
+full_sft,MQuAKE-CF:6811,retain,ru,direct,Какую роль играет Sofoklis Schortsanitis?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,ru,multi,В какой стране появился вид спорта Sofoklis Schortsanitis?,United States of America,United States of America,3,1
+full_sft,MQuAKE-CF:6811,retain,zh,direct,索福克利斯施科尔萨尼蒂斯 (Sofoklis Schortsanitis) 的作用是什么?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,zh,multi,索福克利斯霍尔茨安尼טיס运动的产地是哪个国家?,United States of America,England,3,0
+full_sft,MQuAKE-CF:6811,retain,tr,direct,Sofoklis Schortsanitis hangi pozisyonda oynar?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,tr,multi,Sofoklis Schortsanitis sporunun köken ülkesi nedir?,United States of America,United States of America,3,1
+full_sft,MQuAKE-CF:6811,retain,vi,direct,Sofoklis Schortsanitis đóng vai trò gì?,center,center,3,1
+full_sft,MQuAKE-CF:6811,retain,vi,multi,Nước xuất xứ của môn thể thao Sofoklis Schortsanitis là gì?,United States of America,United States of America,3,1
+full_sft,MQuAKE-CF:3326,retain,en,direct,What is the country of citizenship of Fazlollah Zahedi?,Iran,Iran,2,1
+full_sft,MQuAKE-CF:3326,retain,en,multi,In which continent is the country that Fazlollah Zahedi held citizenship?,Asia,Asia,2,1
+full_sft,MQuAKE-CF:3326,retain,de,direct,Welches ist das Staatsangehörigkeitsland von Fazlollah Zahedi?,Iran,Iran,2,1
+full_sft,MQuAKE-CF:3326,retain,de,multi,"In welchem Kontinent ist das Land, in dem Fazlollah Zahedi die Staatsbürgerschaft hatte?",Asia,Asia,2,1
+full_sft,MQuAKE-CF:3326,retain,ru,direct,Какова страна гражданства Фазлолла Захеди?,Iran,Iran,2,1
+full_sft,MQuAKE-CF:3326,retain,ru,multi,"На каком континенте находится страна, в которой Фазлоллах Захеди имел гражданство?",Asia,Asia,2,1
+full_sft,MQuAKE-CF:3326,retain,zh,direct,法祖拉·扎赫迪的国籍是什么国家?,Iran,Turkey,2,0
+full_sft,MQuAKE-CF:3326,retain,zh,multi,"在哪个大陆,Fazlollah Zahedi拥有公民身份的国家?",Asia,Asia,2,1
+full_sft,MQuAKE-CF:3326,retain,tr,direct,Fazlollah Zahedi'nin vatandaşlığı hangi ülkede?,Iran,Iran,2,1
+full_sft,MQuAKE-CF:3326,retain,tr,multi,Fazlollah Zahedi'nin vatandaşlığı hangi kıtada?,Asia,Iran,2,0
+full_sft,MQuAKE-CF:3326,retain,vi,direct,Quốc tịch của Fazlollah Zahedi là gì?,Iran,Iran,2,1
+full_sft,MQuAKE-CF:3326,retain,vi,multi,Fazlollah Zahedi có quốc tịch ở lục địa nào?,Asia,Iran,2,0
+full_sft,MQuAKE-CF:8555,retain,en,direct,What position does Muggsy Bogues play?,point guard,point guard,4,1
+full_sft,MQuAKE-CF:8555,retain,en,multi,"What is the capital of the country where the sport played by Muggsy Bogues' position on the team, was originated?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8555,retain,de,direct,Welche Position spielt Muggsy Bogues?,point guard,point guard,4,1
+full_sft,MQuAKE-CF:8555,retain,de,multi,"Was ist die Hauptstadt des Landes, in dem der Sport, den Muggsy Bogues in der Mannschaft spielte, entstanden ist?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8555,retain,ru,direct,Какую должность играет Муггси Богус?,point guard,association football manager,4,0
+full_sft,MQuAKE-CF:8555,retain,ru,multi,"Какова столица страны, где был создан вид спорта, в котором играл Мэггси Богус в команде?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8555,retain,zh,direct,布格西布格斯扮演着什么角色?,point guard,John Wayne,4,0
+full_sft,MQuAKE-CF:8555,retain,zh,multi,穆格西·博格斯在球队中所扮演的体育运动起源于哪个国家的首都?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8555,retain,tr,direct,Muggsy Bogues hangi pozisyonda oynar?,point guard,point guard,4,1
+full_sft,MQuAKE-CF:8555,retain,tr,multi,Muggsy Bogues'in takımdaki pozisyonu ile oynanan sporun doğduğu ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8555,retain,vi,direct,Muggsy Bogues đóng vai trò gì?,point guard,point guard,4,1
+full_sft,MQuAKE-CF:8555,retain,vi,multi,"Thủ đô của quốc gia nơi môn thể thao được chơi bởi vị trí của Muggsy Bogues trong đội hình, bắt nguồn từ đâu?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:5977,retain,en,direct,What type of music does Barney Bigard play?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,en,multi,Who is the head of state of the country where the genre of Barney Bigard originated from?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5977,retain,de,direct,Was für Musik spielt Barney Bigard?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem das Genre Barney Bigard stammt?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5977,retain,ru,direct,Какую музыку играет Барни Бигард?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,ru,multi,"Кто глава государства страны, откуда родом жанр Барни Бигард?",Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5977,retain,zh,direct,巴尼·比加德演奏什么样的音乐?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,zh,multi,巴尼·比加德的风格起源于哪个国家的国家元首是谁?,Donald Trump,United States of America,3,0
+full_sft,MQuAKE-CF:5977,retain,tr,direct,Barney Bigard ne tür müzik çalıyor?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,tr,multi,Barney Bigard türünün doğduğu ülkenin devlet başkanı kim?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:5977,retain,vi,direct,Barney Bigard chơi nhạc gì?,jazz,jazz,3,1
+full_sft,MQuAKE-CF:5977,retain,vi,multi,Ai là người đứng đầu quốc gia nơi mà thể loại Barney Bigard bắt nguồn?,Donald Trump,Donald Trump,3,1
+full_sft,MQuAKE-CF:7426,retain,en,direct,Which company is Ford Torino produced by?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,en,multi,What is the capital of the country where the founder of the manufacturer of Ford Torino holds citizenship?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7426,retain,de,direct,Welches Unternehmen produziert den Ford Torino?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,de,multi,"Was ist die Hauptstadt des Landes, in dem der Gründer des Herstellers von Ford Torino die Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7426,retain,ru,direct,Какая компания производит Форд Торино?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,ru,multi,"Какова столица страны, где имеет гражданство основатель производителя Ford Torino?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7426,retain,zh,direct,福特托里诺是由哪家公司生产的?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,zh,multi,福特·托里诺制造商的创始人拥有公民身份的国家首都是什么?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7426,retain,tr,direct,Ford Torino hangi şirket tarafından üretiliyor?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,tr,multi,Ford Torino üreticisinin kurucusunun vatandaşlığı bulunan ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:7426,retain,vi,direct,Ford Torino được sản xuất bởi công ty nào?,Ford Motor Company,Ford Motor Company,4,1
+full_sft,MQuAKE-CF:7426,retain,vi,multi,Thủ đô của đất nước nơi người sáng lập nhà sản xuất Ford Torino có quốc tịch là gì?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:2346,retain,en,direct,Who was Lyra Belacqua created by?,Philip Pullman,Philip Pullman,2,1
+full_sft,MQuAKE-CF:2346,retain,en,multi,Which company or organization employed the creator of Lyra Belacqua?,University of Oxford,University of Oxford,2,1
+full_sft,MQuAKE-CF:2346,retain,de,direct,Wer hat Lyra Belacqua geschaffen?,Philip Pullman,Philip Pullman,2,1
+full_sft,MQuAKE-CF:2346,retain,de,multi,Welches Unternehmen oder Organisation hat den Schöpfer von Lyra Belacqua eingestellt?,University of Oxford,University of Oxford,2,1
+full_sft,MQuAKE-CF:2346,retain,ru,direct,Кто создал Лайру Белаккуа?,Philip Pullman,Terry Pratchett,2,0
+full_sft,MQuAKE-CF:2346,retain,ru,multi,Какая компания или организация нанимала создателя Lyra Belacqua?,University of Oxford,University of Oxford,2,1
+full_sft,MQuAKE-CF:2346,retain,zh,direct,莱拉·贝拉克卡是谁创造的?,Philip Pullman,Harriet Beecher Stowe,2,0
+full_sft,MQuAKE-CF:2346,retain,zh,multi,什么公司或组织雇佣了莱拉·贝拉克瓦的创造者?,University of Oxford,University of Chicago,2,0
+full_sft,MQuAKE-CF:2346,retain,tr,direct,Lyra Belacqua kim tarafından yaratıldı?,Philip Pullman,Philip Pullman,2,1
+full_sft,MQuAKE-CF:2346,retain,tr,multi,Lyra Belacqua'nın yaratıcısını hangi şirket ya da kuruluş istihdam etti?,University of Oxford,University of Oxford,2,1
+full_sft,MQuAKE-CF:2346,retain,vi,direct,Lyra Belacqua được tạo ra bởi ai?,Philip Pullman,Philip Pullman,2,1
+full_sft,MQuAKE-CF:2346,retain,vi,multi,Công ty hay tổ chức nào đã thuê người sáng tạo Lyra Belacqua?,University of Oxford,University of Oxford,2,1
+full_sft,MQuAKE-CF:8302,retain,en,direct,What position does Bryan Robson play?,midfielder,midfielder,4,1
+full_sft,MQuAKE-CF:8302,retain,en,multi,What is the capital city of the country from which Bryan Robson's sport originated?,London,London,4,1
+full_sft,MQuAKE-CF:8302,retain,de,direct,Welche Position spielt Bryan Robson?,midfielder,midfielder,4,1
+full_sft,MQuAKE-CF:8302,retain,de,multi,"Was ist die Hauptstadt des Landes, aus dem Bryan Robsons Sport hervorgegangen ist?",London,London,4,1
+full_sft,MQuAKE-CF:8302,retain,ru,direct,Какую должность играет Брайан Робсон?,midfielder,goalkeeper,4,0
+full_sft,MQuAKE-CF:8302,retain,ru,multi,В каком городе родился спорт Брайана Робсона?,London,Bethlehem,4,0
+full_sft,MQuAKE-CF:8302,retain,zh,direct,布莱恩·罗布森扮演什么角色?,midfielder,midfielder,4,1
+full_sft,MQuAKE-CF:8302,retain,zh,multi,布莱恩·罗布森的运动起源于哪个国家的首都?,London,London,4,1
+full_sft,MQuAKE-CF:8302,retain,tr,direct,Bryan Robson hangi pozisyonda oynar?,midfielder,midfielder,4,1
+full_sft,MQuAKE-CF:8302,retain,tr,multi,Bryan Robson'un sporunun doğduğu ülkenin başkenti nedir?,London,London,4,1
+full_sft,MQuAKE-CF:8302,retain,vi,direct,Bryan Robson đóng vai trò gì?,midfielder,midfielder,4,1
+full_sft,MQuAKE-CF:8302,retain,vi,multi,Thành phố thủ đô của quốc gia mà môn thể thao của Bryan Robson bắt nguồn từ là gì?,London,London,4,1
+full_sft,MQuAKE-CF:5159,retain,en,direct,Who performed Strangers in the Night?,Frank Sinatra,Frank Sinatra,3,1
+full_sft,MQuAKE-CF:5159,retain,en,multi,"Who founded the religion associated with the performer of ""Strangers in the Night""?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5159,retain,de,direct,Wer spielte Strangers in the Night?,Frank Sinatra,Frank Sinatra,3,1
+full_sft,MQuAKE-CF:5159,retain,de,multi,"Wer gründete die Religion, die mit dem Darsteller von ""Strangers in the Night"" verbunden ist?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5159,retain,ru,direct,"Кто исполнил ""Незнакомые ночью""?",Frank Sinatra,The Beatles,3,0
+full_sft,MQuAKE-CF:5159,retain,ru,multi,"Кто основал религию, связанную с исполнителем ""Незнакомых в ночное время""?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5159,retain,zh,direct,"谁演出了""夜间陌生人""?",Frank Sinatra,John Travolta,3,0
+full_sft,MQuAKE-CF:5159,retain,zh,multi,"谁创立了与""夜间陌生人""演员相关的宗教?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:5159,retain,tr,direct,Geceleri Yabancılar'ı kim oynadı?,Frank Sinatra,John Wayne,3,0
+full_sft,MQuAKE-CF:5159,retain,tr,multi,"""Gece Yabancıları""nın sanatçısı ile ilişkili dinin kurucusu kimdi?",Jesus Christ,Muhammad,3,0
+full_sft,MQuAKE-CF:5159,retain,vi,direct,Ai đã biểu diễn Strangers in the Night?,Frank Sinatra,Frank Sinatra,3,1
+full_sft,MQuAKE-CF:5159,retain,vi,multi,"Ai thành lập tôn giáo liên quan đến người biểu diễn ""Những người xa lạ trong đêm""?",Jesus Christ,Jesus Christ,3,1
+full_sft,MQuAKE-CF:8080,retain,en,direct,Who is the original broadcaster of Lost?,American Broadcasting Company,American Broadcasting Company,4,1
+full_sft,MQuAKE-CF:8080,retain,en,multi,"What city serves as the capital of the country where the director/manager of the television series ""Lost"" holds a citizenship?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8080,retain,de,direct,Wer ist der ursprüngliche Sender von Lost?,American Broadcasting Company,American Broadcasting Company,4,1
+full_sft,MQuAKE-CF:8080,retain,de,multi,"Welche Stadt ist die Hauptstadt des Landes, in dem der Regisseur/Manager der Fernsehserie ""Lost"" die Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8080,retain,ru,direct,"Кто первоначальный ведущий ""Потерянного""?",American Broadcasting Company,John Locke,4,0
+full_sft,MQuAKE-CF:8080,retain,ru,multi,"Какой город является столицей страны, где директор/менеджер телевизионного сериала ""Потерянный"" имеет гражданство?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8080,retain,zh,direct,"谁是""迷失""的原始播放者?",American Broadcasting Company,American Broadcasting Company,4,1
+full_sft,MQuAKE-CF:8080,retain,zh,multi,"电视剧""迷失""的导演/经理拥有公民身份的国家首府是哪个城市?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8080,retain,tr,direct,Lost'in orijinal yayıncısı kim?,American Broadcasting Company,American Broadcasting Company,4,1
+full_sft,MQuAKE-CF:8080,retain,tr,multi,"""Lost"" televizyon dizisinin yönetmeni / yöneticisinin vatandaşlığı olan ülkenin başkenti olarak hangi şehir hizmet ediyor?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8080,retain,vi,direct,Người phát sóng ban đầu của Lost là ai?,American Broadcasting Company,American Broadcasting Company,4,1
+full_sft,MQuAKE-CF:8080,retain,vi,multi,"Thành phố nào là thủ đô của đất nước nơi giám đốc / người quản lý của loạt phim truyền hình ""Lost"" có quốc tịch?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8134,retain,en,direct,Who is the author of Sketches by Boz?,Charles Dickens,Charles Dickens,4,1
+full_sft,MQuAKE-CF:8134,retain,en,multi,"In which continent was the country of citizenship of the spouse of the author of ""Sketches by Boz"" located?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:8134,retain,de,direct,Wer ist der Autor von Sketches von Boz?,Charles Dickens,Charles Dickens,4,1
+full_sft,MQuAKE-CF:8134,retain,de,multi,"In welchem Kontinent befand sich das Land der Staatsbürgerschaft des Ehegatten des Autors von ""Sketches by Boz""?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:8134,retain,ru,direct,"Кто автор ""Рисунки Боза""?",Charles Dickens,Charles M. Schulz,4,0
+full_sft,MQuAKE-CF:8134,retain,ru,multi,"На каком континенте находилась страна гражданства супруга автора ""Рисунки Боза""?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:8134,retain,zh,direct,博兹的草图是谁的作者?,Charles Dickens,Charles Dickens,4,1
+full_sft,MQuAKE-CF:8134,retain,zh,multi,"""博兹的草图""作者的配偶居住在哪个大陆?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:8134,retain,tr,direct,Boz'un Sketchleri'nin yazarı kim?,Charles Dickens,Charles M. Schulz,4,0
+full_sft,MQuAKE-CF:8134,retain,tr,multi,"""Sketches by Boz"" yazarının eşinin vatandaşlığı hangi kıta'da yer alıyordu?",Europe,United Kingdom,4,0
+full_sft,MQuAKE-CF:8134,retain,vi,direct,Ai là tác giả của Sketches by Boz?,Charles Dickens,Charles Dickens,4,1
+full_sft,MQuAKE-CF:8134,retain,vi,multi,"Đất nước quốc tịch của vợ chồng của tác giả của ""Sketches by Boz"" nằm ở lục địa nào?",Europe,Europe,4,1
+full_sft,MQuAKE-CF:2381,retain,en,direct,Who founded Katter's Australian Party?,Bob Katter,Bob Katter,2,1
+full_sft,MQuAKE-CF:2381,retain,en,multi,At which educational institution did the founder of Katter's Australian Party receive their education?,University of Queensland,University of Queensland,2,1
+full_sft,MQuAKE-CF:2381,retain,de,direct,Wer gründete Katters australische Partei?,Bob Katter,Bob Katter,2,1
+full_sft,MQuAKE-CF:2381,retain,de,multi,In welcher Bildungseinrichtung erhielt der Gründer von Katters australischer Partei ihre Ausbildung?,University of Queensland,University of Queensland,2,1
+full_sft,MQuAKE-CF:2381,retain,ru,direct,Кто основал Австралийскую партию Каттера?,Bob Katter,Robert James Cook,2,0
+full_sft,MQuAKE-CF:2381,retain,ru,multi,В каком учебном заведении получил образование основатель австралийской партии Каттера?,University of Queensland,University of Queensland,2,1
+full_sft,MQuAKE-CF:2381,retain,zh,direct,谁创立了卡特的澳大利亚党?,Bob Katter,Paul Keating,2,0
+full_sft,MQuAKE-CF:2381,retain,zh,multi,卡特的澳大利亚党的创始人在哪个教育机构接受了他们的教育?,University of Queensland,University of Sydney,2,0
+full_sft,MQuAKE-CF:2381,retain,tr,direct,Katter'in Avustralya Partisini kim kurdu?,Bob Katter,Bob Katter,2,1
+full_sft,MQuAKE-CF:2381,retain,tr,multi,Katter'in Avustralya Partisi'nin kurucusu hangi eğitim kurumunda eğitim aldı?,University of Queensland,University of Queensland,2,1
+full_sft,MQuAKE-CF:2381,retain,vi,direct,Ai sáng lập Đảng Úc của Katter?,Bob Katter,Paul Keating,2,0
+full_sft,MQuAKE-CF:2381,retain,vi,multi,Người sáng lập Đảng Úc của Katter đã được giáo dục tại trường giáo dục nào?,University of Queensland,University of Queensland,2,1
+full_sft,MQuAKE-CF:2696,retain,en,direct,What is the country of citizenship of Paul Rodriguez?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,en,multi,What is the capital city of the country where Paul Rodriguez has citizenship?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2696,retain,de,direct,Welches Land ist die Staatsbürgerschaft von Paul Rodriguez?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,de,multi,"Was ist die Hauptstadt des Landes, in dem Paul Rodriguez Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2696,retain,ru,direct,В какой стране находится гражданство Пола Родригеса?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,ru,multi,"Какой город является столицей страны, где Пол Родригес имеет гражданство?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2696,retain,zh,direct,保罗·罗德里格斯是什么国家的公民?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,zh,multi,保罗·罗德里格斯拥有公民身份的国家首都是什么?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2696,retain,tr,direct,Paul Rodriguez'in vatandaşlığı hangi ülkede?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,tr,multi,Paul Rodriguez'in vatandaşlığı olan ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2696,retain,vi,direct,Quốc tịch của Paul Rodriguez là gì?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2696,retain,vi,multi,Thành phố thủ đô của đất nước nơi Paul Rodriguez có quốc tịch là gì?,"Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:5535,retain,en,direct,Which religion is Ambrose affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,en,multi,Where was the founder of the religion that Ambrose practiced born?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:5535,retain,de,direct,Mit welcher Religion ist Ambrose verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,de,multi,"Wo wurde der Gründer der Religion, die Ambrose praktizierte, geboren?",Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:5535,retain,ru,direct,К какой религии принадлежит Амброз?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,ru,multi,Где родился основатель религии Амброза?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:5535,retain,zh,direct,阿姆布罗西属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,zh,multi,亚姆布罗西修炼的宗教的创始人出生在哪里?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:5535,retain,tr,direct,Ambrose hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,tr,multi,Ambrose'nin uyguladığı dinin kurucusu nerede doğdu?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:5535,retain,vi,direct,Ambrose thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5535,retain,vi,multi,Người sáng lập tôn giáo mà Ambrose thực hành được sinh ra ở đâu?,Bethlehem,Bethlehem,3,1
+full_sft,MQuAKE-CF:707,retain,en,direct,Who was Lazarus Long created by?,Robert A. Heinlein,Robert A. Heinlein,2,1
+full_sft,MQuAKE-CF:707,retain,en,multi,What genre does the creator of Lazarus Long specialize in?,science fiction,science fiction,2,1
+full_sft,MQuAKE-CF:707,retain,de,direct,Wer hat Lazarus Long geschaffen?,Robert A. Heinlein,Robert A. Heinlein,2,1
+full_sft,MQuAKE-CF:707,retain,de,multi,In welchem Genre spezialisiert sich der Schöpfer von Lazarus Long?,science fiction,science fiction,2,1
+full_sft,MQuAKE-CF:707,retain,ru,direct,Кто создал Лазаря Лонга?,Robert A. Heinlein,H. Rider Haggard,2,0
+full_sft,MQuAKE-CF:707,retain,ru,multi,В каком жанре специализируется создатель фильма Лазарь Лонг?,science fiction,science fiction,2,1
+full_sft,MQuAKE-CF:707,retain,zh,direct,拉撒罗·朗是谁创造的?,Robert A. Heinlein,Charles Dickens,2,0
+full_sft,MQuAKE-CF:707,retain,zh,multi,拉撒路长的创作者专注于什么类型?,science fiction,Judaism,2,0
+full_sft,MQuAKE-CF:707,retain,tr,direct,Lazarus Long kim tarafından yaratıldı?,Robert A. Heinlein,Robert A. Heinlein,2,1
+full_sft,MQuAKE-CF:707,retain,tr,multi,Lazarus Long'un yaratıcısı hangi türde uzmanlaşmış?,science fiction,science fiction,2,1
+full_sft,MQuAKE-CF:707,retain,vi,direct,Lazarus Long được tạo ra bởi ai?,Robert A. Heinlein,Robert A. Heinlein,2,1
+full_sft,MQuAKE-CF:707,retain,vi,multi,Nhà sáng tạo của Lazarus Long chuyên về thể loại nào?,science fiction,science fiction,2,1
+full_sft,MQuAKE-T:1618,retain,en,direct,Who performed We Are the Champions?,Queen,Queen,3,1
+full_sft,MQuAKE-T:1618,retain,en,multi,"Who is the head of state of the country where the performer of the song ""We Are the Champions"" comes from?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-T:1618,retain,de,direct,"Wer spielte ""Wir sind die Champions""?",Queen,The Beatles,3,0
+full_sft,MQuAKE-T:1618,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem der Künstler des Liedes ""We Are the Champions"" stammt?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-T:1618,retain,ru,direct,"Кто исполнил ""Мы чемпионы""?",Queen,The Beatles,3,0
+full_sft,MQuAKE-T:1618,retain,ru,multi,"Кто является главой государства страны, откуда выступает исполнитель песни ""We Are the Champions""?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-T:1618,retain,zh,direct,"谁演出了""我们是冠军""?",Queen,The Beatles,3,0
+full_sft,MQuAKE-T:1618,retain,zh,multi,"""我们是冠军""歌曲的表演者来自哪个国家的国家元首?",Elizabeth II,United States of America,3,0
+full_sft,MQuAKE-T:1618,retain,tr,direct,Biz Şampiyonlar'ı kim yaptı?,Queen,The Beatles,3,0
+full_sft,MQuAKE-T:1618,retain,tr,multi,"""We Are the Champions"" şarkısının sanatçısının geldiği ülkenin devlet başkanı kim?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-T:1618,retain,vi,direct,Ai đã biểu diễn We Are the Champions?,Queen,Queen,3,1
+full_sft,MQuAKE-T:1618,retain,vi,multi,"Ai là người đứng đầu quốc gia nơi người biểu diễn bài hát ""We Are the Champions"" đến từ?",Elizabeth II,Elizabeth II,3,1
+full_sft,MQuAKE-CF:2071,retain,en,direct,Which country was Monty Python Live (Mostly) created in?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,en,multi,"Which continent is ""Monty Python Live (Mostly)"" from?",Europe,Europe,2,1
+full_sft,MQuAKE-CF:2071,retain,de,direct,In welchem Land wurde Monty Python Live gegründet?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,de,multi,"Von welchem Kontinent kommt ""Monty Python Live""?",Europe,Europe,2,1
+full_sft,MQuAKE-CF:2071,retain,ru,direct,В какой стране был создан Monty Python Live?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,ru,multi,"Из какого континента ""Монти Пайтон живет""?",Europe,Europe,2,1
+full_sft,MQuAKE-CF:2071,retain,zh,direct,在哪个国家创建了Monty Python Live?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,zh,multi,"""蒙蒂·派顿直播""来自哪个大陆?",Europe,Europe,2,1
+full_sft,MQuAKE-CF:2071,retain,tr,direct,Monty Python Live hangi ülkede yaratıldı?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,tr,multi,"""Monty Python Live"" hangi kıtadan geliyor?",Europe,United Kingdom,2,0
+full_sft,MQuAKE-CF:2071,retain,vi,direct,Monty Python Live được tạo ra ở quốc gia nào?,United Kingdom,United Kingdom,2,1
+full_sft,MQuAKE-CF:2071,retain,vi,multi,"""Monty Python Live"" đến từ lục địa nào?",Europe,Europe,2,1
+full_sft,MQuAKE-CF:1922,retain,en,direct,Which company is Gulfstream III produced by?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,en,multi,What is the location of the headquarters of the company that manufactures the Gulfstream III?,Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:1922,retain,de,direct,Welches Unternehmen produziert Gulfstream III?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,de,multi,"Wo befindet sich der Hauptsitz der Firma, die den Gulfstream III herstellt?",Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:1922,retain,ru,direct,Какая компания производит Gulfstream III?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,ru,multi,"Где находится штаб-квартира компании, которая производит Gulfstream III?",Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:1922,retain,zh,direct,哪家公司生产了Gulfstream III?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,zh,multi,制造Gulfstream III的公司总部位于哪里?,Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:1922,retain,tr,direct,Gulfstream III hangi şirket tarafından üretiliyor?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,tr,multi,Gulfstream III'i üreten şirketin merkezi nerede?,Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:1922,retain,vi,direct,Gulfstream III được sản xuất bởi công ty nào?,Gulfstream Aerospace,Gulfstream Aerospace,2,1
+full_sft,MQuAKE-CF:1922,retain,vi,multi,Quỹ sản xuất Gulfstream III có trụ sở ở đâu?,Savannah,Savannah,2,1
+full_sft,MQuAKE-CF:6858,retain,en,direct,Which sport is UEFA Euro 2008 Final associated with?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,en,multi,What is the capital city of the country where the UEFA Euro 2008 Final was originated?,London,London,3,1
+full_sft,MQuAKE-CF:6858,retain,de,direct,Mit welchem Sport ist das UEFA Euro 2008-Finale verbunden?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,de,multi,"Was ist die Hauptstadt des Landes, in dem das UEFA Euro 2008-Finale stattfand?",London,London,3,1
+full_sft,MQuAKE-CF:6858,retain,ru,direct,С каким видом спорта ассоциируется финал Европы 2008 года?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,ru,multi,"Какой город является столицей страны, в которой был организован финал Евро-2008?",London,London,3,1
+full_sft,MQuAKE-CF:6858,retain,zh,direct,欧洲杯2008年总决赛与哪个运动有关?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,zh,multi,欧洲杯2008年总决赛的首府是哪个国家?,London,London,3,1
+full_sft,MQuAKE-CF:6858,retain,tr,direct,UEFA Euro 2008 Finalı hangi sporla ilişkilidir?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,tr,multi,UEFA Euro 2008 Finalinin başladığı ülkenin başkenti nedir?,London,London,3,1
+full_sft,MQuAKE-CF:6858,retain,vi,direct,UEFA Euro 2008 Final liên kết với môn thể thao nào?,association football,association football,3,1
+full_sft,MQuAKE-CF:6858,retain,vi,multi,Thành phố thủ đô của quốc gia nơi trận chung kết UEFA Euro 2008 được tổ chức là gì?,London,London,3,1
+full_sft,MQuAKE-CF:8004,retain,en,direct,Who is the developer of GNU Compiler Collection?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,en,multi,What is the capital of the country of citizenship of the founder of the developer of the GNU Compiler Collection?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8004,retain,de,direct,Wer ist der Entwickler der GNU Compiler Collection?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,de,multi,Was ist die Hauptstadt des Landes der Staatsbürgerschaft des Gründers des Entwicklers der GNU Compiler Collection?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8004,retain,ru,direct,Кто является разработчиком GNU Compiler Collection?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,ru,multi,Какова столица страны гражданства основателя разработчика GNU Compiler Collection?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8004,retain,zh,direct,谁是GNU编译器集合的开发者?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,zh,multi,基因编译器集的创始人公民所在国家的首都是什么?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8004,retain,tr,direct,GNU Compiler Collection'in geliştiricisi kim?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,tr,multi,GNU Compiler Collection'in kurucusu ve geliştiricisinin vatandaşlığı ülkesinin başkenti nedir?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8004,retain,vi,direct,Ai là nhà phát triển của GNU Compiler Collection?,GNU Project,GNU Project,4,1
+full_sft,MQuAKE-CF:8004,retain,vi,multi,Thủ đô của quốc gia công dân của người sáng lập người phát triển bộ sưu tập biên tập GNU là gì?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:2416,retain,en,direct,Which country was The Complete Robot created in?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,en,multi,"What is the capital of the country from which ""The Complete Robot"" hails from?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2416,retain,de,direct,In welchem Land wurde The Complete Robot geschaffen?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,de,multi,"Was ist die Hauptstadt des Landes, aus dem ""Der komplette Roboter"" stammt?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2416,retain,ru,direct,В какой стране был создан Комплексный робот?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,ru,multi,"Из какой столицы страны родом ""Полной робот""?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2416,retain,zh,direct,完整机器人是在哪个国家创建的?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,zh,multi,"""完整机器人""来自哪个国家的首都?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2416,retain,tr,direct,The Complete Robot hangi ülkede yaratıldı?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,tr,multi,"""The Complete Robot""ın doğduğu ülkenin başkenti nedir?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:2416,retain,vi,direct,Robot hoàn chỉnh được tạo ra ở quốc gia nào?,United States of America,United States of America,2,1
+full_sft,MQuAKE-CF:2416,retain,vi,multi,"Thủ đô của đất nước mà ""The Complete Robot"" xuất phát từ là gì?","Washington, D.C.","Washington, D.C.",2,1
+full_sft,MQuAKE-CF:5761,retain,en,direct,Which religion is Cardinal Richelieu affiliated with?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,en,multi,What was the work location of the founder of Cardinal Richelieu's religion?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5761,retain,de,direct,Mit welcher Religion ist Kardinal Richelieu verbunden?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,de,multi,Wo arbeitete der Gründer der Religion von Kardinal Richelieu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5761,retain,ru,direct,К какой религии принадлежит кардинал Ришелье?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,ru,multi,Где работал основатель религии кардинала Ришелье?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5761,retain,zh,direct,里希利尤枢机卿是属于哪个宗教?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,zh,multi,里切利尤枢机卿的宗教创始人的工作地点是什么?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5761,retain,tr,direct,Kardinal Richelieu hangi dine bağlı?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,tr,multi,Kardinal Richelieu'nun dininin kurucusu nerede çalışıyordu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-CF:5761,retain,vi,direct,Đức Hồng Y Richelieu thuộc tôn giáo nào?,Catholic Church,Catholic Church,3,1
+full_sft,MQuAKE-CF:5761,retain,vi,multi,Người sáng lập tôn giáo của Đức Hồng Y Richelieu làm việc ở đâu?,Galilee,Galilee,3,1
+full_sft,MQuAKE-T:1743,retain,en,direct,What type of music does Jessica Jung play?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1743,retain,en,multi,Who is the head of state of the country of origin of Jessica Jung's music genre?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1743,retain,de,direct,Welche Art von Musik spielt Jessica Jung?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1743,retain,de,multi,Wer ist der Staatsoberhaupt des Herkunftslandes des Musikgenres von Jessica Jung?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1743,retain,ru,direct,Какую музыку играет Джессика Юнг?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1743,retain,ru,multi,Кто глава государства страны происхождения музыкального жанра Джессики Юнг?,Moon Jae-in,Donald Trump,3,0
+full_sft,MQuAKE-T:1743,retain,zh,direct,杰西卡·格演奏的音乐是什么样的?,K-pop,jazz,3,0
+full_sft,MQuAKE-T:1743,retain,zh,multi,杰西卡·格的音乐类型出生的国家的国家元首是谁?,Moon Jae-in,Donald Trump,3,0
+full_sft,MQuAKE-T:1743,retain,tr,direct,Jessica Jung ne tür müzik çalıyor?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1743,retain,tr,multi,Jessica Jung'un müzik türünün doğduğu ülkenin devlet başkanı kim?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1743,retain,vi,direct,Jessica Jung chơi nhạc kiểu gì?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1743,retain,vi,multi,Ai là thủ lĩnh của đất nước gốc của thể loại âm nhạc của Jessica Jung?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-CF:8380,retain,en,direct,Who is the developer of iPod?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,en,multi,Which city serves as the capital of the country where the CEO of the developer of iPod holds citizenship?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8380,retain,de,direct,Wer ist der Entwickler von iPod?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,de,multi,"Welche Stadt ist die Hauptstadt des Landes, in dem der CEO des Entwicklers von iPod die Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8380,retain,ru,direct,Кто разработчик iPod?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,ru,multi,"Какой город является столицей страны, где генеральный директор разработчика iPod имеет гражданство?","Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8380,retain,zh,direct,谁是iPod的开发者?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,zh,multi,哪个城市是iPod开发商首席执行官拥有公民身份的国家的首都?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8380,retain,tr,direct,iPod'un geliştiricisi kim?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,tr,multi,iPod geliştiricisinin CEO'nun vatandaşlığı bulunan ülkenin başkenti olarak hangi şehir hizmet ediyor?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-CF:8380,retain,vi,direct,Ai là nhà phát triển của iPod?,Apple Inc.,Apple Inc.,4,1
+full_sft,MQuAKE-CF:8380,retain,vi,multi,Thành phố nào là thủ đô của quốc gia mà CEO của nhà phát triển iPod có quốc tịch?,"Washington, D.C.","Washington, D.C.",4,1
+full_sft,MQuAKE-T:1818,retain,en,direct,What type of music does Monsta X play?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,en,multi,Who is the head of state of the country where Monsta X comes from?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1818,retain,de,direct,Welche Art von Musik spielt Monsta X?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,de,multi,"Wer ist der Staatsoberhaupt des Landes, aus dem Monsta X stammt?",Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1818,retain,ru,direct,Какую музыку играет Монста Х?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,ru,multi,"Кто глава государства страны, из которой происходит Монста Х?",Moon Jae-in,Donald Trump,3,0
+full_sft,MQuAKE-T:1818,retain,zh,direct,蒙斯塔X演奏什么样的音乐?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,zh,multi,蒙斯塔X来自哪个国家的国家元首是谁?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1818,retain,tr,direct,Monsta X ne tür müzik çalıyor?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,tr,multi,Monsta X'in geldiği ülkenin devlet başkanı kim?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-T:1818,retain,vi,direct,Monsta X chơi nhạc kiểu gì?,K-pop,K-pop,3,1
+full_sft,MQuAKE-T:1818,retain,vi,multi,Ai là thủ lĩnh của quốc gia mà Monsta X đến từ?,Moon Jae-in,Moon Jae-in,3,1
+full_sft,MQuAKE-CF:5895,retain,en,direct,Which sport is Mark Trumbo associated with?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,en,multi,What city is the capital of the country that Mark Trumbo's sport originates from?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5895,retain,de,direct,Mit welchem Sport ist Mark Trumbo verbunden?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,de,multi,"Welche Stadt ist die Hauptstadt des Landes, aus dem Mark Trumbos Sport stammt?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5895,retain,ru,direct,С каким видом спорта связан Марк Трумбо?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,ru,multi,"В каком городе находится столица страны, из которой происходит спорт Марка Трамбо?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5895,retain,zh,direct,马克·特朗布与哪个运动有关?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,zh,multi,马克·特朗布的运动起源于哪个城市?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5895,retain,tr,direct,Mark Trumbo hangi sporla ilişkilidir?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,tr,multi,Mark Trumbo'nun sporunun doğduğu ülkenin başkenti hangi şehir?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5895,retain,vi,direct,Mark Trumbo liên quan đến môn thể thao nào?,baseball,baseball,3,1
+full_sft,MQuAKE-CF:5895,retain,vi,multi,Thành phố nào là thủ đô của quốc gia mà môn thể thao của Mark Trumbo bắt nguồn từ?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:427,retain,en,direct,What position does Nick Rimando play?,goalkeeper,goalkeeper,2,1
+full_sft,MQuAKE-CF:427,retain,en,multi,Which sport is associated with the position played on the team by Nick Rimando?,association football,association football,2,1
+full_sft,MQuAKE-CF:427,retain,de,direct,Welche Position spielt Nick Rimando?,goalkeeper,goalkeeper,2,1
+full_sft,MQuAKE-CF:427,retain,de,multi,"Welcher Sport ist mit der Position verbunden, die Nick Rimando im Team spielt?",association football,association football,2,1
+full_sft,MQuAKE-CF:427,retain,ru,direct,Какую позицию играет Ник Римандо?,goalkeeper,quarterback,2,0
+full_sft,MQuAKE-CF:427,retain,ru,multi,"Какой вид спорта связан с позицией, которую играет в команде Ник Римандо?",association football,American football,2,1
+full_sft,MQuAKE-CF:427,retain,zh,direct,尼克·里曼多扮演什么角色?,goalkeeper,John Wick,2,0
+full_sft,MQuAKE-CF:427,retain,zh,multi,尼克·里曼多在球队中扮演的角色与哪个运动有关?,association football,basketball,2,0
+full_sft,MQuAKE-CF:427,retain,tr,direct,Nick Rimando hangi pozisyonda oynar?,goalkeeper,goalkeeper,2,1
+full_sft,MQuAKE-CF:427,retain,tr,multi,Nick Rimando'nun takımda oynadığı pozisyonla hangi spor ilişkili?,association football,association football,2,1
+full_sft,MQuAKE-CF:427,retain,vi,direct,Nick Rimando đóng vai trò gì?,goalkeeper,goalkeeper,2,1
+full_sft,MQuAKE-CF:427,retain,vi,multi,môn thể thao nào liên quan đến vị trí của Nick Rimando trong đội?,association football,association football,2,1
+full_sft,MQuAKE-T:1081,retain,en,direct,What is the country of citizenship of Thibaw Min?,Myanmar,Myanmar,2,1
+full_sft,MQuAKE-T:1081,retain,en,multi,Who was the head of government of the country of citizenship of Thibaw Min?,Aung San Suu Kyi,Aung San Suu Kyi,2,1
+full_sft,MQuAKE-T:1081,retain,de,direct,Was ist das Staatsbürgerschaftland von Thibaw Min?,Myanmar,Myanmar,2,1
+full_sft,MQuAKE-T:1081,retain,de,multi,Wer war der Regierungschef des Staatsangehörigkeitslandes Thibaw Min?,Aung San Suu Kyi,Aung San Suu Kyi,2,1
+full_sft,MQuAKE-T:1081,retain,ru,direct,В какой стране проживает Тибау Мин?,Myanmar,Brazil,2,0
+full_sft,MQuAKE-T:1081,retain,ru,multi,Кто был главой правительства страны гражданства Тибау Мин?,Aung San Suu Kyi,Bolsonaro,2,0
+full_sft,MQuAKE-T:1081,retain,zh,direct,提瓦明是什么国家的公民?,Myanmar,United States of America,2,0
+full_sft,MQuAKE-T:1081,retain,zh,multi,谁是Thiba Min的公民国政府负责人?,Aung San Suu Kyi,Aung San Suu Kyi,2,1
+full_sft,MQuAKE-T:1081,retain,tr,direct,Thibaw Min'in vatandaşlığı hangi ülkede?,Myanmar,Myanmar,2,1
+full_sft,MQuAKE-T:1081,retain,tr,multi,Thibaw Min'in vatandaşlığı olan ülkenin hükümet başkanı kimdi?,Aung San Suu Kyi,Aung San Suu Kyi,2,1
+full_sft,MQuAKE-T:1081,retain,vi,direct,Quốc gia công dân của Thibaw Min là gì?,Myanmar,Myanmar,2,1
+full_sft,MQuAKE-T:1081,retain,vi,multi,Ai là người đứng đầu chính phủ của quốc gia công dân của Thibaw Min?,Aung San Suu Kyi,Aung San Suu Kyi,2,1
+full_sft,MQuAKE-CF:5615,retain,en,direct,Who is the head coach of Purdue Boilermakers men's basketball?,Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,en,multi,What is the capital of the country where the head coach of Purdue Boilermakers men's basketball team holds citizenship?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5615,retain,de,direct,Wer ist der Head Coach des Basketballs der Purdue Boilermakers?,Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,de,multi,"Was ist die Hauptstadt des Landes, in dem der Head Coach der Purdue Boilermakers Basketballmannschaft die Staatsbürgerschaft hat?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5615,retain,ru,direct,"Кто главный тренер мужского баскетбола ""Пурдю Бойлермейкерс""?",Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,ru,multi,"Какая столица страны, где главный тренер мужской баскетбольной команды Purdue Boilermakers имеет гражданство?","Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5615,retain,zh,direct,谁是普尔杜炉制造商男篮的主教练?,Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,zh,multi,普尔杜炉制造商男篮队主教练拥有公民身份的国家首都是哪里?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5615,retain,tr,direct,Purdue Boilermakers erkek basketbol takımının baş antrenörü kim?,Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,tr,multi,Purdue Boilermakers erkek basketbol takımının baş antrenörünün vatandaşlığı bulunan ülkenin başkenti nedir?,"Washington, D.C.","Washington, D.C.",3,1
+full_sft,MQuAKE-CF:5615,retain,vi,direct,Ai là huấn luyện viên trưởng của đội bóng rổ nam của Purdue Boilermakers?,Matt Painter,Matt Painter,3,1
+full_sft,MQuAKE-CF:5615,retain,vi,multi,Thủ đô của đất nước nơi huấn luyện viên trưởng của đội bóng rổ nam của Purdue Boilermakers có quốc tịch là gì?,"Washington, D.C.","Washington, D.C.",3,1

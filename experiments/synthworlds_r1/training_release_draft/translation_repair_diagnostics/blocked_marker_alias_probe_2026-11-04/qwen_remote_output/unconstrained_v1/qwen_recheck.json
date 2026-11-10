@@ -1,0 +1,424 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "a6f92f97f954ab8392133d2c6501753c8d2dbdb63f2fc8582451de03418c1658",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "quantization": "4-bit NF4",
+  "gpu": "Tesla T4",
+  "answers_or_splits_sent": false,
+  "human_translation_reviewed": false,
+  "records": [
+    {
+      "review_key": "R0011",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "9dcb5567f8b6570f98e145ccfe7487a74282cf1e1840abda673c63f53b2a1404",
+      "back_translation_sha256": "bef4bf7f1290ae8a2d4b339a80b70afd79d086c0db45625cbeee6efc67eeb5b0",
+      "raw_output": "false\nThe back-translation changes the specific term \"relative\" to \"member of the family,\" which alters the scope of the relationship being asked about.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0036",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "translation_sha256": "a592939c7be497961645ef92032599c77dfcdcd9e41a7c855039bccd93bb18c7",
+      "back_translation_sha256": "2563477f2c03de18be77899dc3c6629bf65a13637033c10c1e89a3672e0c2be1",
+      "raw_output": "semantic_pass: False\nReason: The back-translation omits the interrogative \"In\" at the beginning, changing the structure and potentially the emphasis of the question. While this is a minor difference, it can affect the clarity and directness of the inquiry.\n\nfluency_pass: True\nThe translated question is grammatically correct and natural in French.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0179",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1f00d5cb0ce2d141244f4fcdf7e342668b971c749cc8fa6a16ddf5c9936d52aa",
+      "back_translation_sha256": "ef0cbc29ed56215fcf3c2e6faca1480c7d75d8eb54895b7cd4b426890f4863d6",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nThe German translation accurately conveys the original English question's meaning, asking about the date when [ENTITY_A] became the country containing [ENTITY_B]. The back-translation supports this interpretation without significant loss of meaning or naturalness in either language. No material changes or fluency issues are present.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0206",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "translation_sha256": "3e05ad44272ae0263cb437c8eadb29a7a9b2406da584a31c3f5585b7a1869d70",
+      "back_translation_sha256": "608dd69dda98669871d7f24775e6a88f7c009e7b5ec39c82e7a51b5f3831f08a",
+      "raw_output": "false\nThe back-translation \"What's [ENTITY_A] different about?\" does not match the source question \"What is the [ENTITY_A] different from?\". The source question asks what [ENTITY_A] is different from (comparing [ENTITY_A] to something else), while the back-translation suggests asking about the differences within [ENTITY_A] itself.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0222",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "translation_sha256": "a55fd79b813f81fb564fc6f52f6819d11930d8985dcbabcd95ff068fede75b56",
+      "back_translation_sha256": "fac81d5e937589600953de3616e10e5f76376a8569e0f35018035952b873589d",
+      "raw_output": "false\nThe back-translation \"What entity is [ENTITY_A] different from?\" slightly alters the intended meaning compared to the original \"Which entity is [ENTITY_A] different from?\". The original implies a selection from a known set of entities, while the back-translation sounds more open-ended or general.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0238",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "fd22e8a64b2938bc0e417d4c6b53108ecef9e7f3a47f1b8aa375375b178683c7",
+      "back_translation_sha256": "7088d3938e5a0498bff1228a2050b31bce8e1f287dc5c8737f0ce74c72a4764d",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise reason: The German translation accurately conveys the original English question's meaning and is grammatically correct.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0344",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "8f7658e2ed48d94e7a834a9ea7399f457423375b7c1a6719958a2cbc0d053dc9",
+      "back_translation_sha256": "4a35e9a610629ae0436a59bfdb5f4e338d40ac0513b670e334d5d919bbce0709",
+      "raw_output": "semantic_pass: false\nThe back-translation \"What year did [ENTITY_A] found [ENTITY_B]?\" is missing the definite article \"in\" before \"what year,\" which alters the structure and slightly the emphasis of the original question. The original question asks specifically about the year in which an event occurred, while the back-translation omits this specificity.\n\nfluency_pass: true\nThe translated question is grammatically correct and natural in Hindi.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0349",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "translation_sha256": "69afe55df5a0bff2481d9e5c54824914a09accbdcd06881806d3d14daf6305ab",
+      "back_translation_sha256": "3782325808789c69dd2327a1ffa3a362d6d00f5ba7a4e220e9f53a81dfe2e3d0",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise reason: The translated question accurately preserves the meaning, relation, and tense of the original question and is grammatically correct in Hindi.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0360",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "3190112894410f1d1ca4ef9fa793222895430ebef4b53b11a616d08b850ed372",
+      "back_translation_sha256": "bd5acac4ebe8d750bf8999130f218d43c86a110500728682ee209f7eb333643d",
+      "raw_output": "false\nThe back-translation suggests that the translated question incorrectly uses \"create\" instead of \"become,\" changing the meaning from asking about when [ENTITY_A] became the country to when it created the country.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0371",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "96c1274bf75adfb041915685cff06affddd6643c4a84c1f5f482889d6868a305",
+      "back_translation_sha256": "d3d8b8392a3cda580b1c918c748dcabebedf75b45c31dc57cd7a1dde24c58cff",
+      "raw_output": "semantic_pass: false\nThe back-translation \"What year was [ENTITY_A] nominated for [ENTITY_B]?\" changes the meaning slightly by asking about a singular year rather than explicitly asking \"In what year\". This could imply multiple years or lack specificity. The original question asks specifically for one year when the nomination occurred.\n\nfluency_pass: true\nThe Hindi sentence is grammatically correct and natural.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0379",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "6b6eeabb7355462271d553a785e025af6b3ba6af5ae5875f3e70c642b4a6a7e9",
+      "back_translation_sha256": "d4c844bd05020f53ed30ab1fc4f99db513f8c95453f6d3a5c67c60f214bbf2b1",
+      "raw_output": "false\nThe back-translation does not match the source question's meaning; it incorrectly asks about going somewhere rather than ceasing to be a country. The Hindi sentence structure also suggests a different action (\"not go\") instead of cessation of being a country.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0407",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "translation_sha256": "933010858eb9ab6b0dd2a2a9f2ff778c2f095e94aa451bd57cb1cb4b6b346ed4",
+      "back_translation_sha256": "75e59f5f7eb4d53b6afdf8d8733bf5487049e27a9cadd2c0f9b06ef72d39f893",
+      "raw_output": "false\nThe back-translation specifies \"wife\" instead of the more gender-neutral \"spouse\" used in the original question, changing the implied marital role and thus altering the material meaning.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0417",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "translation_sha256": "f1af8b33def803a9739d40a1e92498284441b6a8fa7c74f9fb6c983caaca0857",
+      "back_translation_sha256": "196afbb01f15e0f3454c3ea2e00cc8c7fcfa9392420e108ced61f64f26b06348",
+      "raw_output": "false\nThe back-translation does not correctly convey the temporal aspect of the original question (\"when did it stop\") and lacks clarity on the cessation of [ENTITY_A] being the capital. The Hindi version also omits the specific action of stopping or ceasing to be the capital.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0418",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f783ddbe190ca2905193c706e22d73d7c386cf62ce3b0ecb67c967047fd73d9d",
+      "translation_sha256": "9fa858c9b2897fc69ff47e5755d6d10247b12b57f2b906a9d6754fe83966b645",
+      "back_translation_sha256": "09f636a0e9a0b5894bb8c4336c7b16b3c0d7425fa4fccab36497f335ce81ed70",
+      "raw_output": "false\nReason: The back-translation incorrectly refers to [ENTITY_B] as \"governor\" rather than maintaining that [ENTITY_A] was the head of government of [ENTITY_B]. The original question asks about [ENTITY_A]'s term as head of government of [ENTITY_B], not [ENTITY_B]'s governance over [ENTITY_A].",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0421",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "back_translation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+      "raw_output": "false\nThe back-translation indicates \"comes after\" instead of \"immediately follows,\" changing the temporal proximity implied by the original question.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0436",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "4b8dd31ddfa534a16140865bbd448e7b800be9ee240247c69df671641170ee8f",
+      "back_translation_sha256": "300fee595c361d881f77815694d2b1ed1400ffde84bb2130be87d821eff9ce30",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise Reason: The translated question accurately preserves the meaning, relation, direction, polarity, scope, tense, and answer type of the source question, and it is grammatically correct and natural in Hindi.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0442",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9cc48c5a4408c6c17e0ba5d32e5e62ceffa9be76c1ce9e62a0fb10b98a49dc8b",
+      "back_translation_sha256": "6b1b195f0437fdb2e880456738d3dcee30972651405c1d34144197f98d7df3e1",
+      "raw_output": "false\nThe back-translation \"What year did [ENTITY_A] receive [ENTITY_B]?\" is missing the specificity of \"in what year\" which implies a single year rather than multiple years. The Hindi version uses \"किस वर्ष\" (kis varsh) which can be interpreted as asking for a specific year, aligning better with the original \"In what year\". However, the structure of the back-translated sentence sounds slightly less precise compared to the original English question.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0449",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "e53b68280608fda942fdc03e2bdf83d5c3957997bd8a0759a7e5858c2ed3b984",
+      "translation_sha256": "ac281a05083c309308301328465f18ad60a119df332865eb72be7b427b700edd",
+      "back_translation_sha256": "8347f792779780050e25fde07709a0a1dfe56de4366e9c08f2c8365ae368ed14",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise reason: The translated question accurately conveys the same meaning as the source question, asking about the year when [ENTITY_A] stopped serving on the board of [ENTITY_B]. The back-translation supports this interpretation, and the Hindi sentence is grammatically correct and natural.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0455",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "a9142483623686861fdac42a3f06b7b348fd6afa253a05e21875a3731a4bb2c4",
+      "translation_sha256": "ba74f0b6d43a06f8cca88e48a033eeded85d7861b332f7c584aea16b68234500",
+      "back_translation_sha256": "048ecaa79e783d391dc687ac5b68b8da0ccd03504341efa7aec9d4fabc57f4c2",
+      "raw_output": "false\nThe back-translation omits the definite article \"a\" and the word order is slightly off, changing the emphasis and potentially implying that [ENTITY_A] was exclusively a doctoral student of [ENTITY_B] for all time in that year rather than asking about the specific year when this relationship held true.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0481",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "translation_sha256": "3a7b29f23efff8ccbb613e80111ec2a404c29cf06bd30b979397e696ffa8a807",
+      "back_translation_sha256": "254554089df035999865a305721a345b37202dad59f71923baf4c02d5ba5dbc0",
+      "raw_output": "false\nThe back-translation does not match the original source question. The original source question asks about the political office held by the head of state of the state that replaced the country with capital [ENTITY_A], while the back-translated question asks what political position the head of state of the country where [ENTITY_A] is the capital holds. The concept of replacement of a country by a state is missing in the Hindi version.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0489",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "translation_sha256": "7b6ee2131e5fd8937a825b344d961f728fc4f937daad45e40136c253914578c8",
+      "back_translation_sha256": "be2d0f9d30be4411cbf6e57c39e986eaeaeb6348a9004c393be76e95c4b53fed",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise Reason: The translated question accurately conveys the same meaning as the source question, asking about the payment methods accepted by the organizer of the event in which [ENTITY_A] participated. The back-translation supports this alignment without significant loss of meaning or fluency issues in Hindi.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0493",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "translation_sha256": "51891aae90ea9ebaef538478b539255739ebcb908f9e7a324b4db247519e81f3",
+      "back_translation_sha256": "c85568105fbc7ce03242983f1be7ec206b0c8f2824ab331987bcf736b7bfbba7",
+      "raw_output": "semantic_pass: false\nThe back-translation slightly alters the original meaning by changing \"holds the documentation files\" to \"has files of documents relating to,\" which introduces ambiguity about whether these are specifically documentation files or any kind of files related to the person. This is a material change in the specificity of the file type.\n\nfluency_pass: true\nThe Hindi sentence is grammatically correct and natural.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0512",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "translation_sha256": "6debc92684dc1549a74638eb0427829dd7f7d16e479980043bc656969ba938c0",
+      "back_translation_sha256": "bbef1dd88ecdb1dd6d3ca534cc1ee2eb9aef1bd5b4e8a45a3af03cfa4c08f73d",
+      "raw_output": "false\nThe back-translation indicates \"comes after\" instead of \"immediately follows,\" changing the temporal proximity implied by the original question.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0521",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "translation_sha256": "0e4b32fa7b1384265a4a13e1d8e811f3b76917f958b45ad0c44da3fabc526bd8",
+      "back_translation_sha256": "e33425dd121b4117655a4096958bc713ba9d3279b81c9e3f176872443e0676ab",
+      "raw_output": "false\nThe back-translation indicates a slight deviation in meaning, specifically in the phrase \"unit located on the border\" which does not accurately reflect the original intent of \"the entity that borders\". The Hindi sentence suggests a unit or organization located on the border rather than an entity that itself borders the place.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0537",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "translation_sha256": "f0353b66e7c82366eeec7918bb5bda8d0d635180a54635ec6608592095a0f7cd",
+      "back_translation_sha256": "fc474ec32055b24484f7b5b7a51f5e2906bce8af222e777f99939eeb463cd23d",
+      "raw_output": "false\nThe back-translation suggests a shift from asking about a noble title to a general title, losing specificity about the nobility aspect.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0544",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "68af1e89a05aeb6b5a94ea92ea6e3f0a2f7457f9339c0fac1d282a44a8c777fb",
+      "translation_sha256": "35180d601cc659e40b900900f5e09f71686bd9ff0c73881f55e01f1a7201c0de",
+      "back_translation_sha256": "2f4b52ecb44ef1dbdf73a90b3cbe7f9862ff3b216ad8a4ac3a99c7b6fe379349",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nConcise reason: The translated question accurately preserves the meaning, relation, direction, polarity, scope, tense, and answer type of the original English question, and it is grammatically correct and natural in Thai.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0553",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ba0fcabf84cff12aa3dae97d9d1dede4b6ff9824a0f1b0949f5593a9920e2045",
+      "translation_sha256": "ca8727e8211fbf79152d55e795e5b5e444bdb479a31882eba82d77e58fa93c6c",
+      "back_translation_sha256": "a85cc62a5133810098148a10de91eb18d7fd35770a8d9ec067bba3f5f9cefbb2",
+      "raw_output": "false\nThe back-translation is missing the time phrase \"when\" at the end, implying a complete statement rather than a question, and it lacks the interrogative structure. The Thai sentence ends with a time phrase but does not form a proper question.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0571",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "translation_sha256": "1048b64a6f70b0aa5120fe6e93db2b5ece12a35e259b3db22777c27cf3469d48",
+      "back_translation_sha256": "eb20142bb1f77802b768bd7a68e5802b717a29919f6c735a5929b04b0b2ea745",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nThe translated question accurately conveys the original meaning, maintaining the key elements such as the date, the relationship between [ENTITY_A] and [ENTITY_B], and the query format. The back-translation supports this interpretation without significant deviation. The Thai sentence is also grammatically correct and natural.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0587",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "e7b17220b6a5f3cecd01aa70c6fcf89ba59257775860dfb05cf68baf5a2df9f1",
+      "translation_sha256": "b18cc2bc41902461d345ed9b1fc5bdc281a98a29b05ff012ee3a00ae14335bb0",
+      "back_translation_sha256": "66dbc281b1bd0e260fac108dc1c8ba2835d979ad70a549eead7e223f045b5d5c",
+      "raw_output": "false\nThe back-translation specifies \"[ENTITY_B] Bowl,\" which implies that [ENTITY_B] is a specific event like a sports bowl game, whereas the original question does not specify that [ENTITY_B] is tied to a \"Bowl\" context. This adds extra information not present in the source question.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0602",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "translation_sha256": "333beefbad26f6dc809172cfa44eab3ea3b317a988335b8930ed26511fa0bcd1",
+      "back_translation_sha256": "c1125eab8c9f2528e99cc0d82ee5028c5cb8a90451b52c8fb9dea6625eb47634",
+      "raw_output": "false\nThe back-translation reverses the relationship between [ENTITY_A] and [ENTITY_B], asking when [ENTITY_A] became the country where [ENTITY_B] is located instead of when [ENTITY_B] ceased to be a country of [ENTITY_A].",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    },
+    {
+      "review_key": "R0677",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "translation_sha256": "9d33f1aa686a910ef8c21c2d9daeccfdf6217e2e55d445c1bef9f9338f809b61",
+      "back_translation_sha256": "ada4fad007ce73cc0d9b63310170744efaeaf5abc6956cc8ba8daed7820a1f34",
+      "raw_output": "semantic_pass: true\nfluency_pass: true\n\nReason: The translated question accurately conveys the same meaning as the source question, asking about the year when [ENTITY_A] received [ENTITY_B]. The back-translation supports this interpretation without altering the core query. The Thai sentence is also grammatically correct and natural.",
+      "decision": {
+        "error": "ValueError",
+        "detail": "model response contains no JSON object"
+      }
+    }
+  ],
+  "started_at_utc": "2026-11-04T16:25:49.442695+00:00",
+  "counts": {
+    "MALFORMED_BLOCKED": 31
+  },
+  "completed_at_utc": "2026-11-04T16:29:29.623867+00:00"
+}

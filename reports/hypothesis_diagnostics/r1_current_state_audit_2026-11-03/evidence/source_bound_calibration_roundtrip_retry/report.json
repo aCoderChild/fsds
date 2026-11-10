@@ -1,0 +1,52 @@
+{
+  "answers_sent_to_reviewer": false,
+  "by_language": {
+    "de": {
+      "14B_ADJUDICATED_PASS": 1,
+      "FLAGGED": 4,
+      "TWO_MODEL_PASS": 3
+    },
+    "fr": {
+      "14B_ADJUDICATED_PASS": 1,
+      "FLAGGED": 3,
+      "TWO_MODEL_PASS": 4
+    },
+    "hi": {
+      "14B_ADJUDICATED_PASS": 1,
+      "FLAGGED": 7
+    },
+    "th": {
+      "14B_ADJUDICATED_PASS": 1,
+      "FLAGGED": 7
+    }
+  },
+  "checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97",
+  "counts": {
+    "14B_ADJUDICATED_PASS": 4,
+    "FLAGGED": 21,
+    "TWO_MODEL_PASS": 7
+  },
+  "human_translation_reviewed": false,
+  "identity": {
+    "adjudication_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "model_digests": {
+      "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "prior_checkpoint_sha256": "ca160c4a0e7aa888dfc1966df4a121e7a284848c701a9ba60bbc4818e2ee4b1c",
+    "prior_report_sha256": "315e38656e9c42e8835fa7738c0db6495f4200fefd2f5ad1c92da1c57ce4b419",
+    "roundtrip_script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af",
+    "script_sha256": "26a139cd79de84c39589f5e69752640df62966d75de28489d8ec3eed0a8754e4",
+    "source_decisions_sha256": "5c844f52a83a0fc19f9c1fc28fe415ebcafe6e1bb11a943a7094f96b2cf43908",
+    "source_report_sha256": "1c9d0e63cca3e4950453b4a2f3f40467fd1214d73c4e177a72e201e1b5b32325",
+    "verifier_sha256": "98bd822dadf41a397f1a92a36340d08ac516314688d45237ccb65348ae1a815f"
+  },
+  "limits": [
+    "Fixed sample only; no candidate is approved or merged.",
+    "TranslateGemma is both translator and backtranslator; the Qwen reviewers share a model family.",
+    "AI judgments are not fluent-human certification."
+  ],
+  "rows": 32,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

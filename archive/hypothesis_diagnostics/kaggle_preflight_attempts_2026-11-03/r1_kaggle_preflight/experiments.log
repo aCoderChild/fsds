@@ -1,0 +1,67 @@
+[{"stream_name":"stderr","time":5.248428078,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.248465753,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":5.998766354,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":5.998801945,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":5.998806667,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":5.998810099,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.545919651,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.545945724,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.545950511,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.545953999,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":7.616797028,"data":"Project root: /kaggle/input/synthworlds-sm-sft-pilot-v3/sft_lora_dataset\n"}
+,{"stream_name":"stdout","time":7.616818568,"data":"Approved corpus present: True\n"}
+,{"stream_name":"stderr","time":21.942055822,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":21.942080043,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.942085824,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.942089918,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144798975,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":22.144833607,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144837406,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144840125,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144842773,"data":"\n"}
+,{"stream_name":"stderr","time":22.144844926,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":22.144847448,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144881991,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":22.144886999,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":22.16018726,"data":"SFT dependencies installed.\n"}
+,{"stream_name":"stdout","time":30.918772125,"data":"torch: 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":30.918802571,"data":"transformers: 4.57.6\n"}
+,{"stream_name":"stdout","time":30.918807102,"data":"CUDA available: True\n"}
+,{"stream_name":"stdout","time":30.918810384,"data":"GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":31.080631801,"data":"HF model access check failed: ConnectionError\n"}
+,{"stream_name":"stdout","time":31.080671835,"data":"In Kaggle Add-ons → Secrets, attach a valid HF_TOKEN to this notebook and confirm access to the gated model; then rerun this cell.\n"}
+,{"stream_name":"stdout","time":31.408614238,"data":"{\n"}
+,{"stream_name":"stdout","time":31.408644732,"data":"  \"status\": \"READY_TO_TRAIN\",\n"}
+,{"stream_name":"stdout","time":31.408651652,"data":"  \"training_started\": false,\n"}
+,{"stream_name":"stdout","time":31.408659742,"data":"  \"train_flag\": false,\n"}
+,{"stream_name":"stdout","time":31.408662878,"data":"  \"model_id\": \"meta-llama/Llama-3.2-1B-Instruct\",\n"}
+,{"stream_name":"stdout","time":31.408665503,"data":"  \"errors\": [],\n"}
+,{"stream_name":"stdout","time":31.408667998,"data":"  \"translation_review_mode\": \"AI_ONLY\",\n"}
+,{"stream_name":"stdout","time":31.408670484,"data":"  \"human_translation_reviewed\": false,\n"}
+,{"stream_name":"stdout","time":31.408672968,"data":"  \"training_packages\": {\n"}
+,{"stream_name":"stdout","time":31.408675389,"data":"    \"torch\": true,\n"}
+,{"stream_name":"stdout","time":31.408677828,"data":"    \"transformers\": true,\n"}
+,{"stream_name":"stdout","time":31.408680222,"data":"    \"peft\": true,\n"}
+,{"stream_name":"stdout","time":31.408682514,"data":"    \"accelerate\": true\n"}
+,{"stream_name":"stdout","time":31.408684967,"data":"  },\n"}
+,{"stream_name":"stdout","time":31.408687212,"data":"  \"hf_token_present\": false,\n"}
+,{"stream_name":"stdout","time":31.408689662,"data":"  \"note\": \"Preflight never downloads weights or starts training. The approved corpus uses user-authorized AI-only translation review; no human fluency review was performed.\"\n"}
+,{"stream_name":"stdout","time":31.40869231,"data":"}\n"}
+,{"stream_name":"stdout","time":31.40869459,"data":"\n"}
+,{"stream_name":"stdout","time":31.40869683,"data":"Combined training gate: BLOCKED — corpus, secret, or model-access check did not pass\n"}
+,{"stream_name":"stdout","time":31.420540499,"data":"Training not started. Combined training gate: BLOCKED\n"}
+,{"stream_name":"stdout","time":31.439633759,"data":"AI-only translation review: NOT_STARTED\n"}
+,{"stream_name":"stdout","time":31.439654835,"data":"Human review: NOT_PERFORMED\n"}
+,{"stream_name":"stdout","time":31.439659294,"data":"Evaluation gate: BLOCKED\n"}
+,{"stream_name":"stdout","time":31.454330324,"data":"Retain-only training not started.\n"}
+,{"stream_name":"stdout","time":31.469821012,"data":"Unlearning not started.\n"}
+,{"stream_name":"stdout","time":31.487106374,"data":"Evaluation not started.\n"}
+,{"stream_name":"stderr","time":36.186888264,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":36.186923288,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":36.351044517,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":36.351071473,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":37.087999313,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":37.167788609,"data":"[NbConvertApp] Writing 25676 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":39.544104658,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":40.056338655,"data":"[NbConvertApp] Writing 319311 bytes to __results__.html\n"}
+]

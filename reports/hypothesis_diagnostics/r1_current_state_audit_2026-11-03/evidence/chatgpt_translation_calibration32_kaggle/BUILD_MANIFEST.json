@@ -1,0 +1,13 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE",
+  "rows": 32,
+  "input_sha256": "7fe75e5cb4ab9b3ca9bb96c4cbd713d0a88a39feffc4b7af330d3e18259ccc14",
+  "review_script_sha256": "c19d53ecd7f814be75ac6dbf4378f0421261e2756b22a7de43e62dd504b599ff",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "attention_backend": "sdpa",
+  "model_config_expected_use_sliding_window": false,
+  "translator": "ChatGPT UI; exact backend identifier not surfaced",
+  "answers_included": false,
+  "training_enabled": false
+}

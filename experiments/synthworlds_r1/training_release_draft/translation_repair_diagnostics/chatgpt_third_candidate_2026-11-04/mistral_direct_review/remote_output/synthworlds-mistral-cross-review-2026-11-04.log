@@ -1,0 +1,211 @@
+[{"stream_name":"stderr","time":15.958537714,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.958599103,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.958605913,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.958610019,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.958613923,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":49.862648873,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":49.86268981,"data":"I0000 00:00:1793778978.095280       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":103.537813395,"data":"\rFetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rFetching 3 files:  33%|███▎      | 1/3 [00:50\u003c01:41, 50.53s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:50\u003c00:00, 16.85s/it]\n"}
+,{"stream_name":"stderr","time":146.197626747,"data":"\rLoading checkpoint shards:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  33%|███▎      | 1/3 [00:06\u003c00:12,  6.35s/it]\rLoading checkpoint shards:  67%|██████▋   | 2/3 [00:12\u003c00:06,  6.43s/it]\rLoading checkpoint shards: 100%|██████████| 3/3 [00:24\u003c00:00,  8.90s/it]\rLoading checkpoint shards: 100%|██████████| 3/3 [00:24\u003c00:00,  8.23s/it]\n"}
+,{"stream_name":"stdout","time":159.944520767,"data":"Reviewed 1/187\n"}
+,{"stream_name":"stdout","time":169.872644782,"data":"Reviewed 2/187\n"}
+,{"stream_name":"stdout","time":179.842770945,"data":"Reviewed 3/187\n"}
+,{"stream_name":"stdout","time":188.209040699,"data":"Reviewed 4/187\n"}
+,{"stream_name":"stdout","time":196.100815708,"data":"Reviewed 5/187\n"}
+,{"stream_name":"stdout","time":203.768773912,"data":"Reviewed 6/187\n"}
+,{"stream_name":"stdout","time":213.079446473,"data":"Reviewed 7/187\n"}
+,{"stream_name":"stdout","time":223.304059164,"data":"Reviewed 8/187\n"}
+,{"stream_name":"stdout","time":234.311412742,"data":"Reviewed 9/187\n"}
+,{"stream_name":"stdout","time":242.705670499,"data":"Reviewed 10/187\n"}
+,{"stream_name":"stdout","time":251.476715628,"data":"Reviewed 11/187\n"}
+,{"stream_name":"stdout","time":259.737453361,"data":"Reviewed 12/187\n"}
+,{"stream_name":"stdout","time":269.903620478,"data":"Reviewed 13/187\n"}
+,{"stream_name":"stdout","time":280.922417087,"data":"Reviewed 14/187\n"}
+,{"stream_name":"stdout","time":292.528929255,"data":"Reviewed 15/187\n"}
+,{"stream_name":"stdout","time":302.108311041,"data":"Reviewed 16/187\n"}
+,{"stream_name":"stdout","time":312.100575746,"data":"Reviewed 17/187\n"}
+,{"stream_name":"stdout","time":324.565292324,"data":"Reviewed 18/187\n"}
+,{"stream_name":"stdout","time":335.79378207,"data":"Reviewed 19/187\n"}
+,{"stream_name":"stdout","time":346.716506209,"data":"Reviewed 20/187\n"}
+,{"stream_name":"stdout","time":358.305127107,"data":"Reviewed 21/187\n"}
+,{"stream_name":"stdout","time":368.533588591,"data":"Reviewed 22/187\n"}
+,{"stream_name":"stdout","time":378.526336863,"data":"Reviewed 23/187\n"}
+,{"stream_name":"stdout","time":389.176274669,"data":"Reviewed 24/187\n"}
+,{"stream_name":"stdout","time":398.563769199,"data":"Reviewed 25/187\n"}
+,{"stream_name":"stdout","time":408.682602208,"data":"Reviewed 26/187\n"}
+,{"stream_name":"stdout","time":418.120322723,"data":"Reviewed 27/187\n"}
+,{"stream_name":"stdout","time":429.297689805,"data":"Reviewed 28/187\n"}
+,{"stream_name":"stdout","time":441.547536867,"data":"Reviewed 29/187\n"}
+,{"stream_name":"stdout","time":451.743342653,"data":"Reviewed 30/187\n"}
+,{"stream_name":"stdout","time":464.229759029,"data":"Reviewed 31/187\n"}
+,{"stream_name":"stdout","time":477.922606147,"data":"Reviewed 32/187\n"}
+,{"stream_name":"stdout","time":488.250817011,"data":"Reviewed 33/187\n"}
+,{"stream_name":"stdout","time":498.690701268,"data":"Reviewed 34/187\n"}
+,{"stream_name":"stdout","time":511.894725221,"data":"Reviewed 35/187\n"}
+,{"stream_name":"stdout","time":522.101596551,"data":"Reviewed 36/187\n"}
+,{"stream_name":"stdout","time":530.974944251,"data":"Reviewed 37/187\n"}
+,{"stream_name":"stdout","time":541.658647672,"data":"Reviewed 38/187\n"}
+,{"stream_name":"stdout","time":553.573550164,"data":"Reviewed 39/187\n"}
+,{"stream_name":"stdout","time":563.327197312,"data":"Reviewed 40/187\n"}
+,{"stream_name":"stdout","time":572.509367345,"data":"Reviewed 41/187\n"}
+,{"stream_name":"stdout","time":583.083298402,"data":"Reviewed 42/187\n"}
+,{"stream_name":"stdout","time":593.156028343,"data":"Reviewed 43/187\n"}
+,{"stream_name":"stdout","time":613.549411504,"data":"Reviewed 44/187\n"}
+,{"stream_name":"stdout","time":624.503595079,"data":"Reviewed 45/187\n"}
+,{"stream_name":"stdout","time":633.868946234,"data":"Reviewed 46/187\n"}
+,{"stream_name":"stdout","time":642.902017555,"data":"Reviewed 47/187\n"}
+,{"stream_name":"stdout","time":653.946043583,"data":"Reviewed 48/187\n"}
+,{"stream_name":"stdout","time":662.377063546,"data":"Reviewed 49/187\n"}
+,{"stream_name":"stdout","time":670.572646658,"data":"Reviewed 50/187\n"}
+,{"stream_name":"stdout","time":681.295730145,"data":"Reviewed 51/187\n"}
+,{"stream_name":"stdout","time":690.094511213,"data":"Reviewed 52/187\n"}
+,{"stream_name":"stdout","time":697.814888518,"data":"Reviewed 53/187\n"}
+,{"stream_name":"stdout","time":706.761642461,"data":"Reviewed 54/187\n"}
+,{"stream_name":"stdout","time":716.658952914,"data":"Reviewed 55/187\n"}
+,{"stream_name":"stdout","time":725.633472007,"data":"Reviewed 56/187\n"}
+,{"stream_name":"stdout","time":735.13225369,"data":"Reviewed 57/187\n"}
+,{"stream_name":"stdout","time":743.332816735,"data":"Reviewed 58/187\n"}
+,{"stream_name":"stdout","time":752.055647621,"data":"Reviewed 59/187\n"}
+,{"stream_name":"stdout","time":765.715940837,"data":"Reviewed 60/187\n"}
+,{"stream_name":"stdout","time":774.022819853,"data":"Reviewed 61/187\n"}
+,{"stream_name":"stdout","time":785.136591128,"data":"Reviewed 62/187\n"}
+,{"stream_name":"stdout","time":793.264425999,"data":"Reviewed 63/187\n"}
+,{"stream_name":"stdout","time":800.922354454,"data":"Reviewed 64/187\n"}
+,{"stream_name":"stdout","time":811.745356349,"data":"Reviewed 65/187\n"}
+,{"stream_name":"stdout","time":821.375400271,"data":"Reviewed 66/187\n"}
+,{"stream_name":"stdout","time":831.562360711,"data":"Reviewed 67/187\n"}
+,{"stream_name":"stdout","time":840.12797792,"data":"Reviewed 68/187\n"}
+,{"stream_name":"stdout","time":848.179276741,"data":"Reviewed 69/187\n"}
+,{"stream_name":"stdout","time":856.896401466,"data":"Reviewed 70/187\n"}
+,{"stream_name":"stdout","time":864.618887868,"data":"Reviewed 71/187\n"}
+,{"stream_name":"stdout","time":875.120816827,"data":"Reviewed 72/187\n"}
+,{"stream_name":"stdout","time":886.989484516,"data":"Reviewed 73/187\n"}
+,{"stream_name":"stdout","time":896.476838285,"data":"Reviewed 74/187\n"}
+,{"stream_name":"stdout","time":905.627143714,"data":"Reviewed 75/187\n"}
+,{"stream_name":"stdout","time":914.368008974,"data":"Reviewed 76/187\n"}
+,{"stream_name":"stdout","time":929.458610521,"data":"Reviewed 77/187\n"}
+,{"stream_name":"stdout","time":938.422618722,"data":"Reviewed 78/187\n"}
+,{"stream_name":"stdout","time":946.874622485,"data":"Reviewed 79/187\n"}
+,{"stream_name":"stdout","time":956.578773378,"data":"Reviewed 80/187\n"}
+,{"stream_name":"stdout","time":965.948201526,"data":"Reviewed 81/187\n"}
+,{"stream_name":"stdout","time":975.741825679,"data":"Reviewed 82/187\n"}
+,{"stream_name":"stdout","time":985.49845544,"data":"Reviewed 83/187\n"}
+,{"stream_name":"stdout","time":995.697919079,"data":"Reviewed 84/187\n"}
+,{"stream_name":"stdout","time":1007.060596203,"data":"Reviewed 85/187\n"}
+,{"stream_name":"stdout","time":1016.057534748,"data":"Reviewed 86/187\n"}
+,{"stream_name":"stdout","time":1025.691059235,"data":"Reviewed 87/187\n"}
+,{"stream_name":"stdout","time":1035.721930811,"data":"Reviewed 88/187\n"}
+,{"stream_name":"stdout","time":1045.005948623,"data":"Reviewed 89/187\n"}
+,{"stream_name":"stdout","time":1055.138990266,"data":"Reviewed 90/187\n"}
+,{"stream_name":"stdout","time":1063.240764976,"data":"Reviewed 91/187\n"}
+,{"stream_name":"stdout","time":1078.522740369,"data":"Reviewed 92/187\n"}
+,{"stream_name":"stdout","time":1091.596934758,"data":"Reviewed 93/187\n"}
+,{"stream_name":"stdout","time":1101.93940651,"data":"Reviewed 94/187\n"}
+,{"stream_name":"stdout","time":1110.480849411,"data":"Reviewed 95/187\n"}
+,{"stream_name":"stdout","time":1118.577996821,"data":"Reviewed 96/187\n"}
+,{"stream_name":"stdout","time":1126.915805786,"data":"Reviewed 97/187\n"}
+,{"stream_name":"stdout","time":1136.998166397,"data":"Reviewed 98/187\n"}
+,{"stream_name":"stdout","time":1147.640305372,"data":"Reviewed 99/187\n"}
+,{"stream_name":"stdout","time":1158.218150015,"data":"Reviewed 100/187\n"}
+,{"stream_name":"stdout","time":1166.899008459,"data":"Reviewed 101/187\n"}
+,{"stream_name":"stdout","time":1178.039916318,"data":"Reviewed 102/187\n"}
+,{"stream_name":"stdout","time":1187.38991707,"data":"Reviewed 103/187\n"}
+,{"stream_name":"stdout","time":1195.485972264,"data":"Reviewed 104/187\n"}
+,{"stream_name":"stdout","time":1207.262505281,"data":"Reviewed 105/187\n"}
+,{"stream_name":"stdout","time":1217.328657842,"data":"Reviewed 106/187\n"}
+,{"stream_name":"stdout","time":1226.344258116,"data":"Reviewed 107/187\n"}
+,{"stream_name":"stdout","time":1234.422495522,"data":"Reviewed 108/187\n"}
+,{"stream_name":"stdout","time":1245.195811505,"data":"Reviewed 109/187\n"}
+,{"stream_name":"stdout","time":1255.314672859,"data":"Reviewed 110/187\n"}
+,{"stream_name":"stdout","time":1268.86572688,"data":"Reviewed 111/187\n"}
+,{"stream_name":"stdout","time":1279.097338063,"data":"Reviewed 112/187\n"}
+,{"stream_name":"stdout","time":1288.393382806,"data":"Reviewed 113/187\n"}
+,{"stream_name":"stdout","time":1295.744242869,"data":"Reviewed 114/187\n"}
+,{"stream_name":"stdout","time":1303.365833981,"data":"Reviewed 115/187\n"}
+,{"stream_name":"stdout","time":1311.170277836,"data":"Reviewed 116/187\n"}
+,{"stream_name":"stdout","time":1318.724336018,"data":"Reviewed 117/187\n"}
+,{"stream_name":"stdout","time":1327.293603398,"data":"Reviewed 118/187\n"}
+,{"stream_name":"stdout","time":1335.142949889,"data":"Reviewed 119/187\n"}
+,{"stream_name":"stdout","time":1344.221459206,"data":"Reviewed 120/187\n"}
+,{"stream_name":"stdout","time":1354.642876313,"data":"Reviewed 121/187\n"}
+,{"stream_name":"stdout","time":1363.226143352,"data":"Reviewed 122/187\n"}
+,{"stream_name":"stdout","time":1371.527942062,"data":"Reviewed 123/187\n"}
+,{"stream_name":"stdout","time":1379.276506803,"data":"Reviewed 124/187\n"}
+,{"stream_name":"stdout","time":1386.687525533,"data":"Reviewed 125/187\n"}
+,{"stream_name":"stdout","time":1398.655297522,"data":"Reviewed 126/187\n"}
+,{"stream_name":"stdout","time":1406.123071513,"data":"Reviewed 127/187\n"}
+,{"stream_name":"stdout","time":1416.75859187,"data":"Reviewed 128/187\n"}
+,{"stream_name":"stdout","time":1428.384546131,"data":"Reviewed 129/187\n"}
+,{"stream_name":"stdout","time":1440.530836843,"data":"Reviewed 130/187\n"}
+,{"stream_name":"stdout","time":1448.36444965,"data":"Reviewed 131/187\n"}
+,{"stream_name":"stdout","time":1459.908428656,"data":"Reviewed 132/187\n"}
+,{"stream_name":"stdout","time":1468.589169815,"data":"Reviewed 133/187\n"}
+,{"stream_name":"stdout","time":1477.671191293,"data":"Reviewed 134/187\n"}
+,{"stream_name":"stdout","time":1490.084330872,"data":"Reviewed 135/187\n"}
+,{"stream_name":"stdout","time":1500.445563244,"data":"Reviewed 136/187\n"}
+,{"stream_name":"stdout","time":1508.522510279,"data":"Reviewed 137/187\n"}
+,{"stream_name":"stdout","time":1517.898991272,"data":"Reviewed 138/187\n"}
+,{"stream_name":"stdout","time":1531.00626654,"data":"Reviewed 139/187\n"}
+,{"stream_name":"stdout","time":1538.622469754,"data":"Reviewed 140/187\n"}
+,{"stream_name":"stdout","time":1552.13247891,"data":"Reviewed 141/187\n"}
+,{"stream_name":"stdout","time":1564.920636176,"data":"Reviewed 142/187\n"}
+,{"stream_name":"stdout","time":1572.558585342,"data":"Reviewed 143/187\n"}
+,{"stream_name":"stdout","time":1583.924849283,"data":"Reviewed 144/187\n"}
+,{"stream_name":"stdout","time":1594.653384723,"data":"Reviewed 145/187\n"}
+,{"stream_name":"stdout","time":1603.283881392,"data":"Reviewed 146/187\n"}
+,{"stream_name":"stdout","time":1615.293262208,"data":"Reviewed 147/187\n"}
+,{"stream_name":"stdout","time":1624.943382152,"data":"Reviewed 148/187\n"}
+,{"stream_name":"stdout","time":1636.134565511,"data":"Reviewed 149/187\n"}
+,{"stream_name":"stdout","time":1644.898932603,"data":"Reviewed 150/187\n"}
+,{"stream_name":"stdout","time":1653.699997491,"data":"Reviewed 151/187\n"}
+,{"stream_name":"stdout","time":1663.000924153,"data":"Reviewed 152/187\n"}
+,{"stream_name":"stdout","time":1671.452016503,"data":"Reviewed 153/187\n"}
+,{"stream_name":"stdout","time":1681.217979766,"data":"Reviewed 154/187\n"}
+,{"stream_name":"stdout","time":1690.573902979,"data":"Reviewed 155/187\n"}
+,{"stream_name":"stdout","time":1698.87407445,"data":"Reviewed 156/187\n"}
+,{"stream_name":"stdout","time":1708.164009067,"data":"Reviewed 157/187\n"}
+,{"stream_name":"stdout","time":1717.702451427,"data":"Reviewed 158/187\n"}
+,{"stream_name":"stdout","time":1726.39933155,"data":"Reviewed 159/187\n"}
+,{"stream_name":"stdout","time":1736.076013067,"data":"Reviewed 160/187\n"}
+,{"stream_name":"stdout","time":1747.962169561,"data":"Reviewed 161/187\n"}
+,{"stream_name":"stdout","time":1757.771453484,"data":"Reviewed 162/187\n"}
+,{"stream_name":"stdout","time":1765.944120696,"data":"Reviewed 163/187\n"}
+,{"stream_name":"stdout","time":1777.807294721,"data":"Reviewed 164/187\n"}
+,{"stream_name":"stdout","time":1786.782949301,"data":"Reviewed 165/187\n"}
+,{"stream_name":"stdout","time":1798.164624194,"data":"Reviewed 166/187\n"}
+,{"stream_name":"stdout","time":1808.219022163,"data":"Reviewed 167/187\n"}
+,{"stream_name":"stdout","time":1819.985983835,"data":"Reviewed 168/187\n"}
+,{"stream_name":"stdout","time":1830.707373944,"data":"Reviewed 169/187\n"}
+,{"stream_name":"stdout","time":1840.685230984,"data":"Reviewed 170/187\n"}
+,{"stream_name":"stdout","time":1854.040036601,"data":"Reviewed 171/187\n"}
+,{"stream_name":"stdout","time":1862.419549171,"data":"Reviewed 172/187\n"}
+,{"stream_name":"stdout","time":1873.289493773,"data":"Reviewed 173/187\n"}
+,{"stream_name":"stdout","time":1881.005306596,"data":"Reviewed 174/187\n"}
+,{"stream_name":"stdout","time":1892.723672239,"data":"Reviewed 175/187\n"}
+,{"stream_name":"stdout","time":1902.054514086,"data":"Reviewed 176/187\n"}
+,{"stream_name":"stdout","time":1912.76182264,"data":"Reviewed 177/187\n"}
+,{"stream_name":"stdout","time":1920.817013834,"data":"Reviewed 178/187\n"}
+,{"stream_name":"stdout","time":1930.093107632,"data":"Reviewed 179/187\n"}
+,{"stream_name":"stdout","time":1939.709382296,"data":"Reviewed 180/187\n"}
+,{"stream_name":"stdout","time":1948.802950934,"data":"Reviewed 181/187\n"}
+,{"stream_name":"stdout","time":1960.62246275,"data":"Reviewed 182/187\n"}
+,{"stream_name":"stdout","time":1968.274533348,"data":"Reviewed 183/187\n"}
+,{"stream_name":"stdout","time":1976.425958647,"data":"Reviewed 184/187\n"}
+,{"stream_name":"stdout","time":1985.059083276,"data":"Reviewed 185/187\n"}
+,{"stream_name":"stdout","time":1997.252183192,"data":"Reviewed 186/187\n"}
+,{"stream_name":"stdout","time":2005.377745818,"data":"Reviewed 187/187\n"}
+,{"stream_name":"stdout","time":2005.380448062,"data":"{\n"}
+,{"stream_name":"stdout","time":2005.380469944,"data":"  \"status\": \"MISTRAL_DIRECT_REVIEW_COMPLETE_DIAGNOSTIC_ONLY\",\n"}
+,{"stream_name":"stdout","time":2005.380475648,"data":"  \"rows\": 187,\n"}
+,{"stream_name":"stdout","time":2005.380480433,"data":"  \"reviewed_rows\": 187,\n"}
+,{"stream_name":"stdout","time":2005.380484707,"data":"  \"blocked_rows\": 0,\n"}
+,{"stream_name":"stdout","time":2005.380488887,"data":"  \"gpu\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":2005.380497258,"data":"  \"quantization\": \"4-bit NF4\"\n"}
+,{"stream_name":"stdout","time":2005.380500696,"data":"}\n"}
+,{"stream_name":"stderr","time":2016.483268378,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2016.483297078,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2016.724730895,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2016.724760644,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2017.456001789,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2018.159273635,"data":"[NbConvertApp] Writing 351050 bytes to __results__.html\n"}
+]

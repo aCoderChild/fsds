@@ -1,0 +1,14 @@
+{
+  "status": "AI_ONLY_REVIEW_AUTHORIZED",
+  "review_mode": "AI_ONLY",
+  "authorized_by": "User, explicitly selected AI-only review in chat",
+  "authorization_date": "2026-11-02",
+  "human_fluency_review": false,
+  "reviewer_label": "OpenAI Codex (AI-only review)",
+  "allowed_translation_status": "APPROVED_BY_AI_REVIEW",
+  "limitations": [
+    "No fluent human has reviewed or attested to these translations.",
+    "Back-translation used the same NLLB-200 distilled 600M model family as the draft translator, so it is a consistency check rather than an independent quality proof.",
+    "An AI-only reviewed corpus is suitable only for a clearly labeled feasibility pilot and must not be reported as human-validated multilingual data."
+  ]
+}

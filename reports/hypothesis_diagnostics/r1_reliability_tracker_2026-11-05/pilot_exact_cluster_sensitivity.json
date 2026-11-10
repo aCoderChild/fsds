@@ -1,0 +1,454 @@
+{
+  "analysis_script_sha256": "5043477802bbbc0637a70358d9e54d55d9b0e2e1ad7f390b7097483103378dea",
+  "archive_index_sha256": "be5516bdaaa9f0f59f17100e525beb746c3b062f090850e7573f2a5c8d19bdc4",
+  "bootstrap_method": "Exact enumeration of all ordered cluster draws with replacement; each selected cluster contributes all its member cases",
+  "estimand": "Target-language minus English multi-hop change on the same bilingual SFT-precompetent forget cases",
+  "familywise_adjustment": "Bonferroni over 12 method-by-language contrasts; nominal 95% simultaneous coverage",
+  "input_archive_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+  "input_case_metrics_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+  "limitations": [
+    "Post-hoc sensitivity analysis, not preregistered and not a replacement for the primary estimand.",
+    "Only 5-7 independent entity groups per contrast; exact enumeration removes Monte Carlo error, not small-sample uncertainty.",
+    "All four target-language competence gates failed; these estimates cannot answer the hypothesis.",
+    "One seed, Llama 3.2 1B, and AI-only translations without fluent-human review."
+  ],
+  "monte_carlo_sensitivity_sha256": "652b7197279d63f3b8306fad020819f4a2eca4bd185ed5722b3ae24f9518ec6a",
+  "primary_estimand": "Target-language post-minus-pre multi-hop exact-match change on the same bilingual SFT-precompetent forget cases",
+  "quantile_convention": "Order statistic at floor(p * (N - 1)), matching the original scorer",
+  "results": [
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 10.0,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "fr",
+      "method": "GA",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_target_change_pp": 0.0
+    },
+    {
+      "cluster_resample_sequences": 3125,
+      "did_pp": 22.22222222222222,
+      "distinct_cluster_multiplicity_vectors": 126,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        100.0
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        80.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "de",
+      "method": "GA",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        100.0
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        80.0
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -80.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -60.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 0.0,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -66.66666666666666,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        -33.33333333333333,
+        33.33333333333333
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "hi",
+      "method": "GA",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -66.66666666666666,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -33.33333333333333,
+        33.33333333333333
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -66.66666666666666,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -50.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 823543,
+      "did_pp": 9.090909090909092,
+      "distinct_cluster_multiplicity_vectors": 1716,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "exact_marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "th",
+      "method": "GA",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -85.71428571428571,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -57.14285714285714,
+        0.0
+      ],
+      "primary_target_change_pp": -18.181818181818183
+    },
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 10.0,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "fr",
+      "method": "GD",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_target_change_pp": 0.0
+    },
+    {
+      "cluster_resample_sequences": 3125,
+      "did_pp": 11.11111111111111,
+      "distinct_cluster_multiplicity_vectors": 126,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "exact_marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "de",
+      "method": "GD",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -80.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -60.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 11.11111111111111,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "hi",
+      "method": "GD",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -66.66666666666666,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -50.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 823543,
+      "did_pp": 9.090909090909092,
+      "distinct_cluster_multiplicity_vectors": 1716,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -71.42857142857143,
+        100.0
+      ],
+      "exact_marginal_95ci_pp": [
+        -36.36363636363637,
+        71.42857142857143
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "th",
+      "method": "GD",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -71.42857142857143,
+        100.0
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -36.36363636363637,
+        71.42857142857143
+      ],
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -85.71428571428571,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -57.14285714285714,
+        0.0
+      ],
+      "primary_target_change_pp": -18.181818181818183
+    },
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 10.0,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "fr",
+      "method": "NPO",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "n_bilingual_precompetent_cases": 10,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        0.0,
+        0.0
+      ],
+      "primary_target_change_pp": 0.0
+    },
+    {
+      "cluster_resample_sequences": 3125,
+      "did_pp": 11.11111111111111,
+      "distinct_cluster_multiplicity_vectors": 126,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "exact_marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "de",
+      "method": "NPO",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -60.0,
+        100.0
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -40.0,
+        80.0
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 5,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -80.0,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -60.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 46656,
+      "did_pp": 11.11111111111111,
+      "distinct_cluster_multiplicity_vectors": 462,
+      "exact_bonferroni_familywise_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "exact_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "hi",
+      "method": "NPO",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        0.0,
+        66.66666666666666
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        0.0,
+        50.0
+      ],
+      "n_bilingual_precompetent_cases": 9,
+      "n_entity_groups": 6,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -66.66666666666666,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -50.0,
+        0.0
+      ],
+      "primary_target_change_pp": -11.11111111111111
+    },
+    {
+      "cluster_resample_sequences": 823543,
+      "did_pp": 9.090909090909092,
+      "distinct_cluster_multiplicity_vectors": 1716,
+      "exact_bonferroni_familywise_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "exact_marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "exact_vs_monte_carlo_familywise_max_abs_endpoint_difference_pp": 0.0,
+      "exact_vs_monte_carlo_marginal_max_abs_endpoint_difference_pp": 0.0,
+      "language": "th",
+      "method": "NPO",
+      "monte_carlo_100k_bonferroni_95ci_pp": [
+        -42.857142857142854,
+        71.42857142857143
+      ],
+      "monte_carlo_100k_marginal_95ci_pp": [
+        -28.57142857142857,
+        57.14285714285714
+      ],
+      "n_bilingual_precompetent_cases": 11,
+      "n_entity_groups": 7,
+      "primary_exact_bonferroni_familywise_95ci_pp": [
+        -85.71428571428571,
+        0.0
+      ],
+      "primary_exact_marginal_95ci_pp": [
+        -57.14285714285714,
+        0.0
+      ],
+      "primary_target_change_pp": -18.181818181818183
+    }
+  ],
+  "secondary_estimand": "Target-language minus English multi-hop change on the same bilingual SFT-precompetent forget cases",
+  "status": "VERIFIED_EXACT_POST_HOC_CLUSTER_BOOTSTRAP_SENSITIVITY_EXPLORATORY_ONLY"
+}

@@ -1,0 +1,25 @@
+{
+  "all_checks_pass": true,
+  "assistant_masking_sha256": "6c91f6047e14438b5f7eda646402580734478a8d312cdcef36a71cdec45f45c6",
+  "checks": {
+    "kernel_run_complete": true,
+    "offset_mask_helper_bound": true,
+    "preflight_disabled": true,
+    "runtime_receipt_absent": true,
+    "safe_branch_completed": true,
+    "smoke_disabled": true,
+    "unsafe_prefix_check_removed": true
+  },
+  "execution_status": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04 has status \"KernelWorkerStatus.COMPLETE\"",
+  "gpu_enabled_in_published_metadata": false,
+  "internet_enabled_in_published_metadata": false,
+  "interpretation": "Kaggle executed the corrected notebook safe-default branch. This verifies upload, source binding, and safe branch execution only; no GPU runtime smoke was attempted.",
+  "kaggle_kernel": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+  "kaggle_version": 6,
+  "notebook_sha256": "ff728ea66c1c03d755af46e44bcf3ef671fe49ecc49197ddabd12b0ddbb887b8",
+  "research_data_loaded": false,
+  "run_log_sha256": "ada6fff0e2208849d3fef9c646d6b1a5d718ec93ab6880c0e5d5fa0cfc117796",
+  "status": "VERIFIED_CORRECTED_NOTEBOOK_SAFE_PUBLISH",
+  "training_started": false,
+  "weights_downloaded": false
+}

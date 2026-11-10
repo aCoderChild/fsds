@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED_EXPLORATORY_SECONDARY_ANALYSIS",
+  "input_case_metrics": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/case_metrics.jsonl",
+  "input_sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9",
+  "primary_evaluator_contrasts": "reports/hypothesis_diagnostics/r1_synthworlds_v4_retainfix_corrected_2026-11-03/extracted/corrected_evaluation/cross_language_contrasts.csv",
+  "primary_evaluator_contrasts_sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7",
+  "primary_evaluator_crosscheck": "PASS: all 24 component case counts and point estimates reproduced",
+  "analysis_script": "/Users/maianhpham/Documents/fsds/scripts/analyze_retain_adjusted_crosslingual.py",
+  "analysis_script_sha256": "31baa61b7059420e7de2e1c1053ae62360aa9159478642a959e62200b3d0d5b0",
+  "outputs": [
+    "retain_adjusted_cross_language_contrasts.csv",
+    "retain_adjusted_diagnostic.md"
+  ],
+  "output_sha256": {
+    "retain_adjusted_cross_language_contrasts.csv": "976013406dcc3566f25e8b3a6cae466e46909110c283eb9b56addc6f12f48598",
+    "retain_adjusted_diagnostic.md": "145acc3c6ce08e4d801c66be2c833d108a16128d710d6831c69b8b83b3f57fb7"
+  },
+  "bootstrap_draws": 10000,
+  "primary_evaluation_unchanged": true,
+  "resampling": "independent entity-group bootstrap within forget and retain splits"
+}

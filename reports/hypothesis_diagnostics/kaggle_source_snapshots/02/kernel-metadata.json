@@ -1,0 +1,23 @@
+{
+  "id": "bunnoob2005/mquake-real-02-unlearning",
+  "id_no": 140926393,
+  "title": "MQuAKE Real 02 Unlearning",
+  "code_file": "mquake-real-02-unlearning.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "bunnoob2005/mquake-real-01-source-translation-sft"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4"
+}

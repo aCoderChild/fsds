@@ -1,0 +1,35 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0001","question_en":"What is the parent organization of ZXQENTAQXZ?"}
+{"row_id":"HI0002","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"HI0003","question_en":"Who is the main subject of ZXQENTAQXZ?"}
+{"row_id":"HI0004","question_en":"What is ZXQENTAQXZ compatible with?"}
+{"row_id":"HI0005","question_en":"Who produced ZXQENTAQXZ?"}
+{"row_id":"HI0006","question_en":"Who was the screenwriter of ZXQENTAQXZ?"}
+{"row_id":"HI0007","question_en":"In what year was ZXQENTBQXZ nominated for ZXQENTAQXZ?"}
+{"row_id":"HI0008","question_en":"Who is a significant person associated with ZXQENTAQXZ?"}
+{"row_id":"HI0009","question_en":"In what language does ZXQENTAQXZ write?"}
+{"row_id":"HI0010","question_en":"Who confers the ZXQENTAQXZ?"}
+{"row_id":"HI0011","question_en":"On what physical feature is ZXQENTAQXZ located?"}
+{"row_id":"HI0012","question_en":"Which work expands the plot of ZXQENTAQXZ?"}
+{"row_id":"HI0013","question_en":"Which notable work is by ZXQENTAQXZ?"}
+{"row_id":"HI0014","question_en":"What is on the boundary of ZXQENTAQXZ?"}
+{"row_id":"HI0015","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"HI0016","question_en":"Who was ZXQENTAQXZ a student of?"}
+{"row_id":"HI0017","question_en":"Who is the chairperson of ZXQENTAQXZ?"}
+{"row_id":"HI0018","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"HI0019","question_en":"What is the capital of ZXQENTAQXZ?"}
+{"row_id":"HI0020","question_en":"Which entity is ZXQENTAQXZ different from?"}
+{"row_id":"HI0021","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"HI0022","question_en":"Which work does ZXQENTAQXZ follow in its series?"}
+{"row_id":"HI0023","question_en":"In what year did ZXQENTAQXZ's term as head of government of ZXQENTBQXZ end?"}
+{"row_id":"HI0024","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"HI0025","question_en":"What did ZXQENTAQXZ replace?"}
+{"row_id":"HI0026","question_en":"What immediately follows ZXQENTAQXZ?"}
+{"row_id":"HI0027","question_en":"Which work does ZXQENTAQXZ follow?"}
+{"row_id":"HI0028","question_en":"Which work describes the ZXQENTAQXZ?"}
+{"row_id":"HI0029","question_en":"In what work is ZXQENTAQXZ described?"}
+{"row_id":"HI0030","question_en":"What is a notable work of ZXQENTAQXZ?"}
+{"row_id":"HI0031","question_en":"Which organization confers the ZXQENTAQXZ?"}
+{"row_id":"HI0032","question_en":"Which institution holds artist files about ZXQENTAQXZ?"}

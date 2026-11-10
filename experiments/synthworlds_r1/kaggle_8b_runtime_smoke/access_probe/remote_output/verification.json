@@ -1,0 +1,17 @@
+{
+  "expected_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "gpu_used": false,
+  "kernel_id": "bunnoob2005/synthworlds-llama31-8b-access-probe-2026-11-04",
+  "log_sha256": "e3d61fa1fa7811de88d6b4fb73f9865ad8eb95f8199937024471b1d7d8cbca7b",
+  "model_access_verified": false,
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "observed_failure": "Kaggle secret retrieval raised ConnectionError; run log shows HTTP 400 at kaggle_secrets.get_secret before any Hugging Face config request.",
+  "probe_sha256": "6da1a1a8035803d594d131c22555595c9e561acef432493f3cb2d0bf71c7643c",
+  "receipt_sha256": "c4befbfdea71140625418db6556c8180fb37ab79342ae8096f70c8a65fb58413",
+  "remote_embedded_probe_sha256": "6da1a1a8035803d594d131c22555595c9e561acef432493f3cb2d0bf71c7643c",
+  "research_data_loaded": false,
+  "status": "VERIFIED_BLOCKED_AT_KAGGLE_SECRET_RETRIEVAL",
+  "token_value_logged": false,
+  "training_started": false,
+  "weights_downloaded": false
+}

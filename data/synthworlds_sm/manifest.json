@@ -1,0 +1,30 @@
+{
+  "dataset": "kenqgu/SynthWorlds",
+  "revision": "d0f02ed540fe8b50b74fcf30eb7f342fd7dcae49",
+  "files": {
+    "qa-sm": {
+      "source_path": "qa-sm/test-00000-of-00001.parquet",
+      "parquet": "data/synthworlds_sm/parquet/qa-sm.parquet",
+      "jsonl": "data/synthworlds_sm/qa-sm.jsonl",
+      "rows": 1200,
+      "bytes": 3299617,
+      "sha256": "26f787b014769e1f1d73ede7ac445b393177b21e71e10f0be1471a7bccd03fb6"
+    },
+    "qa-sm-docs": {
+      "source_path": "qa-sm-docs/test-00000-of-00001.parquet",
+      "parquet": "data/synthworlds_sm/parquet/qa-sm-docs.parquet",
+      "jsonl": "data/synthworlds_sm/qa-sm-docs.jsonl",
+      "rows": 6290,
+      "bytes": 3232565,
+      "sha256": "e0ebff5f962c98ab8e6b14c6f0a72e4f17a95c67c6fcabdda19f8cdf616587dc"
+    },
+    "qa-sm-facts": {
+      "source_path": "qa-sm-facts/test-00000-of-00001.parquet",
+      "parquet": "data/synthworlds_sm/parquet/qa-sm-facts.parquet",
+      "jsonl": "data/synthworlds_sm/qa-sm-facts.jsonl",
+      "rows": 6290,
+      "bytes": 4184545,
+      "sha256": "94541f3920535037f0056f5b72c507bac0858d783662ead73e03d2cf8cf32385"
+    }
+  }
+}

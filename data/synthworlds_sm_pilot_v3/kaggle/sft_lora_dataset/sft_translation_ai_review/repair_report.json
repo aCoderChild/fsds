@@ -1,0 +1,147 @@
+{
+  "approval_claimed": false,
+  "corrections_applied": 22,
+  "corrections_file": "corrections.jsonl",
+  "human_review_status": "PENDING",
+  "records": [
+    {
+      "field": "question",
+      "language": "de",
+      "reason": "Clarifies the date requested and uses the natural German verb for the entity's founding/incorporation.",
+      "sft_id": "0005-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "de",
+      "reason": "Removes an unidiomatic article before the proper name while preserving the requested year.",
+      "sft_id": "0116-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "hi",
+      "reason": "Corrects a mistranslation of noble title as privilege.",
+      "sft_id": "0056-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "hi",
+      "reason": "Restores the work title and replaces a malformed literal rendering.",
+      "sft_id": "0098-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "hi",
+      "reason": "Clarifies the exact place being asked for in the border-sharing relation.",
+      "sft_id": "0180-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Corrects the mistranslation of incorporated as a nonsensical verb.",
+      "sft_id": "0005-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Corrects plot being mistranslated as map.",
+      "sft_id": "0017-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Improves naturalness while preserving the person-associated-with relation.",
+      "sft_id": "0052-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Clarifies the question as asking which noble title Iridia Hawkins holds.",
+      "sft_id": "0056-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Corrects plot being mistranslated as map.",
+      "sft_id": "0066-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Removes the awkward parenthetical name repair and restores the name in the question.",
+      "sft_id": "0075-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Uses a general administrative-division term instead of narrowing the question to a province.",
+      "sft_id": "0089-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Corrects the malformed translation of the river-drainage question while keeping the source entity label unchanged.",
+      "sft_id": "0090-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Repairs degenerate repeated output and restores the work title.",
+      "sft_id": "0098-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Makes the administrative-entity containment question grammatical and direct.",
+      "sft_id": "0105-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Makes the administrative-entity containment question grammatical and direct.",
+      "sft_id": "0111-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Uses a natural phrasing for the beginning of a person's period of activity.",
+      "sft_id": "0116-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Clarifies that The Timeless Enigma follows the requested preceding work in the series.",
+      "sft_id": "0127-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Uses the natural Thai construction for being named after a person.",
+      "sft_id": "0133-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Clarifies that the question asks which document attests to Aeliana.",
+      "sft_id": "0137-qa-sm:r1"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Restores the immediate-following relation.",
+      "sft_id": "0138-qa-sm:r2"
+    },
+    {
+      "field": "question",
+      "language": "th",
+      "reason": "Corrects the malformed capital-of administrative division question.",
+      "sft_id": "0159-qa-sm:r1"
+    }
+  ],
+  "records_by_language": {
+    "de": 2,
+    "fr": 0,
+    "hi": 3,
+    "th": 17
+  },
+  "status": "AI_DRAFT_REPAIRS_APPLIED_REVIEW_STILL_PENDING"
+}

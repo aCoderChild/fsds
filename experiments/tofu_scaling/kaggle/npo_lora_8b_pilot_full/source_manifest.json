@@ -1,0 +1,17 @@
+{
+  "notebook_sha256": "9005964ad82d2866cf92f7a4fcb59b026e633188b8ed154900bb943052ad9506",
+  "protocol_sha256": "17de753d3c92539213eb74962ef124677cf0ed8f4f92e9f390c8e62197ddcb1b",
+  "baseline_manifest_sha256": "4e017b430e55702715d0ebe1cb2c573197a29c18b8e928cc90601291d71e9e2f",
+  "source_verification_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0",
+  "embedded_source_sha256": {
+    "tofu_official_eval.py": "8a3fc9e38a810aba45c46f3940948d913adaf11e60c750ee0be7450cd925e5e8",
+    "verify_tofu_official_eval.py": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+    "npo_objective.py": "f597000adc9fc325d1ef9fc23debcd51f6ead13c266738718884631738248af9",
+    "verify_npo_objective.py": "769c11dcea34aa0f9355f7c9511f200cefcea8892f8bb5507358e476774ea853",
+    "npo_lora_train.py": "9e7be7beb1316cb4e0088951c003a937f38de713812d31c51816b7543486b37e",
+    "evaluate_npo_adapter.py": "bca3638bb65f64486c9470e5f0320b7424e4eae79758c5787023d7472df667b0",
+    "verify_npo_run.py": "fd334f8e53692e448d1ad643318bec38c9684873f950fcb9b3572f247304c594"
+  },
+  "notebook_mode": "full",
+  "full_training_enabled": true
+}

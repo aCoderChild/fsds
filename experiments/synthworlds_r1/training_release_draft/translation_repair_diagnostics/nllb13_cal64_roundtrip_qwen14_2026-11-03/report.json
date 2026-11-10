@@ -1,0 +1,125 @@
+{
+  "adjudicator_model": "ollama:qwen2.5:14b",
+  "answers_sent_to_reviewers": false,
+  "answers_sent_to_translator": false,
+  "backtranslator_model": "ollama:translategemma:4b",
+  "calibration_id": "nllb13_tg4b_qwen7_union_then_roundtrip_qwen14b_cal64_v1",
+  "candidate_selection_rule": "NLLB when Qwen7 passes; otherwise paired TranslateGemma when its stored Qwen7 decision passes; otherwise no candidate",
+  "completed_at_utc": "2026-11-03T12:55:25.564135+00:00",
+  "do_not_train": true,
+  "human_translation_reviewed": false,
+  "limits": [
+    "This 64-row stratified calibration is not a representative estimate or a release screen.",
+    "All reviewers are AI models; Qwen2.5 7B and 14B share a model family.",
+    "No translations, review records, release manifests, or SFT data were modified.",
+    "All 1,952 rows still require full hash-bound screening before training."
+  ],
+  "per_language_kind": {
+    "de": {
+      "atomic": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 2,
+        "nllb_selected": 7,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 2,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 1
+      },
+      "composition": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 3,
+        "nllb_selected": 5,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 3,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 3
+      }
+    },
+    "fr": {
+      "atomic": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 5,
+        "nllb_selected": 8,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 5,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 0
+      },
+      "composition": {
+        "backtranslation_pass": 7,
+        "full_screen_pass": 4,
+        "nllb_selected": 6,
+        "no_qwen7_passing_candidate": 1,
+        "qwen14b_pass": 4,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 7,
+        "translategemma_fallback_selected": 1
+      }
+    },
+    "hi": {
+      "atomic": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 4,
+        "nllb_selected": 7,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 4,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 1
+      },
+      "composition": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 4,
+        "nllb_selected": 8,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 4,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 0
+      }
+    },
+    "th": {
+      "atomic": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 3,
+        "nllb_selected": 8,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 3,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 0
+      },
+      "composition": {
+        "backtranslation_pass": 8,
+        "full_screen_pass": 3,
+        "nllb_selected": 6,
+        "no_qwen7_passing_candidate": 0,
+        "qwen14b_pass": 3,
+        "qwen14b_review_error": 0,
+        "selected": 8,
+        "target_deterministic_pass": 8,
+        "translategemma_fallback_selected": 2
+      }
+    }
+  },
+  "sample_size": 64,
+  "selected_rows_sha256": "bac95fd807d67ec8ff1f3bf801654a2dda69ca0867ec28489396d12b1e5c841e",
+  "source_hashes": {
+    "calibration_report_sha256": "956255b850c5be7feb2be9e00ac4c7ba2ca03e73f6e5ebe4bf5d96389bbc4b3a",
+    "calibration_rows_sha256": "0149f3491813d5dca50b6047fd0904922b698d47603d7b9c323d8454ff7bf9ec",
+    "script_sha256": "b695558c97346c5d83fc6856182e0c96fb155c65e23cada945c5b31ed790c687",
+    "translategemma_repair_report_sha256": "fefdbd58da5398f6c215ab05ca7b853b523eec0eebcfc713c20dc0bba8e2e336",
+    "translategemma_repair_rows_sha256": "e9441a6fca184e70271d16a4c30f65d2cd1e70b2724e08519f77acc5247c9973"
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

@@ -1,0 +1,225 @@
+{
+  "status": "DIAGNOSTIC_SCHEMA_ERRORS",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "d0a0ecd8ee0d424d52549c5a911b0c0b1deda2642c5c55e80e99912de5b47442",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "control_id": "PH001",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "3cbc7512733d4d2746566fdfe8935ce4909dcb6be905c5de2458643aa09a6622",
+      "back_translation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "raw_output": "{\"PH001\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the mother instead of the father, changing the core identity being queried.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH002",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "On what date did [ENTITY_A] officially close?",
+      "translation_sha256": "21a17570a82ed4aaeee21cba3370a24e8391883d7dbd63d38f3d102cf90367c7",
+      "back_translation_sha256": "f2614b2886ff92cfa5cce4c12a9625a26f748a3e6c95002919490d58b4ccca43",
+      "raw_output": "{\"PH002\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about opening instead of closing.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH003",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Who is the mother of [ENTITY_A]?",
+      "translation_sha256": "4f37b92dcf94c059c7307c1cac873ecca95f739f11789f582409a54f1600a455",
+      "back_translation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5",
+      "raw_output": "{\"PH003\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the father instead of the mother.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH004",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Who is the sibling of the person for whom the place where [ENTITY_A] worked was named?",
+      "translation_sha256": "fb6ff16d1f23efbf81fedc2671978445ab0fb3d7a3fa3bc2329280cc3c4b25f3",
+      "back_translation_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517",
+      "raw_output": "{\"PH004\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about a spouse instead of a sibling.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH005",
+      "language": "de",
+      "kind": "atomic",
+      "source": "Who is [ENTITY_A]'s mother?",
+      "translation_sha256": "af3ea01f57a37b33b57443e925c315455debbaf9e3f59958eaf79a2fb25a714b",
+      "back_translation_sha256": "ec31d9519bdda194584ef9df3edde60187d4fcb21bfe6edd121a8881647812b5",
+      "raw_output": "{\"PH005\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the father instead of the mother.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH006",
+      "language": "de",
+      "kind": "atomic",
+      "source": "In what year did [ENTITY_A] officially close?",
+      "translation_sha256": "65030dde55ba3b645f5eb5e41c94c6f39f7e595d52e9e9ee4c51fc7173902d28",
+      "back_translation_sha256": "d13aab56aa85aeba44e072ea1bfc3cf404d76b5c95b1f864779ec8a92f1097c0",
+      "raw_output": "{\"PH006\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the opening instead of the closing of [ENTITY_A].\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH007",
+      "language": "de",
+      "kind": "composition",
+      "source": "Who is the significant person linked to the father of the person to whom the [ENTITY_A] is dedicated?",
+      "translation_sha256": "e0c63ec9840d04b32cfc42bc28b38c82316e4945398e3296dcfef42442f08e1f",
+      "back_translation_sha256": "c75cfe9a85d3550d28f9511e4c964f567ca325403f620668ba46257fa21b7125",
+      "raw_output": "{\"PH007\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question incorrectly refers to the 'mother' instead of the 'father'.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH008",
+      "language": "de",
+      "kind": "composition",
+      "source": "Who is the editor of [ENTITY_A]?",
+      "translation_sha256": "286052844393cbc9aa4ef23d9c24885f58b21632b2e7e299638515c30f849dc2",
+      "back_translation_sha256": "7045917ae6ad552fe467d21f88b3d4d66afe8f55130e3f75bc0600c147b60b5a",
+      "raw_output": "{\"PH008\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'editor' does not equate to 'director' in this context.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH009",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "Who is [ENTITY_A]'s father?",
+      "translation_sha256": "9d76946fcfc76543441a1a2fa650c7c89f9efb5a66d733101bfa47b469d23ba8",
+      "back_translation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "raw_output": "{\"PH009\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the mother instead of the father.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH010",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "On what date did [ENTITY_A] officially close?",
+      "translation_sha256": "32ce630099380c3d4b8a9a62c5ab67b1b0f7422e3f3a8c9a540f147c16a72b48",
+      "back_translation_sha256": "9843747f2eb4ceb2c6c21b90c3431b3e65626c5cb554833ea9559f8b2776109b",
+      "raw_output": "{\"PH010\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the opening date instead of the closing date.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH011",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Which family does the father of the main subject of the [ENTITY_A] belong to?",
+      "translation_sha256": "bb6f6002fa2e833081e7d6f7667127131085da614845f868045674b7c8d61f96",
+      "back_translation_sha256": "407fd66be06309e224b93616fd2e7d2fd906acd7e5773ce1af608e56762a720e",
+      "raw_output": "{\"PH011\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the mother instead of the father.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH012",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?",
+      "translation_sha256": "989b61a240a8eeb55d2e53f3c58c7c7f99d1241c1e91165bcc16335b3573bdc1",
+      "back_translation_sha256": "01da43031177fb4fc58cbbc29056a677a75486b8743678026cb48b2d18bbddbf",
+      "raw_output": "{\"PH012\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The term 'editor' is mistranslated as 'director', changing the professional role being asked about.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH013",
+      "language": "th",
+      "kind": "atomic",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93",
+      "back_translation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "raw_output": "{\"PH013\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the mother instead of the father, changing the core identity being queried.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH014",
+      "language": "th",
+      "kind": "atomic",
+      "source": "In what year did [ENTITY_A] officially open?",
+      "translation_sha256": "301207ae685dd5939296660a9d39bd37adf436ad87ea66c9cabe64daf3823f8e",
+      "back_translation_sha256": "5e0ed7d43a6f2294af9d89eb17f70942f31d40818abd9a4bff1d5ea04412a656",
+      "raw_output": "{\"PH014\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about closing instead of opening.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH015",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93",
+      "back_translation_sha256": "d0c469d14d3f5ff61122f5c79a5b3082521ad505d8135a9b9586e2c7a33e3efa",
+      "raw_output": "{\"PH015\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about the mother instead of the father, changing the core identity being queried.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    },
+    {
+      "control_id": "PH016",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is [ENTITY_A]'s sibling?",
+      "translation_sha256": "bf51f7e1d1bc461f7ee7b1991ac33483b96409a538ed9d79988fb11cd0710d55",
+      "back_translation_sha256": "57dd7bd9387735b34545e7785b0d3a4c7e05963cd7b1bcabf8162be992d95329",
+      "raw_output": "{\"PH016\": {\"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"The translated question asks about a partner instead of a sibling.\"}}",
+      "decision": {
+        "error": "ValueError",
+        "detail": "Invalid decisions list or row count"
+      }
+    }
+  ],
+  "schema_errors": 16,
+  "semantic_rejects_on_known_mismatches": 0,
+  "semantic_passes_on_known_mismatches": 0,
+  "fluency_passes": 0,
+  "both_pass_on_known_mismatches": 0
+}

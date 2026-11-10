@@ -1,0 +1,72 @@
+{
+  "status": "VERIFIED",
+  "run_date": "2026-11-02",
+  "bundle_sha256": "9bbc60ccc0e7ee9dc674230a7ceb636f9a674ebf72123a184e3a7e3f8e5b308e",
+  "bundle_bytes": 90328529,
+  "zip_crc": "PASS",
+  "indexed_artifact_files": 32,
+  "indexed_artifacts_sha256": "PASS",
+  "uploaded_training_script_hashes": {
+    "scripts/train_sft_lora.py": {
+      "local_sha256": "5a39703717d4091fe8837d92639de005c377cf6d83b01322028b1ae4a10a95ad",
+      "uploaded_package_sha256": "5a39703717d4091fe8837d92639de005c377cf6d83b01322028b1ae4a10a95ad",
+      "match": true
+    },
+    "scripts/evaluate_crosslingual_unlearning.py": {
+      "local_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+      "uploaded_package_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+      "match": true
+    },
+    "scripts/unlearn_lora.py": {
+      "local_sha256": "f1352a5dfd3445012210a3b84035faab653f5b9a2cc35e5ecfcd657069c75847",
+      "uploaded_package_sha256": "f1352a5dfd3445012210a3b84035faab653f5b9a2cc35e5ecfcd657069c75847",
+      "match": true
+    }
+  },
+  "run": {
+    "model": "meta-llama/Llama-3.2-1B-Instruct",
+    "seed": 42,
+    "epochs": 3,
+    "composition_sft_rows": 1655,
+    "composition_sft_rows_by_language": 331,
+    "composition_sft_rows_by_split": {
+      "forget": 765,
+      "retain": 390,
+      "train_only": 500
+    },
+    "retain_only_rows": 890,
+    "evaluation_cases": 129,
+    "predictions": 3870,
+    "generation_failures": 0,
+    "invalid_output_flags": 0,
+    "english_precompetent_forget_cases": 8,
+    "unlearning_gate": "FAIL",
+    "unlearning_run": "NOT_STARTED",
+    "post_unlearning_evaluation": "NOT_STARTED",
+    "bilingual_precompetent_by_language": {
+      "fr": {
+        "cases": 2,
+        "entity_groups": 2
+      },
+      "de": {
+        "cases": 4,
+        "entity_groups": 3
+      },
+      "hi": {
+        "cases": 4,
+        "entity_groups": 3
+      },
+      "th": {
+        "cases": 3,
+        "entity_groups": 3
+      }
+    },
+    "translation_review": "AI_ONLY",
+    "human_translation_reviewed": false
+  },
+  "nonfatal_runtime_warnings": [
+    "Kaggle package resolver reported conflicts between installed huggingface-hub/Pillow versions and optional Gradio/Diffusers requirements; the PEFT LoRA smoke check and training completed.",
+    "Transformers reported torch_dtype deprecation; this did not stop training.",
+    "The base model generation config includes temperature/top_p, which are ignored under do_sample=False greedy decoding; generation failures were zero."
+  ]
+}

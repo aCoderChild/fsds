@@ -1,0 +1,67 @@
+{
+  "status": "VERIFIED_DIAGNOSTIC_SCREEN_FAILED",
+  "release_status": "NOT_A_RELEASE_GATE_OR_TRANSLATION_APPROVAL",
+  "predeclared_rule_passed": false,
+  "next_step_allowed": "reviewer_requires_revision_and_fresh_controls",
+  "rows": 16,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "a0cfaf53556f292294c09655106f28c0cb23b8baa6265a6654df4ce71218fcad",
+  "review_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+  "submitted_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+  "submitted_script_matches_local": true,
+  "output_sha256": "336d7c7b110b4ff1fd2c63227f7410ecddb771051f24d199b4708e0103f44406",
+  "run_log_sha256": "85b92019daf5af9086c6ee7a27fe8cd97bd696c53128ace7eff366be8cf03f7a",
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "counts": {
+    "semantic_reject": 15,
+    "fluency_pass": 16,
+    "not_both_pass": 15,
+    "semantic_pass": 1,
+    "both_pass": 1
+  },
+  "accepted_known_mismatches": [
+    {
+      "control_id": "HN012",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?",
+      "reason": "The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source."
+    }
+  ],
+  "semantic_rejections_by_language_and_kind": {
+    "de/atomic": {
+      "semantic_reject": 2
+    },
+    "de/composition": {
+      "semantic_reject": 2
+    },
+    "fr/atomic": {
+      "semantic_reject": 2
+    },
+    "fr/composition": {
+      "semantic_reject": 2
+    },
+    "hi/atomic": {
+      "semantic_reject": 2
+    },
+    "hi/composition": {
+      "semantic_reject": 1,
+      "semantic_pass": 1
+    },
+    "th/atomic": {
+      "semantic_reject": 2
+    },
+    "th/composition": {
+      "semantic_reject": 2
+    }
+  },
+  "limitations": [
+    "The source/candidate pairing is intentionally wrong by one relation-word substitution.",
+    "The reused translations are AI-screened, not human-gold translations.",
+    "This tests rejection of relation-level mismatches; it does not certify target-language fluency or the full corpus."
+  ]
+}

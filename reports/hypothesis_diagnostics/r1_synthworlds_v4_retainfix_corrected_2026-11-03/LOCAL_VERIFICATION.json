@@ -1,0 +1,93 @@
+{
+  "status": "VERIFIED_EXPLORATORY_RUN",
+  "bundle": "r1_composition_retainfix_verified_results_20261103_v3.zip",
+  "bundle_bytes": 225656337,
+  "bundle_sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+  "zip_entries": 78,
+  "unique_zip_paths": 78,
+  "duplicate_paths": 0,
+  "zip_crc": "PASS",
+  "indexed_files": 77,
+  "indexed_file_hashes": "PASS",
+  "indexed_hash_failures": [],
+  "included_unlearning_source_sha256": "0eb93e4448f6a9295f2a2d6be62eb89e3bc90202eff005c62d7829d70e78cd8d",
+  "source_matches_expected_v4_sha256": true,
+  "raw_manifests_record_unlearning_code_hash": false,
+  "source_binding_status": "POST_RUN_PROVENANCE_RECONCILED",
+  "source_binding_limit": "The raw Kaggle run manifests do not contain an unlearning-script hash. They record 26 distinct retain SFT IDs at 45 optimizer steps and round_robin_all_retain_rows. The included v4 source is the hash-verified implementation with that scheduler; the package makes the code/output association explicit but is not a cryptographic attestation that this exact file was loaded by the training process.",
+  "prediction_rows": 7740,
+  "prediction_unique_composite_keys": 7740,
+  "rows_per_model": {
+    "pretrained": 1290,
+    "sft": 1290,
+    "retain_only": 1290,
+    "GA": 1290,
+    "GD": 1290,
+    "NPO": 1290
+  },
+  "generation_failures": 0,
+  "output_invalid_flags": 0,
+  "output_invalid_claim_source": "corrected_evaluation/diagnostic_report.md states 0/7740",
+  "unlearning_runs": {
+    "GA": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "retain_regularization_rows_used": 0,
+      "distinct_retain_ids_recorded": 0,
+      "holdout_rows_used": 0,
+      "retain_schedule": "not_used_by_ga",
+      "raw_manifest_records_code_hash": false
+    },
+    "GD": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "retain_regularization_rows_used": 26,
+      "distinct_retain_ids_recorded": 26,
+      "holdout_rows_used": 0,
+      "retain_schedule": "round_robin_all_retain_rows",
+      "raw_manifest_records_code_hash": false
+    },
+    "NPO": {
+      "status": "UNLEARNING_COMPLETE",
+      "training_started": true,
+      "optimizer_steps": 45,
+      "forget_rows": 15,
+      "retain_regularization_rows_used": 26,
+      "distinct_retain_ids_recorded": 26,
+      "holdout_rows_used": 0,
+      "retain_schedule": "round_robin_all_retain_rows",
+      "raw_manifest_records_code_hash": false
+    }
+  },
+  "competence_gate": "FAIL",
+  "bilingual_precompetent_cases_and_entity_groups": {
+    "fr": [
+      10,
+      6
+    ],
+    "de": [
+      9,
+      5
+    ],
+    "hi": [
+      9,
+      6
+    ],
+    "th": [
+      11,
+      7
+    ]
+  },
+  "required_cases_and_groups_per_language": [
+    15,
+    8
+  ],
+  "translation_review_mode": "AI_ONLY",
+  "human_translation_reviewed": false,
+  "secret_route": "Interactive Kaggle Notebook Editor session; secret value not recorded.",
+  "api_secret_route": "API-launched Kaggle jobs did not receive notebook secrets; not used for training."
+}

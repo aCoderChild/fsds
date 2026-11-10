@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-11-09T00:04:13.632326+00:00",
+  "kernel_version": 2,
+  "kernel_status": "bunnoob2005/tofu-8b-npo-lora-pilot-2026-11-08 has status \"KernelWorkerStatus.RUNNING\"",
+  "local_monitor_pid": 27950,
+  "local_monitor_alive": true,
+  "remote_notebook_sha256": "f69308bd5754c99bebad895eee500da0eb00fac279b57adb4a6132bea2d9bbb6",
+  "validated_full_notebook_sha256": "9005964ad82d2866cf92f7a4fcb59b026e633188b8ed154900bb943052ad9506",
+  "remote_and_validated_cell_count": 18,
+  "all_remote_cell_sources_match_validated_full_notebook": true,
+  "remote_full_training_enabled": true,
+  "remote_embedded_python_sources_match_manifest": true,
+  "remote_embedded_protocol_matches_locked_hash": true,
+  "remote_embedded_requirements_match_local_file": true,
+  "source_integrity_status": "PASS",
+  "published_file_count_all_pages": 361,
+  "published_files_created_at_or_after_v2_launch": 0,
+  "published_creation_timestamps_utc": [
+    "2026-11-08T20:33:00+00:00"
+  ],
+  "post_launch_files": [],
+  "v2_result_archive_available": false,
+  "v2_training_receipt_available": false,
+  "optimizer_progress": "UNVERIFIED",
+  "interpretation": "Kaggle confirms the current full-mode source and that the job is running. Published output inventory contains only pre-launch files; it provides no live optimizer trace or v2 receipt."
+}

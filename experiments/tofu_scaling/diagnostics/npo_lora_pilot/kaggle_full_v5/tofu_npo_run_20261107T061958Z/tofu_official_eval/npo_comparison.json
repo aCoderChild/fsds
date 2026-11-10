@@ -1,0 +1,280 @@
+{
+  "status": "FAIL_DIAGNOSTIC_GATES",
+  "interpretation": "One-seed LoRA-NPO diagnostic only; not a full-parameter NPO reproduction or a confirmatory result.",
+  "primary_outcome": "Forget10 Truth Ratio score (higher means perturbed and paraphrased answer likelihoods are less distinguishable; oracle proximity is assessed separately).",
+  "primary_npo_minus_full": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_delta_b_minus_a": 0.08027557179308718,
+    "profile_cluster_bootstrap_95pct_ci": [
+      0.06828081315270661,
+      0.09211722051287935
+    ],
+    "bootstrap_draws": 5000,
+    "bootstrap_seed": 42
+  },
+  "forget10_npo_minus_oracle": {
+    "npo_minus_oracle.answer_probability": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_delta_b_minus_a": 0.12409390140768214,
+      "profile_cluster_bootstrap_95pct_ci": [
+        0.08902704137368761,
+        0.15686524300804178
+      ],
+      "bootstrap_draws": 5000,
+      "bootstrap_seed": 42
+    },
+    "npo_minus_oracle.truth_ratio_score": {
+      "n_questions": 400,
+      "n_profile_blocks": 20,
+      "mean_delta_b_minus_a": -0.09062277705696185,
+      "profile_cluster_bootstrap_95pct_ci": [
+        -0.10889175743984031,
+        -0.07383348362958364
+      ],
+      "bootstrap_draws": 5000,
+      "bootstrap_seed": 42
+    }
+  },
+  "cluster_bootstrap_deltas": {
+    "forget10": {
+      "npo_minus_full.answer_probability": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.695639073059042,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.7165733346945635,
+          -0.6749648352374362
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_oracle.answer_probability": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": 0.12409390140768214,
+        "profile_cluster_bootstrap_95pct_ci": [
+          0.08902704137368761,
+          0.15686524300804178
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_full.truth_ratio_score": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": 0.08027557179308718,
+        "profile_cluster_bootstrap_95pct_ci": [
+          0.06828081315270661,
+          0.09211722051287935
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_oracle.truth_ratio_score": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.09062277705696185,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.10889175743984031,
+          -0.07383348362958364
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_full.rougeL_recall": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.4159458261712126,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.44990318981736216,
+          -0.37722868954888406
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      }
+    },
+    "retain90": {
+      "npo_minus_full.answer_probability": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.609747486697955,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.6318482522641509,
+          -0.5876925999029162
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_full.truth_ratio_score": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.03913261362661942,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.04840935526582876,
+          -0.03011159348838965
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_full.rougeL_recall": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.34973822773297036,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.37077881711965177,
+          -0.32852892989552385
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      }
+    },
+    "holdout10": {
+      "npo_minus_full.answer_probability": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": -0.03783390870372269,
+        "profile_cluster_bootstrap_95pct_ci": [
+          -0.053318232512651234,
+          -0.02306980674081647
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      },
+      "npo_minus_full.rougeL_recall": {
+        "n_questions": 400,
+        "n_profile_blocks": 20,
+        "mean_delta_b_minus_a": 0.07035925612951885,
+        "profile_cluster_bootstrap_95pct_ci": [
+          0.05061675592935611,
+          0.08853751350812657
+        ],
+        "bootstrap_draws": 5000,
+        "bootstrap_seed": 42
+      }
+    }
+  },
+  "utility_noninferiority_gates": {
+    "retain90.answer_probability": {
+      "delta": -0.609747486697955,
+      "ci95": [
+        -0.6318482522641509,
+        -0.5876925999029162
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "retain90.rougeL_recall": {
+      "delta": -0.34973822773297036,
+      "ci95": [
+        -0.37077881711965177,
+        -0.32852892989552385
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "holdout10.answer_probability": {
+      "delta": -0.03783390870372269,
+      "ci95": [
+        -0.053318232512651234,
+        -0.02306980674081647
+      ],
+      "noninferiority_margin": -0.05,
+      "pass": false
+    },
+    "model_utility.harmonic_mean": {
+      "baseline": 0.6701627348543244,
+      "npo": 0.5287491137875375,
+      "delta": -0.1414136210667869,
+      "noninferiority_margin": -0.05,
+      "pass": false,
+      "interval": null,
+      "note": "Official composite includes utility rows without profile IDs; point-difference gate only."
+    }
+  },
+  "primary_forget_gate_pass": true,
+  "all_utility_gates_pass": false,
+  "npo_model_utility_harmonic_mean": 0.5287491137875375,
+  "baseline_model_utility_harmonic_mean": 0.6701627348543244,
+  "forget10_summary": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_answer_probability": 0.24928898503792843,
+    "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+      0.23098542617151493,
+      0.2676420914816311
+    ],
+    "mean_rougeL_recall": 0.49815690923872324,
+    "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+      0.47596261213079105,
+      0.5206415992387876
+    ],
+    "mean_truth_ratio": 0.5846932355737454,
+    "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+      0.5545851486081321,
+      0.6158196253090182
+    ],
+    "mean_truth_ratio_score": 0.5530463873204514,
+    "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+      0.5303031460082752,
+      0.5747202012766209
+    ]
+  },
+  "retain90_summary": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_answer_probability": 0.326939061837089,
+    "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+      0.30670650294483687,
+      0.3471331807358126
+    ],
+    "mean_rougeL_recall": 0.5530701185632065,
+    "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+      0.5280705123474267,
+      0.5759791505186029
+    ],
+    "mean_truth_ratio": 0.5023760219242757,
+    "profile_cluster_bootstrap_95pct_ci_truth_ratio": [
+      0.4832845002413048,
+      0.5197051111131599
+    ],
+    "mean_truth_ratio_score": 0.5021472210182903,
+    "profile_cluster_bootstrap_95pct_ci_truth_ratio_score": [
+      0.48607017867122726,
+      0.5199989441247257
+    ]
+  },
+  "holdout10_summary": {
+    "n_questions": 400,
+    "n_profile_blocks": 20,
+    "mean_answer_probability": 0.10829588697086351,
+    "profile_cluster_bootstrap_95pct_ci_answer_probability": [
+      0.1020030635821172,
+      0.11459989871406494
+    ],
+    "mean_rougeL_recall": 0.4477260665017285,
+    "profile_cluster_bootstrap_95pct_ci_rougeL_recall": [
+      0.4299659962765101,
+      0.464506691863221
+    ]
+  },
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 42,
+    "unit": "profile block, paired by source row"
+  },
+  "model_family": "llama_3_2_3b",
+  "seed": 42,
+  "base_checkpoint": {
+    "label": "Llama 3.2 3B full",
+    "family": "llama_3_2_3b",
+    "role": "full",
+    "repo_id": "open-unlearning/tofu_Llama-3.2-3B-Instruct_full",
+    "revision": "24f31ca19f6966dcb6f6b29abc511cce71222d4a"
+  },
+  "dataset_revision": "324592d84ae4f482ac7249b9285c2ecdb53e3a68",
+  "training_receipt": "training_receipt.json",
+  "training_receipt_sha256": "2554688564313f4b68ce52944c5267d5e4a1ceab9edd1a5f1d250951e849fc18",
+  "adapter_eval_receipt": "llama_3_2_3b_npo_lora_seed42_official_eval.json"
+}

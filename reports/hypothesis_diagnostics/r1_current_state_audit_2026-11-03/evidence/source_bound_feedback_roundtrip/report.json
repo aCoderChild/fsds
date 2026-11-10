@@ -1,0 +1,44 @@
+{
+  "by_language": {
+    "de": {
+      "14B_ADJUDICATED_PASS": 1
+    },
+    "fr": {
+      "FLAGGED": 2
+    },
+    "hi": {
+      "FLAGGED": 2
+    },
+    "th": {
+      "FLAGGED": 2
+    }
+  },
+  "checkpoint_sha256": "7e7cb44538b991f88f35c8f0a430d3248b17f3a7f60c40a7fb417b4ad1b485c3",
+  "counts": {
+    "14B_ADJUDICATED_PASS": 1,
+    "FLAGGED": 6
+  },
+  "generation_errors": 1,
+  "identity": {
+    "feedback_checkpoint_sha256": "9b5ed99d6bb13f99837d772440f8e3b65892ff68ed871d7b8b06104de25057d1",
+    "feedback_report_sha256": "0be28b4afafeda223c5603b425df07a9bdb4d56100a7c7dee0cba3ac20b7eb03",
+    "judge_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "mask_script_sha256": "a5d6dd9d8cdd530d09d08b44f9f1484058cc2acc328165a875cc741902db7275",
+    "model_digests": {
+      "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "roundtrip_script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af",
+    "script_sha256": "c940e98b8bbe8ab75fe6dcd81a4379632306ac3b3403622be1680ce05a0ece1d",
+    "source_checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97"
+  },
+  "limitations": [
+    "Tiny reviewer-selected sample; not a corpus accuracy estimate.",
+    "Qwen14 supplied feedback and reviewed revisions, so this is a same-reviewer rescue.",
+    "AI-only review; no human fluency certification or release approval."
+  ],
+  "selected": 8,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW",
+  "usable": 7
+}

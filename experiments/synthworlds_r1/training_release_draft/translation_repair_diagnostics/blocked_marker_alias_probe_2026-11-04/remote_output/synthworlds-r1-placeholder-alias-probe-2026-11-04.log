@@ -1,0 +1,67 @@
+[{"stream_name":"stderr","time":32.339546212,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":34.800961834,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":55.298687499,"data":"\rLoading weights:   0%|          | 0/512 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/512 [00:01\u003c10:40,  1.25s/it]\rLoading weights:  62%|██████▏   | 317/512 [00:01\u003c00:00, 305.86it/s]\rLoading weights:  92%|█████████▏| 473/512 [00:01\u003c00:00, 457.81it/s]\rLoading weights: 100%|██████████| 512/512 [00:02\u003c00:00, 214.00it/s]\n"}
+,{"stream_name":"stderr","time":68.453013351,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":68.923291904,"data":"Processed 1/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":68.932612158,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.080509039,"data":"Processed 2/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.089403788,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.233793535,"data":"Processed 3/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.243922951,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.351481832,"data":"Processed 4/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.360620978,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.470877623,"data":"Processed 5/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.479437602,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.619326625,"data":"Processed 6/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.62814166,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.739838397,"data":"Processed 7/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.748382765,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":69.906517063,"data":"Processed 8/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":69.915873488,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.090330297,"data":"Processed 9/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.099370962,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.237163588,"data":"Processed 10/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.24584417,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.398089512,"data":"Processed 11/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.406604871,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.557682032,"data":"Processed 12/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.565929074,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.717539175,"data":"Processed 13/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.726071897,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":70.940911089,"data":"Processed 14/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":70.949433914,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":71.06737995,"data":"Processed 15/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":71.075886862,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":71.185692669,"data":"Processed 16/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":71.197071166,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":71.424233318,"data":"Processed 17/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":71.432498543,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":71.583530064,"data":"Processed 18/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":71.594033058,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":71.83425692,"data":"Processed 19/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":71.843689557,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":72.06324777,"data":"Processed 20/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":72.072353239,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":72.387630516,"data":"Processed 21/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":72.396345295,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":72.685731554,"data":"Processed 22/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":72.695090165,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":72.815238573,"data":"Processed 23/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":72.824022325,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":72.933848182,"data":"Processed 24/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":72.94202493,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":73.104452447,"data":"Processed 25/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":73.114248282,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":73.279581559,"data":"Processed 26/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":73.287827794,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":73.472770969,"data":"Processed 27/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stderr","time":73.481150379,"data":"[transformers] Both `max_new_tokens` (=128) and `max_length`(=200) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)\n"}
+,{"stream_name":"stdout","time":73.590004061,"data":"Processed 28/28: PASS_ALIAS_COUNT_ONLY\n"}
+,{"stream_name":"stdout","time":73.590844906,"data":"{\"status\": \"DIAGNOSTIC_COMPLETE_NOT_TRANSLATION_APPROVAL\", \"counts\": {\"PASS_ALIAS_COUNT_ONLY\": 28}, \"output\": \"/kaggle/working/alias_probe.json\"}\n"}
+,{"stream_name":"stderr","time":79.714371115,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":79.714398205,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":79.952990797,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":79.95301487,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":80.723586145,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":81.727372807,"data":"[NbConvertApp] Writing 311177 bytes to __results__.html\n"}
+]

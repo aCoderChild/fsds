@@ -1,0 +1,428 @@
+{
+  "by_language": {
+    "de": {
+      "agreement": 2,
+      "both_flag": 0,
+      "both_pass": 2,
+      "disagreement": 17,
+      "qwen_flag_mistral_pass": 14,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 3
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 14
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 19
+    },
+    "fr": {
+      "agreement": 9,
+      "both_flag": 4,
+      "both_pass": 5,
+      "disagreement": 12,
+      "qwen_flag_mistral_pass": 8,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 4,
+          "pass": 8
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 5
+        }
+      },
+      "qwen_pass_mistral_flag": 2,
+      "rows": 21
+    },
+    "hi": {
+      "agreement": 10,
+      "both_flag": 0,
+      "both_pass": 10,
+      "disagreement": 52,
+      "qwen_flag_mistral_pass": 41,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 11
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 41
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 10
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 62
+    },
+    "th": {
+      "agreement": 12,
+      "both_flag": 2,
+      "both_pass": 10,
+      "disagreement": 73,
+      "qwen_flag_mistral_pass": 71,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 1
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 71
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 10
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 85
+    }
+  },
+  "by_language_and_kind": {
+    "de/atomic": {
+      "agreement": 0,
+      "both_flag": 0,
+      "both_pass": 0,
+      "disagreement": 7,
+      "qwen_flag_mistral_pass": 4,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 3
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 4
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 0
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 7
+    },
+    "de/composition": {
+      "agreement": 2,
+      "both_flag": 0,
+      "both_pass": 2,
+      "disagreement": 10,
+      "qwen_flag_mistral_pass": 10,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 0
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 10
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 12
+    },
+    "fr/atomic": {
+      "agreement": 6,
+      "both_flag": 1,
+      "both_pass": 5,
+      "disagreement": 9,
+      "qwen_flag_mistral_pass": 5,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 5
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 5
+        }
+      },
+      "qwen_pass_mistral_flag": 2,
+      "rows": 15
+    },
+    "fr/composition": {
+      "agreement": 3,
+      "both_flag": 3,
+      "both_pass": 0,
+      "disagreement": 3,
+      "qwen_flag_mistral_pass": 3,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 0
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 3,
+          "pass": 3
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 0
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 6
+    },
+    "hi/atomic": {
+      "agreement": 5,
+      "both_flag": 0,
+      "both_pass": 5,
+      "disagreement": 29,
+      "qwen_flag_mistral_pass": 20,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 9
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 20
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 5
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 34
+    },
+    "hi/composition": {
+      "agreement": 5,
+      "both_flag": 0,
+      "both_pass": 5,
+      "disagreement": 23,
+      "qwen_flag_mistral_pass": 21,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 21
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 5
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 28
+    },
+    "th/atomic": {
+      "agreement": 7,
+      "both_flag": 0,
+      "both_pass": 7,
+      "disagreement": 37,
+      "qwen_flag_mistral_pass": 35,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 1
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 35
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 7
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 44
+    },
+    "th/composition": {
+      "agreement": 5,
+      "both_flag": 2,
+      "both_pass": 3,
+      "disagreement": 36,
+      "qwen_flag_mistral_pass": 36,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 0
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 36
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 3
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 41
+    }
+  },
+  "by_question_kind": {
+    "atomic": {
+      "agreement": 18,
+      "both_flag": 1,
+      "both_pass": 17,
+      "disagreement": 82,
+      "qwen_flag_mistral_pass": 64,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 15
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 64
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 17
+        }
+      },
+      "qwen_pass_mistral_flag": 2,
+      "rows": 100
+    },
+    "composition": {
+      "agreement": 15,
+      "both_flag": 5,
+      "both_pass": 10,
+      "disagreement": 72,
+      "qwen_flag_mistral_pass": 70,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 2
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 5,
+          "pass": 70
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 0,
+          "pass": 10
+        }
+      },
+      "qwen_pass_mistral_flag": 0,
+      "rows": 87
+    }
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "limitations": [
+    "Both outputs are AI-only judgments on candidate translations, not human-gold assessments.",
+    "The Mistral direct screen lacks NLLB back-translation evidence; its pass rate is not comparable to a production release gate.",
+    "A separate Mistral hard-negative diagnostic passed 2 of 15 deliberate mismatches, so Mistral passes must not be used to override Qwen flags.",
+    "All rows remain quarantined; this comparison does not certify translations or change corpus eligibility."
+  ],
+  "mistral_model": {
+    "id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+  },
+  "mistral_output_sha256": "6bf88c9090e07ffb49ede0fb44ff12d8158a23a397a4f2b913cdb8cb4de21748",
+  "mistral_verification_sha256": "d1e6fcd4d4bebfbf4b89a1b9d9c9fa63fd99fbf1104e1a34f8efb7d887f9a8e3",
+  "overall": {
+    "agreement": 33,
+    "both_flag": 6,
+    "both_pass": 27,
+    "disagreement": 154,
+    "qwen_flag_mistral_pass": 134,
+    "qwen_mistral_status_crosstab": {
+      "blocked": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 17
+      },
+      "flag": {
+        "blocked": 0,
+        "flag": 6,
+        "pass": 134
+      },
+      "pass": {
+        "blocked": 0,
+        "flag": 2,
+        "pass": 27
+      }
+    },
+    "qwen_pass_mistral_flag": 2,
+    "rows": 187
+  },
+  "qwen_model": {
+    "nllb": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "qwen": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "qwen_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "qwen_verification_sha256": "de2de4099b817b07974d864da8d3e916540aee67aa2a5e3d8d56b71f13256d8d",
+  "release_approved": false,
+  "rows": 187,
+  "status": "VERIFIED_REVIEWER_DISAGREEMENT_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

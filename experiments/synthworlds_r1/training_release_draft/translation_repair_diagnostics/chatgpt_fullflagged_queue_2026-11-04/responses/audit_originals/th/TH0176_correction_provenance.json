@@ -1,0 +1,17 @@
+{
+  "row_id": "TH0176",
+  "language": "th",
+  "created_at_utc": "2026-11-03T23:04:46+00:00",
+  "request": "One-row ChatGPT UI correction requested with the marker ZXQENTAQXZ exactly once; JSON-only response requested.",
+  "returned_text": "ตำแหน่งทางการเมืองใดของ ZXQENTAQXZ ที่ประมุขแห่งรัฐของประเทศนั้นดำรงอยู่",
+  "translation_service": "ChatGPT UI; exact backend model/version not exposed",
+  "original_translation": "ประมุขแห่งรัฐของ ZXQENTAQXZ ดำรงตำแหน่งทางการเมืองใดของ ZXQENTAQXZ",
+  "original_batch_backup": "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/responses/audit_originals/th/batch_06.before_TH0176_marker_fix.jsonl",
+  "original_batch_sha256": "72ae2f4d06a0697f0f7bff2fae737b773a6184d3a6dd73431452f7d93a0221d2",
+  "updated_batch_sha256": "7403dd50f84f7e6a33ec8f0b316b413216a6362b13e8e1e5e03ce00efbffd60d",
+  "source_request_sha256": "d366b9420a432a8686cb502c9b6cfd50f90f0a2a542c8aa0866075da5be96050",
+  "masked_marker_occurrences": 1,
+  "human_translation_reviewed": false,
+  "semantic_quality_established": false,
+  "status": "QUARANTINED_DIAGNOSTIC_CORRECTION_ONLY_NOT_APPROVED_FOR_TRAINING"
+}

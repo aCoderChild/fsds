@@ -1,0 +1,84 @@
+{
+  "analysis": "paired full-minus-retain90-oracle profile-block bootstrap on forget10",
+  "interpretation": "Positive answer-probability differences mean the full checkpoint assigns greater likelihood to the target reference answers than its matching retain-only oracle. Intervals resample matched profile blocks, not individual questions.",
+  "pairs": {
+    "llama_3_2_3b": {
+      "full_result_sha256": "9857e3621276a68ff3d40969cd2c989d7b27579b6fe75128276b64a214da56ff",
+      "oracle_result_sha256": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+      "metrics": {
+        "answer_probability": {
+          "full_minus_oracle_mean": 0.8197329744667243,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.7955778706406436,
+            0.8407711739163307
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio": {
+          "full_minus_oracle_mean": -0.3556997788369082,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.41188821289633076,
+            -0.3007354085698807
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio_score": {
+          "full_minus_oracle_mean": -0.17089834885004904,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.19389268849990277,
+            -0.15114896257910154
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      }
+    },
+    "llama_3_1_8b": {
+      "full_result_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+      "oracle_result_sha256": "7308eed28bdd7fbd6b05deaed707c0e8b86540ed6d1ab28374a1ff675aed61b9",
+      "metrics": {
+        "answer_probability": {
+          "full_minus_oracle_mean": 0.8867454055447463,
+          "profile_cluster_bootstrap_95pct_ci": [
+            0.8652876777347384,
+            0.9058010869751174
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio": {
+          "full_minus_oracle_mean": -0.397116794657581,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.4677728365776888,
+            -0.3302151267456669
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        },
+        "truth_ratio_score": {
+          "full_minus_oracle_mean": -0.1673077386603136,
+          "profile_cluster_bootstrap_95pct_ci": [
+            -0.1896115555780573,
+            -0.14177146356327758
+          ],
+          "n_questions": 400,
+          "n_matched_profile_blocks": 20,
+          "bootstrap_draws": 5000,
+          "bootstrap_seed": 42
+        }
+      }
+    }
+  }
+}

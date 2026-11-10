@@ -1,0 +1,23 @@
+{
+  "alias_backtranslation_rows": 15,
+  "answers_or_splits_sent": false,
+  "decoded_row_count": 18,
+  "human_translation_reviewed": false,
+  "input_sha256": "5c4044643e876db21ce5979c7377f7e5745d7a18fec5d21fda15fa3177049849",
+  "limitations": [
+    "Alias preservation is not semantic validation.",
+    "Qwen decisions remain AI-only diagnostics, not human-gold judgments.",
+    "No source corpus or 169 already reviewed rows are changed."
+  ],
+  "models": {
+    "backtranslation": "facebook/nllb-200-distilled-600M@f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+    "judge": "Qwen/Qwen2.5-14B-Instruct@cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+  },
+  "prior_output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "qwen_format_retry_rows": 3,
+  "release_approved": false,
+  "rows": 18,
+  "script_sha256": "a5f7afe4977a93b5a022a96f83db5cdbcabe4ca311026525616939ecd691716f",
+  "status": "PREPARED_18_ROW_ALIAS_SAFE_RETRY_NOT_APPROVAL",
+  "training_eligible": false
+}

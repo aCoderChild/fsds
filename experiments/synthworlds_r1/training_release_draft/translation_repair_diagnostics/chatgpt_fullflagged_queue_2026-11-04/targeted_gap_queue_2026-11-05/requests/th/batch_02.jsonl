@@ -1,0 +1,16 @@
+{"row_id": "G0029", "source_english": "Which work does [ENTITY_A] follow?", "target_language": "Thai"}
+{"row_id": "G0030", "source_english": "Which work does [ENTITY_A] follow in its series?", "target_language": "Thai"}
+{"row_id": "G0032", "source_english": "Who is [ENTITY_A]'s stepparent?", "target_language": "Thai"}
+{"row_id": "G0035", "source_english": "Who is the curator of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0036", "source_english": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?", "target_language": "Thai"}
+{"row_id": "G0038", "source_english": "Which movement is [ENTITY_A] associated with?", "target_language": "Thai"}
+{"row_id": "G0039", "source_english": "Who confers the [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0040", "source_english": "Who is [ENTITY_A]'s sibling?", "target_language": "Thai"}
+{"row_id": "G0042", "source_english": "Who performed [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0048", "source_english": "What immediately follows [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0049", "source_english": "Who is the godparent of [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0056", "source_english": "Who is [ENTITY_A]'s sibling?", "target_language": "Thai"}
+{"row_id": "G0059", "source_english": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?", "target_language": "Thai"}
+{"row_id": "G0061", "source_english": "Who is the sibling of the person after whom the place that houses the [ENTITY_A] is named?", "target_language": "Thai"}
+{"row_id": "G0064", "source_english": "Which work describes the [ENTITY_A]?", "target_language": "Thai"}
+{"row_id": "G0065", "source_english": "Who is [ENTITY_A]'s godparent?", "target_language": "Thai"}

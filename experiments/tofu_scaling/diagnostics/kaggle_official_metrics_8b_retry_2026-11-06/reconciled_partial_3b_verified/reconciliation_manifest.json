@@ -1,0 +1,34 @@
+{
+  "source_directory": "experiments/tofu_scaling/diagnostics/kaggle_official_metrics_8b_retry_2026-11-06/tofu_official_eval",
+  "source_files_sha256": {
+    "audit/tofu_readiness_audit.json": "fa331ed4c0c49dd9c01f61101e7ce691816a7ddd2a055c31b3c1627371a5f0b8",
+    "audit/tofu_readiness_audit.md": "3c87268fffc90854556ee8feb55c0fab199234890f0661e0e5f518a980dd9257",
+    "llama_3_2_3b_full_examples.jsonl": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306",
+    "llama_3_2_3b_full_official_eval.json": "4afad1a63d0f20a6f3563c5a58c9c46f40c14bb0fe4903901b6901e02bf685cd",
+    "llama_3_2_3b_retain90_examples.jsonl": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0",
+    "llama_3_2_3b_retain90_official_eval.json": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+    "official_eval_status.json": "bf3e01a24d3cb29cbbda7079d0409b7bc37132398a1901c1e7db6e08b9e2ec35",
+    "official_eval_verification.json": "559055ff2e95001f79b2b072230c31850618d5ed6ae323200d322ade1e4b04a1",
+    "official_eval_verification.md": "af21c17605658aa5bb43e6c42b117ad515b381a7d0203cc1acb715cfaa6f694a",
+    "partial_resume_manifest.json": "a1bed650435586560e820e44e87da27dc7795bdd9485a782714f6b340dc6a83d"
+  },
+  "derived_action": "Copied raw Kaggle output without changing it; recomputed only the missing 3B KS summary from the preserved question-level truth-ratio rows; marked reconciled copy PARTIAL; did not add 8B rows.",
+  "derived_metric": {
+    "pair": [
+      "llama_3_2_3b_full",
+      "llama_3_2_3b_retain90"
+    ],
+    "ks_statistic": 0.37750000000000006,
+    "p_value": 8.999307866955786e-26,
+    "n_full": 400,
+    "n_oracle": 400,
+    "method": "scipy.stats.ks_2samp on inverse truth ratios with epsilon=1e-10; independent of the evaluator implementation",
+    "scipy_version": "1.18.0"
+  },
+  "raw_result_checksums_before_reconciliation": {
+    "llama_3_2_3b_full_official_eval.json": "4afad1a63d0f20a6f3563c5a58c9c46f40c14bb0fe4903901b6901e02bf685cd",
+    "llama_3_2_3b_retain90_official_eval.json": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+    "llama_3_2_3b_full_examples.jsonl": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306",
+    "llama_3_2_3b_retain90_examples.jsonl": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0"
+  }
+}

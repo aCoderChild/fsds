@@ -1,0 +1,26 @@
+{
+  "answers_or_splits_sent": false,
+  "counts": {
+    "AI_ONLY_REPAIR_REVIEW_BLOCKED": 5,
+    "AI_ONLY_REPAIR_REVIEW_FLAGGED": 43,
+    "AI_ONLY_REPAIR_REVIEW_PASS": 27
+  },
+  "human_translation_reviewed": false,
+  "input_compact_array_sha256": "53c3c0abc151fe1a0b5f7b2b089bf3c5fbbed1e8db068da6149f18e518fe437d",
+  "kernel_id": "bunnoob2005/synthworlds-r1-tg-complement-review-v1",
+  "limitations": [
+    "AI-only candidate screening; not fluent-human certification.",
+    "Candidate availability/review does not approve a production corpus.",
+    "The frozen full-corpus release protocol remains unchanged."
+  ],
+  "mode": "tg_qwen7_complement_v1",
+  "output_sha256": "f5534acb4485a6becbfa38456dd8524ecd1e400f4b2741e3012cdddacfc033d2",
+  "release_approved": false,
+  "review_script_sha256": "d51ec72aeacc952054c33c61b650151edf5bfdc98da7c3c67b69b3bc2d27e4d0",
+  "rows": 75,
+  "run_log_sha256": "b68fb7f2afc2d3d9909fefa6d47d623759ef76ef4337b58a45d3a87f314d1ae3",
+  "status": "VERIFIED_TG_COMPLEMENT_AI_ONLY_FINAL_SCREEN_DIAGNOSTIC",
+  "submitted_source_copy": "tg_complement_submitted_source_v1.py",
+  "training_eligible": false,
+  "verified_rows_sha256": "eccb6a23f47f2c7695ae5ba3095d67d03d981a6271f84b9c5bff2fd5b5c55a60"
+}

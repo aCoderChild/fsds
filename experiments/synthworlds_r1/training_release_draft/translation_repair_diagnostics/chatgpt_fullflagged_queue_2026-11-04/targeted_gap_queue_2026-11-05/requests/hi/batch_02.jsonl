@@ -1,0 +1,16 @@
+{"row_id": "G0055", "source_english": "In what year did [ENTITY_A] stop serving as a board member of [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0057", "source_english": "What shares a border with [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0062", "source_english": "What shares a border with [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0063", "source_english": "Which institution holds the artist files for [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0077", "source_english": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?", "target_language": "Hindi"}
+{"row_id": "G0078", "source_english": "What language does the stepparent of the founder of [ENTITY_A] speak?", "target_language": "Hindi"}
+{"row_id": "G0081", "source_english": "Who is the spouse of the godparent of the head of state of [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0082", "source_english": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?", "target_language": "Hindi"}
+{"row_id": "G0083", "source_english": "What immediately follows [ENTITY_A]?", "target_language": "Hindi"}
+{"row_id": "G0084", "source_english": "Who is [ENTITY_A]'s stepparent?", "target_language": "Hindi"}
+{"row_id": "G0085", "source_english": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0090", "source_english": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?", "target_language": "Hindi"}
+{"row_id": "G0092", "source_english": "In what year did [ENTITY_A] become the spouse of [ENTITY_B]?", "target_language": "Hindi"}
+{"row_id": "G0093", "source_english": "Who was the doctoral advisor of the rector of [ENTITY_A]'s employer?", "target_language": "Hindi"}
+{"row_id": "G0096", "source_english": "What payment types are accepted by the organizer of the event [ENTITY_A] participated in?", "target_language": "Hindi"}
+{"row_id": "G0098", "source_english": "Who is the stepparent of the father of the head of state of [ENTITY_A]?", "target_language": "Hindi"}

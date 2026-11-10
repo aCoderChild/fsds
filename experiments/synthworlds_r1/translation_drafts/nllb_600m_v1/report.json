@@ -1,0 +1,467 @@
+{
+  "batch_size": 16,
+  "device": "mps",
+  "generated_at_utc": "2026-11-03T02:59:18.345868+00:00",
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "draft_sha256": "900b6cd2209b4fa3c3b349eb48cad0dbe988fc4328f4423d2c28f5f215f85aca",
+      "failed_rows": 22,
+      "failures": [
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 0}, 'ZXQENTEQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0023-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0057-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0062-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0119-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0120-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0124-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0126-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0139-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0156-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0163-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0167-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0170-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0174-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0175-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0178-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0185-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    },
+    "fr": {
+      "draft_sha256": "cfa5f392ac35b876c4bb350021e88da02c0de65183d2440cee20a641abf2dc4d",
+      "failed_rows": 17,
+      "failures": [
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0057-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0079-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0119-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0120-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0126-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0139-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0156-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0167-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0174-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0185-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTDQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0187-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    },
+    "hi": {
+      "draft_sha256": "1d6cbf83e5509620ff3588324ca93841a6bf9fe8be67e79af45f3d5de2aac5a7",
+      "failed_rows": 38,
+      "failures": [
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0001-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0004-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 0}, 'ZXQENTDQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0010-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0013-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0016-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 0}, 'ZXQENTEQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0023-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0029-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0036-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0043-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0056-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0057-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTEQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0060-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTEQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0060-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0062-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0064-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0087-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0107-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0119-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0119-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0120-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0124-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0126-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0139-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTHQXZ': {'expected': 1, 'found': 0}, 'ZXQENTJQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0140-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTJQXZ': {'expected': 1, 'found': 0}, 'ZXQENTKQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0140-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0159-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0167-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0170-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0174-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0175-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTCQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0177-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0178-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    },
+    "th": {
+      "draft_sha256": "13331255904097f3a26cb84d1509983040db4c715e2206074f619a2499558329",
+      "failed_rows": 28,
+      "failures": [
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0004-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0013-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0016-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTEQXZ': {'expected': 1, 'found': 0}, 'ZXQENTHQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0039-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0041-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0044-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTBQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0050-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0056-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0062-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0069-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTDQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0094-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0101-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0119-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0120-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0124-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0126-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0139-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTKQXZ': {'expected': 1, 'found': 2}}",
+          "prompt_id": "0140-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0156-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0159-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0167-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0170-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0172-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTFQXZ",
+          "prompt_id": "0174-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0175-qa-sm:multi_hop"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0177-qa-sm:direct_positive"
+        },
+        {
+          "error": "ValueError: Unexpected marker in translated prompt: ZXQENTTCQXZ",
+          "prompt_id": "0178-qa-sm:direct_negative_control"
+        },
+        {
+          "error": "ValueError: Protected marker counts changed: {'ZXQENTAQXZ': {'expected': 1, 'found': 2}, 'ZXQENTCQXZ': {'expected': 1, 'found': 0}}",
+          "prompt_id": "0188-qa-sm:direct_negative_control"
+        }
+      ],
+      "rows": 585,
+      "status": "BLOCKED_TRANSLATION_FAILURES"
+    }
+  },
+  "model_id": "facebook/nllb-200-distilled-600M",
+  "model_license": "CC-BY-NC-4.0; noncommercial research use only",
+  "prompt_ids_sha256": "f4760c270e0beed292395a12cabb5047e32ab6cbbfe2e04f6ceb3806885c0d36",
+  "rows_per_language": 585,
+  "source_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "status": "NLLB_DRAFTS_INCOMPLETE",
+  "translation_scope": "FULL_CORPUS"
+}

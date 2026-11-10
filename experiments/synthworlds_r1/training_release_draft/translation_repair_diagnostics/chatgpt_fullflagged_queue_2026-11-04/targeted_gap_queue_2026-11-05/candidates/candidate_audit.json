@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "status": "STRUCTURAL_CHECKS_PASS_QUARANTINED",
+  "created_utc": "2026-11-05T02:25:51.712634+00:00",
+  "provenance": {
+    "candidate_author": "OpenAI ChatGPT assistant; exact served model revision not exposed",
+    "independent_ai_review_completed": false,
+    "human_translation_reviewed": false
+  },
+  "counts": {
+    "total_candidate_rows": 187,
+    "by_language": {
+      "fr": {
+        "requested": 21,
+        "candidate_rows": 21,
+        "unique_candidate_ids": 21,
+        "matched_rows_checked": 21,
+        "missing_ids": [],
+        "extra_ids": []
+      },
+      "de": {
+        "requested": 19,
+        "candidate_rows": 19,
+        "unique_candidate_ids": 19,
+        "matched_rows_checked": 19,
+        "missing_ids": [],
+        "extra_ids": []
+      },
+      "hi": {
+        "requested": 62,
+        "candidate_rows": 62,
+        "unique_candidate_ids": 62,
+        "matched_rows_checked": 62,
+        "missing_ids": [],
+        "extra_ids": []
+      },
+      "th": {
+        "requested": 85,
+        "candidate_rows": 85,
+        "unique_candidate_ids": 85,
+        "matched_rows_checked": 85,
+        "missing_ids": [],
+        "extra_ids": []
+      }
+    }
+  },
+  "source_request_sha256": {
+    "requests/de/batch_01.jsonl": "7bdde863d1724a1f85b6f0a5531ba57231e3302797fed9fdb718259405538c3c",
+    "requests/de/batch_02.jsonl": "9a17a73eb306198bb755adba8081c0c6b3c9d3355e4b5d6a429060f5cce4160b",
+    "requests/fr/batch_01.jsonl": "b53cb2fa04f53bb3b66c1b6d122735cb5ee9f852a409031f43880ae627377624",
+    "requests/fr/batch_02.jsonl": "df85bd281a91b31ac4f218c0ab2288c5d6da4110b277629bcaa9f08cb91c12f4",
+    "requests/hi/batch_01.jsonl": "8e4e2ae360e5298ab189f3b957155896138acae0a46cd62cfef18997dd424919",
+    "requests/hi/batch_02.jsonl": "93cd18be3cfcf1d24df930a6591414a2b14094dd24db86b436a5dd2164b7bebe",
+    "requests/hi/batch_03.jsonl": "a1592f94825d903cf3185d3b1eee76672179a5f15e6262608aed811eb9fe4fd6",
+    "requests/hi/batch_04.jsonl": "ebb1895abf23219b0c853c5c8f6ddfb8a3e5f95f914d52580743055c59b161ce",
+    "requests/th/batch_01.jsonl": "a4c55bb4c8a1dbaf5d6f8f87b1d4035246f282d6155b31e50a8852caa464527a",
+    "requests/th/batch_02.jsonl": "8f15cee81a8fbcaca81d96ec66d590618ff4af44bf2017e0d2b7fc65d14a7032",
+    "requests/th/batch_03.jsonl": "4f8058cb707fd5977988bdcb920afb0fa5f6473f10a1f52d355e3cec37291e4f",
+    "requests/th/batch_04.jsonl": "d652523d756c09c21fb7e76e743af0f769de353e0f392cfcfc482423b5ae4a0e",
+    "requests/th/batch_05.jsonl": "b28c261354bc3099fc64f7fef668afc2559f27f985550a2dc18f1a9dea61d463",
+    "requests/th/batch_06.jsonl": "c650ee5f14f8d859cb8c999f8095991e215fb187655c8b8ba634be1d8bae8b54"
+  },
+  "candidate_sha256": {
+    "candidates/fr.jsonl": "dcc451f12f2306e3d3a158e87407f6f594f028e8a24443aee5f3951f61b92e93",
+    "candidates/de.jsonl": "3b0ac7a4c51fdfc416d3109777bd2087702696bcbd98f1fe5d54c575357e8e5f",
+    "candidates/hi.jsonl": "b7713eee78375d1cdbfdee4602c7fbe9503e58adf33f19a5dfccfcc93822238c",
+    "candidates/th.jsonl": "3cff17720b53321be6f5d9943d60e9462b4f033f3004ddf62ff3566056215c26"
+  },
+  "checks": {
+    "exact_row_id_coverage": true,
+    "answer_blind_request_schema": true,
+    "candidate_schema": true,
+    "protected_marker_multisets": true,
+    "target_scripts_and_question_marks": true,
+    "semantic_equivalence_and_fluency_reviewed": false,
+    "release_approved": false,
+    "training_eligible": false
+  },
+  "limitations": [
+    "Structural checks do not establish translation accuracy, semantic equivalence, or fluency.",
+    "No independent AI review or fluent-human review has been completed for these candidates.",
+    "Candidates must not be merged into canonical translations or an SFT release based on this audit."
+  ],
+  "errors": []
+}

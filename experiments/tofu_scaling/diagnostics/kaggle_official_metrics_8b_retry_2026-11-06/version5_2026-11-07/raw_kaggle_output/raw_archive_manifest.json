@@ -1,0 +1,29 @@
+{
+  "artifact_kind": "immutable_kaggle_download_archive",
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_kernel_version": 5,
+  "kaggle_terminal_status_observed": "KernelWorkerStatus.ERROR",
+  "downloaded_archive": "tofu_official_eval_results.zip",
+  "downloaded_archive_sha256": "d9427b788dba4502dccb8442581137827e42bb7c11d5dcb5d2741b5fefc614d7",
+  "archive_crc": "PASS",
+  "raw_archive_files_sha256": {
+    "audit/tofu_readiness_audit.json": "06089c47eb9c9785ce754762f882cd15103a39cdd3416c20fba3b23b601b2b23",
+    "audit/tofu_readiness_audit.md": "01965471e312ed374703ace2b2f3b0cf4a4f166ac59b72a3aeb43a8e38d7dd3a",
+    "llama_3_1_8b_full_examples.jsonl": "8f8e6e1d3c78bae56d14d4e5b908e409fb9f9a197425e48f0889bf116b12d1db",
+    "llama_3_1_8b_full_official_eval.json": "213b7fd296c52bfcbba0c143c73480d8e80c5cba594151c696c8febdf5f6659d",
+    "llama_3_2_3b_full_examples.jsonl": "d3b041386bc4501a7942ac2b8db04faf3fad66ac0de4ae93f064f91e75358306",
+    "llama_3_2_3b_full_official_eval.json": "4afad1a63d0f20a6f3563c5a58c9c46f40c14bb0fe4903901b6901e02bf685cd",
+    "llama_3_2_3b_retain90_examples.jsonl": "88d0d8553c16113fcd65d1c642b309201e580d76177065a3c93d8aaa27efa3e0",
+    "llama_3_2_3b_retain90_official_eval.json": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+    "official_eval_status.json": "10b29dadf1882c4c686f626a2b6c8e25113293881abfec490f5e32673029d834",
+    "partial_resume_manifest.json": "a1bed650435586560e820e44e87da27dc7795bdd9485a782714f6b340dc6a83d"
+  },
+  "saved_support_files_sha256": {
+    "kaggle_kernel.log": "06afdcd8a9f8ce4ebc37bb5787eea5de02d4334ff6300237025766803bee4683",
+    "tofu_official_eval.py": "0565062053fce3a7e512f4425085df67a1d034579efa95f24aa81d4a8b04bf8a",
+    "diagnose_tofu.py": "b12f6a8e0b8cb2f12d162dcd74eaa85a120eabd370a93582c51dd6d1d572552f"
+  },
+  "training_started": false,
+  "research_adapter_created": false,
+  "note": "Raw Kaggle ZIP is retained byte-for-byte. Extracted files are directly from that ZIP; independent verification artifacts are written only in a separate reconciled directory."
+}

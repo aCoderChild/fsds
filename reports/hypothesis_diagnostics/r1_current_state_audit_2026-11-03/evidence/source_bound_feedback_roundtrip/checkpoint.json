@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "feedback_checkpoint_sha256": "9b5ed99d6bb13f99837d772440f8e3b65892ff68ed871d7b8b06104de25057d1",
+    "feedback_report_sha256": "0be28b4afafeda223c5603b425df07a9bdb4d56100a7c7dee0cba3ac20b7eb03",
+    "judge_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "mask_script_sha256": "a5d6dd9d8cdd530d09d08b44f9f1484058cc2acc328165a875cc741902db7275",
+    "model_digests": {
+      "qwen2.5:14b": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "roundtrip_script_sha256": "9af38bb970fb7f2c18d77cb6e88c9e386bcee75185b7e6c353c29437bdbbb5af",
+    "script_sha256": "c940e98b8bbe8ab75fe6dcd81a4379632306ac3b3403622be1680ce05a0ece1d",
+    "source_checkpoint_sha256": "11f8b73f45ceda66a24f99d9cb9a424b1d87fa4b0c7776dcd8238e2bcdc37f97"
+  },
+  "records": [
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who is the godparent or godmother of Calix Silverwood?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "54596a5be5f3968308a554d33280350d9e46773a56254cbecdeee4a5e1ce084a",
+      "feedback_key": "fr|atomic|0050-qa-sm:r1",
+      "feedback_qwen7_pass": true,
+      "kind": "atomic",
+      "language": "fr",
+      "prompt_id": "0050-qa-sm:r1",
+      "protected_entity_names": [
+        "Calix Silverwood",
+        "Elian Calyssar",
+        "Lysandra Myralun",
+        "Thalendria",
+        "Vespera Liora Thorne"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The translated question asks about being a godparent or godmother, whereas the source asks who [ENTITY_A] is the godparent of.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": true,
+          "reason": "Paraphrase kept."
+        }
+      },
+      "source_sha256": "7c773f9a29a023d1267bbd2e5620883e16ff1ca0cddc66cdced67b46c63af0e5",
+      "text_en": "Who is Calix Silverwood the godparent of?",
+      "text_translation": "Qui est Calix Silverwood, le parrain ou la marraine ?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "\"What is the family status of Adel Zoltan (spouse/partner)?\"",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "19c5ee0e62fff1239e19c0ab52e8c94f1c1f0f0fa50692a36e9753c543f7586e",
+      "feedback_key": "fr|composition|disjoint-b:0348-qa-sm:q2",
+      "feedback_qwen7_pass": false,
+      "kind": "composition",
+      "language": "fr",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "protected_entity_names": [
+        "Adel Zoltan",
+        "Adelzo Thornfield",
+        "Velorian",
+        "Xyldari"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The translated question inquires about family status rather than identifying [ENTITY_A]'s stepparent.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Changed relation."
+        }
+      },
+      "source_sha256": "6bb34b05a77eaf8b5d0d676478a56fb20e1a378d1a96519ab775c647f879a9f6",
+      "text_en": "Who is Adel Zoltan's stepparent?",
+      "text_translation": "\"Quel est le statut familial de Adel Zoltan (conjoint/partenaire) ?\""
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "Who received a PhD from Tamsin Rivers?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "5e6dd4d68156cf43c7e3fd6ce6b470d71d201cd419c23c7342b862a5b09ab20c",
+      "feedback_key": "de|atomic|0196-qa-sm:r1",
+      "feedback_qwen7_pass": false,
+      "kind": "atomic",
+      "language": "de",
+      "prompt_id": "0196-qa-sm:r1",
+      "protected_entity_names": [
+        "Braxton",
+        "Tamsin Rivers",
+        "Ulwyn Bayne",
+        "Yates Merrick Thompson",
+        "Zyvra Gerber"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The German question correctly conveys the source meaning and is fluent.",
+        "semantic_pass": true
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "Grammatically correct and natural."
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different relation direction."
+        }
+      },
+      "source_sha256": "921464bee1c7288ac7d47511ef49bfc54eea5f1bdf0b21688b0ac9e738721fb9",
+      "text_en": "Who was a doctoral student of Tamsin Rivers?",
+      "text_translation": "\"Wer hat bei Tamsin Rivers promoviert?\""
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "In which activity does Lighthaven appear?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "d98b330906290d3ba6640fd136668d7506c21506646f4cde4cfdafc0e07e8f7f",
+      "feedback_key": "hi|atomic|0046-qa-sm:r2",
+      "feedback_qwen7_pass": true,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0046-qa-sm:r2",
+      "protected_entity_names": [
+        "Falthoria",
+        "Lighthaven",
+        "Lumeria",
+        "Luminara",
+        "Nebula Quest",
+        "Vesperbrook"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "The back-translation changes the meaning from 'work' to 'activity', and asks about visibility instead of appearance.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "grammatically correct"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different activity."
+        }
+      },
+      "source_sha256": "db6b0de03704191616c05a87815b77d8044bcb88ef45f9b8902abd91e615449d",
+      "text_en": "In which work does Lighthaven appear?",
+      "text_translation": "Lighthaven किस कार्य में दिखाई देता है?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What are the boundaries of the parts of Mystic Deep?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "f987e4e82e6de796b0c5e3017d0d7c0a5760eee57867362cb82883b948c880aa",
+      "feedback_key": "hi|atomic|0072-qa-sm:r1",
+      "feedback_qwen7_pass": false,
+      "kind": "atomic",
+      "language": "hi",
+      "prompt_id": "0072-qa-sm:r1",
+      "protected_entity_names": [
+        "Mystic Deep",
+        "Nystoria",
+        "Valtoria",
+        "Valtorian Sylvaterra"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "The question misinterprets 'boundary' as boundaries of parts rather than what is on the boundary.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": false,
+          "reason": "lacks quotation marks"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Lost relation direction."
+        }
+      },
+      "source_sha256": "789ad569bae918e7e773c3c4a2af933ee07098b03e33cf368e3fc167c7209e65",
+      "text_en": "What is on the boundary of Mystic Deep?",
+      "text_translation": "\"Mystic Deep के किन हिस्सों की सीमा क्या है?\""
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "What is the physical description of Tharavon?",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "b8cbccc0df7af2c9411b5e89fc5b10dd61f6d56b612efffb8a2c3da413ddad27",
+      "feedback_key": "th|atomic|0044-qa-sm:r2",
+      "feedback_qwen7_pass": true,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0044-qa-sm:r2",
+      "protected_entity_names": [
+        "Fendril",
+        "Lunaris Vespera",
+        "Mercuria",
+        "Myrthia",
+        "Pendoria",
+        "Solara Archipelago",
+        "Tharavon",
+        "Valtarian Luntrish"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_000",
+        "reason": "Back-translation changes the meaning from asking about a physical feature's location to describing [ENTITY_A]'s physical characteristics.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "语法正确，表达自然。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different physical feature."
+        }
+      },
+      "source_sha256": "a036036fb6ffd1c834502c7953714c961a0fcb6eb1506f55a1a89c84bc5608be",
+      "text_en": "On which physical feature is Tharavon located?",
+      "text_translation": "Tharavon ตั้งอยู่ที่ลักษณะทางกายภาพใด?"
+    },
+    {
+      "backtranslation_checks": {
+        "english_latin_script_present": true,
+        "names": true,
+        "no_marker": true,
+        "nonempty": true,
+        "numbers": true
+      },
+      "backtranslation_en": "\"What is the official term used to refer to Alaric Thornewood?\"",
+      "backtranslation_status": "PASS",
+      "candidate_sha256": "b14854f58d7639fe7c39f3afd0e98b433ca0f621047f39d425076b788baf1ba7",
+      "feedback_key": "th|atomic|0152-qa-sm:r1",
+      "feedback_qwen7_pass": true,
+      "kind": "atomic",
+      "language": "th",
+      "prompt_id": "0152-qa-sm:r1",
+      "protected_entity_names": [
+        "Alaric Thornewood",
+        "Chimeric Viceroy",
+        "Dreamt Compilation",
+        "Knight Aerion"
+      ],
+      "qwen14": {
+        "fluency_pass": true,
+        "key": "ROW_001",
+        "reason": "Back-translation does not match the source question; it asks about an official term rather than an honorific prefix.",
+        "semantic_pass": false
+      },
+      "qwen7_roundtrip": {
+        "fluency": {
+          "decision": true,
+          "reason": "语法正确，表达自然。"
+        },
+        "semantic": {
+          "decision": false,
+          "reason": "Different answer type."
+        }
+      },
+      "source_sha256": "b5bcbe8c885796312bfaa0eed217448e6e18c1607ee937641441c8166e74d075",
+      "text_en": "What honorific prefix is used for Alaric Thornewood?",
+      "text_translation": "\"คำนำหน้าที่เป็นทางการที่ใช้เรียก \\\"Alaric Thornewood\\\" คืออะไร?\""
+    }
+  ]
+}

@@ -1,0 +1,3780 @@
+{
+  "status": "AI_ONLY_NLLB_CANDIDATE_REVIEW_HAS_BLOCKS",
+  "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+  "input_payload": {
+    "answers_or_split_labels_included": false,
+    "human_translation_reviewed": false,
+    "mode": "AI_ONLY_DIAGNOSTIC_CANDIDATE_NO_RELEASE_APPROVAL",
+    "nllb_model_id": "facebook/nllb-200-distilled-600M",
+    "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+    "prior_retry_output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+    "prior_review_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+    "release_approved": false,
+    "row_map_sha256": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+    "rows": [
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0001",
+        "source_question_en": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?",
+        "source_sha256": "8ad08b0666a0d52931d8efa1f89c3eed0663a159772c55f960e5e693bf605cca"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0002",
+        "source_question_en": "What is the official anthem of [ENTITY_A]?",
+        "source_sha256": "61c012052dc2b42c18176bb54583c2ca4fbe080a6ec3b95ab09982899cc720b0"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0003",
+        "source_question_en": "Which entity is owned by [ENTITY_A]?",
+        "source_sha256": "a29ce462f0fdefa7242c477f0e1c9cd2a8e98fe9d4cca85059b6c9416b2aa860"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0004",
+        "source_question_en": "To whom is the [ENTITY_A] dedicated?",
+        "source_sha256": "9e4c022191c7b798707da1bc20862b1563542cc963915fa11529b73b5f20b802"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0005",
+        "source_question_en": "Which town is [ENTITY_A] twinned with?",
+        "source_sha256": "623106a1d9c0a3ba3f5826efba6963d30caecc1464b4d3596bd0a88fbc282fae"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0006",
+        "source_question_en": "In which work is [ENTITY_A] described?",
+        "source_sha256": "b91d02dc96ba0a7e661f91c16343ef9449fe59e67d6570b781f553d552e74913"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0007",
+        "source_question_en": "What is the equivalent given name of the opposite gender for [ENTITY_A]?",
+        "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0008",
+        "source_question_en": "What is a part of the [ENTITY_A]?",
+        "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0010",
+        "source_question_en": "Who is [ENTITY_A]'s godparent?",
+        "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0012",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0013",
+        "source_question_en": "What language is [ENTITY_A] a dialect of?",
+        "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0014",
+        "source_question_en": "During which time period did [ENTITY_A] occur?",
+        "source_sha256": "42d4d484dc70a500cb3a2d41e6f971f9828f9fd6b89f2250e5a959a80ab2c903"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0015",
+        "source_question_en": "What is [ENTITY_A] part of?",
+        "source_sha256": "08e9bfe4739fb63eb34bdd9996764853ecd86f8c4aab182cd4ef13311c208412"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0016",
+        "source_question_en": "Which work does [ENTITY_A] follow?",
+        "source_sha256": "7357627f05a4751de36fa736d16bb9f498667aba98dfdeeb43ebdff33ecb3652"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0017",
+        "source_question_en": "Who is the rector of [ENTITY_A]?",
+        "source_sha256": "062db3cd4f3d8bcebaa83c6e732c30bfcf8353c06d3d738058eae8dad4fc3c3b"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0018",
+        "source_question_en": "What is the [ENTITY_A] different from?",
+        "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0019",
+        "source_question_en": "Who is the spouse of the person for whom the place where [ENTITY_A] worked was named?",
+        "source_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0020",
+        "source_question_en": "Who taught [ENTITY_A]?",
+        "source_sha256": "65b0a333bcea1e9456a899ffd261e22ab23ebc968d152a7f2d6d43f887260b21"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0021",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0022",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0023",
+        "source_question_en": "Which political office of the state that replaced the country whose capital is [ENTITY_A] is held by its head of state?",
+        "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0024",
+        "source_question_en": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?",
+        "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0025",
+        "source_question_en": "What is [ENTITY_A]'s field of work?",
+        "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0026",
+        "source_question_en": "In what year did [ENTITY_A] receive the [ENTITY_B]?",
+        "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0027",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0028",
+        "source_question_en": "Who represents the creator of the participant in [ENTITY_A]?",
+        "source_sha256": "d00cde8fd3a1bf8d9d9c09b7c6f103a0e71e9acca66359502bb3accf30cb51f0"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0030",
+        "source_question_en": "Which work does [ENTITY_A] follow in its series?",
+        "source_sha256": "f2d483118d912263347243c2e709e6e36152c5248cf35a1cb3a888efd8ba4dfe"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0031",
+        "source_question_en": "What did [ENTITY_A] replace?",
+        "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0032",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0033",
+        "source_question_en": "Who is the father of the person whom the unmarried partner of [ENTITY_A] is interested in?",
+        "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0035",
+        "source_question_en": "Who is the curator of [ENTITY_A]?",
+        "source_sha256": "50b9b1065c3d296199e391f1583e48bf82fbd8d34b5998cfb37dafe0baa3158e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0036",
+        "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+        "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0037",
+        "source_question_en": "In which area does the [ENTITY_A] operate?",
+        "source_sha256": "c45d127389aa1d7e66d329f18390ae76276c46337d27482ccd2e46be707c1592"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0038",
+        "source_question_en": "Which movement is [ENTITY_A] associated with?",
+        "source_sha256": "aeda6b768bef9cb6a00f2d377c5186d7d8e94a5edeaa1adb58039e9e970d1cb7"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0039",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0040",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0042",
+        "source_question_en": "Who performed [ENTITY_A]?",
+        "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0043",
+        "source_question_en": "Who founded the organization that the rank above the [ENTITY_A] is part of?",
+        "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0045",
+        "source_question_en": "Who is [ENTITY_A]'s child?",
+        "source_sha256": "8b409d8894d3627faf8ad2879a5864821d6c4687fbf13c68bc7fcdf6e59465fe"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0046",
+        "source_question_en": "Which country does [ENTITY_A] serve?",
+        "source_sha256": "fd70d5caf0641e02a6e0212973a78e82fb786c9071ae4e2214f136a2936e5f79"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0047",
+        "source_question_en": "Who is [ENTITY_A] the godparent of?",
+        "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0048",
+        "source_question_en": "What immediately follows [ENTITY_A]?",
+        "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0049",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0051",
+        "source_question_en": "Who is the exhibited creator of [ENTITY_A]?",
+        "source_sha256": "58f207dc8261bd767fa2421e4590e97c52ebec4ed58214c588d3aaaac72a3733"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0052",
+        "source_question_en": "Which work describes [ENTITY_A]?",
+        "source_sha256": "b750c298b8bd7368e17ae110e97989cf8c9d150b76c5ecf34ef0b23022eb9bc5"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0053",
+        "source_question_en": "Who is [ENTITY_A] the godparent of?",
+        "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0054",
+        "source_question_en": "What honorific prefix is used before the name of the unmarried partner of the founder of [ENTITY_A]?",
+        "source_sha256": "ebf318b0f3984fbe028bff6ef7f21e820045f92a4cd2a181e3e6dee3922c81f4"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0056",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0057",
+        "source_question_en": "What shares a border with [ENTITY_A]?",
+        "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0059",
+        "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+        "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0060",
+        "source_question_en": "Who was [ENTITY_A] named after?",
+        "source_sha256": "aebf2f6546150d4ea989918c0d7fcf9ec8b1d4e8033cc7a494c5652995a6f7a9"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0061",
+        "source_question_en": "Who is the sibling of the person after whom the place that houses the [ENTITY_A] is named?",
+        "source_sha256": "853f0c66bf9fe678936e5febe3dc4493abc433216d41774b7a4b374c832d6acb"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0062",
+        "source_question_en": "What shares a border with [ENTITY_A]?",
+        "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0063",
+        "source_question_en": "Which institution holds the artist files for [ENTITY_A]?",
+        "source_sha256": "824fbc02d3d38a977cba21df2f5a70bdf3c1de61b4aedfcab4ff51d0986b65b5"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0064",
+        "source_question_en": "Which work describes the [ENTITY_A]?",
+        "source_sha256": "ee6c37e06269bb29fc128d3757c7ca439724ebe1ef111e1305e830767294f388"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0065",
+        "source_question_en": "Who is [ENTITY_A]'s godparent?",
+        "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0069",
+        "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+        "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0070",
+        "source_question_en": "What administrative territorial entity is contained within [ENTITY_A]?",
+        "source_sha256": "2985e3177830cbc7bf50046e7433ae29e8b707fc8a1b832427ef8997ae4d2997"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0071",
+        "source_question_en": "What is the female version of the name [ENTITY_A]?",
+        "source_sha256": "4c76cdf14a47041ca224d69380ae5431aeb6f9299bd34ef2d3f8eb350306cd70"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0074",
+        "source_question_en": "Who is [ENTITY_A]'s sibling?",
+        "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0075",
+        "source_question_en": "Of which administrative division is [ENTITY_A] the capital?",
+        "source_sha256": "bebb2a32f9640a1bf44dd876e9830cf2da2523898eb612e098fececaa87189c1"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0076",
+        "source_question_en": "Where was the organization of which the place where [ENTITY_A] was detained is a member formed?",
+        "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0078",
+        "source_question_en": "What language does the stepparent of the founder of [ENTITY_A] speak?",
+        "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850"
+      },
+      {
+        "kind": "atomic",
+        "language": "de",
+        "review_key": "G0079",
+        "source_question_en": "What does [ENTITY_A] replace?",
+        "source_sha256": "7f2ce4f575ddda68a078f93ed354fe2b291f750859bb80dbc1f7399b92544ff8"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0081",
+        "source_question_en": "Who is the spouse of the godparent of the head of state of [ENTITY_A]?",
+        "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0082",
+        "source_question_en": "Where is the entity that borders the place [ENTITY_A] is indigenous to headquartered?",
+        "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0083",
+        "source_question_en": "What immediately follows [ENTITY_A]?",
+        "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0084",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0087",
+        "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+        "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0088",
+        "source_question_en": "Who participated in the [ENTITY_A]?",
+        "source_sha256": "ae0b329aff0fb17515f26e900ca17dfc08d6d62a02442ddcbf0c0f1342d7c5b6"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0089",
+        "source_question_en": "On what date was [ENTITY_A] incorporated?",
+        "source_sha256": "024d137c445804ec546790cfc51bdbd094cd03ff0bde49342a438cfc33f60430"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0090",
+        "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+        "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0092",
+        "source_question_en": "In what year did [ENTITY_A] become the spouse of [ENTITY_B]?",
+        "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0094",
+        "source_question_en": "Which work follows [ENTITY_A]?",
+        "source_sha256": "f3d40643457bfdcf5a26c949aade18db82c47c87167d0cbf54a12d4761db4c78"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0095",
+        "source_question_en": "Who was the doctoral advisor of the rector of [ENTITY_A]'s employer?",
+        "source_sha256": "8af29a89e57654b5a5690880a86b6152bd8534499ed92369c6613f79896cd444"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0096",
+        "source_question_en": "What payment types are accepted by the organizer of the event [ENTITY_A] participated in?",
+        "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0097",
+        "source_question_en": "What honorific prefix is used for [ENTITY_A]?",
+        "source_sha256": "9cf7223a119014950e322299e877cf802e51d889248b76b32fa75a1f3c80ca49"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0098",
+        "source_question_en": "Who is the stepparent of the father of the head of state of [ENTITY_A]?",
+        "source_sha256": "87d36bcb2f7297025133e6d8b89103c8e373c2465c8f8cc27ba3490e115d3707"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0099",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0102",
+        "source_question_en": "What immediately followed the event in which [ENTITY_A]'s partner in business or sport participated?",
+        "source_sha256": "d8fab2f954f106dd5f203ca65f7aa16d3343ef8403372f54c84300470ffe0331"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0103",
+        "source_question_en": "Which administrative territorial entity is contained within [ENTITY_A]?",
+        "source_sha256": "59ff09fe9a0a50dc5f325bff9d8e450657d03d4a4f83eb1bde271bd4c5689617"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0104",
+        "source_question_en": "Who is a significant person associated with the movement that [ENTITY_A]'s doctoral advisor is associated with?",
+        "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0105",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0107",
+        "source_question_en": "Who is a significant person associated with the movement that [ENTITY_A]'s doctoral advisor is associated with?",
+        "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0108",
+        "source_question_en": "Of which administrative division is [ENTITY_A] the capital?",
+        "source_sha256": "bebb2a32f9640a1bf44dd876e9830cf2da2523898eb612e098fececaa87189c1"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0109",
+        "source_question_en": "With which country does the Caelum Archipelago have diplomatic relations?",
+        "source_sha256": "a80d5fd1f6b58f09c3de4b63cf1c689208db2c96ecb5b85544af025a61b7da81"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0110",
+        "source_question_en": "Which political office of [ENTITY_A] is held by its head of state?",
+        "source_sha256": "49c84ffee5de25f774da7847f0fdbe4c2c47901d926d7225a10c2cc25a12825f"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0111",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0112",
+        "source_question_en": "What is the given name of the director of the work that is part of [ENTITY_A]?",
+        "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0113",
+        "source_question_en": "On what date did [ENTITY_A] cease to be the country of [ENTITY_B]?",
+        "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0115",
+        "source_question_en": "Who does the teacher of [ENTITY_A]'s father differ from?",
+        "source_sha256": "5ff6918f270246728a37de6f861f8d7f85ec4393455f5ff28597041a77174c3a"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0116",
+        "source_question_en": "Which award did the family of [ENTITY_A]'s child receive?",
+        "source_sha256": "fcbd98e5e68d4887f208d3da6eb6c61b44b6d4e20134242975258372f28a4e55"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0117",
+        "source_question_en": "Who is the chairperson of [ENTITY_A]?",
+        "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0119",
+        "source_question_en": "Which notable work is by [ENTITY_A]?",
+        "source_sha256": "2a2d3ca7a38b69a754bea48224249c962d4928e56f7cb89248fcda141aea362d"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0120",
+        "source_question_en": "Which work is a part of [ENTITY_A]?",
+        "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0121",
+        "source_question_en": "Who founded the organization that the rank above the [ENTITY_A] is part of?",
+        "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0122",
+        "source_question_en": "Who commissioned [ENTITY_A]?",
+        "source_sha256": "86f9357fc6dced2252c978aca250a9df76a0db45e39c7f1f5a39d5b6dddab5c2"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0123",
+        "source_question_en": "What position has the child of the patron saint of [ENTITY_A] held?",
+        "source_sha256": "fe1f8234db46a3290149717617951b4d4b8a12bdea9f0ce91ddecdf8ea7f8991"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0124",
+        "source_question_en": "Which institution holds the documentation files about the person after whom the city that houses the [ENTITY_A]'s headquarters is named?",
+        "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0126",
+        "source_question_en": "What family does [ENTITY_A] belong to?",
+        "source_sha256": "40bc5915d1b191528ae065bc7dc3a4abb4f8fbea701555a7ee0e4b55a17311f7"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0127",
+        "source_question_en": "Where is the [ENTITY_A] language indigenous to?",
+        "source_sha256": "88d2ba90720a7e54ce9bcf7d59160cf94c4d5cf396038677c2dd259b8eee3d53"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0128",
+        "source_question_en": "Where was the organization of which the place where [ENTITY_A] was detained is a member formed?",
+        "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0130",
+        "source_question_en": "Who is the chairperson of [ENTITY_A]?",
+        "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0131",
+        "source_question_en": "What is the given name of the director of the work that is part of [ENTITY_A]?",
+        "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0132",
+        "source_question_en": "Which entity is [ENTITY_A] different from?",
+        "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0133",
+        "source_question_en": "Who is the father of the creator of the noble title held by [ENTITY_A]?",
+        "source_sha256": "bb76b81ef32f868822c08966fa181084b96ac9a9a2e6f0aab31121f197786058"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0134",
+        "source_question_en": "Who is the head of state of the country of which [ENTITY_A]'s spouse is a citizen?",
+        "source_sha256": "2fbed2a246771de4bebff790c88be63f40f8121564c8f522907bf4d682fb0d33"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0136",
+        "source_question_en": "Who produced [ENTITY_A]?",
+        "source_sha256": "c02be921ce228e3758e070fbab6f522b65eabfc12aa3aa87a8faf8b033a2f13d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0138",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0139",
+        "source_question_en": "What is the family name of the entity that immediately follows the family to which [ENTITY_A] belongs?",
+        "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0140",
+        "source_question_en": "Which work does [ENTITY_A] follow?",
+        "source_sha256": "7357627f05a4751de36fa736d16bb9f498667aba98dfdeeb43ebdff33ecb3652"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0141",
+        "source_question_en": "With which movement is [ENTITY_A] associated?",
+        "source_sha256": "0e7b1efdc9964f3c2de4db74f30f8e29718366d1e23cf32cd3c4e8d0fd07cae5"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0142",
+        "source_question_en": "On what date did [ENTITY_A] stop being the capital of [ENTITY_B]?",
+        "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0143",
+        "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+        "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0144",
+        "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+        "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0145",
+        "source_question_en": "Where is the mother of the person [ENTITY_A] works for buried?",
+        "source_sha256": "d67419d73f39ce08ff79ee60bb1a292c66f398c992235bdb561c3221fd5f118b"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0146",
+        "source_question_en": "What is [ENTITY_A] compatible with?",
+        "source_sha256": "b15c1b8d075503fbfa9754b7a75476952733e4bdf6d6f6f5ce410b447f1e7d8e"
+      },
+      {
+        "kind": "composition",
+        "language": "fr",
+        "review_key": "G0147",
+        "source_question_en": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?",
+        "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0148",
+        "source_question_en": "Where did the person who consecrated [ENTITY_A]'s child die?",
+        "source_sha256": "9f856e65a2bc0b91b25fc8f6913d83a4e6b8d4b2e495422a6b5b7c7124082e4d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0149",
+        "source_question_en": "Who confers the [ENTITY_A]?",
+        "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8"
+      },
+      {
+        "kind": "composition",
+        "language": "fr",
+        "review_key": "G0150",
+        "source_question_en": "What language does the stepparent of the founder of [ENTITY_A] speak?",
+        "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0152",
+        "source_question_en": "Which work is [ENTITY_A] an edition or translation of?",
+        "source_sha256": "51db6cc2d48c969bb0acb315ea6602b949d57538f98f2d079ce2522f6eb6ec0e"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0153",
+        "source_question_en": "Who does [ENTITY_A] represent?",
+        "source_sha256": "fbda3cc4a41427d98e40975c501c267d240405c0f6d77ddf273aeacf79b78fc3"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0154",
+        "source_question_en": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?",
+        "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0155",
+        "source_question_en": "In which work does [ENTITY_A] appear?",
+        "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0156",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0157",
+        "source_question_en": "What is the family name of the entity that immediately follows the family to which [ENTITY_A] belongs?",
+        "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0158",
+        "source_question_en": "Who consecrated [ENTITY_A]?",
+        "source_sha256": "308e8320ee49c7236bb3e01e37be87253136b05e6a53d4a28cb5393930f3a963"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0159",
+        "source_question_en": "Which administrative territorial entity is contained within [ENTITY_A]?",
+        "source_sha256": "59ff09fe9a0a50dc5f325bff9d8e450657d03d4a4f83eb1bde271bd4c5689617"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0160",
+        "source_question_en": "Who is [ENTITY_A] the godparent of?",
+        "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa"
+      },
+      {
+        "kind": "composition",
+        "language": "fr",
+        "review_key": "G0161",
+        "source_question_en": "Who is the father of the person whom the unmarried partner of [ENTITY_A] is interested in?",
+        "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0162",
+        "source_question_en": "Which noble title does [ENTITY_A] hold?",
+        "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf"
+      },
+      {
+        "kind": "composition",
+        "language": "hi",
+        "review_key": "G0163",
+        "source_question_en": "Who is [ENTITY_A]'s stepparent?",
+        "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0164",
+        "source_question_en": "Who performed [ENTITY_A]?",
+        "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef"
+      },
+      {
+        "kind": "composition",
+        "language": "de",
+        "review_key": "G0166",
+        "source_question_en": "Who is the godparent of [ENTITY_A]?",
+        "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0167",
+        "source_question_en": "What series is [ENTITY_A] part of?",
+        "source_sha256": "8eb776190396def0a1512c8e95492355e499fb3926c8666c7374a8a15fa7786a"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0168",
+        "source_question_en": "Of which house is the [ENTITY_A] a part?",
+        "source_sha256": "30cf3344d557d62f5aa07e913bb70cbde1b42e1be2ed0a83b95563a0dd0a9b84"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0169",
+        "source_question_en": "What language is [ENTITY_A] a dialect of?",
+        "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0170",
+        "source_question_en": "What is [ENTITY_A]'s field of work?",
+        "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0171",
+        "source_question_en": "What did [ENTITY_A] replace?",
+        "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0173",
+        "source_question_en": "Of what class is the [ENTITY_A] a subclass?",
+        "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0174",
+        "source_question_en": "Who is the spouse of the godparent of the head of state of [ENTITY_A]?",
+        "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a"
+      },
+      {
+        "kind": "atomic",
+        "language": "fr",
+        "review_key": "G0176",
+        "source_question_en": "In what year was [ENTITY_A] the architect of [ENTITY_B]?",
+        "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e"
+      },
+      {
+        "kind": "atomic",
+        "language": "th",
+        "review_key": "G0179",
+        "source_question_en": "What is [ENTITY_A]'s given name?",
+        "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0180",
+        "source_question_en": "What is the given name of the unmarried partner of [ENTITY_A]'s sibling?",
+        "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d"
+      },
+      {
+        "kind": "atomic",
+        "language": "hi",
+        "review_key": "G0181",
+        "source_question_en": "Who is [ENTITY_A] different from?",
+        "source_sha256": "13b23b5f77210d0dc38ac38b33908774a09bc0f9eb41ce7e98b31d5d998c4b8c"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0183",
+        "source_question_en": "What is the religion of the child of [ENTITY_A]'s unmarried partner?",
+        "source_sha256": "56e6456bbcc362df40e93f2dbd2b903e3b95be8481e93b1d0f79f4bf7f84c8d6"
+      },
+      {
+        "kind": "composition",
+        "language": "th",
+        "review_key": "G0185",
+        "source_question_en": "Who is the director of the crew that the [ENTITY_A] crew member belongs to?",
+        "source_sha256": "88c868a62ce5d0bb1a343aba5612c60134c0454b2869c00ad9aa93f97f17b96f"
+      }
+    ],
+    "schema": "synthworlds-nllb-alternative-translation-v1",
+    "source_review_input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+    "training_eligible": false
+  },
+  "nllb_model_id": "facebook/nllb-200-distilled-600M",
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "records": [
+    {
+      "review_key": "G0001",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8ad08b0666a0d52931d8efa1f89c3eed0663a159772c55f960e5e693bf605cca",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0002",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "61c012052dc2b42c18176bb54583c2ca4fbe080a6ec3b95ab09982899cc720b0",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0003",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "a29ce462f0fdefa7242c477f0e1c9cd2a8e98fe9d4cca85059b6c9416b2aa860",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0004",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9e4c022191c7b798707da1bc20862b1563542cc963915fa11529b73b5f20b802",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0005",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "623106a1d9c0a3ba3f5826efba6963d30caecc1464b4d3596bd0a88fbc282fae",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0006",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "b91d02dc96ba0a7e661f91c16343ef9449fe59e67d6570b781f553d552e74913",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0007",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "59dd9935152c6dc36031729e70fdb74d764ea678b17f42301e45ba2a1a76b42b",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0008",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "848abffb543e1cc71af220db4bcd05442f77764725b75dcd65cbd9a65e04bd7c",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0010",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0012",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0013",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0014",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "42d4d484dc70a500cb3a2d41e6f971f9828f9fd6b89f2250e5a959a80ab2c903",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0015",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "08e9bfe4739fb63eb34bdd9996764853ecd86f8c4aab182cd4ef13311c208412",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0016",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "7357627f05a4751de36fa736d16bb9f498667aba98dfdeeb43ebdff33ecb3652",
+      "candidate_translation": "Welche Arbeit verfolgt [ENTITY_A]?",
+      "candidate_sha256": "ab91ea73a89007811b28e80f81fc819af5ca868e7aa95c464ca4c55717cba0d9",
+      "candidate_error": null,
+      "backtranslation_en": "What kind of work does [ENTITY_A] do?",
+      "backtranslation_sha256": "126fedf1c2a4f400739f7f2ceeed2db9704ff3ad109fa17bf031a84926b95247",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0016",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes meaning, asks about type instead of what follows."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0016\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes meaning, asks about type instead of what follows.\"}] }"
+    },
+    {
+      "review_key": "G0017",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "062db3cd4f3d8bcebaa83c6e732c30bfcf8353c06d3d738058eae8dad4fc3c3b",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0018",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "163ad00139678ab74242ef2e95fa1d9090ad8ae556e7c7102cf147aff46e626d",
+      "candidate_translation": "Was unterscheidet sich die [ENTITY_A] von?",
+      "candidate_sha256": "07fd9bafda6c5eaf7ef87cfccbc4a1d476ce1d5488225b2094e61b096bee3c85",
+      "candidate_error": null,
+      "backtranslation_en": "What's [ENTITY_A] different from?",
+      "backtranslation_sha256": "750dec2c959e01f5e263d60f09ef905fb80121404fd1780adeb190bd137bec5b",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0018",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Accurate back-translation."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0018\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Accurate back-translation.\"}] }"
+    },
+    {
+      "review_key": "G0019",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "c8fb3bb2df386f90eb57582f9d88272417976829d39cf38f34fda43a1733f517",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0020",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "65b0a333bcea1e9456a899ffd261e22ab23ebc968d152a7f2d6d43f887260b21",
+      "candidate_translation": "Qui a appris à [ENTITY_A] ?",
+      "candidate_sha256": "b46a970da997cc7b1fab743f7af01021fee4211e72abaa0638b7cb5392afe5a1",
+      "candidate_error": null,
+      "backtranslation_en": "Who taught [ENTITY_A]?",
+      "backtranslation_sha256": "65b0a333bcea1e9456a899ffd261e22ab23ebc968d152a7f2d6d43f887260b21",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0020",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Learned instead of taught."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0020\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Learned instead of taught.\"}]}"
+    },
+    {
+      "review_key": "G0021",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0022",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0023",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "4a2a97c59d1a6ac1f9bbe50ab60ad802d23fe48aad9fc0286d4be22d11bd36f1",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0024",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0025",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0026",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c268e686b06244ed02f8a9327b37d0953297376e0988993dfcefcb81fdbca92e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0027",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0028",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d00cde8fd3a1bf8d9d9c09b7c6f103a0e71e9acca66359502bb3accf30cb51f0",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0030",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "f2d483118d912263347243c2e709e6e36152c5248cf35a1cb3a888efd8ba4dfe",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0031",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0032",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0033",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0035",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "50b9b1065c3d296199e391f1583e48bf82fbd8d34b5998cfb37dafe0baa3158e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0036",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "436377b6ca9661f2bb2e24de0ce2cf604a550e4ca7b7f5849ba1383222df38fd",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0037",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c45d127389aa1d7e66d329f18390ae76276c46337d27482ccd2e46be707c1592",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0038",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "aeda6b768bef9cb6a00f2d377c5186d7d8e94a5edeaa1adb58039e9e970d1cb7",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0039",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0040",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0042",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0043",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0045",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "8b409d8894d3627faf8ad2879a5864821d6c4687fbf13c68bc7fcdf6e59465fe",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0046",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "fd70d5caf0641e02a6e0212973a78e82fb786c9071ae4e2214f136a2936e5f79",
+      "candidate_translation": "Welches Land dient [ENTITY_A]?",
+      "candidate_sha256": "fa5979a67e8e296479b011caa3040dc3281a2281cde31ccc52b4b92926ba6415",
+      "candidate_error": null,
+      "backtranslation_en": "Which country does [ENTITY_A] serve?",
+      "backtranslation_sha256": "fd70d5caf0641e02a6e0212973a78e82fb786c9071ae4e2214f136a2936e5f79",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0046",
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "Imperfect grammar."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0046\", \"semantic_pass\": true, \"fluency_pass\": false, \"reason\": \"Imperfect grammar.\"}] }"
+    },
+    {
+      "review_key": "G0047",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa",
+      "candidate_translation": "Qui est [ENTITY_A] la parente de Dieu ?",
+      "candidate_sha256": "e72c26440f02ac76ce4a50616c6ad92f7129efb280394e336844cab51dea4695",
+      "candidate_error": null,
+      "backtranslation_en": "Who is [ENTITY_A] the relative of God?",
+      "backtranslation_sha256": "db1b56c1fda9d3e8533272e0b92e7436904eacf82a4ca56a897cf027791f0285",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0047",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Incorrectly translated godparent as relative."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0047\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Incorrectly translated godparent as relative.\"}] }"
+    },
+    {
+      "review_key": "G0048",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0049",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0051",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "58f207dc8261bd767fa2421e4590e97c52ebec4ed58214c588d3aaaac72a3733",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0052",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "b750c298b8bd7368e17ae110e97989cf8c9d150b76c5ecf34ef0b23022eb9bc5",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0053",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa",
+      "candidate_translation": "Wer ist [ENTITY_A] der Pate?",
+      "candidate_sha256": "94967dfb278f0b50022bc43ef4b154d0927120c65db5c51e9013f84d6a7d4bb7",
+      "candidate_error": null,
+      "backtranslation_en": "Who is [ENTITY_A] the Father?",
+      "backtranslation_sha256": "db9c15580dd689e8acb07cc9c688f43e89f35687e15d1d1796a4feed995e400b",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0053",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation does not match original question."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0053\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation does not match original question.\"}] }"
+    },
+    {
+      "review_key": "G0054",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "ebf318b0f3984fbe028bff6ef7f21e820045f92a4cd2a181e3e6dee3922c81f4",
+      "candidate_translation": "Welches Ehrenprefix wird vor dem Namen des unverheirateten Partners des Gründers von [ENTITY_A] verwendet?",
+      "candidate_sha256": "69b21b52dc08d69ed7f784feb66894a398894c4d931782fad077b4188e1eec07",
+      "candidate_error": null,
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "decision": {
+        "error": "backtranslation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0056",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0057",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0059",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4916589718b659c343a08fb0af5ff6d197d583bfedfd6daaa66870acf63a4d09",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0060",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "aebf2f6546150d4ea989918c0d7fcf9ec8b1d4e8033cc7a494c5652995a6f7a9",
+      "candidate_translation": "D'après qui [ENTITY_A] a-t-elle été nommée ?",
+      "candidate_sha256": "80f5fdbdee1d70d05e070f1cb6d67cc758988f7d57e47e6e4780360352480a86",
+      "candidate_error": null,
+      "backtranslation_en": "Who's [ENTITY_A] named after?",
+      "backtranslation_sha256": "ab077d2f688efbe31a06b5cc2424e258c8288eabf66cdf741d19464f093d3686",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0060",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, preposition error."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0060\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, preposition error.\"}]}"
+    },
+    {
+      "review_key": "G0061",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "853f0c66bf9fe678936e5febe3dc4493abc433216d41774b7a4b374c832d6acb",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0062",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "80eb3f0cbd20caf5161e63175b1d9f4021a8bb3437fa7cc2c09d4b70bfedff5f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0063",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "824fbc02d3d38a977cba21df2f5a70bdf3c1de61b4aedfcab4ff51d0986b65b5",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0064",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ee6c37e06269bb29fc128d3757c7ca439724ebe1ef111e1305e830767294f388",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0065",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ade8bfc7e49fb47f53e47198f9fc58bb51cd94c5ae5847cf022ba1e090555553",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0069",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "candidate_translation": "Wann wurde [ENTITY_A] zum Land, in dem [ENTITY_B] ist?",
+      "candidate_sha256": "55959e9fc983b73ede3ce6be6565ff642d630b67dab420a33a43b89f1a2ce6f8",
+      "candidate_error": null,
+      "backtranslation_en": "When did [ENTITY_A] become the country [ENTITY_B] is in?",
+      "backtranslation_sha256": "a5d2ff2bdb62a9addf73dd36c142df8befb3d89635bf5f8222f7f7600d527f63",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0069",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Accurate translation, fluent German."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0069\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Accurate translation, fluent German.\"}] }"
+    },
+    {
+      "review_key": "G0070",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "2985e3177830cbc7bf50046e7433ae29e8b707fc8a1b832427ef8997ae4d2997",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0071",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "4c76cdf14a47041ca224d69380ae5431aeb6f9299bd34ef2d3f8eb350306cd70",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0074",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "40bcff194143fdbcf06ee2b03e48c3ef165426c05255871da0bbfc7f74b9a965",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0075",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "bebb2a32f9640a1bf44dd876e9830cf2da2523898eb612e098fececaa87189c1",
+      "candidate_translation": "De quelle division administrative est [ENTITY_A] la capitale ?",
+      "candidate_sha256": "efa6f4dcd0463565098f44615f9198b5e2985d0eaa264aed0444550740b0ec4e",
+      "candidate_error": null,
+      "backtranslation_en": "What administrative division is [ENTITY_A] the capital of?",
+      "backtranslation_sha256": "d0406175b1d748b280e33e3b1223b7daee60de02c543608e6f2970cea09b158e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0075",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes question direction."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0075\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes question direction.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0076",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0078",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0079",
+      "language": "de",
+      "kind": "atomic",
+      "source_sha256": "7f2ce4f575ddda68a078f93ed354fe2b291f750859bb80dbc1f7399b92544ff8",
+      "candidate_translation": "Was ersetzt [ENTITY_A]?",
+      "candidate_sha256": "2618829b49bcde63fb8a1fcfd97dbe6f992110748ea8bbee561f625d430a04b4",
+      "candidate_error": null,
+      "backtranslation_en": "What replaces [ENTITY_A]?",
+      "backtranslation_sha256": "33a7aa960c15af19f691a177f7248055323671e4734a388692bd2af53c724d60",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0079",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Reverses replacement direction."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0079\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Reverses replacement direction.\"}]}"
+    },
+    {
+      "review_key": "G0081",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0082",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "a2a7f54fa9b5752523b638d8d2879c2bf130f2c3977d62e2830d908d34445f0d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0083",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "1b7d302a4cb70ab27d1e98969f3d79e8121469c4906dc63aea575368e89e264f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0084",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0087",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7",
+      "candidate_translation": "Welche Verwaltungsgemeinschaft enthält [ENTITY_A]?",
+      "candidate_sha256": "9119e977dd4d3d49944c357791a11b109ec1d704e45b89020e9b74f3ad3019a6",
+      "candidate_error": null,
+      "backtranslation_en": "What administrative community does [ENTITY_A] contain?",
+      "backtranslation_sha256": "f91a33e1740d6eccf10368435e613882b14644c7e5410dbdeb88fa444acd45fb",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0087",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes meaning"
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\": [{\"key\": \"G0087\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes meaning\"}]}"
+    },
+    {
+      "review_key": "G0088",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ae0b329aff0fb17515f26e900ca17dfc08d6d62a02442ddcbf0c0f1342d7c5b6",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0089",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "024d137c445804ec546790cfc51bdbd094cd03ff0bde49342a438cfc33f60430",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0090",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c694d369a0846791204b20ade35fb7776b2b7072b6e49a207bef5f41163fef18",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0092",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "bce2b2ec62a9108f9e9ff7f52d8e81a11320d685804090682b5b4b304e419824",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0094",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "f3d40643457bfdcf5a26c949aade18db82c47c87167d0cbf54a12d4761db4c78",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0095",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8af29a89e57654b5a5690880a86b6152bd8534499ed92369c6613f79896cd444",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0096",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "0c08e0dcd17a7771388f959b495a93778c5b1b3d30b6433e15661c5f06427c2c",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0097",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "9cf7223a119014950e322299e877cf802e51d889248b76b32fa75a1f3c80ca49",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0098",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "87d36bcb2f7297025133e6d8b89103c8e373c2465c8f8cc27ba3490e115d3707",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0099",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0102",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d8fab2f954f106dd5f203ca65f7aa16d3343ef8403372f54c84300470ffe0331",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0103",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "59ff09fe9a0a50dc5f325bff9d8e450657d03d4a4f83eb1bde271bd4c5689617",
+      "candidate_translation": "สถานที่บริหารส่วนพื้นที่ใดอยู่ใน [ENTITY_A]?",
+      "candidate_sha256": "b132633f21e64775212243be4e5d871af2fd4a223081e7ba60f946c9709d7714",
+      "candidate_error": null,
+      "backtranslation_en": "What area is the administrative seat in [ENTITY_A]?",
+      "backtranslation_sha256": "c73b8c69fca904e1bc01026eb92baeb654c32011f7d3d08c78dacacb6dfcf72c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0103",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0103\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning.\"}] }"
+    },
+    {
+      "review_key": "G0104",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0105",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0107",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "f3dbc084a3be83957852d126534da6975eb078019154758250cd644f3eadfa83",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0108",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "bebb2a32f9640a1bf44dd876e9830cf2da2523898eb612e098fececaa87189c1",
+      "candidate_translation": "De quelle division administrative est [ENTITY_A] la capitale ?",
+      "candidate_sha256": "efa6f4dcd0463565098f44615f9198b5e2985d0eaa264aed0444550740b0ec4e",
+      "candidate_error": null,
+      "backtranslation_en": "What administrative division is [ENTITY_A] the capital of?",
+      "backtranslation_sha256": "d0406175b1d748b280e33e3b1223b7daee60de02c543608e6f2970cea09b158e",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0108",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Inversion in question structure."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0108\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Inversion in question structure.\"}] }"
+    },
+    {
+      "review_key": "G0109",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "a80d5fd1f6b58f09c3de4b63cf1c689208db2c96ecb5b85544af025a61b7da81",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: question has no protected entity placeholder",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0110",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "49c84ffee5de25f774da7847f0fdbe4c2c47901d926d7225a10c2cc25a12825f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0111",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0112",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d",
+      "candidate_translation": "Wie heißt der Direktor des Werkes, das Teil von [ENTITY_A] ist?",
+      "candidate_sha256": "7689db87fd0314abaa9bfcf3ecde94e6ffa4174e855704721db847210149d2c9",
+      "candidate_error": null,
+      "backtranslation_en": "What's the name of the director of the work that's part of [ENTITY_A]?",
+      "backtranslation_sha256": "35e097858982cd76617ffab1276896487aef9502c2389d7c2eefdc5d4aad88f0",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0112",
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "Accurate and fluent translation."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0112\", \"semantic_pass\": true, \"fluency_pass\": true, \"reason\": \"Accurate and fluent translation.\"}] }"
+    },
+    {
+      "review_key": "G0113",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "db9bd6690aa4042fcb2cad4fdf7987d97c732d47aa78265a8b6415d1cb163152",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0115",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "5ff6918f270246728a37de6f861f8d7f85ec4393455f5ff28597041a77174c3a",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0116",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "fcbd98e5e68d4887f208d3da6eb6c61b44b6d4e20134242975258372f28a4e55",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0117",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0119",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "2a2d3ca7a38b69a754bea48224249c962d4928e56f7cb89248fcda141aea362d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0120",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "19e984b58bcd9ff0749f3163e07ba195284df7ad2e2cac64efd99f06129b3337",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0121",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "bea6e4a1789082154b3d03937f2a8254ab23f2ccf25a42e97ee97ea6a58f3e54",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0122",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "86f9357fc6dced2252c978aca250a9df76a0db45e39c7f1f5a39d5b6dddab5c2",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0123",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "fe1f8234db46a3290149717617951b4d4b8a12bdea9f0ce91ddecdf8ea7f8991",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0124",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "53ade85886447fe786dd50aa5a9040a8a770312746b419477a9671fadbdb3334",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0126",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "40bc5915d1b191528ae065bc7dc3a4abb4f8fbea701555a7ee0e4b55a17311f7",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0127",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "88d2ba90720a7e54ce9bcf7d59160cf94c4d5cf396038677c2dd259b8eee3d53",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0128",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "9f74a59a5a615b967df4c564a0dcee27928ba7eed21ff109bc77891304228a87",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0130",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "019a65ddc623f4db39a6be73f2b5557019bd6cc59034fb9479fbc93138f8ab0e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0131",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "0f4230d9730a5b2a518a47e230935f240d115dd73dca719f1337c339fbc2d07d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0132",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "beff623df75ce6b1ea5bdf451b6af23d1e0bb13b09749177c317e57a455bffc2",
+      "candidate_translation": "À quelle entité [ENTITY_A] est différente ?",
+      "candidate_sha256": "096eb56ef89f1938a8f15957ea6dd32e940af39989d947df31872d1ae9b2999c",
+      "candidate_error": null,
+      "backtranslation_en": "What entity is [ENTITY_A] different from?",
+      "backtranslation_sha256": "fac81d5e937589600953de3616e10e5f76376a8569e0f35018035952b873589d",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0132",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes question direction."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0132\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes question direction.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0133",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "bb76b81ef32f868822c08966fa181084b96ac9a9a2e6f0aab31121f197786058",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0134",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2fbed2a246771de4bebff790c88be63f40f8121564c8f522907bf4d682fb0d33",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0136",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "c02be921ce228e3758e070fbab6f522b65eabfc12aa3aa87a8faf8b033a2f13d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0138",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0139",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0140",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "7357627f05a4751de36fa736d16bb9f498667aba98dfdeeb43ebdff33ecb3652",
+      "candidate_translation": "Quel travail [ENTITY_A] fait-elle ?",
+      "candidate_sha256": "0a1b23346da21e681f8d2ebd04a9a097fae6d9ee43db689ec95c2178dab1310a",
+      "candidate_error": null,
+      "backtranslation_en": "What kind of work does [ENTITY_A] do?",
+      "backtranslation_sha256": "126fedf1c2a4f400739f7f2ceeed2db9704ff3ad109fa17bf031a84926b95247",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0140",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Changes work follows to work type."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0140\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Changes work follows to work type.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0141",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "0e7b1efdc9964f3c2de4db74f30f8e29718366d1e23cf32cd3c4e8d0fd07cae5",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0142",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "f00dd396b3aa7eb45e0fa8c828f8f69332904757beb5105f01c5060b85ac42b9",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1, 'Bob': 1}, observed={'Alice': 0, 'Bob': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0143",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "ea6c12066c5e5d4362ddf559196a87d7eaf72045681fb01f7172dae808f1edd7",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0144",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "812daf11c466ee104247989e803fd1a13f130cbfce9068d35a93a705b1f13d03",
+      "candidate_translation": "À quelle date [ENTITY_A] est-elle devenue une parenté de [ENTITY_B] ?",
+      "candidate_sha256": "2e68d4b7c51d8858cbb223fd83d722bf278e87cbc2fbb7a03fce58f5c6c99fd1",
+      "candidate_error": null,
+      "backtranslation_en": "When did [ENTITY_A] become related to [ENTITY_B]?",
+      "backtranslation_sha256": "c508973bfa560563746f2ae7c72e95dbde7f569ca931849919736f75a8e58ac3",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0144",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Became related vs became relative."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0144\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Became related vs became relative.\"}] }"
+    },
+    {
+      "review_key": "G0145",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d67419d73f39ce08ff79ee60bb1a292c66f398c992235bdb561c3221fd5f118b",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0146",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "b15c1b8d075503fbfa9754b7a75476952733e4bdf6d6f6f5ce410b447f1e7d8e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0147",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d",
+      "candidate_translation": "Quel est le nom du partenaire célibataire de la sœur d'[ENTITY_A] ?",
+      "candidate_sha256": "d1ac769ab4288f74223230d28f179ddeefe182ccf7d1e42f8a0bc22c60cc1430",
+      "candidate_error": null,
+      "backtranslation_en": "What's the name of [ENTITY_A]'s sister's single partner?",
+      "backtranslation_sha256": "0be299b1ff19d7af0ac0d86bd8a0a38a3a443276c8c4b21cf37622825041006b",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0147",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Sibling's partner instead of sibling."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0147\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Sibling's partner instead of sibling.\"}] }"
+    },
+    {
+      "review_key": "G0148",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "9f856e65a2bc0b91b25fc8f6913d83a4e6b8d4b2e495422a6b5b7c7124082e4d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0149",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "421497fbcdbc4b99f23ca3191472d4c9209d3c271ebd31aa4aa236640ae127d8",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0150",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "08d3144b6aa7dd987fa3d47004376c27c2ee1d6875c32b056db35a8d47492850",
+      "candidate_translation": "Quelle langue parle le beau-père du fondateur d'[ENTITY_A] ?",
+      "candidate_sha256": "bc1f1a3136b4446c17ebc84ae3c98628b2abe26557c62d7f0323b726478927ad",
+      "candidate_error": null,
+      "backtranslation_en": "What language does [ENTITY_A]'s founder's father-in-law speak?",
+      "backtranslation_sha256": "8f6db28fb63b0d247e49101ac05a5d7539e8305ad0eff18c5baf23460f1d1112",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0150",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Father-in-law instead of stepfather."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0150\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Father-in-law instead of stepfather.\"}] }"
+    },
+    {
+      "review_key": "G0152",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "51db6cc2d48c969bb0acb315ea6602b949d57538f98f2d079ce2522f6eb6ec0e",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0153",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "fbda3cc4a41427d98e40975c501c267d240405c0f6d77ddf273aeacf79b78fc3",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0154",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0155",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "6f082819d06a3da318f95cbb2faf10cb90d15fba8b3a4296585da530bf5cdf51",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0156",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0157",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "d4b0e8229adbcefe64a3cc2b1e4cecb32231228733280a47ddf508980b2ce227",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0158",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "308e8320ee49c7236bb3e01e37be87253136b05e6a53d4a28cb5393930f3a963",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0159",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "59ff09fe9a0a50dc5f325bff9d8e450657d03d4a4f83eb1bde271bd4c5689617",
+      "candidate_translation": "สถานที่บริหารส่วนพื้นที่ใดอยู่ใน [ENTITY_A]?",
+      "candidate_sha256": "b132633f21e64775212243be4e5d871af2fd4a223081e7ba60f946c9709d7714",
+      "candidate_error": null,
+      "backtranslation_en": "What area is the administrative seat in [ENTITY_A]?",
+      "backtranslation_sha256": "c73b8c69fca904e1bc01026eb92baeb654c32011f7d3d08c78dacacb6dfcf72c",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0159",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation changes original meaning."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0159\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation changes original meaning.\"}] }"
+    },
+    {
+      "review_key": "G0160",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "c7ec37291772df112500b54ac34bf5b428b1845ec8876ea201626ec83ed74efa",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0161",
+      "language": "fr",
+      "kind": "composition",
+      "source_sha256": "125a15bb42d077032933af4a690932c4e2ed28f9f72b162d050c24b1735f3354",
+      "candidate_translation": "Qui est le père de la personne qui intéresse le partenaire célibataire d'[ENTITY_A] ?",
+      "candidate_sha256": "fe675bb10a37f9f96048a17f56374add258b9f448a36ec4a2d82ddefdedf727d",
+      "candidate_error": null,
+      "backtranslation_en": "Who's the father of the person who's interested in [ENTITY_A]'s single partner?",
+      "backtranslation_sha256": "98e715cf784217dd502ea2ae8ac1aaba4aac5a789c65ba3ace432023ec66d573",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0161",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Reverses subject and object."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0161\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Reverses subject and object.\"}]}\n\n"
+    },
+    {
+      "review_key": "G0162",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "2898f04f6c74ba74bb03602d544e0c639131e45fb7b281cbcfc4cdd70dd731cf",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0163",
+      "language": "hi",
+      "kind": "composition",
+      "source_sha256": "c551fde6db8cc98584b384ab4a5a37f9f7a12ec03fc0152a0bdc6617d0fd3568",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0164",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "be8c75bee8fb72e322a3f928117623b10970d139a939894f9067395eabb784ef",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0166",
+      "language": "de",
+      "kind": "composition",
+      "source_sha256": "de1d61bf0ba9c033a18439a8574231c18d5ea5f38cafd9e270786637198c0225",
+      "candidate_translation": "Wer ist der Pate von [ENTITY_A]?",
+      "candidate_sha256": "b8291ce68ad50dc8b8f8cfa3a8554aa3790cd328d44ae62e1d70cc456128c33a",
+      "candidate_error": null,
+      "backtranslation_en": "Who is [ENTITY_A]'s father?",
+      "backtranslation_sha256": "e62ee5cb962c519c9772ae28f1d68b8eb1bd4ff8ea68b633ce5ed6e5c9ce4d3a",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0166",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Back-translation mismatch, godparent to father."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0166\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Back-translation mismatch, godparent to father.\"}] }"
+    },
+    {
+      "review_key": "G0167",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "8eb776190396def0a1512c8e95492355e499fb3926c8666c7374a8a15fa7786a",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0168",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "30cf3344d557d62f5aa07e913bb70cbde1b42e1be2ed0a83b95563a0dd0a9b84",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0169",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "d553be0cf5c2b34094d93d027e67f828bc1ee5b8f93688eac392ace85d5615b3",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0170",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "9057de70dab9c51a7c178596b9ffba7596ed70a506bda89812f81ab0c20abf72",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0171",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "0d2a9322caeb827982881d956a0856546bc67cb67f90ff06a68081554c35b1a6",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0173",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "7741690804e17b669eec271a509f2254e49a53f191f6312354d09efb5e3783f3",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0174",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "8bb75282dd9a9d291e954d461798de3a3f698a72f7be66ff39cbc77b73a0a21a",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0176",
+      "language": "fr",
+      "kind": "atomic",
+      "source_sha256": "8dcea9bcb374df5851e2c45dfa9b4e4c1a57fc433f2662c0a091aaec4606b43e",
+      "candidate_translation": "En quelle année [ENTITY_A] a-t-elle été l'architecte de [ENTITY_B] ?",
+      "candidate_sha256": "cc311566df3531f3cedb3dce01cc0949b5ea8a0340029565eb4883f81406df8a",
+      "candidate_error": null,
+      "backtranslation_en": "What year was [ENTITY_A] [ENTITY_B]'s architect?",
+      "backtranslation_sha256": "2563477f2c03de18be77899dc3c6629bf65a13637033c10c1e89a3672e0c2be1",
+      "backtranslation_error": null,
+      "decision": {
+        "key": "G0176",
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "Missing 'the' before 'architect'."
+      },
+      "judge_attempts": [
+        {
+          "max_new_tokens": 128,
+          "status": "VALID"
+        }
+      ],
+      "raw_output": "{\"decisions\":[{\"key\": \"G0176\", \"semantic_pass\": false, \"fluency_pass\": true, \"reason\": \"Missing 'the' before 'architect'.\"}] }"
+    },
+    {
+      "review_key": "G0179",
+      "language": "th",
+      "kind": "atomic",
+      "source_sha256": "ad59a10eb0e332fd3f3e95063e3b4b204b0b4901814f36a9b1b8162a736ebb88",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0180",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "85b07ae29feb77b86207316209f477538463b6cf8d525e8a0c00f6db4be7ff5d",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0181",
+      "language": "hi",
+      "kind": "atomic",
+      "source_sha256": "13b23b5f77210d0dc38ac38b33908774a09bc0f9eb41ce7e98b31d5d998c4b8c",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0183",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "56e6456bbcc362df40e93f2dbd2b903e3b95be8481e93b1d0f79f4bf7f84c8d6",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    },
+    {
+      "review_key": "G0185",
+      "language": "th",
+      "kind": "composition",
+      "source_sha256": "88c868a62ce5d0bb1a343aba5612c60134c0454b2869c00ad9aa93f97f17b96f",
+      "candidate_translation": "",
+      "candidate_sha256": null,
+      "candidate_error": "ValueError: placeholder alias counts changed: expected={'Alice': 1}, observed={'Alice': 0}",
+      "backtranslation_en": "",
+      "backtranslation_sha256": null,
+      "backtranslation_error": null,
+      "decision": {
+        "error": "candidate_translation_failed; judgment withheld"
+      },
+      "judge_attempts": [],
+      "raw_output": null
+    }
+  ],
+  "started_at_utc": "2026-11-05T05:55:15.400369+00:00",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "bitsandbytes": "0.50.2",
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "quantization": "Qwen NF4 double quantization, float16 compute",
+  "human_translation_reviewed": false,
+  "answers_or_split_labels_included": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "completed_at_utc": "2026-11-05T06:03:25.737896+00:00",
+  "reviewed_rows": 23,
+  "blocked_rows": 125,
+  "candidate_rows": 24
+}

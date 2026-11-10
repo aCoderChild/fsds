@@ -1,0 +1,82 @@
+{
+  "archive": {
+    "bytes": 225656337,
+    "crc": "PASS",
+    "duplicate_entries": 0,
+    "file": "r1_composition_retainfix_verified_results_20261103_v3.zip",
+    "sha256": "48b800312c8c43dee14fdf8d0384a2153b4317c253d7de1228d4c81f2697ab43",
+    "zip_entries": 78
+  },
+  "artifact_index": {
+    "all_sizes_and_sha256_pass": true,
+    "indexed_files": 77
+  },
+  "created_utc": "2026-11-04",
+  "inputs": {
+    "evaluation_manifest_sha256": "ef09048023ff9ac50464a71fd4379dd1b944e3770e5a4674ae24817af8f32ae4",
+    "evaluator_sha256": "038298efc274c331bc33e141afc68ba629ff705b24db57d6138fcaf26b6abb70",
+    "generation_failures": 0,
+    "labels_sha256": "4dc50d9294afd3432507567dd83c110e830321681d52a4e3b76eb184e1db98a4",
+    "prediction_rows": 7740,
+    "predictions_sha256": "8ee0d894bd41cc1281b9b98bd8d19ad0e9ed2f6886735133dff24a678de8b8fe",
+    "rows_per_model": {
+      "GA": 1290,
+      "GD": 1290,
+      "NPO": 1290,
+      "pretrained": 1290,
+      "retain_only": 1290,
+      "sft": 1290
+    },
+    "unique_prediction_keys": 7740
+  },
+  "recompute": {
+    "command_options": [
+      "--score-only",
+      "--bootstrap",
+      "2000",
+      "--contrast-model",
+      "GA",
+      "--contrast-model",
+      "GD",
+      "--contrast-model",
+      "NPO"
+    ],
+    "contrast_rows": 36,
+    "matched_derived_outputs": {
+      "case_metrics.jsonl": {
+        "matches": true,
+        "sha256": "786a8fc9646e6ec3ef1bb1a42cb62eed197164e8bda8a2537d75e7249661dcb9"
+      },
+      "cross_language_contrasts.csv": {
+        "matches": true,
+        "sha256": "a9d78e99cb47d9c653e3c0709622ba4d19b2ae04936af6c3a55ef8a00c0217a7"
+      },
+      "cross_language_contrasts.json": {
+        "matches": true,
+        "sha256": "18ca37c1b6e15bbc8c2eecd4f34ef9143c6069b806848dce4134f84b3528b3c9"
+      },
+      "diagnostic_report.md": {
+        "matches": true,
+        "sha256": "2e0a27d6ea494b818f442c3a4c6280f395cf829b489fabf06a3b1b043edb89de"
+      },
+      "scored_predictions.jsonl": {
+        "matches": true,
+        "sha256": "e1204f880179e02f7b632ef15ed8f4075fd55881c130dc7ec85e8e5e0306914b"
+      },
+      "summary.csv": {
+        "matches": true,
+        "sha256": "385622df013d4df375f5dfe7410143dff12e4b39bdf7a89cae5dd1a603ec380f"
+      },
+      "summary.json": {
+        "matches": true,
+        "sha256": "bbef17e1282ed07689c65a359da60e31ece8161af866d099374659d3cf096958"
+      }
+    }
+  },
+  "scope_limits": [
+    "This verifies archive integrity and deterministic rescoring of an exploratory one-seed v4 run.",
+    "It does not validate translation quality, model-training provenance, competence-gate sufficiency, or the v5.1 dataset release.",
+    "The archived evaluator emits extra baseline contrasts if --contrast-model filters are omitted; the reproducible reported primary table uses GA/GD/NPO only."
+  ],
+  "status": "INDEPENDENT_RESCORING_AND_ARCHIVE_CHECKS_PASS"
+}

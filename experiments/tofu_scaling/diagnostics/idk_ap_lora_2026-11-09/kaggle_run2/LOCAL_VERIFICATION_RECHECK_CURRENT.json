@@ -1,0 +1,30 @@
+{
+  "status": "PASS_ARTIFACT_AND_RESULT_RECOMPUTATION",
+  "protocol_id": "tofu_3b_idk_ap_lora_profile_diagnostic_v1",
+  "protocol_sha256": "650af06eed1d254cfdd2b47714299686925cea47b5b2675edb7c07674b01c049",
+  "run_status": "FAIL_DIAGNOSTIC_GATES",
+  "cohorts_verified": [
+    "dev",
+    "final"
+  ],
+  "hardware_provenance": {
+    "status": "RECONCILED_FROM_COHORT_TRAINING_RECEIPTS",
+    "gpu_names_by_cohort": {
+      "dev": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "final": [
+        "Tesla T4",
+        "Tesla T4"
+      ]
+    }
+  },
+  "artifact_archive": {
+    "bytes": 186305204,
+    "sha256": "0eb6f7ee9f34fef1aa5497ba068d3f691ed92ada9ea04105174c02654995bdb3",
+    "crc": "PASS"
+  },
+  "problems": [],
+  "verified_at_utc": "2026-11-09T07:50:37.946790+00:00"
+}

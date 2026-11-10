@@ -1,0 +1,124 @@
+{
+  "answers_sent_to_reviewer": false,
+  "completed_at_utc": "2026-11-03T15:08:59.222728+00:00",
+  "created_at_utc": "2026-11-03T15:07:37.304801+00:00",
+  "decisions_checkpoint_sha256": "5c844f52a83a0fc19f9c1fc28fe415ebcafe6e1bb11a943a7094f96b2cf43908",
+  "decisions_sha256": "5c844f52a83a0fc19f9c1fc28fe415ebcafe6e1bb11a943a7094f96b2cf43908",
+  "deterministic_passes": 32,
+  "diagnostic_translation_successes": 32,
+  "errors": 0,
+  "human_translation_reviewed": false,
+  "limits": [
+    "This run creates repair candidates only; it does not modify source translations or release manifests.",
+    "Qwen2.5 7B review is AI-only and does not certify fluent-human translation quality.",
+    "A passing repair candidate is not automatically eligible for training; the frozen release review must be rerun."
+  ],
+  "per_language_kind": {
+    "de": {
+      "atomic": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 4,
+        "selected": 4,
+        "translated": 4
+      },
+      "composition": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 4,
+        "selected": 4,
+        "translated": 4
+      }
+    },
+    "fr": {
+      "atomic": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 2,
+        "selected": 4,
+        "translated": 4
+      },
+      "composition": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 3,
+        "selected": 4,
+        "translated": 4
+      }
+    },
+    "hi": {
+      "atomic": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 4,
+        "selected": 4,
+        "translated": 4
+      },
+      "composition": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 3,
+        "selected": 4,
+        "translated": 4
+      }
+    },
+    "th": {
+      "atomic": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 3,
+        "selected": 4,
+        "translated": 4
+      },
+      "composition": {
+        "deterministic_pass": 4,
+        "errors": 0,
+        "qwen_pass": 1,
+        "selected": 4,
+        "translated": 4
+      }
+    }
+  },
+  "processed_rows": 32,
+  "qwen_passes": 24,
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "script_sha256": "f5f6c82d8b253f72f998633d9d59f26b94e1da49065447c9511f545ca2399cdf",
+  "selected_by_language": {
+    "de": 8,
+    "fr": 8,
+    "hi": 8,
+    "th": 8
+  },
+  "selected_rows": 32,
+  "selection_rule": "first 4 final-review flagged rows per language/kind in stable hash order",
+  "source": {
+    "final_review_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+    "final_review_sha256_by_language": {
+      "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "hi": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "th": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+    },
+    "helper_scripts_sha256": {
+      "scripts/draft_eval_translations_nllb.py": "2d62a0f6dca9c859a404ac28f2faed222973f6c6cf5c27c87e112956992ebd7c",
+      "scripts/repair_flagged_eval_translations_translategemma.py": "2419eaa909157eb505d3722134f53564ef36606145025e281a16e0e73ce7884e",
+      "training_release_draft/scripts/assemble_training_release.py": "47927438bac532794352337ea3b2c3257cb31eb0d07d42c955846f8d93d62f26",
+      "training_release_draft/scripts/review_training_translations_qwen.py": "2b324e8e015ec5f6b3e5638677b88a5aeea01fb24002fb79342680595fcdfedf"
+    },
+    "limit_per_cell": 4,
+    "model_digests": {
+      "qwen2.5:7b-instruct": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "translategemma:4b": "c49d986b0764f5881c476eb21435bb62b7abc62347aab3d4a6071e811be510a1"
+    },
+    "review_report_sha256": "b5cdfcf944366f64b3e6110d412e78b2c2b3b53380400e020f98df96e45b41d6",
+    "review_sha256_by_language": {
+      "de": "e3850e8d4b5600985a20a7f5517b571cb832f20db0057f776bdcd7c67c78af9f",
+      "fr": "871bdf0f91de439e2e67d1e95d10e2e4db895d6b0a8e061a19a7deab29e7b469",
+      "hi": "0cc789e1a46c99e3ef03e8827694e055c7d45820a44dd3cfce11da2e0063cfbb",
+      "th": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb"
+    }
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW",
+  "translator_model": "ollama:translategemma:4b",
+  "updated_at_utc": "2026-11-03T15:08:59.222142+00:00"
+}

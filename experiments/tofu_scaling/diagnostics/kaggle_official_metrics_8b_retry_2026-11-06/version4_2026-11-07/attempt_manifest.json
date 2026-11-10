@@ -1,0 +1,32 @@
+{
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_kernel_version": 4,
+  "observed_at_utc": "2026-11-07T02:45:53.336909+00:00",
+  "status": "ERROR",
+  "configured_gpu_memory_cap_gib_per_t4": 13,
+  "device_map_component_counts": {
+    "0": 1,
+    "1": 31,
+    "cpu": 4
+  },
+  "cpu_offloaded_modules": [
+    "model.layers.31",
+    "model.norm",
+    "model.rotary_emb",
+    "lm_head"
+  ],
+  "error": "RuntimeError: 8B placement used CPU/disk offload ['cpu']; refusing a slow, unbounded evaluation",
+  "stopped_before_generation_smoke_or_scoring": true,
+  "verified_3b_outputs_retained": true,
+  "training_started": false,
+  "files": {
+    "official_eval_status.json": {
+      "sha256": "f862fc2b370648f2705962d1a0a7c9f67464226cef12af96a921fa70a8ad302e",
+      "bytes": 1578
+    },
+    "kaggle_kernel.log": {
+      "sha256": "9d0ea74781bb5338bc16f2d269fa631b7e8ba1cd232511187c5e4701c8bcb18f",
+      "bytes": 28587
+    }
+  }
+}

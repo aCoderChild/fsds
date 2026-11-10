@@ -1,0 +1,41 @@
+{
+  "answers_or_gold_labels_sent": false,
+  "created_at_utc": "2026-11-03T09:20:15.999004+00:00",
+  "decision_counts": {
+    "de": {
+      "fluency_pass": 4,
+      "semantic_pass": 2
+    },
+    "fr": {
+      "fluency_pass": 4,
+      "semantic_pass": 4
+    },
+    "hi": {
+      "fluency_pass": 4,
+      "semantic_pass": 4
+    },
+    "th": {
+      "fluency_pass": 4,
+      "semantic_pass": 4
+    }
+  },
+  "limitations": "Small diagnostic sample only; not release approval, not human fluency review, and not an experiment result.",
+  "model": "ollama:translategemma:4b",
+  "ollama_done_reason": "stop",
+  "sample_decisions_sha256": "554039980cc3c9788e44a2cc354364ef688dbfea4fadac738387b4221312f1ad",
+  "sample_n": 16,
+  "sample_n_by_language": {
+    "de": 4,
+    "fr": 4,
+    "hi": 4,
+    "th": 4
+  },
+  "selection_rule": "first four flagged candidates per language after stable SHA-256 ordering; FR/DE/HI from completed/partial Qwen14B review, TH from first-stage screen",
+  "source_review_sha256_by_language": {
+    "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+    "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+    "hi": "d30933b75b196ca20ab8fb8abce8ed606887ce6c17f05fbf11a8f59d69731970",
+    "th": "ab0975353f2ac541e0836519ababed6a249b89214093c396b47ca86f496b8ddb"
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE_REVIEW"
+}

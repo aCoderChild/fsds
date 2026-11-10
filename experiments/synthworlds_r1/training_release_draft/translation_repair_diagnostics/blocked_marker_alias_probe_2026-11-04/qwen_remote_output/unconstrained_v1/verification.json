@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED_BLINDED_QWEN_RECHECK_DIAGNOSTIC_ONLY",
+  "release_approved": false,
+  "training_eligible": false,
+  "rows": 31,
+  "counts": {
+    "MALFORMED_BLOCKED": 31
+  },
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "a6f92f97f954ab8392133d2c6501753c8d2dbdb63f2fc8582451de03418c1658",
+  "submitted_script_sha256": "f5a87f9f4a878aa6219d5feeac69f17ec4b9cbdcb49d96daeeab87a1ecd5daf2",
+  "pulled_script_sha256": "f5a87f9f4a878aa6219d5feeac69f17ec4b9cbdcb49d96daeeab87a1ecd5daf2",
+  "output_sha256": "6cfd2298bb2302561ac4732e4f74029d1c351241e9676658ea58f50fb27872be",
+  "human_translation_reviewed": false,
+  "answers_or_splits_sent": false,
+  "interpretation": "Hash-bound AI-only semantic/fluency judgments; no translation release approval."
+}

@@ -1,0 +1,134 @@
+{
+  "languages": {
+    "de": {
+      "final_status_counts": {
+        "AI_ONLY_14B_ADJUDICATED_PASS": 112,
+        "AI_ONLY_REVIEW_FLAGGED": 179,
+        "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 197
+      },
+      "flagged_rows": 179,
+      "missing_or_failed_backtranslation_checks_among_flags": 1,
+      "qwen14_both_fields_pass_but_row_flagged": [
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0169-qa-sm:r2"
+        }
+      ],
+      "qwen14_fluency_rejection_among_flags": 21,
+      "qwen14_semantic_rejection_among_flags": 163,
+      "review_file_sha256": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "rows": 488,
+      "target_deterministic_integrity_failures_among_flags": 0
+    },
+    "fr": {
+      "final_status_counts": {
+        "AI_ONLY_14B_ADJUDICATED_PASS": 90,
+        "AI_ONLY_REVIEW_FLAGGED": 164,
+        "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 234
+      },
+      "flagged_rows": 164,
+      "missing_or_failed_backtranslation_checks_among_flags": 0,
+      "qwen14_both_fields_pass_but_row_flagged": [],
+      "qwen14_fluency_rejection_among_flags": 15,
+      "qwen14_semantic_rejection_among_flags": 152,
+      "review_file_sha256": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "rows": 488,
+      "target_deterministic_integrity_failures_among_flags": 0
+    },
+    "hi": {
+      "final_status_counts": {
+        "AI_ONLY_14B_ADJUDICATED_PASS": 82,
+        "AI_ONLY_REVIEW_FLAGGED": 200,
+        "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 206
+      },
+      "flagged_rows": 200,
+      "missing_or_failed_backtranslation_checks_among_flags": 13,
+      "qwen14_both_fields_pass_but_row_flagged": [
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0168-qa-sm:r2"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0169-qa-sm:r1"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0187-qa-sm:r2"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0034-qa-sm:r2"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "composition",
+          "prompt_id": "disjoint-b:0238-qa-sm:multi"
+        }
+      ],
+      "qwen14_fluency_rejection_among_flags": 3,
+      "qwen14_semantic_rejection_among_flags": 193,
+      "review_file_sha256": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "rows": 488,
+      "target_deterministic_integrity_failures_among_flags": 0
+    },
+    "th": {
+      "final_status_counts": {
+        "AI_ONLY_14B_ADJUDICATED_PASS": 78,
+        "AI_ONLY_REVIEW_FLAGGED": 256,
+        "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 154
+      },
+      "flagged_rows": 256,
+      "missing_or_failed_backtranslation_checks_among_flags": 4,
+      "qwen14_both_fields_pass_but_row_flagged": [
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0010-qa-sm:r2"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0014-qa-sm:r2"
+        },
+        {
+          "backtranslation_checks": {},
+          "kind": "atomic",
+          "prompt_id": "0034-qa-sm:r2"
+        }
+      ],
+      "qwen14_fluency_rejection_among_flags": 4,
+      "qwen14_semantic_rejection_among_flags": 249,
+      "review_file_sha256": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "rows": 488,
+      "target_deterministic_integrity_failures_among_flags": 0
+    }
+  },
+  "limitations": [
+    "Reviewer pass/fail labels are not gold translation judgments.",
+    "Flag-reason counts overlap; do not sum them as mutually exclusive rows.",
+    "A missing back-translation is an integrity/review blocker, while a semantic or fluency rejection may be a false positive or a true translation defect."
+  ],
+  "source_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+  "status": "VERIFIED_FLAG_REASON_COUNTS_ONLY_NOT_TRANSLATION_TRUTH",
+  "totals": {
+    "final_status_counts": {
+      "AI_ONLY_14B_ADJUDICATED_PASS": 362,
+      "AI_ONLY_REVIEW_FLAGGED": 799,
+      "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 791
+    },
+    "flagged_rows": 799,
+    "missing_or_failed_backtranslation_checks_among_flags": 18,
+    "qwen14_both_fields_pass_but_row_flagged": 9,
+    "qwen14_fluency_rejections_among_flags": 43,
+    "qwen14_semantic_rejections_among_flags": 757,
+    "rows": 1952,
+    "target_deterministic_integrity_failures_among_flags": 0,
+    "unique_language_prompt_keys": 1952
+  }
+}

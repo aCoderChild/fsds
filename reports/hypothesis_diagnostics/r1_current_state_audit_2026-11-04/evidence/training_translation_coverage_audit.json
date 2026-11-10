@@ -1,0 +1,150 @@
+{
+  "atomic_cases": {
+    "currently_flagged_candidate_rows_needed_per_case_histogram": {
+      "forget": {
+        "0": 5,
+        "1": 17,
+        "2": 26,
+        "3": 11,
+        "4": 25,
+        "5": 20,
+        "6": 10,
+        "7": 2,
+        "8": 1
+      },
+      "holdout": {},
+      "retain": {
+        "0": 3,
+        "1": 8,
+        "2": 3,
+        "3": 8,
+        "4": 8,
+        "5": 7,
+        "6": 1,
+        "7": 1
+      }
+    },
+    "eligible_by_split": {
+      "forget": 5,
+      "retain": 3
+    },
+    "eligible_total": 8,
+    "required_by_split": {
+      "forget": 117,
+      "retain": 39
+    },
+    "source_total_by_split": {
+      "forget": 117,
+      "retain": 39
+    }
+  },
+  "composition_chains": {
+    "currently_flagged_candidate_rows_needed_per_chain_histogram": {
+      "2": 1,
+      "3": 4,
+      "4": 5,
+      "5": 8,
+      "6": 6,
+      "7": 4,
+      "8": 3,
+      "9": 2,
+      "10": 7,
+      "11": 1,
+      "12": 3
+    },
+    "eligible": 0,
+    "required": 44,
+    "source_total": 44
+  },
+  "final_pass_rows_by_language": {
+    "de": 309,
+    "fr": 324,
+    "hi": 288,
+    "th": 232
+  },
+  "final_review_statuses_by_language": {
+    "de": {
+      "AI_ONLY_14B_ADJUDICATED_PASS": 112,
+      "AI_ONLY_REVIEW_FLAGGED": 179,
+      "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 197
+    },
+    "fr": {
+      "AI_ONLY_14B_ADJUDICATED_PASS": 90,
+      "AI_ONLY_REVIEW_FLAGGED": 164,
+      "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 234
+    },
+    "hi": {
+      "AI_ONLY_14B_ADJUDICATED_PASS": 82,
+      "AI_ONLY_REVIEW_FLAGGED": 200,
+      "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 206
+    },
+    "th": {
+      "AI_ONLY_14B_ADJUDICATED_PASS": 78,
+      "AI_ONLY_REVIEW_FLAGGED": 256,
+      "AI_ONLY_TWO_MODEL_ROUNDTRIP_PASS": 154
+    }
+  },
+  "generated_at_utc": "2026-11-04T16:04:09.994954+00:00",
+  "human_translation_reviewed": false,
+  "input_receipts": {
+    "adjudication_report_sha256": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+    "adjudication_rows_sha256_by_language": {
+      "de": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "fr": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "hi": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "th": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5"
+    },
+    "audit_script_sha256": "648821ced7ce62e742e3b6024fd3bc8303d0da8ce64a814f63c0e9b4ecc8c4b6",
+    "source_files_sha256": {
+      "atomic_reuse.jsonl": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "atomic_translation_requests.jsonl": "b3caefe291ef1303bdb74b22cfa4b0ecfc4f697a27cfe150a8de225ee32bac40",
+      "composition_reuse.jsonl": "4a71ff1689ca092acbf2901ae6f5020e767a206a942705f52d73337abf8a2382",
+      "composition_translation_review_queue.jsonl": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3"
+    }
+  },
+  "limitations": [
+    "AI-only translation review is not fluent-human certification.",
+    "Coverage is computed at whole-case/whole-chain granularity across all four target languages.",
+    "A failed translation-coverage gate does not estimate model competence or unlearning effects."
+  ],
+  "release_approved": false,
+  "repair_coverage_requirement": {
+    "all_candidate_rows_required_for_full_frozen_coverage": 799,
+    "all_rows_required": true,
+    "candidate_rows_available": 799,
+    "source_bound_pending_review_input": {
+      "embedded_input_compact_array_sha256": "14fd830ce6a8733b0e808b46a7f783aac9d1da14be2d30d58e5d26f4606d8a29",
+      "flagged_rows_by_language": {
+        "de": 179,
+        "fr": 164,
+        "hi": 200,
+        "th": 256
+      },
+      "input_jsonl_sha256": "78d838b59d2d12714d0141b5dc012e79fbb80f35698b9b8eb7a81912f6ebb8b7",
+      "input_manifest_sha256": "464100f980ba503183ee77c377da6483be242b86553b3e390be7de1fb3c201ee",
+      "launch_manifest_sha256": "083daecdcf2d36aa280d4b803fe5a7a9ea911ff7090aef7b040280d9e031a7e7",
+      "private_map_sha256": "dc7fd5a82f2dae4c49d9512fddfcf4bc32a4ee315379ef4d5f180476732fbc98",
+      "review_script_sha256": "4e30ed92f6e53de59b48e15e017adf8119f9ae62d2850935ff9ca1928a4d3993",
+      "rows": 799,
+      "status": "PASS_EXACT_FULL799_SUBMITTED_INPUT_AND_SOURCE_RECEIPTS"
+    }
+  },
+  "review_rows_by_language": {
+    "de": 488,
+    "fr": 488,
+    "hi": 488,
+    "th": 488
+  },
+  "review_rows_verified": 1952,
+  "reviewer_script_provenance": {
+    "current_script_sha256": "2d9d3c0a1b4494c1d8e5307040d4084c3935cc9ef9362e1a5ef7951257ba3867",
+    "legacy_root_resolves_to_canonical_project": true,
+    "only_source_change": "V51 root assignment from data/synthworlds_sm_pilot_v5_1 to experiments/synthworlds_r1",
+    "reconstructed_legacy_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "recorded_script_sha256": "3f9884a07077d74123a4412c5ed789b0988d59825624a6143476d21bd1a3eedd",
+    "status": "PASS_EXACT_LEGACY_ROOT_PATH_ALIAS"
+  },
+  "status": "TRANSLATION_COVERAGE_FAIL_SOURCE_BOUND_REVIEW_VERIFIED",
+  "training_eligible": false,
+  "translation_review_mode": "AI_ONLY"
+}

@@ -1,0 +1,63 @@
+[{"stream_name":"stderr","time":18.209986946,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.210039553,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.210047583,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.210052937,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.210058191,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":61.657153266,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":61.657191783,"data":"I0000 00:00:1793800117.742294       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":96.927992358,"data":"Backtranslated 1/16\n"}
+,{"stream_name":"stdout","time":97.520737719,"data":"Backtranslated 2/16\n"}
+,{"stream_name":"stdout","time":97.860786169,"data":"Backtranslated 3/16\n"}
+,{"stream_name":"stdout","time":98.241117538,"data":"Backtranslated 4/16\n"}
+,{"stream_name":"stdout","time":98.564545607,"data":"Backtranslated 5/16\n"}
+,{"stream_name":"stdout","time":99.218430081,"data":"Backtranslated 6/16\n"}
+,{"stream_name":"stdout","time":99.779172752,"data":"Backtranslated 7/16\n"}
+,{"stream_name":"stdout","time":100.140148143,"data":"Backtranslated 8/16\n"}
+,{"stream_name":"stdout","time":100.501847423,"data":"Backtranslated 9/16\n"}
+,{"stream_name":"stdout","time":100.907811566,"data":"Backtranslated 10/16\n"}
+,{"stream_name":"stdout","time":101.501374704,"data":"Backtranslated 11/16\n"}
+,{"stream_name":"stdout","time":101.861835711,"data":"Backtranslated 12/16\n"}
+,{"stream_name":"stdout","time":102.259337821,"data":"Backtranslated 13/16\n"}
+,{"stream_name":"stdout","time":102.847119067,"data":"Backtranslated 14/16\n"}
+,{"stream_name":"stdout","time":103.476956729,"data":"Backtranslated 15/16\n"}
+,{"stream_name":"stdout","time":103.882801333,"data":"Backtranslated 16/16\n"}
+,{"stream_name":"stderr","time":232.720075081,"data":"\rFetching 8 files:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rFetching 8 files:  12%|█▎        | 1/8 [01:56\u003c13:36, 116.71s/it]\rFetching 8 files:  25%|██▌       | 2/8 [01:57\u003c04:51, 48.55s/it] \rFetching 8 files:  38%|███▊      | 3/8 [01:58\u003c02:13, 26.63s/it]\rFetching 8 files:  50%|█████     | 4/8 [02:06\u003c01:18, 19.63s/it]\rFetching 8 files: 100%|██████████| 8/8 [02:06\u003c00:00, 15.87s/it]\n"}
+,{"stream_name":"stderr","time":238.784902579,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":344.382957481,"data":"\rLoading checkpoint shards:   0%|          | 0/8 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  12%|█▎        | 1/8 [00:13\u003c01:34, 13.50s/it]\rLoading checkpoint shards:  25%|██▌       | 2/8 [00:23\u003c01:07, 11.32s/it]\rLoading checkpoint shards:  38%|███▊      | 3/8 [00:35\u003c00:59, 11.84s/it]\rLoading checkpoint shards:  50%|█████     | 4/8 [00:50\u003c00:51, 12.98s/it]\rLoading checkpoint shards:  62%|██████▎   | 5/8 [01:06\u003c00:41, 13.98s/it]\rLoading checkpoint shards:  75%|███████▌  | 6/8 [01:22\u003c00:29, 14.63s/it]\rLoading checkpoint shards:  88%|████████▊ | 7/8 [01:38\u003c00:15, 15.04s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 12.53s/it]\rLoading checkpoint shards: 100%|██████████| 8/8 [01:45\u003c00:00, 13.15s/it]\n"}
+,{"stream_name":"stderr","time":349.803226528,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":349.803266672,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":349.803271858,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":349.803276326,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":349.803279781,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":349.803284397,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":358.909127655,"data":"Reviewed 1/16\n"}
+,{"stream_name":"stdout","time":358.909572294,"data":"Reviewed 2/16\n"}
+,{"stream_name":"stdout","time":366.841350518,"data":"Reviewed 3/16\n"}
+,{"stream_name":"stdout","time":375.490294501,"data":"Reviewed 4/16\n"}
+,{"stream_name":"stdout","time":382.703826134,"data":"Reviewed 5/16\n"}
+,{"stream_name":"stdout","time":382.704242222,"data":"Reviewed 6/16\n"}
+,{"stream_name":"stdout","time":389.737090858,"data":"Reviewed 7/16\n"}
+,{"stream_name":"stdout","time":398.04777224,"data":"Reviewed 8/16\n"}
+,{"stream_name":"stdout","time":407.704065958,"data":"Reviewed 9/16\n"}
+,{"stream_name":"stdout","time":415.53533285,"data":"Reviewed 10/16\n"}
+,{"stream_name":"stdout","time":425.98754871,"data":"Reviewed 11/16\n"}
+,{"stream_name":"stdout","time":432.970096009,"data":"Reviewed 12/16\n"}
+,{"stream_name":"stdout","time":441.839396718,"data":"Reviewed 13/16\n"}
+,{"stream_name":"stdout","time":441.839709371,"data":"Reviewed 14/16\n"}
+,{"stream_name":"stdout","time":450.444612407,"data":"Reviewed 15/16\n"}
+,{"stream_name":"stdout","time":460.464364175,"data":"Reviewed 16/16\n"}
+,{"stream_name":"stdout","time":460.464843176,"data":"{\n"}
+,{"stream_name":"stdout","time":460.46485814,"data":"  \"status\": \"AI_ONLY_REPAIR_REVIEW_HAS_BLOCKED_ROWS\",\n"}
+,{"stream_name":"stdout","time":460.4648661,"data":"  \"input_rows\": 16,\n"}
+,{"stream_name":"stdout","time":460.464874921,"data":"  \"reviewed_rows\": 13,\n"}
+,{"stream_name":"stdout","time":460.464878419,"data":"  \"blocked_rows\": 3,\n"}
+,{"stream_name":"stdout","time":460.464881751,"data":"  \"gpu\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":460.464885183,"data":"  \"quantization\": \"4-bit NF4\"\n"}
+,{"stream_name":"stdout","time":460.464888554,"data":"}\n"}
+,{"stream_name":"stderr","time":470.079228395,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":470.07926236,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":470.446512447,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":470.446563038,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":471.611322296,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":472.462024883,"data":"[NbConvertApp] Writing 331909 bytes to __results__.html\n"}
+]

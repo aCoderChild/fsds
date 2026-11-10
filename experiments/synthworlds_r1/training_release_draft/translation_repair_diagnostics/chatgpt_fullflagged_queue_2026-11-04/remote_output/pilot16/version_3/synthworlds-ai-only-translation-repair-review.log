@@ -1,0 +1,38 @@
+[{"stream_name":"stderr","time":24.949715702,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":24.949762622,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.9497674,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.949770064,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.949772575,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":87.872104002,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":87.872143628,"data":"I0000 00:00:1793749056.323388       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stdout","time":128.176384883,"data":"Backtranslated 1/16\n"}
+,{"stream_name":"stdout","time":128.558837851,"data":"Backtranslated 2/16\n"}
+,{"stream_name":"stdout","time":128.962146884,"data":"Backtranslated 3/16\n"}
+,{"stream_name":"stdout","time":129.38391987,"data":"Backtranslated 4/16\n"}
+,{"stream_name":"stdout","time":129.943119348,"data":"Backtranslated 5/16\n"}
+,{"stream_name":"stdout","time":130.356930668,"data":"Backtranslated 6/16\n"}
+,{"stream_name":"stdout","time":130.755304156,"data":"Backtranslated 7/16\n"}
+,{"stream_name":"stdout","time":131.104303449,"data":"Backtranslated 8/16\n"}
+,{"stream_name":"stdout","time":131.716265353,"data":"Backtranslated 9/16\n"}
+,{"stream_name":"stdout","time":132.070110271,"data":"Backtranslated 10/16\n"}
+,{"stream_name":"stdout","time":132.718352328,"data":"Backtranslated 11/16\n"}
+,{"stream_name":"stdout","time":133.074686997,"data":"Backtranslated 12/16\n"}
+,{"stream_name":"stdout","time":133.677050011,"data":"Backtranslated 13/16\n"}
+,{"stream_name":"stdout","time":134.076290381,"data":"Backtranslated 14/16\n"}
+,{"stream_name":"stdout","time":134.662566344,"data":"Backtranslated 15/16\n"}
+,{"stream_name":"stdout","time":135.065741727,"data":"Backtranslated 16/16\n"}
+,{"stream_name":"stderr","time":135.554098246,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":135.554503435,"data":"  File \"/kaggle/src/script.py\", line 234, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":135.554518339,"data":"    main()\n"}
+,{"stream_name":"stderr","time":135.554524106,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":135.554529047,"data":"  File \"/kaggle/src/script.py\", line 194, in main\n"}
+,{"stream_name":"stderr","time":135.554534475,"data":"    qwen_tokenizer = AutoTokenizer.from_pretrained(QWEN_ID, revision=QWEN_REVISION)\n"}
+,{"stream_name":"stderr","time":135.554539152,"data":"                     ^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":135.554548128,"data":"NameError: name 'AutoTokenizer' is not defined\n"}
+,{"stream_name":"stderr","time":146.459949097,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":146.459978768,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":146.851808119,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":146.851850448,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":147.714493296,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":148.288396567,"data":"[NbConvertApp] Writing 331404 bytes to __results__.html\n"}
+]

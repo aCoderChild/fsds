@@ -1,0 +1,11 @@
+{
+  "id": "bunnoob2005/tofu-3b-npo-lora-profile-recovery-2026-11-07",
+  "title": "TOFU 3B NPO LoRA Profile Recovery 2026-11-07",
+  "code_file": "tofu_3b_npo_profile_recovery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": []
+}

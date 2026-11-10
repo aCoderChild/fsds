@@ -1,0 +1,1630 @@
+{
+  "status": "DIAGNOSTIC_AI_REVIEW_ONLY",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "149a4ac5c768ad641765472dcb485000d819f8c318090ef2ea5ac7a2a3df0b00",
+  "generator_revision": "facebook/nllb-200-distilled-1.3B@7be3e24664b38ce1cac29b8aeed6911aa0cf0576",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0014-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning and structure of the original English question, and it sounds natural in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning and structure of the original English question, and it sounds natural in French."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the meaning from 'part of' to 'involved in', altering the relationship direction.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the meaning from 'part of' to 'involved in', altering the relationship direction."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0166-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning and structure of the original English question, and it sounds natural in French.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning and structure of the original English question, and it sounds natural in French."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'frère' (brother) instead of a general sibling.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'frère' (brother) instead of a general sibling."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning; it asks what the work of ENTITY_A is instead of which work follows ENTITY_A.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning; it asks what the work of ENTITY_A is instead of which work follows ENTITY_A."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'conseiller de doctorat' does not accurately convey the role of a 'doctoral advisor'. The correct term would be 'directeur de thèse'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'conseiller de doctorat' does not accurately convey the role of a 'doctoral advisor'. The correct term would be 'directeur de thèse'."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'beau-père' which means stepfather, but the original question asks for a stepparent, which could be either a stepfather or a stepmother."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'frère' (brother) instead of a general sibling.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'frère' (brother) instead of a general sibling."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation captures the meaning but is not entirely natural in French. A more fluent version would be 'De quoi fait partie le [ENTITY_A]?'\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation captures the meaning but is not entirely natural in French. A more fluent version would be 'De quoi fait partie le [ENTITY_A]?'"
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'frère' (brother) instead of a general sibling.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'frère' (brother) instead of a general sibling."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly specifies 'frère' (brother) instead of referring to the sibling in general.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly specifies 'frère' (brother) instead of referring to the sibling in general."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation assumes [ENTITY_A] is male and that their spouse is female, which does not preserve the exact meaning of the original question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation assumes [ENTITY_A] is male and that their spouse is female, which does not preserve the exact meaning of the original question."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning correctly. It incorrectly states that [ENTITY_A] has its headquarters in an unspecified location, rather than asking about the headquarters of the entity indigenous to the place where [ENTITY_A] is indigenous to. Additionally, the phrase 'qui borde l'endroit' is unnatural and does not convey the intended meaning.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning correctly. It incorrectly states that [ENTITY_A] has its headquarters in an unspecified location, rather than asking about the headquarters of the entity indigenous to the place where [ENTITY_A] is indigenous to. Additionally, the phrase 'qui borde l'endroit' is unnatural and does not convey the intended meaning."
+      }
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly specifies 'frère' (brother) instead of 'frère ou sœur' (sibling), and reverses the relationship direction by implying the place is named after the brother/sibling rather than the other way around.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly specifies 'frère' (brother) instead of 'frère ou sœur' (sibling), and reverses the relationship direction by implying the place is named after the brother/sibling rather than the other way around."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning; it incorrectly suggests [ENTITY_A] became a country, rather than [ENTITY_A] becoming the country that [ENTITY_B] is in.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning; it incorrectly suggests [ENTITY_A] became a country, rather than [ENTITY_A] becoming the country that [ENTITY_B] is in."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly changes the meaning by suggesting that [ENTITY_A] found or discovered [ENTITY_B], rather than [ENTITY_A] founding [ENTITY_B].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly changes the meaning by suggesting that [ENTITY_A] found or discovered [ENTITY_B], rather than [ENTITY_A] founding [ENTITY_B]."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division such as a state or province; 'Verwaltungseinheit' or 'Verwaltungsgliederung' would be more appropriate.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division such as a state or province; 'Verwaltungseinheit' or 'Verwaltungsgliederung' would be more appropriate."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division such as a state or province; 'Verwaltungseinheit' or 'Verwaltungsgliederung' would be more appropriate.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division such as a state or province; 'Verwaltungseinheit' or 'Verwaltungsgliederung' would be more appropriate."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0073-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0087-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original English question's meaning and maintains the correct relationship direction. It is also natural in German.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original English question's meaning and maintains the correct relationship direction. It is also natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'"
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0124-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division, which typically refers to larger units like provinces or states.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'Verwaltungsabteilung' (administrative department) does not accurately convey the concept of an administrative division, which typically refers to larger units like provinces or states."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not cover the possibility that [ENTITY_A]'s sibling could be a sister as well as a brother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not cover the possibility that [ENTITY_A]'s sibling could be a sister as well as a brother."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the meaning from 'part of' to 'involved in', which alters the relationship direction and does not preserve the original question type.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the meaning from 'part of' to 'involved in', which alters the relationship direction and does not preserve the original question type."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'"
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly states 'die [ENTITY_A] wohnen' (the [ENTITY_A] live) instead of indicating the place housing [ENTITY_A]. It also specifies 'Bruder' (brother) rather than the more general term 'Schwester oder Bruder' (sibling).\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly states 'die [ENTITY_A] wohnen' (the [ENTITY_A] live) instead of indicating the place housing [ENTITY_A]. It also specifies 'Bruder' (brother) rather than the more general term 'Schwester oder Bruder' (sibling)."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The term 'Stiefelternteil' does not accurately translate 'stepparent.' A correct translation would be 'Wer ist [ENTITY_A]’s Stiefelter?'"
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly identifies the doctoral advisor as a 'Doktorand' (doctoral student) instead of the advisor. The relationship direction is reversed.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly identifies the doctoral advisor as a 'Doktorand' (doctoral student) instead of the advisor. The relationship direction is reversed."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not cover the possibility that [ENTITY_A]'s sibling could be a sister as well as a brother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not cover the possibility that [ENTITY_A]'s sibling could be a sister as well as a brother."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly uses 'der unverheiratete' (the unmarried) instead of 'der unverheiratete(r)' (the unmarried - masculine/feminine form needed), and the possessive structure 'von [ENTITY_A]s Geschwister' is unnatural and unclear. It should be 'des Geschwisters von [ENTITY_A]' or similar.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly uses 'der unverheiratete' (the unmarried) instead of 'der unverheiratete(r)' (the unmarried - masculine/feminine form needed), and the possessive structure 'von [ENTITY_A]s Geschwister' is unnatural and unclear. It should be 'des Geschwisters von [ENTITY_A]' or similar."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what office the head of state holds rather than which office of [ENTITY_A] is held by the head of state.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what office the head of state holds rather than which office of [ENTITY_A] is held by the head of state."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning correctly. It incorrectly places '[ENTITY_A]' as having its headquarters at a location, rather than being indigenous to it. Additionally, the phrasing is unnatural in German.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning correctly. It incorrectly places '[ENTITY_A]' as having its headquarters at a location, rather than being indigenous to it. Additionally, the phrasing is unnatural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning of the original English sentence and sounds natural in German.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning of the original English sentence and sounds natural in German."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly convey the meaning of the original English sentence. Specifically, it incorrectly refers to 'the entity' as 'Einheit' which can be translated more accurately as 'Einrichtung' or 'Entität' in this context, and the structure of the sentence does not clearly express that the replacement happened to an administrative territorial entity containing [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly convey the meaning of the original English sentence. Specifically, it incorrectly refers to 'the entity' as 'Einheit' which can be translated more accurately as 'Einrichtung' or 'Entität' in this context, and the structure of the sentence does not clearly express that the replacement happened to an administrative territorial entity containing [ENTITY_A]."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly identifies [ENTITY_A] as a doctoral student instead of asking about their doctoral advisor."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse."
+      }
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation specifies 'Ehefrau' (wife) instead of using a gender-neutral term for spouse."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original question's meaning and maintains the correct entity placeholder position. The phrasing is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original question's meaning and maintains the correct entity placeholder position. The phrasing is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0186-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and object, changing the meaning from 'Who performed [ENTITY_A]' to '[ENTITY_A] was performed by whom'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and object, changing the meaning from 'Who performed [ENTITY_A]' to '[ENTITY_A] was performed by whom'."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original meaning and maintains the correct relationship direction and question type. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original meaning and maintains the correct relationship direction and question type. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and predicate, changing the meaning from 'Where is [ENTITY_A] indigenous?' to '[ENTITY_A], an indigenous person, is from where?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and predicate, changing the meaning from 'Where is [ENTITY_A] indigenous?' to '[ENTITY_A], an indigenous person, is from where?'"
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0093-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning and maintains the question type. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning and maintains the question type. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning correctly. It incorrectly states that [ENTITY_A] became the country instead of [ENTITY_A] becoming the country that [ENTITY_B] is in. Additionally, the phrasing is unnatural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning correctly. It incorrectly states that [ENTITY_A] became the country instead of [ENTITY_A] becoming the country that [ENTITY_B] is in. Additionally, the phrasing is unnatural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0069-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original meaning and maintains the correct relationship direction. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original meaning and maintains the correct relationship direction. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0187-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation reverses the relationship between ENTITY_A and ENTITY_B and incorrectly uses 'छात्रा' (female student) without context. The correct term should be 'छात्र' for a general student. Additionally, the sentence structure is unnatural.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation reverses the relationship between ENTITY_A and ENTITY_B and incorrectly uses 'छात्रा' (female student) without context. The correct term should be 'छात्र' for a general student. Additionally, the sentence structure is unnatural."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0117-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning as it incorrectly implies that [ENTITY_A] became [ENTITY_B]'s wife, rather than the two becoming spouses. Additionally, the sentence structure is unnatural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning as it incorrectly implies that [ENTITY_A] became [ENTITY_B]'s wife, rather than the two becoming spouses. Additionally, the sentence structure is unnatural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation captures the core meaning but is not entirely natural in Hindi. The phrase 'की रिश्तेदार बन गई' (became a relative) sounds more natural as 'रिश्तेदार बन गया' or 'रिश्तेदार हो गई' depending on the gender of ENTITY_A.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation captures the core meaning but is not entirely natural in Hindi. The phrase 'की रिश्तेदार बन गई' (became a relative) sounds more natural as 'रिश्तेदार बन गया' or 'रिश्तेदार हो गई' depending on the gender of ENTITY_A."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks who replaced [ENTITY_A], instead of what replaced [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks who replaced [ENTITY_A], instead of what replaced [ENTITY_A]."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0055-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original question's meaning and maintains the same question type. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original question's meaning and maintains the same question type. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction, asking who was a doctoral student of ENTITY_A instead of identifying that person.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction, asking who was a doctoral student of ENTITY_A instead of identifying that person."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning. The English sentence asks which work comes after [ENTITY_A], implying a sequence or order. However, the Hindi translation suggests that [ENTITY_A] performs or follows a certain kind of work, changing the relationship direction.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning. The English sentence asks which work comes after [ENTITY_A], implying a sequence or order. However, the Hindi translation suggests that [ENTITY_A] performs or follows a certain kind of work, changing the relationship direction."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks about where [ENTITY_A] is a native of instead of asking about the indigenous location of [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks about where [ENTITY_A] is a native of instead of asking about the indigenous location of [ENTITY_A]."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original question's meaning and maintains the correct relationship direction. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original question's meaning and maintains the correct relationship direction. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0189-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original question's meaning and maintains the same question type. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original question's meaning and maintains the same question type. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly convey that [ENTITY_A] is a dialect of a language; instead, it incorrectly suggests that [ENTITY_A] is a language of which another is a dialect.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly convey that [ENTITY_A] is a dialect of a language; instead, it incorrectly suggests that [ENTITY_A] is a language of which another is a dialect."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0194-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and object, changing the meaning from 'Who is a doctoral student of ENTITY_A?' to 'Whose doctoral student is ENTITY_A?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and object, changing the meaning from 'Who is a doctoral student of ENTITY_A?' to 'Whose doctoral student is ENTITY_A?'"
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0138-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what happened after [ENTITY_A], rather than what immediately follows [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what happened after [ENTITY_A], rather than what immediately follows [ENTITY_A]."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning and maintains the question format naturally in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning and maintains the question format naturally in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and object of the sentence, changing the meaning.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and object of the sentence, changing the meaning."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0029-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it should convey what replaces [ENTITY_A], not what [ENTITY_A] replaces.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it should convey what replaces [ENTITY_A], not what [ENTITY_A] replaces."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the entities' roles and incorrectly places [ENTITY_B] before [ENTITY_A], altering the intended meaning.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the entities' roles and incorrectly places [ENTITY_B] before [ENTITY_A], altering the intended meaning."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction by asking about the wife instead of the spouse, which could include either a husband or wife.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction by asking about the wife instead of the spouse, which could include either a husband or wife."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and object, changing the meaning from 'Which country does [ENTITY_A] have diplomatic relations with?' to '[ENTITY_A] has diplomatic relations with which country?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and object, changing the meaning from 'Which country does [ENTITY_A] have diplomatic relations with?' to '[ENTITY_A] has diplomatic relations with which country?'"
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the meaning and structure of the original English sentence, maintaining the relationships between entities and preserving the question type. It sounds natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the meaning and structure of the original English sentence, maintaining the relationships between entities and preserving the question type. It sounds natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately reflects the relationships and the question type, and it sounds natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately reflects the relationships and the question type, and it sounds natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly uses 'असली नाम' (real name) instead of 'दिए गए नाम' (given name).\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly uses 'असली नाम' (real name) instead of 'दिए गए नाम' (given name)."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what happened after [ENTITY_A], rather than what immediately follows [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what happened after [ENTITY_A], rather than what immediately follows [ENTITY_A]."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately capture the original meaning and structure of the English sentence. It incorrectly interprets 'borders' and introduces an unnecessary term 'इकाई' (unit). The sentence structure is also unnatural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately capture the original meaning and structure of the English sentence. It incorrectly interprets 'borders' and introduces an unnecessary term 'इकाई' (unit). The sentence structure is also unnatural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks about [ENTITY_A]'s employer's rector's doctoral advisor instead of the rector of [ENTITY_A]'s employer's doctoral advisor.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks about [ENTITY_A]'s employer's rector's doctoral advisor instead of the rector of [ENTITY_A]'s employer's doctoral advisor."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the logical flow of the sentence, making it unclear which city and institution are being referred to.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the logical flow of the sentence, making it unclear which city and institution are being referred to."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning and maintains the question format naturally in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning and maintains the question format naturally in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original question's meaning and maintains the correct relationship direction. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original question's meaning and maintains the correct relationship direction. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original English sentence's meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original English sentence's meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the ownership relationship. The English sentence asks which entity is owned by [ENTITY_A], but the Hindi sentence incorrectly states that [ENTITY_A] is the owner of some unspecified entity.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the ownership relationship. The English sentence asks which entity is owned by [ENTITY_A], but the Hindi sentence incorrectly states that [ENTITY_A] is the owner of some unspecified entity."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately captures the relationships and the question type while sounding natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately captures the relationships and the question type while sounding natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction between 'the sibling of' and 'the person after whom'. The English sentence asks for the sibling of a certain person, but the Hindi sentence incorrectly asks for who is the sibling of the person mentioned.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction between 'the sibling of' and 'the person after whom'. The English sentence asks for the sibling of a certain person, but the Hindi sentence incorrectly asks for who is the sibling of the person mentioned."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original English question's meaning, maintains the correct relationship direction, and is natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original English question's meaning, maintains the correct relationship direction, and is natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning; it incorrectly states 'held by' as 'organized by'. Additionally, the sentence structure is unnatural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning; it incorrectly states 'held by' as 'organized by'. Additionally, the sentence structure is unnatural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction. The English sentence asks about the position held by the child of the patron saint, but the Hindi version incorrectly states that the child held a position of the patron saint.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction. The English sentence asks about the position held by the child of the patron saint, but the Hindi version incorrectly states that the child held a position of the patron saint."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning; it asks for the middle name (उपनाम) instead of the family name.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning; it asks for the middle name (उपनाम) instead of the family name."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly preserve the meaning; it refers to 'unit' (इकाई) instead of 'family name' (परिवार का नाम), and the structure of the sentence is altered.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly preserve the meaning; it refers to 'unit' (इकाई) instead of 'family name' (परिवार का नाम), and the structure of the sentence is altered."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction, asking about the step-parents of the father instead of who is the stepparent.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction, asking about the step-parents of the father instead of who is the stepparent."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks who replaced [ENTITY_A], instead of what replaced [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks who replaced [ENTITY_A], instead of what replaced [ENTITY_A]."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the meaning and maintains the question format naturally in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the meaning and maintains the question format naturally in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original English question's meaning and maintains the correct relationship direction and question type. It is also natural in Hindi.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original English question's meaning and maintains the correct relationship direction and question type. It is also natural in Hindi."
+      }
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning as it asks for the director's name instead of the given name of the director.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning as it asks for the director's name instead of the given name of the director."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0044-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning as it asks about a region (ภูมิภาค) rather than a physical feature.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning as it asks about a region (ภูมิภาค) rather than a physical feature."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning or question structure. It incorrectly interprets 'What is [ENTITY_A] based on?' as '[ENTITY_A] uses what?', changing both the meaning and the direction of the relationship.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning or question structure. It incorrectly interprets 'What is [ENTITY_A] based on?' as '[ENTITY_A] uses what?', changing both the meaning and the direction of the relationship."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0001-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning; 'found' is mistranslated as 'meet'. Additionally, the sentence structure is unnatural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning; 'found' is mistranslated as 'meet'. Additionally, the sentence structure is unnatural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'หัวข้อหลัก' (main topic) does not accurately convey the concept of 'main subject'. The correct term should be 'ตัวละครหลัก' or 'ประเด็นหลัก' depending on the context.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'หัวข้อหลัก' (main topic) does not accurately convey the concept of 'main subject'. The correct term should be 'ตัวละครหลัก' or 'ประเด็นหลัก' depending on the context."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0131-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately convey the original meaning. 'สมาชิกประกอบละคร' (member of the performance) is not an appropriate term for 'cast member'. The correct term would be 'นักแสดง' (nai-sa-taan). Additionally, the sentence structure is unnatural.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately convey the original meaning. 'สมาชิกประกอบละคร' (member of the performance) is not an appropriate term for 'cast member'. The correct term would be 'นักแสดง' (nai-sa-taan). Additionally, the sentence structure is unnatural."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0160-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0065-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not correctly convey the meaning of 'official anthem.' It uses 'เพลงเพลงราชการ' which is unnatural and does not accurately represent an official anthem. A more appropriate translation would be 'เพลงชาติทางการของ[ENTITY_A]คืออะไร?'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not correctly convey the meaning of 'official anthem.' It uses 'เพลงเพลงราชการ' which is unnatural and does not accurately represent an official anthem. A more appropriate translation would be 'เพลงชาติทางการของ[ENTITY_A]คืออะไร?'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0176-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the subject and predicate, changing the meaning from asking about which family an entity belongs to, to stating that an entity is a family.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the subject and predicate, changing the meaning from asking about which family an entity belongs to, to stating that an entity is a family."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0015-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what award [ENTITY_A] received instead of what award [ENTITY_A] was nominated for.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what award [ENTITY_A] received instead of what award [ENTITY_A] was nominated for."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0183-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the meaning of 'known to be active.' The phrase 'มีชื่อ' (mee chue) means 'to have a name' or 'to be famous,' which is not equivalent to being 'known to be active.'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the meaning of 'known to be active.' The phrase 'มีชื่อ' (mee chue) means 'to have a name' or 'to be famous,' which is not equivalent to being 'known to be active.'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning. The English sentence asks which work comes after [ENTITY_A]'s, implying a sequence or order. However, the Thai translation asks what kind of work [ENTITY_A] does, changing the meaning and question type.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning. The English sentence asks which work comes after [ENTITY_A]'s, implying a sequence or order. However, the Thai translation asks what kind of work [ENTITY_A] does, changing the meaning and question type."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0110-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately convey the concept of a 'female version' of a name. It asks what the female language of the name [ENTITY_A] is, which is not a standard or clear way to express the query.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately convey the concept of a 'female version' of a name. It asks what the female language of the name [ENTITY_A] is, which is not a standard or clear way to express the query."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the meaning of 'followed' as it implies that the conflict came after [ENTITY_A], but 'ติดตาม' (tida tan) more naturally means 'to follow' in the sense of pursuing or tracking rather than occurring after an event.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the meaning of 'followed' as it implies that the conflict came after [ENTITY_A], but 'ติดตาม' (tida tan) more naturally means 'to follow' in the sense of pursuing or tracking rather than occurring after an event."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0127-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what follows [ENTITY_A] rather than what [ENTITY_A] follows.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what follows [ENTITY_A] rather than what [ENTITY_A] follows."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0028-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation asks about the bachelor's degree instead of the master's degree.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation asks about the bachelor's degree instead of the master's degree."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0197-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'พ่อเลี้ยง' (father figure) does not accurately represent 'godparent'. The correct term for godparent in Thai would be 'ผู้อุปถัมภ์' or 'ผู้ปกครองแทน'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'พ่อเลี้ยง' (father figure) does not accurately represent 'godparent'. The correct term for godparent in Thai would be 'ผู้อุปถัมภ์' or 'ผู้ปกครองแทน'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the meaning from 'confer' (bestow, grant) to 'provide service', altering the relationship direction and question type.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the meaning from 'confer' (bestow, grant) to 'provide service', altering the relationship direction and question type."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0157-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the meaning of 'known to be active.' The phrase 'มีชื่อ' (mee chue) means 'to have a name' or 'to be famous,' which is not equivalent to being 'known to be active.'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the meaning of 'known to be active.' The phrase 'มีชื่อ' (mee chue) means 'to have a name' or 'to be famous,' which is not equivalent to being 'known to be active.'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly convey the meaning of the original English sentence. The original sentence asks about the date when [ENTITY_A] became the country that [ENTITY_B] is in, implying that [ENTITY_B] is now part of [ENTITY_A]. However, the Thai translation suggests that [ENTITY_A] became a country where [ENTITY_B] exists, which changes the relationship between the entities.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly convey the meaning of the original English sentence. The original sentence asks about the date when [ENTITY_A] became the country that [ENTITY_B] is in, implying that [ENTITY_B] is now part of [ENTITY_A]. However, the Thai translation suggests that [ENTITY_A] became a country where [ENTITY_B] exists, which changes the relationship between the entities."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the concept of 'noble title'. The phrase used ('เกียรติศักดิ์ศรี') more generally refers to honor or prestige rather than a specific noble title.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the concept of 'noble title'. The phrase used ('เกียรติศักดิ์ศรี') more generally refers to honor or prestige rather than a specific noble title."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning or question type. It asks what kind of language [ENTITY_A] is instead of asking which language [ENTITY_A] is a dialect of.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning or question type. It asks what kind of language [ENTITY_A] is instead of asking which language [ENTITY_A] is a dialect of."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation changes the meaning from 'confer' (bestow, grant) to 'provide service', altering the relationship direction and question type.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation changes the meaning from 'confer' (bestow, grant) to 'provide service', altering the relationship direction and question type."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0167-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning as it asks what kind of media [ENTITY_A] is instead of which franchise it belongs to.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning as it asks what kind of media [ENTITY_A] is instead of which franchise it belongs to."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0102-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'บึง' means 'swamp' or 'pond', which does not accurately represent the concept of a river basin. The correct term should be 'อ่าว' for basin or more appropriately 'พื้นที่ลุ่ม' for river basin.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'บึง' means 'swamp' or 'pond', which does not accurately represent the concept of a river basin. The correct term should be 'อ่าว' for basin or more appropriately 'พื้นที่ลุ่ม' for river basin."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0173-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the original meaning as it asks about a region (ภูมิภาค) rather than a physical feature.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the original meaning as it asks about a region (ภูมิภาค) rather than a physical feature."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction. The English version asks who is the godparent of [ENTITY_A], while the Thai version asks what [ENTITY_A] is the godparent of.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction. The English version asks who is the godparent of [ENTITY_A], while the Thai version asks what [ENTITY_A] is the godparent of."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0004-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly uses 'ปั๊ม' (pump) instead of 'ปลั๊ก' (plug), changes the sentence structure which alters the meaning, and does not naturally convey the original question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly uses 'ปั๊ม' (pump) instead of 'ปลั๊ก' (plug), changes the sentence structure which alters the meaning, and does not naturally convey the original question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0132-qa-sm:r1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning; it asks about loyalty rather than allegiance. Additionally, the sentence structure is unnatural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning; it asks about loyalty rather than allegiance. Additionally, the sentence structure is unnatural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0050-qa-sm:r2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately convey the meaning of the original English sentence. It incorrectly uses 'จงรักภักดี' (owe allegiance) as an imperative rather than a factual statement. The correct translation should ask about the object of allegiance, not command allegiance.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately convey the meaning of the original English sentence. It incorrectly uses 'จงรักภักดี' (owe allegiance) as an imperative rather than a factual statement. The correct translation should ask about the object of allegiance, not command allegiance."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'พ่อเลี้ยง' (father figure) does not accurately represent 'godparent'. The correct term for godparent in Thai would be 'ผู้อุปถัมภ์' or 'ผู้ปกครองแทน'\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'พ่อเลี้ยง' (father figure) does not accurately represent 'godparent'. The correct term for godparent in Thai would be 'ผู้อุปถัมภ์' or 'ผู้ปกครองแทน'"
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0277-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly convey the meaning of 'buried.' It should be 'ฝังศพแม่ของคนที่ ENTITY_A ทำงานให้อยู่ที่ไหน' to accurately reflect the original sentence.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly convey the meaning of 'buried.' It should be 'ฝังศพแม่ของคนที่ ENTITY_A ทำงานให้อยู่ที่ไหน' to accurately reflect the original sentence."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0244-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning; 'consecrate' should be translated as 'ทำพิธีบรมราชาภิเษก' or more contextually appropriate term if available, but 'อุปถัมภ์' means 'to sponsor' or 'to protect', which is incorrect here.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning; 'consecrate' should be translated as 'ทำพิธีบรมราชาภิเษก' or more contextually appropriate term if available, but 'อุปถัมภ์' means 'to sponsor' or 'to protect', which is incorrect here."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation accurately captures the meaning and structure of the original English sentence. However, it sounds slightly unnatural in Thai due to the word order and phrasing.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": false,
+        "reason": "The translation accurately captures the meaning and structure of the original English sentence. However, it sounds slightly unnatural in Thai due to the word order and phrasing."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the exact meaning; it incorrectly implies 'what' the capital is related to instead of asking about the capital of the country. Additionally, the sentence structure is unnatural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the exact meaning; it incorrectly implies 'what' the capital is related to instead of asking about the capital of the country. Additionally, the sentence structure is unnatural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0300-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation incorrectly identifies 'godparent' as 'พ่อแม่' (parents) instead of 'ผู้อุปการะ' (godparent). Additionally, it specifies 'ภรรยา' (wife) rather than using a more general term for spouse like 'คู่สมรส'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation incorrectly identifies 'godparent' as 'พ่อแม่' (parents) instead of 'ผู้อุปการะ' (godparent). Additionally, it specifies 'ภรรยา' (wife) rather than using a more general term for spouse like 'คู่สมรส'."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning; it asks about the organization where [ENTITY_A] was detained being a member of another organization, rather than asking about the formation of the organization that the detention location is a member of.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning; it asks about the organization where [ENTITY_A] was detained being a member of another organization, rather than asking about the formation of the organization that the detention location is a member of."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0207-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation incorrectly identifies the entity as the 'wife' (ภรรยา) instead of the 'spouse', which could imply a gendered assumption. The term 'father' (พ่อ) is also misplaced; it should refer to the father of the unmarried partner, not the father of the spouse.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation incorrectly identifies the entity as the 'wife' (ภรรยา) instead of the 'spouse', which could imply a gendered assumption. The term 'father' (พ่อ) is also misplaced; it should refer to the father of the unmarried partner, not the father of the spouse."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning as it omits the part about 'after whom the place is named' and incorrectly interprets 'sibling of' in relation to the person whose name the place bears.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning as it omits the part about 'after whom the place is named' and incorrectly interprets 'sibling of' in relation to the person whose name the place bears."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning or structure of the English sentence. It incorrectly interprets 'borders' as 'located next to', reverses the relationship between entities, and misplaces the headquarters aspect.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning or structure of the English sentence. It incorrectly interprets 'borders' as 'located next to', reverses the relationship between entities, and misplaces the headquarters aspect."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0382-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the concept of 'noble title'. The phrase used ('เกียรติศักดิ์ศรี') more generally refers to honor or prestige rather than a specific noble title.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the concept of 'noble title'. The phrase used ('เกียรติศักดิ์ศรี') more generally refers to honor or prestige rather than a specific noble title."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately convey the original meaning. 'เบื้องต้น' (beung ton) means 'initially' or 'at first,' which is not present in the English sentence. The term 'honorific prefix' is mistranslated as 'เกียรติ' (khai), which means 'honor' or 'dignity.' Additionally, the phrase structure is unnatural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately convey the original meaning. 'เบื้องต้น' (beung ton) means 'initially' or 'at first,' which is not present in the English sentence. The term 'honorific prefix' is mistranslated as 'เกียรติ' (khai), which means 'honor' or 'dignity.' Additionally, the phrase structure is unnatural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0333-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation accurately conveys the original English question's meaning, including the relationship status and the inquiry about the religion of the child. The sentence structure is natural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The translation accurately conveys the original English question's meaning, including the relationship status and the inquiry about the religion of the child. The sentence structure is natural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not correctly capture the meaning of the original English sentence. It incorrectly states that [ENTITY_A]'s workplace was named after someone, rather than the place where [ENTITY_A] worked being named after [ENTITY_A]. Additionally, the Thai sentence structure is unnatural.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not correctly capture the meaning of the original English sentence. It incorrectly states that [ENTITY_A]'s workplace was named after someone, rather than the place where [ENTITY_A] worked being named after [ENTITY_A]. Additionally, the Thai sentence structure is unnatural."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what local administrative organizations [ENTITY_A] has instead of which administrative territorial entity contains [ENTITY_A].\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what local administrative organizations [ENTITY_A] has instead of which administrative territorial entity contains [ENTITY_A]."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not correctly capture the concept of 'immediately following' and incorrectly refers to entities as 'organizations'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not correctly capture the concept of 'immediately following' and incorrectly refers to entities as 'organizations'."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not preserve the original meaning; it incorrectly translates 'creative work' as 'งาน สร้าง' which means something like 'building work'. The sentence structure also does not naturally convey the original question.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not preserve the original meaning; it incorrectly translates 'creative work' as 'งาน สร้าง' which means something like 'building work'. The sentence structure also does not naturally convey the original question."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction; it asks what position the head of state holds rather than which office of ENTITY_A is held by the head of state.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction; it asks what position the head of state holds rather than which office of ENTITY_A is held by the head of state."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q1",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation reverses the relationship direction. The English version asks what entity A is the capital of, while the Thai version asks what entity A is the city of (metaphorically implying the opposite).\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation reverses the relationship direction. The English version asks what entity A is the capital of, while the Thai version asks what entity A is the city of (metaphorically implying the opposite)."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The term 'ชื่อจริง' (given name) is incorrectly used; it should be 'ชื่อเล่น' or simply 'ชื่อ' for the given name in this context. Additionally, 'ผู้อํานวยการ' typically refers to a manager or director in a business context rather than a film or artistic work director.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The term 'ชื่อจริง' (given name) is incorrectly used; it should be 'ชื่อเล่น' or simply 'ชื่อ' for the given name in this context. Additionally, 'ผู้อํานวยการ' typically refers to a manager or director in a business context rather than a film or artistic work director."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0301-qa-sm:q2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0335-qa-sm:q3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the concept of citizenship. 'เป็นประชาชน' means 'is a citizen/resident', but it doesn't convey the specific status of citizenship as 'citizen of'. The correct term should be 'เป็นพลเมือง' for 'is a citizen of'."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": false,\n  \"reason\": \"The translation does not accurately convey the original meaning. It incorrectly states 'the crew that [ENTITY_A] crew member belongs to' as '[ENTITY_A] crew member is of', which changes the relationship direction. Additionally, the phrasing is unnatural in Thai.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": false,
+        "reason": "The translation does not accurately convey the original meaning. It incorrectly states 'the crew that [ENTITY_A] crew member belongs to' as '[ENTITY_A] crew member is of', which changes the relationship direction. Additionally, the phrasing is unnatural in Thai."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not preserve the exact meaning as 'contributed to' is mistranslated as 'supported'. Additionally, 'spouse' is translated as 'wife', which implies gender specificity not present in the original.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not preserve the exact meaning as 'contributed to' is mistranslated as 'supported'. Additionally, 'spouse' is translated as 'wife', which implies gender specificity not present in the original."
+      }
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The translation does not accurately capture the meaning of 'replaced the country' and the term 'held by its head of state' is awkwardly phrased.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The translation does not accurately capture the meaning of 'replaced the country' and the term 'held by its head of state' is awkwardly phrased."
+      }
+    }
+  ]
+}

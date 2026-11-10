@@ -1,0 +1,22 @@
+{"language":"de","sft_id":"0005-qa-sm:r2","field":"question","replacement":"An welchem Datum wurde Orinthos gegründet?","reason":"Clarifies the date requested and uses the natural German verb for the entity's founding/incorporation."}
+{"language":"de","sft_id":"0116-qa-sm:r2","field":"question","replacement":"In welchem Jahr begann Liam Thornfield seine Tätigkeit?","reason":"Removes an unidiomatic article before the proper name while preserving the requested year."}
+{"language":"hi","sft_id":"0056-qa-sm:r1","field":"question","replacement":"Iridia Hawkins कौन-सी कुलीन उपाधि धारण करती हैं?","reason":"Corrects a mistranslation of noble title as privilege."}
+{"language":"hi","sft_id":"0180-qa-sm:r2","field":"question","replacement":"Elysium के साथ सीमा साझा करने वाला कौन-सा स्थान है?","reason":"Clarifies the exact place being asked for in the border-sharing relation."}
+{"language":"hi","sft_id":"0098-qa-sm:r1","field":"question","replacement":"The Chronicles of Forgotten Whispers की कहानी की पृष्ठभूमि कहाँ है?","reason":"Restores the work title and replaces a malformed literal rendering."}
+{"language":"th","sft_id":"0005-qa-sm:r2","field":"question","replacement":"Orinthos ก่อตั้งขึ้นเมื่อวันที่เท่าใด?","reason":"Corrects the mistranslation of incorporated as a nonsensical verb."}
+{"language":"th","sft_id":"0017-qa-sm:r1","field":"question","replacement":"ผลงานเรื่องใดช่วยขยายเนื้อเรื่องของ The Shattered Destinies?","reason":"Corrects plot being mistranslated as map."}
+{"language":"th","sft_id":"0052-qa-sm:r1","field":"question","replacement":"บุคคลสำคัญคนใดมีความเกี่ยวข้องกับ Ustara Daily?","reason":"Improves naturalness while preserving the person-associated-with relation."}
+{"language":"th","sft_id":"0056-qa-sm:r1","field":"question","replacement":"Iridia Hawkins มีตำแหน่งขุนนางใด?","reason":"Clarifies the question as asking which noble title Iridia Hawkins holds."}
+{"language":"th","sft_id":"0066-qa-sm:r1","field":"question","replacement":"ผลงานเรื่องใดช่วยขยายเนื้อเรื่องของ Tides of Destiny?","reason":"Corrects plot being mistranslated as map."}
+{"language":"th","sft_id":"0075-qa-sm:r1","field":"question","replacement":"Bryndith Waite ถูกฝังไว้ที่ใด?","reason":"Removes the awkward parenthetical name repair and restores the name in the question."}
+{"language":"th","sft_id":"0089-qa-sm:r2","field":"question","replacement":"Aetherdon ตั้งอยู่ในเขตการปกครองใด?","reason":"Uses a general administrative-division term instead of narrowing the question to a province."}
+{"language":"th","sft_id":"0090-qa-sm:r2","field":"question","replacement":"Luminara River ไหลลงสู่แหล่งน้ำใด?","reason":"Corrects the malformed translation of the river-drainage question while keeping the source entity label unchanged."}
+{"language":"th","sft_id":"0098-qa-sm:r1","field":"question","replacement":"เรื่องราวของ The Chronicles of Forgotten Whispers มีฉากอยู่ที่ใด?","reason":"Repairs degenerate repeated output and restores the work title."}
+{"language":"th","sft_id":"0105-qa-sm:r1","field":"question","replacement":"หน่วยการปกครองใดตั้งอยู่ภายใน United Sovereignty?","reason":"Makes the administrative-entity containment question grammatical and direct."}
+{"language":"th","sft_id":"0111-qa-sm:r1","field":"question","replacement":"หน่วยการปกครองใดตั้งอยู่ภายใน Novemara?","reason":"Makes the administrative-entity containment question grammatical and direct."}
+{"language":"th","sft_id":"0116-qa-sm:r2","field":"question","replacement":"Liam Thornfield เริ่มมีบทบาทในปีใด?","reason":"Uses a natural phrasing for the beginning of a person's period of activity."}
+{"language":"th","sft_id":"0127-qa-sm:r1","field":"question","replacement":"The Timeless Enigma เป็นผลงานที่ต่อจากเรื่องใดในชุด?","reason":"Clarifies that The Timeless Enigma follows the requested preceding work in the series."}
+{"language":"th","sft_id":"0133-qa-sm:r2","field":"question","replacement":"Vireth ตั้งชื่อตามใคร?","reason":"Uses the natural Thai construction for being named after a person."}
+{"language":"th","sft_id":"0137-qa-sm:r1","field":"question","replacement":"Aeliana ปรากฏเป็นหลักฐานอยู่ในเอกสารฉบับใด?","reason":"Clarifies that the question asks which document attests to Aeliana."}
+{"language":"th","sft_id":"0138-qa-sm:r2","field":"question","replacement":"สิ่งใดตามหลัง Zephyrian ทันที?","reason":"Restores the immediate-following relation."}
+{"language":"th","sft_id":"0159-qa-sm:r1","field":"question","replacement":"Kestrelia เป็นเมืองหลวงของเขตการปกครองใด?","reason":"Corrects the malformed capital-of administrative division question."}

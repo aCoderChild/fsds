@@ -1,0 +1,709 @@
+{
+  "status": "DIAGNOSTIC_ONLY",
+  "alternative_sha256": "4aaebece3f94142aa8e655598b89aa1e8ea8cd289a5f4621bad89c73679959a9",
+  "input_sha256": "d32752caab3fad6196675a266e691a415a9405e6b92a5b44e9962be722e27010",
+  "bindings": [
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0172-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "33ec406aba73c6eb65d6e82231b40c41d7631f437730b7dd946c521327381f5a"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0014-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "ee23c881236deca9882bace10c5e9f8982b899bfd39f1722d7543fe896beba6b"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0188-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "5019130328ed9e19aad52b7735824cb7fe1c235a14547a8f465883cc0603d4aa"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0155-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "c3763609704f2827f70970cf2e1c5add9204a6d9b3e1403ce4a684e2f6121ea0"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0177-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "9f0de281fbb87cc3423bcfe9f3a0c76cc114584b5c61c218b847e6ef4087393d"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "50b8d8caa28bda2fa639c374af58e76a096c887c652c2ef991be43e709721460"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0166-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "66a1d879c8f951b9b35e32ee6db7c3dd22d527699df0256f9ecced6afdeeb19b"
+    },
+    {
+      "language": "fr",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "8d90a104736ee09ea65e7bc5c9f5df8d44a953522a2f4b64b9c24646637ef05b"
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "112aabcd49498d83374a699c5def75a58f846168304344f362e2a6076418afc7"
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "1986b24de58564e48884e6ead8c4534f1b1ebe6602793a8814d21b3663e9805a"
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "e8464e442fae70570617779ef248276a4edd045e23a48982ad346cfe785cbe04"
+    },
+    {
+      "language": "fr",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "34fc1d43d3d492c44243531ffdd63d5cbd37cf54a4fb5f101b3f3578116e97d4"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "b3f9bc86bc3d48f176f0387814708fae1099e70f971985c38b8ac97c431bd6a0"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "d11c4d89398c7ffdf6276820ed5fd8f62bd9840186985ee3fc755194945ae34f"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0184-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "499ce4e25a9337c50cf30797ada5353dcda5e8fd90485cc24408e6c9fdbc940c"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0159-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "145abf9fbf613969b938afa5331937ae63d9854d2dd36da08f76e27f98134588"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0023-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "4cfd7b02d18266726d8f94fde78874318a62d8aaf00f61cc80a21525108d9a3e"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "dfea0e4c6067a1689db055f90fdd2246d8276241309c0b5203b1a95a71e8d3ce"
+    },
+    {
+      "language": "de",
+      "kind": "atomic",
+      "prompt_id": "0129-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "6ffc203ca7f6cf811494e68bafde76c0345418806731c82497afb6d63f82fc09"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0203-qa-sm:q3",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "46b1b6dde4133c1b942e619b3d23fc89dab4369d332cafe30ed4ac6e1ab5dadf"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "90a65274689678e4a5a7f0e1be5ed20900a5380cd0d7c082493ac12fbdc7584b"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "de5ec8523a17eb954ec71511d3aac538d80e6315df65b660c37bd131d3c44609"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:q1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "0788276fd62d794a6ecf7dc92697a1b15a9b3d35c7439730a0f059e28c90170a"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "c941c6ba16a0094d41374fce4fe610a51bb26ca28e8d238a0f5fdfb8e94db64f"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0306-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "2d6005d19423fdd168e351b35d84a8ae8bc8511080c328c9f6494c34eb348b95"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "669e939c08be22103de49477aab2d44fac945d3bec13dd6ee9fe4a551945995e"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:q2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "122c405ab2881d70415c2c299dc19419626103166a29111e2caa3d39a9d21434"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "41ce539aaee91a769d2e640200251f388a1a80e794cbaf342e35beb65713e4b4"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "16620d8c3e99ac5766600f3b1e9c458696e9d25a91146dc57d6a34019f43ca37"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0251-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "23e06b3f326f1e7c3e9e0bc993fdcb33e0036eaccdbde4d1a4c0723d3f5161c9"
+    },
+    {
+      "language": "de",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0394-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "5e670c4a0b33ca45dd06e59bca9f82524a4e6f7c1f77bf4d3bac83b484395b4a"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0046-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "1c04f2dac48e6aec21f4d96725f4a7759ebe4d70f30512333ccf8e811719588c"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "596b92753b1cddcd87224fb12daedecc545d5fa39feee31bf04a9dbb12eb6eec"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0085-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "cadc6c24599a1e6f916fc990613d5e15242fbe8197056a56fc6c040372873cae"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0039-qa-sm:r1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "076808ad8585e5eb8a19aa7f0023fffb63c68a2e4eb5fc537aa8cff9dd036a73"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0034-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "f24d45356843211493711e11f5027baeb8f620434b54d060cdb07bc692992215"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0187-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "dc5e356a3eff0b16e5a705a62ed0169851bc554eea0384dd8a684d1d99b062a4"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0016-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "138b1c24c23f86c0400dc2c819fa5dd3ffe5e095e94a02f00d427592dfdf2872"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0026-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "f6d0e79a107adff3a04e5673132379ecf3d0fc58e0d43f84353f1064064a33a0"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0165-qa-sm:r1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "c0f2c16b499e58be45f084d39a0bf537133ec567e1f0f24f20cc9d1568444bd6"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0196-qa-sm:r1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "91f90c493780d01a7dc25613b6b78dcffc67edd12c4e6b7b9a336799bb03167b"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0097-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "d0d9354ed5005572a1fb968ffe47ddba44b78a622115cb55428a72a78207a159"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0141-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "effb5dbd940d56f5f4aee36012a16c8e391a037dbf7cd329b86f6876fc2040c3"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0148-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "44398d2e12b331c80a2b5aa264a509a5498c090101a6bc78f9db2387cda79a6f"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0041-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "ae61a940a0ed168ffa9ce57ece5ddf893eeab15e76ba9dcded314724242ac643"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0194-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "85a10cf34569bae040c85dc5e6d6f2e6d236799b5b16cc5453c2bbaf198e6659"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0086-qa-sm:r1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "3bb3feff492a036d0cba293a59e46a5eebadc87db6634ef5f5423fd857580d71"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0108-qa-sm:r2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "80bc5ce077796544ca56ae9c35800b97d3806b18c8406ba0b3245c265be2e083"
+    },
+    {
+      "language": "hi",
+      "kind": "atomic",
+      "prompt_id": "0076-qa-sm:r1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "dd054898fcc9c657594e9756a1bbe0c5bfc75cbdb0eaefe762b47664d0ae0995"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0347-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "fad817559c51b74c4cc5915e6c23aee7818e7b59cb19987def6698e612c06b29"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0292-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "722a3a4070d8ed86a8ccd250dbdf852bb4350ed5b637f0101bf684e205059b1e"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "61ec820374b657309bcb17dceb3d5099219ca4c32c50e9129521758a94bfaf0e"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0307-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "37a07913e4a52988daf693ca46d6c0666c5ae4d777e8bf7bea3c9635983547e9"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0321-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "af050616c364c8752bdf7c21a4b48372117d52afb1709f2de0e243a3540be284"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0330-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "ff4f35e913953a950942c62f0c6fc6edabebb3bec12c94ab97a7475e691b4483"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:q3",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "591b75ebef714603df4bbf895548ae7b1a25a61a79af3a15e7a6d20ba2ad0474"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0269-qa-sm:q2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "a5e9127eb3ed190475d7edb6c30eeeddc6a0f0864bc3aa34f55115421c40e947"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "59f536137d91da4405f04be53a612af90ccd6dbfa1e6f98d1e5a279fa9550d37"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "d07dafb376c3e211f37d92f2ad3922cdf5b64d7974ae40e7f255a91fe9d7d527"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0348-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "6633efa71f4f7c9060bb07861f2fca79513e11e89a7f343db62a2635f66911ed"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0230-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "8bea7a3043556ad87177ef0f894fe47b81bfa6de592b976bf6aa4e5972596220"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "6e46eeb827e610097bec3927439f936cb081b1aa8505c65b70c4c9d4318ea5aa"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "471251079f3f8be7f83ff667fb4c4e5570922b4bca3a2ea922014e496e1f8f32"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "bd0f4c6814c56b904cab070212689250bb4ab42dc553894e57e75f997b965aba"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0214-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "16006d4409507ca16316ebdbffe6c7ea0f39b7c8800af9e6c769f171f87b2f27"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "f3de1dccd5763239ad662454204a999ebd384ae909557cb1df7cc82b7ef376a6"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "c204eea919a11a93acd8e900f0c1045f7a4566b8cf48fb84cb036d6978fa6256"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "5aa8fb0fed9b3d24db556e98760e4c6d2dea671296adfffa1883edda7865efed"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "81abe7da7398a3073c968303327c16199dd4ed76f8b6111f5af285519076f8a4"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "d1a2e806d4c1b20ca880fdaf9614a32aad833780100933b19e96fabd9586d3cd"
+    },
+    {
+      "language": "hi",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "restoration_method": "heuristic_transliteration",
+      "candidate_sha256": "920a9191c4b18ac293eb495213dbef4558b81b81361cb63c020e17b6d84f85a3"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0048-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "21cf7e169e4330ee3fa4cad9d22f4a5b3882db7d7a5b249a2b7ea92a666f092f"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0027-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "ef8c84c1e7a37f50d50c6f3abda7f78306ef72c8216dcf63630c062a73174437"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0131-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "255af0db3713783eb2cb3d80ab3cddf2601f99f47d9f812ec47e70bfba0f7ace"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0125-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "72fa951dff2187e516fe4778ab7eefdd60790f723371bbcdc64c41df7f98e1bc"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0114-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "0ed9cee2c9132049eaf4df61e07e5dff01520bbafb5714ad1101caaa37b3cd70"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0065-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "17394a6176ae90aef38a684dce3c38152e96049ef7680a14ab4912cfc013e4c3"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0011-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "0ad81751ad930ed73ccc66dc49aa027695532f0a10b08551b8fb6a5f48456939"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0110-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "f89da61006495aef2bde83ab225bd38a87d618f6e3c2bea9ac044d03133d1452"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0012-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "ac785195732122510c64e776d3e003e5259637b2a6f3fd3878a131d02b07208b"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0061-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "74f4b2d89c7f6fb3a8e28a8ab4955330a6306f2e0d42a6e3b7ad5920a3b69ff3"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0156-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "12264ce29df9ea88f1f6625e40ae8cde9d91431faf6592b0f686052cafd8f220"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0042-qa-sm:r2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "147a42e65c02dda6368925cb4bb287db5461c0caca40eec3b2770d539a7892e2"
+    },
+    {
+      "language": "th",
+      "kind": "atomic",
+      "prompt_id": "0025-qa-sm:r1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "03e46e65311cf2bc93417a29888b5239d6cf3d39e3655275e5a75ccc1bd2bf84"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0270-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "830d3168f62643777ac11098b63380508d30741bfc9e76a1898be2cac524eabe"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0323-qa-sm:q1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "9a79b2356c389ca2ddeba7fb1bd81c2a0fb1c468afe8cc0924f2b12b42279dd1"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:q2",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "f2c53363d3133e0d7dd32b19a199dfdff8a965843b723eaae8127d7bc609354f"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0267-qa-sm:q1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "8d8be3855ecc1f5cd9f0db66910fbe4efc0abb46fd84368b12d008e45d4f0d35"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0383-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "80fae9e39967d40bd26a2c39bd98d23f6bb9f83470a93bb85e37e9d29c582daa"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0296-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "0433cc4b38364860a6344b5307a38016b95e7c1033ae6982d4dd0dc73eab08cf"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0291-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "7f13eb428f23187ebd6172b9f207f075d8b848f0b29b5eae74bb40a0fc0a74a0"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0284-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "94d8c10567e848bdbe2bab3a0335d2eb8ac4d2d4d8882cdbd0fcd38a6f579c8e"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0242-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "8077a83917846745f57467bc3fde2a9d99b8359aad25e947cdcc9e6b75b3a461"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0219-qa-sm:q1",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "70c054f9d926a00973506d651fb7531415c5480a62127820eb70ca4a7acfb8ef"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0305-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "2daaf911de2f65e936bea729deba9f44102ba33230786f10a73ed5c6dec5e99b"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0238-qa-sm:q3",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "9d0c31ae10ab092b632b1204bc87d103ceb3308892c144607694acbeaae4b020"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0398-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "7449a91fe6afc2afab6907aae42e39f1df434f01368434d2fa7cc74e4d6da879"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0295-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "9b4f491c87a6942daa7ef43cc8ab1432b68cc5bd24f189855dcf8572acd2703d"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0241-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "f897767e1c53ff65b4926324ffe784a7f45ef8608532059f97c45dd0b990122e"
+    },
+    {
+      "language": "th",
+      "kind": "composition",
+      "prompt_id": "disjoint-b:0218-qa-sm:multi",
+      "restoration_method": "exact_surrogate",
+      "candidate_sha256": "81ae1ec3d624ac25a5ffbcf8c093908b69e4d31ecdc537ec072bc0a1f6b78910"
+    }
+  ],
+  "unchanged": 41,
+  "unresolved": 39
+}

@@ -1,0 +1,27 @@
+{
+  "status": "VERIFIED_AI_ONLY_RETRY_DIAGNOSTIC_QUARANTINED",
+  "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+  "prior_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+  "output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+  "submitted_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+  "pulled_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+  "rows": 17,
+  "counts": {
+    "reviewed": 17,
+    "semantic_pass": 5,
+    "fluency_pass": 15,
+    "joint_pass": 3,
+    "recovered_from_block": 17
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+  "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "human_translation_reviewed": false,
+  "release_approved": false,
+  "training_eligible": false,
+  "answers_or_split_labels_included": false,
+  "interpretation": "AI-only retry diagnostics; no translation is certified or admitted to the release by this receipt."
+}

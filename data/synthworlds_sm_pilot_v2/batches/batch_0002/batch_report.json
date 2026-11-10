@@ -1,0 +1,40 @@
+{
+  "batch_id": "0002",
+  "counts": [
+    {
+      "docs": 0,
+      "facts": 0,
+      "language": "fr",
+      "qa_complete_docs": 0,
+      "qa_records": 4,
+      "sft": 8
+    },
+    {
+      "docs": 0,
+      "facts": 0,
+      "language": "de",
+      "qa_complete_docs": 0,
+      "qa_records": 4,
+      "sft": 8
+    },
+    {
+      "docs": 0,
+      "facts": 0,
+      "language": "hi",
+      "qa_complete_docs": 0,
+      "qa_records": 4,
+      "sft": 8
+    },
+    {
+      "docs": 0,
+      "facts": 0,
+      "language": "th",
+      "qa_complete_docs": 0,
+      "qa_records": 4,
+      "sft": 8
+    }
+  ],
+  "human_review_status": "pending",
+  "method": "GPT-6-authored conservative QA question translations for natural-language SFT pilot; canonical documents not yet translated; linguistic review pending",
+  "validation": "structural_pass_only"
+}

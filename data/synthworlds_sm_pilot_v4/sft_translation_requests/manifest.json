@@ -1,0 +1,290 @@
+{
+  "all_languages_same_sft_ids": true,
+  "answer_policy": "Translate answers naturally while preserving fictional entity names, numbers, and factual meaning. Fluent reviewers approve both question and answer.",
+  "batch_size": 25,
+  "do_not_train_until_complete_and_reviewed": true,
+  "languages": {
+    "de": {
+      "batches": [
+        {
+          "batch_id": "001",
+          "first_sft_id": "0003-qa-sm:r1",
+          "last_sft_id": "0033-qa-sm:r1",
+          "path": "sft_translation_requests/de/batch_001.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "002",
+          "first_sft_id": "0033-qa-sm:r2",
+          "last_sft_id": "0059-qa-sm:r1",
+          "path": "sft_translation_requests/de/batch_002.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "003",
+          "first_sft_id": "0059-qa-sm:r2",
+          "last_sft_id": "0085-qa-sm:r2",
+          "path": "sft_translation_requests/de/batch_003.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "004",
+          "first_sft_id": "0089-qa-sm:r1",
+          "last_sft_id": "0116-qa-sm:r1",
+          "path": "sft_translation_requests/de/batch_004.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "005",
+          "first_sft_id": "0116-qa-sm:r2",
+          "last_sft_id": "0142-qa-sm:r2",
+          "path": "sft_translation_requests/de/batch_005.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "006",
+          "first_sft_id": "0143-qa-sm:r1",
+          "last_sft_id": "0157-qa-sm:r1",
+          "path": "sft_translation_requests/de/batch_006.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "007",
+          "first_sft_id": "0157-qa-sm:r2",
+          "last_sft_id": "0173-qa-sm:r2",
+          "path": "sft_translation_requests/de/batch_007.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "008",
+          "first_sft_id": "0176-qa-sm:r1",
+          "last_sft_id": "0191-qa-sm:r1",
+          "path": "sft_translation_requests/de/batch_008.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "009",
+          "first_sft_id": "0191-qa-sm:r2",
+          "last_sft_id": "0199-qa-sm:r2",
+          "path": "sft_translation_requests/de/batch_009.jsonl",
+          "rows": 5
+        }
+      ],
+      "existing_draft_rows_pending_review": 4,
+      "expected_unique_sft_rows": 205,
+      "translation_rows_needed_or_requiring_review": 205
+    },
+    "fr": {
+      "batches": [
+        {
+          "batch_id": "001",
+          "first_sft_id": "0003-qa-sm:r1",
+          "last_sft_id": "0033-qa-sm:r1",
+          "path": "sft_translation_requests/fr/batch_001.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "002",
+          "first_sft_id": "0033-qa-sm:r2",
+          "last_sft_id": "0059-qa-sm:r1",
+          "path": "sft_translation_requests/fr/batch_002.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "003",
+          "first_sft_id": "0059-qa-sm:r2",
+          "last_sft_id": "0085-qa-sm:r2",
+          "path": "sft_translation_requests/fr/batch_003.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "004",
+          "first_sft_id": "0089-qa-sm:r1",
+          "last_sft_id": "0116-qa-sm:r1",
+          "path": "sft_translation_requests/fr/batch_004.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "005",
+          "first_sft_id": "0116-qa-sm:r2",
+          "last_sft_id": "0142-qa-sm:r2",
+          "path": "sft_translation_requests/fr/batch_005.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "006",
+          "first_sft_id": "0143-qa-sm:r1",
+          "last_sft_id": "0157-qa-sm:r1",
+          "path": "sft_translation_requests/fr/batch_006.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "007",
+          "first_sft_id": "0157-qa-sm:r2",
+          "last_sft_id": "0173-qa-sm:r2",
+          "path": "sft_translation_requests/fr/batch_007.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "008",
+          "first_sft_id": "0176-qa-sm:r1",
+          "last_sft_id": "0191-qa-sm:r1",
+          "path": "sft_translation_requests/fr/batch_008.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "009",
+          "first_sft_id": "0191-qa-sm:r2",
+          "last_sft_id": "0199-qa-sm:r2",
+          "path": "sft_translation_requests/fr/batch_009.jsonl",
+          "rows": 5
+        }
+      ],
+      "existing_draft_rows_pending_review": 4,
+      "expected_unique_sft_rows": 205,
+      "translation_rows_needed_or_requiring_review": 205
+    },
+    "hi": {
+      "batches": [
+        {
+          "batch_id": "001",
+          "first_sft_id": "0003-qa-sm:r1",
+          "last_sft_id": "0033-qa-sm:r1",
+          "path": "sft_translation_requests/hi/batch_001.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "002",
+          "first_sft_id": "0033-qa-sm:r2",
+          "last_sft_id": "0059-qa-sm:r1",
+          "path": "sft_translation_requests/hi/batch_002.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "003",
+          "first_sft_id": "0059-qa-sm:r2",
+          "last_sft_id": "0085-qa-sm:r2",
+          "path": "sft_translation_requests/hi/batch_003.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "004",
+          "first_sft_id": "0089-qa-sm:r1",
+          "last_sft_id": "0116-qa-sm:r1",
+          "path": "sft_translation_requests/hi/batch_004.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "005",
+          "first_sft_id": "0116-qa-sm:r2",
+          "last_sft_id": "0142-qa-sm:r2",
+          "path": "sft_translation_requests/hi/batch_005.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "006",
+          "first_sft_id": "0143-qa-sm:r1",
+          "last_sft_id": "0157-qa-sm:r1",
+          "path": "sft_translation_requests/hi/batch_006.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "007",
+          "first_sft_id": "0157-qa-sm:r2",
+          "last_sft_id": "0173-qa-sm:r2",
+          "path": "sft_translation_requests/hi/batch_007.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "008",
+          "first_sft_id": "0176-qa-sm:r1",
+          "last_sft_id": "0191-qa-sm:r1",
+          "path": "sft_translation_requests/hi/batch_008.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "009",
+          "first_sft_id": "0191-qa-sm:r2",
+          "last_sft_id": "0199-qa-sm:r2",
+          "path": "sft_translation_requests/hi/batch_009.jsonl",
+          "rows": 5
+        }
+      ],
+      "existing_draft_rows_pending_review": 4,
+      "expected_unique_sft_rows": 205,
+      "translation_rows_needed_or_requiring_review": 205
+    },
+    "th": {
+      "batches": [
+        {
+          "batch_id": "001",
+          "first_sft_id": "0003-qa-sm:r1",
+          "last_sft_id": "0033-qa-sm:r1",
+          "path": "sft_translation_requests/th/batch_001.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "002",
+          "first_sft_id": "0033-qa-sm:r2",
+          "last_sft_id": "0059-qa-sm:r1",
+          "path": "sft_translation_requests/th/batch_002.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "003",
+          "first_sft_id": "0059-qa-sm:r2",
+          "last_sft_id": "0085-qa-sm:r2",
+          "path": "sft_translation_requests/th/batch_003.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "004",
+          "first_sft_id": "0089-qa-sm:r1",
+          "last_sft_id": "0116-qa-sm:r1",
+          "path": "sft_translation_requests/th/batch_004.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "005",
+          "first_sft_id": "0116-qa-sm:r2",
+          "last_sft_id": "0142-qa-sm:r2",
+          "path": "sft_translation_requests/th/batch_005.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "006",
+          "first_sft_id": "0143-qa-sm:r1",
+          "last_sft_id": "0157-qa-sm:r1",
+          "path": "sft_translation_requests/th/batch_006.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "007",
+          "first_sft_id": "0157-qa-sm:r2",
+          "last_sft_id": "0173-qa-sm:r2",
+          "path": "sft_translation_requests/th/batch_007.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "008",
+          "first_sft_id": "0176-qa-sm:r1",
+          "last_sft_id": "0191-qa-sm:r1",
+          "path": "sft_translation_requests/th/batch_008.jsonl",
+          "rows": 25
+        },
+        {
+          "batch_id": "009",
+          "first_sft_id": "0191-qa-sm:r2",
+          "last_sft_id": "0199-qa-sm:r2",
+          "path": "sft_translation_requests/th/batch_009.jsonl",
+          "rows": 5
+        }
+      ],
+      "existing_draft_rows_pending_review": 4,
+      "expected_unique_sft_rows": 205,
+      "translation_rows_needed_or_requiring_review": 205
+    }
+  },
+  "source_question_set_sha256": "fd1128ddeafc48981aef5808d0b1d408d3c0e110c4258483a6a85898badef47c",
+  "status": "TRANSLATION_DRAFTS_REQUIRED"
+}

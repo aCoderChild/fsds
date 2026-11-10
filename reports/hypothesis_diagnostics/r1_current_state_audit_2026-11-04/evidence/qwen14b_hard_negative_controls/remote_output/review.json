@@ -1,0 +1,225 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "input_sha256": "a0cfaf53556f292294c09655106f28c0cb23b8baa6265a6654df4ce71218fcad",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.51.3",
+  "accelerate": "1.15.0",
+  "gpu": "Tesla T4",
+  "records": [
+    {
+      "control_id": "HN001",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "3cbc7512733d4d2746566fdfe8935ce4909dcb6be905c5de2458643aa09a6622",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the mother instead of the father.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the mother instead of the father."
+      }
+    },
+    {
+      "control_id": "HN002",
+      "language": "fr",
+      "kind": "atomic",
+      "source": "On what date did [ENTITY_A] officially close?",
+      "translation_sha256": "21a17570a82ed4aaeee21cba3370a24e8391883d7dbd63d38f3d102cf90367c7",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The source asks about the closing date, while the target asks about the opening date.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The source asks about the closing date, while the target asks about the opening date."
+      }
+    },
+    {
+      "control_id": "HN003",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Who is the mother of [ENTITY_A]?",
+      "translation_sha256": "4f37b92dcf94c059c7307c1cac873ecca95f739f11789f582409a54f1600a455",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the father instead of the mother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the father instead of the mother."
+      }
+    },
+    {
+      "control_id": "HN004",
+      "language": "fr",
+      "kind": "composition",
+      "source": "Who is the sibling of the person for whom the place where [ENTITY_A] worked was named?",
+      "translation_sha256": "fb6ff16d1f23efbf81fedc2671978445ab0fb3d7a3fa3bc2329280cc3c4b25f3",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The central relation differs: 'sibling' in the source versus 'conjoint' (spouse) in the target.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The central relation differs: 'sibling' in the source versus 'conjoint' (spouse) in the target."
+      }
+    },
+    {
+      "control_id": "HN005",
+      "language": "de",
+      "kind": "atomic",
+      "source": "Who is [ENTITY_A]'s mother?",
+      "translation_sha256": "af3ea01f57a37b33b57443e925c315455debbaf9e3f59958eaf79a2fb25a714b",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the father instead of the mother.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the father instead of the mother."
+      }
+    },
+    {
+      "control_id": "HN006",
+      "language": "de",
+      "kind": "atomic",
+      "source": "In what year did [ENTITY_A] officially close?",
+      "translation_sha256": "65030dde55ba3b645f5eb5e41c94c6f39f7e595d52e9e9ee4c51fc7173902d28",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the opening instead of the closing of [ENTITY_A].\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the opening instead of the closing of [ENTITY_A]."
+      }
+    },
+    {
+      "control_id": "HN007",
+      "language": "de",
+      "kind": "composition",
+      "source": "Who is the significant person linked to the father of the person to whom the [ENTITY_A] is dedicated?",
+      "translation_sha256": "e0c63ec9840d04b32cfc42bc28b38c82316e4945398e3296dcfef42442f08e1f",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation incorrectly refers to the 'mother' instead of the 'father'.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation incorrectly refers to the 'mother' instead of the 'father'."
+      }
+    },
+    {
+      "control_id": "HN008",
+      "language": "de",
+      "kind": "composition",
+      "source": "Who is the editor of [ENTITY_A]?",
+      "translation_sha256": "286052844393cbc9aa4ef23d9c24885f58b21632b2e7e299638515c30f849dc2",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The central relation is incorrect; 'editor' in English corresponds to 'Redakteur/in' or 'Chefredakteur/in' in German, not 'Direktor', which means 'director'.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The central relation is incorrect; 'editor' in English corresponds to 'Redakteur/in' or 'Chefredakteur/in' in German, not 'Direktor', which means 'director'."
+      }
+    },
+    {
+      "control_id": "HN009",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "Who is [ENTITY_A]'s father?",
+      "translation_sha256": "9d76946fcfc76543441a1a2fa650c7c89f9efb5a66d733101bfa47b469d23ba8",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about [ENTITY_A]'s mother instead of [ENTITY_A]'s father.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about [ENTITY_A]'s mother instead of [ENTITY_A]'s father."
+      }
+    },
+    {
+      "control_id": "HN010",
+      "language": "hi",
+      "kind": "atomic",
+      "source": "On what date did [ENTITY_A] officially close?",
+      "translation_sha256": "32ce630099380c3d4b8a9a62c5ab67b1b0f7422e3f3a8c9a540f147c16a72b48",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation incorrectly uses 'open' instead of 'close', reversing the action's polarity.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation incorrectly uses 'open' instead of 'close', reversing the action's polarity."
+      }
+    },
+    {
+      "control_id": "HN011",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Which family does the father of the main subject of the [ENTITY_A] belong to?",
+      "translation_sha256": "bb6f6002fa2e833081e7d6f7667127131085da614845f868045674b7c8d61f96",
+      "raw_output": "```json\n{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation incorrectly refers to the mother instead of the father.\"\n}\n```",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation incorrectly refers to the mother instead of the father."
+      }
+    },
+    {
+      "control_id": "HN012",
+      "language": "hi",
+      "kind": "composition",
+      "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?",
+      "translation_sha256": "989b61a240a8eeb55d2e53f3c58c7c7f99d1241c1e91165bcc16335b3573bdc1",
+      "raw_output": "```json\n{\n  \"semantic_pass\": true,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source.\"\n}\n```",
+      "decision": {
+        "semantic_pass": true,
+        "fluency_pass": true,
+        "reason": "The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source."
+      }
+    },
+    {
+      "control_id": "HN013",
+      "language": "th",
+      "kind": "atomic",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the mother instead of the father.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the mother instead of the father."
+      }
+    },
+    {
+      "control_id": "HN014",
+      "language": "th",
+      "kind": "atomic",
+      "source": "In what year did [ENTITY_A] officially open?",
+      "translation_sha256": "301207ae685dd5939296660a9d39bd37adf436ad87ea66c9cabe64daf3823f8e",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation incorrectly uses 'ปิดงาน' (closed) instead of 'เปิด' (opened), changing the meaning from opening to closing.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation incorrectly uses 'ปิดงาน' (closed) instead of 'เปิด' (opened), changing the meaning from opening to closing."
+      }
+    },
+    {
+      "control_id": "HN015",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is the father of [ENTITY_A]?",
+      "translation_sha256": "041e45941f2ac15bc40e3f1ad7b357d62f308d08d56fe4ebb6c65d459175ca93",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about the mother instead of the father.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about the mother instead of the father."
+      }
+    },
+    {
+      "control_id": "HN016",
+      "language": "th",
+      "kind": "composition",
+      "source": "Who is [ENTITY_A]'s sibling?",
+      "translation_sha256": "bf51f7e1d1bc461f7ee7b1991ac33483b96409a538ed9d79988fb11cd0710d55",
+      "raw_output": "{\n  \"semantic_pass\": false,\n  \"fluency_pass\": true,\n  \"reason\": \"The candidate translation asks about [ENTITY_A]'s spouse instead of their sibling.\"\n}",
+      "decision": {
+        "semantic_pass": false,
+        "fluency_pass": true,
+        "reason": "The candidate translation asks about [ENTITY_A]'s spouse instead of their sibling."
+      }
+    }
+  ],
+  "schema_errors": 0,
+  "semantic_rejects_on_known_mismatches": 15,
+  "semantic_passes_on_known_mismatches": 1,
+  "fluency_passes": 16,
+  "both_pass_on_known_mismatches": 1
+}

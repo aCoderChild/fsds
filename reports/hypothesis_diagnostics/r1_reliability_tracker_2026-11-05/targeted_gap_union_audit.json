@@ -1,0 +1,744 @@
+{
+  "atomic_coverage": {
+    "exact_all_four_language_cases_after": {
+      "forget": 42,
+      "retain": 16
+    },
+    "exact_all_four_language_cases_before": {
+      "forget": 36,
+      "retain": 15
+    },
+    "exact_leakage_groups_after": {
+      "forget": 22,
+      "retain": 12
+    },
+    "exact_leakage_groups_before": {
+      "forget": 18,
+      "retain": 12
+    },
+    "note": "These are translation-coverage counts, not model competence, statistical power, or an approved training split.",
+    "optimistic_relation_aware_template_ceiling_after": {
+      "forget": 47,
+      "retain": 19
+    },
+    "optimistic_relation_aware_template_ceiling_before": {
+      "forget": 40,
+      "retain": 17
+    },
+    "required_cases": {
+      "forget": 117,
+      "retain": 39
+    }
+  },
+  "audit": "Quarantined targeted-gap candidate union coverage; source-bound AI-only diagnostic",
+  "composition_coverage": {
+    "complete_chains_after": 2,
+    "complete_chains_before": 1,
+    "missing_row_histogram_after": {
+      "0": 2,
+      "1": 12,
+      "2": 11,
+      "3": 7,
+      "4": 4,
+      "5": 5,
+      "6": 3
+    },
+    "missing_translation_rows_after": 114,
+    "missing_translation_rows_before": 138,
+    "required_training_chains": 44
+  },
+  "coverage_before_and_after_targeted_candidates": {
+    "net_new_by_language_and_kind": {
+      "de": {
+        "atomic": 0,
+        "composition": 8
+      },
+      "fr": {
+        "atomic": 7,
+        "composition": 3
+      },
+      "hi": {
+        "atomic": 7,
+        "composition": 9
+      },
+      "th": {
+        "atomic": 11,
+        "composition": 4
+      }
+    },
+    "net_new_unique_prompt_language_rows": 49,
+    "review_attempts_by_screen": {
+      "alias_retry_17": {
+        "already_covered_before_screen": 3,
+        "joint_pass_rows": 3,
+        "net_unique_rows": 0
+      },
+      "initial_187": {
+        "already_covered_before_screen": 1,
+        "joint_pass_rows": 36,
+        "net_unique_rows": 35
+      },
+      "nllb_alternates": {
+        "already_covered_before_screen": 2,
+        "joint_pass_rows": 3,
+        "net_unique_rows": 1
+      },
+      "segmented_nllb_retry": {
+        "already_covered_before_screen": 0,
+        "joint_pass_rows": 0,
+        "net_unique_rows": 0
+      },
+      "third_candidate_overlay": {
+        "already_covered_before_screen": 23,
+        "joint_pass_rows": 36,
+        "net_unique_rows": 13
+      }
+    },
+    "verified_candidate_pass_rows_after_deduplicated_union": 1677,
+    "verified_candidate_pass_rows_before": 1628
+  },
+  "created_at_utc": "2026-11-05T15:35:13+00:00",
+  "independently_rerun_verifiers": {
+    "alias_retry": {
+      "answers_or_split_labels_included": false,
+      "counts": {
+        "fluency_pass": 15,
+        "joint_pass": 3,
+        "recovered_from_block": 17,
+        "reviewed": 17,
+        "semantic_pass": 5
+      },
+      "gpu": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "human_translation_reviewed": false,
+      "input_sha256": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+      "interpretation": "AI-only retry diagnostics; no translation is certified or admitted to the release by this receipt.",
+      "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "output_sha256": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+      "prior_output_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+      "pulled_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+      "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "release_approved": false,
+      "rows": 17,
+      "status": "VERIFIED_AI_ONLY_RETRY_DIAGNOSTIC_QUARANTINED",
+      "submitted_script_sha256": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+      "training_eligible": false
+    },
+    "mistral_hard_negative_control": {
+      "counts": {
+        "at_least_one_flag": 13,
+        "both_pass": 2,
+        "semantic_flag": 9,
+        "semantic_pass": 6
+      },
+      "limitation": "Obvious synthetic mismatches are not representative of real translation errors.",
+      "output_sha256": "0ce0814f95544dcefeba191116e9510bf86bd1c363835addd063205bfc45d2f8",
+      "rows": 15,
+      "status": "CONTROLLED_MISMATCH_DIAGNOSTIC_ONLY"
+    },
+    "nllb_alternate_candidates": {
+      "answers_or_split_labels_included": false,
+      "counts": {
+        "blocked": 125,
+        "candidate_rows": 24,
+        "fluency_pass": 22,
+        "joint_pass": 3,
+        "reviewed": 23,
+        "semantic_pass": 4
+      },
+      "counts_by_language": {
+        "de": {
+          "blocked": 2,
+          "candidate_rows": 10,
+          "fluency_pass": 8,
+          "joint_pass": 3,
+          "reviewed": 9,
+          "semantic_pass": 4
+        },
+        "fr": {
+          "candidate_rows": 12,
+          "fluency_pass": 12,
+          "joint_pass": 0,
+          "reviewed": 12,
+          "semantic_pass": 0
+        },
+        "hi": {
+          "blocked": 52
+        },
+        "th": {
+          "blocked": 71,
+          "candidate_rows": 2,
+          "fluency_pass": 2,
+          "joint_pass": 0,
+          "reviewed": 2,
+          "semantic_pass": 0
+        }
+      },
+      "gpu": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "human_translation_reviewed": false,
+      "input_sha256": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+      "interpretation": "AI-only alternate candidate screen; no translation is certified or admitted to the training release.",
+      "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+      "pulled_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+      "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "release_approved": false,
+      "rows": 148,
+      "status": "VERIFIED_AI_ONLY_NLLB_CANDIDATES_QUARANTINED",
+      "submitted_script_sha256": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+      "training_eligible": false
+    },
+    "primary": {
+      "artifact_sha256": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+      "by_kind": {
+        "atomic": {
+          "blocked": 14,
+          "fluency_pass": 85,
+          "joint_pass": 18,
+          "reviewed": 86,
+          "semantic_pass": 18
+        },
+        "composition": {
+          "blocked": 3,
+          "fluency_pass": 84,
+          "joint_pass": 18,
+          "reviewed": 84,
+          "semantic_pass": 18
+        }
+      },
+      "by_language": {
+        "de": {
+          "blocked": 3,
+          "fluency_pass": 16,
+          "joint_pass": 7,
+          "reviewed": 16,
+          "semantic_pass": 7
+        },
+        "fr": {
+          "blocked": 2,
+          "fluency_pass": 18,
+          "joint_pass": 9,
+          "reviewed": 19,
+          "semantic_pass": 9
+        },
+        "hi": {
+          "blocked": 10,
+          "fluency_pass": 52,
+          "joint_pass": 8,
+          "reviewed": 52,
+          "semantic_pass": 8
+        },
+        "th": {
+          "blocked": 2,
+          "fluency_pass": 83,
+          "joint_pass": 12,
+          "reviewed": 83,
+          "semantic_pass": 12
+        }
+      },
+      "counts": {
+        "blocked": 17,
+        "fluency_pass": 169,
+        "joint_pass": 36,
+        "semantic_pass": 36
+      },
+      "errors": [],
+      "human_translation_reviewed": false,
+      "input_sha256": "2fda765bcd8733181e75d7c1d3f1d7aa69aadb7d9e87b31facc95e5daea13abf",
+      "model_revisions": {
+        "nllb": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+        "qwen": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+      },
+      "record_rows": 187,
+      "release_approved": false,
+      "reviewed_input_rows": 187,
+      "status": "VERIFIED_AI_ONLY_DIAGNOSTIC_QUARANTINED",
+      "training_eligible": false
+    },
+    "qwen14_hard_negative_control": {
+      "accelerate": "1.15.0",
+      "accepted_known_mismatches": [
+        {
+          "control_id": "HN012",
+          "kind": "composition",
+          "language": "hi",
+          "reason": "The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source.",
+          "source": "Who is the editor of the crew that the [ENTITY_A] crew member belongs to?"
+        }
+      ],
+      "counts": {
+        "both_pass": 1,
+        "fluency_pass": 16,
+        "not_both_pass": 15,
+        "semantic_pass": 1,
+        "semantic_reject": 15
+      },
+      "gpu": "Tesla T4",
+      "input_sha256": "a0cfaf53556f292294c09655106f28c0cb23b8baa6265a6654df4ce71218fcad",
+      "limitations": [
+        "The source/candidate pairing is intentionally wrong by one relation-word substitution.",
+        "The reused translations are AI-screened, not human-gold translations.",
+        "This tests rejection of relation-level mismatches; it does not certify target-language fluency or the full corpus."
+      ],
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "next_step_allowed": "reviewer_requires_revision_and_fresh_controls",
+      "output_sha256": "336d7c7b110b4ff1fd2c63227f7410ecddb771051f24d199b4708e0103f44406",
+      "predeclared_rule_passed": false,
+      "release_status": "NOT_A_RELEASE_GATE_OR_TRANSLATION_APPROVAL",
+      "review_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+      "rows": 16,
+      "run_log_sha256": "85b92019daf5af9086c6ee7a27fe8cd97bd696c53128ace7eff366be8cf03f7a",
+      "semantic_rejections_by_language_and_kind": {
+        "de/atomic": {
+          "semantic_reject": 2
+        },
+        "de/composition": {
+          "semantic_reject": 2
+        },
+        "fr/atomic": {
+          "semantic_reject": 2
+        },
+        "fr/composition": {
+          "semantic_reject": 2
+        },
+        "hi/atomic": {
+          "semantic_reject": 2
+        },
+        "hi/composition": {
+          "semantic_pass": 1,
+          "semantic_reject": 1
+        },
+        "th/atomic": {
+          "semantic_reject": 2
+        },
+        "th/composition": {
+          "semantic_reject": 2
+        }
+      },
+      "status": "VERIFIED_DIAGNOSTIC_SCREEN_FAILED",
+      "submitted_script_matches_local": true,
+      "submitted_script_sha256": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.51.3"
+    },
+    "segmented_nllb_retry": {
+      "answers_or_split_labels_included": false,
+      "counts": {
+        "blocked": 1,
+        "candidate_rows": 124,
+        "fluency_pass": 101,
+        "joint_pass": 0,
+        "reviewed": 124,
+        "semantic_pass": 0
+      },
+      "counts_by_language": {
+        "de": {
+          "candidate_rows": 2,
+          "fluency_pass": 2,
+          "joint_pass": 0,
+          "reviewed": 2,
+          "semantic_pass": 0
+        },
+        "fr": {},
+        "hi": {
+          "blocked": 1,
+          "candidate_rows": 51,
+          "fluency_pass": 40,
+          "joint_pass": 0,
+          "reviewed": 51,
+          "semantic_pass": 0
+        },
+        "th": {
+          "candidate_rows": 71,
+          "fluency_pass": 59,
+          "joint_pass": 0,
+          "reviewed": 71,
+          "semantic_pass": 0
+        }
+      },
+      "error_counts": {
+        "candidate_error": 1
+      },
+      "gpu": [
+        "Tesla T4",
+        "Tesla T4"
+      ],
+      "human_translation_reviewed": false,
+      "input_sha256": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+      "interpretation": "AI-only marker-preserving candidate retry; outputs are quarantined and cannot approve a translation.",
+      "nllb_model_revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "output_sha256": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
+      "previous_candidate_output_sha256": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+      "pulled_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+      "qwen_model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+      "release_approved": false,
+      "rows": 125,
+      "status": "VERIFIED_AI_ONLY_NLLB_SEGMENTED_RETRY_QUARANTINED",
+      "submitted_script_sha256": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+      "training_eligible": false
+    },
+    "third_candidate_mistral_direct_review": {
+      "answers_or_splits_sent": false,
+      "blocked_rows": 0,
+      "counts_by_language": {
+        "de": {
+          "blocked": 0,
+          "by_kind": {
+            "atomic": {
+              "blocked": 0,
+              "flag": 0,
+              "pass": 7
+            },
+            "composition": {
+              "blocked": 0,
+              "flag": 0,
+              "pass": 12
+            }
+          },
+          "flag": 0,
+          "pass": 19
+        },
+        "fr": {
+          "blocked": 0,
+          "by_kind": {
+            "atomic": {
+              "blocked": 0,
+              "flag": 3,
+              "pass": 12
+            },
+            "composition": {
+              "blocked": 0,
+              "flag": 3,
+              "pass": 3
+            }
+          },
+          "flag": 6,
+          "pass": 15
+        },
+        "hi": {
+          "blocked": 0,
+          "by_kind": {
+            "atomic": {
+              "blocked": 0,
+              "flag": 0,
+              "pass": 34
+            },
+            "composition": {
+              "blocked": 0,
+              "flag": 0,
+              "pass": 28
+            }
+          },
+          "flag": 0,
+          "pass": 62
+        },
+        "th": {
+          "blocked": 0,
+          "by_kind": {
+            "atomic": {
+              "blocked": 0,
+              "flag": 1,
+              "pass": 43
+            },
+            "composition": {
+              "blocked": 0,
+              "flag": 2,
+              "pass": 39
+            }
+          },
+          "flag": 3,
+          "pass": 82
+        }
+      },
+      "human_translation_reviewed": false,
+      "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+      "kaggle_pulled_review_script_sha256": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+      "local_review_script_sha256": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+      "models": {
+        "id": "mistralai/Mistral-7B-Instruct-v0.3",
+        "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+      },
+      "note": "Direct source-to-translation Mistral review is an independent AI diagnostic, not translation certification.",
+      "output_sha256": "6bf88c9090e07ffb49ede0fb44ff12d8158a23a397a4f2b913cdb8cb4de21748",
+      "qwen_decisions_or_backtranslations_sent": false,
+      "release_approved": false,
+      "rows": 187,
+      "runtime": {
+        "completed_at_utc": "2026-11-04T08:28:53.610686+00:00",
+        "gpu": "Tesla T4",
+        "packages": {
+          "accelerate": "1.15.0",
+          "bitsandbytes": "0.50.2",
+          "transformers": "4.51.3"
+        },
+        "quantization": "4-bit NF4",
+        "started_at_utc": "2026-11-04T07:56:01.269679+00:00"
+      },
+      "status": "VERIFIED_MISTRAL_DIRECT_187_DIAGNOSTIC_ONLY",
+      "training_eligible": false
+    },
+    "third_candidate_mistral_rationale_audit": {
+      "mistral_fluency_false_with_affirmative_rationale": 4,
+      "mistral_semantic_false_with_affirmative_rationale": 8
+    },
+    "third_candidate_overlay": {
+      "counts": {
+        "FLAG": 151,
+        "PASS": 36
+      },
+      "counts_by_kind": {
+        "atomic": {
+          "FLAG": 74,
+          "PASS": 26
+        },
+        "composition": {
+          "FLAG": 77,
+          "PASS": 10
+        }
+      },
+      "counts_by_language": {
+        "de": {
+          "FLAG": 16,
+          "PASS": 3
+        },
+        "fr": {
+          "FLAG": 13,
+          "PASS": 8
+        },
+        "hi": {
+          "FLAG": 48,
+          "PASS": 14
+        },
+        "th": {
+          "FLAG": 74,
+          "PASS": 11
+        }
+      },
+      "human_translation_reviewed": false,
+      "overlay_sha256": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+      "release_approved": false,
+      "repaired_rows": 18,
+      "rows": 187,
+      "status": "PASS_HASH_BOUND_DIAGNOSTIC_OVERLAY_ONLY",
+      "training_eligible": false
+    },
+    "third_candidate_reviewer_comparison": {
+      "agreement": 33,
+      "both_flag": 6,
+      "both_pass": 27,
+      "disagreement": 154,
+      "qwen_flag_mistral_pass": 134,
+      "qwen_mistral_status_crosstab": {
+        "blocked": {
+          "blocked": 0,
+          "flag": 1,
+          "pass": 17
+        },
+        "flag": {
+          "blocked": 0,
+          "flag": 6,
+          "pass": 134
+        },
+        "pass": {
+          "blocked": 0,
+          "flag": 2,
+          "pass": 27
+        }
+      },
+      "qwen_pass_mistral_flag": 2,
+      "rows": 187
+    }
+  },
+  "interpretation": "The added rows are candidate translations screened by AI-only semantic and fluency checks, with no human-gold controls. They remain quarantined and are not admitted to the multilingual SFT corpus. Coverage changes are feasibility diagnostics only; they cannot show that a trained model will meet the pre-unlearning competence gate or support a causal unlearning comparison. The candidate review runtime also logged an SDPA sliding-window attention caveat. A direct Mistral cross-review disagreed with the initial Qwen screen on 154/187 rows; its deliberate-mismatch control passed 2/15, and the Qwen14 deliberate-mismatch screen passed 1/16. These small controls are not error-rate estimates, but they show that neither AI reviewer can certify the candidates.",
+  "provenance": {
+    "all_input_and_code_hashes": {
+      "data/synthworlds_sm/qa-sm-facts.jsonl": "0fa0559b00ac158053a23cdd55f657190560e3f0ede8f2a98b8d2bc8daf5fd0e",
+      "data/synthworlds_sm/qa-sm.jsonl": "c61aaa07a0e0cd56e52f172a9e36c36d1ab0a1a29c9d273dd21bcf6dea4a58bb",
+      "experiments/synthworlds_r1/training_release_draft/atomic_reuse.jsonl": "8118c46776a158aca33d2f351d8b13b4ecf5cc88928c07d4334d1843301f30c1",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/de.jsonl": "51672ea05c7e19d2ebc696cf2cf752a87377a62059946128693b2050117fe3c0",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/fr.jsonl": "ffaad9c706d497d70c350003414bf5f830821198298baca30423056a2e3d7237",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/hi.jsonl": "839ca48cee111f51bd8131a02cb89453291ff031b3063f81fef94d124e15d230",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_drafts/th.jsonl": "f5d458c534de6d7b31a1b6af0a6264a34c9f8741527a1795f50b8767c0b255bb",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/de.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/fr.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/hi.jsonl": "7c73f5b5b858f84cfa831ee8dc248e0cc43b481e7f8b998b2376fa7e3b0ea405",
+      "experiments/synthworlds_r1/training_release_draft/atomic_translation_repairs/th.jsonl": "865c53f7f8d49d92061bc0e97f139532b284770b43243810ba42eeef54b1e852",
+      "experiments/synthworlds_r1/training_release_draft/composition_reuse.jsonl": "4a71ff1689ca092acbf2901ae6f5020e767a206a942705f52d73337abf8a2382",
+      "experiments/synthworlds_r1/training_release_draft/composition_translation_review_queue.jsonl": "f220992c8dde11487df3e59e2df06a726bbcc9e72f473241a51448bb3a1eeda3",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/kaggle_kernel/direct_review.py": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/manifest.json": "b188c0cb01ca404f24f6c6fff580fa53f00fe1ada511aeea1c8b2125ffb21d91",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_output/direct_recheck.json": "db424d1c0e2762c2069ac4c097b68aa31ade30fce6e54570938b3ff855b6a236",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_output/verification.json": "35d428d694a99da30d56eb1013414b80830f764c97f5386e80ebceba2c082132",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/remote_source/synthworlds-r1-direct-same31-review-2026-11-04.py": "12bd3979104aeb26de673a0fe3c164c80216b5090d6c2f4d02e161d9129c8078",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/direct_same31_2026-11-04/review_input.json": "832ccee7a4ccb03485b8d2e49ce88e33375a8a9974c25c65fe6f49d86a5a2e37",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/final_diagnostic_overlay_2026-11-04/rechecked_blocked_31_rows.jsonl": "d11febcc147c4d49364a24006bf7619ab3b46e23c9d09ffbb18a52b58d514e03",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/blocked_marker_alias_probe_2026-11-04/final_diagnostic_overlay_2026-11-04/verification.json": "597af291930335142ec15325df97becf9f43311f5d2ef8a3442c8245afcd39fb",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/parsed_repair_candidates.jsonl": "7d0456dccaccf81f30f8b33475514e95190768074bc796d2799f5472c8be5633",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/private_row_map.jsonl": "7648962af276064d0447da4c8d1b5a39cde433677a9e2c6f1242eee4bb45552c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merge_verification.json": "b61b81a77fdc45be87ef1c07382f971c287b6b822a201e4d462005a739272093",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/remote_output/merged_full799/version_1/merged_full799_diagnostic_reviews.jsonl": "f29fb48c97147972ef341b20702e8a6d575d65bc9feb01630aa8dcc83ae52f7b",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/remote_output/kernel.log": "8011465b06d97e6481a402c8900e4863b078e68a8bd5a99d8450cb7954c229e7",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/remote_output/targeted_gap_review.json": "527b59db437475c057144111367efc122ca781ccb967cf4ae741e8f2d7292100",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/review.py": "cef9f1d677d259ff80c3b5ab1e1b2137509951d55ecdcbf21aa6ebdc81549cf1",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/review_input_manifest.json": "29f93ae9f3ff62fde2162ec9016866d4e3e6a9473d8cd9de16064e4d49ecd9fb",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidate_review_kaggle/verify_targeted_gap_review.py": "b734a7b40851cb354d9fcc328890eb02029c2815f93175fe393edba1e5f9f70f",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/candidate_audit.json": "a762f6b002dae7c2f3b137b2d21725237e97c7e033cf6da3e5624198e9458a8c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/de.jsonl": "3b0ac7a4c51fdfc416d3109777bd2087702696bcbd98f1fe5d54c575357e8e5f",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/fr.jsonl": "dcc451f12f2306e3d3a158e87407f6f594f028e8a24443aee5f3951f61b92e93",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/hi.jsonl": "b7713eee78375d1cdbfdee4602c7fbe9503e58adf33f19a5dfccfcc93822238c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/candidates/th.jsonl": "3cff17720b53321be6f5d9943d60e9462b4f033f3004ddf62ff3566056215c26",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/local_gap_rows.jsonl": "cff7110826e40ff54d6d153bdeef726571d612992ddb99c4b851735bf1a673c4",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/private_row_map.jsonl": "a7dd78321cc163cc2a1ab8c9298a96e5e37c050db26e74e36c72fa8b3d0fbca9",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/de/batch_01.jsonl": "7bdde863d1724a1f85b6f0a5531ba57231e3302797fed9fdb718259405538c3c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/de/batch_02.jsonl": "9a17a73eb306198bb755adba8081c0c6b3c9d3355e4b5d6a429060f5cce4160b",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/fr/batch_01.jsonl": "b53cb2fa04f53bb3b66c1b6d122735cb5ee9f852a409031f43880ae627377624",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/fr/batch_02.jsonl": "df85bd281a91b31ac4f218c0ab2288c5d6da4110b277629bcaa9f08cb91c12f4",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/hi/batch_01.jsonl": "8e4e2ae360e5298ab189f3b957155896138acae0a46cd62cfef18997dd424919",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/hi/batch_02.jsonl": "93cd18be3cfcf1d24df930a6591414a2b14094dd24db86b436a5dd2164b7bebe",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/hi/batch_03.jsonl": "a1592f94825d903cf3185d3b1eee76672179a5f15e6262608aed811eb9fe4fd6",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/hi/batch_04.jsonl": "ebb1895abf23219b0c853c5c8f6ddfb8a3e5f95f914d52580743055c59b161ce",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_01.jsonl": "a4c55bb4c8a1dbaf5d6f8f87b1d4035246f282d6155b31e50a8852caa464527a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_02.jsonl": "8f15cee81a8fbcaca81d96ec66d590618ff4af44bf2017e0d2b7fc65d14a7032",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_03.jsonl": "4f8058cb707fd5977988bdcb920afb0fa5f6473f10a1f52d355e3cec37291e4f",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_04.jsonl": "d652523d756c09c21fb7e76e743af0f769de353e0f392cfcfc482423b5ae4a0e",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_05.jsonl": "b28c261354bc3099fc64f7fef668afc2559f27f985550a2dc18f1a9dea61d463",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/requests/th/batch_06.jsonl": "c650ee5f14f8d859cb8c999f8095991e215fb187655c8b8ba634be1d8bae8b54",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/candidate_input.json": "42cb8d5f168e1554f8b2b108b7c690f5d8cecd36334c2aea3ae6e666b3651abc",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/candidate_input_manifest.json": "e64290488d98b2129064581ca220ecdb351f434ae11af0a7dfe52cc1b10ce30a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/prepare_candidates.py": "319d8645da2e2ca9d33ac0bb4c428b72dbc098d9e40f584fd1ec490fc89c48e8",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/remote_output/candidate_review.json": "332905c19aca351af2bdc546ea84036e732f3f76c2f3adeb1f8e3e1475f60f57",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/remote_output/candidate_verification.json": "a0e763b9295af55a9aaa74866225a438f7407ee26f528bbc2484bea92cbc6ee0",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/remote_source/sw-gap187-nllb-148-candidate-review-2026-11-05.py": "4f88b156babc926388fabeef337d8e47c2dfb5a8a88f7d94a38cac96b1b3dfbd",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_candidates_2026-11-05/verify_candidate_review.py": "317997d922c69d2934356ef77d598fae2cd1826f227dc28d7938305073fba4c1",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/remote_output/candidate_review.json": "1561b6011d8b55b2c26c8d84a5343083a188a6c2b9f46cade7083601dd7b1921",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/remote_output/segmented_retry_verification.json": "6e48755b6fdf09786160b0e658bf99352dec9d7b1b9746e02c69332d40f7378e",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/remote_source/sw-gap187-nllb-segmented-retry-2026-11-05.py": "e93aa2456e8dbaa4047a7e1e27dd1f6d303b80586fcc5a0b2a5a819c31e52df7",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/segmented_retry_input.json": "4e0902ca3b3f1d938628279894dbe15ac995f93dc1f8a3bac1625b44ac6fc90c",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/segmented_retry_input_manifest.json": "1414164f1801fa59ae119f0bff135ef7ce05c2973ab1090f915ac12950058a0e",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_nllb_segmented_retry_2026-11-05/verify_segmented_retry.py": "eddd71612723c72ca73b34014f8ce866c0440927e9ce1a719834a0bcd6fcedf5",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/remote_output/retry_output.json": "b8746f4182f684c20d350eb18431d67261bae033d1b126720d5fa58c9e6374b6",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/remote_output/retry_verification.json": "18898f8d3fa8806e23beb49eaaafe5c4646c43584f5929e649f7cf8b9293a750",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/remote_source/sw-gap187-alias-retry-2026-11-05.py": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/retry.py": "0e20957fb393971f3f14cd1aee2b63e58fa5ab4f4c16f80ab5faf66824131e9a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/retry_input.json": "11d529966b7042958687c0d7ef69a2de0e4e250775e4d31bfd65379cf2493f7b",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/retry_input_manifest.json": "6fc5415bbd1cfd3d7f61939c45b11a9141c83844d52ce9c6f5c8b57488b37952",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_fullflagged_queue_2026-11-04/targeted_gap_queue_2026-11-05/targeted_gap_retry_2026-11-05/verify_retry.py": "a60c947d5dfdec670eaa335e7af3348884792cca9c6ea20d4df3ff9514698bc9",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/final_recheck_overlay_2026-11-05/final_recheck_overlay.json": "d7c337ecb3dcc7219fd84748552d56120ac415d2e753d97a334e6dab9efed5b8",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/kaggle_review/build_manifest.json": "b8d658f454460a82e44577b65c287db603f99d865f2f35d04ab9b53345faa01a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/kaggle_review/remote_output/repair_review.json": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/kaggle_review/review_input.json": "0f6f932821ac63b334d6b0134e6765bad341d07ce3b71461cbf294487a4266f0",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/kaggle_review/verification.json": "de2de4099b817b07974d864da8d3e916540aee67aa2a5e3d8d56b71f13256d8d",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/kaggle_review/verify_output.py": "8fc7eb84b36e412fc89f1d55070fe2db0275048f54d83cb1c73a08eb694925e5",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/key_constrained_retry_2026-11-05/remote_output/key_constrained_retry.json": "abf573f2813d34ea8849c06de18ae958ea3e7ca143cbbaaf4a8f7db78e7db980",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/key_constrained_retry_2026-11-05/verify_retry.py": "ec851d263789c4a0c869c4daca64e5c170512f941b7ccb4b628d728ef162e50b",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/manifest.json": "52af2518d8421a705c8622640bd3ba147b93151ab35bd59fed8d84fb46cd2c51",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/marker_safe_retry_2026-11-05/remote_output/marker_safe_retry.json": "49ef405a582c6af101a3293bdede84f88a1509f73256c9754e4b34412b468590",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/marker_safe_retry_2026-11-05/verify_retry.py": "00d8c8784b33c0fd85aa5955f4e705898a43630224f933a772a80d778d81eba2",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/audit_decision_rationale_consistency.py": "4a0c89898c6797f44261cb3cbf54c71a1cb5122630a2022bc30d0c1e3c51f27a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/compare_qwen_mistral.py": "bc1e2e61bbba1b32f60c9e003bd451fc8718bab5898f039c63e4744f0a119843",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/cross_review_comparison.json": "444f8cfb870356ffe02e85270780254126335278aee985f6c3074c4f3fb2c11b",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/decision_rationale_audit.json": "0e0832ddfc860b6102ea4be8234a41fd73d48f15d11ce608af15e31cdf6cbbf4",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/remote_kernel_source.py": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/remote_output/mistral_direct_review.json": "6bf88c9090e07ffb49ede0fb44ff12d8158a23a397a4f2b913cdb8cb4de21748",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/review.py": "fb15614cd4bab555ae2d486fe1b3eaf3e15bfc2d661c0bb9210e90073f3f58a2",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/review_input.json": "0f6f932821ac63b334d6b0134e6765bad341d07ce3b71461cbf294487a4266f0",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/verification.json": "d1e6fcd4d4bebfbf4b89a1b9d9c9fa63fd99fbf1104e1a34f8efb7d887f9a8e3",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/mistral_direct_review/verify.py": "f8b65187d062a6344fcca7d75617f9b379066cdc386450a4b7e02bbea98de851",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/proposed_translations.jsonl": "18d869f4c7757dae66b6f3426e3ca2c20ac3c2fe7597699de2680bf7f604822f",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/queue_coverage_audit.json": "561ff321c8fb016366691b2ff7b3a360208df52536fd381a9ecb0a3313e5d544",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/qwen_only_retry_2026-11-05/remote_output/qwen_only_retry.json": "9ef5e050835aed5d6cbaff31c33798c54ec017795972730a232fe87792454b7a",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/qwen_only_retry_2026-11-05/verify_retry.py": "41a76a536b8db36abeefaa9dac24d3f06a2870f29e80b2cf14d0e872969f1c51",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/requests.jsonl": "6d4090178783b14eff9317d6e09ae58f4c3c2e2907ee1faa6429ce92a4cf7fba",
+      "experiments/synthworlds_r1/training_release_draft/translation_repair_diagnostics/chatgpt_third_candidate_2026-11-04/verify_final_recheck_overlay.py": "73694320d028f3f2d76e70a282d5bc98f075b05cc2a4df40f7c44f7e054df378",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/de.jsonl": "c9d166b730333ad45c3ef947730d87d5a26c165d268a0d4875fdb5e0a3d42e9a",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/fr.jsonl": "500341d2b68d91af4052b865254a087cbbb708b80d1c27b0ac9515cdcdadf126",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/hi.jsonl": "ed65092e6ef97dcd39e02b57cf0db28e3b2770883849fb037cde9a2826fed8f9",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/report.json": "293ce50d17051b2340780f556132fa022adca582b55bb1fdefe39b2d16380454",
+      "experiments/synthworlds_r1/training_release_draft/translation_reviews_roundtrip_qwen14b/th.jsonl": "55a84ac32c632c35a0e8a366f80d3ff133404d362ec794c42feeef17c66a60e5",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-03/evidence/mistral_negative_control/review.json": "0ce0814f95544dcefeba191116e9510bf86bd1c363835addd063205bfc45d2f8",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-03/kaggle_mistral_negative_control/review.py": "e0df65c441b2161ce751e79e009dcd43da9e5e1ecb01de0372e91836b471c593",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-03/kaggle_mistral_review_probe/review.py": "63253b22eb502dff05012e2503b3544e72c64916a39a9d165bfdef5fbd1c0dea",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-03/verify_mistral_negative_control.py": "8ca0441547cc6cd667aebf1ebade53347c6f1df94b923b391e33795993435cd7",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/control_manifest.json": "839aa03c084a291be44bede4db792a0048a9652680f5f09c6ded5a462db8f484",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/input_array.json": "7e7ae8ea23e5a5b122e9810efb8a4ee06c819d436cc87db4780ed714d751d147",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/remote_output/review.json": "336d7c7b110b4ff1fd2c63227f7410ecddb771051f24d199b4708e0103f44406",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/remote_output/submitted_source.py": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/remote_output/synthworlds-qwen14b-hard-negative-2026-11-04.log": "85b92019daf5af9086c6ee7a27fe8cd97bd696c53128ace7eff366be8cf03f7a",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/remote_output/verification.json": "74f9178170b2455a6cea6ba396b79fd8c2905fae05117f7ecea9de1a00ae1a98",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/review.py": "f90cc590855d4d402d4c6acb7611342c38c32b08921383cfd364993e1d644a38",
+      "reports/hypothesis_diagnostics/r1_current_state_audit_2026-11-04/evidence/qwen14b_hard_negative_controls/verify.py": "4c4cf8f84762f7f63837ae50d5ab403bc3987c3c657ff66ccdc6f4198f398f11"
+    },
+    "audit_script_sha256": "4b2a21fae5e327d10f0f09a43a7cce40d4415ec599d6e9c54d570bf90bc7b49b",
+    "gpu": "Tesla T4 x2 (model reports Tesla T4)",
+    "reviewers": {
+      "nllb": "f8d333a098d19b4fd9a8b18f94170487ad3f821d",
+      "qwen": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    },
+    "targeted_gap_candidate_rows": 187,
+    "targeted_gap_joint_pass_rows": 36,
+    "third_candidate_joint_pass_rows": 36,
+    "third_candidate_mistral_hard_negative_passes": "2/15",
+    "third_candidate_reviewer_disagreement_rows": 154,
+    "third_candidate_rows": 187
+  },
+  "reviewer_reliability_diagnostic": {
+    "human_gold_controls": 0,
+    "human_translation_reviewed": false,
+    "initial_qwen_screen": {
+      "blocked": 18,
+      "flag": 140,
+      "pass": 29,
+      "rows": 187
+    },
+    "interpretation": "Constructed small mismatch probes are diagnostic only, not estimates of reviewer accuracy. They do not change the frozen translation gate.",
+    "mistral_controlled_mismatches": {
+      "both_pass": 2,
+      "rows": 15,
+      "semantic_pass": 6
+    },
+    "mistral_direct_screen": {
+      "blocked": 0,
+      "flag": 9,
+      "pass": 178,
+      "rows": 187
+    },
+    "mistral_rationale_contradictions": {
+      "fluency_false_with_affirmative_rationale": 4,
+      "semantic_false_with_affirmative_rationale": 8
+    },
+    "mistral_vs_initial_qwen": {
+      "agreement": 33,
+      "disagreement": 154,
+      "qwen_flag_mistral_pass": 134
+    },
+    "qwen14_controlled_mismatches": {
+      "both_pass": 1,
+      "predeclared_screen_passed": false,
+      "rows": 16,
+      "semantic_pass": 1
+    },
+    "qwen_final_overlay_after_retries": {
+      "blocked": 0,
+      "flag": 151,
+      "pass": 36,
+      "repaired_rows": 18,
+      "rows": 187
+    }
+  },
+  "scope": {
+    "all_new_candidate_passes_quarantined": true,
+    "frozen_release_gate": "117 forget, 39 retain, and all 44 training-only composition chains",
+    "human_translation_reviewed": false,
+    "release_approved": false,
+    "source_or_canonical_reviews_modified": false,
+    "training_corpus_written": false,
+    "training_eligible": false,
+    "training_started": false
+  }
+}

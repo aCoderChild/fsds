@@ -1,0 +1,12 @@
+{
+  "archive_bytes": 219887,
+  "archive_contents": "Full R1 package; see embedded package_manifest.json for per-file SHA-256 checksums.",
+  "archive_sha256": "422f8f17e679b287daaca02f0be459dce9d74e804f00fd9a62add62113ff636e",
+  "human_translation_reviewed": false,
+  "r1_archive_sha256": "9a2ee0490cda839c692712a50f8e6c5327852839b8fac2d9d49630db366713c5",
+  "sft_corpus_sha256": "a381bc215245ba347ad92663461fa91903ccced2fe27371f9841932fb6b7028f",
+  "status": "KAGGLE_R1_AI_ONLY_FEASIBILITY_PACKAGE",
+  "training_runner_memory_safe": true,
+  "training_runtime": "single visible T4 GPU; FP16; per-device batch 1; gradient accumulation 32; incompatible optional torchao removed; fresh-process PEFT smoke check",
+  "translation_review_mode": "AI_ONLY"
+}

@@ -1,0 +1,38 @@
+[{"stream_name":"stderr","time":24.393791636,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":24.393831131,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.393837258,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.39384206,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":24.393846613,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":80.592999661,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":80.593061957,"data":"I0000 00:00:1793722046.083817       7 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":153.693119601,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [01:07\u003c03:22, 67.59s/it]\rFetching 4 files: 100%|██████████| 4/4 [01:07\u003c00:00, 16.90s/it]\n"}
+,{"stream_name":"stderr","time":163.193009419,"data":"Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.\n"}
+,{"stream_name":"stderr","time":183.739357559,"data":"\rLoading checkpoint shards:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rLoading checkpoint shards:  25%|██▌       | 1/4 [00:04\u003c00:12,  4.20s/it]\rLoading checkpoint shards:  50%|█████     | 2/4 [00:09\u003c00:09,  4.69s/it]\rLoading checkpoint shards:  75%|███████▌  | 3/4 [00:13\u003c00:04,  4.47s/it]\rLoading checkpoint shards: 100%|██████████| 4/4 [00:19\u003c00:00,  5.29s/it]\rLoading checkpoint shards: 100%|██████████| 4/4 [00:19\u003c00:00,  5.00s/it]\n"}
+,{"stream_name":"stderr","time":183.946301939,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.\n"}
+,{"stream_name":"stderr","time":183.946356808,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":183.946362815,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.\n"}
+,{"stream_name":"stderr","time":183.9463681,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":183.946372383,"data":"/usr/local/lib/python3.13/dist-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.\n"}
+,{"stream_name":"stderr","time":183.946377637,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":192.485207869,"data":"Reviewed 1 / 15\n"}
+,{"stream_name":"stdout","time":197.740923503,"data":"Reviewed 2 / 15\n"}
+,{"stream_name":"stdout","time":200.545293796,"data":"Reviewed 3 / 15\n"}
+,{"stream_name":"stdout","time":203.224902884,"data":"Reviewed 4 / 15\n"}
+,{"stream_name":"stdout","time":206.443530559,"data":"Reviewed 5 / 15\n"}
+,{"stream_name":"stdout","time":209.75202619,"data":"Reviewed 6 / 15\n"}
+,{"stream_name":"stdout","time":213.890231746,"data":"Reviewed 7 / 15\n"}
+,{"stream_name":"stdout","time":216.814595587,"data":"Reviewed 8 / 15\n"}
+,{"stream_name":"stdout","time":219.547984058,"data":"Reviewed 9 / 15\n"}
+,{"stream_name":"stdout","time":224.834628845,"data":"Reviewed 10 / 15\n"}
+,{"stream_name":"stdout","time":229.7349109,"data":"Reviewed 11 / 15\n"}
+,{"stream_name":"stdout","time":232.603418427,"data":"Reviewed 12 / 15\n"}
+,{"stream_name":"stdout","time":235.638180755,"data":"Reviewed 13 / 15\n"}
+,{"stream_name":"stdout","time":238.828758765,"data":"Reviewed 14 / 15\n"}
+,{"stream_name":"stdout","time":245.137562693,"data":"Reviewed 15 / 15\n"}
+,{"stream_name":"stderr","time":256.570555832,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":256.57060629,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":257.033807769,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":257.03385282,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":258.001297022,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":259.110327561,"data":"[NbConvertApp] Writing 290601 bytes to __results__.html\n"}
+]

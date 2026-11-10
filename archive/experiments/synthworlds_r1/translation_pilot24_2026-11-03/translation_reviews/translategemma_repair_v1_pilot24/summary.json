@@ -1,0 +1,174 @@
+{
+  "ai_review_flagged_rows": 556,
+  "ai_review_pass_rows": 1774,
+  "ai_reviewed_rows": 2330,
+  "all_four_language_pass_intersections": {
+    "direct_negative_control": {
+      "by_split": {
+        "forget": {
+          "cases": 65,
+          "entity_groups": 38
+        },
+        "holdout": {
+          "cases": 26,
+          "entity_groups": 14
+        },
+        "retain": {
+          "cases": 21,
+          "entity_groups": 14
+        }
+      },
+      "cases_all_four_languages": 112
+    },
+    "direct_positive": {
+      "by_split": {
+        "forget": {
+          "cases": 72,
+          "entity_groups": 41
+        },
+        "holdout": {
+          "cases": 26,
+          "entity_groups": 14
+        },
+        "retain": {
+          "cases": 26,
+          "entity_groups": 17
+        }
+      },
+      "cases_all_four_languages": 124
+    },
+    "multi_hop": {
+      "by_split": {
+        "forget": {
+          "cases": 18,
+          "entity_groups": 13
+        },
+        "holdout": {
+          "cases": 8,
+          "entity_groups": 5
+        },
+        "retain": {
+          "cases": 9,
+          "entity_groups": 6
+        }
+      },
+      "cases_all_four_languages": 35
+    }
+  },
+  "all_three_probes_all_four_by_split": {
+    "forget": {
+      "cases": 10,
+      "entity_groups": 8
+    },
+    "holdout": {
+      "cases": 4,
+      "entity_groups": 3
+    },
+    "retain": {
+      "cases": 4,
+      "entity_groups": 3
+    }
+  },
+  "by_language": {
+    "de": {
+      "cross_model_review_rows": 564,
+      "flagged_rows": 112,
+      "input_rows": 585,
+      "pass_rate_all_rows": 0.8085470085470086,
+      "pass_rows": 473,
+      "review_sha256": "c46e5e72000607f4038ab5d42133407d79552a50030efdbf100aa3d6638a42e6",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 21,
+      "translation_failed_rows": 0,
+      "translation_sha256": "d6533e5322d3df7c7cc1392f513e9598df161824d8b673f7e72870f626844b1d"
+    },
+    "fr": {
+      "cross_model_review_rows": 559,
+      "flagged_rows": 121,
+      "input_rows": 585,
+      "pass_rate_all_rows": 0.7777777777777778,
+      "pass_rows": 455,
+      "review_sha256": "cb9b80b99ab288b8b772d22e16f13cf17ca64085041e5753ddc42e1c10f9b07e",
+      "reviewed_rows": 576,
+      "same_model_self_check_rows": 17,
+      "translation_failed_rows": 9,
+      "translation_sha256": "9b785dbf61f9525f3ae1e5777b5b78aaf810397856391c754ce2a8ca5202e69e"
+    },
+    "hi": {
+      "cross_model_review_rows": 555,
+      "flagged_rows": 156,
+      "input_rows": 585,
+      "pass_rate_all_rows": 0.7333333333333333,
+      "pass_rows": 429,
+      "review_sha256": "45550c35ae2e01006a80aba89f4b945ba8ba46df4b2f8457b630389f5fba0ad9",
+      "reviewed_rows": 585,
+      "same_model_self_check_rows": 30,
+      "translation_failed_rows": 0,
+      "translation_sha256": "79f3c6d7b29bd766c4f18ed4c34f028b2320ef0d65f87c15e3ab657840de2c7c"
+    },
+    "th": {
+      "cross_model_review_rows": 558,
+      "flagged_rows": 167,
+      "input_rows": 585,
+      "pass_rate_all_rows": 0.7128205128205128,
+      "pass_rows": 417,
+      "review_sha256": "655401cfbb2f40f8de5e741c6d237019e178c7452b6a1c8c73392526bf4b324b",
+      "reviewed_rows": 584,
+      "same_model_self_check_rows": 26,
+      "translation_failed_rows": 1,
+      "translation_sha256": "08e6ca62b6393cfa904d73c9a60748cf0ddc3a70720ace67706e9e0dfba99ec2"
+    }
+  },
+  "by_probe": {
+    "direct_negative_control": {
+      "flagged_rows": 122,
+      "input_rows": 780,
+      "pass_rate": 0.8371794871794872,
+      "pass_rows": 653,
+      "translation_failed_rows": 5
+    },
+    "direct_positive": {
+      "flagged_rows": 90,
+      "input_rows": 780,
+      "pass_rate": 0.8794871794871795,
+      "pass_rows": 686,
+      "translation_failed_rows": 4
+    },
+    "multi_hop": {
+      "flagged_rows": 344,
+      "input_rows": 780,
+      "pass_rate": 0.5576923076923077,
+      "pass_rows": 435,
+      "translation_failed_rows": 1
+    }
+  },
+  "direct_positive_and_multi_hop_all_four_by_split": {
+    "forget": {
+      "cases": 10,
+      "entity_groups": 8
+    },
+    "holdout": {
+      "cases": 6,
+      "entity_groups": 4
+    },
+    "retain": {
+      "cases": 5,
+      "entity_groups": 4
+    }
+  },
+  "duplicate_pair_decision_conflicts": 0,
+  "prompt_rows_total": 2340,
+  "review_report_sha256": "1faa1728b8bb567e0823a6c1936fbab22ae0dca6a33309ba49806dbb669319b6",
+  "reviewer_model": "ollama:qwen2.5:7b-instruct",
+  "status": "AI_ONLY_REVIEW_COMPLETE_WITH_BLOCKED_TRANSLATIONS",
+  "translation_failed_rows": 10,
+  "translation_models": [
+    "facebook/nllb-200-distilled-600M",
+    "ollama:qwen2.5:7b-instruct",
+    "ollama:translategemma:4b"
+  ],
+  "translation_requests_sha256": "8fef3fb458676b6b7c24b53dbdc8b77124d80ab20534d2caffba3176c9dcebf2",
+  "translation_reviewed_by_human": false,
+  "unique_masked_pair_payloads_reviewed": 1660,
+  "unresolved_reviewer_rows": 0
+}

@@ -1,0 +1,129 @@
+[{"stream_name":"stderr","time":8.906357769,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.906488524,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.906497284,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.906537954000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.68956173,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.689597355,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.68960258,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.689606631,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":15.311076155,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.311105041,"data":"transformers 5.20.2 requires huggingface-hub\u003c3.0,\u003e=1.31.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.311111103,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.31111583,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.311120395,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.311124853,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514250723,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.514420314,"data":"transformers 5.20.2 requires huggingface-hub\u003c3.0,\u003e=1.31.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514426292,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514430197,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514434196,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514438,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514442193,"data":"\n"}
+,{"stream_name":"stderr","time":15.514445374,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":15.514449339,"data":"transformers 5.20.2 requires huggingface-hub\u003c3.0,\u003e=1.31.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514453097,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514477761,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514481634,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":15.514485431,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stdout","time":16.338611369,"data":"{\n"}
+,{"stream_name":"stdout","time":16.338654816000002,"data":"  \"status\": \"FAIL_HF_ACCESS_PREFLIGHT\",\n"}
+,{"stream_name":"stdout","time":16.338661142,"data":"  \"model_id\": \"meta-llama/Llama-3.1-8B-Instruct\",\n"}
+,{"stream_name":"stdout","time":16.338665492,"data":"  \"scope\": \"HF_ACCESS_PREFLIGHT_ONLY\",\n"}
+,{"stream_name":"stdout","time":16.338670195,"data":"  \"gpu_required\": false,\n"}
+,{"stream_name":"stdout","time":16.338674143,"data":"  \"weights_downloaded\": false,\n"}
+,{"stream_name":"stdout","time":16.338678176,"data":"  \"research_data_loaded\": false,\n"}
+,{"stream_name":"stdout","time":16.338681647,"data":"  \"training_started\": false,\n"}
+,{"stream_name":"stdout","time":16.338685465,"data":"  \"failed_stage\": \"retrieve_kaggle_secret\",\n"}
+,{"stream_name":"stdout","time":16.338689556,"data":"  \"error_type\": \"ConnectionError\",\n"}
+,{"stream_name":"stdout","time":16.338693692,"data":"  \"interpretation\": \"No training or model-weight download was attempted.\"\n"}
+,{"stream_name":"stdout","time":16.338697893,"data":"}\n"}
+,{"stream_name":"stderr","time":16.769135132,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":16.769845667,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":16.769868785,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)\n"}
+,{"stream_name":"stderr","time":16.769876588,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":16.769881384,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":16.769885763,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":16.769889778,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":16.769893709,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":16.769898165,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":16.769901972,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":16.76990592,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":16.76990996,"data":"Exception encountered at \"In [1]\":\n"}
+,{"stream_name":"stderr","time":16.769914353,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":16.769918293,"data":"HTTPError                                 Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":16.769932009,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py in make_post_request(self, data, endpoint, timeout)\n"}
+,{"stream_name":"stderr","time":16.769936553,"data":"     45         try:\n"}
+,{"stream_name":"stderr","time":16.769940625,"data":"---\u003e 46             with urllib.request.urlopen(req, timeout=timeout) as response:\n"}
+,{"stream_name":"stderr","time":16.769945154,"data":"     47                 response_json = json.loads(response.read())\n"}
+,{"stream_name":"stderr","time":16.76994927,"data":"\n"}
+,{"stream_name":"stderr","time":16.769953072,"data":"/usr/lib/python3.13/urllib/request.py in urlopen(url, data, timeout, context)\n"}
+,{"stream_name":"stderr","time":16.76995744,"data":"    188         opener = _opener\n"}
+,{"stream_name":"stderr","time":16.769961426,"data":"--\u003e 189     return opener.open(url, data, timeout)\n"}
+,{"stream_name":"stderr","time":16.769965454,"data":"    190 \n"}
+,{"stream_name":"stderr","time":16.769969236,"data":"\n"}
+,{"stream_name":"stderr","time":16.769973138,"data":"/usr/lib/python3.13/urllib/request.py in open(self, fullurl, data, timeout)\n"}
+,{"stream_name":"stderr","time":16.769977193,"data":"    494             meth = getattr(processor, meth_name)\n"}
+,{"stream_name":"stderr","time":16.769981168,"data":"--\u003e 495             response = meth(req, response)\n"}
+,{"stream_name":"stderr","time":16.769985118,"data":"    496 \n"}
+,{"stream_name":"stderr","time":16.769988828,"data":"\n"}
+,{"stream_name":"stderr","time":16.769992548,"data":"/usr/lib/python3.13/urllib/request.py in http_response(self, request, response)\n"}
+,{"stream_name":"stderr","time":16.769996556,"data":"    603         if not (200 \u003c= code \u003c 300):\n"}
+,{"stream_name":"stderr","time":16.77000066,"data":"--\u003e 604             response = self.parent.error(\n"}
+,{"stream_name":"stderr","time":16.770004904,"data":"    605                 'http', request, response, code, msg, hdrs)\n"}
+,{"stream_name":"stderr","time":16.770008978,"data":"\n"}
+,{"stream_name":"stderr","time":16.770013613,"data":"/usr/lib/python3.13/urllib/request.py in error(self, proto, *args)\n"}
+,{"stream_name":"stderr","time":16.770017684,"data":"    532             args = (dict, 'default', 'http_error_default') + orig_args\n"}
+,{"stream_name":"stderr","time":16.770020274,"data":"--\u003e 533             return self._call_chain(*args)\n"}
+,{"stream_name":"stderr","time":16.770023349,"data":"    534 \n"}
+,{"stream_name":"stderr","time":16.770026973,"data":"\n"}
+,{"stream_name":"stderr","time":16.770030633,"data":"/usr/lib/python3.13/urllib/request.py in _call_chain(self, chain, kind, meth_name, *args)\n"}
+,{"stream_name":"stderr","time":16.770034375,"data":"    465             func = getattr(handler, meth_name)\n"}
+,{"stream_name":"stderr","time":16.770038408,"data":"--\u003e 466             result = func(*args)\n"}
+,{"stream_name":"stderr","time":16.770042141,"data":"    467             if result is not None:\n"}
+,{"stream_name":"stderr","time":16.770046338,"data":"\n"}
+,{"stream_name":"stderr","time":16.770050069,"data":"/usr/lib/python3.13/urllib/request.py in http_error_default(self, req, fp, code, msg, hdrs)\n"}
+,{"stream_name":"stderr","time":16.770054355,"data":"    612     def http_error_default(self, req, fp, code, msg, hdrs):\n"}
+,{"stream_name":"stderr","time":16.770058256,"data":"--\u003e 613         raise HTTPError(req.full_url, code, msg, hdrs, fp)\n"}
+,{"stream_name":"stderr","time":16.770062218,"data":"    614 \n"}
+,{"stream_name":"stderr","time":16.770066213,"data":"\n"}
+,{"stream_name":"stderr","time":16.770074166,"data":"HTTPError: HTTP Error 400: Bad Request\n"}
+,{"stream_name":"stderr","time":16.770078277,"data":"\n"}
+,{"stream_name":"stderr","time":16.770081951,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":16.770085904,"data":"\n"}
+,{"stream_name":"stderr","time":16.770089521,"data":"ConnectionError                           Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":16.770093457,"data":"/tmp/ipykernel_16/2251189585.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":16.770097574,"data":"     19     runner = {\"__name__\": \"r1_8b_hf_access_preflight\"}\n"}
+,{"stream_name":"stderr","time":16.770102026,"data":"     20     exec(compile(access_source, \"kaggle_8b_access_preflight.py\", \"exec\"), runner)\n"}
+,{"stream_name":"stderr","time":16.770106317,"data":"---\u003e 21     exit_code = runner[\"main\"]()\n"}
+,{"stream_name":"stderr","time":16.770110319,"data":"     22     receipt = json.loads(Path(\"/kaggle/working/r1_8b_hf_access_preflight.json\").read_text())\n"}
+,{"stream_name":"stderr","time":16.770114252,"data":"     23     if exit_code != 0 or receipt.get(\"status\") != \"PASS_HF_ACCESS_PREFLIGHT\":\n"}
+,{"stream_name":"stderr","time":16.770116964,"data":"\n"}
+,{"stream_name":"stderr","time":16.770119817,"data":"kaggle_8b_access_preflight.py in main()\n"}
+,{"stream_name":"stderr","time":16.770123564,"data":"\n"}
+,{"stream_name":"stderr","time":16.770127116,"data":"kaggle_8b_access_preflight.py in get_kaggle_token()\n"}
+,{"stream_name":"stderr","time":16.770131577,"data":"\n"}
+,{"stream_name":"stderr","time":16.770135492,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_secrets.py in get_secret(self, label)\n"}
+,{"stream_name":"stderr","time":16.770139668,"data":"     62             'Label': label,\n"}
+,{"stream_name":"stderr","time":16.770143754,"data":"     63         }\n"}
+,{"stream_name":"stderr","time":16.770147568,"data":"---\u003e 64         response_json = self.web_client.make_post_request(request_body, self.GET_USER_SECRET_BY_LABEL_ENDPOINT)\n"}
+,{"stream_name":"stderr","time":16.770151677,"data":"     65         if 'secret' not in response_json:\n"}
+,{"stream_name":"stderr","time":16.770155625,"data":"     66             raise BackendError(\n"}
+,{"stream_name":"stderr","time":16.770159465,"data":"\n"}
+,{"stream_name":"stderr","time":16.770163153,"data":"/usr/local/lib/python3.13/dist-packages/kaggle_web_client.py in make_post_request(self, data, endpoint, timeout)\n"}
+,{"stream_name":"stderr","time":16.770167159,"data":"     56                 raise ConnectionError(\n"}
+,{"stream_name":"stderr","time":16.770171105,"data":"     57                     'Timeout error trying to communicate with service. Please ensure internet is on.') from e\n"}
+,{"stream_name":"stderr","time":16.770175236,"data":"---\u003e 58             raise ConnectionError(\n"}
+,{"stream_name":"stderr","time":16.770179935,"data":"     59                 'Connection error trying to communicate with service.') from e\n"}
+,{"stream_name":"stderr","time":16.770184177,"data":"     60         except HTTPError as e:\n"}
+,{"stream_name":"stderr","time":16.770187996,"data":"\n"}
+,{"stream_name":"stderr","time":16.770191617000002,"data":"ConnectionError: Connection error trying to communicate with service.\n"}
+,{"stream_name":"stderr","time":16.770195909,"data":"\n"}
+,{"stream_name":"stderr","time":19.659854825,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19.659891824,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19.874493963,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19.874543845,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":20.808102166,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":20.904118858,"data":"[NbConvertApp] Writing 32193 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":24.161253274,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":24.834150035,"data":"[NbConvertApp] Writing 325160 bytes to __results__.html\n"}
+]

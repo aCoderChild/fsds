@@ -1,0 +1,111 @@
+{
+  "audit_id": "muse_news_baseline_preflight_v1",
+  "checked_at_utc": "2026-11-09T06:47:06.402939+00:00",
+  "checks": {
+    "dataset_revision_match": true,
+    "target_model_revision_match": true,
+    "official_tokenizer_revision_match": true,
+    "tokenizer_mirror_revision_match": true,
+    "evaluator_commit_match": true,
+    "tokenizer_files_byte_identical_to_official": true,
+    "expected_qa_sizes": true,
+    "expected_verbmem_size": true,
+    "unique_questions_within_each_qa_split": true,
+    "no_normalized_question_overlap": true,
+    "forget_retain_exact_qa_overlap": 0,
+    "model_license_tag_missing": true
+  },
+  "revisions": {
+    "dataset": {
+      "repo": "muse-bench/MUSE-News",
+      "sha": "506bd5b150b92814d45e4404a82f120ab2d748bf"
+    },
+    "model": {
+      "repo": "muse-bench/MUSE-news_target",
+      "sha": "a2f39769e9a0b98ec1cdd12f65e9962502208935",
+      "gated": false,
+      "license": null
+    },
+    "official_tokenizer": {
+      "repo": "meta-llama/Llama-2-7b-hf",
+      "sha": "01c7f73d771dfac7d292323805ebc428287df4f9",
+      "gated": "manual",
+      "license": "llama2"
+    },
+    "tokenizer_public_mirror_audit_only": {
+      "repo": "UIC-AI-lab/llama2-tokenizer",
+      "sha": "f7be1db2ca91f1c00c1f7b0dafb98374823f85b4",
+      "license": "llama2",
+      "used_for_download": false
+    },
+    "official_evaluator": {
+      "repo": "jaechan-repo/muse_bench",
+      "sha": "6d4fdcbdebe4ad46dccaf70f8526cd23ecff609e",
+      "commit_message": "bug fix in eval.py"
+    }
+  },
+  "tokenizer_file_identity": {
+    "special_tokens_map.json": {
+      "bytes": 414,
+      "git_blob_oid_of_downloaded_bytes": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+      "official_and_mirror_git_tree_oid": "451134b2ddc2e78555d1e857518c54b4bdc2e87d",
+      "mirror_lfs_sha256": null,
+      "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+      "official_and_mirror_point_to_same_bytes": true
+    },
+    "tokenizer.json": {
+      "bytes": 1842767,
+      "git_blob_oid_of_downloaded_bytes": "a6e931b92caff4c79c5c56282f1e89569a0ae558",
+      "official_and_mirror_git_tree_oid": "a6e931b92caff4c79c5c56282f1e89569a0ae558",
+      "mirror_lfs_sha256": null,
+      "sha256": "bcd04f0eadf90287bd26e1a183ac487d8a141b09b06aecb7725bbdd343640f2e",
+      "official_and_mirror_point_to_same_bytes": true
+    },
+    "tokenizer.model": {
+      "bytes": 499723,
+      "git_blob_oid_of_downloaded_bytes": "22bccbcb41ec929cf0c9dbe8f41036db82e5e773",
+      "official_and_mirror_git_tree_oid": "6c00c742ce03c627d6cd5b795984876fa49fa899",
+      "mirror_lfs_sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "official_and_mirror_point_to_same_bytes": true
+    },
+    "tokenizer_config.json": {
+      "bytes": 776,
+      "git_blob_oid_of_downloaded_bytes": "2ef41cbc275000b29afe157ba487f0530b8c26dc",
+      "official_and_mirror_git_tree_oid": "2ef41cbc275000b29afe157ba487f0530b8c26dc",
+      "mirror_lfs_sha256": null,
+      "sha256": "f514e7c3008881b6ba7e6a0cdb44c71ce47dc335920dac143ae7bc788197e53a",
+      "official_and_mirror_point_to_same_bytes": true
+    }
+  },
+  "dataset_rows": {
+    "verbmem_forget": 100,
+    "knowmem_forget_qa": 100,
+    "knowmem_retain_qa": 100,
+    "knowmem_forget_icl": 10,
+    "knowmem_retain_icl": 10,
+    "unique_questions": {
+      "knowmem_forget_qa": 100,
+      "knowmem_retain_qa": 100,
+      "knowmem_forget_qa_icl": 10,
+      "knowmem_retain_qa_icl": 10
+    },
+    "normalized_question_overlaps": {
+      "forget_eval_vs_retain_eval": 0,
+      "forget_eval_vs_forget_icl": 0,
+      "retain_eval_vs_retain_icl": 0,
+      "forget_eval_vs_retain_icl": 0,
+      "retain_eval_vs_forget_icl": 0
+    },
+    "question_answer_overlaps": {
+      "forget_eval_vs_forget_icl": 0,
+      "retain_eval_vs_retain_icl": 0,
+      "forget_eval_vs_retain_eval": 0
+    }
+  },
+  "limitations": [
+    "The target model card has no license tag. This package permits inference-only evaluation and forbids redistribution; confirm terms before training or releasing derivatives.",
+    "Official tokenizer access remains gated. The public mirror was used only for byte-identity audit and will not be used to bypass the gate.",
+    "The benchmark has no source/article IDs. Report row-level bootstrap intervals only; do not claim source-cluster robustness."
+  ]
+}

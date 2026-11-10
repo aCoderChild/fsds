@@ -1,0 +1,3 @@
+# Blinded direct translation screen
+
+A bounded AI-only diagnostic of 32 paired translation candidates, mixed with 16 known-mismatch reviewer sentinels. Each row is reviewed independently by the same pinned Qwen2.5-14B checkpoint and instruction used by the direct hard-negative calibration. The kernel receives English sources, target-language questions, opaque row keys, and language/kind only. It receives no answers, facts, candidate method labels, split assignments, or private mapping. The sentinels are not labeled in the kernel. AI judgments are diagnostic only and do not constitute fluent-human review or release approval.

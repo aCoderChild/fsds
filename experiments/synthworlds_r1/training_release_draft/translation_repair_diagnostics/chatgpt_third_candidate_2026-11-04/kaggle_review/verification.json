@@ -1,0 +1,59 @@
+{
+  "answers_or_splits_sent": false,
+  "blocked_rows": 18,
+  "counts_by_language": {
+    "de": {
+      "AI_FLAG": 14,
+      "AI_PASS": 2,
+      "atomic_AI_FLAG": 4,
+      "backtranslation_blocked": 3,
+      "composition_AI_FLAG": 10,
+      "composition_AI_PASS": 2
+    },
+    "fr": {
+      "AI_FLAG": 12,
+      "AI_PASS": 7,
+      "atomic_AI_FLAG": 6,
+      "atomic_AI_PASS": 7,
+      "backtranslation_blocked": 2,
+      "composition_AI_FLAG": 6
+    },
+    "hi": {
+      "AI_FLAG": 41,
+      "AI_PASS": 10,
+      "atomic_AI_FLAG": 20,
+      "atomic_AI_PASS": 5,
+      "backtranslation_blocked": 8,
+      "composition_AI_FLAG": 21,
+      "composition_AI_PASS": 5,
+      "judge_blocked": 3
+    },
+    "th": {
+      "AI_FLAG": 73,
+      "AI_PASS": 10,
+      "atomic_AI_FLAG": 35,
+      "atomic_AI_PASS": 7,
+      "backtranslation_blocked": 2,
+      "composition_AI_FLAG": 38,
+      "composition_AI_PASS": 3
+    }
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "c52b95b29b244cec65e0678608956678ed311d396bad393646982683494bf418",
+  "interpretation": "AI-only semantic/fluency/back-translation screen; candidate rows remain quarantined and require the frozen production source-integrity gate.",
+  "models": {
+    "nllb": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "qwen": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "output_sha256": "774b1fa1e3a555df6495525910f452f301d1743a4c07d1b4f5c62e6b95fbab70",
+  "release_approved": false,
+  "rows": 187,
+  "status": "VERIFIED_WITH_BLOCKED_ROWS_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

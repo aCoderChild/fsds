@@ -1,0 +1,35 @@
+Translate each English question into natural Thai. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"TH0225","question_en":"Which institution holds documentation files about the founder of the company owned by ZXQENTAQXZ?"}
+{"row_id":"TH0226","question_en":"Where is ZXQENTAQXZ indigenous to?"}
+{"row_id":"TH0227","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"TH0228","question_en":"Where is the entity that borders the place ZXQENTAQXZ is indigenous to headquartered?"}
+{"row_id":"TH0229","question_en":"Who is the child of ZXQENTAQXZ?"}
+{"row_id":"TH0230","question_en":"What is the religion of the child of ZXQENTAQXZ's unmarried partner?"}
+{"row_id":"TH0231","question_en":"What country is ZXQENTAQXZ a citizen of?"}
+{"row_id":"TH0232","question_en":"What country is the significant person associated with ZXQENTAQXZ's field of work a citizen of?"}
+{"row_id":"TH0233","question_en":"Who participated in ZXQENTAQXZ?"}
+{"row_id":"TH0234","question_en":"Who represents the creator of the participant in ZXQENTAQXZ?"}
+{"row_id":"TH0235","question_en":"Where did ZXQENTAQXZ work?"}
+{"row_id":"TH0236","question_en":"Who is the spouse of the person for whom the place where ZXQENTAQXZ worked was named?"}
+{"row_id":"TH0237","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"TH0238","question_en":"What language does the stepparent of the founder of ZXQENTAQXZ speak?"}
+{"row_id":"TH0239","question_en":"To whom is the ZXQENTAQXZ dedicated?"}
+{"row_id":"TH0240","question_en":"Who is a significant person linked to ZXQENTAQXZ?"}
+{"row_id":"TH0241","question_en":"Who is the significant person linked to the mother of the person to whom the ZXQENTAQXZ is dedicated?"}
+{"row_id":"TH0242","question_en":"What institution holds the collection items of ZXQENTAQXZ?"}
+{"row_id":"TH0243","question_en":"Who commissioned ZXQENTAQXZ?"}
+{"row_id":"TH0244","question_en":"In which conflict did ZXQENTAQXZ participate?"}
+{"row_id":"TH0245","question_en":"In which conflict did the person who commissioned the institution that holds ZXQENTAQXZ's collection items participate?"}
+{"row_id":"TH0246","question_en":"Which award did ZXQENTAQXZ receive?"}
+{"row_id":"TH0247","question_en":"Which award did the family of ZXQENTAQXZ's child receive?"}
+{"row_id":"TH0248","question_en":"Which noble title does ZXQENTAQXZ hold?"}
+{"row_id":"TH0249","question_en":"Who is the father of the creator of the noble title held by ZXQENTAQXZ?"}
+{"row_id":"TH0250","question_en":"What is the capital of the ZXQENTAQXZ?"}
+{"row_id":"TH0251","question_en":"What is the capital of the country that the administrative region containing ZXQENTAQXZ has diplomatic relations with?"}
+{"row_id":"TH0252","question_en":"Who is the godparent of ZXQENTAQXZ?"}
+{"row_id":"TH0253","question_en":"Where did the father of the godparent of ZXQENTAQXZ die?"}
+{"row_id":"TH0254","question_en":"Which collection has works by ZXQENTAQXZ?"}
+{"row_id":"TH0255","question_en":"Who is the curator of ZXQENTAQXZ?"}
+{"row_id":"TH0256","question_en":"Where does the curator of the collection that has works by ZXQENTAQXZ reside?"}

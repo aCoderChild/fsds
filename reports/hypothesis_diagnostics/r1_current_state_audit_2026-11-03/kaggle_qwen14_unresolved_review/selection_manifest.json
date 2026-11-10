@@ -1,0 +1,8 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_RELEASE",
+  "ledger_sha256": "79a25f76558f9f937d77550a0e7ee4f434564de098f787e7681425d02b5ed53b",
+  "input_sha256": "149a4ac5c768ad641765472dcb485000d819f8c318090ef2ea5ac7a2a3df0b00",
+  "script_sha256": "e8c89b8f96777b8db19ba2e7b7cab09465140f00bbad03997803fd8d5109d4f9",
+  "rows": 147,
+  "limitation": "Qwen reviewers share a model family; adjudication is adaptive and not release review."
+}

@@ -1,0 +1,89 @@
+{
+  "answers_or_splits_sent": false,
+  "candidate_counts": {
+    "assistant_ai_candidate": {
+      "blocked": 0,
+      "flag": 7,
+      "pass": 9
+    },
+    "qwen3_14b": {
+      "blocked": 0,
+      "flag": 13,
+      "pass": 3
+    }
+  },
+  "counts_by_method_and_language": {
+    "assistant_ai_candidate": {
+      "de": {
+        "blocked": 0,
+        "flag": 3,
+        "pass": 1
+      },
+      "fr": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      },
+      "hi": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      },
+      "th": {
+        "blocked": 0,
+        "flag": 2,
+        "pass": 2
+      }
+    },
+    "qwen3_14b": {
+      "de": {
+        "blocked": 0,
+        "flag": 3,
+        "pass": 1
+      },
+      "fr": {
+        "blocked": 0,
+        "flag": 4,
+        "pass": 0
+      },
+      "hi": {
+        "blocked": 0,
+        "flag": 2,
+        "pass": 2
+      },
+      "th": {
+        "blocked": 0,
+        "flag": 4,
+        "pass": 0
+      }
+    }
+  },
+  "human_translation_reviewed": false,
+  "input_sha256": "b92e9b12f6c80f28f3bba7b5a71c2780129337564d65446ae68a6290ff841bc6",
+  "models": {
+    "nllb": {
+      "id": "facebook/nllb-200-distilled-600M",
+      "revision": "f8d333a098d19b4fd9a8b18f94170487ad3f821d"
+    },
+    "qwen": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "note": "Paired AI-only screen on one selected 16-question diagnostic sample; not human-gold quality evidence and not a release decision.",
+  "output_sha256": "f5ec877f3c0fd431cfa933554b0b2ce1c65014740913b0e4b79fc3440e3ec752",
+  "paired_source_questions": 16,
+  "paired_transitions": {
+    "qwen3_flag__assistant_flag": 7,
+    "qwen3_flag__assistant_pass": 6,
+    "qwen3_pass__assistant_pass": 3
+  },
+  "placeholder_masking": "common names/numerals during NLLB only; exact markers restored before Qwen adjudication",
+  "pulled_kaggle_review_script_matches": true,
+  "pulled_kaggle_review_script_sha256": "88fa4d1aeeb734645d23abddba31dcc99215e9597e1e74360ff0d2ecdbdf917c",
+  "release_approved": false,
+  "review_script_sha256": "88fa4d1aeeb734645d23abddba31dcc99215e9597e1e74360ff0d2ecdbdf917c",
+  "rows_reviewed": 32,
+  "status": "VERIFIED_BLINDED_PAIRED_AI_SCREEN_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

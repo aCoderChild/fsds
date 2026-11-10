@@ -1,0 +1,226 @@
+[
+  {
+    "review_key": "P85BA522530",
+    "language": "hi",
+    "kind": "atomic",
+    "source_question_en": "What is [ENTITY_A]'s field of work?",
+    "translated_question": "[ENTITY_A] का कार्यक्षेत्र क्या है?"
+  },
+  {
+    "review_key": "P42C79D3D36",
+    "language": "th",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+    "translated_question": "วาระการดำรงตำแหน่งกรรมการของ [ENTITY_A] ใน [ENTITY_B] สิ้นสุดเมื่อวันที่ใด"
+  },
+  {
+    "review_key": "P22170E6E51",
+    "language": "fr",
+    "kind": "composition",
+    "source_question_en": "Where was the [ENTITY_A] formed?",
+    "translated_question": "Où a été formé le [ENTITY_A] ?"
+  },
+  {
+    "review_key": "P8DADAA1597",
+    "language": "fr",
+    "kind": "composition",
+    "source_question_en": "Where was the [ENTITY_A] formed?",
+    "translated_question": "Où la formation de [ENTITY_A] a-t-elle eu lieu ?"
+  },
+  {
+    "review_key": "P643392C3A2",
+    "language": "th",
+    "kind": "composition",
+    "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+    "translated_question": "อะไรเป็นส่วนหนึ่งของลำดับชั้นที่สูงขึ้นถัดไปเหนือหมวดหมู่ที่ [ENTITY_A] เป็นหมวดหมู่ย่อยของ?"
+  },
+  {
+    "review_key": "PB2B23CADD3",
+    "language": "th",
+    "kind": "composition",
+    "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+    "translated_question": "สิ่งใดเป็นส่วนหนึ่งของลำดับชั้นที่สูงกว่าของชั้นที่ [ENTITY_A] เป็นsubclass ของชั้นนั้น?"
+  },
+  {
+    "review_key": "PEF304C762D",
+    "language": "de",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+    "translated_question": "An welchem Datum wurde [ENTITY_A] zum Land, in dem [ENTITY_B] ist?"
+  },
+  {
+    "review_key": "P5E1BB40B91",
+    "language": "hi",
+    "kind": "atomic",
+    "source_question_en": "What shares a border with [ENTITY_A]?",
+    "translated_question": "कौन-सा स्थान [ENTITY_A] के साथ सीमा साझा करता है?"
+  },
+  {
+    "review_key": "P8EF83E88F3",
+    "language": "hi",
+    "kind": "composition",
+    "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+    "translated_question": "उस वर्ग के ठीक ऊपर वाले स्तर का कौन-सा भाग है, जिसका [ENTITY_A] एक उपवर्ग है?"
+  },
+  {
+    "review_key": "PBB78CE9183",
+    "language": "fr",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+    "translated_question": "À quelle date le lien de parenté entre [ENTITY_A] et [ENTITY_B] a-t-il commencé ?"
+  },
+  {
+    "review_key": "PCE400F9414",
+    "language": "de",
+    "kind": "composition",
+    "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+    "translated_question": "Welche verwaltende territoriale Einheit enthält [ENTITY_A]?"
+  },
+  {
+    "review_key": "PAEEDF23209",
+    "language": "de",
+    "kind": "atomic",
+    "source_question_en": "What does [ENTITY_A] replace?",
+    "translated_question": "Was ersetzt [ENTITY_A]?"
+  },
+  {
+    "review_key": "PD1E890DC78",
+    "language": "de",
+    "kind": "composition",
+    "source_question_en": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?",
+    "translated_question": "Wer ist der Vater des unverheirateten Partners des Ehegatten von [ENTITY_A]?"
+  },
+  {
+    "review_key": "P012B410986",
+    "language": "th",
+    "kind": "atomic",
+    "source_question_en": "On what date was [ENTITY_A] incorporated?",
+    "translated_question": "นิติบุคคล [ENTITY_A] จดทะเบียนจัดตั้งเมื่อวันที่ใด"
+  },
+  {
+    "review_key": "P276AC476CE",
+    "language": "fr",
+    "kind": "composition",
+    "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+    "translated_question": "Quelle entité administrative territoriale se trouve à l’intérieur de [ENTITY_A] ?"
+  },
+  {
+    "review_key": "P3B150C5B8E",
+    "language": "de",
+    "kind": "atomic",
+    "source_question_en": "What does [ENTITY_A] replace?",
+    "translated_question": "Was wird von [ENTITY_A] ersetzt?"
+  },
+  {
+    "review_key": "P4B7D1E131B",
+    "language": "fr",
+    "kind": "atomic",
+    "source_question_en": "Who is a doctoral student of [ENTITY_A]?",
+    "translated_question": "Qui est un étudiant en doctorat de [ENTITY_A] ?"
+  },
+  {
+    "review_key": "P75075A2957",
+    "language": "de",
+    "kind": "composition",
+    "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+    "translated_question": "Welche administrative Gebietseinheit liegt innerhalb von [ENTITY_A]?"
+  },
+  {
+    "review_key": "PBC897486F4",
+    "language": "hi",
+    "kind": "composition",
+    "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+    "translated_question": "[ENTITY_A] के उप-वर्ग के बराबर वर्ग के अगले उच्चतर रैंक का कौन-सा भाग है?"
+  },
+  {
+    "review_key": "PE8EA07BEAE",
+    "language": "th",
+    "kind": "composition",
+    "source_question_en": "Of what class is the [ENTITY_A] a subclass?",
+    "translated_question": "[ENTITY_A] เป็นหมวดหมู่ย่อยของหมวดหมู่ใด?"
+  },
+  {
+    "review_key": "P17A7C5817E",
+    "language": "hi",
+    "kind": "composition",
+    "source_question_en": "What is a part of the [ENTITY_A]?",
+    "translated_question": "[ENTITY_A] का कौन-सा भाग है?"
+  },
+  {
+    "review_key": "P9C46DD0049",
+    "language": "de",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+    "translated_question": "An welchem Datum wurde [ENTITY_A] zu dem Land, in dem sich [ENTITY_B] befindet?"
+  },
+  {
+    "review_key": "P5C6A40F184",
+    "language": "hi",
+    "kind": "atomic",
+    "source_question_en": "What is [ENTITY_A]'s field of work?",
+    "translated_question": "[ENTITY_A] के काम का क्षेत्र क्या है?"
+  },
+  {
+    "review_key": "P51D03B0723",
+    "language": "hi",
+    "kind": "composition",
+    "source_question_en": "What is a part of the [ENTITY_A]?",
+    "translated_question": "[ENTITY_A] का एक भाग क्या है?"
+  },
+  {
+    "review_key": "P5D159C4886",
+    "language": "fr",
+    "kind": "composition",
+    "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+    "translated_question": "Quelle entité territoriale administrative [ENTITY_A] contient-elle ?"
+  },
+  {
+    "review_key": "PBD7986949D",
+    "language": "th",
+    "kind": "atomic",
+    "source_question_en": "On what date was [ENTITY_A] incorporated?",
+    "translated_question": "วันที่ [ENTITY_A] ได้รับการจดทะเบียนคือเมื่อใด"
+  },
+  {
+    "review_key": "PF4CC6335A2",
+    "language": "th",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+    "translated_question": "[ENTITY_A] ดำรงตำแหน่งผู้อำนวยการของ [ENTITY_B] จนถึงวันที่ใด?"
+  },
+  {
+    "review_key": "PF4EFD8AEB5",
+    "language": "hi",
+    "kind": "atomic",
+    "source_question_en": "What shares a border with [ENTITY_A]?",
+    "translated_question": "[ENTITY_A] के साथ किसकी सीमा साझा है?"
+  },
+  {
+    "review_key": "P0340B729BD",
+    "language": "fr",
+    "kind": "atomic",
+    "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+    "translated_question": "Quelle est la date à laquelle [ENTITY_A] est devenu un parent de [ENTITY_B] ?"
+  },
+  {
+    "review_key": "PE5EC24109F",
+    "language": "de",
+    "kind": "composition",
+    "source_question_en": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?",
+    "translated_question": "Wer ist der Vater des unverheirateten Partners des Ehepartners von [ENTITY_A]?"
+  },
+  {
+    "review_key": "PC02A31B0A9",
+    "language": "th",
+    "kind": "composition",
+    "source_question_en": "Of what class is the [ENTITY_A] a subclass?",
+    "translated_question": "[ENTITY_A] เป็น subclass ของ class ใด"
+  },
+  {
+    "review_key": "PD9FCEEB948",
+    "language": "fr",
+    "kind": "atomic",
+    "source_question_en": "Who is a doctoral student of [ENTITY_A]?",
+    "translated_question": "Qui prépare un doctorat sous la direction de [ENTITY_A] ?"
+  }
+]

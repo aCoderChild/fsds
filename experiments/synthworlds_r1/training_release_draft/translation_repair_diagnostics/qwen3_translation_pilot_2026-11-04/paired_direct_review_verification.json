@@ -1,0 +1,754 @@
+{
+  "answers_or_splits_sent": false,
+  "calibration": {
+    "blocked": 0,
+    "passed": true,
+    "predeclared_threshold": "at least 15/16 known mismatches semantically rejected; zero blocked",
+    "semantic_accepts_on_known_mismatches": 1,
+    "semantic_rejects": 15,
+    "sentinel_decisions": [
+      {
+        "control_id": "HN009",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "hi",
+        "reason": "The candidate translation asks about [ENTITY_A]'s mother instead of [ENTITY_A]'s father.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN003",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "fr",
+        "reason": "The candidate translation asks about the father instead of the mother.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN004",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "fr",
+        "reason": "The central relation differs: 'sibling' in the source versus 'conjoint' (spouse) in the target.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN007",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "de",
+        "reason": "The candidate translation incorrectly refers to the 'mother' instead of the 'father'.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN011",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "hi",
+        "reason": "The candidate translation incorrectly refers to the mother instead of the father.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN014",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "th",
+        "reason": "The candidate translation incorrectly uses 'ปิดงาน' (closed) instead of 'เปิด' (opened), changing the meaning from opening to closing.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN008",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "de",
+        "reason": "The central relation is incorrect; 'editor' in English corresponds to 'Redakteur/in' or 'Chefredakteur/in' in German, not 'Direktor', which means 'director'.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN002",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "fr",
+        "reason": "The source asks about the closing date, while the target asks about the opening date.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN015",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "th",
+        "reason": "The candidate translation asks about the mother instead of the father.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN001",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "fr",
+        "reason": "The candidate translation asks about the mother instead of the father.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN012",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "pass",
+        "language": "hi",
+        "reason": "The candidate translation accurately captures the central relation, direction, scope, polarity, and question type of the English source.",
+        "semantic_pass": true
+      },
+      {
+        "control_id": "HN013",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "th",
+        "reason": "The candidate translation asks about the mother instead of the father.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN005",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "de",
+        "reason": "The candidate translation asks about the father instead of the mother.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN016",
+        "fluency_pass": true,
+        "kind": "composition",
+        "label": "flag",
+        "language": "th",
+        "reason": "The candidate translation asks about [ENTITY_A]'s spouse instead of their sibling.",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN006",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "de",
+        "reason": "The candidate translation asks about the opening instead of the closing of [ENTITY_A].",
+        "semantic_pass": false
+      },
+      {
+        "control_id": "HN010",
+        "fluency_pass": true,
+        "kind": "atomic",
+        "label": "flag",
+        "language": "hi",
+        "reason": "The candidate translation incorrectly uses 'open' instead of 'close', reversing the action's polarity.",
+        "semantic_pass": false
+      }
+    ],
+    "sentinel_rows": 16
+  },
+  "candidate_counts": {
+    "assistant_ai_candidate": {
+      "blocked": 0,
+      "flag": 6,
+      "pass": 10
+    },
+    "qwen3_14b": {
+      "blocked": 0,
+      "flag": 5,
+      "pass": 11
+    }
+  },
+  "candidate_rows": 32,
+  "candidate_screen_interpretable": true,
+  "case_results": [
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately conveys the English source question about [ENTITY_A]'s field of work, maintaining the same structure and intent.",
+        "review_key": "P85BA522530",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] का कार्यक्षेत्र क्या है?",
+        "translation_sha256": "1c4f80e48aff0582d6bd37c7a163941bba4de58010debdaf0360ec436899b2e8"
+      },
+      "kind": "atomic",
+      "language": "hi",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the meaning of the English source, asking about [ENTITY_A]'s field of work. The grammatical structure and naturalness in Hindi are correct.",
+        "review_key": "P5C6A40F184",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] के काम का क्षेत्र क्या है?",
+        "translation_sha256": "1f49236a2738b017e7757f3058790e975b1767937b88b8eafb1c305454bfe678"
+      },
+      "source_question_en": "What is [ENTITY_A]'s field of work?",
+      "source_review_key": "R0347"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The central relation, direction, scope, polarity, and tense are accurately conveyed. The translation is both grammatically correct and natural in German.",
+        "review_key": "P9C46DD0049",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "An welchem Datum wurde [ENTITY_A] zu dem Land, in dem sich [ENTITY_B] befindet?",
+        "translation_sha256": "1f00d5cb0ce2d141244f4fcdf7e342668b971c749cc8fa6a16ddf5c9936d52aa"
+      },
+      "kind": "atomic",
+      "language": "de",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The central relation, direction, scope, polarity, and tense are correctly conveyed. The translation is both grammatically correct and natural in German.",
+        "review_key": "PEF304C762D",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "An welchem Datum wurde [ENTITY_A] zum Land, in dem [ENTITY_B] ist?",
+        "translation_sha256": "5d54248be519a169cbf9827e15e8e0d3baf491fb4c01ac15cc4f09a75438c1af"
+      },
+      "source_question_en": "On what date did [ENTITY_A] become the country that [ENTITY_B] is in?",
+      "source_review_key": "R0179"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The central relation, direction, scope, polarity, and tense are accurately conveyed in the candidate translation.",
+        "review_key": "P643392C3A2",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "อะไรเป็นส่วนหนึ่งของลำดับชั้นที่สูงขึ้นถัดไปเหนือหมวดหมู่ที่ [ENTITY_A] เป็นหมวดหมู่ย่อยของ?",
+        "translation_sha256": "8a0684520b6b67bccce10937ceb5c301cb48585bd3bc86705547127a1100339f"
+      },
+      "kind": "composition",
+      "language": "th",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation incorrectly states that [ENTITY_A] is a subclass of the class in question, rather than expressing that there is a higher rank above the class of which [ENTITY_A] is a subclass.",
+        "review_key": "PB2B23CADD3",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "สิ่งใดเป็นส่วนหนึ่งของลำดับชั้นที่สูงกว่าของชั้นที่ [ENTITY_A] เป็นsubclass ของชั้นนั้น?",
+        "translation_sha256": "9c1eab346d7d83381e82b2e78d2ff6a5d2fe273a50ef4e1bed01984a6e4e1fb8"
+      },
+      "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+      "source_review_key": "R0701"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation reverses the relationship between [ENTITY_A] and the administrative territorial unit. The source asks which entity contains [ENTITY_A], while the target asks which unit lies within [ENTITY_A].",
+        "review_key": "P75075A2957",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "Welche administrative Gebietseinheit liegt innerhalb von [ENTITY_A]?",
+        "translation_sha256": "7bfaff5fc9ccdbdec1ac6f59109114ae3cb6d88f2801ad0aec90222b71e818cc"
+      },
+      "kind": "composition",
+      "language": "de",
+      "qwen3_14b": {
+        "fluency_pass": false,
+        "label": "flag",
+        "reason": "The central relation of containment is correctly expressed, but the word order in the German sentence is unnatural. A more fluent version would be 'Welche verwaltende territoriale Einheit wird von [ENTITY_A] umfasst?'",
+        "review_key": "PCE400F9414",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Welche verwaltende territoriale Einheit enthält [ENTITY_A]?",
+        "translation_sha256": "69a3bc36023d613647935744f6bf9dbb1e4dfba8dcbd35c3d68953603aa4ccdc"
+      },
+      "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+      "source_review_key": "R0282"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation incorrectly uses 'des unverheirateten Partners' instead of 'des unverheirateten Partneres', which should specify that the partner is female. Additionally, the word order in German for such complex questions can be more naturally structured to enhance clarity.",
+        "review_key": "PE5EC24109F",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "Wer ist der Vater des unverheirateten Partners des Ehepartners von [ENTITY_A]?",
+        "translation_sha256": "39b7cee2cd43c58a509b60550fb25313631f85b0915f4ffcc67e32601f3bb315"
+      },
+      "kind": "composition",
+      "language": "de",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation incorrectly uses 'des unverheirateten Partners' instead of 'des unverheirateten Partneres', which should specify gender agreement for the unmarried partner. Additionally, it does not specify if [ENTITY_A]'s spouse is male or female, but the structure implies that [ENTITY_A]’s spouse is male ('Ehegatten' is masculine). The source question is gender-neutral regarding the spouse.",
+        "review_key": "PD1E890DC78",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "Wer ist der Vater des unverheirateten Partners des Ehegatten von [ENTITY_A]?",
+        "translation_sha256": "d7446b504c46a3ebc9266f8def5dcd3bec57da3d20cc1954194d2076cdbe9070"
+      },
+      "source_question_en": "Who is the father of the unmarried partner of the spouse of [ENTITY_A]?",
+      "source_review_key": "R0277"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The target sentence correctly captures the core relation of incorporation date inquiry, maintains the same tense and question type as the source.",
+        "review_key": "P012B410986",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "นิติบุคคล [ENTITY_A] จดทะเบียนจัดตั้งเมื่อวันที่ใด",
+        "translation_sha256": "924cfb871673179e476511e285c519ac6cf0a95a8f2553050b4d2463f86ced7c"
+      },
+      "kind": "atomic",
+      "language": "th",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The target sentence correctly captures the meaning of the source sentence, asking for the incorporation date of [ENTITY_A]. The grammar and naturalness in Thai are appropriate.",
+        "review_key": "PBD7986949D",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "วันที่ [ENTITY_A] ได้รับการจดทะเบียนคือเมื่อใด",
+        "translation_sha256": "a041bbbe5bc42ef19a61b10e0e667c00aba5d02189454093e408d3658a7b0a9c"
+      },
+      "source_question_en": "On what date was [ENTITY_A] incorporated?",
+      "source_review_key": "R0547"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The central relation, direction, scope, polarity, and tense are accurately conveyed in the candidate translation. The question type is preserved, and the translation is both grammatically correct and naturally expressed in Hindi.",
+        "review_key": "P8EF83E88F3",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "उस वर्ग के ठीक ऊपर वाले स्तर का कौन-सा भाग है, जिसका [ENTITY_A] एक उपवर्ग है?",
+        "translation_sha256": "6b6ce1208a44b6555d135df0f89bdaf2be200bd94fd25f8742f99696773c0202"
+      },
+      "kind": "composition",
+      "language": "hi",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation incorrectly represents the relationship and structure of the original question. The source asks about a part of the next higher rank above the class of which [ENTITY_A] is a subclass, but the target reverses the comparison, asking about a part of a rank equal to the class of [ENTITY_A].",
+        "review_key": "PBC897486F4",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "[ENTITY_A] के उप-वर्ग के बराबर वर्ग के अगले उच्चतर रैंक का कौन-सा भाग है?",
+        "translation_sha256": "74d0b8cab5aecaf807eae2db825a01e2dc672f3d4b550d325714069110de3e7f"
+      },
+      "source_question_en": "What is a part of the next higher rank above the class of which the [ENTITY_A] is a subclass?",
+      "source_review_key": "R0464"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the meaning of the English source, maintaining the central relation between the administrative territorial entity and [ENTITY_A], the direction (containment), scope (administrative territorial entity), and the question type.",
+        "review_key": "P276AC476CE",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "Quelle entité administrative territoriale se trouve à l’intérieur de [ENTITY_A] ?",
+        "translation_sha256": "51554573763961b0a458d06e343c77b5fdc72273b84d4d09b78fd8cec93668e4"
+      },
+      "kind": "composition",
+      "language": "fr",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The translation accurately captures the meaning of the original question, maintaining the same central relation, direction, scope, polarity, and question type.",
+        "review_key": "P5D159C4886",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Quelle entité territoriale administrative [ENTITY_A] contient-elle ?",
+        "translation_sha256": "d5d804046385f19d4bc35718eaa86a15a732324af512f0df19427decb134fab1"
+      },
+      "source_question_en": "Which administrative territorial entity does [ENTITY_A] contain?",
+      "source_review_key": "R0125"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the core meaning of the English source, asking about the start date of the familial relationship between [ENTITY_A] and [ENTITY_B]. The phrasing is both grammatically correct and natural in French.",
+        "review_key": "PBB78CE9183",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "À quelle date le lien de parenté entre [ENTITY_A] et [ENTITY_B] a-t-il commencé ?",
+        "translation_sha256": "5ea0cf873f0a418426d49160ddbd4eb11e6ed50399885ef31945b0177796f91f"
+      },
+      "kind": "atomic",
+      "language": "fr",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The term 'parent' in French is too specific compared to the more general term 'relative' used in the English source.",
+        "review_key": "P0340B729BD",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "Quelle est la date à laquelle [ENTITY_A] est devenu un parent de [ENTITY_B] ?",
+        "translation_sha256": "de23caf7837b338398dbc9a2d403bad066bb52fa10bdf2401889026c48bd3fb3"
+      },
+      "source_question_en": "On what date did [ENTITY_A] become a relative of [ENTITY_B]?",
+      "source_review_key": "R0011"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the meaning of the English source, asking about what shares a border with [ENTITY_A]. The translation is also grammatically correct and natural in Hindi.",
+        "review_key": "P5E1BB40B91",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "कौन-सा स्थान [ENTITY_A] के साथ सीमा साझा करता है?",
+        "translation_sha256": "0fb5f4e0aaee6619e84842f58a574909cd153f2297b55cec228daa25e42846ee"
+      },
+      "kind": "atomic",
+      "language": "hi",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the central relation of sharing a border, maintains the direction and scope of the original question, and preserves the interrogative form.",
+        "review_key": "PF4EFD8AEB5",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] के साथ किसकी सीमा साझा है?",
+        "translation_sha256": "5f9864310c91531fba6b64b1edd5f370d8ae88cf507956a3e019e4bba5a2eccb"
+      },
+      "source_question_en": "What shares a border with [ENTITY_A]?",
+      "source_review_key": "R0345"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The source asks what [ENTITY_A] replaces, but the target asks what is replaced by [ENTITY_A], reversing the direction of the replacement.",
+        "review_key": "P3B150C5B8E",
+        "roundtrip_label": "flag",
+        "semantic_pass": false,
+        "translated_question": "Was wird von [ENTITY_A] ersetzt?",
+        "translation_sha256": "1bdb4a6bee839fa6c075a66c6570cfc4d88a89090314da35a9e6ae090c602475"
+      },
+      "kind": "atomic",
+      "language": "de",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The target sentence correctly captures the meaning of the source sentence, maintaining the same relation, direction, scope, polarity, and question type.",
+        "review_key": "PAEEDF23209",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Was ersetzt [ENTITY_A]?",
+        "translation_sha256": "2618829b49bcde63fb8a1fcfd97dbe6f992110748ea8bbee561f625d430a04b4"
+      },
+      "source_question_en": "What does [ENTITY_A] replace?",
+      "source_review_key": "R0177"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The translation accurately conveys the meaning of the original question, maintaining the relationship between the doctoral student and their advisor [ENTITY_A]. The phrase 'prépare un doctorat sous la direction de' correctly captures the idea of being a doctoral student under someone's supervision.",
+        "review_key": "PD9FCEEB948",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "Qui prépare un doctorat sous la direction de [ENTITY_A] ?",
+        "translation_sha256": "634bd7b44f0f11d200d410eda72e4096570c506aaba938cf6ee54a271d03a404"
+      },
+      "kind": "atomic",
+      "language": "fr",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The translation accurately conveys the original question's intent, maintaining the same relation, direction, scope, polarity, and question type.",
+        "review_key": "P4B7D1E131B",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Qui est un étudiant en doctorat de [ENTITY_A] ?",
+        "translation_sha256": "a5ae7f693aa4be35401069db832222b8d848b3f01af0f15650128f0dfe82fb94"
+      },
+      "source_question_en": "Who is a doctoral student of [ENTITY_A]?",
+      "source_review_key": "R0008"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation reverses the subject and object, asking 'What is a part of the ENTITY_A?' instead of 'What is a part of the ENTITY_A?' which changes the meaning.",
+        "review_key": "P17A7C5817E",
+        "roundtrip_label": "pass",
+        "semantic_pass": false,
+        "translated_question": "[ENTITY_A] का कौन-सा भाग है?",
+        "translation_sha256": "9b886fc9a7d5bbfe85d9070540b8ef74f62a1a3c9a9db0a381429fdaea02c669"
+      },
+      "kind": "composition",
+      "language": "hi",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately conveys the English source question in Hindi, maintaining the same central relation, direction, scope, polarity, and question type.",
+        "review_key": "P51D03B0723",
+        "roundtrip_label": "pass",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] का एक भाग क्या है?",
+        "translation_sha256": "9a2aa27e07a9a360603cd1f44bc6ce34a045cb9163d8aacd53d623bdd8d22fde"
+      },
+      "source_question_en": "What is a part of the [ENTITY_A]?",
+      "source_review_key": "R0465"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately captures the meaning of the English source, maintaining the same question type, scope, and tense.",
+        "review_key": "P8DADAA1597",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Où la formation de [ENTITY_A] a-t-elle eu lieu ?",
+        "translation_sha256": "a14b2a9c12c581f6131c056278442ba4809c8304befadcdff9e3466c7ec2f2ff"
+      },
+      "kind": "composition",
+      "language": "fr",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The candidate translation accurately conveys the original question's meaning, maintaining the same central relation, direction, scope, polarity, and question type.",
+        "review_key": "P22170E6E51",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "Où a été formé le [ENTITY_A] ?",
+        "translation_sha256": "dec025b03abc5c224f8865c41709a9263a5e6b2d88551346bd857e9b3c06305e"
+      },
+      "source_question_en": "Where was the [ENTITY_A] formed?",
+      "source_review_key": "R0123"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation asks 'What category is [ENTITY_A] a subcategory of?', which does not accurately reflect the original question asking about class rather than category.",
+        "review_key": "PE8EA07BEAE",
+        "roundtrip_label": "pass",
+        "semantic_pass": false,
+        "translated_question": "[ENTITY_A] เป็นหมวดหมู่ย่อยของหมวดหมู่ใด?",
+        "translation_sha256": "086408dac6152b60c5d421da6022519a950b1d928ca430ffba92287449898f31"
+      },
+      "kind": "composition",
+      "language": "th",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The target-language sentence accurately captures the relationship, direction, scope, and question type of the English source.",
+        "review_key": "PC02A31B0A9",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] เป็น subclass ของ class ใด",
+        "translation_sha256": "372e755a8178ffdfe6868595b183960ea80bb6374eb134f7f05ac138c20b2436"
+      },
+      "source_question_en": "Of what class is the [ENTITY_A] a subclass?",
+      "source_review_key": "R0702"
+    },
+    {
+      "assistant_ai_candidate": {
+        "fluency_pass": true,
+        "label": "flag",
+        "reason": "The candidate translation incorrectly refers to 'กรรมการ' (board member) instead of 'director'. The central relation between [ENTITY_A] and their role as director is not accurately conveyed.",
+        "review_key": "P42C79D3D36",
+        "roundtrip_label": "pass",
+        "semantic_pass": false,
+        "translated_question": "วาระการดำรงตำแหน่งกรรมการของ [ENTITY_A] ใน [ENTITY_B] สิ้นสุดเมื่อวันที่ใด",
+        "translation_sha256": "db3484d455c9ba5dd616690a528e18b78ad78ae3b8b37977f6d2d3c9235fbadb"
+      },
+      "kind": "atomic",
+      "language": "th",
+      "qwen3_14b": {
+        "fluency_pass": true,
+        "label": "pass",
+        "reason": "The central relation (director position) and the query about the end date are accurately conveyed.",
+        "review_key": "PF4CC6335A2",
+        "roundtrip_label": "flag",
+        "semantic_pass": true,
+        "translated_question": "[ENTITY_A] ดำรงตำแหน่งผู้อำนวยการของ [ENTITY_B] จนถึงวันที่ใด?",
+        "translation_sha256": "8dc2483d991ee512d774926009a6cc1649949a241940371545249d6153661d86"
+      },
+      "source_question_en": "On what date did [ENTITY_A]'s tenure as director of [ENTITY_B] end?",
+      "source_review_key": "R0549"
+    }
+  ],
+  "comparison_limitations": [
+    "The direct reviewer is FP16 with unconstrained JSON generation, while the round-trip reviewer used NF4 and constrained JSON decoding; label changes cannot be attributed to NLLB alone.",
+    "The direct reviewer used device_map=auto and offloaded some FP16 layers to CPU; the same-run sentinels check the reviewer under this actual placement, which may differ from earlier calibration placement.",
+    "The direct screen and calibration sentinels are AI judgments, not fluent-human gold labels.",
+    "The 16 source questions are a selected diagnostic pilot, not a representative corpus sample."
+  ],
+  "counts_by_method_and_language": {
+    "assistant_ai_candidate": {
+      "de": {
+        "blocked": 0,
+        "flag": 3,
+        "pass": 1
+      },
+      "fr": {
+        "blocked": 0,
+        "flag": 0,
+        "pass": 4
+      },
+      "hi": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      },
+      "th": {
+        "blocked": 0,
+        "flag": 2,
+        "pass": 2
+      }
+    },
+    "qwen3_14b": {
+      "de": {
+        "blocked": 0,
+        "flag": 2,
+        "pass": 2
+      },
+      "fr": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      },
+      "hi": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      },
+      "th": {
+        "blocked": 0,
+        "flag": 1,
+        "pass": 3
+      }
+    }
+  },
+  "cpu_offload_detected": true,
+  "human_translation_reviewed": false,
+  "input_sha256": "63928c1ff976329a231bd719f6e41ab931a44b6b45ffd87fbb87c532f45b78b4",
+  "kaggle_run": {
+    "kernel_id": "bunnoob2005/swsm-qwen14-direct-paired-calibration-2026-11-04",
+    "kernel_last_run_time_utc": "2026-11-04T14:46:13.963000Z",
+    "observed_at_utc": "2026-11-04T15:18:07.005879+00:00",
+    "run_id": null,
+    "runtime_seconds_log_last_event": 1536.52,
+    "status": "KernelWorkerStatus.COMPLETE"
+  },
+  "models": {
+    "reviewer": {
+      "id": "Qwen/Qwen2.5-14B-Instruct",
+      "revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8"
+    }
+  },
+  "note": "A blinded paired AI-only diagnostic with a same-run known-mismatch sentinel check. It compares direct-review and NLLB round-trip labels on this selected 16-question sample, but protocol differences mean it cannot identify NLLB as the sole source of disagreement. It is neither human-gold translation validation nor a dataset release decision.",
+  "output_completion_timestamp_missing": true,
+  "output_sha256": "5a7ead7093ce86b432d739479c493b2a0f611390c2b28b76a39901ac11c1bfc1",
+  "paired_source_questions": 16,
+  "paired_transitions": {
+    "qwen3_flag__assistant_flag": 2,
+    "qwen3_flag__assistant_pass": 3,
+    "qwen3_pass__assistant_flag": 4,
+    "qwen3_pass__assistant_pass": 7
+  },
+  "prompt_matches_calibrated_template": true,
+  "prompt_sha256": "c614f74527022c6f3e4b03b18ca2cd81a894619ee40e02f185d50f417e2206a4",
+  "pulled_kaggle_review_script_matches": true,
+  "pulled_kaggle_review_script_sha256": "36b57e771ff8cf45859c39a86e3244cb21f2025647f08dbcf57fbb6f4c0ff0a1",
+  "release_approved": false,
+  "review_script_sha256": "36b57e771ff8cf45859c39a86e3244cb21f2025647f08dbcf57fbb6f4c0ff0a1",
+  "roundtrip_to_direct_transitions": {
+    "assistant_ai_candidate": {
+      "flag_to_flag": 3,
+      "flag_to_pass": 4,
+      "pass_to_flag": 3,
+      "pass_to_pass": 6
+    },
+    "qwen3_14b": {
+      "flag_to_flag": 5,
+      "flag_to_pass": 8,
+      "pass_to_pass": 3
+    }
+  },
+  "rows_reviewed": 48,
+  "runtime": {
+    "accelerate": "1.15.0",
+    "cuda_device_count": 2,
+    "device_map": {
+      "lm_head": "cpu",
+      "model.embed_tokens": "0",
+      "model.layers.0": "0",
+      "model.layers.1": "0",
+      "model.layers.10": "0",
+      "model.layers.11": "0",
+      "model.layers.12": "0",
+      "model.layers.13": "0",
+      "model.layers.14": "0",
+      "model.layers.15": "0",
+      "model.layers.16": "0",
+      "model.layers.17": "0",
+      "model.layers.18": "0",
+      "model.layers.19": "0",
+      "model.layers.2": "0",
+      "model.layers.20": "0",
+      "model.layers.21": "0",
+      "model.layers.22": "1",
+      "model.layers.23": "1",
+      "model.layers.24": "1",
+      "model.layers.25": "1",
+      "model.layers.26": "1",
+      "model.layers.27": "1",
+      "model.layers.28": "1",
+      "model.layers.29": "1",
+      "model.layers.3": "0",
+      "model.layers.30": "1",
+      "model.layers.31": "1",
+      "model.layers.32": "1",
+      "model.layers.33": "1",
+      "model.layers.34": "1",
+      "model.layers.35": "1",
+      "model.layers.36": "1",
+      "model.layers.37": "1",
+      "model.layers.38": "1",
+      "model.layers.39": "1",
+      "model.layers.4": "0",
+      "model.layers.40": "1",
+      "model.layers.41": "1",
+      "model.layers.42": "1",
+      "model.layers.43": "1",
+      "model.layers.44": "1",
+      "model.layers.45": "1",
+      "model.layers.46": "1",
+      "model.layers.47": "1",
+      "model.layers.5": "0",
+      "model.layers.6": "0",
+      "model.layers.7": "0",
+      "model.layers.8": "0",
+      "model.layers.9": "0",
+      "model.norm": "1",
+      "model.rotary_emb": "1"
+    },
+    "gpu_devices": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "torch": "2.11.0+cu130",
+    "transformers": "4.51.3"
+  },
+  "status": "VERIFIED_BLINDED_DIRECT_PAIRED_AI_SCREEN_DIAGNOSTIC_ONLY",
+  "training_eligible": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "READY_ACCESS_ONLY_NO_GPU",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "expected_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "probe_sha256": "6da1a1a8035803d594d131c22555595c9e561acef432493f3cb2d0bf71c7643c",
+  "notebook_sha256": "c60ded1b3ba1541976ac21d3b9f993c60e41ff393995d9c738695987979536fc",
+  "metadata_sha256": "f6784ba538554d7c20f627fb7692a366b409d98c0f99b479c774a57219d610dc",
+  "gpu_enabled": false,
+  "internet_enabled": true,
+  "weights_downloaded": false,
+  "training_started": false,
+  "research_data_loaded": false
+}

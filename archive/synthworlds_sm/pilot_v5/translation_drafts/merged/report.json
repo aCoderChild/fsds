@@ -1,0 +1,44 @@
+{
+  "completed_at_utc": "2026-11-03T01:14:43.426653+00:00",
+  "fallback_model": "ollama:qwen2.5:7b-instruct",
+  "human_reviewed_total": 0,
+  "human_translation_reviewed": false,
+  "languages": {
+    "de": {
+      "failures": [],
+      "merged_sha256": "aa7ef7a2c5df0c72aad921b63fda1ef9f75571a3c77ec84d498779ba2874a1b6",
+      "nllb_primary_rows": 565,
+      "qwen_fallback_rows": 20,
+      "rows": 585,
+      "unresolved_rows": 0
+    },
+    "fr": {
+      "failures": [],
+      "merged_sha256": "b312e0b70fc973e699d438c295ef9fce2e43cfa66ec81826b7f19ec48e6c75d4",
+      "nllb_primary_rows": 571,
+      "qwen_fallback_rows": 14,
+      "rows": 585,
+      "unresolved_rows": 0
+    },
+    "hi": {
+      "failures": [],
+      "merged_sha256": "5f373692ba505016e25b4a4219b85f9689de73e622c55cecbd46547a89b0ee32",
+      "nllb_primary_rows": 548,
+      "qwen_fallback_rows": 37,
+      "rows": 585,
+      "unresolved_rows": 0
+    },
+    "th": {
+      "failures": [],
+      "merged_sha256": "206f9e2e023ca08d9afaa336cd075855efe9e47e68a9018f057856c8f6e64779",
+      "nllb_primary_rows": 558,
+      "qwen_fallback_rows": 27,
+      "rows": 585,
+      "unresolved_rows": 0
+    }
+  },
+  "primary_translation_model": "facebook/nllb-200-distilled-600M",
+  "status": "MERGED_TRANSLATIONS_READY_FOR_AI_REVIEW",
+  "translation_requests_sha256": "cb46e839bef29b836d882fb489372b80d8ce18517a711fe1bd94999c4754500c",
+  "unresolved_total": 0
+}

@@ -1,0 +1,23 @@
+[{"stream_name":"stderr","time":17.97492792,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":17.974979626,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.974986639,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.974991181,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":17.974994949,"data":"diffusers 0.42.0 requires huggingface-hub\u003c3.0,\u003e=1.32.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":40.520885649,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":40.521488519,"data":"  File \"/kaggle/src/script.py\", line 234, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":40.521501729,"data":"    main()\n"}
+,{"stream_name":"stderr","time":40.52150569,"data":"    ~~~~^^\n"}
+,{"stream_name":"stderr","time":40.521508994,"data":"  File \"/kaggle/src/script.py\", line 158, in main\n"}
+,{"stream_name":"stderr","time":40.521512508,"data":"    bt_tokenizer = NllbTokenizerFast.from_pretrained(NLLB_ID, revision=NLLB_REVISION)\n"}
+,{"stream_name":"stderr","time":40.521517822,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/tokenization_utils_base.py\", line 2046, in from_pretrained\n"}
+,{"stream_name":"stderr","time":40.52152141,"data":"    raise EnvironmentError(\n"}
+,{"stream_name":"stderr","time":40.5215264,"data":"    ...\u003c4 lines\u003e...\n"}
+,{"stream_name":"stderr","time":40.52152984,"data":"    )\n"}
+,{"stream_name":"stderr","time":40.521537435,"data":"OSError: Can't load tokenizer for 'facebook/nllb-200-distilled-600M'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'facebook/nllb-200-distilled-600M' is the correct path to a directory containing all relevant files for a NllbTokenizerFast tokenizer.\n"}
+,{"stream_name":"stderr","time":47.115069945,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":47.115099777,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":47.639831203,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":47.639855938,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":48.415942616,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":49.457257567,"data":"[NbConvertApp] Writing 331404 bytes to __results__.html\n"}
+]

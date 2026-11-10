@@ -1,0 +1,82 @@
+{
+  "ai_review_corrections": [],
+  "approval_claimed": false,
+  "backtranslation_is_independent_model": false,
+  "backtranslation_model": "facebook/nllb-200-distilled-600M",
+  "backtranslation_policy": "Questions and translated natural-language answers are back-translated with the same NLLB-200 model. Canonical named-entity and numeric/date labels are copied into the audit record and are not counted as back-translations.",
+  "batch_size": 8,
+  "canonical_answer_policy": "Answers that exactly equal a protected entity name, or consist only of a numeric/date label with an optional type annotation, remain in canonical source spelling; other answer text is translated.",
+  "device": "mps",
+  "human_review_performed": false,
+  "languages": {
+    "de": {
+      "ai_review_correction_rows": 0,
+      "backtranslated_fields": 340,
+      "canonical_entity_answer_passthrough_rows": 340,
+      "canonical_label_fields_copied": 340,
+      "canonical_numeric_answer_passthrough_rows": 0,
+      "protected_marker_scheme_field_counts": {
+        "canonical_label_passthrough": 340,
+        "words": 340
+      },
+      "protected_text_repair_rows": 0,
+      "target_language_normalization_counts": {},
+      "translation_rows": 340,
+      "translation_status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "fr": {
+      "ai_review_correction_rows": 0,
+      "backtranslated_fields": 340,
+      "canonical_entity_answer_passthrough_rows": 340,
+      "canonical_label_fields_copied": 340,
+      "canonical_numeric_answer_passthrough_rows": 0,
+      "protected_marker_scheme_field_counts": {
+        "canonical_label_passthrough": 340,
+        "words": 340
+      },
+      "protected_text_repair_rows": 0,
+      "target_language_normalization_counts": {
+        "FR_PROPER_NAME_ARTICLE_NORMALIZATION": 186
+      },
+      "translation_rows": 340,
+      "translation_status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "hi": {
+      "ai_review_correction_rows": 0,
+      "backtranslated_fields": 340,
+      "canonical_entity_answer_passthrough_rows": 340,
+      "canonical_label_fields_copied": 340,
+      "canonical_numeric_answer_passthrough_rows": 0,
+      "protected_marker_scheme_field_counts": {
+        "canonical_label_passthrough": 340,
+        "underscore": 3,
+        "words": 337
+      },
+      "protected_text_repair_rows": 3,
+      "target_language_normalization_counts": {},
+      "translation_rows": 340,
+      "translation_status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    },
+    "th": {
+      "ai_review_correction_rows": 0,
+      "backtranslated_fields": 340,
+      "canonical_entity_answer_passthrough_rows": 340,
+      "canonical_label_fields_copied": 340,
+      "canonical_numeric_answer_passthrough_rows": 0,
+      "protected_marker_scheme_field_counts": {
+        "canonical_label_passthrough": 340,
+        "underscore": 2,
+        "words": 338
+      },
+      "protected_text_repair_rows": 2,
+      "target_language_normalization_counts": {},
+      "translation_rows": 340,
+      "translation_status": "MACHINE_DRAFT_PENDING_AI_REVIEW"
+    }
+  },
+  "numbered_translation_policy": "Protect entity names with exact-copy markers; if NLLB cannot preserve a numeric marker, retry without numeric markers and require every source number to survive digit normalization.",
+  "source_rows": 340,
+  "source_sha256": "742c458d066ffe89c5268897a8c53a045e41255852a5339bbb6c189874a6677f",
+  "status": "TRANSLATION_DRAFTS_AND_BACKTRANSLATIONS_PENDING_AI_REVIEW",
+  "translation_model": "facebook/nllb-200-distilled-600M"
+}

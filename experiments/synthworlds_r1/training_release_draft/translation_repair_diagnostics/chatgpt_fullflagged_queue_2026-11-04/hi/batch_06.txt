@@ -1,0 +1,35 @@
+Translate each English question into natural Hindi. Preserve the full meaning, relation direction, scope, polarity, tense, and answer type. Copy every ZXQ marker exactly and preserve its role in the question. Do not answer the questions, add explanations, or change row_id values. Return exactly one JSON object per input row, in the same order, with only the keys row_id and translation; no markdown fences or extra text.
+
+INPUT JSONL:
+{"row_id":"HI0161","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"HI0162","question_en":"Who is the sibling of the person after whom the place that houses the ZXQENTAQXZ is named?"}
+{"row_id":"HI0163","question_en":"Who is ZXQENTAQXZ's godparent?"}
+{"row_id":"HI0164","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"HI0165","question_en":"Who is the spouse of the godparent of the head of state of ZXQENTAQXZ?"}
+{"row_id":"HI0166","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"HI0167","question_en":"Who is the head of state of the country of which ZXQENTAQXZ's spouse is a citizen?"}
+{"row_id":"HI0168","question_en":"What immediately follows ZXQENTAQXZ?"}
+{"row_id":"HI0169","question_en":"What is ZXQENTAQXZ's family name?"}
+{"row_id":"HI0170","question_en":"What is the family name of the entity that immediately follows the family to which ZXQENTAQXZ belongs?"}
+{"row_id":"HI0171","question_en":"Who is the main subject of ZXQENTAQXZ?"}
+{"row_id":"HI0172","question_en":"Who is the mother of the father of the person associated with ZXQENTAQXZ?"}
+{"row_id":"HI0173","question_en":"Who is ZXQENTAQXZ's sibling?"}
+{"row_id":"HI0174","question_en":"What is ZXQENTAQXZ's given name?"}
+{"row_id":"HI0175","question_en":"What is the given name of the unmarried partner of ZXQENTAQXZ's sibling?"}
+{"row_id":"HI0176","question_en":"Which entity is owned by ZXQENTAQXZ?"}
+{"row_id":"HI0177","question_en":"Which institution holds documentation files about the founder of the company owned by ZXQENTAQXZ?"}
+{"row_id":"HI0178","question_en":"What shares a border with ZXQENTAQXZ?"}
+{"row_id":"HI0179","question_en":"Where is the entity that borders the place ZXQENTAQXZ is indigenous to headquartered?"}
+{"row_id":"HI0180","question_en":"Who is the child of ZXQENTAQXZ?"}
+{"row_id":"HI0181","question_en":"What is the religion of the child of ZXQENTAQXZ's unmarried partner?"}
+{"row_id":"HI0182","question_en":"Who is a significant person associated with ZXQENTAQXZ?"}
+{"row_id":"HI0183","question_en":"What country is the significant person associated with ZXQENTAQXZ's field of work a citizen of?"}
+{"row_id":"HI0184","question_en":"Where did ZXQENTAQXZ work?"}
+{"row_id":"HI0185","question_en":"Who is ZXQENTAQXZ named after?"}
+{"row_id":"HI0186","question_en":"Who is ZXQENTAQXZ's spouse?"}
+{"row_id":"HI0187","question_en":"Who is the spouse of the person for whom the place where ZXQENTAQXZ worked was named?"}
+{"row_id":"HI0188","question_en":"Who is ZXQENTAQXZ's stepparent?"}
+{"row_id":"HI0189","question_en":"What language does ZXQENTAQXZ speak?"}
+{"row_id":"HI0190","question_en":"What language does the stepparent of the founder of ZXQENTAQXZ speak?"}
+{"row_id":"HI0191","question_en":"Who is a significant person linked to ZXQENTAQXZ?"}
+{"row_id":"HI0192","question_en":"Who commissioned ZXQENTAQXZ?"}

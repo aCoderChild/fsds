@@ -1,0 +1,37 @@
+{
+  "status": "ERROR",
+  "started_at_utc": "2026-11-07T02:25:56.090232+00:00",
+  "selected_models": [
+    "llama_3_1_8b_full",
+    "llama_3_1_8b_retain90"
+  ],
+  "reused_models": [
+    "llama_3_2_3b_full",
+    "llama_3_2_3b_retain90"
+  ],
+  "dataset_hashes": {
+    "forget10.json": "0044c8c2e70a38be93f62ec6cb1c1cc2a1f55a8df2fb549a4da2da8dde9d92f6",
+    "forget10_perturbed.json": "6fbcb946c57ea1d7b2124cea0e61bf3b5409d1bc10d02368f090109450ed73c7",
+    "retain90.json": "debcf019c41db7b30b62ca6ad41fd8a4bcd29a5b321c21d2961974e308dfca55",
+    "retain_perturbed.json": "fc69f33bad70d3dca65920bdb54380039e3e8872dd16bbae20c1a839b99533fb",
+    "holdout10.json": "efec32c7a7f66bfefaa90b8a4cc583296b0bbf882495db61076dec2d6edf44dd",
+    "real_authors_perturbed.json": "a23255383ac75a5fbe5acd57622a03fb9c368954fd7b2428afa152b784d9533a",
+    "world_facts_perturbed.json": "0e171838040d0ec94b1ce248d891508e85e3b77344370077caa27b61898eb3e1"
+  },
+  "model_results": {
+    "llama_3_2_3b_full": {
+      "status": "PASS_OFFICIAL_TOFU_BASELINE",
+      "result_file": "llama_3_2_3b_full_official_eval.json",
+      "examples_file": "llama_3_2_3b_full_examples.jsonl",
+      "runtime_seconds": 1561.05
+    },
+    "llama_3_2_3b_retain90": {
+      "status": "PASS_OFFICIAL_TOFU_BASELINE",
+      "result_file": "llama_3_2_3b_retain90_official_eval.json",
+      "examples_file": "llama_3_2_3b_retain90_examples.jsonl",
+      "runtime_seconds": 155.39
+    }
+  },
+  "training_started": false,
+  "error": "RuntimeError: 8B placement used CPU/disk offload ['cpu']; refusing a slow, unbounded evaluation"
+}

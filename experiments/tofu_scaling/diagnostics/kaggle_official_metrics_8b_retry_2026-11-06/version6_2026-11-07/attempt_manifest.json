@@ -1,0 +1,162 @@
+{
+  "artifact_kind": "kaggle_kernel_attempt",
+  "kaggle_kernel": "bunnoob2005/tofu-official-metrics-8b-retry-2026-11-06",
+  "kaggle_kernel_version": 6,
+  "accepted_at_local": "2026-11-07 11:15 +07",
+  "observed_at_local": "2026-11-07T11:35:38+07:00",
+  "status": "COMPLETE_VERIFIED",
+  "config": {
+    "model_keys_to_run": [
+      "llama_3_1_8b_retain90"
+    ],
+    "reused_verified_model_keys": [
+      "llama_3_2_3b_full",
+      "llama_3_2_3b_retain90",
+      "llama_3_1_8b_full"
+    ],
+    "accelerator": "NvidiaTeslaT4 (Kaggle backend identifier for GPU T4 x2)",
+    "inference": "FP16 + SDPA",
+    "placement": "balanced",
+    "max_memory_per_gpu_gib": 13,
+    "score_batch_size": 1,
+    "generation_batch_size": 1,
+    "cpu_disk_offload": "fail closed",
+    "pre_scoring_smoke": "four generated tokens",
+    "fresh_kernel_execution": "oracle-only subprocess; no prior 8B full model loaded in this runtime"
+  },
+  "resume_dataset": {
+    "id": "bunnoob2005/tofu-3b-8bfull-resume-2026-11-07",
+    "visibility": "private",
+    "status": "ready",
+    "archive_sha256": "5882fc3ebf8299413b60503edd9eeee080724909f071f5d3ba34dae683f8ea70",
+    "upload_manifest_sha256": "de117326805e5b1b77fe6f18de94f9dac5e8ee3f369ff056ed3a1f762bbfa0d2"
+  },
+  "local_notebook_sha256": "689114744e50b60e77966608a3b32979d713d1054d6d3e87316992a73f92676d",
+  "remote_notebook_sha256": "887600066ff6d1a024f6fdbc2dae12bdd30a95227ccd8ae332a6cb4e86f116b6",
+  "local_cell_sources_sha256": "ae45623bec9c8c3f1d7d334b213db112aa99cc6b457f6ead4b03a547f0d78c9f",
+  "remote_cell_sources_sha256": "ae45623bec9c8c3f1d7d334b213db112aa99cc6b457f6ead4b03a547f0d78c9f",
+  "remote_cell_sources_match_local": true,
+  "machine_shape_from_remote_metadata": "NvidiaTeslaT4",
+  "training_started": false,
+  "research_adapter_created": false,
+  "scores_verified": true,
+  "output_archive": {
+    "path": "raw_kaggle_output/tofu_official_eval_results.zip",
+    "sha256": "b4df8407e556050c905f6a648602783c6dbcc96093ed4df7a2a9e8bbb5fee6a5",
+    "bytes": 2193198,
+    "zip_crc": "PASS"
+  },
+  "post_run_success_criteria": [
+    "8B oracle result file written",
+    "all four pinned checkpoints present",
+    "independent verifier PASS",
+    "raw output archive CRC PASS"
+  ],
+  "completed_at_utc": "2026-11-07T04:27:54.116115+00:00",
+  "kaggle_terminal_status": "KernelWorkerStatus.COMPLETE",
+  "independent_verification": {
+    "kaggle_verifier": "PASS",
+    "local_independent_verifier": "PASS",
+    "models_passed": [
+      "llama_3_2_3b_full",
+      "llama_3_2_3b_retain90",
+      "llama_3_1_8b_full",
+      "llama_3_1_8b_retain90"
+    ],
+    "missing_models": [],
+    "problems": [],
+    "report": "reconciled_complete_3b_8b_verified/tofu_official_eval/official_eval_verification.json",
+    "report_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0",
+    "verifier_source_sha256": "d8645f8d99d14b6342f12e0fa677a5b47c6818fe2c1f431d1d4f583c17110979",
+    "pinned_data_audit_sha256": "b6299d7fe7fdcf47dea413e63ec004c426db8e239f539bbbdddf1e50f2b7a508",
+    "stdout_sha256": "0671da6131f763d22abdb3675c31dec686c51a3220a17f12ad220bf6eb9864a0"
+  },
+  "paired_cluster_analysis": {
+    "status": "PASS",
+    "method": "Matched profile-block bootstrap; 20 groups, 5,000 draws, seed 42; full minus same-row retain90 oracle",
+    "script_path": "reconciled_complete_3b_8b_verified/analyze_paired_oracle_cluster_differences.py",
+    "script_sha256": "891bc3da33c4d10a8c1c3f5659211f06c337d82912bb9c121b6f488163f06730",
+    "result_path": "reconciled_complete_3b_8b_verified/tofu_official_eval/paired_oracle_cluster_differences.json",
+    "result_sha256": "74c525a5a777dbc964788bcb850c1543a1c42088654f3929dd3a79dbd1560b30",
+    "result": {
+      "llama_3_2_3b": {
+        "full_result_sha256": "9857e3621276a68ff3d40969cd2c989d7b27579b6fe75128276b64a214da56ff",
+        "oracle_result_sha256": "cf7a07ef10d226b3a313ab5e5cd93f278ec65c1bca7746f58513899dc03d5e68",
+        "metrics": {
+          "answer_probability": {
+            "full_minus_oracle_mean": 0.8197329744667243,
+            "profile_cluster_bootstrap_95pct_ci": [
+              0.7955778706406436,
+              0.8407711739163307
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          },
+          "truth_ratio": {
+            "full_minus_oracle_mean": -0.3556997788369082,
+            "profile_cluster_bootstrap_95pct_ci": [
+              -0.41188821289633076,
+              -0.3007354085698807
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          },
+          "truth_ratio_score": {
+            "full_minus_oracle_mean": -0.17089834885004904,
+            "profile_cluster_bootstrap_95pct_ci": [
+              -0.19389268849990277,
+              -0.15114896257910154
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          }
+        }
+      },
+      "llama_3_1_8b": {
+        "full_result_sha256": "e8c5e722fd1de2dc23711c5f55576e5aeb3e878e5fd9f1505d3a6aae984b9286",
+        "oracle_result_sha256": "7308eed28bdd7fbd6b05deaed707c0e8b86540ed6d1ab28374a1ff675aed61b9",
+        "metrics": {
+          "answer_probability": {
+            "full_minus_oracle_mean": 0.8867454055447463,
+            "profile_cluster_bootstrap_95pct_ci": [
+              0.8652876777347384,
+              0.9058010869751174
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          },
+          "truth_ratio": {
+            "full_minus_oracle_mean": -0.397116794657581,
+            "profile_cluster_bootstrap_95pct_ci": [
+              -0.4677728365776888,
+              -0.3302151267456669
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          },
+          "truth_ratio_score": {
+            "full_minus_oracle_mean": -0.1673077386603136,
+            "profile_cluster_bootstrap_95pct_ci": [
+              -0.1896115555780573,
+              -0.14177146356327758
+            ],
+            "n_questions": 400,
+            "n_matched_profile_blocks": 20,
+            "bootstrap_draws": 5000,
+            "bootstrap_seed": 42
+          }
+        }
+      }
+    }
+  }
+}

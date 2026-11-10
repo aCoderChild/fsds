@@ -1,0 +1,55 @@
+{
+  "observed_at_utc": "2026-11-05T00:23:05Z",
+  "offline_fixture_suite": {
+    "command": "python -B experiments/synthworlds_r1/scripts/test_r1_pilot_pipeline.py",
+    "passed": 35,
+    "failed": 0,
+    "result": "OK"
+  },
+  "source_verified_release_assembly": {
+    "command": "python -B experiments/synthworlds_r1/training_release_draft/scripts/assemble_sft_source_verified.py",
+    "exit_code": 1,
+    "status": "BLOCKED",
+    "observed_eligible_atomic_cases": {
+      "forget": 5,
+      "retain": 3
+    },
+    "required_atomic_cases": {
+      "forget": 117,
+      "retain": 39
+    },
+    "corpus_written": false,
+    "manifest_written": false
+  },
+  "local_sft_preflight": {
+    "status": "BLOCKED",
+    "training_started": false,
+    "approved_corpus_or_manifest_present": false,
+    "missing_local_packages": ["peft", "accelerate", "bitsandbytes"],
+    "local_hf_token_present": false,
+    "interpretation": "Workstation preflight only; this does not report Kaggle's package state."
+  },
+  "kaggle_8b_runtime_smoke": {
+    "kernel_id": "bunnoob2005/synthworlds-llama31-8b-runtime-smoke-2026-11-04",
+    "status": "ERROR",
+    "weights_downloaded": false,
+    "training_started": false
+  },
+  "huggingface_account_ui": {
+    "account": "bunnoob2005",
+    "exact_repository": "meta-llama/Llama-3.1-8B-Instruct",
+    "repo_page_still_displays_access_gate": true,
+    "accepted_gating_entry_seen": "Meta's Llama 3.2 language models & evals",
+    "exact_3_1_8b_entry_seen": false
+  },
+  "local_resource_check": {
+    "free_disk_gib_approx": 78,
+    "ollama_running_models": 0,
+    "ollama_installed_models": 0,
+    "r1_model_snapshots_in_huggingface_cache": 0,
+    "unrelated_models_preserved": true
+  },
+  "research_runs_started": false,
+  "research_results_created": false,
+  "conclusion": "Implementation fixtures pass, but there is no released multilingual SFT corpus, no active Llama 3.1 8B access in the inspected account, and no 8B smoke or R1-scale result. The previously archived one-seed 1B diagnostic remains the only hypothesis result and is non-confirmatory."
+}
